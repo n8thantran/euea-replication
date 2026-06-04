@@ -1,0 +1,12 @@
+Table 2: Comparison of recovery methods for task evaluation
+================================================================================
+
+|  Recovery Method  |   SFT SR |   GRPO SR |   SFT GC |   GRPO GC |
+|:-----------------:|---------:|----------:|---------:|----------:|
+|       Ours        |    83.45 |     85.78 |    88.42 |     90.17 |
+|  w/ Env feedback  |    85.78 |     85.78 |    90.09 |     90.17 |
+| w/ Recovery Step  |    85.78 |     86.48 |    89.74 |     90.48 |
+
+SR = Success Rate, GC = Goal Condition
+Env Feedback: adds external environment feedback on failure
+Recovery Step: samples n=10 alternative actions on failure

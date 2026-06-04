@@ -1,0 +1,4 @@
+Recovery Method,SFT SR,GRPO SR,SFT GC,GRPO GC
+Ours,83.45,85.78,88.42,90.17
+w/ Env feedback,85.78,85.78,90.09,90.17
+w/ Recovery Step,85.78,86.48,89.74,90.48

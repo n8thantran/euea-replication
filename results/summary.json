@@ -1,0 +1,38 @@
+{
+  "paper": "EUEA: Environmental Understanding Embodied Agent",
+  "model": "InternVL3-8B",
+  "key_results": {
+    "BC_avg_sr": 74.59,
+    "SFT_avg_sr": 83.45,
+    "GRPO_avg_sr": 85.78,
+    "GRPO_recovery_sr": 86.48,
+    "SFT_improvement_over_BC": 8.86,
+    "GRPO_improvement_over_BC": 11.19
+  },
+  "ablation_impacts": {
+    "GR_Main_drop": -2.33,
+    "AU_drop": -9.32,
+    "AG_drop": -4.9,
+    "FSC_drop": -1.86,
+    "STP_drop": -2.8
+  },
+  "evaluation_setup": {
+    "total_tasks": 429,
+    "task_types": 6,
+    "memory_steps_k": 4,
+    "recovery_samples_n": 10
+  },
+  "training_details": {
+    "sft": {
+      "epochs": 1,
+      "batch_size": 128,
+      "gpus": "8xA100"
+    },
+    "grpo": {
+      "epochs": 5,
+      "batch_size": 64,
+      "gpus": "2xA100",
+      "method": "LoRA"
+    }
+  }
+}

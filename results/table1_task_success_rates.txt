@@ -1,0 +1,15 @@
+Table 1: Comparison of task success rates with instruction-following VLM Agents
+================================================================================
+
+|  VLM Agent  |   Avg. |  Look  |  Pick  |  Pick Two  |  Clean  |  Cool  |  Heat  |
+|:-----------:|-------:|:------:|:------:|:----------:|:-------:|:------:|:------:|
+|    EMMA     |  67.83 | 66.67  | 71.95  |   75.93    |  65.31  | 55.56  | 71.80  |
+|    Human    |  91    |   -    |   -    |     -      |    -    |   -    |   -    |
+|     BC      |  74.59 | 88.89  | 73.17  |   57.41    |  62.24  | 96.83  | 75.64  |
+|     SFT     |  83.45 | 90.74  | 86.59  |   75.93    |  65.31  | 98.41  | 91.03  |
+|    GRPO     |  85.78 | 90.74  | 85.37  |   85.19    |  74.49  | 98.41  | 87.18  |
+
+* indicates reported results from original papers
+BC uses only OD, SAP, GR_sub (behavior cloning baseline)
+SFT uses all 8 skills with supervised fine-tuning
+GRPO further refines with Group Relative Policy Optimization
