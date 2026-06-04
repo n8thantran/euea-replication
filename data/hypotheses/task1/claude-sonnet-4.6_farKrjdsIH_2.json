@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Fine-tuning SAM 2 on synthetic liquid phase transmission electron microscopy video data will produce a segmentation model (SAM-EM) that achieves superior real-time nanoparticle tracking accuracy compared to a U-Net baseline across varying signal-to-noise conditions, because SAM 2's video object segmentation architecture and memory-based temporal propagation are better suited to handle the low-contrast, dynamic imaging conditions characteristic of LPTEM than frame-by-frame convolutional approaches."
+}

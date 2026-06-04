@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If, for a given atomic configuration evaluated by a direct-force\u2013pretrained neural network interatomic potential, the Force Delta U\u2206 (RMS disagreement between \u2212\u2207\u0112 and the predicted non-conservative forces) increases, then the true force error relative to DFT increases and is better predicted than by within-family ensemble variance because internal disagreement between conservative and non-conservative force heads quantifies epistemic uncertainty even on adversarially perturbed out-of-distribution structures."
+}

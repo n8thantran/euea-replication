@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Combining stereochemistry-aware graph augmentation with equivariant diffusion models trained on quantum mechanically optimized conformers will enable accurate generation of low-energy molecular conformations with correct stereochemical configurations for drug-like molecules."
+}

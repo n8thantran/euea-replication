@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Machine learning-driven pre-optimization of solid-state nudged elastic band pathways reduces the number of computationally expensive DFT iterations required to converge minimum energy pathways compared to direct DFT-based SSNEB calculations."
+}

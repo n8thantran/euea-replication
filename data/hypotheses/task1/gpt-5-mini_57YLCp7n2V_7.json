@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Training 3D molecular generative models with corrected valency calculations and Kekulized, chemically accurate datasets yields generated structures that are significantly closer to GFN2-xTB\u2013optimized geometries (lower bond length, bond angle, and torsion deviations and lower relaxation energies) than models trained on the original dataset, while MMFF94-based evaluation systematically overestimates these geometry errors compared to GFN2-xTB."
+}

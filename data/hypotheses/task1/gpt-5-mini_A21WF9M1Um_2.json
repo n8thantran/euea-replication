@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If crystal structures are perturbed by moderate lattice strain or coordinate noise, then gradient-descent optimization of differentiable XRD-similarity losses (negative cosine similarity, MSE, negative entropy similarity), even when enforcing correct symmetry, will fail to reliably recover ground-truth structures (low Match Rate) because the XRD loss landscape is highly nonconvex with many local minima, whereas energy-based relaxation using CHGNet will more frequently recover the correct structures."
+}

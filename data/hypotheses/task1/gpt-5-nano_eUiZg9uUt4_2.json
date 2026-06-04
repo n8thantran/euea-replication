@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If test data contain unseen templates (Pistachio OOD), template-based LocalRetro will underperform the template-free MEGAN and RootAligned in top-k accuracy and top-k round-trip accuracy, demonstrating that dependence on reaction templates limits generalization to novel disconnections."
+}

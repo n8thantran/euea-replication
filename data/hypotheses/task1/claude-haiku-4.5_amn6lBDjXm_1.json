@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Generative models trained on large structural databases can produce chemically valid and thermodynamically stable novel materials that maintain structural similarity to known compounds, as measured by combined DFT-validated metrics of stability, uniqueness, and geometric fidelity."
+}

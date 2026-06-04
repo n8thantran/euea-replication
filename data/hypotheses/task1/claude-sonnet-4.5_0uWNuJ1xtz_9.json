@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "A hybrid encoder-decoder foundation model pre-trained on multiple molecular textual representations will learn a unified latent space that enables accurate cross-modal translation and improves downstream molecular property prediction compared to single-representation models."
+}

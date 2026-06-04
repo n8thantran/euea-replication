@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Large language model agents can autonomously discover unknown physical and chemical rules through iterative experimentation and sensor-based feedback, even with limited data and constrained experimental budgets."
+}

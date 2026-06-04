@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Graph neural networks that leverage pre-trained single-gas models as feature extractors can predict etching rates for gas mixtures with improved generalization to unseen mixture compositions and operating conditions compared to standard feedforward neural networks."
+}

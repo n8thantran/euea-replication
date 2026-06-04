@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If LLM agents autonomously design and perform ALP reactor experiments using the LangChain ReACT pipeline with only pressure and QCM sensor data, then they will identify the correct processing mode (ALD/ALE/CVD or passivation) and the governing reaction conditions that align with expert-labeled references, as evidenced by matching expert references and similar UMAP projections, because the experimental design provides sufficient observability and iterative interrogation to reveal the unknown rules governing the reactor dynamics."
+}

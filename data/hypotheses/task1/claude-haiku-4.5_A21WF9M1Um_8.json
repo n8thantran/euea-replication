@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Gradient descent optimization of crystal structures from powder XRD patterns fails to recover ground-truth structures because the loss landscape contains numerous local minima and saddle points that trap optimization algorithms before reaching the global minimum."
+}

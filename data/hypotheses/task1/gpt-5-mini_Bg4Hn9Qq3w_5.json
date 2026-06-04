@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If large language model agents can iteratively propose experiments and receive only localized pressure and QCM measurements in a simulated Atomic Layer Processing reactor (and sample feedback in the 'Alien Market' game), then they will infer the hidden compositional and reaction rules within a bounded experimental budget, with success probability increasing with model capability, available experimental time, and richer sensor information."
+}

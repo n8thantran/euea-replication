@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "The root-mean-square difference between conservative and non-conservative force predictions from a single dual-output neural network interatomic potential (Force Delta) serves as a reliable, data-free uncertainty estimate that correlates with true prediction error across diverse chemical systems and out-of-distribution structures, because disagreement between these two physically constrained force pathways reflects the model's internal inconsistency and thus its epistemic uncertainty."
+}

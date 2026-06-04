@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a hybrid deep learning model combining 2D CNN\u2013based surface encoding, GRU\u2013based polymer sequence encoding, and multi\u2011head attention is trained on PMF-derived binding free energies, then it will accurately predict polymer\u2013surface binding free energies for novel surface\u2013polymer pairs with lower error than baseline models, because the attention mechanism enables context-aware coupling between surface and polymer features and symmetry-based augmentation enforces invariances."
+}

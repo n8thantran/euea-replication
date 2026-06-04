@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Large language models pre-trained on domain-specific chemical corpora will predict metal-organic framework properties with lower mean absolute error than baseline methods, especially in low-resource fine-tuning scenarios with limited labeled data."
+}

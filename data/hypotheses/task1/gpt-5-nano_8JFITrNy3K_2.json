@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If the o4-mini model with one-shot prompting using the most complex in-context example is used to extract PROV-DM\u2011compliant synthesis procedures from scientific papers, then, on the test set, it will achieve higher collection rate and higher structural-level and parametric-level precision, recall, and F1 scores than GPT-4.1 mini or GPT-4.1 across zero-shot and simpler prompting configurations."
+}

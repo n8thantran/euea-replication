@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If the integrated thermodynamics\u2013cellular automata\u2013machine learning\u2013market data workflow is applied to Ca2SiO4 synthesis from commercially available reactants at 800\u20131600\u00b0C, then it will identify recipes that both yield Ca2SiO4 as the dominant product and reduce cost per mole relative to heuristic selections because probabilistic reaction-network evolution coupled with thermodynamic screening and supplier pricing accurately captures product formation likelihood and economic efficiency."
+}

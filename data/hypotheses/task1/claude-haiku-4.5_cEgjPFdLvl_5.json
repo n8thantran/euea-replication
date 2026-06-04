@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a diffusion model with an equivariant graph neural network backbone is trained with energy-based denoising and Hamiltonian Monte Carlo refinement, then it can generate amorphous materials with structural and thermodynamic properties comparable to molecular dynamics simulations while enabling inverse design of materials with specified properties."
+}

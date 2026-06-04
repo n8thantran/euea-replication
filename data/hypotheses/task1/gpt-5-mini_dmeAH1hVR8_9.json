@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a language model is continually pre-trained on MOF-specific literature and large chemical corpora and then supervised fine-tuned on MOFid-to-property datasets, it will predict MOF properties (band gap and gas adsorption) with lower mean absolute error than structure-based baselines (CGCNN, SOAP, MOFormer), particularly under limited fine-tuning data conditions, despite using only MOFid text representations rather than 3D structures."
+}

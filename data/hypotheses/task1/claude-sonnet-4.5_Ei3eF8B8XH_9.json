@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "A diffusion model incorporating explicit stereochemical graph augmentation can generate molecular conformers with quantum mechanical accuracy and lower energies than traditional force field-based methods by learning from a large-scale dataset of neural network potential-optimized structures."
+}

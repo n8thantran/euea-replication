@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a modular, gym-like benchmark environment (MADE) is used to evaluate autonomous materials discovery agents across varying combinations of structure generators, acquisition functions, and initialization strategies, then systematic differences in the number of novel stable compounds discovered will emerge between configurations, demonstrating that dynamic benchmarks can quantitatively distinguish the relative effectiveness of different agent components in autonomous materials discovery."
+}

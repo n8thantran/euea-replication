@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If SFT-trained open-weight LLMs are fine-tuned with Direct Preference Optimization using thermodynamics-based hierarchical rewards and \u03b2=0.5, then they will generate BCC/B2 alloy compositions with higher mean reward, greater compositional validity, improved coverage and novelty, and higher unique-pair generation rates than SFT-only models and baseline methods because DPO aligns generations with physics-based synthesis preferences while limiting distribution shift."
+}

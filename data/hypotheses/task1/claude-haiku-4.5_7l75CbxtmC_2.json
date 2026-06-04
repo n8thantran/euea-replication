@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Integrating thermodynamic optimization, cellular automata simulation, and machine learning-predicted feasibility metrics will identify cost-effective inorganic material synthesis routes that are both thermodynamically favorable and commercially viable compared to routes selected by thermodynamics alone."
+}

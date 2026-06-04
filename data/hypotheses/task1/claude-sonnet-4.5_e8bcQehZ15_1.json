@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Steering large language models using concept-based activation vectors derived from interpretable property embeddings enables more precise control over molecular generation compared to baseline fine-tuning or unguided generation methods, as measured by mean absolute error in achieving target molecular properties while maintaining validity and synthesizability."
+}

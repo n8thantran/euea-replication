@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "A Transformer encoder\u2013decoder model employing 150 cm\u207b\u00b9 patch-based spectrum embeddings, a jointly trained spectral reconstruction alignment loss, and multitask training across concentration ratios, when pretrained on ~790,000 simulated MD spectra and fine-tuned on 3,453 NIST spectra, can accurately and robustly identify molecular constituents from binary and ternary IR mixture spectra (including imbalanced ratios and experimental ATR\u2011IR mixtures), as evidenced by high Top\u2011k accuracy, low MAE, and high Tanimoto similarity to ground-truth components."
+}

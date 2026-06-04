@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If SMILES-based foundation models are fine-tuned with transfer learning using composition-weighted embeddings and device variables to predict battery-material properties across molecular, formulation, and device scales, then they will achieve higher predictive accuracy and better out-of-distribution generalization than Morgan fingerprints because they encode richer chemical structure, formulation context, and device-level information."
+}

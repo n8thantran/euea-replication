@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a generative materials design agent couples LLM-based planning with external knowledge tools (memories, periodic table, knowledge base) and iterative structure\u2013property feedback (DiffCSP + iComFormer), then it will generate valid, novel inorganic compositions and structures that hit specified formation-energy targets (\u00b10.25 eV/atom) at higher success rates than tool-free LLMs or diffusion-only baselines because tool-guided reasoning and feedback efficiently steer proposals toward property-aligned candidates."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If silicon-based Li\u2013Si\u2013X compounds are designed or selected to have a large, continuous Li+ migration channel whose radius remains nearly constant between charged and discharged states, then they will relax to low-energy structures and maintain gravimetric capacities above 1500 mAh/g because invariant percolating diffusion pathways minimize structural distortion during (de)lithiation."
+}

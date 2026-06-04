@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Multimodal contrastive learning between rotationally variant 3D electron density grids and rotationally invariant SMILES strings will induce emergent pose-invariance in the 3D encoder's learned representations without explicit equivariance constraints."
+}

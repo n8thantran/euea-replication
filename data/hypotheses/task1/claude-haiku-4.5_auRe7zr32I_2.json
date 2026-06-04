@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Implementing multi-modal diversity monitoring and adaptive constraints during generative molecular design will increase the chemical diversity of discovered molecules compared to unconstrained generation, because real-time tracking of representation, string, fragment, and scaffold-based metrics enables dynamic penalization of overrepresented structures."
+}

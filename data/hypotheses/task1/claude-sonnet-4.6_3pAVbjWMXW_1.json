@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a Transformer-based encoder-decoder language model is augmented with a spectral alignment mechanism that reconstructs pure component spectra from mixture spectral encodings and is pretrained on large-scale simulated IR data, then it will accurately predict the molecular structures of individual components from IR spectra of multi-component mixtures because the reconstruction constraint forces the encoder to disentangle overlapping spectral contributions into chemically meaningful representations corresponding to distinct molecular identities."
+}

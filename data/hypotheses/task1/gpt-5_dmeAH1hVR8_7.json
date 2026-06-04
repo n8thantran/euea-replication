@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a small instruction-tuned LLM is continually pre-trained on MOF-specific literature plus large-scale chemical compound corpora before supervised fine-tuning on QMOF and hMOF using MOFid text inputs, then it will achieve lower MAE on band gap and gas adsorption predictions than both structure-based baselines and the same model without such pre-training, with the largest gains under limited (1\u201310k) SFT data, because domain pre-training encodes transferable chemical knowledge from text."
+}

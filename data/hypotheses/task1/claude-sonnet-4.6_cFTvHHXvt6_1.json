@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a frozen large language model encoder is paired with a trainable Transformer decoder operating over a discrete vocabulary of material-thickness tokens, then the resulting system (CHROMA) can accurately translate natural language color descriptions into valid multilayer thin-film designs with low CIE76 \u0394E color differences, because the LLM encoder captures semantic color information that the decoder can map to physically realizable optical structures through learned token prediction."
+}

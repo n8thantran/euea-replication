@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a diffusion model conditioned on adsorbate identity, adsorption energy, and allowed elements is trained in the CIAE latent space with OC20 pretraining and HEA fine-tuning, then it will generate shell-wise catalytic surface compositions that closely match the real distribution (low Fr\u00e9chet distance), satisfy chemical constraints (low leakage), and exhibit high point-wise quality (high cosine similarity) relative to a chemically-agnostic baseline, with data-efficient performance across varying training-data fractions."
+}

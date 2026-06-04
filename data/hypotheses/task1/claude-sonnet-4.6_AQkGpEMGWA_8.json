@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a multi-stage AI-guided pipeline combining database mining, machine learning interatomic potential relaxation, and conditional generative modeling is applied to Li\u2013Si\u2013X chemical space, then it will identify and design novel silicon-based anode materials with theoretical capacities exceeding 1500 mAh/g and structurally stable lithium-ion migration channels, because the geometric stability of Li\u207a transport channels between charged and discharged states is a predictive criterion for electrochemical cycling performance that can be encoded as a generative design constraint."
+}

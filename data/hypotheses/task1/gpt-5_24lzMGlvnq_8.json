@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If language models initially SFT on BCC/B2 alloy triples are further tuned with DPO using Thermo-Calc\u2013derived preference feedback under a hierarchical reward, then they will generate a higher fraction of valid, novel BCC/B2 compositions that meet coexistence, BCC-first solidification, room-temperature B2, and <10% impurity criteria with reduced lattice mismatch than SFT-only and prompt-based baselines because physics-based feedback aligns the model\u2019s distribution with thermodynamically feasible designs."
+}

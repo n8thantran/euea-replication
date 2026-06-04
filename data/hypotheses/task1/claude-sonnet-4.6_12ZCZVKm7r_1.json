@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If scientific foundation models are trained on sufficiently large and diverse datasets of physical matter, then their internal representations will converge toward a universal, domain-general geometric structure of matter that is shared across different architectures, modalities, and chemical domains (molecules, materials, and proteins), because the underlying physical laws governing atomic interactions impose a common inductive bias that forces models to discover the same latent organization of chemical space regardless of training objective or input representation."
+}

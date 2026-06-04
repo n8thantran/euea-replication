@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a reinforcement-learning generator maximizes pharmacophoric similarity to known estrogen receptor antagonists/degraders while minimizing structural similarity, then it will produce novel, drug-like molecules that retain comparable or improved docking scores and synthetic accessibility relative to a QED+docking baseline because preserving pharmacophoric features maintains binding potential while promoting scaffold novelty."
+}

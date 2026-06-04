@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If DFT-refined Lennard-Jones parameters and fragment-based polymer generation are combined with Bayesian optimization that leverages polymer-specific pretrained molecular representations and advanced surrogate models (deep-kernel Gaussian processes or Bayesian neural networks), then the workflow will identify polyamine structures with significantly higher low-pressure (0.4 mbar) CO2 adsorption capacities using far fewer simulations than approaches using standard mixing-rule force fields or general molecular representations."
+}

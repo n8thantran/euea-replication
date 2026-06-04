@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If task-tool alignment is high\u2014i.e., tools' capabilities closely match task requirements\u2014then scientific LLM agents will achieve substantially higher success rates and scores (e.g., pass@5) across environments regardless of LLM (Claude-3.5 Sonnet vs GPT-4o) or agent scaffold (ReAct vs tool-calling), and this improvement will exceed performance gains from changing framework choice or increasing tool description verbosity."
+}

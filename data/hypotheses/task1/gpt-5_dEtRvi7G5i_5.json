@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a candidate metal lattice shows strong interstitial electron localization and satisfies the descriptors of high 3D electronic connectivity, high hydrogen content, and large hydrogen DOS at the Fermi level, then its high-pressure hydride will be thermodynamically stable (low Ehull) and superconducting with high Tc because these features drive clathrate formation and strong electron\u2013phonon coupling."
+}

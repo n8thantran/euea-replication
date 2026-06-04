@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a metal lattice exhibits strong interstitial electron localization and 3D electronic connectivity such that hydrogen substantially contributes to the Fermi-level density of states, then under high pressure it will form a thermodynamically stable superhydride with high Tc because these quasi-atom descriptors govern stability and electron\u2013phonon coupling."
+}

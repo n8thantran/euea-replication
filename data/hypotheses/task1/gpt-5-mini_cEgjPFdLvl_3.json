@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If AMDEN uses an EGNN-based diffusion model with VE/VP SDEs (and optional energy-based noise prediction with HMC refinement), then it can generate amorphous materials across different thermal histories and multi-element compositions whose RDFs, bond-angle distributions, structure factors, and potential energy distributions closely match MD-simulated references, with the energy-based HMC refinement producing closer agreement than standard denoising and classifier-free guidance enabling control of Young's modulus."
+}

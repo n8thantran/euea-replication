@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Large language models pre-trained on chemical literature and structural data will predict MOF properties with lower prediction error than traditional graph neural network baselines when fine-tuned on limited labeled datasets."
+}

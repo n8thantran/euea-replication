@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If LLM agents are given closed-loop control to design and analyze iterative experiments with limited sensor feedback, then they will correctly infer the hidden governing rules of both abstract (Alien Market) and physical (ALP reactor) systems, with performance improving as model capability and experimental budget/time increase."
+}

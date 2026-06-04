@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Diffusion-based generative models trained on Materials Project and OQMD data can produce chemically valid, thermodynamically stable material structures whose DFT-calculated properties and geometry after relaxation closely match the distributions observed in real materials."
+}

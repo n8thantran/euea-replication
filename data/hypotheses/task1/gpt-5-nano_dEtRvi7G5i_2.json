@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If metal lattice configurations exhibiting strong electron localization at interstitial sites (quasi-atoms) and optimized hydrogen-to-metal ratios are predicted by a machine-learning workflow to be thermodynamically stable, then high-throughput DFT validation will confirm stable metal superhydrides and a subset will exhibit superconductivity under high pressure as indicated by electron-phonon coupling metrics and Tc calculations."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Diffusion models trained only on metastable state data can generate accurate transition state structures when guided by interpolated conditional scores and refined by ascending along the reaction coordinate defined by the difference between these scores."
+}

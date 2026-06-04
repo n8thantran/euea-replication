@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a Transformer encoder-decoder is pretrained on simulated IR spectra and fine-tuned on NIST data with patch-based embeddings and a reconstruction-based spectral alignment auxiliary loss across multiple concentration ratios, then it will identify the constituent molecules of binary and ternary IR mixture spectra (including experimental ATR-IR) with significantly higher Top-1/5 accuracy than the same architecture trained without the alignment or multitask objectives because the alignment loss forces the encoder to preserve pure-component spectral features within mixtures."
+}

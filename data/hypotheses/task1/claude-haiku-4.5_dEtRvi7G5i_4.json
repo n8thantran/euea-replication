@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Metal lattices with strong electron localization at interstitial sites, identified through machine learning prediction of thermodynamic stability based on chemical template theory, will exhibit superconducting properties at high pressures."
+}

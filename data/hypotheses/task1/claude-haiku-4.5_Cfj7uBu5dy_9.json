@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If autonomous materials discovery agents employ diversity-based acquisition functions combined with advanced structure generators like MatterGen, then they will discover a greater number of novel stable compounds compared to random acquisition strategies within equivalent computational budgets."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a 3D molecular encoder is trained via multimodal contrastive alignment between electron density grids and SMILES strings, then the resulting 3D representations will exhibit emergent pose-invariance\u2014enabling accurate retrieval of molecules across arbitrary rotations without explicit equivariance constraints\u2014because the chemically invariant semantic information encoded in SMILES acts as an anchor that forces the 3D encoder to learn rotation-invariant latent features during joint training."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Steering large language models using concept-based activation vectors derived from a frozen model's intermediate representations enables more precise control over molecular properties during generation compared to standard fine-tuning approaches, while maintaining molecular validity and diversity."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Dynamic batching algorithms reduce total training time compared to static batching algorithms for graph neural networks by minimizing padding overhead while maintaining computational efficiency across diverse graph sizes."
+}

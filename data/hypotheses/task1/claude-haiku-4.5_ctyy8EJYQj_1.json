@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Large Language Models augmented with physics-based simulation and few-shot prompting can solve inorganic material synthesis planning problems with comparable or superior success rates to classical search algorithms while requiring fewer computational state evaluations."
+}

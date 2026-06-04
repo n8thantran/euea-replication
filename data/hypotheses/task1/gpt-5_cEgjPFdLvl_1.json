@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If an EGNN-based diffusion model using VE/VP SDEs, energy-guided denoising with HMC refinement, and ghost-atom density control is trained on MD-generated amorphous materials, then it will generate amorphous structures whose RDFs, bond-angle distributions, structure factors, and energy distributions match MD ensembles and can be conditioned to achieve target Young\u2019s moduli because the learned score and energy gradients guide sampling toward physically consistent configurations."
+}

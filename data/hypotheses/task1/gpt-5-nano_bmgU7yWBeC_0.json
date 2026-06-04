@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If Force Delta (U\u2206) is computed for a neural network interatomic potential, then higher U\u2206 signals larger true non-conservative force error \u03b5direct across both equilibrium and adversarially perturbed structures, and it provides a faster, data-free uncertainty estimate that outperforms ensemble-variance baselines."
+}

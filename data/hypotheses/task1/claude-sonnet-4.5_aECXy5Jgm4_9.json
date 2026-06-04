@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Bayesian optimization using polymer-specific molecular representations (PolyNC or polyBERT) and Gaussian Process surrogate models will identify high-capacity CO2-adsorbing polyamines more efficiently than random screening because these representations better capture structure-property relationships relevant to polymer adsorption behavior."
+}

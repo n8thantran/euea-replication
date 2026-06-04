@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If perturbed and generated crystal structures are evaluated with DFT-grounded relaxation RMSD and convex-hull SUN metrics, then scores will degrade monotonically with increasing distortion and yield model rankings that correlate more strongly with thermodynamic stability (energy above hull \u22640.1 eV/atom) than latent/property-only metrics, because these measures directly reflect geometry optimization outcomes and phase-diagram energetics."
+}

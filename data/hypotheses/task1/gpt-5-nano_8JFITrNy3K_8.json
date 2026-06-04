@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If the o4-mini model with one-shot prompting using the most complex in-context example yields higher structural and parametric extraction performance (precision, recall, F1) and collection rate for PROV-DM synthesis-procedure graphs from 1,616 papers than GPT-4.1 mini, GPT-4.1, and zero-shot prompting, then this configuration is more effective at automatically extracting synthesis procedures from scientific literature."
+}

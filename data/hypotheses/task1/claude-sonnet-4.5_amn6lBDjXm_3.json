@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Generative models that produce materials structures with lower root-mean-square displacement after DFT relaxation and higher proportions of structures on or near the convex hull will demonstrate superior capability for discovering chemically realistic and thermodynamically stable materials compared to models evaluated solely on distribution-matching metrics."
+}

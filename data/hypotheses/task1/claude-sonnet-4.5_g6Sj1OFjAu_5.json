@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Incorporating chemical domain knowledge through periodic table-based pretraining and structured compositional representations will enable a conditional diffusion model to generate chemically valid catalytic surface compositions that satisfy specified adsorption energy targets more accurately than chemically-agnostic baseline approaches."
+}

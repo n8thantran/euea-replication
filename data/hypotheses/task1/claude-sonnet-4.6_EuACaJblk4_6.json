@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If protein structure prediction and structure-based sequence design are trained jointly end-to-end with shared structural loss signals, then the resulting model will produce designed sequences with higher self-consistency (as measured by TM-score and RMSD between reference and predicted structures) compared to sequential pipelines, because the coupled optimization forces the sequence design module to generate sequences whose predicted structures better match the target backbone geometry."
+}

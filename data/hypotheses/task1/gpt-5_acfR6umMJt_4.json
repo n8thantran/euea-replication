@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If NEB is executed on an iteratively fine-tuned, pre-trained EquiformerV2 surrogate within an NN-BAX loop, then for LJ7 and LJ38 transitions of varying difficulty it will achieve ground-truth-convergent MEPs and barrier heights with comparable accuracy to classical NEB while requiring fewer expensive simulator evaluations, because the surrogate can accurately approximate energies and forces along the path and targeted acquisition concentrates training on informative path points."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If large language models (particularly more capable models like o4-mini) are prompted with domain-specific in-context examples of increasing complexity, then they will achieve higher precision, recall, and F1-scores in extracting PROV-DM-compliant provenance graphs from materials synthesis literature compared to zero-shot prompting or less capable models, because structured examples guide the model to correctly identify and format synthesis entities, activities, and their relationships according to the provenance schema."
+}

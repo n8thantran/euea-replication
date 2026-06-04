@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If polymer sequences and surface patterns are encoded using a 2D CNN for surfaces, a single-layer GRU for sequences, and a multi-head attention mechanism linking polymer queries to surface keys/values, then the hybrid model will predict MD-derived polymer\u2013surface binding free energies with significantly lower mean absolute error than baseline DNNs and alternative polymer encoders because this architecture captures spatial surface motifs, sequential polymer features, and their cross-interactions."
+}

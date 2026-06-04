@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If non-negativity and sum-to-one physics constraints are incorporated into the diffusion model\u2019s loss during training, then it will generate composite compositions conditioned on target properties with higher physical/fabrication validity and improved density/coverage than CVAE and TabDDPM baselines because the constraints restrict sampling to the physically admissible composition manifold."
+}

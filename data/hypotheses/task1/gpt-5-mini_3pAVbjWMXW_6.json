@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "A Transformer encoder\u2013decoder employing 150 cm\u207b\u00b9 patch-based spectrum embedding and a jointly trained spectral-alignment reconstruction network (optimized with combined L_S2S + \u03bbL_reconstruction loss), pretrained on ~790,000 simulated spectra and fine-tuned on NIST spectra, will more accurately identify molecular components from IR mixture spectra (including imbalanced and ternary mixtures)\u2014as measured by higher Top-1/5/10 accuracy and Tanimoto similarity\u2014than model variants lacking patch-based embedding or the reconstruction alignment."
+}

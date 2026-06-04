@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If an autonomous materials discovery agent couples a pretrained structure generator (MatterGen) with a diversity-based acquisition function, then under a 20-query budget it will discover more novel stable compounds in both Na\u2013O and Co\u2013Nb\u2013Sn systems than an agent using random generation and random acquisition because guided generation biases proposals toward low-energy structures while diversity sampling reduces redundant exploration in composition space."
+}

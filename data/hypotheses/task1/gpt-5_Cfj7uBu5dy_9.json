@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If an autonomous materials discovery agent uses a pretrained structure generator (MatterGen) coupled with a diversity-based acquisition function, then within a 20-query budget it will discover more novel \u03b5-stable (\u22640.01 eV/atom) compounds than agents using random generation and/or random acquisition across Na\u2013O and Co\u2013Nb\u2013Sn systems, because guided generation and diversity maximization more efficiently explore composition and structure space under the ORB-v3 oracle."
+}

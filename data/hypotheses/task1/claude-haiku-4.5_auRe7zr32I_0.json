@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Implementing real-time monitoring of chemical diversity through multiple complementary metrics (representation, string, fragment, and scaffold-based) enables the detection and prevention of mode collapse in generative molecular design models, thereby improving the structural diversity of optimized molecules compared to unconstrained generation."
+}

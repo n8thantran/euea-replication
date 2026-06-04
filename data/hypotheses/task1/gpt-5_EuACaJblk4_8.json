@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If protein structure prediction and structure-based sequence design are learned jointly in an end-to-end discrete stochastic autoencoder optimized with structural losses (FAPE, torsion, distogram), then the model will achieve higher sequence recovery, structure accuracy, and sequence\u2013structure self-consistency than separately trained or pipelined baselines because the shared representation couples and reinforces sequence and structural constraints during training."
+}

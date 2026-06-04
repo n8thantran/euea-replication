@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If language models for materials design are fine-tuned using physics-based preference optimization (DPO) with rewards derived from thermodynamic simulations, then they will generate BCC/B2 superalloy compositions with higher thermodynamic feasibility, greater novelty, and broader compositional coverage compared to supervised fine-tuning alone and prompt-based baselines, because aligning model outputs to domain-specific physical constraints steers the generative distribution toward chemically valid and thermodynamically stable regions of alloy composition space."
+}

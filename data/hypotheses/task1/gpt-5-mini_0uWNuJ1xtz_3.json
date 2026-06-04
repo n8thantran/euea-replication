@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If pretrained on diverse molecular textual representations using its hybrid Transformer\u2013Mamba-2 encoder-decoder architecture, STR-Bamba will produce aligned multimodal latent embeddings that (compared to single-representation models) cluster molecules by modality and chemistry, improve downstream property prediction across small molecules, polymers, and electrolytes, and enable more accurate translation between molecular representations."
+}

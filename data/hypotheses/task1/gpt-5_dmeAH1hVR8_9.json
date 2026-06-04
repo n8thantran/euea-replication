@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a 2B-parameter language model is continually pre-trained on MOF-focused literature and large chemical structure corpora before supervised fine-tuning on MOF property datasets using only MOFid text, then it will yield lower MAE than structure-based baselines and than the same model without such pre-training\u2014especially with limited SFT data\u2014because domain-specific pre-training imparts transferable chemical knowledge that enables accurate property prediction without 3D structures."
+}

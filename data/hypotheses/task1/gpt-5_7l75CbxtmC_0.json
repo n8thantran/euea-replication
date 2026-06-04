@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If the integrated workflow combining thermodynamic databases, cellular automata reaction simulations, machine-learning feasibility descriptors, and commercial pricing is applied to design Ca2SiO4 synthesis from commercially available reactants at 800\u20131600\u00b0C, then the top-ranked recipes will experimentally yield high-purity Ca2SiO4 at lower total reactant cost than conventional heuristic routes because coupling reaction likelihood with market constraints prioritizes thermodynamically optimal and economically efficient pathways."
+}

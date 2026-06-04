@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If Direct Preference Optimization (DPO) using a physics-based hierarchical reward derived from synthesis objectives improves the generation of BCC/B2 alloy candidates by achieving higher rates of phase coexistence (BCC and B2), ensuring BCC forms first and B2 exists at room temperature while maintaining <10% non-BCC/B2 phases, compared to baselines, then physics-informed preference learning with Thermo-Calc feedback enhances materials design with language models."
+}

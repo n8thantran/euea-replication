@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If task-tool alignment is increased through embedding-based task-to-tool matching and the use of a hypothesis generator to guide tool selection, then agent performance (pass@5, average score, and success rate) will improve more than any performance gains achieved by changing the agent framework from ReAct to tool-calling."
+}

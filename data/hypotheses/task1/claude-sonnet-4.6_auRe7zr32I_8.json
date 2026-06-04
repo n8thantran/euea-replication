@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If adaptive diversity constraints are applied during reinforcement learning-based generative molecular design, then the chemical diversity of generated molecules will be maintained at higher levels throughout the optimization process compared to unconstrained baselines, because dynamically penalizing overrepresented structural patterns prevents the generative model from collapsing into narrow regions of chemical space while still optimizing for target properties such as singlet fission energy criteria."
+}

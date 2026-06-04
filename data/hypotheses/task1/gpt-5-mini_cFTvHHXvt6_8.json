@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If the frozen Llama encoder size and the trainable Transformer decoder depth are increased, then CHROMA will produce multilayer thin-film designs with lower mean CIE76 \u0394E to target colors on both paraphase (linguistic generalization) and novel-target validation splits (including across viewing angles and layer counts), because larger encoders and deeper decoders better capture natural-language prompts and optical design constraints."
+}

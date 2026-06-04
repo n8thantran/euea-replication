@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If ML surrogates (eqV2/eSEN) are used to generate an approximate minimum energy pathway and restart SSNEB from ML-converged images for CsPbI3 and TiO2, then the SSNEB workflow will converge the minimum energy pathway and transition states with fewer iterations and less computational time than VASP-only SSNEB, while preserving DFT-level accuracy of the MEP and TS."
+}

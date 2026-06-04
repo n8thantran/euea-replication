@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If molecular generation is steered by adding concept-based activation vectors\u2014derived from a frozen Concept Bottleneck Model trained to encode interpretable, orthogonal property-specific embeddings into a frozen LLM's hidden states\u2014then the resulting conditional molecular generation will achieve lower property prediction error and higher generative efficiency compared to baseline steering and fine-tuning methods, because disentangled, property-aligned steering vectors provide more precise and generalizable control over the LLM's generative process without altering its pretrained chemical knowledge."
+}

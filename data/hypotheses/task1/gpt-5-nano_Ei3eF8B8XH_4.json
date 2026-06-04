@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If LoQI, a stereochemistry-aware diffusion model with augmented E/Z and R/S representations, is trained to predict atomic coordinates from noised inputs, then it will generate conformers that preserve stereochemistry (R/S and E/Z), maintain topology, and exhibit energies close to near-DFT minima across diverse molecules, including macrocycles."
+}

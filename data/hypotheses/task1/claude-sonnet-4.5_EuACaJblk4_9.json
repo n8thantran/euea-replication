@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "End-to-end joint training of protein structure prediction and structure-based sequence design in a single autoencoder framework will improve both sequence recovery and structure prediction accuracy compared to training these tasks separately."
+}

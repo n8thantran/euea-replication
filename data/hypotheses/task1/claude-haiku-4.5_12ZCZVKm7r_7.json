@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Scientific foundation models trained on different modalities and architectures converge toward universal, shared representations of matter structure that are independent of the specific model family, training objective, or input encoding scheme."
+}

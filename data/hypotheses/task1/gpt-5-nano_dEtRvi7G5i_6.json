@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If metal lattices exhibit strong electron localization at interstitial sites (quasi-atoms) and are paired with appropriate hydrogen content, then the resulting metal superhydrides will be thermodynamically stable and exhibit significant electron-phonon coupling indicative of potential superconductivity, as predicted by the machine-learning framework and confirmed by high-throughput DFT."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a discrete stochastic autoencoder (E2EFOLD) is trained end-to-end to jointly predict sequences and reconstruct structures using combined sequence recovery and structural losses, then it will generate designed sequences whose predicted folded structures closely reproduce input backbones (high TM-score, low RMSD) and achieve accurate structure prediction comparable to or better than baseline methods (e.g., Boltz-2), whereas removing structural loss terms will degrade this structural accuracy because joint training enforces sequence\u2013structure consistency."
+}

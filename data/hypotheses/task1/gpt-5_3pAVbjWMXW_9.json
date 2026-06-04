@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a Transformer encoder-decoder is pretrained on large-scale simulated IR spectra and fine-tuned on experimental spectra while jointly optimizing a spectral reconstruction alignment loss with patch-based embeddings across multiple concentration ratios, then it will accurately identify the constituent molecular structures from IR spectra of binary and ternary mixtures (including imbalanced ratios) because the alignment and pretraining drive representations of pure-component features that transfer from linearly mixed synthetic spectra to real mixtures."
+}

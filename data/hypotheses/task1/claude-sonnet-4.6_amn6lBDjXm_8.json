@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If simulation-grounded metrics (RMSD and SUN) are integrated with property-based and latent-space metrics into a unified evaluation framework, then this chemically grounded framework will reveal systematic discrepancies between ML-based metrics and true physicochemical validity of generated crystal structures, because ML metrics alone lack the mechanistic sensitivity to capture structural stability as determined by DFT energy landscapes and convex hull analysis."
+}

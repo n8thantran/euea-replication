@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If SAM 2 is fine-tuned on physics-informed synthetic LPTEM videos spanning liquid thickness (SNR) variations and used with box prompts, then it will segment and track nanoparticles in diverse LPTEM videos in real time with higher Jaccard/F1 (J&F) scores than a U-Net baseline and centroid positions matching manual annotations, because large-scale pretraining combined with domain-matched synthetic variability enables robust generalization to noise, resolution, and interaction changes."
+}

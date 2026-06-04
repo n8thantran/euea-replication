@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Bayesian optimization employing polymer-specific pretrained molecular representations together with advanced surrogate models and DFT-refined force-field parameters in a two-stage MD+GCMC simulation workflow will identify polyamine structures with significantly higher CO2 adsorption capacities using far fewer simulations than BO using general molecular representations or standard mixing-rule force fields."
+}

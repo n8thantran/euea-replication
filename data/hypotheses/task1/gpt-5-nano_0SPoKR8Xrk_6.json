@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a hybrid neural network combining 2D-CNN surface encoding, GRU polymer encoding, and multi-head attention can predict polymer\u2013surface binding free energies from surface and polymer sequences with high accuracy on held-out data, then the architecture effectively captures the determinants of polymer\u2013surface adhesion."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a reinforcement-learning generator optimizes a reward that maximizes pharmacophoric similarity (via CATS descriptors) to known estrogen receptor antagonists/degraders while minimizing structural similarity, then it will produce novel, synthetically accessible, drug-like molecules with higher predicted binding affinity (docking scores) and comparable or better QED than a QED+docking baseline."
+}

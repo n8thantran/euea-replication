@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If scientific LLM tasks are made more aligned to the provided tools (via higher task\u2013tool embedding similarity, more comprehensive tool descriptions, and task decomposition/hypothesis generation), then agent performance (pass@5 and success rate) will improve more than from switching the agent framework (ReAct vs tool-calling) or base LLM (Claude-3.5 vs GPT-4o), because alignment enhances correct tool selection and action sequencing."
+}

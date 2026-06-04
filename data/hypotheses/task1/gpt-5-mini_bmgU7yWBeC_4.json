@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "For direct-force pre-trained NNIPs, the Force Delta U\u0394\u2014the RMS difference between conservative forces (\u2212\u2207\u00ca) and direct force outputs\u2014positively correlates with the true DFT force error (\u03b5direct) and more reliably detects out-of-distribution/adversarial structures than ad-hoc intra-family ensemble variance."
+}

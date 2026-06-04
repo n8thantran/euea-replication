@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a Li\u2013Si\u2013X compound maintains a large continuous Li+ migration channel whose radius remains nearly constant between charged and discharged states, then it will be an energetically stable anode delivering >1500 mAh g\u22121 capacity because persistent diffusion pathways accommodate high lithiation without destabilizing the framework."
+}

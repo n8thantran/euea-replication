@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If combining pre-training on large chemical databases with domain-specific fine-tuning and expert-guided reinforcement learning improves generative model performance for de novo CTF materials discovery, then configurations incorporating all three knowledge transfer strategies (pre-training, fine-tuning, and reinforcement learning with domain-relevant reward functions) will outperform configurations using fewer transfer learning components across multiple metrics\u2014including validity, novelty, and percentage passing expert filters\u2014because sequential knowledge transfer progressively constrains the chemical space toward structurally and functionally relevant porous carbon frameworks."
+}

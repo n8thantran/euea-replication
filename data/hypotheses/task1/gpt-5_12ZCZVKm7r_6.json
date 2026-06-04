@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If we compute last-layer embeddings for the same sets of molecules, materials, and proteins across diverse scientific foundation models (including geometric, graph, sequence, and language architectures), then these representations will exhibit significant cross-model alignment (high CKNNA and IDCor with low bidirectional information imbalance) even on out-of-distribution data because independent training on matter drives convergence to a shared latent manifold capturing common physical\u2013chemical factors."
+}

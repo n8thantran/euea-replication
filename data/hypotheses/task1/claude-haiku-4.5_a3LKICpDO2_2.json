@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Machine learning models trained on the difference between semi-empirical GFN1-xTB predictions and DFT reference values will achieve more accurate band gap predictions for metal-organic frameworks than models trained directly on DFT values because they leverage systematic errors in the fast semi-empirical method."
+}

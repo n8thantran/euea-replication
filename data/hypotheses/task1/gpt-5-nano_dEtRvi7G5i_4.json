@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If metal lattice configurations with strong interstitial electron localization (quasi-atoms) and favorable hydrogen-related electronic descriptors are screened by the ML model, then they will be predicted as thermodynamically stable metal superhydrides under high pressure and will exhibit measurable electron-phonon coupling with a nonzero superconducting transition temperature."
+}

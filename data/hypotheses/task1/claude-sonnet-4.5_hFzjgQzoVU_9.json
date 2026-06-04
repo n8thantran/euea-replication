@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Graph neural networks trained on local atomic structures of iron-containing proteins can predict their Fe K-edge X-ray absorption spectra with quantifiable accuracy, establishing a bidirectional structure-spectrum relationship."
+}

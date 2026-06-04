@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If crystal structures are evaluated with a DFT-integrated framework using RMSD after relaxation and SUN energy-above-hull analysis, then scores will degrade monotonically with increasing controlled distortions and will rank diffusion models by their ability to produce thermodynamically stable, structurally faithful crystals because these metrics directly measure proximity to relaxed minima and convex-hull stability."
+}

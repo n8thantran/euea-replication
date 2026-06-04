@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If CHROMA is trained with a frozen Llama encoder and a trainable Transformer decoder on templated natural-language descriptions paired with simulated multilayer stacks, then it will translate natural-language prompts into multilayer thin-film designs that reproduce target structural colors with low CIE76 \u0394E across paraphrases and novel optical targets, with color-matching performance improving as encoder size and decoder depth increase and remaining robust across viewing angles and layer counts."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "LLM agents utilizing interrogation-based exploration will correctly identify the hidden rejection rule in the Alien Market game (items containing letters 'p' or 'm') and will infer the underlying reaction-transport dynamics in the ALP reactor simulation such that their reactor-state classifications align with expert-labeled references."
+}

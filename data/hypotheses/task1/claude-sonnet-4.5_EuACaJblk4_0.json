@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "End-to-end training of protein structure prediction and structure-based sequence design in a single autoencoder framework will produce designed sequences that fold back into structures more similar to the original backbone than sequences designed by models trained only for sequence design."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If LoQI, a stereochemistry-aware diffusion model with augmented E/Z and R/S encoding, is used to generate molecular conformers from noised inputs, then the resulting conformers will preserve correct stereochemistry and topology and achieve near-DFT energy accuracy relative to reference minima, including discovery of lower-energy conformers than the dataset minimum in validation cases."
+}

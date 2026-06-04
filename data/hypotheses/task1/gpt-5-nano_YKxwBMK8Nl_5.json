@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If the novel single-agent extraction pipeline (marker-pdf SDK for structured text extraction converting documents to markdown with preserved structure, GPT-4o-driven image captioning with inserted tags, and subsequent extraction by GPT-4.1, GPT-5, and GPT-OSS-20b under domain-specific prompts) is used to perform end-to-end extraction on nanozyme and chelate complex articles, then its end-to-end extraction performance (per-column precision, recall, and F1) will exceed that of baseline GPT-5, GPT-5 Thinking, and the general ChatGPT Agent, because it preserves document structure, supports multimodal content, and enforces domain-specific output schemas."
+}

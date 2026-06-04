@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If GFN1-xTB semi-empirical band gaps are used as a baseline in a \u2206-learning framework with XGBoost regression on structural descriptors, then the resulting model will predict DFT-level (PBE and HSE06) band gaps for metal-organic frameworks more accurately than direct machine learning models trained without the semi-empirical baseline, because the systematic errors between GFN1-xTB and DFT band gaps are more learnable patterns than the absolute band gap values themselves."
+}

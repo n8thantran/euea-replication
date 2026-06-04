@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "A multi-agent LLM-based framework with access to force field libraries, example inputs, and literature can autonomously extract correct and complete force field parameters from publications and generate RASPA-executable adsorption simulation input files for increasingly complex tasks (multiple adsorbates and up to 500 zeolite structures) such that the extracted parameters match the original papers and the simulations run successfully and reproducibly across repeated trials."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Incorporating energy-based score prediction with Hamiltonian Monte Carlo refinement during the denoising process will generate amorphous materials with more physically realistic local geometries and lower potential energies compared to standard diffusion model denoising."
+}

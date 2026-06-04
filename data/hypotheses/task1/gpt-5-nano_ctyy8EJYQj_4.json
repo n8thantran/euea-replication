@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a ReAct-based GPT-4o agent with access to the simulator plans Nb\u2013O synthesis sequences, then it will achieve a higher success rate and require fewer visited states than an A* search on a discretized state space across the four synthesis challenges."
+}

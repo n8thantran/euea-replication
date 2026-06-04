@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Neural network Bayesian Algorithm Execution using iteratively fine-tuned EquiformerV2 can efficiently compute minimum energy pathways for molecular transitions by replacing expensive simulator evaluations with learned model predictions, thereby reducing computational cost while maintaining convergence accuracy comparable to classical nudged elastic band methods."
+}

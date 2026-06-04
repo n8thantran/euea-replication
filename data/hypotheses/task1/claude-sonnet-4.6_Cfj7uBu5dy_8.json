@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a modular, gym-like benchmark environment (MADE) is used to systematically evaluate combinations of structure generators and acquisition functions in autonomous materials discovery, then physics-informed generative models (MatterGen) paired with diversity-based acquisition will discover more novel stable compounds within a fixed query budget than random generation with random acquisition, because learned structural priors and compositional diversity pressure together more efficiently explore the stable regions of the materials space."
+}

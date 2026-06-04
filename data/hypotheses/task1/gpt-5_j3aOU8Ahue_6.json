@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If an EfficientNet-B0 CNN is first pretrained on a data-rich additive-free SEM dataset of NCM cathodes and then fine-tuned on a small additive-induced SEM dataset, then it will achieve higher class-wise accuracy and F1 in predicting NCM composition and aging state than models without this domain-bridging pretraining because transferable morphology-aware features learned from the source domain generalize to the additive-induced target domain."
+}

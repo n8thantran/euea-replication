@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a conditional latent diffusion model is trained on shell-wise composition representations of catalytic surfaces conditioned on adsorbate identity and adsorption energy, then it can generate valid and diverse catalytic surface compositions that satisfy chemical constraints better than chemically-agnostic baselines."
+}

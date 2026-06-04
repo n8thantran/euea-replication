@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Universal machine learning interatomic potentials trained on large, diverse datasets of periodic materials can accurately predict structural, mechanical, and thermodynamic properties of metal-organic frameworks and other nanoporous materials without system-specific parameterization, achieving performance comparable to DFT reference calculations."
+}

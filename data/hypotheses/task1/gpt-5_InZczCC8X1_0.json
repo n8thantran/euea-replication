@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a reactive carbon electrolyzer\u2019s operating conditions (bicarbonate temperature and concentration, KOH concentration and flow rates, and current density) are selected in a closed loop by Bayesian optimization, then higher reactor yield will be reached in fewer experiments than with random or space-filling search and will carry over to mixed bicarbonate\u2013carbonate feeds because Gaussian process\u2013guided acquisition efficiently learns and exploits the multidimensional yield landscape."
+}

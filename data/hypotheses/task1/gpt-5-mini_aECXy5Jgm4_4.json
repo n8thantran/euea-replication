@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If DFT-refined force fields and a two-stage MD-relaxation plus GCMC simulation workflow are combined with Bayesian optimization using polymer-specific molecular representations and surrogate models (GP, GP-DKL, or BNN), then high-performance polyamines with superior CO2 adsorption capacity can be discovered with significantly fewer simulation evaluations than random or non-optimized searches."
+}

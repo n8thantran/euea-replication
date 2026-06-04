@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If non-negativity and sum-to-one physics constraints are integrated into a diffusion model for carbon composite composition design, then it will outperform CVAE and TabDDPM by achieving higher Validityreg and higher Validityfab at the target 3,500 MPa and 1.0 W/mK, with equal or better density/coverage, because constraining the diffusion trajectory to the compositional simplex guides sampling toward the feasible materials manifold."
+}

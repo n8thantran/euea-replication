@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If E2EFOLD is trained end-to-end with a composite loss that includes structural terms for joint structure prediction and structure-based sequence design, then the designed sequences will have high sequence recovery and the predicted structures will be structurally self-consistent with reference backbones (high TM-score and low RMSD), and removing structural loss terms will reduce these metrics."
+}

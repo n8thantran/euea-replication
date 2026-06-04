@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a diversity-based acquisition strategy within the MADE dynamic benchmark is used to guide material selection, then the number of novel chemically stable compounds discovered and the number of unique structures proposed within a fixed 20-query budget will exceed those achieved with random acquisition, because diversity-based selection more effectively explores composition\u2013structure space toward regions likely to meet the stability criterion (\u03b5 = 0.01 eV/atom) and yield novel structures."
+}

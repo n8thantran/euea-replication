@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If we extract and compare last-layer embeddings from diverse molecule, material, and protein foundation models using CKNNA, IDCor, and information imbalance on common datasets, then their representations will show high cross-model alignment and similar intrinsic dimensions\u2014strongest in-distribution and weaker out-of-distribution\u2014because these models converge to a shared latent manifold that encodes universal symmetries and interactions of matter."
+}

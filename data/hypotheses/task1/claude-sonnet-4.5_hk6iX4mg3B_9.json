@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Enforcing prediction consensus among an ensemble of models on unlabeled data improves semi-supervised learning performance because it regularizes models to agree on confident predictions in low-density regions of the input space."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If a frozen Llama encoder is paired with a trainable Transformer decoder over a discrete material\u2013thickness vocabulary and trained on simulated text\u2013structure pairs, then it will translate natural-language color prompts into multilayer thin-film designs that achieve low CIE76 \u0394E and generalize to paraphrases and unseen targets, with \u0394E decreasing as encoder size and decoder depth increase."
+}

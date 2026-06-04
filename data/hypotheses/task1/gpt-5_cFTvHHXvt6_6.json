@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If natural-language color prompts are encoded by a frozen Llama model and decoded by a small trainable Transformer into sequences of material\u2013thickness tokens, then the simulated multilayer stacks will reproduce target structural colors with low CIE76 \u0394E on both paraphrased and unseen prompts, and accuracy will improve with larger encoders and deeper decoders because increased capacity better captures the mapping from language semantics to thin-film interference."
+}

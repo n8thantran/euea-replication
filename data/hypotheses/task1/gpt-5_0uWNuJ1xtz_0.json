@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a hybrid Transformer\u2013Mamba encoder-decoder is pre-trained with masked language modeling and cross-modal alignment over seven molecular textual representations, then it will learn a unified, modality-invariant latent space that yields consistent cross-modal clustering, accurate cross-representation translation, and strong performance on diverse molecular, polymer, and electrolyte property prediction tasks because shared tokenization and alignment force the model to encode chemically meaningful structure."
+}

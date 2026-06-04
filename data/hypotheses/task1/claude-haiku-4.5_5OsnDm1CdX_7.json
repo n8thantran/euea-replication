@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Graph neural networks using frozen pre-trained single-gas network features can generalize etching rate predictions for Ar/O2 mixtures beyond the training composition range better than standard feedforward networks because they leverage learned single-gas physics while explicitly modeling mixture composition as graph structure."
+}

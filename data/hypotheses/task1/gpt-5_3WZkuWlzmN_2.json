@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If crystal structures are encoded jointly as graphs, RoboCrystallographer text, and simulated XRD patterns and trained with cross-modal prediction plus VIC and contrastive objectives, then downstream prediction of band gap, shear/bulk moduli, dielectric constant, and perovskite formation energy will achieve lower MAE than CGCNN, CoGN, and ALIGNN on Matbench and AFLOW splits because aligning modalities in a shared latent space captures complementary structural information."
+}

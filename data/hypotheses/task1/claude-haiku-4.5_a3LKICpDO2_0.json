@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Machine learning models trained to predict the difference between semi-empirical GFN1-xTB and DFT band gaps will achieve higher accuracy than models trained to directly predict DFT band gaps because the delta-learning approach reduces the systematic errors inherent in the semi-empirical method."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Large language models with one-shot prompting using complex in-context examples can accurately extract material synthesis procedures from scientific literature into structured provenance graphs with high precision and recall at both structural and parametric levels."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a discrete stochastic autoencoder (E2EFOLD) is trained end-to-end to jointly predict discrete amino acid sequences and reconstruct all\u2011atom structures using combined sequence and structural loss terms, then it will produce designed sequences whose predicted structures more closely match input backbones (higher TM-score/lower RMSD and improved sequence recovery) than decoupled design-oracle pipelines such as Boltz-2, because joint optimization enforces consistency between sequence and structure representations."
+}

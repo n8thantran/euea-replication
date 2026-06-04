@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a JAX-based implementation of machine learning interatomic potentials is combined with a JAX-native molecular dynamics backend, then it will achieve significantly faster simulation throughput compared to PyTorch-based implementations using ASE as the MD backend, because end-to-end JAX compilation eliminates Python overhead and enables full GPU acceleration across both the potential evaluation and dynamics integration steps."
+}

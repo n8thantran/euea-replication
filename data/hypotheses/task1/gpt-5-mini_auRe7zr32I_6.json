@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If fragment-, string-, and representation-based diversity constraints (with adaptive penalization) are applied during reinforcement learning optimization for singlet fission using REINVENT4, then the generated molecule sets will exhibit higher chemical diversity\u2014lower mean pairwise similarity, increased cluster counts, higher unique fragment percentages, and fewer overrepresented patterns\u2014than unconstrained baseline runs while retaining comparable predicted \u0394E_SF optimization performance."
+}

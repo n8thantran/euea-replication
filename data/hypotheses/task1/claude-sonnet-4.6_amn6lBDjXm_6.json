@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a chemically grounded evaluation framework integrating DFT-based simulation metrics (RMSD and SUN) with property-based and latent-space metrics is applied to generative materials models, then the simulation-based metrics will reveal systematic discrepancies in structural stability and novelty that ML-only metrics fail to capture, because DFT relaxation and convex hull analysis directly assess the true physical validity of generated crystal structures in ways that surrogate statistical measures cannot."
+}

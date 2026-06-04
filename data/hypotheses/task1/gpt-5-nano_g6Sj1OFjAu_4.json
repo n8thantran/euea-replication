@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a conditional latent diffusion model is trained in the CIAE latent space with conditioning on adsorbate identity, adsorption energy, and allowed element lists, then the generated shell-wise compositions will exhibit higher distributional similarity to real configurations (lower Fr\u00e9chet Distance), better constraint compliance (lower Leakage), and higher point-wise quality (higher Cosine Similarity) than a chemically-agnostic baseline, and these advantages will scale with increasing training data because chemical conditioning provides priors that steer generation toward feasible, energetically plausible compositions."
+}

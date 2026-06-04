@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Graph-based prediction using frozen single-gas feature extractors and gas-fraction inputs will yield more accurate predictions of the ten radial etching rates for Ar/O2 mixtures across unseen coil power and pressure conditions than a baseline feedforward neural network."
+}

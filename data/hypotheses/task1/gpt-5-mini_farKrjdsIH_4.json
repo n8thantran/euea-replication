@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Fine-tuning SAM-2 on synthetic LPTEM videos with box-prompt conditioning yields segmentation and particle-tracking performance (higher IoU, F1, and J&F scores) that surpasses a U-Net baseline and generalizes to real LPTEM data across varying liquid thicknesses and resolutions."
+}

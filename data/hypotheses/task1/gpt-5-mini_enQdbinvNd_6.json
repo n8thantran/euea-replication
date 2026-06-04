@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a multi-agent LLM framework assigns specialized Experiment Setup and Research agents with access to force-field libraries, example inputs, and literature, then the system will reproducibly extract correct, publication-consistent force field parameters and generate valid RASPA input files that run successfully for zeolite adsorption simulations."
+}

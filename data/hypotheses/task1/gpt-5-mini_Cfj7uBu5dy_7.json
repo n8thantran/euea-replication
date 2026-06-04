@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If an autonomous discovery agent uses the pretrained MatterGen structure generator together with a diversity-based acquisition function and initialization including all known stable structures, then it will discover a greater number of novel stable compounds within a 20-query budget (stability threshold \u03b5 = 0.01 eV/atom) than agents using a random structure generator and/or random acquisition."
+}

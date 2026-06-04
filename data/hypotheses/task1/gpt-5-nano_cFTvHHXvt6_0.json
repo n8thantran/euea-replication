@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If CHROMA's encoder size and decoder depth are increased (e.g., from 1B/2 layers to 8B/8 layers), then the resulting designed multilayer stacks will achieve lower CIE76 \u0394E color differences relative to target colors across training-paraphrase and validation prompts and across viewing angles (0\u00b0, 30\u00b0, 60\u00b0) because larger model capacity enables more accurate translation of natural-language prompts into material-thickness combinations."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If chemical foundation models pretrained on large SMILES corpora are used to produce composition-weighted molecular embeddings and combined with device variables, then they will outperform Morgan fingerprints in predictive accuracy and out-of-distribution generalization across molecular, formulation, surface, and device battery property prediction tasks and better recover known moiety\u2013property correlations, because the FMs capture richer, transferable chemical representations than traditional fingerprints."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If language models are fine-tuned with Direct Preference Optimization using a physics-based hierarchical reward derived from Thermo-Calc evaluations for BCC/B2 alloy design, then the generated alloy candidates will achieve higher mean reward scores and better compliance with the four synthesis objectives, along with improved compositional validity and novelty, compared to baseline prompting or search methods, because DPO directly optimizes the model to prefer designs that satisfy physics-based criteria and mitigates distribution shift toward non-physical outputs."
+}

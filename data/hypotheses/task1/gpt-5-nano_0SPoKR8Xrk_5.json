@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "A hybrid deep learning model that encodes surface lattices with a 2D CNN, polymer sequences with a GRU, and fuses these representations via multi\u2011head attention will accurately predict polymer\u2013surface binding free energies from surface and sequence features, outperforming baseline encoders."
+}

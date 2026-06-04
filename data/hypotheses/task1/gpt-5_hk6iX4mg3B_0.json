@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If models are trained semi-supervised by minimizing each ensemble member\u2019s divergence to a stop\u2011gradient ensemble mean on unlabeled data in addition to supervised loss, then with limited labels they will achieve lower error and better calibration than supervised, mean\u2011teacher, and pseudo\u2011labeling baselines across molecular graph and image benchmarks\u2014improving further with larger ensemble size\u2014because consensus targets provide stable, low\u2011variance pseudo\u2011labels that mitigate confirmation bias."
+}

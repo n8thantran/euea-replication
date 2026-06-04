@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If adaptive diversity constraints are applied during reinforcement learning-based generative molecular design, then the resulting compound libraries will maintain greater structural and chemical diversity across multiple complementary metrics (fingerprint similarity, fragment distribution, and string-based patterns) compared to unconstrained optimization, because penalizing overrepresented molecular features prevents the generative model from collapsing into narrow regions of chemical space while still optimizing for the target property."
+}

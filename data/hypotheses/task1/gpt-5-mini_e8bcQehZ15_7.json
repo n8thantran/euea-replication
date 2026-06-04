@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If CBM-derived concept embeddings are combined into steering vectors and added to frozen LLM hidden activations, then the model will generate molecules whose target properties (e.g., QED, LogP) are more accurately achieved (lower MAE and Best100MAE) across in-distribution and out-of-distribution settings while maintaining high validity, novelty, uniqueness, and synthetic accessibility, outperforming ActAdd steering and finetuning baselines."
+}

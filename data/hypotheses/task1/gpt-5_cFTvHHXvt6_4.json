@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If structural coloration targets are expressed via natural-language prompts, then CHROMA (a frozen LLM encoder with a trainable Transformer decoder over discrete material\u2013thickness tokens) will generate multilayer thin-film designs whose simulated colors match the targets with low CIE76 \u0394E on both paraphrased and held-out targets, and \u0394E will decrease as encoder size and decoder depth increase."
+}

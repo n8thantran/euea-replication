@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If ML-SSNEB employing pretrained eqV2 or eSEN to produce ML-converged images before restarting DFT, then the DFT SSNEB calculations for CsPbI3 and TiO2 will require fewer iterations and less total computational time than VASP-only SSNEB while yielding MEPs and transition states that satisfy the DFT convergence criterion (atomic forces <0.01 eV/\u00c5) and reproduce DFT energetics."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Machine learning models trained on metal lattice features (atomic, electronic, and structural) derived from chemical template theory can predict thermodynamic stability of metal superhydrides more efficiently than traditional high-throughput DFT screening alone."
+}

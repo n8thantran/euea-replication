@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a Transformer with patch-based spectral embeddings is pretrained on large-scale simulated IR spectra and fine-tuned on experimental pure-compound spectra while jointly optimizing a reconstruction alignment loss, then it will accurately identify the molecular components of binary and ternary IR mixture spectra across concentration ratios (including experimental ATR-IR) because the auxiliary alignment disentangles pure-component features and the pretraining captures transferable vibrational patterns."
+}

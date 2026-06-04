@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "A diffusion model trained only on metastable-state molecular dynamics data, when used with score-based interpolation during guided reverse diffusion and refined by score-aligned ascent using r_SAA = s^B - s^A, will generate a priori transition state structures with committors near 0.5 and realistic transition pathways across 2D potentials, peptide conformational changes, and chemical reactions, outperforming linear and geodesic interpolation baselines because the interpolated conditional scores approximate the reaction coordinate that SAA sharpens into true transition directions."
+}

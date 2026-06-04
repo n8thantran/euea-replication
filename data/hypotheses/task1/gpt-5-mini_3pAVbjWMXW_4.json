@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a Transformer encoder\u2013decoder model is pretrained on large simulated molecular\u2011dynamics IR spectra and fine\u2011tuned on real NIST spectra while using patch\u2011based spectrum embedding, a jointly trained spectral reconstruction alignment loss, and multitask concentration training, then it will more accurately predict the molecular components of binary and ternary IR mixtures (including experimental ATR\u2011IR mixtures), yielding higher Top\u2011k accuracy and Tanimoto similarity than models lacking these design elements."
+}

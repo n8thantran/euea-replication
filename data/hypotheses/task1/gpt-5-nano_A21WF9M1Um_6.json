@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Under realistic lattice and coordinate noise, gradient-descent optimization of crystal structures from XRD patterns yields a low recovery rate for the ground-truth structures due to a rugged loss landscape, and symmetry constraints do not substantially improve this recovery."
+}

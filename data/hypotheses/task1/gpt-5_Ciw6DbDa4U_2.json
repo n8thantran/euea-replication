@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If training data for lattice structure properties are sampled either uniformly or with non-uniform experimentalist bias and are limited in size, then tensor completion surrogate models (CPD-S/NeAT and their ensemble) will achieve higher R\u00b2 than Gaussian Process, XGBoost, and MLP baselines when predicting Young\u2019s modulus and mass-normalized Young\u2019s modulus because they exploit the low-rank multi-way structure of the design\u2013property tensor."
+}

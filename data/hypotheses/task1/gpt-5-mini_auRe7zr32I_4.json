@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If fragment-based, combined (similarity/fragment/string), and adaptive diversity-penalty constraints are applied during reinforcement-learning molecular generation for singlet-fission candidates, then the generated libraries will show significantly higher chemical diversity (lower mean pairwise similarity, more clusters, higher unique fragment percentages, and fewer overrepresented patterns) over 1000 iterations than the unconstrained baseline while retaining comparable singlet-fission energy scores, because the constraints and adaptive penalties penalize overrepresented motifs and promote exploration of underrepresented chemotypes."
+}

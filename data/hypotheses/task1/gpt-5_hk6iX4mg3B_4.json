@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If models are trained semi-supervised by adding a gradient-detached ensemble-consensus consistency loss on unlabeled data, then they will achieve better predictive accuracy and calibration than supervised, mean-teacher, and pseudo-labeling baselines across molecular and image benchmarks\u2014with gains increasing with ensemble size\u2014because the ensemble\u2019s soft consensus provides more reliable targets and mitigates confirmation bias."
+}

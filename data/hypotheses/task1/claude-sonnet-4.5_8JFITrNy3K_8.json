@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Large language models can accurately extract material synthesis procedures from scientific literature into structured provenance graphs that conform to the PROV-DM data model with sufficient precision and recall when provided with appropriate in-context examples."
+}

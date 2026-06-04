@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Cross-modal prediction training where graph, text, and spectral modalities predict each other in latent space with contrastive learning will improve material property prediction accuracy compared to single-modality approaches because multi-modal fusion captures complementary structural, chemical, and diffraction information."
+}

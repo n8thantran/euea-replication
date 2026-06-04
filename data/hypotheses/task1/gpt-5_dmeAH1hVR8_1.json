@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a small instruction-tuned LLM is continually pre-trained on MOF-focused literature and large chemical corpora and then fine-tuned on MOFid-to-property pairs, then using only MOFid text it will achieve lower MAE than structure-based baselines (CGCNN, SOAP, MOFormer) on QMOF and hMOF tasks, with the advantage increasing as SFT data decrease, because domain-specific pre-training imparts transferable MOF chemical priors."
+}

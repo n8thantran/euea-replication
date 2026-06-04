@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If adaptive diversity constraint algorithms are applied during reinforcement-learning generation of organic electronic molecules, then the resulting library will show higher diversity across representation-based, fragment-based, scaffold-based, and SMILES-pattern metrics while maintaining or improving the rate at which generated molecules meet the singlet fission energy criterion \u0394E_SF = E(S1) \u2212 2\u00b7E(T1) below the target threshold, compared with baseline unconstrained generation."
+}

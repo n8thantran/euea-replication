@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a diffusion model for composite composition generation is trained with non-negativity and sum-to-one physics constraints in its loss, then it will achieve higher Validityreg and Validityfab and equal or improved Density/Coverage than unconstrained baselines (CVAE and TabDDPM) on the same dataset because the constraints steer sampling toward the physically feasible composition simplex."
+}

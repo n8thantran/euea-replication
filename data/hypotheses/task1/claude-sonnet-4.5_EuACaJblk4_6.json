@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "End-to-end training of protein structure prediction and structure-based sequence design in a unified autoencoder framework will improve the consistency between designed sequences and their predicted structures compared to using separate models for each task."
+}

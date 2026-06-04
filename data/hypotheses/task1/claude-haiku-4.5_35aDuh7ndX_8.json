@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a reinforcement learning framework optimizes molecular generation using dual-objective rewards that maximize pharmacophoric similarity to estrogen receptor antagonists while minimizing structural similarity to known compounds, then it will generate novel drug-like molecules with improved binding affinity and synthetic accessibility compared to baseline docking-only approaches."
+}

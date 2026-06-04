@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a large language model is augmented with domain tools (periodic table, knowledge base, short/long-term memory) and operated in a closed-loop with a crystal structure generator and a property predictor, then it will achieve higher success rates and V.U.N. scores in generating chemically valid, unique, and novel inorganic materials with target formation energies than tool-free LLMs or diffusion-only baselines because tool grounding and iterative feedback direct the search toward compositions and structures matching the desired energy constraints."
+}

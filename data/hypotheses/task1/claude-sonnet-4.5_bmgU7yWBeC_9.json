@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "The root-mean-square difference between conservative forces (derived from predicted energy gradients) and non-conservative forces (directly predicted) in neural network interatomic potentials correlates with the true prediction error and can serve as a training-free uncertainty estimator."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "A multi-agent large language model framework can autonomously and reproducibly perform end-to-end molecular simulation workflows\u2014including force field parameter extraction from scientific literature and simulation input file generation\u2014with accuracy comparable to manual expert setup, because the division of tasks among specialized agents with shared memory and tool access reduces individual agent complexity and error propagation."
+}

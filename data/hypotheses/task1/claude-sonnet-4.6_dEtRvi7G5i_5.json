@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If metal superhydride discovery is guided by a chemical concept framework (specifically quasi-atom theory identifying interstitial electron localization in metal lattices) combined with machine learning screening, then this approach will more efficiently identify thermodynamically stable and superconducting metal superhydrides compared to unguided high-throughput searches, because constraining the structural search space using chemically meaningful descriptors of metal lattice configurations reduces computational cost while retaining the most promising candidates for DFT validation."
+}

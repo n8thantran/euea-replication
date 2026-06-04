@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "A stereochemistry-aware diffusion model trained on quantum mechanically accurate conformer data can generate low-energy molecular conformations that match or exceed the accuracy of traditional force field-based methods while scaling to large, drug-like molecules."
+}

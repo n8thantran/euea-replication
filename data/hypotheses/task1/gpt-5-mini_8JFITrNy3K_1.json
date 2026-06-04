@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "One-shot prompting with a complex in-context example applied to the o4-mini model produces significantly higher collection rate and superior structural and parametric extraction performance (precision, recall, F1) for converting materials synthesis procedures into PROV-DM graphs than zero-shot prompting and the GPT-4.1 and GPT-4.1 mini models, enabling accurate large-scale dataset construction."
+}

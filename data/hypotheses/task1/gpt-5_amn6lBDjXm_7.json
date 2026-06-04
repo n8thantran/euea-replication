@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If generative and perturbed crystal structures are evaluated with the proposed DFT-integrated framework, then the resulting RMSD and SUN-based scores will monotonically reflect distortion severity and correctly rank diffusion models by their production of stable, valid, and novel materials, because ab initio relaxation and convex-hull energetics provide chemically faithful ground truth."
+}

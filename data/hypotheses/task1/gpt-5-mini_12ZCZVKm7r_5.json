@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Despite differences in architecture and input modality, hidden-state embeddings from diverse scientific foundation models trained on molecules, materials, and proteins converge onto a common low-dimensional representation of matter\u2014producing high local and global alignment (CKNNA and IDCor) and low information imbalance across models for in-distribution datasets, with systematically reduced alignment for out-of-distribution samples."
+}

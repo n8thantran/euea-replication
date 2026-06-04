@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If the semantic alignment between task descriptions and available tool descriptions is high, then agent performance on scientific tasks will improve regardless of the specific LLM model or agent scaffolding framework used, because task-tool alignment reduces the cognitive search space for the agent and directly guides appropriate tool selection."
+}

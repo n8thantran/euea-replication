@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Multimodal contrastive training that aligns SMILES strings with 3D electron density grids induces emergent pose-invariance in the learned 3D molecular embeddings\u2014such that embeddings of arbitrarily rotated electron-density inputs match the canonical SMILES embedding and yield higher rotated-molecule retrieval accuracy and improved property-relevant clustering than unimodal or non-contrastive baselines."
+}

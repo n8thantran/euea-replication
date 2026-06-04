@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a cross-modal predictive model that learns to predict each modality from the other two in latent space using graph, text, and XRD representations achieves lower MAE on Matbench and AFLOW crystal-property tasks (Band Gap, Shear Modulus, Bulk Modulus, Dielectric, and Perovskites formation energy) than state-of-the-art single-modality baselines (CGCNN, CoGN, ALIGNN), then integrating multi-modal information improves material property prediction."
+}

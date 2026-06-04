@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If FREED++ is trained to maximize pharmacophoric similarity to a reference set of estrogen receptor antagonists while minimizing structural similarity, then it will generate novel compounds that retain high pharmacophoric similarity but low structural similarity to the references and exhibit improved or comparable docking scores, QED, and synthetic accessibility versus a QED+docking baseline."
+}

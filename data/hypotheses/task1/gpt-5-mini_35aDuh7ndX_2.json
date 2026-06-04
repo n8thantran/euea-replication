@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If FREED++ is trained with a dual reward that maximizes pharmacophoric similarity (CATS descriptors) to a reference set of 53 estrogen receptor antagonists while minimizing structural similarity (MACCS/MAP4), then it will generate novel molecules absent from ChEMBL, ZINC, and PubChem that retain predicted binding affinity (docking scores to PDB 8AWG comparable to or better than a QED+docking baseline), achieve high QED and acceptable synthetic accessibility, and exhibit increased structural novelty."
+}

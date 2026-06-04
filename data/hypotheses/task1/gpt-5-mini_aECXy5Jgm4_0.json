@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Combining fragment-based polymer generation, DFT-refined force fields, an efficient two-stage MD+GCMC simulation workflow, and Bayesian optimization with pretrained molecular representations and surrogate models will identify polyamines with higher CO2 adsorption capacity using far fewer simulations than unguided (random) search."
+}

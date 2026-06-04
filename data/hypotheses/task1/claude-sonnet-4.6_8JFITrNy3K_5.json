@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If large language models are prompted with domain-specific in-context examples of increasing complexity in a one-shot setting, then more capable reasoning models (such as o4-mini) will achieve higher precision, recall, and F1-scores for extracting PROV-DM-compliant provenance graphs from materials synthesis literature compared to smaller or less capable models, because richer contextual guidance combined with stronger reasoning capacity reduces structural and parametric extraction errors."
+}

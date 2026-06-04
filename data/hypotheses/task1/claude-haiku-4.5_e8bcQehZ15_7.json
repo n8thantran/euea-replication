@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Steering large language models through concept-based activation vectors derived from a frozen concept bottleneck model enables accurate conditional molecular generation with specified properties without fine-tuning the underlying model parameters."
+}

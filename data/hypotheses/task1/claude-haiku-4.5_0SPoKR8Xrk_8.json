@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "A hybrid neural network architecture combining 2D convolutional encoding of polymer surfaces with attention-based cross-modal interaction between surface and polymer sequence representations will predict polymer-surface binding free energies with significantly greater accuracy than baseline models using independent feature encoders."
+}

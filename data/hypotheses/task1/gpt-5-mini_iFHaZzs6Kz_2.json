@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a multimodal contrastive model is trained to align SMILES strings with 3D electron density grids, then the resulting 3D embeddings will be emergently invariant to molecular rotations, yielding higher cross-rotation retrieval accuracy, greater multi-pose retrieval rates and pose diversity, improved functional-group-wise recall and clustering (lower Davies\u2013Bouldin index), and stronger linear-probe property prediction on QM9 compared to unimodal or non-contrastive baselines."
+}

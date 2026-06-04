@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If the AMDEN diffusion framework with an Equivariant Graph Neural Network backbone, enhanced by Hamiltonian Monte Carlo refinement and modulus-conditioned classifier-free guidance, is trained on amorphous silicon and multi-element glass datasets, then the generated structures will reproduce reference structural statistics (RDFs, bond-angle distributions, structure factors) and energy distributions, and can be steered to achieve target Young's modulus values."
+}

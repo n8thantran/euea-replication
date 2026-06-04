@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Force Delta (U\u2206) is a reliable uncertainty metric for neural network interatomic potentials, such that larger U\u2206 values positively correlate with larger true non-conservative force errors (\u03b5direct) across equilibrium and adversarially perturbed (OOD) structures, and U\u2206 outperforms ad-hoc ensemble variance as a predictor."
+}

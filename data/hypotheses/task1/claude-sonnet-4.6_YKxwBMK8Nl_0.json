@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a single-agent pipeline combining structured PDF-to-markdown conversion with vision-language model image processing and a large language model for extraction is applied to scientific chemical information extraction, then it will achieve competitive or superior precision, recall, and F1 scores compared to multi-agent domain-specific systems and baseline models, because consolidating document structure preservation, multimodal image understanding, and schema-guided extraction into a streamlined single-agent workflow reduces error propagation and coordination overhead inherent in multi-agent architectures."
+}

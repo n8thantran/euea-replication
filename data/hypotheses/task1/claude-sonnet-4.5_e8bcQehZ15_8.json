@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Steering large language models using concept-specific embedding vectors derived from a Concept Bottleneck Model enables more accurate and controllable conditional molecular generation compared to vanilla models or activation addition methods because it provides interpretable, property-specific control over the generation process while maintaining molecular validity."
+}

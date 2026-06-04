@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If ML-based evaluation metrics for generative materials models lack grounding in physical simulation, then they will fail to accurately capture true structural stability and chemical validity, because metrics derived from DFT-based relaxation and thermodynamic convex hull analysis reflect the actual energy landscape governing material existence, whereas purely statistical or fingerprint-based metrics can be systematically deceived by structures that appear reasonable in latent space but are physically unstable or chemically implausible."
+}

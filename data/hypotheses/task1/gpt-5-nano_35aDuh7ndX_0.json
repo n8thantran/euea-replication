@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "FREED++ configurations that maximize pharmacophoric similarity to a reference set of 53 estrogen receptor antagonists/degraders while minimizing structural similarity will produce generated molecules with higher pharmacophoric similarity to the ER set, lower MACCS-based similarity to known chemical libraries, and comparable or improved docking scores and QED values relative to baseline QED-docking generation."
+}

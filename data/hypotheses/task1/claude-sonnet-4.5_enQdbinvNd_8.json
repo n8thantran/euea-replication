@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Multi-agent LLM systems with specialized roles and shared memory can autonomously set up molecular simulations and extract force field parameters from scientific literature with sufficient accuracy and reproducibility to replace manual configuration workflows."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a hybrid Transformer\u2013Mamba encoder-decoder is pre-trained with masked-language and cross-modal alignment objectives on a shared BPE vocabulary spanning seven molecular text modalities, then it will learn a chemically consistent, modality-invariant latent space that yields superior clustering and property-prediction performance across small molecules, polymers, and electrolytes and enables accurate translation among representations."
+}

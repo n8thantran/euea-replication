@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Lithium-silicide compounds with large, stable lithium-ion migration channels (radius >2 \u00c5) that remain open during both charged and discharged states will exhibit superior rate capability and cycling performance as anode materials compared to conventional silicon-based anodes."
+}

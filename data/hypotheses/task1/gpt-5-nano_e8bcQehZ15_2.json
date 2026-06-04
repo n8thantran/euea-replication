@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Applying CAST to steer a frozen large language model with property-specific embeddings learned by a Concept Bottleneck Model will yield generated molecules with lower property prediction error (MAE) and higher validity, novelty, and synthetic accessibility than generation with vanilla LLMs or baseline finetuning methods, across both in-distribution and out-of-distribution property targets."
+}

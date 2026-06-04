@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If Concept-based Activation Steering (CAST)\u2014adding weighted combinations of CBM-learned property embedding vectors to intermediate hidden activations of a frozen LLM\u2014 is applied during molecular generation, then the LLM will produce molecules whose target properties (e.g., QED, LogP) are more accurately matched (lower MAE and Best100MAE) while maintaining validity, novelty, and synthetic accessibility across in-distribution and out-of-distribution targets, outperforming vanilla generation, ActAdd, LoRA, and full fine-tuning baselines."
+}

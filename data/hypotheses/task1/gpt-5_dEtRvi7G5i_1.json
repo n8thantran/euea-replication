@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If hypothetical metal lattices exhibiting strong interstitial electron localization are prioritized using a stack-ensembled ML model trained on prototype-derived features to predict low Ehull at high pressure, then DFT will validate them as thermodynamically stable metal superhydrides with high superconducting potential (large \u03bb and Tc) because interstitial quasi-atom states enable 3D electronic connectivity and hydrogen-dominated Fermi-level states that enhance electron-phonon coupling."
+}

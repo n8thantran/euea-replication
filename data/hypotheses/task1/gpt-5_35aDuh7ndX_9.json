@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a reinforcement learning generative model is rewarded to maximize CATS-based pharmacophoric similarity to reference estrogen receptor antagonists while penalizing MACCS/MAP4-based structural similarity, then it will generate novel, synthetically accessible, drug-like molecules with superior 8AWG docking scores compared to a QED+docking baseline because pharmacophore-guided optimization preserves essential binding features while promoting scaffold diversification."
+}

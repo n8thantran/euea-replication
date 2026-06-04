@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If a 426M-parameter hybrid Transformer\u2013Mamba encoder\u2013decoder is pretrained jointly on seven molecular textual representations using masked-language modeling for alignment and decoder reconstruction, then it will learn a unified latent space that aligns modalities, improves property prediction across small molecules, polymers, and electrolytes, and enables high-fidelity translation among representations because multimodal supervision and the hybrid architecture capture complementary structural information shared across notations."
+}

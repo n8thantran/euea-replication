@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "The disagreement between conservative and non-conservative force predictions from a single direct-force pre-trained neural network potential correlates with prediction error and can serve as a data-free uncertainty estimate for both in-distribution and out-of-distribution structures."
+}

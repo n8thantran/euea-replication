@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If nudged elastic band calculations are executed via NN-BAX by iteratively fine-tuning EquiformerV2 and acquiring training points along the predicted path, then for LJ7 and LJ38 systems they will recover ground-truth minimum energy pathways and barrier heights within fmax and MAEi tolerances while using fewer expensive simulator evaluations than classical NEB because the surrogate concentrates sampling on the most informative regions of the path."
+}

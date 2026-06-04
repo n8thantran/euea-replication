@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Bayesian optimization with deep kernel learning surrogates initialized on chemically diverse polyamine fragments will accelerate discovery of high-performance CO2 adsorbents by more efficiently exploring the structure-property space compared to standard Gaussian process or Bayesian neural network approaches."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If LoQI, a stereochemistry-aware diffusion model augmented with E/Z and R/S topology encodings and trained on AIMNet2-optimized ChEMBL3D conformers, predicts atomic coordinates for new molecules, then the generated conformers will be low in energy near the dataset minimum, preserve topology, accurately reproduce stereochemical configurations (R/S and E/Z), and closely match reference structures (low RMSD), with some cases yielding lower-energy conformers than the dataset as confirmed by DFT validation."
+}

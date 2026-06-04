@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If the last-layer embeddings produced by diverse foundation models for the same molecular, material, or protein structures exhibit high cross-model alignment (CKNNA) and similar intrinsic dimensionality (IDCor and intrinsic dimension) across architectures and modalities, then there exists a universal latent representation of matter that is shared across model families, persisting for both in-distribution and out-of-distribution data."
+}

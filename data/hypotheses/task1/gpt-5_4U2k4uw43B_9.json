@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If pre-trained equivariant ML surrogates (eqV2 or eSEN) are used to pre-converge NEB images for solid-state phase transformations and then refined with DFT-based SSNEB, then the resulting DFT minimum energy pathways (transition states and barriers) for CsPbI3 and TiO2 will match VASP-only results while requiring fewer iterations and less compute because the ML models provide sufficiently accurate energies, forces, and stresses to start near the true MEP."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a frozen large language model encoder is coupled with a trainable Transformer decoder operating over a discrete vocabulary of material-thickness tokens, then the resulting system can accurately translate natural language descriptions of desired structural colors into valid multilayer thin-film designs, because the pretrained encoder captures sufficient semantic understanding of optical and color concepts to guide the decoder toward physically realizable layer sequences that reproduce target CIE color coordinates within acceptable perceptual error thresholds."
+}

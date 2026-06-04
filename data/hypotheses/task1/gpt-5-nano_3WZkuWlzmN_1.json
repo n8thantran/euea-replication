@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a cross-modal predictive architecture that trains two modalities to predict the third in latent space (with L2 loss, VIC regularization, and contrastive loss) is applied to Band Gap prediction on the AFLOW dataset, then its MAE will be lower than that of baseline graph-based models (CGCNN, CoGN, ALIGNN), because leveraging the complementary information from graph, text, and XRD modalities yields richer latent representations for predicting Band Gap."
+}

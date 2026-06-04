@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If molecular graph neural networks are trained using an ensemble consistency loss that encourages agreement among ensemble members on unlabeled data, then their predictive accuracy and calibration will improve compared to supervised-only baselines and other semi-supervised approaches, because enforcing consensus across diverse ensemble members provides a reliable self-supervised signal that regularizes learning and reduces overfitting to the limited labeled data."
+}

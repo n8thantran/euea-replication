@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If the six operating parameters of a reactive carbon electrolyzer (bicarbonate temperature and concentration, catholyte and anolyte flow rates and KOH concentration, and applied current density) are tuned by a closed-loop Bayesian optimization algorithm, then reactor yield will reach higher optima with fewer experiments and those optima will transfer to mixed bicarbonate\u2013carbonate feeds, because Gaussian process\u2013guided exploration efficiently uncovers and exploits nonlinear parameter dependencies."
+}

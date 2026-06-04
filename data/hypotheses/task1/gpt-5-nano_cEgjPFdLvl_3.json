@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If the AMDEN framework employing diffusion-based denoising with an EGNN backbone and optional energy-based refinement can learn from amorphous silicon datasets with varied thermal histories and a multi-element MEG dataset, then the generated structures will closely reproduce the reference RDFs, bond-angle distributions, and structure factors and can be steered to target Young's modulus values via classifier-free guidance."
+}

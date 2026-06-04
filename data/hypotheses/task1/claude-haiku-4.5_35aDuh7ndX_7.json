@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Optimizing a reinforcement learning framework to maximize pharmacophoric similarity to estrogen receptor antagonists while minimizing structural similarity will generate novel drug-like molecules with improved binding affinity and synthetic accessibility compared to baseline docking-only approaches."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If the modified MACE architecture with gating mechanisms and species-dependent edge features is integrated into the JAX-based MLIP library and used to perform 1 ns MD benchmarks on protein systems, then it will achieve inference speedups without sacrificing energy/force prediction accuracy compared to the baseline MACE, because the gating and edge-feature design reduce compute per step and memory bandwidth demands."
+}

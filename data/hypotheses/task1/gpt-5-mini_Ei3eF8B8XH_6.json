@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "LoQI, a stereochemistry-aware diffusion model trained on the AIMNet2-optimized ChEMBL3D dataset, can generate molecular conformers whose energies and geometries closely match quantum-mechanical (DFT) minima while preserving R/S and E/Z stereochemistry and molecular topology across diverse drug-like molecules and macrocycles, outperforming existing conformer generation methods."
+}

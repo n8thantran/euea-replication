@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If high-pressure hydride searches are constrained to metal lattices with strong interstitial electron localization (quasi-atoms) and screened by a stacked-ensemble ML model trained on atomic, lattice, composition, and electronic features, then the selected candidates will be thermodynamically stable (low Ehull) and exhibit high superconducting Tc, because interstitial localization, 3D electronic connectivity, hydrogen content, and hydrogen contribution at the Fermi level govern superhydride stability and electron-phonon coupling."
+}

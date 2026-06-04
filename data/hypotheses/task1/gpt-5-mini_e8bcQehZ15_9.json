@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If concept-based activation steering (CAST)\u2014where concept embeddings learned by a frozen-LLM Concept Bottleneck Model are combined into steering vectors and added to intermediate activations\u2014is applied to conditional molecular generation, then the LLM will produce molecules with properties (e.g., QED and LogP) closer to targets (lower MAE and Best100MAE) and higher generative efficiency than vanilla, ActAdd, and LoRA/finetuning baselines, while maintaining validity, novelty, uniqueness, and synthesizability, including in out-of-distribution property combinations."
+}

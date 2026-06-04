@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Machine learning-guided screening for lithium-silicon-based compounds with large, stable lithium-ion migration channels during charge-discharge cycling will identify high-capacity anode materials (>1500 mAh/g) superior to conventional silicon anodes for lithium-ion batteries."
+}

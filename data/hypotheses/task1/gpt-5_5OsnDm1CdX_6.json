@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If frozen single-gas neural networks are used to generate gas-specific features that are combined in a GraphSAGE model for Ar/O2 mixtures, then the model will predict 10-bin radial PMMA etching rates with lower test MSE (higher R\u00b2) and better generalization to withheld high power/pressure (Testgrid) and unseen low-xAr (Testthresh) conditions than FNN, GCN, or GAT baselines because composable single-gas latent representations capture transferable gas-specific plasma physics."
+}

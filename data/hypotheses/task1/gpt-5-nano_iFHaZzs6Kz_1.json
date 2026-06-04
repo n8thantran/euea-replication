@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a multimodal contrastive model jointly aligning SMILES strings and 3D electron-density grids is trained, then it will produce pose-invariant molecular embeddings that yield high retrieval accuracy for unseen rotated molecules, because the training encourages consistent representations across rotated 3D densities."
+}

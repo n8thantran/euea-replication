@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If a 3D molecular encoder is trained contrastively against a SMILES-based language model, then the resulting 3D representations will emergently exhibit pose-invariance to arbitrary molecular rotations without explicit equivariance constraints, because the SMILES modality encodes rotation-invariant chemical identity that guides the 3D encoder to discard orientation-specific information and capture chemically meaningful features."
+}

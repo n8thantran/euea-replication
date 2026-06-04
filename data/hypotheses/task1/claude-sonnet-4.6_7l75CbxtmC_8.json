@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a computational workflow integrating thermodynamic databases, cellular automata simulation, machine learning descriptors, and commercial pricing databases is applied to inorganic material synthesis planning, then it will identify cost-effective and thermodynamically favorable synthesis recipes for target materials such as Ca2SiO4 more efficiently than traditional trial-and-error experimental approaches, because combining reaction network optimization with real-world commercial constraints enables simultaneous evaluation of hundreds of candidate synthesis routes across relevant temperature ranges within practical computation times."
+}

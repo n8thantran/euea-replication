@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If SAM-EM (SAM 2 fine-tuned on synthetic LPTEM videos spanning 5\u2013160 nm with box-prompt conditioning) is used for segmentation, then it will outperform a U-Net baseline on segmentation metrics (Jaccard IoU, F1, and J&F) on held-out synthetic test videos and exhibit closer centroid agreement to manual annotations on real LPTEM data, thereby enabling more accurate particle tracking and statistical analyses because fine-tuning on physics-informed synthetic data exposes the model to realistic SNR conditions and particle dynamics."
+}

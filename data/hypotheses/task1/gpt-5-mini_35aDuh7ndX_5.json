@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "A reinforcement learning generator that maximizes pharmacophoric similarity (CATS descriptors) while minimizing structural similarity (MACCS/MAP4) in addition to optimizing QED will produce molecules that preserve the pharmacophoric features of the 53 reference estrogen receptor antagonists yet are structurally novel and achieve docking scores and synthetic accessibility comparable to or better than a QED+docking baseline."
+}

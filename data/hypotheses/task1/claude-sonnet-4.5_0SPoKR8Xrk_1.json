@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Integrating sequence-specific polymer features with spatially-resolved surface features through an attention mechanism will more accurately predict polymer-surface binding free energies than models using separate or non-interactive feature encodings because the attention mechanism captures the spatially-dependent interactions between polymer composition and surface heterogeneity."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "A Transformer-based encoder-decoder model with spectral alignment mechanisms can predict molecular structures from infrared spectra of mixtures by learning to decompose mixed spectral features into pure component representations."
+}

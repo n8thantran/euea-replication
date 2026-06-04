@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If adaptive fragment-based and combined diversity constraints are applied during REINVENT4 reinforcement learning for singlet-fission molecule generation with NaviDiv, then the generated libraries will show increased chemical diversity\u2014manifested as lower mean pairwise similarity, more clusters, higher unique fragment percentages, and fewer overrepresented patterns\u2014compared to unconstrained runs while still yielding molecules that satisfy the \u0394E_SF criterion, because dynamic penalization prevents mode collapse and the repetition of dominant chemotypes."
+}

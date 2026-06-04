@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If REINVENT, MolMIM, and Mol-AIR are pre-trained on ChEMBL/ZINC, fine-tuned on a curated CTF dataset, and optimized with expert-encoded RL rewards, then they will generate CTF candidates with higher validity, uniqueness, internal diversity, novelty, and expert-filter pass rates (and lower FCD) than configurations lacking one or more of these steps because transferred priors and reward shaping encode CTF-relevant chemical and geometric constraints."
+}

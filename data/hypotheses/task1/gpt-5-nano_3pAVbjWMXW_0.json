@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a patch-based Transformer trained with a joint L_S2S + \u03bbL_reconstruction loss across multiple concentration ratios can decompose IR spectra of mixtures into their pure-component spectra and identify the constituent molecules, then it will achieve high Top-1/5/10 accuracy and low MAE with high Tanimoto similarity on both synthetic and experimentally measured mixtures, validating that spectral alignment via reconstruction enables accurate mixture deconvolution."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a conditional diffusion model operates in the chemically informed CIAE latent space and is conditioned on adsorbate identity, adsorption energy, and allowed element lists, then it will generate shell-wise catalytic surface compositions that closely match the distribution of real configurations (low Fr\u00e9chet Distance), comply with chemical constraints (low Leakage), and exhibit high point-wise similarity to ground-truth configurations (high Cosine Similarity), because the CIAE encodes chemically meaningful latent representations and the conditioning injects adsorption-specific information into generation."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a 2B instruct language model is continually pre-trained on MOF-specific literature combined with large PubChem structural datasets before supervised fine-tuning on MOF property datasets, then it will predict MOF band gaps and gas adsorption from MOFid text with lower mean absolute error than models without such pre-training (or pre-trained on less relevant corpora), and this advantage will be especially pronounced under limited fine-tuning data conditions because the pre-training imparts domain-specific chemical knowledge that compensates for scarce labels."
+}

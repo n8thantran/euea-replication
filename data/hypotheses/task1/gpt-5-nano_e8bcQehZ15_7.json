@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If the CAST approach adds steering vectors derived from property-specific concept embeddings learned by a CBM to the frozen LLM's hidden activations to condition molecular generation on target property values, then the generated molecules will match target property values more accurately (lower MAE/Best100MAE) and exhibit higher validity, novelty, and synthesizability than baseline methods, including under out-of-distribution targets, because the CBM learns disentangled property concepts that can be linearly combined to steer generation without updating the LLM."
+}

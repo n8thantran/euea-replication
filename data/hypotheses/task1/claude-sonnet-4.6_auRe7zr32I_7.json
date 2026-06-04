@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If adaptive diversity constraints targeting overrepresented molecular fragments, scaffolds, and string patterns are applied during reinforcement learning-based generative molecular design, then the chemical diversity of generated molecule libraries will be maintained at higher levels compared to unconstrained generation, because dynamically penalizing redundant structural motifs prevents mode collapse while preserving optimization toward desired property targets such as singlet fission energy criteria."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If catalytic surfaces are represented as two concentric-shell composition vectors and generated via a chemically informed autoencoder\u2013latent diffusion model conditioned on adsorbate identity, target adsorption energy, and allowed elements, then the outputs will achieve lower Fr\u00e9chet Distance and Leakage and higher Cosine Similarity than a chemically agnostic baseline across data regimes because periodic-table-aware pretraining and property conditioning encode chemical priors that guide valid, distribution-matching compositions."
+}

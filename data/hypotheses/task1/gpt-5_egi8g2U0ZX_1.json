@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If generative models for covalent triazine framework design are pretrained on large molecular corpora, fine-tuned on a small CTF dataset, and optimized with reinforcement learning using expert-crafted rewards, then they will generate candidates with higher validity, novelty, internal diversity, improved Fr\u00e9chet ChemNet Distance, and a greater fraction passing expert filters than models trained from scratch or missing one or more of these transfer steps because chemical priors and domain constraints are effectively transferred."
+}

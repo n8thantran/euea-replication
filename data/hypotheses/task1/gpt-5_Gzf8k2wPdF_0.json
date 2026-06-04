@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If GNN training uses dynamic batching with estimated padding targets instead of static padding (constant, power-of-two, or multiple-of-64), then mean gradient-update step time will be lower across batch sizes, datasets, and models on A100 GPUs because dynamic batching reduces unnecessary padding while keeping recompilation overhead acceptable."
+}

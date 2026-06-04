@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Current state-of-the-art retrosynthesis models achieve high benchmark accuracy primarily because of dataset bias\u2014specifically, the overrepresentation of frequent reaction templates and high structural similarity between training and test molecules in standard random splits\u2014rather than genuine generalization ability, such that models evaluated on more challenging out-of-distribution splits with novel templates or unseen product structures will show substantially degraded performance."
+}

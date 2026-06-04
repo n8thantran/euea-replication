@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If template diversity is increased and template-frequency bias is reduced in the training data, then both template-based and template-free retrosynthesis models will show higher top-k and round-trip accuracy on Pistachio OOD but lower accuracy on in-domain and Pistachio ID tests, because the models shift from memorizing frequent templates to learning more transferable reactivity patterns."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If catalytic surface shell compositions are encoded with a chemically informed autoencoder and sampled by a conditional latent diffusion model conditioned on adsorbate identity, adsorption energy, and allowed elements after pretraining on OC20 and fine-tuning on HEA (including via LoRA), then CompGen will produce shell composition distributions that more closely match ground-truth (lower Fr\u00e9chet Distance), better satisfy element constraints (lower Leakage), and achieve higher pointwise fidelity (higher Cosine similarity) than chemically-agnostic baselines while retaining performance with reduced fine-tuning data."
+}

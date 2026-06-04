@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Graph neural networks using pre-trained single-gas network features can generalize etching rate predictions for gas mixtures beyond the composition ranges seen during training better than standard feedforward neural networks."
+}

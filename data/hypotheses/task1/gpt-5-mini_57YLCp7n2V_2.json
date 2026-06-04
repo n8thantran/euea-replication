@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Training 3D molecular generative models with corrected aromatic valency handling and chemically accurate (aromatic-dependent or Kekulized) datasets will reduce valency errors and produce generated structures with significantly improved agreement to GFN2-xTB-optimized geometries (lower \u0394r, \u0394\u03b8, \u0394\u03c6, and \u0394E_relax) compared to models trained on the original GEOM-Drugs data, while MMFF94-based evaluations will substantially overestimate geometric relaxation energies relative to GFN2-xTB."
+}

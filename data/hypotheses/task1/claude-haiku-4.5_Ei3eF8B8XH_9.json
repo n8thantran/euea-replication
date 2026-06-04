@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "A diffusion model trained on large-scale quantum mechanically optimized conformer datasets can generate low-energy molecular conformers with stereochemical accuracy comparable to or better than traditional conformer generation methods while maintaining computational efficiency."
+}

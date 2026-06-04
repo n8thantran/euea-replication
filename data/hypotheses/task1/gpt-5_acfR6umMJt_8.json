@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If nudged elastic band calculations are executed on an iteratively fine-tuned, pre-trained EquiformerV2 surrogate within a Bayesian Algorithm Execution loop that acquires a small number of path points, then for LJ7 and LJ38 transitions they will reproduce classical NEB minimum-energy paths and barrier heights to the same fmax/MAEi accuracy while requiring substantially fewer expensive simulator evaluations because the surrogate rapidly learns accurate energies and forces along the transition path from sparse acquisitions."
+}

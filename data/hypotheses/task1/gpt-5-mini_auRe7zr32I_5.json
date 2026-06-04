@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If reinforcement learning for singlet fission molecule generation includes fragment-based and combined diversity constraints (and adaptive penalization), then the generated compound sets will exhibit increased chemical diversity\u2014measured by lower mean pairwise similarity, more clusters, and higher unique fragment percentages\u2014and reduced overrepresented patterns compared to an unconstrained baseline while maintaining comparable singlet fission scores."
+}

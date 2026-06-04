@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Scientific foundation models trained on different modalities, architectures, and tasks (molecules, materials, proteins, text) converge toward universally similar internal representations of matter, such that models with greater training data diversity and physical inductive biases will exhibit higher cross-model representational alignment regardless of their architectural differences or input modalities."
+}

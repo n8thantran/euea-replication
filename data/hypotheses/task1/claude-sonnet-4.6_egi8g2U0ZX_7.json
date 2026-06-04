@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If combining pre-training on large chemical databases, fine-tuning on a small domain-specific dataset of covalent triazine framework structures, and reinforcement learning with expert-defined physicochemical reward functions, then generative models will produce novel, valid molecules that satisfy domain-specific structural requirements for porous carbon supercapacitor materials at higher rates than models using any single knowledge transfer strategy alone, because the sequential combination of these methods progressively narrows the chemical space toward the target domain while maintaining molecular diversity."
+}

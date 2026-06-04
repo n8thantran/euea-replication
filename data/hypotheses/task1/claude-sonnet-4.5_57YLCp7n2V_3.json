@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Correcting the valency calculation bug by accounting for aromatic bonds as 1.5 instead of 1.0 will improve the chemical validity and structural accuracy of generated 3D molecules in diffusion-based generative models."
+}

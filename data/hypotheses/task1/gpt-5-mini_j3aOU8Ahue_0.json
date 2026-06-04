@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If EfficientNet-B0 pretrained on ImageNet is first pretrained on a data-rich additive-free SEM source dataset and then fine-tuned on a small additive-induced target dataset using targeted oversampling with standard cross-entropy, it will achieve higher class-wise accuracy and F1 scores for identifying NCM composition and aging state than models trained without source pretraining, models fine-tuned with weighted loss, or alternative architectures (ResNet-18, MobileNet-v2, DenseNet-201), because the two-stage transfer learning captures transferable SEM morphological features such as particle cracking and surface boundaries."
+}

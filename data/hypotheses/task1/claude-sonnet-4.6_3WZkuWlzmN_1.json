@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If crystal material property prediction integrates complementary information from graph structural, natural language text, and X-ray diffraction spectral modalities through a cross-modal predictive learning architecture, then it will achieve lower mean absolute error than single-modality baselines (CGCNN, CoGN, ALIGNN) across multiple crystal property prediction tasks, because each modality captures distinct physicochemical features that together provide a more complete representation of material structure-property relationships."
+}

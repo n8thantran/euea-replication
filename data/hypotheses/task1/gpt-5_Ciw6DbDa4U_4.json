@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If lattice-structure mechanical property data are arranged as a low-rank tensor and only limited or bias-skewed samples are observed, then tensor-completion surrogates (CPD-S/NeAT and their ensemble) will achieve higher R\u00b2 in predicting Young\u2019s modulus and mass-normalized modulus than Gaussian Process, XGBoost, and MLP baselines because the low-rank tensor structure captures inter-parameter correlations that enable robust recovery from incomplete or biased sampling."
+}

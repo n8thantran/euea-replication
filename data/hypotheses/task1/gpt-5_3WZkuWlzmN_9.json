@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a materials property predictor jointly encodes graph, text, and simulated XRD modalities and is trained to predict each modality from the others in latent space using VIC regularization and contrastive loss, then it will achieve lower MAE on Matbench and AFLOW crystal property prediction tasks than unimodal graph baselines (CGCNN, CoGN, ALIGNN) because cross-modal predictive training learns a shared representation that fuses complementary structural information and improves generalization with minimal finetuning."
+}

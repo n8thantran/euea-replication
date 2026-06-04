@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If, in semi-supervised learning on molecular graphs, we train an ensemble of models with a \u03b3-weighted consistency loss to the gradient-detached ensemble mean on unlabeled data, then test error will decrease and calibration will improve relative to supervised, mean-teacher, and pseudo-labeling baselines across architectures and datasets\u2014and the gains will increase with ensemble size\u2014because ensemble consensus provides low-variance soft targets that regularize against overfitting to noisy pseudo-labels."
+}

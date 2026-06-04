@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Incorporating energy-based guidance and Hamiltonian Monte Carlo refinement during the reverse diffusion process will generate amorphous structures with lower potential energies and more physically realistic local geometries compared to standard score-based denoising alone."
+}

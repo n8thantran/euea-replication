@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Metal lattice structures with strong electron localization at interstitial sites can be systematically identified using machine learning trained on chemical template prototypes, and such structures will yield thermodynamically stable superhydrides with superconducting properties at high pressures."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Fine-tuning the Segment Anything Model 2 on synthetic liquid phase transmission electron microscopy video data will produce a segmentation model (SAM-EM) that achieves superior real-time particle segmentation and tracking performance compared to a task-specific U-Net baseline, because SAM 2's video-aware architecture and large pretrained feature representations enable more robust generalization across varying signal-to-noise conditions inherent in LPTEM imaging."
+}

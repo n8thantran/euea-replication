@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If provided with an experimental interface and limited sensor feedback, LLM-based agents can discover hidden selection rules in the Alien Market game and infer underlying chemical reaction mechanisms in a simulated ALP reactor, with discovery accuracy and speed improving with model capacity, larger experimental budgets, and the availability of reference QCM data."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Large language model-based multi-agent systems can autonomously set up molecular simulations and extract force field parameters from scientific literature with sufficient accuracy and reproducibility to eliminate manual intervention in computational chemistry workflows."
+}

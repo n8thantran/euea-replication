@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Gradient-descent optimization of atomic coordinates and lattice parameters using differentiable XRD similarity losses (negative cosine similarity, MSE, negative entropy similarity) fails to reliably recover ground-truth crystal structures from physically realistic lattice and coordinate perturbations across common space groups\u2014producing low StructureMatcher Match Rates indicative of many local minima in the XRD loss landscape\u2014even when enforcing symmetry constraints, whereas energy-based relaxation with CHGNet yields higher recovery rates."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If neural network Bayesian Algorithm Execution is applied to nudged elastic band calculations by iteratively fine-tuning a pre-trained equivariant foundation model using strategically acquired points along the predicted minimum energy path, then it will identify accurate transition pathways with significantly fewer energy and force evaluations from the true simulator compared to running NEB directly on the simulator, because the active learning acquisition strategy focuses computational resources on the most informative configurations along the reaction path rather than exhaustively evaluating all points."
+}

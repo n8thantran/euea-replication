@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If a delta-learning XGBoost model is trained to predict the difference between GFN1-xTB and DFT band gaps for MOFs using the Stoichiometric-135, RACs, and APRDF descriptors, then it will predict DFT band gaps more accurately than a direct XGBoost model predicting DFT band gaps, because it explicitly models and corrects the systematic discrepancy between GFN1-xTB and DFT calculations."
+}

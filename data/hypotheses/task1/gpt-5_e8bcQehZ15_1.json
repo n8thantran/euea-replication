@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If orthogonal, property-specific steering vectors learned by a concept bottleneck model from frozen LLM activations are added as a weighted sum to an intermediate layer during generation, then the LLM will more accurately and efficiently match specified molecular property targets across in- and out-of-distribution settings without degrading validity, uniqueness, novelty, or synthesizability relative to vanilla, ActAdd, and fine-tuning baselines, because these vectors align generation with disentangled property directions in activation space."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If a multimodal contrastive model is trained to align SMILES strings with 3D electron-density voxel grids, then the resulting 3D molecular embeddings will be invariant to arbitrary rigid rotations\u2014yielding higher rotated and unrotated retrieval accuracy, increased multi-pose retrieval rates, and improved pose-robust linear-probe property prediction and clustering (lower Davies\u2013Bouldin index)\u2014compared to unimodal 3D or SMILES-only baselines, because the orientation-agnostic SMILES signal supervises the voxel encoder to disentangle pose from molecular identity."
+}

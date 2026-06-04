@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If chemical articles are preprocessed into structure-preserving markdown with inserted GPT-4o image captions before a single-agent LLM extracts fields, then per-column precision/recall/F1 on ChemX nanozyme and chelate-complex datasets will exceed those of baseline LLMs, a general-purpose agent, and domain-specific multi-agent systems because structure-aware and multimodal preprocessing reduces parsing errors and information loss in end-to-end extraction."
+}

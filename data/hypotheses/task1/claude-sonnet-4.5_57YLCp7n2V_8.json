@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Correcting the valency calculation bug and using chemically accurate valency lookup tables will improve the validity and stability metrics of 3D molecule generation models when evaluated against quantum chemistry-based geometry optimization benchmarks."
+}

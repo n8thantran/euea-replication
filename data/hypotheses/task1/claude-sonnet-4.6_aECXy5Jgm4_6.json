@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a computational framework combining fragment-based polymer generation, DFT-refined force field parameters, multi-stage MD/GCMC simulations, and Bayesian optimization with pre-trained molecular representations is applied to the chemical space of hypothetical linear polyamines, then it will efficiently identify novel polyamine structures with higher solid-state direct CO2 capture performance than known reference materials within a limited simulation budget, because the surrogate-guided search exploits learned structure-property relationships to prioritize high-performing candidates without exhaustively simulating the entire chemical space."
+}

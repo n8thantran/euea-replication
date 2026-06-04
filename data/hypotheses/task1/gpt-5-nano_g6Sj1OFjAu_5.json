@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If CompGen\u2019s conditional latent diffusion model is conditioned on adsorbate identity, adsorption energy, and allowed element lists, then the generated shell-wise compositions will closely match the real catalytic surface distribution and satisfy chemical constraints (low Fr\u00e9chet Distance, low Leakage, high Cosine Similarity), because explicit conditioning provides the chemical context and feasibility guidance necessary for accurate and constrained generation, with improvements as the training data increases."
+}

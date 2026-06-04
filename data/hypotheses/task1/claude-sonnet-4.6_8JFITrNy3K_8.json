@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Large language models, particularly more capable variants like o4-mini, combined with one-shot prompting using complex in-context examples, can extract structured PROV-DM-compliant provenance graphs from materials synthesis literature with sufficient precision, recall, and collection rate to enable scalable construction of a high-quality dataset that accurately captures synthesis procedures and their parameters across diverse material classes."
+}

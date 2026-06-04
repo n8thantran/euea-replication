@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Single-step retrosynthesis models exhibit strong performance on test sets containing previously seen reaction templates but fail to generalize to out-of-distribution reactions with novel disconnection patterns, indicating that current models primarily learn template-specific patterns rather than general chemical reactivity principles."
+}

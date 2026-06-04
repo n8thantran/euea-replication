@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Bayesian optimization of bicarbonate temperature, concentration, flow rate, KOH concentration, current density, and electrode catalyst composition will identify parameter combinations that significantly increase reactor yield in reactive carbon electrolyzers beyond initial random exploration."
+}

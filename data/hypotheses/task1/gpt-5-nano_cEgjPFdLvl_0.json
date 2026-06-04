@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If the AMDEN framework uses diffusion-based denoising with an EGNN backbone and conditions generation on a target Young's modulus for a multi-element glass dataset, then the generated amorphous structures will exhibit RDFs, bond-angle distributions, and structure factors that closely match reference data and will achieve the conditioned modulus, demonstrating successful inverse design with physically realistic structures."
+}

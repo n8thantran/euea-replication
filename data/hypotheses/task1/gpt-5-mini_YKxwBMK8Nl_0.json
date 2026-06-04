@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "The single-agent pipeline that converts PDFs to structured markdown and integrates GPT-4o-generated image captions, when processed by state-of-the-art LLMs (GPT-4.1/GPT-5/GPT-OSS-20b), will achieve higher per-column precision, recall, and F1 scores and superior end-to-end extraction performance (including multimodality and output-format compliance) on the ChemX nanozyme and chelate datasets than baseline GPT-5/GPT-5 Thinking, the general-purpose ChatGPT Agent, and domain-specific multi-agent systems because preserving document structure and integrating image descriptions enables more accurate mapping to dataset schemas."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "LLM agents can autonomously discover unknown process rules and optimal operating conditions in complex chemical systems through iterative experimentation and reasoning without prior domain-specific training."
+}

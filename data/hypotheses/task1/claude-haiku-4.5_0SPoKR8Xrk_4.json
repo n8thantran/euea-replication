@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "A hybrid deep learning architecture combining 2D CNN surface encoding, GRU polymer sequence encoding, and multi-head attention mechanisms can predict polymer-surface binding free energies more accurately than baseline deep neural networks by explicitly capturing the interaction between surface structure and polymer composition."
+}

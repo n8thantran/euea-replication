@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Pre-training generative models on large general chemical datasets followed by fine-tuning on domain-specific structures and reinforcement learning with expert-defined reward functions will produce valid, novel porous carbon materials that satisfy expert criteria for supercapacitor applications more effectively than models without transfer learning."
+}

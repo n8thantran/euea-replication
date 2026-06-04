@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a reinforcement learning generative model is rewarded for high pharmacophoric similarity to known estrogen receptor antagonists while penalized for structural similarity and maintaining drug-likeness, then it will generate novel, synthetically accessible molecules with superior ER docking scores than a QED+docking baseline because pharmacophore-guided optimization captures essential interaction patterns independent of scaffold."
+}

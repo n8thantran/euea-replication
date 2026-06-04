@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If amorphous materials are generated using the AMDEN EGNN-based diffusion model with VE/VP noise schedules and energy-based HMC-refined denoising, then the resulting structures will match MD reference RDFs, bond-angle and structure-factor statistics and potential-energy distributions and can be conditioned to achieve a target Young\u2019s modulus, because energy-informed scoring and in-sampling equilibration bias denoising toward physically consistent configurations."
+}

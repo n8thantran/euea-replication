@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If a closed-loop Bayesian optimization platform is used to iteratively tune bicarbonate temperature, concentration and flow, KOH concentration and flow, and applied current density in a bipolar-membrane reactive carbon electrolyzer with Ag nanoparticle gas-diffusion electrodes, then reactor yield will converge to a higher optimum in substantially fewer experiments than uninformed exploration because Gaussian process\u2013guided acquisition efficiently learns and exploits nonlinear parameter interactions and importance."
+}

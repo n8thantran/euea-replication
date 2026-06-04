@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If fragment-generated polyamine candidates are evaluated with DFT-refined MD/GCMC simulations and selected via Bayesian optimization using polymer-specific molecular embeddings and GP-based surrogates, then top-performing CO2-adsorbing polyamines at 298 K and 0.4 mbar will be discovered with significantly fewer simulations than random or heuristic search because improved interaction parameterization and uncertainty-aware acquisition efficiently target promising regions even from low-performing initializations."
+}

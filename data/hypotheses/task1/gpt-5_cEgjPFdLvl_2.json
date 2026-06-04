@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If an EGNN-based diffusion model with energy-guided denoising and HMC refinement is trained on amorphous materials datasets, then it will generate density-controlled amorphous structures that reproduce reference RDFs, bond-angle distributions, structure factors, and energy distributions and can be conditioned to achieve target Young\u2019s modulus, because equivariant, energy-guided diffusion captures interatomic symmetries and energetics while enabling property control."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If initial crystal structures are moderately distorted by lattice strain or coordinate noise, then gradient-descent optimization of differentiable XRD-similarity losses will fail to reliably recover the ground-truth structures because the XRD-based loss landscape is highly rugged with many local minima, and recovery improves only when symmetry constraints are enforced or when energy-based relaxation (CHGNet) is used."
+}

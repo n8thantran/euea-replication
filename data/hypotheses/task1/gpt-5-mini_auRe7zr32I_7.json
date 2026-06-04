@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If adaptive fragment- and similarity-based diversity constraints are applied during REINVENT4 reinforcement learning to generate singlet-fission candidate molecules, then the resulting molecule sets will exhibit greater chemical diversity (higher mean pairwise representation distance, more clusters, more unique fragments and scaffolds, and fewer overrepresented SMILES n-grams) than unconstrained generation while maintaining comparable Chemprop-predicted \u0394E_SF performance."
+}

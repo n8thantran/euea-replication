@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "When trained on limited or biased samples from the lattice-design tensor, tensor-completion surrogates (CPD-S and NeAT) and their ensemble will achieve higher predictive accuracy (mean R\u00b2) for Young's modulus and mass-normalized Young's modulus than Gaussian process, XGBoost, and MLP baselines, demonstrating greater robustness to sampling bias and small-sample regimes."
+}

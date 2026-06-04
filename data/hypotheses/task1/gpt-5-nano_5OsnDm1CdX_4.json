@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If the GraphSAGE-based model using frozen single-gas neural network features concatenated with Ar fraction as node attributes can predict the 10 radial etching rates of Ar/O2 mixtures with higher accuracy on unseen operating conditions and compositions than a baseline feedforward neural network, then the graph-based approach generalizes mixture etching-rate prediction by effectively leveraging single-gas representations and mixture information."
+}

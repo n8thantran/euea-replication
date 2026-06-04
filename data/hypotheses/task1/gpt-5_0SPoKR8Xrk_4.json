@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If polymer surface patterns and polymer sequences are encoded via a 2D-CNN and GRU respectively and coupled by a multi-head attention mechanism trained on high-throughput MD-derived binding free energies with symmetry-based augmentation, then the model will predict binding free energies of unseen polymer\u2013surface pairs with significantly lower mean absolute error than baseline models because it captures sequence\u2013surface interaction motifs and physical invariances."
+}

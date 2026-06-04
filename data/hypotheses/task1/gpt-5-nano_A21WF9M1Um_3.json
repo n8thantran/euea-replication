@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If gradient-descent optimization is applied to recover crystal structures from distorted XRD patterns, then the recovered structures will have a low match rate with the ground truth because the XRD-based loss landscape is rugged and non-convex, even when symmetry constraints are enforced."
+}

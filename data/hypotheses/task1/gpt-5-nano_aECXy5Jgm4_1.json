@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If Bayesian optimization using Thompson sampling with the specified polymer representations and surrogate models is applied to the 1,000 candidate polyamines, then it will identify polyamines with CO2 adsorption capacity close to the maximum ymax using fewer simulation evaluations than random search, demonstrating accelerated discovery of high-performance polyamines for solid-state direct CO2 capture."
+}

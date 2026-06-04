@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Incorporating chemical domain knowledge through periodic table representation pretraining and shell-wise compositional constraints into a conditional diffusion model will enable more accurate inverse design of catalytic surface compositions compared to chemically-agnostic generative approaches."
+}

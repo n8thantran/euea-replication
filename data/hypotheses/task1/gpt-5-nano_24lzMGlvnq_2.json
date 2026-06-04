@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a language model is fine-tuned on BCC/B2 alloy composition triples (SFT) and then optimized with Direct Preference Optimization using a Thermo-Calc\u2013based hierarchical reward, then it will produce candidate designs that more often satisfy the four synthesis objectives (BCC and B2 phase coexistence, BCC forming first, B2 existing at room temperature, and <10% non-BCC/B2 phases) than baselines, because the physics-based feedback aligns model generation with thermodynamic stability."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Pre-trained universal machine-learning interatomic potentials, particularly equivariant GNNs and graph-transformer architectures with appropriate dispersion corrections, can reproduce CP2K/PBE-D3(BJ) DFT-level structural, thermodynamic, and mechanical properties of diverse metal\u2013organic frameworks\u2014producing optimized geometries, stable NpT trajectories, bulk moduli, and heat capacities that closely match the DFT references without task-specific fine-tuning."
+}

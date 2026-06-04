@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "A hybrid deep learning model combining 2D CNN surface encoding, GRU polymer sequence encoding, and multi-head attention mechanism can accurately predict polymer-surface binding free energies from molecular structure alone because the attention mechanism captures the spatial correspondence between polymer sequence features and surface composition patterns that determine adhesion strength."
+}

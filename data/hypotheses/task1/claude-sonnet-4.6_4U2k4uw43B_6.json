@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If machine learning interatomic potentials pre-trained on large datasets are used to generate converged initial pathway guesses for solid-state nudged elastic band calculations, then the subsequent DFT-based refinement will require significantly fewer computational iterations to converge compared to purely DFT-based SSNEB, because the ML-derived images already reside near the true minimum energy pathway and thus reduce the optimization burden on the expensive first-principles calculations."
+}

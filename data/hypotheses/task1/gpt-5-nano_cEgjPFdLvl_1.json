@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "AMDEN, when trained and applied to generate amorphous silicon under varying thermal histories and a multi-element glass dataset conditioned on Young's modulus, will produce structures whose RDFs, bond-angle distributions, structure factors, and energy distributions closely match reference MD/experimental data, demonstrating both faithful structure generation and controllable mechanical properties."
+}

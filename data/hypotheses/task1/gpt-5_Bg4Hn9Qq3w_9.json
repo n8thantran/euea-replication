@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If LLM agents equipped with ReACT tool use are allowed to iteratively design and execute experiments with sparse feedback, then they will infer the latent governing rules of both abstract and simulated ALP systems with accuracy above chance that increases with model capability, experimental time/budget, and availability of reference signals, because adaptive hypothesis-driven interrogation enables efficient information extraction from limited observations."
+}

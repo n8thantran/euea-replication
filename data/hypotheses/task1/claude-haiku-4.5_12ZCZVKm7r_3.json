@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Scientific foundation models across diverse architectures and modalities converge toward universal representations of matter structure that preserve neighborhood relationships and global manifold geometry independent of input format or training objective."
+}

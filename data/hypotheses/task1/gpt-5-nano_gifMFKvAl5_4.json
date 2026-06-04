@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a diffusion-based material design model enforces non-negativity and sum-to-one constraints on component proportions, then it will generate samples with higher validity under physical constraints (Validityreg) and fabrication viability (Validityfab) than baseline CVAE and TabDDPM, demonstrating improved feasible design of carbon-fiber/epoxy composites with fillers."
+}

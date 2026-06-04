@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If EfficientNet-B0 is first pretrained on a data-rich set of additive-free NCM SEM images and then fine-tuned on the small additive-induced SEM dataset with class balancing, then it will achieve higher accuracy and F1 in classifying the nine composition-aging classes than models trained only on the target data or without stage-1 pretraining, because transferable additive-invariant morphological features (e.g., particle cracking and surface boundaries) learned from the source domain improve generalization in the data-poor domain."
+}

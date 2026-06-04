@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If FREED++ is trained with a dual-objective reward that maximizes pharmacophoric similarity to a reference set of 53 estrogen receptor antagonists/degraders and minimizes structural similarity to promote novelty, then the generated molecules will exhibit high pharmacophore similarity to ER ligands and novel scaffolds (low structural similarity to known compounds) while maintaining QED, docking scores, and SA values, thereby outperforming the baseline QED-docking design because the reward explicitly biases toward pharmacophore conformity and scaffold novelty."
+}

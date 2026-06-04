@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If the Force Delta (RMS disagreement between \u2212\u2207\u00ca and direct force outputs) of a pre-trained NNIP increases, then its true force error versus DFT increases monotonically across equilibrium and adversarially perturbed structures and correlates more strongly than ensemble variance, because intra-model force inconsistency quantifies epistemic uncertainty without extra data."
+}

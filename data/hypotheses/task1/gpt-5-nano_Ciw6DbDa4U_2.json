@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Tensor completion surrogates (CPD-S and NeAT) will achieve higher R\u00b2 predictive accuracy than Gaussian Process, XGBoost, and MLP baselines when predicting Young's modulus and mass-normalized Young's modulus from lattice design parameters, under both uniform random and biased non-uniform training-data sampling."
+}

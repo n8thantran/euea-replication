@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Fine-tuning SAM 2 on synthetic liquid-phase TEM video data will produce a segmentation model (SAM-EM) that achieves superior real-time particle segmentation and tracking performance compared to a U-Net baseline across varying signal-to-noise conditions, because SAM 2's video-aware architecture and memory mechanisms enable more robust temporal propagation of object masks in the noisy, low-contrast imaging environment characteristic of LPTEM."
+}

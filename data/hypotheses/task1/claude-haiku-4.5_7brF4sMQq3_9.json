@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "A diffusion model trained with Classifier-Free Guidance on metastable state data alone, combined with score-aligned ascent refinement, can accurately sample transition states without requiring transition state data or prior knowledge of reaction coordinates."
+}

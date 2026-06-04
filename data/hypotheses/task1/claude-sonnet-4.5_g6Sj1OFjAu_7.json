@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Pretraining a conditional diffusion model on large-scale alloy data and incorporating chemical domain knowledge through a chemically-informed autoencoder will enable accurate inverse design of catalytic surface compositions that satisfy specified adsorption energy targets and elemental constraints."
+}

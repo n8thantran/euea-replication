@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If the Segment Anything Model 2 is fully fine-tuned with box prompts on a physics-informed synthetic LPTEM video dataset spanning liquid thickness\u2013controlled SNR, particle counts, and resolutions, then the resulting SAM-EM will segment and track nanoparticles in LPTEM videos more accurately (higher Jaccard, F1, and J&F) than a U-Net baseline and yield centroid positions that agree with manual annotations on real data, because foundation-model priors combined with task-specific synthetic training confer robustness to low SNR, overlaps, and domain shift."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Machine learning-guided Bayesian optimization can autonomously identify optimal operating conditions that maximize reactor yield in reactive carbon electrolyzers more efficiently than traditional experimental approaches."
+}

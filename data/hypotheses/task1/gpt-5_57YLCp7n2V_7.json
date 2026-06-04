@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If 3D molecule generation models are trained and evaluated with chemically accurate aromatic valency handling (via corrected valency lookup tables or Kekulized datasets), then they will produce molecules with higher chemical validity and lower GFN2-xTB geometry deviations and relaxation energies than models using the original valency bug and aromatic ambiguity, because enforcing correct aromatic bond orders constrains generation to physically realistic bonding patterns."
+}

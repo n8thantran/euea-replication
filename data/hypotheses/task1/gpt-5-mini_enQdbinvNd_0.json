@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "A coordinated multi-agent LLM-based framework can autonomously extract complete and correct force field parameters from publications and use them to generate reproducible, executable RASPA adsorption simulation setups across varying adsorbates, structures, and simulation types."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Incorporating physics-based regularization constraints (non-negativity and sum-to-one) into the diffusion model loss function will improve the validity of generated composite material formulations compared to unconstrained generative models while maintaining sample diversity and fidelity to target properties."
+}

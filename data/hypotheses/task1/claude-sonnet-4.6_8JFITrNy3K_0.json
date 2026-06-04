@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If large language models are prompted with domain-specific in-context examples of increasing complexity using a structured PROV-DM schema, then more capable reasoning models (such as o4-mini) with one-shot prompting will achieve higher precision, recall, and F1-scores for extracting material synthesis provenance graphs from scientific literature compared to smaller or zero-shot configurations, because richer contextual guidance reduces ambiguity in mapping synthesis narratives to formal graph structures."
+}

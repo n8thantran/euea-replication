@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If GEOM-Drugs benchmarks use corrected aromatic valency handling (via lookup tables or Kekulization) and GFN2-xTB-based geometry evaluation, then reported valency errors will decrease and model performance rankings will change relative to prior reports because the original valency bug and MMFF94 evaluation systematically mischaracterized molecular correctness."
+}

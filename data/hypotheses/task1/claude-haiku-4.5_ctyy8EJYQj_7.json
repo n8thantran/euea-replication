@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Large Language Models equipped with physics-based simulation tools and prompt tuning can solve inorganic synthesis planning problems with comparable or better success rates than classical A* search algorithms despite visiting more states in the solution space."
+}

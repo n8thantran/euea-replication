@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "An end-to-end discrete stochastic autoencoder that jointly learns sequence design and structure prediction (E2EFOLD) will produce designed sequences whose predicted structures closely match the input backbones (high TM-score, low RMSD) and yield higher sequence recovery and structure reconstruction accuracy than decoupled baseline methods, and removing structural loss terms will degrade this reconstruction accuracy."
+}

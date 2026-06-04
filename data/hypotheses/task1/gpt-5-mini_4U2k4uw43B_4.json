@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If pretrained equivariant ML surrogates (eqV2 or eSEN) are used to obtain ML-only NEB pathways and then restart DFT-based SSNEB from ML-converged images, then the total DFT iterations and wall-clock time required to converge minimum energy pathways and transition states for CsPbI3 polymorph transitions and the TiO2-B\u2192anatase transformation will be significantly reduced relative to VASP-only NEB while yielding final energy barriers and atomic geometries that agree with pure DFT results within 0.05 eV per formula unit, because the ML models provide accurate surrogate energies, forces, and stresses that produce NEB images close to the DFT minima."
+}

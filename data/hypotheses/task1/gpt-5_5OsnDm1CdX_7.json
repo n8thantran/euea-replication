@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a mixture etch-rate model represents each gas as a node whose attributes include frozen features from pre-trained single-gas networks concatenated with gas fractions and aggregates them via a GraphSAGE layer, then it will predict 10-point radial PMMA etch-rate profiles for Ar/O2 plasmas more accurately and with better extrapolation to unseen high power/pressure and low-argon-fraction regimes than FNN, GCN, or GAT baselines, because leveraging transferable single-gas representations enables more generalizable mixture behavior."
+}

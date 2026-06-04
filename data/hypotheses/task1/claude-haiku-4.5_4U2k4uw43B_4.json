@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Machine learning-accelerated nudged elastic band calculations using pre-trained equivariant neural networks as DFT surrogates can identify metastable states and minimum energy pathways with significantly reduced computational cost while maintaining accuracy comparable to full DFT calculations."
+}

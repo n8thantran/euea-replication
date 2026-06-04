@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If Fe K-edge XAS spectra and corresponding local iron structures are accurately curated from the literature, then graph neural networks can predict spectra from structure and simple models can infer coordination number and mean Fe\u2013ligand distance from spectra with low error because the spectra reproducibly encode local geometric features."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "A conditional latent diffusion model trained on periodic table representations can generate valid catalytic surface compositions that satisfy specified constraints (adsorbate type, adsorption energy, allowed elements) with higher distributional quality and constraint compliance than chemically-agnostic baseline approaches."
+}

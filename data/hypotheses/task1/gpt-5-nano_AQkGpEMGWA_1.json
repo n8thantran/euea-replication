@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If silicon-based Li\u2013Si\u2013X compounds with theoretical capacity >1500 mAh/g possess large, stable Li+ diffusion channels whose radii Rt remain nearly constant between charged and discharged states, then an AI-guided design pipeline conditioned on these properties will generate additional candidate materials that meet these screening criteria and pass CHGNet relaxation stability (mean energy per atom variation < 4%)."
+}

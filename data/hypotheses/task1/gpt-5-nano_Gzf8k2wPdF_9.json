@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If dynamic batching is used instead of static batching (static-constant, static-2N, and static-64), then the gradient-update step time will be lower for each batch size (16, 32, 64, 128) on both QM9 and AFLOW datasets, because dynamic batching adaptively estimates padding targets to minimize padding and wasted computation."
+}

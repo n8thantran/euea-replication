@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If an autonomous materials discovery agent uses the pretrained MatterGen structure generator combined with a diversity-based acquisition function rather than a random generator and random selection, then it will discover significantly more novel stable compounds within the 20-query budget (\u03b5=0.01 eV/atom) because the diffusion-trained generator plus diversity acquisition produces more chemically diverse, higher-quality candidates that better explore unexplored composition space."
+}

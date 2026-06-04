@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If metal superhydride discovery is structured around the chemical concept of quasi-atom electron localization in metal lattices as a primary screening criterion combined with machine learning predictions of thermodynamic stability, then this workflow will more efficiently identify novel stable and high-temperature superconducting metal superhydrides compared to unguided high-throughput searches, because constraining the structural search space using chemically meaningful descriptors reduces computational cost while preserving the most promising candidates for DFT validation."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Machine learning-guided Bayesian optimization can identify optimal operating parameters that maximize CO2 conversion efficiency (reactor yield) in reactive carbon electrolyzers more efficiently than traditional experimental design approaches."
+}

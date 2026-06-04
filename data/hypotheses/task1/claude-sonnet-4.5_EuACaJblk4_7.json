@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "End-to-end joint training of protein structure prediction and inverse folding within a single autoencoder framework will produce sequence designs that achieve higher self-consistency (better reconstruction of input structures) compared to models trained separately for each task."
+}

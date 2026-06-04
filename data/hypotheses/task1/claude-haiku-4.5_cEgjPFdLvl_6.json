@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "A diffusion model with an equivariant graph neural network backbone can generate structurally realistic amorphous materials by iteratively denoising atomic positions and elements, and incorporating energy-based refinement with Hamiltonian dynamics will improve the quality of generated structures compared to standard denoising approaches."
+}

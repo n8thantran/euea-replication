@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If an ensemble-based semi-supervised consistency loss that trains each model to match the gradient-detached ensemble mean is applied, then predictive accuracy and calibration will improve relative to supervised training and existing SSL methods (mean-teacher, PSEUDO\u03c3) across molecular graph and image benchmarks with limited labeled data, with larger ensembles producing greater gains and results robust to the choice of coupling weight \u03b3."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Iron-containing protein local atomic structures can be accurately predicted from X-ray absorption spectra using graph neural networks, and conversely, X-ray absorption spectra can be predicted from local atomic structure information."
+}

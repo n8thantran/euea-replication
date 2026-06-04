@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a language model is continually pre-trained on MOF-specific literature and large PubChem structural datasets, then fine-tuned MOFid-to-property prediction models will achieve lower MAE than models without such pre-training and outperform CGCNN, SOAP, and MOFormer baselines\u2014particularly in low-data fine-tuning regimes\u2014because domain-relevant textual and chemical pre-training imparts transferable knowledge that improves property prediction from MOFid text representations."
+}

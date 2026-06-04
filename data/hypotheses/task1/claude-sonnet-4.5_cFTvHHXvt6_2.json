@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Increasing the size of the frozen language encoder and the depth of the trainable decoder will improve the accuracy of translating natural language descriptions into multilayer thin-film designs that match target structural colors, as measured by lower CIE76 \u0394E values."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If a CNN (e.g., EfficientNet-B0) is first pretrained on data-rich additive-free NCM SEM images and then fine-tuned on a small additive-induced SEM dataset, then it will achieve higher accuracy/F1 in classifying NCM composition and aging state than models trained from scratch or without source-domain pretraining because transferable morphological features (e.g., cracks and surface boundaries) are shared across the two domains."
+}

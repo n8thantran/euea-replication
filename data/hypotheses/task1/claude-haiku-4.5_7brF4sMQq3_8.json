@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Combining score-based diffusion model guidance with an energy-maximizing refinement step enables accurate a priori sampling of transition states from metastable state data alone without requiring transition state trajectories or prior knowledge of reaction pathways."
+}

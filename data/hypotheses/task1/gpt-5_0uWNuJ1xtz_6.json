@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If seven molecular textual representations are jointly pre-trained in a hybrid Transformer\u2013Mamba encoder\u2013decoder with alignment (masked-LM/sentence embedding) and reconstruction objectives, then the model will learn a unified latent space that clusters molecules consistently across modalities and enables more accurate cross-representation translation and downstream property prediction than single-representation models because multimodal training captures complementary chemical structure and composition information."
+}

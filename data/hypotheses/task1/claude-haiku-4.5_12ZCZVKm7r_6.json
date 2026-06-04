@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Scientific foundation models trained on different modalities (molecules, materials, proteins) and architectures (equivariant, non-equivariant, text-based, language models) converge toward similar underlying representations of matter structure and properties."
+}

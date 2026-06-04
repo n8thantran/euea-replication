@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Dynamic batching reduces wasted computation from padding compared to static batching algorithms, resulting in faster training throughput for graph neural networks because it adapts padding targets to the actual distribution of graph sizes in each batch, thereby minimizing the number of dummy nodes and edges added during the batching process."
+}

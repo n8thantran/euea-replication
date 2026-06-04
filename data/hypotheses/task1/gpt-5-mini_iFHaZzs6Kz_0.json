@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a multimodal contrastive model is trained to align SMILES strings with 3D electron density voxel grids, then the learned molecular embeddings will be emergently invariant to arbitrary 3D rotations\u2014yielding higher rotated-molecule retrieval accuracy, greater pose-diverse retrieval rates, and improved property-clustering and linear-probe prediction compared to unimodal 3D or SMILES baselines\u2014because cross-modal contrastive alignment encourages extraction of rotation-agnostic chemical semantics shared between sequence and density modalities."
+}

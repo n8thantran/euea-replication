@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a diffusion-based generative model for composite formulations is trained with non-negativity and sum-to-one physics regularizers, then it will yield higher Validityreg and Validityfab and equal or better Density/Coverage than unconstrained CVAE and TabDDPM baselines on the carbon composite dataset because constraining the diffusion process to the physically admissible simplex biases generation toward feasible, physically consistent compositions."
+}

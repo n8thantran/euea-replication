@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If protein sequence design and structure prediction are trained jointly in a single end-to-end discrete stochastic autoencoder with a straight-through Gumbel-Softmax sequence bottleneck and composite structural losses, then the model will achieve higher sequence recovery and produce designed sequences whose predicted structures more closely match target backbones (higher TM-score/lower RMSD) than separately trained baselines because end-to-end optimization enforces self-consistent coupling between sequence and structure representations."
+}

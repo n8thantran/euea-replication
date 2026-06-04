@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If an autonomous materials discovery agent in MADE uses the pretrained MatterGen structure generator with a diversity-maximizing acquisition function, then within a 20-query budget it will discover significantly more novel stable compounds than agents using random generation and/or random acquisition across both Na\u2013O and Co\u2013Nb\u2013Sn and both initialization modes, because guided priors and diversity sampling more efficiently cover chemically distinct low-energy regions of composition\u2013structure space."
+}

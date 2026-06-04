@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If Ar/O2 mixture etching rates are predicted with a two-node GraphSAGE model that fuses frozen pre-trained single-gas neural encoders and gas-fraction inputs, then it will achieve lower errors and better generalization to withheld power/pressure regimes and low-Ar-fraction compositions than monolithic FNNs or alternative GNNs because transferable single-gas representations and message passing capture mixture interactions."
+}

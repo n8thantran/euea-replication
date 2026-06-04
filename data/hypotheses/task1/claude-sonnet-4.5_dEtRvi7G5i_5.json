@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If metal lattice configurations with strong electron localization at interstitial sites (quasi-atoms) are identified first using machine learning trained on known structural prototypes, then this chemical template-guided approach will more efficiently discover thermodynamically stable metal superhydrides with high superconducting transition temperatures compared to undirected structural searches."
+}

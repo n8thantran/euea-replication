@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Scientific foundation models trained on different modalities, architectures, and training objectives converge toward universally similar representations of matter structures, as evidenced by statistically significant alignment between their learned embeddings across molecules, materials, and proteins."
+}

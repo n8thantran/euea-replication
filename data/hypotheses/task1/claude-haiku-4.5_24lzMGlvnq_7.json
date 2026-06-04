@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Training language models with physics-based preference optimization using hierarchical thermodynamic rewards will generate novel BCC/B2 superalloy compositions with higher validity, coverage, and quality than models trained with supervised fine-tuning alone or baseline approaches, because direct preference optimization aligns model outputs with physically feasible design objectives."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Neural network Bayesian Algorithm Execution using iteratively fine-tuned EquiformerV2 can efficiently compute minimum energy pathways for Lennard-Jones systems with comparable accuracy to classical nudged elastic band calculations while requiring substantially fewer evaluations of the expensive physical simulator."
+}

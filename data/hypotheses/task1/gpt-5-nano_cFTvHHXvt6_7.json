@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If the encoder size and decoder depth are increased, then CHROMA will produce multilayer thin-film designs that yield lower CIE76 \u0394E between target colors and colors simulated from the designs, demonstrating improved inverse-design accuracy and linguistic generalization across training paraphrase and novel optical targets."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a discrete Gumbel-Softmax autoencoder is trained end-to-end to encode backbone coordinates into sequences and decode sequences back into structures with joint structural and sequence losses, then it will recover native sequences and accurately reconstruct 3D structures (high TM-score/low RMSD) on both natural and generated backbones, matching or surpassing separate baselines, because joint optimization learns a self-consistent discrete sequence\u2013structure representation."
+}

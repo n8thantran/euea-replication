@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If pre-trained equivariant ML models (eqV2 or eSEN) are used as DFT surrogates to generate and initialize SSNEB pathways for solid-state phase transformations, then subsequent DFT-refined NEB calculations will recover DFT-quality minimum energy pathways, transition states, and barriers with significantly fewer iterations and reduced compute time than VASP-only NEB, because the ML models provide sufficiently accurate energies, forces, and stresses to start near the true MEP."
+}

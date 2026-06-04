@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If frozen, pre-trained single-gas neural networks are used to produce node features that are combined with gas-fraction inputs and processed by a GraphSAGE two-node graph model, then this transfer-learning GNN will predict radial etching rates for Ar/O2 mixtures more accurately and generalize better to withheld high power/pressure conditions and low-Ar-fraction regimes than a baseline feedforward network and alternative GCN/GAT architectures because the single-gas features encode gas-specific physics that aid mixture representation."
+}

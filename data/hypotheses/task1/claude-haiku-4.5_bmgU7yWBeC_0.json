@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "The magnitude of disagreement between conservative and non-conservative force predictions from a single direct-force pre-trained neural network potential correlates with prediction error and can serve as a data-free uncertainty estimate without requiring ensemble methods or ground-truth labels."
+}

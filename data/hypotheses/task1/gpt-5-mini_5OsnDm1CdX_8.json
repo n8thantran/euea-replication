@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Using frozen, pre-trained single-gas neural networks to generate node features for a two-node GraphSAGE model that also includes gas fraction inputs will produce more accurate and more generalizable predictions of radial etching rates for Ar/O2 mixtures (higher R\u00b2 and lower weighted MSE), particularly under withheld high power/pressure and low-Ar-fraction test conditions, than a conventional feedforward baseline or other GNN architectures."
+}

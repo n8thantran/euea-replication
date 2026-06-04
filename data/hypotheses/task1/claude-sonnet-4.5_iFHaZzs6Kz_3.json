@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Contrastive alignment of SMILES strings with 3D electron density grids enables learned 3D molecular representations to achieve rotation invariance without explicit geometric inductive biases."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Dataset composition and template diversity in training data determine whether single-step retrosynthesis models generalize better to novel products with known reaction templates versus novel disconnections with unseen templates."
+}

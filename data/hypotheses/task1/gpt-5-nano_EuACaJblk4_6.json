@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If an end-to-end discrete stochastic autoencoder (E2EFOLD) trained with joint structure prediction and structure-based sequence design losses maps backbone coordinates to amino acid distributions and reconstructs all-atom structures, then the designed sequences will exhibit high sequence recovery and the resulting structures will closely match the reference structures (high TM-scores and low RMSDs), demonstrating self-consistency between design and structure."
+}

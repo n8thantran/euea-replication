@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If FREED++ is trained to maximize pharmacophoric similarity (CATS descriptors) while minimizing structural similarity (MACCS/MAP4) with higher weight on similarity metrics, then it will generate novel molecules that preserve the pharmacophore features of known estrogen receptor antagonists while being structurally distinct from known database compounds and achieving equal or better docking scores, QED values, and synthetic accessibility than a QED+docking baseline."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Scientific foundation models trained on different physical systems (molecules, materials, proteins) and using different architectures converge to similar latent representations of matter that preserve universal structural and chemical information."
+}

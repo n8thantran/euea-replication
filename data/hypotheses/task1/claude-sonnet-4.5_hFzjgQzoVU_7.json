@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Computational models can learn bidirectional mappings between local atomic structure and X-ray absorption spectra in iron-containing proteins, enabling prediction of spectral features from structural graphs and structural properties from spectral data."
+}

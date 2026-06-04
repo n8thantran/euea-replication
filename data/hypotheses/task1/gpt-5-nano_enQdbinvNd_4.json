@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a multi-agent LLM-based system autonomously extracts literature-derived force-field parameters and configures zeolite adsorption simulations, then the extracted parameters and simulation outputs are correct and complete relative to the publications and reproducible across five repeated runs, producing adsorption isotherms and heats of adsorption that agree with published benchmarks."
+}

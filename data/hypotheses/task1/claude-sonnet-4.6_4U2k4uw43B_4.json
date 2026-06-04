@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If machine learning interatomic potentials (EquiformerV2 and eSEN) pretrained on large materials datasets are used to generate converged initial pathway guesses for solid-state nudged elastic band calculations, then the subsequent DFT-based SSNEB refinement will require significantly fewer iterations to reach convergence compared to pure DFT-SSNEB, thereby reducing total computational cost while maintaining DFT-level accuracy in identifying metastable states and transition pathways."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If crystal material property prediction is performed using a cross-modal predictive architecture that jointly leverages graph, text, and X-ray diffraction spectral representations through cross-modal latent space prediction and contrastive learning, then prediction accuracy (measured by MAE) will surpass single-modality baselines such as CGCNN, CoGN, and ALIGNN, because integrating complementary structural, compositional, and diffraction information from multiple modalities captures richer material representations than any single modality alone."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If pre-trained single-gas neural networks are used as feature extractors within a graph neural network architecture to encode gas-specific plasma behavior, then the resulting model will more accurately and generalizably predict mixture etching rates across unseen process conditions and gas compositions compared to a standard feedforward neural network trained directly on mixture data, because the graph structure explicitly captures pairwise gas interactions while leveraging transferable single-gas knowledge encoded in the frozen sub-networks."
+}

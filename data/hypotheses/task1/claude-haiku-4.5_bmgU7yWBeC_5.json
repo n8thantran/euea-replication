@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "The disagreement between conservative and non-conservative force predictions in pre-trained neural network potentials provides a data-free uncertainty estimate that correlates with true prediction error across diverse atomic systems and out-of-distribution configurations."
+}

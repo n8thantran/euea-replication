@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a model with a frozen Llama encoder and a trainable Transformer decoder is trained on simulated multilayer thin-film/color pairs, then it will generalize to novel and paraphrased natural-language prompts by producing multilayer designs whose simulated colors closely match the targets (low CIE76 \u0394E), with accuracy improving as encoder/decoder size increases because larger models better capture the mapping from language to optical structure."
+}

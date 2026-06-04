@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a GraphSAGE model that ingests frozen latent features from pre-trained single-gas FNNs along with gas fractions is used to predict Ar/O2 mixture radial etching rates, then it will achieve lower weighted MSE (higher R\u00b2) than direct FNN, GCN, or GAT baselines\u2014including under withheld high power/pressure regions and when trained only on xAr>0.2\u2014because gas-specific latent representations enable better generalization to unseen mixture compositions and operating regimes."
+}

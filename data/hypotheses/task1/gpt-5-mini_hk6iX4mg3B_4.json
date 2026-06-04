@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If an ensemble-consensus semi-supervised objective that penalizes deviations of individual models from the ensemble mean (weighted by \u03b3) is applied to molecular graph and image tasks with limited labeled data, then it will achieve lower predictive error and improved calibration than supervised baselines and existing SSL methods (mean-teacher, PSEUDO\u03c3), with performance improving as ensemble size increases and remaining robust across coupling weights, loss functions, and scheduling strategies."
+}

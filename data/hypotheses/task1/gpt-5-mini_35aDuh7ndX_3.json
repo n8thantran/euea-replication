@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "A pharmacophore-guided reinforcement learning approach that maximizes CATS-based pharmacophoric similarity to known estrogen receptor antagonists while minimizing MACCS/MAP4 structural similarity will generate novel, synthetically accessible, drug-like molecules with preserved predicted binding affinity (docking score to PDB 8AWG) and high QED values while remaining absent from ChEMBL, ZINC, and PubChem."
+}

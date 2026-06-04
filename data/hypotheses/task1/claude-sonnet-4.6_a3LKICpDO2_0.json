@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a \u2206-learning approach is used to correct systematic errors in computationally inexpensive GFN1-xTB band gap calculations using XGBoost models trained on structural descriptors, then the resulting predictions will more accurately reproduce high-level DFT (PBE and HSE06) band gaps for metal-organic frameworks than either direct machine learning models trained on DFT targets alone or deep learning benchmarks, because the semi-empirical method captures the dominant physics of the electronic structure while the correction model need only learn a smaller, more systematic residual error."
+}

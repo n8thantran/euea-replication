@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If scientific PDFs are preprocessed into structure-preserving markdown with GPT-4o-generated image captions and then parsed by a single-agent LLM using standardized prompts, then per-column F1 scores for end-to-end extraction on the ChemX nanozymes and chelate complex datasets will exceed those of GPT-5, GPT-5 Thinking, the ChatGPT Agent, and domain-specific multi-agent systems because preserving document structure and minimizing inter-agent coordination reduces extraction errors and improves schema compliance."
+}

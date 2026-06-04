@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Enhancing the MACE architecture with gating mechanisms and species-dependent edge features will yield faster inference during molecular dynamics simulations while preserving or improving the accuracy of predicted energies and forces compared to the standard MACE model."
+}

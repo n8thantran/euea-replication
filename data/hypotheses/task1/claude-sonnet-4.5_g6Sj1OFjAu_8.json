@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Incorporating chemical domain knowledge through a chemically-informed autoencoder and pretraining on large-scale catalytic surface data enables a conditional diffusion model to generate more realistic and constraint-compliant atomic compositions for inverse design of catalytic surfaces compared to chemically-agnostic approaches."
+}

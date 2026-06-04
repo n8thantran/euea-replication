@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Scientific foundation models trained on different modalities and architectures converge on similar universal representations of matter structure that are detectable through alignment metrics, indicating that these models learn common underlying principles of atomic and molecular organization independent of their training objectives or input formats."
+}

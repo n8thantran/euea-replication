@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a conditional latent diffusion model trained on the CIAE latent space and conditioned on adsorbate identity, adsorption energy, and allowed element lists can generate shell-wise catalytic surface compositions that (i) closely reproduce the real data distribution (lower Fr\u00e9chet Distance), (ii) satisfy chemical constraints (low Leakage), and (iii) achieve high point-wise quality (high Cosine Similarity) compared to a chemically-agnostic baseline, then the CompGen framework enables effective inverse composition design of catalytic surfaces and its performance scales with training data."
+}

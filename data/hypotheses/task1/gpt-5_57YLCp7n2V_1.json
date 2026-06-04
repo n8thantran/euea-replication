@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If 3D molecule generation models are trained and evaluated with corrected aromatic valency (via accurate lookup tables or Kekulized GEOM-Drugs) and assessed using GFN2-xTB, then they will produce molecules with fewer valency violations and lower geometry/relaxation deviations than models trained/evaluated on the original dataset with MMFF94, because fixing the valency bug removes systematic aromatic-bond errors and xTB better reflects quantum-consistent geometries."
+}

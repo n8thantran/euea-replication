@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If lattice design\u2013property data are sampled sparsely or with convenience-biased distributions, then tensor completion surrogate models (CPD-S, NeAT, and their ensemble) will achieve higher R\u00b2 in predicting Young\u2019s modulus and mass-normalized modulus than Gaussian Process, XGBoost, and MLP baselines because they exploit low-rank multiway correlations to reconstruct unobserved entries."
+}

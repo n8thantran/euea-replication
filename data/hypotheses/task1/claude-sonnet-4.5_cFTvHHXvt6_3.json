@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "A frozen large language model encoder combined with a trainable transformer decoder can learn to map natural language descriptions of colors to multilayer thin-film optical designs that reproduce the target structural coloration with low perceptual color difference (\u0394E)."
+}

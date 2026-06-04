@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Tensor completion surrogate models will outperform traditional machine learning baselines (Gaussian Process, XGBoost, MLP) in predicting mechanical properties of lattice structures, particularly under biased and limited sampling conditions, because tensor completion exploits the inherent multi-dimensional structure of the design parameter space to achieve more accurate interpolation with fewer training samples."
+}

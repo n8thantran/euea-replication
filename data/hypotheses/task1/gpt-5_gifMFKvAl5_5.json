@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a tabular diffusion model for composite design is trained with physics-based non-negativity and sum-to-one regularizers (PCDiff), then on the carbon composite dataset it will produce higher Validityreg and Validityfab and equal or better Density/Coverage than CVAE and TabDDPM, because the constraints enforce generation within the physically feasible composition simplex and guide learning toward fabricable regions."
+}

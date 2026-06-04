@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If CAST steering is applied to a frozen LLM by adding concept-based steering vectors derived from a Concept Bottleneck Model that encodes target molecular properties, then the generated molecules will have property values closer to the targets (lower MAE) with maintained validity and novelty, because the steering aligns the model's hidden representations with explicit property concepts."
+}

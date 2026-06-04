@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If simulation-based metrics (RMSD and SUN) are integrated with property-based and latent-space metrics into a unified evaluation framework grounded in DFT calculations, then this framework will reveal systematic discrepancies between purely ML-based metrics and physically meaningful assessments of generated crystal structures, demonstrating that existing generative materials models produce structures that appear valid by geometric and statistical measures but fail to satisfy thermodynamic stability criteria on the convex hull."
+}

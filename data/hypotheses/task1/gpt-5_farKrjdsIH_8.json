@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If the Segment Anything Model 2 is fine-tuned end-to-end on a physics-informed synthetic LPTEM dataset spanning liquid thickness/SNR and resolution variations with box prompts, then it will outperform a U-Net baseline in IoU, F1, and J&F on diverse synthetic tests and yield centroid positions that agree with manual annotations on real LPTEM data because training on realistic physics-driven variability enables robust segmentation and tracking."
+}

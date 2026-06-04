@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If universal machine learning interatomic potentials (MLIPs) are applied to MOFs, then their predictions for structural optimization (convergence and final volumes), MD stability (volume changes under NpT), bulk moduli, and heat capacities will closely match corresponding DFT references."
+}

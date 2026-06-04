@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If the semantic alignment between a scientific task and its available tools is increased (via task decomposition, workflow-oriented tool descriptions, or adding a hypothesis-generator), then LLM agent performance (e.g., pass@5/success rate) will improve more than it does from switching between agent frameworks or models, because better alignment enables more accurate tool selection and sequencing."
+}

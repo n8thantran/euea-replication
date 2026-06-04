@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If transfer learning (pre-training on large chemical datasets followed by fine-tuning on a curated Covalent Triazine Framework dataset) combined with reinforcement learning using expert-defined rewards for flatness, symmetry, conjugation, steric hindrance, and pattern matching is applied, then the generated CTF candidates will exhibit higher validity, greater diversity and novelty, and a larger proportion passing expert filters than configurations without such transfer learning and RL, because domain-relevant pre-training and reward-guided optimization bias generation toward CTF-relevant chemical space and structural criteria."
+}

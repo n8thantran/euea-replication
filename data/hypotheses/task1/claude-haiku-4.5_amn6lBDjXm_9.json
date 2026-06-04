@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Generative models trained on large crystal structure databases produce materials with greater chemical and structural validity when evaluated using DFT-integrated metrics that assess stability, uniqueness, and novelty compared to evaluation using only statistical or latent-space similarity measures."
+}

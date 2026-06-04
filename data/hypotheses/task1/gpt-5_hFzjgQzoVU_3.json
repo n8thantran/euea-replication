@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If Fe K-edge XAS spectra of iron-containing proteins are accurately digitized from the literature and paired with standardized graph representations of their local iron environments, then machine-learning models will predict spectra from structure and infer coordination number and mean nearest-neighbor distance from spectra with high accuracy on held-out data, because Fe K-edge XAS features are governed primarily by the local coordination geometry and bond lengths."
+}

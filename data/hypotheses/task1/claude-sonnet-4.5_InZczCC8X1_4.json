@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Machine learning-guided closed-loop optimization can systematically identify reactor operating conditions that maximize carbon utilization efficiency in reactive carbon electrolyzers more effectively than traditional experimental approaches."
+}

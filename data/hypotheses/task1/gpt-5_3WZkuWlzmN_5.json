@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a cross-modal predictive model jointly encodes crystal graphs, RoboCrystallographer text (via MatSciBERT), and simulated XRD patterns and trains each modality to predict the others with VIC/contrastive regularization, then material property prediction MAE on Matbench tasks and AFLOW band gap will be lower than CGCNN/CoGN/ALIGNN baselines because aligning complementary modalities yields a more generalizable latent representation with minimal fine-tuning."
+}

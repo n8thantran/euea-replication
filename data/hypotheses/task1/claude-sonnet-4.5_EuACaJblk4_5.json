@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "End-to-end training of a coupled protein structure prediction and sequence design model will improve the consistency between predicted sequences and their corresponding structures compared to using separate, independently-trained models for each task."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "A diffusion model with an equivariant graph neural network backbone can generate realistic amorphous material structures with physically accurate local geometry and properties comparable to molecular dynamics simulations when trained on diverse thermal histories and refined using energy-based denoising with Hamiltonian Monte Carlo equilibration."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If dynamic batching is used instead of static padding strategies (static-constant, static-2N, static-64), then per-step training time (batching plus gradient-update) will be lower across QM9 and AFLOW datasets and across SchNet, PaiNN, and MPEU models for batch sizes 16\u2013128 because dynamic batching reduces padding overhead and thus wasted computation without incurring recompilation costs large enough to negate the speedup."
+}

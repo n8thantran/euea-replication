@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Generative models trained on large structural databases can produce physically valid and chemically stable novel materials that maintain lower energy distances from known stable phases compared to randomly perturbed structures, as validated through DFT-computed metrics of stability, uniqueness, and novelty."
+}

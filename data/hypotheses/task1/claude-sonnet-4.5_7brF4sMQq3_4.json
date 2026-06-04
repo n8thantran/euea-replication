@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Guided diffusion models trained only on metastable state data can generate high-quality transition state structures by interpolating conditional scores from reactant and product states and applying force projection along the score difference direction."
+}

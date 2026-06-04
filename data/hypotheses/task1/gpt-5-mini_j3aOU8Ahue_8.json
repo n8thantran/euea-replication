@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If EfficientNet-B0 is first pretrained on a data-rich additive-free SEM dataset and then fine-tuned on a small additive-induced SEM target set, it will achieve higher class-wise accuracy and F1 for identifying NCM composition and aging state than models trained without such source pretraining or trained from scratch, and targeted oversampling during fine-tuning will outperform weighted cross-entropy loss, because pretraining captures transferable morphological features (e.g., particle cracking and surface boundaries) that improve discrimination in the data-poor target domain."
+}

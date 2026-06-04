@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If universal machine learning interatomic potentials can accurately represent MOFs, then they will reproduce DFT-level structural optimization results, maintain MD stability under NpT conditions at 300 K and 1 bar, predict bulk moduli within close agreement to DFT via Birch-Murnaghan fits, and yield 300 K heat capacities in agreement with Phonopy calculations, because they are trained on diverse MOF datasets and include dispersion-corrected interactions."
+}

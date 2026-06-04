@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a reinforcement-learning generative model maximizes CATS-based pharmacophoric similarity to known estrogen receptor antagonists while penalizing MACCS/MAP4-based structural similarity (alongside QED), then it will produce molecules with superior ER docking scores and higher novelty without loss of drug-likeness compared to a QED+QVina baseline because preserving key pharmacophore patterns maintains binding interactions while penalizing structural similarity drives exploration of new chemotypes."
+}

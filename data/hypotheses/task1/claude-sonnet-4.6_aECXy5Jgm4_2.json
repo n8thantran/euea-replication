@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a computational framework combining fragment-based polymer generation, DFT-refined force field parameters, multi-stage MD/GCMC simulations, and Bayesian optimization with pre-trained molecular representations is applied to the chemical space of polyamines, then it will efficiently identify high-performance solid-state CO2 capture materials with superior adsorption capacities compared to known reference polyamines within a limited simulation budget, because the surrogate-guided search can exploit structural\u2013property relationships encoded in pre-trained embeddings to prioritize promising candidates without exhaustively evaluating the full hypothetical polymer library."
+}

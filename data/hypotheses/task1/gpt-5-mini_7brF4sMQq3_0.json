@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a single score-based diffusion model is trained only on metastable-state trajectories and used with score-based (isodensity) interpolation during the reverse SDE followed by Score-Aligned Ascent refinement using the conditional score difference as an approximate reaction coordinate, then it will generate transition-state configurations with committor values near 0.5 and higher success rates and sampling efficiency than linear and geodesic interpolation baselines across toy potentials, alanine dipeptide, chignolin, and a chemical reaction."
+}

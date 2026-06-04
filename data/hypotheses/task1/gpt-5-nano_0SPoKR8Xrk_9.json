@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a hybrid neural network combining a 2D CNN surface encoder, a GRU polymer encoder, and multi-head attention trained on symmetry-augmented PMF data can predict polymer\u2013surface binding free energies, then it will achieve lower prediction error on unseen surfaces and sequences than baseline encoders."
+}

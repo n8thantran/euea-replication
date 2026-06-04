@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Bayesian optimization that uses polymer-specific pretrained molecular representations (PolyNC or polyBERT) together with surrogate models and simulations employing DFT-refined Lennard-Jones parameters and the two-stage MD+GCMC workflow will identify polyamines in the top 1% of CO2 adsorption capacity from the 1,000-candidate library within 30 simulated evaluations more frequently than BO using general-purpose representations (MoLFormer, MolGen-large, MiniMol) or random search."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If natural language descriptions of target optical properties are used to condition a frozen large language model encoder paired with a trainable Transformer decoder operating over a discrete material-thickness vocabulary, then the resulting system (CHROMA) will accurately generate multilayer thin-film designs that achieve specified structural coloration targets (as measured by low CIE76 \u0394E values), because the semantic representations encoded by the LLM capture sufficient optical and material constraints to guide inverse design of photonic structures."
+}

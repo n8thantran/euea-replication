@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "The loss landscape of XRD-based crystal structure optimization contains numerous local minima and discontinuities that make it too non-convex for gradient descent methods to reliably recover ground-truth structures from distorted initial configurations, because small perturbations to lattice parameters or atomic coordinates produce abrupt, non-smooth changes in the XRD pattern similarity metrics that trap optimizers in suboptimal solutions."
+}

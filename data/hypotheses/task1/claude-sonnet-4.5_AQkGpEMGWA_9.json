@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Silicon-containing lithium compounds (LixSiyXz) with computed capacities above 1500 mAh/g and large continuous Li+ migration channels that remain stable between charged and discharged states can be identified and designed using machine learning-guided screening and generative AI methods to discover novel high-performance anode materials for lithium-ion batteries."
+}

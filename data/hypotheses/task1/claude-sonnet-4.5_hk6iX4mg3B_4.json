@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Enforcing consistency among predictions from an ensemble of neural networks on unlabeled data improves generalization performance in semi-supervised molecular property prediction compared to supervised learning alone."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a generative materials model achieves superior property- and latent-based scores in the proposed framework, then DFT evaluation will show a higher fraction of its samples relax to low-RMSD structures with energy above hull < 0.1 eV/atom (higher SUN), because the chemically grounded metrics are predictive of true thermodynamic stability and structural fidelity."
+}

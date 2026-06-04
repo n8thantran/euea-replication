@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If ML-SSNEB using eqV2 or eSEN is used to pre-converge NEB images prior to DFT SSNEB, then the total number of DFT iterations and wall-clock computational time required to obtain converged minimum energy pathways and transition states for CsPbI3 and TiO2 will be significantly reduced compared to VASP-only NEB while yielding MEPs and transition-state energies and geometries that agree with pure DFT results within DFT convergence tolerances, because the ML surrogates accurately approximate DFT energies, forces, and stresses and therefore provide high-quality starting images."
+}

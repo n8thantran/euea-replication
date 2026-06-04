@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Implementing adaptive diversity constraints during reinforcement learning-guided molecular generation reduces structural redundancy and maintains broader chemical space exploration compared to unconstrained generation, as measured by increased unique fragments, reduced mean pairwise similarity, and greater cluster diversity."
+}

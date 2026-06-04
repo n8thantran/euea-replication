@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If open-weight language models are first supervised fine-tuned on BCC/B2 composition triples and then optimized with Direct Preference Optimization using thermodynamic-simulation-based rewards (with \u03b2=0.5), then they will generate alloy candidates with higher mean hierarchical reward, greater compositional validity, improved coverage and novelty relative to the Materials Project, and higher unique-generation rates than SFT-only models and baseline methods, because DPO aligns model outputs to physics-based synthesis objectives while \u03b2-regularization mitigates distribution shift."
+}

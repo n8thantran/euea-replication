@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If closed-loop Bayesian optimization is used to tune bicarbonate temperature, concentration and flow, KOH concentration and flow, and current density in a silver-catalyzed reactive carbon electrolyzer, then reactor yield will be maximized and the resulting optimal conditions will generalize to mixed bicarbonate\u2013carbonate feeds because the model-guided search efficiently identifies and exploits the most influential parameters and their interactions."
+}

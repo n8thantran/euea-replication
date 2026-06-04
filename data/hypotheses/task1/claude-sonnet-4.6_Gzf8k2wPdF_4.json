@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If dynamic batching is applied to graph neural network training instead of static batching methods, then it will achieve faster training throughput (reduced wall-clock time per training step) because it minimizes wasted computation from padding by adaptively estimating graph size distributions, resulting in higher GPU utilization without sacrificing model accuracy."
+}

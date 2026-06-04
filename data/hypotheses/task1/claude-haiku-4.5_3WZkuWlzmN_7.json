@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Cross-modal prediction loss combining graph, text, and spectral modalities of crystal structures with contrastive regularization improves material property prediction accuracy compared to single-modality graph neural network baselines."
+}

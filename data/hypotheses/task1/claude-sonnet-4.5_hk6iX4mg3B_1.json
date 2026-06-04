@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Enforcing consensus among an ensemble of neural networks on unlabeled data improves semi-supervised learning performance on molecular property prediction tasks because it regularizes individual models toward a shared decision boundary that leverages the collective knowledge of the ensemble."
+}

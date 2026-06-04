@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Neural network Bayesian Algorithm Execution with iterative fine-tuning of a foundation model can reduce the number of expensive energy and force evaluations required to compute converged minimum energy paths compared to classical nudged elastic band methods."
+}

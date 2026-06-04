@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If catalytic surface composition design is reformulated as a conditional 2D shell-wise generation problem using a chemically informed latent space and diffusion model, then the resulting framework (CompGen) will generate chemically valid and energetically targeted surface compositions with greater distributional fidelity and constraint compliance than a chemically-agnostic baseline, because encoding domain-specific periodic table relationships into the latent space provides structured priors that guide the generative model toward physically meaningful compositional regions."
+}

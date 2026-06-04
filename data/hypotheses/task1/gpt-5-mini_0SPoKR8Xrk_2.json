@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "A hybrid deep learning model that encodes surfaces with a 2D CNN, polymer sequences with a GRU, and relates them via multi-head attention trained on symmetry-augmented MD-derived binding free energy data will predict polymer\u2013surface binding free energies more accurately (lower MAE) than baseline DNNs and alternative polymer encoders."
+}

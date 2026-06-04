@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Incorporating energy-based score prediction with Hamiltonian Monte Carlo refinement during the reverse diffusion process will generate amorphous materials with more physically realistic local geometries and lower potential energies compared to standard denoising methods."
+}

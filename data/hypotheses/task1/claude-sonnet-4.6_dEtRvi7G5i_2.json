@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If metal superhydride discovery is structured around chemical concepts of electron localization at interstitial quasi-atom sites in metal lattices, then a machine learning workflow trained on known structural prototypes can efficiently predict thermodynamically stable and superconducting metal superhydrides with higher accuracy and reduced computational cost compared to unguided high-throughput screening, because the chemical template constrains the search space to physically meaningful configurations where hydrogen cage formation is favored."
+}

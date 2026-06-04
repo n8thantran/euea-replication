@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If multiple neural networks are jointly trained with a \u03b3-weighted consistency loss that pulls each model toward the gradient-detached ensemble mean on unlabeled data in addition to supervised loss on labeled data, then predictive accuracy and calibration across molecular graph benchmarks will exceed those of supervised, mean-teacher, and pseudo-labeling baselines because ensemble consensus provides more reliable soft targets and mitigates overfitting."
+}

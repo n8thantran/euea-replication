@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a closed-loop Gaussian process\u2013based Bayesian optimizer adaptively selects bicarbonate temperature and concentration, KOH concentration and flow rates, and applied current density in a silver-catalyzed reactive carbon electrolyzer, then it will rapidly identify high-yield operating conditions that generalize to mixed bicarbonate\u2013carbonate feeds because the model efficiently learns and exploits the high-dimensional, noisy response surface to prioritize informative experiments and key parameters."
+}

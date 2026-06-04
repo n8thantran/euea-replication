@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If large language models are prompted with domain-specific in-context examples and structured output constraints aligned with PROV-DM, then they can accurately extract provenance graphs of material synthesis procedures from scientific literature at both structural and parametric levels, with more capable models and higher-complexity one-shot examples yielding superior precision, recall, and F1-scores compared to less capable models and zero-shot prompting."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Integrating thermodynamic calculations, cellular automata simulations, machine learning predictions, and commercial availability data into a computational workflow will identify economically efficient synthesis routes for inorganic materials that balance thermodynamic favorability with reactant cost and accessibility."
+}

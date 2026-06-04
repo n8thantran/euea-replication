@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a modular, dynamic benchmark framework (MADE) is implemented with interchangeable oracles, structure generators, and acquisition functions evaluated across multiple chemical systems, then systematic differences in discovery performance will emerge between agent configurations (e.g., learned generators like MatterGen versus random generators, and diversity-based versus random acquisition), demonstrating that the framework can validly discriminate between autonomous materials discovery strategies by measuring novel stable compound discovery rates."
+}

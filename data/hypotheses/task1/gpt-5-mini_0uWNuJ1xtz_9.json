@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "Pretraining the STR-Bamba encoder-decoder on seven molecular textual modalities using a shared custom BPE tokenizer and hybrid Transformer\u2013Mamba architecture produces aligned, modality-agnostic latent embeddings that yield superior clustering of molecules by representation and chemical properties, improved downstream property prediction across diverse small-molecule, polymer, and electrolyte datasets, and high-fidelity translation between molecular representations compared to models trained on single modalities or without the hybrid architecture."
+}

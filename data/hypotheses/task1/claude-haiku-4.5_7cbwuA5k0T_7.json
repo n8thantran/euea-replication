@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If scientific LLM agents are provided with tools and task descriptions that are semantically aligned with the underlying task requirements, then agent performance will improve more substantially than varying the agent framework architecture or scaffolding approach."
+}

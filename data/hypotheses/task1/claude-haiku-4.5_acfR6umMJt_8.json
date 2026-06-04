@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Neural network Bayesian Algorithm Execution with iterative fine-tuning of a pre-trained foundation model can efficiently compute minimum energy paths for molecular transitions with fewer simulator calls than classical nudged elastic band methods while maintaining convergence to equivalent saddle points."
+}

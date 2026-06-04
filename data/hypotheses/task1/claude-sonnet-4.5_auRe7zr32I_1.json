@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Applying adaptive diversity constraints during reinforcement learning-based molecular generation will maintain greater structural diversity in generated molecules compared to unconstrained generation, as measured by reduced mean pairwise similarity, increased cluster counts, and more uniform fragment distributions."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If generative models are pre-trained on large chemical databases (ChEMBL or ZINC), then fine-tuned on a curated CTF dataset and further optimized with reinforcement learning using expert-designed reward functions, they will produce molecules with higher validity, uniqueness, internal diversity, novelty, and percentage passing expert structural filters and lower Fr\u00e9chet ChemNet Distance to target CTFs than models without this sequence of transfer learning and reward shaping because pretraining provides general chemical knowledge while fine-tuning and reward signals bias generation toward CTF-relevant features."
+}

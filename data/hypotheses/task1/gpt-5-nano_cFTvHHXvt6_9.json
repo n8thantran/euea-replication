@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If increasing encoder size and decoder depth improves CHROMA's ability to translate natural-language prompts into accurate multilayer designs, then larger models (1B/3B/8B encoders and 2/4/8-layer decoders) will produce designs yielding lower CIE76 \u0394E errors on both the TP and validation splits, because greater model capacity enhances the language-to-design mapping and generalization to paraphrases and novel optical targets."
+}

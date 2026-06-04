@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If scientific tasks are made more semantically aligned with the available tools (e.g., by increasing task\u2013tool embedding similarity, providing more workflow-oriented tool descriptions, or adding a hypothesis-generation tool), then LLM agents will achieve larger gains in success rate and scores than from switching the agent scaffold or base model, because improved task\u2013tool alignment reduces planning and grounding errors independent of framework choice."
+}

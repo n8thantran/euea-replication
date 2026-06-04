@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If trained on preprocessed MP and OQMD datasets, diffusion-based generative models (CDVAE, GemsDiff, DiffCSP) will produce crystal structures that, after DFT relaxation, exhibit lower RMSD, lower energy-above-hull, and formation-energy/density distributions closer to the training data than structures produced by controlled perturbations, demonstrating the framework can distinguish chemically realistic generation from random distortions."
+}

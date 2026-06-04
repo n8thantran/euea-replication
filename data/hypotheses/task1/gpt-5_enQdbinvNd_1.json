@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If specialized LLM agents with tool access and shared memory are coordinated in a multi-agent framework, then they will autonomously produce reproducible, correct RASPA adsorption simulations and accurately extract literature force fields sufficient for end-to-end execution across increasing task complexity, because division of labor and tool-augmented ReAct reasoning enable faithful configuration and information extraction."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "End-to-end training of a joint encoder-decoder model that directly maps protein backbone coordinates to amino acid sequences and reconstructs structures will achieve better sequence-to-structure consistency than sequential pipelines that decouple sequence design from structure prediction."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If Force Delta (U\u2206) increases for both equilibrium and adversarially perturbed structures, then the true error \u03b5direct between predicted non-conservative forces and ground-truth DFT forces increases, indicating that U\u2206 is a data-free predictor of force prediction uncertainty in NNIPs."
+}

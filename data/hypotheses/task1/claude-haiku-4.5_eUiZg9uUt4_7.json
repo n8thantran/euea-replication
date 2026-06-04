@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Models trained on datasets with greater template diversity will demonstrate better generalization to out-of-distribution reactions with unseen templates compared to models trained on datasets biased toward frequent templates."
+}

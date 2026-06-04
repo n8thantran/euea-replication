@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Bayesian optimization guided by GCMC-predicted CO2 adsorption capacity, leveraging pre-trained polymer representations and multiple surrogate models on fragment-generated linear polyamines, will identify polymers with higher CO2 adsorption capacity at 0.4 mbar than those discovered by random sampling, because the approach efficiently prioritizes high-adsorption candidates using accurate, physics-informed simulations."
+}

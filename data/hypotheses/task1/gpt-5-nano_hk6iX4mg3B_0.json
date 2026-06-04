@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "An ensemble-based semi-supervised learning approach that minimizes a gradient-detached ensemble-consistency loss on unlabeled data will yield higher predictive accuracy and better calibration than supervised learning and existing SSL baselines on molecular graph datasets when labeled data are scarce."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If Ar/O2 mixture etching rates are predicted using a GraphSAGE model that aggregates frozen features from pre-trained single-gas O2 and Ar networks (with gas-fraction attributes), then the model will more accurately and robustly generalize to unseen power/pressure regimes and low-Ar-fraction cases (xAr \u2264 0.2) than FNN/GCN/GAT baselines because transferable single-gas embeddings composed by composition-aware message passing capture mixture etch physics."
+}

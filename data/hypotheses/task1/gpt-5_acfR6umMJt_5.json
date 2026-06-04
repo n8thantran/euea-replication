@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If NEB is executed on a pretrained EquiformerV2 surrogate with Bayesian Algorithm Execution that iteratively acquires informative ground-truth labels from path samples, then LJ7 and LJ38 minimum-energy paths will reach the same fmax convergence with low MAEi using significantly fewer expensive simulator evaluations than classical NEB, because uncertainty-guided fine-tuning efficiently approximates the relevant potential-energy surface."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If pretrained equivariant ML models (eqV2 and eSEN) are used to compute approximate MEPs and then DFT SSNEB is restarted from these ML-converged images, then the ML+VASP workflow will require fewer DFT SSNEB iterations and substantially less computational time than VASP-only NEB while yielding MEPs and transition-state energies and geometries equivalent to VASP-only results for CsPbI3 and TiO2."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If physics-constrained diffusion (PCDiff) enforcing non-negativity and sum-to-one on component proportions is used to generate carbon composite designs, then the generated samples will exhibit higher Validityreg and Validityfab rates than those produced by CVAE and TabDDPM, because the regularizations constrain compositions to feasible, fabricable regions while maintaining fidelity to target properties."
+}

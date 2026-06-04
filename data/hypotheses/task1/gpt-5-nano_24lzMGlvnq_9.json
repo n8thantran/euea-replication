@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a language model is fine-tuned on known BCC/B2 alloy data and then optimized with Direct Preference Optimization using a Thermo-Calc\u2013informed hierarchical reward encoding BCC/B2 coexistence, BCC-first formation, room-temperature B2 existence, and <10% non-BCC/B2 phases (with lattice mismatch as a fine-grained metric), then the model will generate alloy candidates that more frequently satisfy all four synthesis objectives and achieve higher mean reward scores than baselines, because the reward guidance biases generation toward thermodynamically feasible, compositionally valid designs."
+}

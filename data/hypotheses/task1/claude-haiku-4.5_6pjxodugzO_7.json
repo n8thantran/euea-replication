@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Chemical foundation models pre-trained on large molecular datasets will predict battery material properties across multiple scales (from molecular to device level) with greater accuracy and generalization to out-of-distribution samples than traditional fingerprint-based approaches."
+}

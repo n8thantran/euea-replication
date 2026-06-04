@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "E2EFOLD, a discrete stochastic autoencoder trained end-to-end to jointly predict amino acid sequences and reconstruct all-atom structures, produces designed sequences that fold back to the input backbones with high self-consistency (high TM-score/low RMSD), achieves competitive sequence recovery and structure prediction accuracy versus existing methods, and exhibits degraded reconstruction performance when structural loss terms are removed."
+}

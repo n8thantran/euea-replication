@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If metal superhydride discovery is structured around chemical template theory by using known structural prototypes to train machine learning models that predict thermodynamic stability from metal lattice features, then this workflow will efficiently identify novel stable high-temperature superconducting metal superhydrides with reduced computational cost compared to unguided high-throughput searches, because the chemical concept of quasi-atom electron localization at interstitial sites constrains the search space to physically meaningful candidates that are more likely to be thermodynamically stable and exhibit strong electron-phonon coupling."
+}

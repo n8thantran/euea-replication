@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a synthesis-planning workflow integrating thermodynamic reaction-network design, cellular automata reaction simulations, and ML feasibility with commercial pricing/availability data is applied to commercially accessible precursors in the Ca\u2013Si\u2013O\u2013C\u2013N\u2013H\u2013Al\u2013B space at 800\u20131600\u00b0C, then it will identify recipes that experimentally yield Ca2SiO4 with higher economic efficiency than baseline selection because the combined models capture likely reaction pathways and incorporate cost constraints."
+}

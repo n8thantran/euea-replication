@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a generative materials model truly captures chemically valid crystal structures, then its samples and lightly perturbed references will relax under DFT to low-RMSD configurations with energy-above-hull \u22640.1 eV/atom, low EMD distances, and high latent precision/recall, whereas systematically increasing perturbations or using weaker models will monotonically worsen these metrics because physically stable structures relax to nearby minima on the potential-energy surface."
+}

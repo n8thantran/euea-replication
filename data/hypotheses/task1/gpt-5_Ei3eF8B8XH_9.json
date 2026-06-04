@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a stereochemistry-aware E(3)-equivariant diffusion model with explicit R/S and E/Z graph augmentations (LoQI) is trained on AIMNet2/CPCM-optimized ChEMBL3D conformers, then it will generate stereochemically correct, topology-preserving conformer ensembles whose lowest-energy members are equal to or lower in DFT energy and closer in RMSD to experimental crystal structures than those from conventional conformer generators because the equivariant architecture and stereochemical constraints guide sampling toward quantum-mechanically accurate minima with minimal relaxation."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Modified MACE with gating mechanisms and species-dependent edge features will reduce inference time during MD simulations of protein systems (1UAO and 1ABT) without compromising the accuracy of predicted energies and forces relative to the baseline MACE model."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Scientific foundation models trained on different modalities, architectures, and domains (molecules, materials, proteins) converge toward a universal latent representation of matter that captures the same underlying physical and chemical structure, such that embeddings from independently trained models will exhibit high mutual alignment as measured by geometric similarity metrics, regardless of whether the models were trained on the same data or with the same architectural inductive biases."
+}

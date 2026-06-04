@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Graph neural networks trained on the curated XDIP local-iron graph representations will accurately predict 100-point Fe K-edge XAS spectra (XANES and EXAFS) with low mean-squared error, and spectrum-based machine learning models will accurately classify iron coordination number and regress mean nearest-neighbor distance from those spectra."
+}

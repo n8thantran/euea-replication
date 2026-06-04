@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a frozen large language model encoder is paired with a trainable Transformer decoder operating over a discrete vocabulary of material-thickness tokens, then the resulting system can accurately translate natural language color descriptions into physically realizable multilayer thin-film designs, because the language model's semantic representations capture the mapping between linguistic color specifications and the optical constraints needed for structural coloration inverse design."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Transformer-based encoder-decoder models with spectral alignment mechanisms can accurately predict molecular composition from infrared spectra of mixtures by learning to reconstruct pure component spectra as an auxiliary task."
+}

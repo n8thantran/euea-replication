@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "A single-agent system using structured document preprocessing (PDF-to-markdown conversion with image captioning) combined with large language models will achieve comparable or superior performance in automated chemical information extraction compared to existing multi-agent systems, as measured by precision, recall, and F1 scores across multiple chemical domains."
+}

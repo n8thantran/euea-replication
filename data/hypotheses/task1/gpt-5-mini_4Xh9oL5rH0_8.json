@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If universal machine-learning interatomic potentials trained on diverse datasets are used to model MOFs, then they will reproduce CP2K-PBE-D3(BJ) reference results across diverse MOF chemistries\u2014yielding optimized geometries with volume deviations \u22645%, maintaining MD stability in 50 ps NpT simulations with volume changes \u22645%, predicting bulk moduli within 10% of DFT from Birch\u2013Murnaghan fits, and computing 300 K heat capacities within 5% of phonon-derived DFT values\u2014because the MLIPs capture the relevant interatomic interactions and transfer across porous frameworks."
+}

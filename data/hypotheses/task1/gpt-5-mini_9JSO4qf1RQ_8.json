@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If MatAgent augments LLMs with explicit tool access (short-/long-term memory, periodic table, knowledge base) and closed-loop feedback from DiffCSP and iComFormer, then it will more successfully generate novel, valid, and unique inorganic compositions and structures that meet target formation energies (within \u00b10.25 eV/atom) and yield higher V.U.N. scores than tool-free LLM baselines and MatterGen, because iterative tool-guided planning and property-informed structure refinement improve search efficiency and accuracy."
+}

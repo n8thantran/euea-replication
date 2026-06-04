@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Machine learning models trained on chemically-templated structural prototypes can accurately predict the thermodynamic stability of metal superhydride candidates, enabling efficient discovery of novel superconducting materials through high-throughput screening."
+}

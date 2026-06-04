@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If the integrated workflow is applied to Ca2SiO4 synthesis within the Ca\u2013Si\u2013O\u2013C\u2013N\u2013H\u2013Al\u2013B space at 800\u20131600\u00b0C, then the recipes designated as economically optimal will exhibit higher thermodynamic feasibility for Ca2SiO4 formation and lower total reactant cost than non-optimized recipes, because the workflow couples thermodynamic analysis, React-CA simulations, and commercial pricing to optimize both feasibility and cost."
+}

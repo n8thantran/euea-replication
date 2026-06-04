@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "AI-guided design and screening will yield Li\u2013Si\u2013X anode materials that have computed capacities above 1500 mAh/g and exhibit a large Li+ diffusion channel radius Rt that remains nearly constant between charged and discharged states, while also satisfying a stability criterion of mean energy per atom variation below 4%."
+}

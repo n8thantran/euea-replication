@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If an ensemble-consensus semi-supervised objective that adds a gamma-weighted consistency loss to the supervised loss (driving individual models toward the ensemble mean) is trained on partially labeled molecular-graph and image datasets, then it will achieve higher predictive accuracy and better uncertainty calibration than supervised baselines and mean-teacher, with larger ensemble sizes yielding greater performance gains."
+}

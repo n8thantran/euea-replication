@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Single-step retrosynthesis models exhibit biased performance that correlates with template frequency in training data and fails to generalize to out-of-distribution reactions with unseen templates, indicating that current benchmarks overestimate model capability due to dataset bias."
+}

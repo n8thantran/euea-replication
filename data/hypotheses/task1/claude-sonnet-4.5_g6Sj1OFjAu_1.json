@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Incorporating chemical domain knowledge through a chemically-informed autoencoder pretrained on materials data and conditioning a diffusion model on adsorbate identity, adsorption energy, and element constraints will enable more accurate and constraint-compliant inverse design of catalytic surface compositions compared to chemically-agnostic approaches."
+}

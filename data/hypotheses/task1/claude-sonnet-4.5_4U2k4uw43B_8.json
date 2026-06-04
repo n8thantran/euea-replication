@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Machine learning-accelerated nudged elastic band calculations using pre-trained equivariant neural network potentials as DFT surrogates can reduce the computational cost of identifying minimum energy pathways and transition states in solid-state phase transformations while maintaining sufficient accuracy when refined with subsequent DFT calculations."
+}

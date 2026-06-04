@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If existing benchmarks for 3D molecule generation contain systematic errors in valency calculation and rely on chemically inaccurate evaluation protocols, then correcting these errors\u2014by fixing aromatic bond handling, constructing accurate valency tables, and replacing MMFF94 with GFN2-xTB for geometry evaluation\u2014will substantially alter the reported performance rankings and validity metrics of state-of-the-art generative models, because the original benchmarks systematically misclassify chemically invalid molecules as valid and use a reference geometry method ill-suited to drug-like molecules."
+}

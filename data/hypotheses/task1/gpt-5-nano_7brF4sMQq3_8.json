@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If SBI and SAA-guided diffusion trained only on metastable-state data sample transition-state configurations by interpolating conditional scores and applying force-aligned ascent, then the resulting transition-state configurations and reaction-coordinate estimates will be more accurate than those from linear or geodesic interpolation because the combination of score-based interpolation and TS-focused ascent explicitly steers sampling toward true transition-state regions without requiring explicit TS data."
+}

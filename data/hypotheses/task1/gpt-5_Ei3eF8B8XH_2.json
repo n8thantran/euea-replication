@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a stereochemistry-aware equivariant diffusion model (LoQI) is trained on AIMNet2/CPCM-optimized ChEMBL3D conformers, then it will generate low-energy, stereochemically correct conformers that preserve topology and achieve lower relaxation energies and RMSDs to reference structures than baseline methods across diverse drug-like molecules because explicit chirality/E\u2013Z graph augmentations and equivariant diffusion learn the underlying 3D energy landscape."
+}

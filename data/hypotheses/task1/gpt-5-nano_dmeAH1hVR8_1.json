@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a model is pre-trained on MOF-related literature and PubChem data and then fine-tuned on MOFid-to-property tasks, it will achieve lower MAE on MOF property predictions than the CGCNN, SOAP, and MOFormer baselines, with the improvement most pronounced when fine-tuning data are scarce because pre-training provides domain-specific knowledge and chemical-property mappings that transfer to MOF prediction."
+}

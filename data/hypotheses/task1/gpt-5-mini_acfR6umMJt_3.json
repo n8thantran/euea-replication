@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If the EquiformerV2 foundation model is iteratively fine-tuned using the NN-BAX active-learning NEB pipeline, then NEB runs performed on the model for LJ7 and LJ38 will reproduce the ground-truth minimum energy paths (meeting the same fmax convergence criteria and low MAEi) while requiring significantly fewer expensive simulator energy/force evaluations than classical NEB, because the pretrained model plus targeted acquisition accurately approximates the underlying potential energy surface."
+}

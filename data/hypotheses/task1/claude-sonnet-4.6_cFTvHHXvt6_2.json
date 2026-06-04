@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If natural language descriptions of target optical properties are used to condition a frozen large language model encoder paired with a trainable Transformer decoder operating over a discrete vocabulary of material-thickness tokens, then the resulting system (CHROMA) will accurately perform inverse design of structural coloration in multilayer thin-film stacks\u2014as measured by low CIE76 \u0394E color difference\u2014because the language model's semantic representations encode sufficient spectral and perceptual color information to guide autoregressive generation of valid layer sequences, with performance improving as encoder scale and decoder depth increase."
+}

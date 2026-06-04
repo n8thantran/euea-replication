@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Reinforcement learning-guided molecular generation that jointly optimizes pharmacophoric similarity to known estrogen receptor antagonists and structural novelty will produce drug-like molecules with superior docking scores and synthetic accessibility compared to structure-based docking alone."
+}

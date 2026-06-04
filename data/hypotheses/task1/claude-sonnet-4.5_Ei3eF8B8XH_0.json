@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "A diffusion model incorporating explicit stereochemical graph augmentation and trained on quantum-mechanically optimized conformers can generate molecular conformations with energies comparable to or lower than reference structures while maintaining correct stereochemistry."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If LLM agents are given iterative control over experiments with tool-based execution and sparse sensor feedback, then they will correctly discover hidden governing rules in both a symbolic game and a physics-accurate ALP reactor, with accuracy increasing with model capacity, experimental time/budget, and availability of auxiliary reference data because these resources enable more effective active hypothesis testing of kinetics- and transport-limited dynamics."
+}

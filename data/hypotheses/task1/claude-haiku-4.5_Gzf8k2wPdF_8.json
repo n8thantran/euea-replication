@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Dynamic batching strategies that adapt padding targets based on actual graph size distributions will reduce overall training time compared to static batching strategies by minimizing wasted computation from over-padding while maintaining efficient hardware utilization."
+}

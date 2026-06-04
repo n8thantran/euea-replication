@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "A score-based diffusion model trained exclusively on metastable state data can identify transition states by using classifier-free guidance to interpolate between conditional scores and then refining the interpolated states through force projection along the learned reaction coordinate."
+}

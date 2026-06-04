@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If molecular graph predictors are trained semi-supervised by minimizing supervised loss plus a \u03b3-weighted consistency to the gradient-detached ensemble mean on unlabeled data, then they will achieve lower test error and better calibration than supervised, mean-teacher, and pseudo-labeling baselines\u2014with gains increasing with ensemble size\u2014because consensus soft targets provide robust, low-variance guidance that exploits unlabeled information and reduces overfitting."
+}

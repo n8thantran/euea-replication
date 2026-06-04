@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If we compute embeddings for the same set of atomistic structures (molecules, materials, and proteins) using diverse foundation models across architectures and modalities, then their hidden representations will strongly align (high CKNNA/IDCor, similar intrinsic dimensions, low information imbalance)\u2014with alignment weakening on out-of-distribution data\u2014because independent training on matter induces convergence to a shared low-dimensional manifold governed by universal atomic interactions."
+}

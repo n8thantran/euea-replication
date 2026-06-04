@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a diversity-based acquisition function (maximizing the minimum Euclidean distance in composition space) is used instead of random acquisition in the MADE dynamic benchmark experiments on Na\u2013O and Co\u2013Nb\u2013Sn with an MLIP oracle and the Random or MatterGen structure generators over a 20-query budget, then the number of novel stable compounds discovered will exceed that achieved with random acquisition, because the diversity-based approach explores more diverse regions of composition space."
+}

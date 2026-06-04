@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If we embed the same sets of molecules, materials, and proteins with diverse scientific foundation models and compare their last-layer representations using CKNNA, IDCor, and information imbalance, then we will observe high, symmetric cross-model alignment with similar intrinsic dimensions that is robust in-distribution but degrades on out-of-distribution inputs because independently trained models converge to a shared universal manifold of matter representations."
+}

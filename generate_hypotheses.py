@@ -4,7 +4,7 @@ Task 1: Given experiment summaries → recover underlying hypothesis
 Task 2: Given full paper text → generate novel hypotheses
 
 6 models × 50 papers × 10 samples × 2 tasks = 6000 API calls total.
-Uses concurrent requests per model to speed up.
+Uses concurrent requests to speed up.
 """
 
 import os
@@ -68,8 +68,8 @@ TASK2_USER = (
 )
 
 
-def call_openrouter(model, system_prompt, user_message, max_tokens=500, temperature=0.7):
-    """Call OpenRouter API with retries."""
+def call_openrouter(model, system_prompt, user_message, max_tokens=2000, temperature=0.7):
+    """Call OpenRouter API with retries. Handles reasoning models that return content separately."""
     headers = {
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json",
@@ -86,10 +86,17 @@ def call_openrouter(model, system_prompt, user_message, max_tokens=500, temperat
     
     for attempt in range(7):
         try:
-            resp = requests.post(API_URL, headers=headers, json=data, timeout=120)
+            resp = requests.post(API_URL, headers=headers, json=data, timeout=180)
             if resp.status_code == 200:
                 result = resp.json()
-                return result["choices"][0]["message"]["content"]
+                msg = result["choices"][0]["message"]
+                content = msg.get("content")
+                # If content is None/empty (reasoning model), try to get reasoning
+                if not content and msg.get("reasoning"):
+                    # For reasoning models, content should still be populated if max_tokens is high enough
+                    # If still None, return None to retry
+                    return None
+                return content
             elif resp.status_code == 429:
                 wait = min(2 ** (attempt + 1), 60)
                 time.sleep(wait)

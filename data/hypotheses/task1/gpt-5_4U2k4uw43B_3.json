@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If NEB pathways for CsPbI3 phase transitions and the TiO2-B\u2192anatase transformation are first optimized with pretrained equivariant ML surrogates (eqV2/eSEN) and then refined by DFT, then the DFT SSNEB will reproduce VASP-only transition states and barrier heights while requiring fewer iterations and less compute time because the ML models provide near-DFT-accurate energies, forces, and stresses that initialize the path close to the true MEP."
+}

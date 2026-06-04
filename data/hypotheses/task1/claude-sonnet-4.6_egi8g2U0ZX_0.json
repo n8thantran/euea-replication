@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If combining pre-training on large chemical databases with domain-specific fine-tuning and expert-guided reinforcement learning improves the generation of valid, novel, and chemically appropriate covalent triazine framework structures compared to using any single knowledge transfer strategy alone, then a multi-stage transfer learning pipeline (pre-training \u2192 fine-tuning \u2192 reinforcement learning) will yield higher scores across validity, novelty, internal diversity, and expert filter passage rate metrics than models employing only pre-training or fine-tuning, because sequential knowledge transfer progressively constrains the chemical space toward structurally and functionally relevant CTF candidates for supercapacitor applications."
+}

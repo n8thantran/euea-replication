@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If the Segment Anything Model 2 is fine-tuned on physics-informed synthetic LPTEM videos spanning a wide range of liquid thicknesses (SNR) and used with box prompts, then on unseen LPTEM videos it will outperform a U-Net baseline in IoU/F1/J&F and generalize to real experimental data with centroid positions agreeing with manual annotations because the synthetic training distribution provides transferable particle and noise priors across imaging conditions."
+}

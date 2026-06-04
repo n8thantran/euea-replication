@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Fine-tuning SAM-2 on synthetic LPTEM video data will produce a model (SAM-EM) that outperforms a U-Net baseline in segmentation and tracking accuracy\u2014measured by higher Jaccard index, F1-score, composite J&F, and closer centroid agreement\u2014across varying liquid thicknesses (SNR), resolutions, and particle interaction scenarios, and generalizes to real LPTEM videos enabling real-time analysis."
+}

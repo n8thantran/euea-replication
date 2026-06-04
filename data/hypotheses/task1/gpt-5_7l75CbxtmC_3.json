@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If Ca2SiO4 synthesis routes are planned using the integrated thermodynamics\u2013cellular automata\u2013machine-learning workflow with commercial availability constraints, then the method will identify at least one commercially accessible recipe that yields Ca2SiO4 as the most probable product at 800\u20131600\u00b0C while minimizing reactant cost relative to alternatives, because the combined modules jointly predict reaction feasibility and economic efficiency."
+}

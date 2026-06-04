@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Large language model agents can discover unknown physical and chemical rules through iterative experimentation and sensor feedback when provided with appropriate tools for hypothesis testing and data retrieval."
+}

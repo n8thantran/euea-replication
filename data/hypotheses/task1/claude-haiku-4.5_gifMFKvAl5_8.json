@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Incorporating physics-based constraints (non-negativity and sum-to-one regularization) into a diffusion model will generate composite material designs with higher validity and coverage compared to unconstrained baseline models."
+}

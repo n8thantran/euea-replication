@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a specialized multi-agent LLM system with literature search, force-field extraction tools, and shared memory is tasked with zeolite adsorption problems, then it will autonomously produce reproducible, executable RASPA setups and correctly extract complete force-field parameters matching the source publications across single/multiple adsorbates, structures, and simulation types, because coordinated agent roles and tool use enable accurate information retrieval and simulation configuration."
+}

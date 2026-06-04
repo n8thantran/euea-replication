@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If chemical foundation models pretrained on large SMILES corpora are used to generate composition-weighted embeddings (augmented with device variables) for downstream neural networks, then multi-scale battery properties\u2014from molecular to device performance\u2014will be predicted more accurately and with better out-of-distribution generalization than with Morgan fingerprints or non-foundation baselines, because the pretrained representations encode transferable, moiety-level structure\u2013property relationships across scales."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If SAM-EM (SAM 2 fine-tuned on synthetic physics-informed LPTEM videos) is used, then it will achieve significantly higher segmentation (IoU/Jaccard, F1, and composite J&F) and centroid/tracking accuracy on both synthetic and real LPTEM data than a U-Net baseline across varied liquid thicknesses, SNRs, particle counts, and resolutions, because fine-tuning provides task-specific appearance priors that general models lack."
+}

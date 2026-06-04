@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a diffusion model for composite formulation is trained with non-negativity and sum-to-one physics regularizations, then it will achieve higher physical validity and fabricability (Validityreg and Validityfab) and equal or better fidelity/diversity (Density/Coverage) than CVAE and TabDDPM because the constraints guide generation to the physically feasible composition simplex."
+}

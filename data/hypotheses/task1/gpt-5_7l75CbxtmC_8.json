@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a computational workflow integrates temperature-dependent thermodynamic descriptors, a cellular-automaton reaction simulator, and commercial availability/pricing data, then it will identify Ca2SiO4 synthesis recipes with higher predicted formation probability at lower reagent cost than recipes chosen by thermodynamics alone because the simulator captures kinetic accessibility while the database filters optimize economic feasibility."
+}

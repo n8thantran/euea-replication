@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a molecular representation model is trained to align 3D electron density grids with rotation-invariant SMILES embeddings via multimodal contrastive learning, then the resulting 3D encoder will develop pose-invariant molecular representations without explicit equivariance constraints, because the SMILES modality provides a rotation-invariant supervisory signal that forces the 3D encoder to learn features based on molecular identity rather than spatial orientation."
+}

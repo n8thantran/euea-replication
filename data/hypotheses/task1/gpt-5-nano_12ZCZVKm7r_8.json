@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a broad set of foundation models spanning MLIPs, UMA, geometric encoders, sequence/text encoders, and protein models encodes the same molecules, materials, and proteins, then their structure-wide embeddings will exhibit universal cross-domain convergence, as shown by consistently high cross-model CKNNA and IDCor and similar intrinsic dimensionalities, especially for in-distribution data."
+}

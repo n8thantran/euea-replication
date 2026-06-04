@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If the FREED++ framework optimizes pharmacophoric similarity to a reference set of 53 estrogen receptor antagonists/degraders while minimizing structural similarity to promote novelty, then the generated molecules will be pharmacophorically similar to the ER antagonists/degraders yet structurally novel and will achieve favorable docking scores, QED, and synthetic accessibility compared with baseline designs."
+}

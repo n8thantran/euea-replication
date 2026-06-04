@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "A hybrid deep learning architecture combining 2D convolutional encoding of polymer surfaces with attention-based interaction between surface and sequence features can predict polymer-surface binding free energies with greater accuracy than baseline models because the attention mechanism explicitly captures the chemical interactions between specific surface sites and polymer sequences."
+}

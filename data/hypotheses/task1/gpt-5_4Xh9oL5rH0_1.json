@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If universal, dispersion-corrected machine learning interatomic potentials trained on diverse materials are applied to metal\u2013organic frameworks without MOF-specific retraining, then they will reproduce DFT-level structures, stable 300 K NpT dynamics, bulk moduli, and heat capacities within small errors because their learned equivariant representations of local interactions transfer across the metal\u2013ligand chemistries in these frameworks."
+}

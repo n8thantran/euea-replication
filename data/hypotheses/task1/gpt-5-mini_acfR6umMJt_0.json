@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Using NN-BAX with an iteratively fine-tuned EquiformerV2 to run NEB on LJ7 and LJ38 systems will produce minimum energy paths with convergence (fmax) and low prediction error (MAEi) comparable to classical simulator-based NEB while requiring fewer expensive simulator evaluations."
+}

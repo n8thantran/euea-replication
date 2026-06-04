@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "End-to-end training of a discrete stochastic autoencoder that jointly learns protein structure prediction and sequence design will achieve better structure-based sequence design performance than separately trained models because the coupled optimization of both tasks enables the model to learn interdependent representations that capture the relationship between sequence and structure."
+}

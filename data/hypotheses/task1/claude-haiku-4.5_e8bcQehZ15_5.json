@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Concept-based activation steering of frozen large language models through a learnable concept bottleneck model enables precise conditional control over molecular properties during generation while maintaining molecular validity and diversity without full model fine-tuning."
+}

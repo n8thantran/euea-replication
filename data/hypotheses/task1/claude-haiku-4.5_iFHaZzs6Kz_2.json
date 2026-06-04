@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Multimodal contrastive learning between SMILES strings and 3D electron density grids induces pose-invariant molecular representations that generalize to unseen molecular rotations without explicit rotational data augmentation during training."
+}

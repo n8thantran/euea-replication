@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Preference optimization using physics-based thermodynamic simulations as rewards will improve language models' ability to generate novel, valid BCC/B2 superalloy compositions that satisfy multiple synthesis objectives compared to supervised fine-tuning alone."
+}

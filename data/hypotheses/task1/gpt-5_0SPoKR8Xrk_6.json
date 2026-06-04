@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If polymer sequences and surface lattices are encoded respectively by a GRU and a 2D CNN and integrated via an attention mechanism and symmetry-aware augmentation, then the resulting hybrid model will predict MD-derived polymer\u2013surface binding free energies with lower mean absolute error than baseline DNNs and alternative sequence encoders because it captures spatial\u2013sequential interactions and rotational/flip invariances critical to adhesion."
+}

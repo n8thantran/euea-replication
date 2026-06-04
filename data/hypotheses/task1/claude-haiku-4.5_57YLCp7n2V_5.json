@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Fixing valency calculation errors and using chemically accurate datasets will improve the geometric accuracy of generated molecules as measured by GFN2-xTB-based structural metrics compared to previously published benchmarks."
+}

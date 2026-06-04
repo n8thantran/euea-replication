@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If SAM 2 is fine-tuned on a physics-informed synthetic LPTEM video dataset spanning SNR and resolution conditions, then the resulting SAM-EM will perform real-time nanoparticle segmentation and tracking with higher IoU/F1/J&F than a U-Net baseline on diverse synthetic tests and will produce centroid locations on real LPTEM data that agree with manual annotations because SAM\u2019s pretrained, promptable representations generalize robustly from synthetic to experimental imagery."
+}

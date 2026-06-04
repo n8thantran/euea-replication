@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If AI-guided design conditioned on the presence of Li and Si and targeting capacity >1500 mAh/g and a large stable Li-channel radius can generate Li\u2013Si\u2013X materials that retain the Li-channel radius nearly constant between charged and discharged states and relax to energetically stable structures with mean energy per atom variation < 4%, then AI-designed materials will constitute viable high-capacity, stable silicon-based anode candidates for lithium-ion batteries."
+}

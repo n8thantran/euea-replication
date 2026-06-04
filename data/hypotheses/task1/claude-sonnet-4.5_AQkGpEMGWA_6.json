@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Materials with large, stable lithium-ion migration channels that persist between charged and discharged states will exhibit superior electrochemical performance as silicon-based anodes in lithium-ion batteries."
+}

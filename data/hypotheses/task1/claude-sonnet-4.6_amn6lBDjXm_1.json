@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If ML-based metrics alone are insufficient to capture the true physical validity of generatively modeled crystal structures, then a chemically grounded evaluation framework combining DFT-based simulation metrics (RMSD and SUN) with property-based and latent-space metrics will reveal systematic discrepancies between apparent ML-metric performance and true thermodynamic stability of structures produced by generative materials models, because structural plausibility as measured by geometric or distributional similarity does not necessarily correspond to energetic stability on the convex hull."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a 3D molecular encoder is trained by contrastively aligning electron-density grids to SMILES embeddings, then it will learn pose-invariant representations that outperform unimodal and SE(3)-equivariant baselines on unseen-rotation retrieval, structure\u2013property clustering, and linear-probe prediction because the cross-modal objective anchors pose-agnostic chemical identity."
+}

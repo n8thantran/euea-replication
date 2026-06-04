@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Implementing complementary diversity metrics and adaptive constraints during generative molecular design will prevent the collapse of chemical space exploration and maintain higher structural diversity in discovered molecules compared to unconstrained generation."
+}

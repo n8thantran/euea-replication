@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If an end-to-end model jointly learning protein structure prediction and structure-based sequence design with a composite loss is trained on backbone coordinates, then the designed sequences will achieve higher sequence recovery and the predicted structures will more closely match reference structures (higher TM-score and lower RMSD) than those produced by decoupled baselines, because joint optimization aligns sequence distributions with accurate structure reconstruction."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Direct Preference Optimization using physics-based reward functions from thermodynamic simulations will improve language model generation of valid BCC/B2 superalloy compositions compared to supervised fine-tuning alone because preference learning aligns model outputs with domain-specific physical constraints."
+}

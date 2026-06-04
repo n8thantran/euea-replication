@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If models are trained with chemically accurate valency information (by fixing aromatic valency rounding and/or using Kekulized data), then they will produce fewer valency errors and generated 3D molecules with smaller bond-length, bond-angle, torsion deviations and lower relaxation energies after GFN2-xTB optimization than models trained on the original faulty dataset, and GFN2-xTB-based evaluation will report substantially lower and more chemically realistic relaxation energies than MMFF94."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If Fe K-edge XANES/EXAFS spectra and corresponding local iron-environment graphs are uniformly curated from the literature (XDIP), then graph neural networks will accurately predict 100-point spectra from structure and simple models will recover coordination number and mean nearest-neighbor distance from spectra with above-baseline accuracy because consistently processed XAS features encode the local coordination geometry."
+}

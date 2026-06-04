@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If distorted crystal structures are optimized to match powder XRD patterns using gradient descent on standard differentiable loss functions (with or without symmetry constraints), then they will frequently fail to recover the ground-truth structures across realistic lattice and coordinate noise levels because the XRD loss landscape is intrinsically rough and highly nonconvex with numerous spurious local minima that trap the optimizer."
+}

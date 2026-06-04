@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a Transformer with patch-based spectrum embeddings is pretrained on simulated IR spectra and jointly optimized with a spectral reconstruction alignment loss while fine-tuned on real spectra, then it will identify the molecular constituents of binary and ternary IR mixture spectra across concentration ratios with higher Top-k accuracy and Tanimoto similarity than the same model without pretraining or alignment, because the alignment and multitask training learn concentration-invariant representations of pure-component spectral features."
+}

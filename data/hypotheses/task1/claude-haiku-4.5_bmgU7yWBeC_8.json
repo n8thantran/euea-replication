@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "The magnitude of the difference between conservative and non-conservative force predictions from a single direct-force pre-trained neural network potential serves as a reliable, data-free uncertainty estimate that correlates with true prediction error across diverse chemical systems and out-of-distribution structures."
+}

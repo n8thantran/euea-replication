@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If metal superhydride candidates are selected by a machine-learning model trained on lattice/electronic features that emphasize strong interstitial electron localization (quasi-atoms) and high 3D connectivity, hydrogen content, and hydrogen contribution to the Fermi-level DOS, then DFT will confirm low formation enthalpy (thermodynamic stability) and high-Tc superconductivity at high pressure because these descriptors capture the mechanisms governing hydride stabilization and strong electron-phonon coupling."
+}

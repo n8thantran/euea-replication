@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a diffusion model framework combining an equivariant graph neural network backbone with an energy-based denoising approach and Hamiltonian Monte Carlo refinement is applied to amorphous material generation, then it will produce structurally accurate amorphous configurations\u2014as measured by radial distribution functions, bond angle distributions, and structure factors\u2014that match target thermal histories and enable property-conditioned inverse design of multi-element glasses, because the energy-based score estimation and HMC equilibration steps enforce physically consistent local geometry during the reverse diffusion process."
+}

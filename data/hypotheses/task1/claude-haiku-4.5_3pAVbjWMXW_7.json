@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Language models with spectral alignment mechanisms and multitask learning can accurately predict molecular components from infrared spectra of mixtures by learning to reconstruct pure component spectra from mixture encodings."
+}

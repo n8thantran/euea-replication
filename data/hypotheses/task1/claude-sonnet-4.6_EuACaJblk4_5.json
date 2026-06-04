@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If protein structure prediction and structure-based sequence design are trained jointly in an end-to-end discrete stochastic autoencoder framework, then the model will generate amino acid sequences that achieve higher self-consistency (as measured by TM-score and RMSD when predicted structures of designed sequences are compared to the original backbone) than independently trained structure prediction or sequence design models, because the joint optimization allows the sequence design component to directly incorporate structural feedback, producing sequences whose encoded structural information is mutually reinforced by the reconstruction objective."
+}

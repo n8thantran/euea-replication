@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If we add CBM-learned, orthogonal, property-specific steering vectors to a frozen LLM\u2019s intermediate activations during molecular generation, then the model will achieve lower MAE/Best100MAE on specified single- and multi-property targets and generalize to out-of-distribution combinations while preserving validity, novelty, and synthesizability relative to vanilla, ActAdd, and fine-tuning baselines because disentangled concept directions enable precise latent control without retraining the LLM."
+}

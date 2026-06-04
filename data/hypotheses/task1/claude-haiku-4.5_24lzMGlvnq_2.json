@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Preference learning from physics-based thermodynamic feedback will produce language models that generate novel BCC/B2 superalloy compositions with superior phase stability and microstructural quality compared to models trained only on supervised fine-tuning or existing baseline approaches."
+}

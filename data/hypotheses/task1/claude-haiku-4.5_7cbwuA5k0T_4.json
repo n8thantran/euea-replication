@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Improving the semantic alignment between task objectives and available tools through better task decomposition and tool descriptions will increase scientific LLM agent performance more substantially than switching between different agent frameworks or language models."
+}

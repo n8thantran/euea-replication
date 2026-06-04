@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a diffusion-based generative model is trained with non-negativity and sum-to-one regularization on component proportions, then its generated samples will more frequently satisfy physical constraints (sum to one and non-negativity) and fabrication limits, yielding higher Validityreg and Validityfab scores than CVAE and TabDDPM because the constraints enforce feasible and physically plausible compositions."
+}

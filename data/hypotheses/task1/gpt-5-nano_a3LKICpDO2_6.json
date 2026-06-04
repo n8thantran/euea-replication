@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a \u2206-learning XGBoost model is trained to predict the difference between GFN1-xTB and DFT band gaps for MOFs, then correcting the GFN1-xTB band gaps by this predicted difference will yield band-gap predictions that are closer to DFT reference values than a direct XGBoost model trained to predict DFT band gaps."
+}

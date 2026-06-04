@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a metal lattice has strong electron localization at interstitial (quasi-atomic) sites, then hydrogenation under high pressure will yield thermodynamically stable superhydrides that can be accurately preselected by a machine-learning model using lattice, composition, and electronic features because Ehull correlates with these features reflecting interstitial localization."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "A diffusion model augmented with explicit stereochemical graph representations can generate low-energy molecular conformers with quantum mechanical accuracy comparable to DFT optimization while maintaining stereochemical correctness across diverse drug-like molecules."
+}

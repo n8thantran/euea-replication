@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Incorporating stereochemical graph augmentation into a diffusion-based generative model enables the generation of molecular conformers with quantum mechanical accuracy while correctly preserving stereochemistry and achieving lower energies than traditional force-field-based methods."
+}

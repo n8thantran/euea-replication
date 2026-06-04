@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If NEB calculations for LJ7 and LJ38 transitions are executed via NN-BAX that iteratively fine-tunes EquiformerV2 and acquires training points from model-predicted paths, then the method will reach ground-truth MEPs (meeting fmax and low MAEi) with fewer expensive simulator evaluations than classical NEB because the learned model yields accurate energies/forces and BAX targets the most informative regions of the path."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a closed-loop AdaCarbon platform applies Bayesian optimization to vary bicarbonate temperature, bicarbonate concentration, electrolyte and KOH flow rates, KOH concentration, and current density in Ag nanoparticle\u2013coated reactive carbon electrolyzers, then it will converge within ~52 experiments to operating conditions that produce higher reactor yields than those found by initial random sampling or researcher-defined experiments because these parameters control CO2 availability and electrochemical reduction kinetics."
+}

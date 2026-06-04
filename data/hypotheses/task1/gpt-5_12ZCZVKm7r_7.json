@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If scientific foundation models are trained on matter (molecules, materials, or proteins), then their final-layer embeddings will significantly align across architectures and modalities\u2014showing high CKNNA and IDCor, similar intrinsic dimensions, and low information imbalance, especially on in-distribution data\u2014because diverse models converge to a shared low-dimensional manifold capturing universal physico-chemical structure."
+}

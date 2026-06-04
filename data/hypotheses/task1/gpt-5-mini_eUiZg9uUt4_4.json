@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "When trained on USPTO-retro, retrosynthesis models will exhibit dataset bias such that high top-k and top-k round-trip accuracy on reactions with seen templates will not generalize to reactions with unseen templates, and template-free architectures (MEGAN, RootAligned) will show smaller performance drops than the template-based LocalRetro because template frequency and product\u2013template similarity in the training data drive overfitting to seen disconnections."
+}

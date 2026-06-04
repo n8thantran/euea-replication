@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If open-weight language models for superalloy design are first supervised fine-tuned on composition\u2013phase data and then optimized with DPO using Thermo-Calc\u2013derived preference pairs, they will generate BCC/B2 compositions that more frequently meet the target phase-coexistence objectives (including BCC-first formation, room-temperature B2, and <10% secondary phases) with higher validity and novelty than SFT-only and other baselines because preference learning aligns generation with physics-based feedback while limiting distribution shift."
+}

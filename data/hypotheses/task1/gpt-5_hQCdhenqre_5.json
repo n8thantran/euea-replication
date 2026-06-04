@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If ML interatomic potential models (MACE, NequIP, ViSNet) are implemented in the proposed JAX-based library\u2014using the modified MACE with gating and species-dependent edge features\u2014and trained on the curated SPICE2 dataset, then GPU molecular dynamics simulations will run in less wall-clock time than equivalent Torch+ASE baselines while achieving comparable energy/force errors, because XLA compilation and the architectural modifications reduce inference cost without degrading accuracy."
+}

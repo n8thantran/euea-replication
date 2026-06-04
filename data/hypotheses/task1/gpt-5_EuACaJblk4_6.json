@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If protein sequence design and structure prediction are trained end-to-end with a discrete Gumbel-Softmax sequence bottleneck and composite structural losses, then the model will produce sequences that reconstruct their target backbones with higher TM-scores/lower RMSDs and achieve higher sequence recovery than decoupled baselines, because joint optimization enforces self-consistency between sequence and structure representations."
+}

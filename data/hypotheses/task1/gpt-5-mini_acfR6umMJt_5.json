@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If EquiformerV2 is iteratively fine-tuned using NN-BAX active sampling during NEB calculations, then the NN-BAX\u2013based NEB will produce minimum energy paths for LJ7 and LJ38 transitions that meet the same fmax convergence criteria and exhibit comparably low MAEi as classical NEB while substantially reducing the number of expensive simulator evaluations, because the model learns the local potential energy surface and guides sampling efficiently."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a role-specialized, tool-augmented multi-agent LLM framework with shared memory is used to configure molecular simulations, then it will autonomously and reproducibly generate correct RASPA inputs and accurately extract and apply literature force-field parameters to run zeolite adsorption isotherm and heat-of-adsorption calculations, because coordinated ReAct-based agents can reliably perform simulation setup and information extraction across varied tasks."
+}

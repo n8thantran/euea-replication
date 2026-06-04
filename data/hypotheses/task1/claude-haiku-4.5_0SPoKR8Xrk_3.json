@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "A hybrid deep learning model combining 2D convolutional encoding of polymer surface structure with attention-based cross-modal interaction between surface and polymer sequence features can predict polymer-surface binding free energies with greater accuracy than baseline models using only sequential or surface information independently."
+}

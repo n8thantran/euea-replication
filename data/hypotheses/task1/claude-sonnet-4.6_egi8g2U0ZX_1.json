@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If combining pre-training on large chemical databases, fine-tuning on domain-specific CTF structures, and reinforcement learning with expert-defined physicochemical reward functions, then generative models will produce novel, valid, and chemically suitable porous carbon materials for supercapacitors at higher rates than models using any single knowledge transfer strategy alone, because the sequential combination of transfer learning methods progressively constrains the chemical space toward structurally and functionally relevant CTF candidates."
+}

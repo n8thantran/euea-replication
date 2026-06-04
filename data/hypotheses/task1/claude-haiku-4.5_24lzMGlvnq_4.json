@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Direct Preference Optimization using physics-based thermodynamic rewards will improve language models' ability to generate valid BCC/B2 superalloy compositions with better phase stability and reduced secondary phases compared to supervised fine-tuning alone because preference learning aligns model outputs to complex multi-objective design criteria that cannot be fully captured by standard language modeling objectives."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a ReAct-based LLM agent is coupled to a CALPHAD/JMA simulator for Nb\u2013O synthesis planning, then it will achieve higher success rates while visiting fewer simulator states than an A* search over a discretized state space, particularly on harder tasks, because it can integrate physics-based feedback into strategic action selection rather than rely on fixed heuristics."
+}

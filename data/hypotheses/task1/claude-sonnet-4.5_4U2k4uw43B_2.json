@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Machine learning models pre-trained on materials datasets can serve as effective surrogates for DFT calculations in solid-state nudged elastic band calculations, reducing computational cost while maintaining accurate identification of minimum energy pathways and transition states when used to initialize DFT refinement."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Task-tool alignment, measured by the semantic similarity between task descriptions and available tool descriptions, is a stronger predictor of scientific LLM agent performance than the choice of agent framework or scaffolding approach."
+}

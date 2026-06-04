@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If LLM agents with tool-mediated experimental control are given only indirect sensor readouts, then they can infer the hidden governing rules in both abstract and physics-based domains, with success increasing with model capability and with greater experimental budget/time or added sensor guidance (e.g., QCM references), because iterative hypothesis testing enables them to design informative interventions and update their hypotheses from observed outcomes."
+}

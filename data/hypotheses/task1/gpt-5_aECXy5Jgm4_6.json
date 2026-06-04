@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If we apply Bayesian optimization with Thompson sampling using polymer-specific pretrained representations and DFT-refined Lennard-Jones parameters within a two-stage MD\u2013GCMC simulation workflow to a fragment-generated polyamine pool, then within a fixed evaluation budget we will discover candidates with higher simulated CO2 adsorption capacity than random search or BO using general representations, because improved force-field accuracy and chemically informed embeddings yield more predictive surrogates and more efficient exploration."
+}

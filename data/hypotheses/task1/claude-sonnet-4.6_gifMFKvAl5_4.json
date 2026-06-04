@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If physics-based constraints (non-negativity and sum-to-one regularization) are incorporated directly into the diffusion model's loss function, then the resulting model (PCDiff) will generate composite material compositions with higher physical validity (both regulatory and fabrication) while maintaining competitive fidelity and diversity compared to unconstrained generative models (CVAE and TabDDPM), because embedding domain-specific physical laws as explicit regularization terms guides the generative process toward physically realizable material configurations."
+}

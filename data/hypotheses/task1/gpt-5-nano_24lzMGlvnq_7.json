@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a language model is fine-tuned on BCC/B2 alloy data and then optimized with Direct Preference Optimization against a Thermo-Calc-based hierarchical reward that enforces phase coexistence, BCC-first formation, room-temperature B2 presence, and <10% non-BCC/B2 phases, then the resulting designs will achieve higher mean reward scores and greater compositional validity, coverage, and novelty than baseline methods, because DPO aligns generated outputs with the specified physics-based synthesis objectives."
+}

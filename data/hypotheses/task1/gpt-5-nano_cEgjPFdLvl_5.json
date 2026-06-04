@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If the AMDEN diffusion model (EGNN backbone) is trained on amorphous silicon datasets with different thermal histories and on an 11-element MEG dataset with Young's modulus conditioning via classifier-free guidance, then the generated amorphous structures will reproduce the reference structural descriptors (RDFs, bond-angle distributions, structure factors) and energy distributions and enable inverse design of materials with the targeted modulus."
+}

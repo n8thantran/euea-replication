@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If LoQI, a stereochemistry-aware diffusion model trained on near-DFT AIMNet2 conformers with augmented stereochemical edges, is used to generate molecular conformers, then the resulting conformers will have lower relative energies and higher stereochemical accuracy (R/S, E/Z) across diverse chemistries including macrocycles than those produced by standard conformer generation, because the model encodes QM-informed energy landscapes and explicit stereochemical constraints to guide coordinate recovery while preserving topology."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Single-step retrosynthesis prediction models exhibit different degrees of dataset bias, with template-based models showing greater dependence on template frequency and structural similarity to training data compared to template-free models, resulting in reduced generalization performance on out-of-distribution reactions with unseen templates."
+}

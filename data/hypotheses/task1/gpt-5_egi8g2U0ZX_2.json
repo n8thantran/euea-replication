@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If open-source molecular generative models (REINVENT, MolMIM, Mol-AIR) are sequentially pre-trained on large chemical corpora (ChEMBL/ZINC), fine-tuned on a curated CTF dataset, and optimized by reinforcement learning with expert-defined reward functions, then they will produce CTF candidates with higher validity, uniqueness, internal diversity, novelty, lower FCD, and higher expert-filter pass rates than configurations lacking one or more of these stages because layered transfer learning combines broad chemical priors with domain-specific structural constraints and targeted optimization."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If metal lattices with strong electron localization at interstitial sites (quasi-atoms) are identified using machine learning before structural searches, then thermodynamically stable metal superhydrides with high superconducting transition temperatures can be discovered more efficiently than traditional high-throughput screening approaches."
+}

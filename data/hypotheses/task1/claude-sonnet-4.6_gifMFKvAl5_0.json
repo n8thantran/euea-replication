@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Incorporating physics-based regularization terms that enforce non-negativity and sum-to-one constraints directly into the diffusion model loss function will produce composite material designs with higher physical validity and fabrication feasibility compared to unconstrained generative models (CVAE and TabDDPM), because embedding domain-specific constraints into the generative process guides sampling toward physically realizable regions of the compositional space."
+}

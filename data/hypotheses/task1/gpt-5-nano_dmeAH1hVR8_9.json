@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If pre-training a large language model on MOF-related literature and PubChem data followed by fine-tuning on MOF property tasks using MOFid text representations, then the model will achieve lower MAE on MOF property prediction than baseline graph-based models, particularly when the downstream fine-tuning data are limited, because pre-training provides chemical-context knowledge that improves predictive accuracy in low-resource scenarios."
+}

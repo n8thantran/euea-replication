@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If lattice mechanical properties (E and \u1ebc) are predicted using low-rank tensor completion surrogates that exploit the multiway structure of design parameters, then they will achieve higher R\u00b2 and greater robustness under both sparse and convenience-biased training samples than GP, XGBoost, and MLP baselines because low-rank factorization captures inter-parameter correlations and enables accurate imputation of unobserved combinations."
+}

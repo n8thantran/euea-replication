@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Single-step retrosynthesis models exhibit dataset bias such that performance correlates with template frequency and structural similarity to training data, with models generalizing better to novel products with known templates than to novel disconnections with unseen templates."
+}

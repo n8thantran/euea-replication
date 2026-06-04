@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If language models fine-tuned on known BCC/B2 compositions are further optimized with Direct Preference Optimization using thermodynamics-based preference pairs from Thermo-Calc simulations, then they will generate alloy compositions that more frequently satisfy the hierarchical synthesis objectives (BCC+B2 coexistence, BCC forming first, B2 stable at room temperature, <10% non-BCC/B2 phases), yield higher mean reward, improved compositional validity, coverage, and novelty versus SFT-only and baseline methods, and do so without large distribution shift as measured by KL divergence, because DPO directly aligns model generation with physics-based feedback."
+}

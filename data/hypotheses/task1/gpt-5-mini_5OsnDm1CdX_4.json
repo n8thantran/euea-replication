@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If pre-trained single-gas neural networks are frozen and used to extract features that are concatenated with gas fractions and processed by a two-node GraphSAGE model, then this architecture will predict radial etch-rate profiles for Ar/O2 mixtures more accurately and generalize better to withheld high-power/pressure and low-Ar-fraction conditions than a standard feedforward neural network or alternative GCN/GAT architectures."
+}

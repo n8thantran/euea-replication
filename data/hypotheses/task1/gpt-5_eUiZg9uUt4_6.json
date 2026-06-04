@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If single-step retrosynthesis models are trained on datasets with skewed template frequencies and restricted template diversity, then they will show inflated top-k and round-trip accuracies on in-distribution and seen-template (Pistachio-ID) reactions but markedly lower accuracies on unseen-template (Pistachio-OOD) reactions, with performance positively correlating with template frequency and train\u2013test Tanimoto similarity, because the models exploit dataset biases and memorize frequent transformations rather than learning generalizable disconnection rules."
+}

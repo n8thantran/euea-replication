@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If the Force Delta (U\u0394) computed from a single NNIP model correlates with the true force error \u03b5direct across both equilibrium and adversarially perturbed configurations, then U\u0394 is a valid, data-free uncertainty estimate for NNIP force predictions that outperforms ad-hoc ensemble variance."
+}

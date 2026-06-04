@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Neural network Bayesian Algorithm Execution applied to nudged elastic band calculations can identify minimum energy pathways with fewer force evaluations than classical NEB methods by iteratively training a foundation model on strategically acquired transition states."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Direct gradient-descent optimization of crystal structures to match powder XRD patterns cannot reliably recover true structures from moderately distorted starting configurations, even when using different similarity losses or enforcing symmetry, because the XRD loss landscape is highly rough with many local minima."
+}

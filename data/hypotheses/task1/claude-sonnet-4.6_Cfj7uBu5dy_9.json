@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a modular, gym-like benchmark environment (MADE) is used to evaluate autonomous materials discovery agents across standardized chemical systems, then systematic differences in the number of novel stable compounds discovered will emerge between agent configurations differing in structure generator quality and acquisition strategy, because more informed generators (e.g., MatterGen) and diversity-driven acquisition functions will more efficiently explore chemically relevant regions of structure space compared to random baselines."
+}

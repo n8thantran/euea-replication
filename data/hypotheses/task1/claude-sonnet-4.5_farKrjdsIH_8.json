@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Fine-tuning SAM 2 on synthetic LPTEM video data will enable real-time automated segmentation of nanoparticles in liquid phase transmission electron microscopy with higher accuracy than existing U-Net-based methods across varying signal-to-noise ratios and particle interaction scenarios."
+}

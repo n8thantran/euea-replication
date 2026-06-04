@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If ML-based evaluation metrics (property-based and latent-based) are used alone to assess generative materials models, then they will fail to reliably predict true thermodynamic stability and structural validity as determined by DFT simulations, because ML metrics lack the physical grounding necessary to capture the quantum mechanical energy landscape that governs whether generated crystal structures are chemically realistic and stable."
+}

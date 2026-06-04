@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If nudged elastic band calculations on LJ7 and LJ38 systems are executed via NN-BAX with an iteratively fine-tuned EquiformerV2 surrogate, then the minimum energy paths will achieve the same convergence and accuracy as classical NEB while requiring fewer expensive simulator evaluations because Bayesian acquisition focuses training on the most informative path states."
+}

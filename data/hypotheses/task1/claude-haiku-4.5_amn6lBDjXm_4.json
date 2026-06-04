@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Generative models trained on materials databases can produce chemically and structurally valid novel materials that maintain thermodynamic stability and structural integrity upon DFT relaxation, as measured by metrics combining density functional theory calculations with machine learning-based structural and property comparisons."
+}

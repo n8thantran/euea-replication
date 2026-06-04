@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Fine-tuning the Segment Anything Model 2 (SAM 2) on synthetic liquid phase transmission electron microscopy (LPTEM) videos will enable real-time, accurate segmentation and tracking of nanoparticles across varying signal-to-noise conditions without requiring manual annotations for each new experimental dataset."
+}

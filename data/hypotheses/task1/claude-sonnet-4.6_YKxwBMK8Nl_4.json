@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If a single-agent pipeline combining structured PDF parsing (via marker-pdf SDK) with multimodal image processing and a large language model for extraction is applied to scientific chemical information extraction tasks, then it will achieve competitive or superior precision, recall, and F1 scores compared to more complex multi-agent domain-specific systems, because the structured markdown representation preserves document context and layout sufficiently for an LLM to perform accurate end-to-end extraction without requiring specialized orchestration of multiple agents."
+}

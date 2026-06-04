@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If a 3D molecular encoder is trained jointly with a SMILES encoder via multimodal contrastive learning, then the resulting 3D representations will exhibit emergent pose-invariance\u2014enabling accurate retrieval of molecules across unseen rotations without explicit equivariance constraints\u2014because alignment with rotation-agnostic SMILES embeddings forces the 3D encoder to learn identity-preserving features that abstract away orientational variation."
+}

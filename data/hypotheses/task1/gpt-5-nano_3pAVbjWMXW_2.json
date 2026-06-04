@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a Transformer-based encoder-decoder model with patch-based spectrum embedding and a joint spectral-alignment reconstruction loss trained across multiple concentration ratios is applied to IR spectra of mixtures, then it will accurately identify the constituent molecules and reconstruct their pure-component spectra for binary and ternary mixtures, achieving high Top-1/Top-5 accuracy and high Tanimoto similarity on both synthetic and experimentally measured spectra."
+}

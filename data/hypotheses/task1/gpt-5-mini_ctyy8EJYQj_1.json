@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a prompt-tuned ReAct LLM agent (GPT-4o) is given tool access to the Nb\u2013O simulator, then it will achieve equal or higher task success rates than a discretized A* search while visiting fewer states because the LLM can learn and apply heuristic reasoning that avoids exhaustive exploration of the discretized state space."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a Transformer encoder-decoder model is pretrained on simulated MD IR spectra and fine-tuned on NIST spectra while using patch-based spectrum embedding, a jointly trained spectral-alignment reconstruction network with an optimized reconstruction weight, and multitask concentration training, then it will more accurately recover molecular structures of components from binary and ternary mixture IR spectra\u2014including experimental ATR-IR mixtures\u2014achieving higher Top-N accuracy and Tanimoto similarity than models without pretraining or the reconstruction alignment."
+}

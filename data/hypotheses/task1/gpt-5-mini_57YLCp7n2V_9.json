@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If aromatic bond valencies are correctly represented and models are trained on Kekulized, chemically accurate datasets, then the resulting 3D molecule generative models will produce molecules with significantly fewer valency violations, smaller bond/angle/torsion deviations (\u0394r, \u0394\u03b8, \u0394\u03c6), and lower GFN2-xTB relaxation energies than models trained on the original datasets with the aromatic valency rounding bug."
+}

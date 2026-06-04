@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a graph neural network integrates frozen pre-trained single-gas etch models as node feature extractors with gas-fraction inputs, then it will predict Ar/O2 mixture radial etching rates more accurately and generalize to unseen power/pressure and composition regimes (Testgrid and Testthresh) than equivalently sized FNNs or standard GNNs trained on the same data because transferable single-gas representations encode physics that improves mixture generalization."
+}

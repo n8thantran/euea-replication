@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If pretrained on large-scale multimodal molecular data with a custom BPE tokenizer and a hybrid Transformer\u2013Mamba-2 encoder-decoder architecture, then STR-Bamba will learn unified embeddings that yield better clustering (lower Davies\u2013Bouldin Index, higher ARI/V-Measure/Fowlkes\u2013Mallows), improved downstream property prediction across small molecules, polymers, and electrolytes, and higher-fidelity translation between molecular representations (validity, Tanimoto, BLEU, Jaccard) than single-modality or baseline models, because its multimodal pretraining and architectural design capture complementary syntactic and semantic information across representations."
+}

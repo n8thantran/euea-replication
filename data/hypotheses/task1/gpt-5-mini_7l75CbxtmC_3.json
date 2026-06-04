@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "When applied to the Ca\u2013Si\u2013O chemical space at 800\u20131600\u00b0C, the integrated workflow will identify synthesis recipes for Ca2SiO4 that are thermodynamically optimal and have lower average reactant cost at \u226595% purity than recipes selected using thermodynamics-only criteria."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If LoQI's stereochemistry-aware diffusion model is used to generate conformers, then the resulting structures will have AIMNet2/CPCM energies at or below the dataset minimum and will reproduce the correct stereochemical descriptors (R/S and E/Z) with high accuracy as measured by low RMSD to reference conformers."
+}

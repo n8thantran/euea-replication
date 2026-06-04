@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If we extract last-layer structure-level embeddings from diverse matter-focused foundation models and compare them on shared molecule/material/protein datasets (including out-of-distribution) using CKNNA, IDCor, and information imbalance, then we will observe statistically significant cross-model alignment with similar intrinsic dimensions because independently trained models converge to a shared, low-dimensional representation of atomic geometry and chemistry irrespective of architecture or modality."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If protein structure prediction and structure-based sequence design are learned end-to-end with a discrete stochastic autoencoder (E2EFOLD) that samples sequences via Gumbel-Softmax and is trained with combined structural and sequence losses, then the model will produce designed sequences whose predicted structures are more self-consistent with input backbones (higher TM-score and lower RMSD) and achieve competitive sequence recovery and structure prediction accuracy compared to decoupled baselines (e.g., Boltz-2 plus ProteinMPNN), because joint training enforces mutual consistency between sequence and structure representations."
+}

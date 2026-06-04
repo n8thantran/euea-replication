@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If generative molecular design models are monitored with multiple complementary diversity metrics (representation distance-based, string-based, fragment-based, and scaffold-based) and constrained with adaptive penalties for overrepresented structures, then chemical diversity in generated molecules will increase while maintaining optimization toward target properties compared to unconstrained generation."
+}

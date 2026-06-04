@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a single score-based diffusion model trained only on metastable-state MD data is guided at inference by interpolated conditional scores (SBI) and then refined with score-aligned ascent along r_SAA = s^B \u2212 s^A, then it will generate configurations enriched for true transition states (committor \u2248 0.5 and correct barrier localization) more accurately than linear or geodesic interpolation baselines across 2D potentials, alanine dipeptide, chignolin, and a chemical reaction because the interpolated scores approximate the reactive flux and SAA focuses ascent along the underlying reaction coordinate while suppressing orthogonal motions."
+}

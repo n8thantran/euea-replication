@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If molecular generation is steered by adding concept-based activation vectors\u2014derived from a frozen Concept Bottleneck Model trained to disentangle property-specific embeddings with orthogonality constraints\u2014to a frozen LLM's hidden states, then the resulting molecules will more accurately satisfy specified physicochemical property targets (lower MAE) while maintaining high validity, novelty, and synthesizability compared to baseline steering and fine-tuning methods, because the orthogonal property embeddings enable precise, independent control over each molecular property without disrupting the LLM's learned chemical knowledge."
+}

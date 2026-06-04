@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Cross-modal predictive learning between graph, text, and XRD spectral representations of crystal structures improves material property prediction accuracy compared to single-modality approaches because the mutual prediction task forces the model to learn complementary structural and compositional features across modalities."
+}

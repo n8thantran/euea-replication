@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If a hybrid model that encodes surfaces with a 2D CNN and polymers with a GRU and multi-head attention is trained on the 8464 polymer\u2013surface PMF-derived binding free energies, then it will predict binding free energies more accurately (lower MAE) than baseline encoders (e.g., 1D CNN, BiGRU, LSTM) because the architecture captures surface spatial features and polymer sequence information and their interactions."
+}

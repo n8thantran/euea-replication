@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "A conditional latent diffusion model trained on composition representations learned by a chemically-informed autoencoder can generate novel catalytic surface compositions that satisfy specified adsorbate-adsorption energy constraints while maintaining chemical validity and distributional similarity to known high-performing surfaces."
+}

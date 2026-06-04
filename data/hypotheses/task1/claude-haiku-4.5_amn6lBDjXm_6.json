@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Generative models trained on materials databases can produce chemically valid and structurally stable novel materials that maintain thermodynamic stability and geometric realizability comparable to known materials, as measured by integrated DFT-validated metrics combining energy stability, structural relaxation behavior, and property distributions."
+}

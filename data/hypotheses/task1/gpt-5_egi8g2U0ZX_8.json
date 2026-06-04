@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If generative models for Covalent Triazine Frameworks are pre-trained on large chemical corpora (ChEMBL/ZINC), fine-tuned on a small CTF-specific dataset, and then optimized with reinforcement learning using expert-designed rewards, then they will produce samples with higher validity, novelty, internal diversity, Fr\u00e9chet ChemNet Distance, and expert-filter pass rates than models trained without these transfer steps because multi-stage knowledge transfer combines broad chemical priors with task-specific structural constraints to guide exploration."
+}

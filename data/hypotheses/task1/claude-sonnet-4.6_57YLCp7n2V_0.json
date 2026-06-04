@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If aromatic bond valency is incorrectly rounded to 1 instead of 1.5 in validity calculations and MMFF94 is used instead of GFN2-xTB for geometry evaluation, then published 3D molecule generation models will appear to achieve artificially inflated chemical validity scores and misleadingly low geometric error metrics, because these methodological flaws systematically misclassify chemically invalid molecules as valid and use a reference force field that is poorly parameterized for the diverse drug-like chemical space present in GEOM-Drugs."
+}

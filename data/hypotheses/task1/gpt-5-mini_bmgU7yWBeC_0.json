@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If the Force Delta (U\u2206)\u2014the RMS difference between conservative forces (\u2212\u2207\u00ca) and directly predicted non\u2011conservative forces (F\u0302nc) from a single NNIP\u2014is a valid uncertainty metric, then U\u2206 will positively correlate with the true force error (\u03b5direct) on both equilibrium and adversarially perturbed out\u2011of\u2011distribution structures and will outperform intra\u2011family ensemble variance in identifying high\u2011error predictions."
+}

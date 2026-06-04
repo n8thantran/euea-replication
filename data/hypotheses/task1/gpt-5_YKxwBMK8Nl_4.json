@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If chemical articles are processed with a single-agent pipeline that uses marker-pdf to preserve document structure and GPT-4o image captioning before schema-constrained extraction, then end-to-end ChemX information extraction will achieve higher per-column F1 and better output-format compliance than GPT-5/GPT-5 Thinking, the ChatGPT Agent, and domain-specific multi-agent systems because minimizing multi-agent handoffs reduces error propagation."
+}

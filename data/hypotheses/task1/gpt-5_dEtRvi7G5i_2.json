@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If hypothetical metal lattices are prioritized by features capturing strong interstitial (quasi-atom) electron localization and screened with a stacked-ensemble ML model trained on template-derived data to predict Ehull under pressure, then the selected candidates will be thermodynamically stable metal superhydrides as confirmed by DFT because interstitial localization governs the electronic stabilization of these phases."
+}

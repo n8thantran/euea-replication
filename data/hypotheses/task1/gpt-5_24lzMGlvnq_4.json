@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If open-weight language models trained on alloy compositions are further optimized via Direct Preference Optimization using Thermo-Calc\u2013derived hierarchical preference pairs, then they will generate BCC/B2 superalloy compositions with higher thermodynamic reward (coexistence with BCC-first, room-temperature B2, <10% other phases), greater compositional validity, coverage, and novelty than SFT-only and prompt/agentic baselines because physics-based preference learning aligns the model with thermodynamically feasible regions while mitigating distribution shift."
+}

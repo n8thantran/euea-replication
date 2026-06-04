@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "ML-assisted SSNEB using eqV2 and eSEN to initialize and restart DFT-based SSNEB will reduce the number of SSNEB iterations and total computational time per structure compared with VASP-only SSNEB, while preserving agreement of the calculated minimum-energy pathways and transition-state energies for CsPbI3 and TiO2 phase transformations."
+}

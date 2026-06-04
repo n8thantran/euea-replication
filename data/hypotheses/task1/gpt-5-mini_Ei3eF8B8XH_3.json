@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If trained on the ChEMBL3D dataset and equipped with stereochemical graph augmentations, the LoQI diffusion model will generate low-energy conformers for diverse drug-like and macrocyclic molecules whose geometries and relative energies closely match DFT-optimized references (within chemical accuracy) while preserving molecular topology and stereochemistry (R/S and E/Z) even for molecules with many rotatable bonds."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Enforcing consensus among an ensemble of neural networks on unlabeled molecular graphs improves predictive performance in semi-supervised learning settings because the consistency regularization reduces overfitting and leverages the ensemble's collective knowledge to generate more reliable pseudo-labels."
+}

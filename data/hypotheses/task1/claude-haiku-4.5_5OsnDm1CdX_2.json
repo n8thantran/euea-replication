@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Pre-trained single-gas neural network features combined with gas composition information in a graph neural network architecture will generalize better to unseen mixture compositions and operating conditions than standard feedforward networks trained directly on mixture data."
+}

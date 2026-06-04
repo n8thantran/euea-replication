@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Multi-agent LLM-based systems with specialized roles and tool access can automatically configure molecular simulations and extract force field parameters from literature with sufficient accuracy and reproducibility to enable end-to-end autonomous molecular simulation workflows."
+}

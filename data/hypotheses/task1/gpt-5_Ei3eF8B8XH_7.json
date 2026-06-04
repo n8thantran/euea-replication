@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a diffusion model that integrates DiT layers with an equivariant GNN is trained on a large QM-accurate conformer dataset and encodes R/S and E/Z stereochemistry via auxiliary graph constraints, then it will generate low-energy, topology-preserving conformers that match or surpass DFT-validated references and reproduce crystallographic geometries across diverse drug-like molecules and macrocycles because stereochemistry-aware constraints guide denoising toward physically consistent low-energy manifolds learned from data."
+}

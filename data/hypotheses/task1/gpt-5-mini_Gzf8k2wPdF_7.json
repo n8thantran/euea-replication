@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If dynamic batching is used instead of static-constant, static-2N, or static-64, then training wall-clock time per gradient-update step will be significantly reduced across models (SchNet, PaiNN, MPEU), datasets (QM9, AFLOW), and batch sizes (16\u2013128) because dynamic batching minimizes padding-related overhead and better balances computation and memory usage."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If Fe K-edge XAS spectra from iron-containing proteins are curated with the proposed semi-automated pipeline and paired with graph-encoded local iron environments, then the resulting dataset will both (i) yield high-fidelity digitizations (low MSE to ground truth and high inter-expert ICC) and (ii) enable machine-learning models to predict spectra from structure and infer coordination number and mean nearest-neighbor distance significantly better than naive baselines, because XAS features systematically reflect and are preserved representations of the local coordination geometry and bond distances."
+}

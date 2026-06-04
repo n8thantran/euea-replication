@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If universal machine-learning interatomic potentials trained on diverse MOF-related datasets reproduce DFT (CP2K/PBE-D3) reference results for MOFs in structural optimization, MD stability, bulk modulus under volumetric strain, and 300 K heat capacity, then these MLIPs enable accurate MOF molecular modeling because they capture transferable interatomic interactions across complex bonding environments."
+}

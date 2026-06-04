@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Ensemble consensus-based semi-supervised learning improves prediction accuracy and calibration on molecular and graph-structured data by leveraging unlabeled examples through consistency regularization between individual model predictions and the ensemble mean."
+}

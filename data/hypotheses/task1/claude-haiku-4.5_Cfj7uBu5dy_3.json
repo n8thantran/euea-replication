@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Dynamic benchmarking with modular components (varied structure generators, acquisition functions, and initialization strategies) will enable more comprehensive and realistic evaluation of autonomous materials discovery agents compared to static benchmarks."
+}

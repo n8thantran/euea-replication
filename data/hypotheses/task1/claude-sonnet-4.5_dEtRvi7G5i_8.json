@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If metal lattices are pre-screened for strong electron localization at interstitial sites (quasi-atoms) before structural searches, then machine learning models can efficiently predict thermodynamically stable metal superhydrides with high superconducting transition temperatures because the chemical template approach reduces the search space to configurations that favor the formation of stable hydrogen-rich structures with favorable electronic properties."
+}

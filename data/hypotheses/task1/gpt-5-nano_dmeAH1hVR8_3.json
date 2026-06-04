@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If a large language model is pre-trained on MOF-related articles and PubChem structural data and then fine-tuned on MOF property datasets using MOFid text inputs, then it will achieve lower MAE on the QMOF and hMOF test sets compared to CGCNN, SOAP, and MOFormer baselines, with larger gains when the supervised fine-tuning data are limited (1K\u201310K samples) because pre-training imparts domain-specific chemical knowledge that enhances property prediction from MOFid text representations."
+}

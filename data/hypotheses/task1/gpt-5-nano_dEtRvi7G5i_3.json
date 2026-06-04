@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Metal lattices exhibiting strong interstitial electron localization (quasi-atoms) and predicted by the machine learning workflow to have favorable thermodynamic stability (low Ehull) and hydrogen-related electronic descriptors will be thermodynamically stable under high pressure and exhibit potential superconductivity as indicated by electron-phonon coupling calculations (nonzero \u03bb and finite Tc)."
+}

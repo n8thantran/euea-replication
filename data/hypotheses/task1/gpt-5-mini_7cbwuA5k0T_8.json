@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If the tools and task representations provided to an LLM agent are closely aligned (high semantic/task-tool similarity and inclusion of a hypothesis-generator), then the agent will achieve significantly higher success rates and scores on Corral's scientific environments than when using less-aligned tools or simply changing agent scaffolds or LLM frameworks, because task-tool alignment supplies the domain-relevant actions and information required to solve scientific tasks."
+}

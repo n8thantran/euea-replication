@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If features from pretrained single-gas (Ar and O2) etch-rate networks are fused in a two-node GraphSAGE model with gas-fraction inputs, then the model will achieve lower weighted MSE and higher R\u00b2 in predicting Ar/O2 mixture radial etching rates\u2014including on unseen power/pressure ranges and low xAr cases\u2014than an FNN or alternative GNNs because it leverages transferable single-gas representations and compositional structure."
+}

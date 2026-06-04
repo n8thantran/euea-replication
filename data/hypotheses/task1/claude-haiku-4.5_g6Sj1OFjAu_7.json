@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "A conditional latent diffusion model trained on composition-level representations of catalytic surfaces can generate novel high-entropy alloy compositions with target adsorption properties that maintain chemical validity and outperform chemically-agnostic baselines in distributional similarity and constraint satisfaction."
+}

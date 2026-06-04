@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If an autonomous materials discovery agent in MADE uses the pretrained MatterGen generator with a diversity-based acquisition strategy, then within a 20-query budget it will discover significantly more novel stable compounds (\u03b5 \u2264 0.01 eV/atom) across Na\u2013O and Co\u2013Nb\u2013Sn than agents using random generation and/or random acquisition because chemically informed generation combined with diversity-driven selection more efficiently explores high-yield regions of composition and structure space."
+}

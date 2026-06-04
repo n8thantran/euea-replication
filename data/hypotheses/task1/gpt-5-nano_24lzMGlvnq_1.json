@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If language models are trained via supervised fine-tuning on known BCC/B2 data and then optimized with Direct Preference Optimization using a Thermo-Calc-based hierarchical reward for BCC/B2 phase formation, then the top generated alloy compositions will show improved phase coexistence and fewer non-BCC/B2 phases than designs produced by baseline methods."
+}

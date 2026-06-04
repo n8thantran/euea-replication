@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If a small language model is continually pre-trained on MOF-focused literature and large molecular corpora and then fine-tuned on limited MOF property datasets using MOFid text inputs, then it will achieve lower MAE than structure-based baselines and models without such pre-training on band gap and gas adsorption prediction because domain-specific pre-training transfers chemical structure\u2013property knowledge that improves generalization, especially in low-resource regimes."
+}

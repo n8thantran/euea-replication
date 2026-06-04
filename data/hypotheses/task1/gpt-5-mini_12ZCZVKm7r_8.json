@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Despite differing architectures, input modalities, and training data, scientific foundation models of molecules, materials, and proteins learn universally convergent hidden-state representations\u2014exhibiting high local (CKNNA) and global (IDCor) alignment and similar intrinsic dimensions\u2014such that embeddings from disparate models preserve neighborhood structure and mutual manifold information even across in-distribution and out-of-distribution datasets."
+}

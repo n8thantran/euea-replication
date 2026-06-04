@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Correcting the aromatic bond valency calculation bug and adopting chemically accurate valency tables will substantially improve the measured validity rates of 3D molecule generation models, revealing that previously reported validity metrics were systematically underestimated due to incorrect valency thresholds applied to aromatic systems."
+}

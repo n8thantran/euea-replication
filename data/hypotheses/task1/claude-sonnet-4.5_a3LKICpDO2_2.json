@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "\u2206-learning models that predict the correction to semi-empirical GFN1-xTB band gaps will achieve higher accuracy in predicting DFT-level band gaps for metal-organic frameworks than direct machine learning models trained to predict DFT band gaps from structural descriptors alone."
+}

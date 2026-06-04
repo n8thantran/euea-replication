@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If the local iron coordination environment is encoded as a graph and provided to graph neural networks, then the networks will predict the 100-point Fe K-edge XAS spectrum (XANES and EXAFS) from the graph with low mean squared error, because the XAS spectrum encodes information about local structure that the models can learn."
+}

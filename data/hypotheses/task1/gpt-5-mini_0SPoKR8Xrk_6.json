@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "A hybrid deep learning model that combines a 2D CNN surface encoder, a GRU polymer encoder, and a multi-head attention module will predict polymer\u2013surface binding free energies from coarse-grained lattice and sequence representations with significantly lower mean absolute error than baseline DNNs and models using alternative polymer encoders because the attention-mediated interaction between learned surface and polymer features captures the interfacial determinants of adhesion."
+}

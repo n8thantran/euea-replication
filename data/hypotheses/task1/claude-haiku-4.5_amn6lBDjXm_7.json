@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Generative models for materials discovery can be comprehensively and reliably evaluated using a framework that combines DFT-based simulation metrics (RMSD, SUN) with ML-based statistical metrics (EMD, Fr\u00e9chet distance, precision/recall) to assess both the chemical validity and structural quality of generated materials."
+}

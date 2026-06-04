@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If complementary diversity metrics (representation, string, fragment, and scaffold-based) are applied with adaptive constraints during generative molecular design, then the chemical diversity of generated molecules will increase and the emergence of overrepresented structures will be reduced compared to unconstrained generation."
+}

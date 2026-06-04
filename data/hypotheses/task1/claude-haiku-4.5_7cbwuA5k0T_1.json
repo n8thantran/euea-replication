@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Alignment between task requirements and available tools, measured by semantic similarity and task-specific tool design, has a greater impact on scientific LLM agent performance than the choice of reasoning framework or LLM model."
+}

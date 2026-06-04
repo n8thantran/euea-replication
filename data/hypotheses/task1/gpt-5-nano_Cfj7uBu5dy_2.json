@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Using diversity-based acquisition in the MADE dynamic benchmark yields a higher number of novel stable compounds and more unique structures discovered within a fixed 20-query budget than using random acquisition, because diversity-based selection promotes exploration of composition space and reduces redundancy."
+}

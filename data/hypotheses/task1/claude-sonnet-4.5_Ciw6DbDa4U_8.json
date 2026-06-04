@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Tensor completion methods will achieve higher prediction accuracy (R\u00b2 scores) than traditional machine learning methods (Gaussian Process, XGBoost, MLPs) for surrogate modeling of lattice structure mechanical properties, particularly under biased sampling conditions, because they exploit the inherent multi-dimensional structure of the design parameter space."
+}

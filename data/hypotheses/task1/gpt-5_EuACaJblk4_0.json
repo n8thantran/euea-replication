@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If protein sequence design and structure prediction are trained end-to-end in a discrete stochastic autoencoder with composite structural losses, then the model will generate sequences whose predicted structures more accurately reconstruct target backbones and achieve higher sequence recovery than modular baselines, because joint optimization through a discrete bottleneck aligns sequence and structure representations and enforces self-consistency."
+}

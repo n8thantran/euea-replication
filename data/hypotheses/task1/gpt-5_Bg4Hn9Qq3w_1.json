@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If large language model agents equipped with ReACT-style tool use are given control of experiments with sufficient budget/time (and optional reference sensor information), then they will autonomously infer the correct governing rules of unknown systems (toy and simulated ALP), with accuracy increasing with model capability and available time/information."
+}

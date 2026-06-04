@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If task\u2013tool alignment is increased (via higher task\u2013tool embedding similarity, appropriate task decomposition, and domain-specific tools), then scientific LLM agent performance (pass@k and success rate) will improve more than from changing the LLM model or agent scaffold, because better alignment reduces reasoning overhead and enables more effective tool use."
+}

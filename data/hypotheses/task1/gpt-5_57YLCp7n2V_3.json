@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If aromatic valency is computed correctly (accounting for 1.5 bond order) and the GEOM-Drugs dataset is kekulized to remove aromatic ambiguity during training, then retrained 3D molecule generators will produce structures with higher valency validity and lower GFN2-xTB relaxation and geometry deviations than when trained on the original dataset because corrected bonding constraints align model learning with chemically accurate structure rules."
+}

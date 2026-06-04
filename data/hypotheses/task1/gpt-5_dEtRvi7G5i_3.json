@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If metal\u2013hydrogen candidates are generated from metal lattice templates with strong interstitial (quasi-atom) electron localization and screened by a stack-ensemble ML model trained on lattice/electronic features, then the prioritized compounds will be thermodynamically stable (low Ehull) and include high-Tc superconductors under pressure because these features capture the 3D electronic connectivity and hydrogen-derived density of states that control stability and electron\u2013phonon coupling."
+}

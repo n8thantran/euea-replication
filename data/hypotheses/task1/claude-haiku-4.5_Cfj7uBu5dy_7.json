@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Autonomous materials discovery agents using learned structure generators with diversity-based acquisition functions will discover more novel stable compounds than agents using random structure generators with random selection, because guided exploration of composition space reduces redundant proposals."
+}

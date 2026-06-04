@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If diverse foundation models across molecules, materials, and proteins encode a universal latent representation of matter, then their embeddings will exhibit strong cross-model alignment (high CKNNA and high IDCor) and consistent intrinsic dimensionalities across architecture families, with stronger alignment for in-distribution datasets than for out-of-distribution datasets."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If the valency calculation bug (treating aromatic bonds as 1 instead of 1.5) and the use of chemically inaccurate MMFF94-based evaluation are corrected in 3D molecule generation benchmarks, then the reported validity and geometric quality metrics of current state-of-the-art models will change substantially, because the existing benchmarks systematically misclassify invalid molecules as valid and use a reference geometry method poorly suited to drug-like molecules, thereby obscuring true model performance differences."
+}

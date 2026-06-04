@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Dynamic batching strategies that adapt padding targets based on data characteristics will reduce training time compared to static batching strategies across different graph neural network models and datasets."
+}

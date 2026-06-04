@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Pretraining the STR-Bamba hybrid encoder\u2013decoder on multiple molecular textual modalities with the custom BPE tokenizer and two-phase training produces aligned latent representations across modalities that improve molecular property prediction performance and enable accurate translation between molecular representations."
+}

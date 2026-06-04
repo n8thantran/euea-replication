@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If metal lattice configurations with strong electron localization at interstitial sites (quasi-atoms) are pre-screened using machine learning before structural optimization, then stable metal superhydrides with high superconducting transition temperatures can be discovered more efficiently than traditional high-throughput screening methods."
+}

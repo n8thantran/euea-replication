@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If polymer-specific pre-trained molecular representations (PolyNC, polyBERT) are used within Bayesian optimization (with the tested surrogate models and Thompson sampling) together with the DFT-refined force field and two-stage simulation workflow, then the optimization will identify polyamine structures with higher CO2 adsorption capacity more efficiently (with fewer simulation evaluations) than when using general pre-trained representations (MoLFormer, MolGen-large, MiniMol) because polymer-specific embeddings better capture polymer features relevant to CO2 adsorption."
+}

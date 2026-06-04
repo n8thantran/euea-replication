@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Machine learning-based surrogates for DFT can accelerate the discovery of minimum energy pathways and metastable states by reducing computational cost while maintaining accuracy compared to direct DFT calculations."
+}

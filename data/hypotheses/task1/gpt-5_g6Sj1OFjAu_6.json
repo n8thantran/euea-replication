@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If catalytic surface design is reformulated as 2D shell-wise composition generation and a conditional latent diffusion model samples in a chemically informed autoencoder latent space conditioned on adsorbate identity, target adsorption energy, and allowed elements, then it will produce compositions that satisfy constraints and more closely match true local environments (lower Fr\u00e9chet distance, lower leakage, higher cosine similarity) than chemically agnostic baselines even with limited data, because the latent space encodes periodic chemical trends and local coordination relevant to adsorption energetics."
+}

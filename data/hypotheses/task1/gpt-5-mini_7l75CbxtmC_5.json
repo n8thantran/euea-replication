@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "An integrated computational workflow combining thermodynamic screening, React-CA cellular automaton simulation, and commercial supplier pricing will identify synthesis recipes for Ca2SiO4 from commercially available reactants that are thermodynamically favorable at 800\u20131600\u00b0C and more cost-effective (lower combined thermodynamic penalty and market price for \u226595% purity reactants) than recipes selected by thermodynamics or cost criteria alone."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If models are retrained on chemically accurate Kekulized datasets with corrected aromatic valency lookups, then the generated molecules will exhibit improved geometric fidelity to GFN2-xTB-optimized structures (smaller \u0394r, \u0394\u03b8, \u0394\u03c6 and lower \u0394E_relax) than models trained on original datasets, demonstrating that valency-correctness improves 3D molecule generation."
+}

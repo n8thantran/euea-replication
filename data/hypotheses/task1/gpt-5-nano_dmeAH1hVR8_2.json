@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If continual pre-training of a large language model on MOF-related articles and PubChem data followed by supervised fine-tuning on MOF property datasets using MOFid textual representations leads to lower mean absolute error in MOF property predictions than baselines (CGCNN, SOAP, MOFormer), especially at low-data regimes (1K\u201310K samples), because the pre-training imbues domain-specific knowledge that enables effective text-based MOF property prediction."
+}

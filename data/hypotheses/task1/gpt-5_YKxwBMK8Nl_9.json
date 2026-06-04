@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a single-agent pipeline that converts PDFs to structure-preserving markdown and injects GPT-4o-derived image captions is used for end-to-end chemical information extraction on ChemX nanozyme and chelate articles, then it will achieve higher per-column F1 scores and better output-format compliance than GPT-5/Thinking, a general-purpose ChatGPT Agent, and domain-specific multi-agent systems because structured preprocessing and unified control reduce parsing errors and schema violations."
+}

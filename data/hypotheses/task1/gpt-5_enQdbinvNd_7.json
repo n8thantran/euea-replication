@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If molecular simulation workflows are delegated to a coordinated multi-agent LLM framework with literature-parsing and file-editing tools, then the system will autonomously extract complete and correct force-field parameters from publications and generate reproducible, executable RASPA setups for adsorption isotherm and heat-of-adsorption simulations across diverse zeolites and adsorbates because agent specialization, ReAct-based reasoning, and shared memory enable accurate information retrieval and configuration assembly."
+}

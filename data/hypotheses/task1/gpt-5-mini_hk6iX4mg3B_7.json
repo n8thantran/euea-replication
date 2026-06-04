@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If deep models are trained semi-supervised with an ensemble-consensus consistency loss that pulls each member toward the ensemble mean on unlabeled data (with gradient detached), then they will outperform supervised training and existing SSL methods (mean-teacher, PSEUDO\u03c3) in predictive accuracy and calibration on molecular graph and image benchmarks, with larger ensemble sizes producing larger gains that are robust to the choice of coupling weight \u03b3 and loss function."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a coordinated multi-agent LLM framework with literature access and file-manipulation tools is used, then it will autonomously and reproducibly extract complete, correct force-field parameters and generate valid, executable RASPA setups for zeolite adsorption simulations (isotherms and heats) across multiple adsorbates and structures."
+}

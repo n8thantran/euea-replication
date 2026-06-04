@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If graph neural networks are trained with dynamic batching that uses dataset-estimated fixed padding targets, then the average wall-clock time per training step will be lower than with static-constant, static-2N, or static-64 batching across QM9 and AFLOW, models, batch sizes, and hardware because it reduces unnecessary padding while maintaining low recompilation counts."
+}

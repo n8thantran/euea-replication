@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Fine-tuning the Segment Anything Model 2 on synthetic liquid phase transmission electron microscopy video data will enable real-time, accurate segmentation and tracking of nanoparticles in experimental LPTEM videos despite challenging conditions such as low signal-to-noise ratios and particle occlusions."
+}

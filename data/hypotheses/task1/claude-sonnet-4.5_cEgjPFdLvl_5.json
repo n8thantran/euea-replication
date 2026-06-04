@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "Incorporating energy-based guidance and Hamiltonian Monte Carlo refinement into a diffusion model framework will generate amorphous material structures with more physically accurate local geometries and lower potential energies compared to standard score-based denoising alone."
+}

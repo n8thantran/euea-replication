@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "An equivariant graph neural network-based diffusion model can generate physically realistic amorphous materials with controllable properties by denoising random structures through energy-informed scoring functions that incorporate molecular dynamics refinement."
+}

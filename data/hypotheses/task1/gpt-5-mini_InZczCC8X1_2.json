@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "An autonomous closed-loop Bayesian optimization platform that varies bicarbonate temperature, bicarbonate concentration and flow rate, KOH concentration and flow rate, and applied current density can efficiently converge within ~52 experiments to operating conditions that significantly increase reactor yield (and JCO) in reactive carbon electrolyzers compared to random or space-filling search, and these optimized conditions remain effective under realistic mixed bicarbonate\u2013carbonate capture electrolytes."
+}

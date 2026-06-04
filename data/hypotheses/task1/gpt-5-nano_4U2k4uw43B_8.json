@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If ML surrogates (eqV2 and/or eSEN) are used to initialize and restart SSNEB calculations, then the computed minimum energy pathways and transition states for CsPbI3 and TiO2 will be obtained with fewer iterations and less total computational time than with VASP-only SSNEB, without compromising the accuracy of the pathways."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If SAM-2 is fine-tuned on synthetic LPTEM videos with box-prompt conditioning, then its segmentation accuracy on test LPTEM sequences (as measured by IoU, F1, and J&F) will exceed that of the U-Net baseline, enabling particle tracking and motion statistics (MSD, VACF, displacement distributions) that more closely match manual centroid annotations, because the synthetic data and prompts reduce domain gap and improve boundary delineation in noisy, overlapping frames."
+}

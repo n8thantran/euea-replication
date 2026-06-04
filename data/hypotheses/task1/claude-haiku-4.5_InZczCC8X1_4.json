@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "Machine learning-driven closed-loop optimization of bicarbonate concentration, temperature, flow rates, KOH concentration, and current density can identify parameter combinations that significantly increase reactor yield in silver-catalyzed carbon electrolyzers beyond baseline performance."
+}

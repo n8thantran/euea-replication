@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If CHROMA is scaled with larger frozen Llama encoders and deeper trainable Transformer decoders, then it will generate multilayer thin-film designs from natural-language prompts that more closely match target structural colors (lower CIE76 \u0394E), including on held-out optical targets and across viewing angles, because increased model capacity improves the mapping from language to discrete material-thickness sequences."
+}

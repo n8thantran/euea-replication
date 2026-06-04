@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "A conditional diffusion model operating in the latent space of a chemically-informed autoencoder can generate valid catalytic surface compositions that satisfy chemical constraints and adsorption energy targets better than chemically-agnostic baselines."
+}

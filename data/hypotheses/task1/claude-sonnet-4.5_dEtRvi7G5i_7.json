@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If metal lattice structures with strong electron localization at interstitial sites (quasi-atoms) are identified using machine learning and then systematically varied in metal/non-metal ratio, then thermodynamically stable metal superhydrides with high superconducting transition temperatures can be discovered because the quasi-atom framework provides chemically meaningful constraints that improve prediction accuracy over purely data-driven approaches."
+}

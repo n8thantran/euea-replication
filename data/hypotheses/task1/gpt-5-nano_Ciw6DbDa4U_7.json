@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If tensor completion surrogate models (CPD-S and NeAT) achieve higher R^2 scores than baseline Gaussian Process, XGBoost, and MLP models when predicting Young's modulus E and mass-normalized modulus \u1ebc from lattice design parameters under both uniform random and biased sampling schemes, then tensor-structured modeling provides superior predictive accuracy for lattice-property surrogacy due to better exploitation of multi-way parameter dependencies."
+}

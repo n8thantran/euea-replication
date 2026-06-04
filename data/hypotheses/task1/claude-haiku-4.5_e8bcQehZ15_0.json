@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Steering the hidden activations of frozen large language models using learned concept embeddings will enable accurate conditional molecular generation with specified properties while maintaining molecular validity and diversity, without requiring full model fine-tuning."
+}

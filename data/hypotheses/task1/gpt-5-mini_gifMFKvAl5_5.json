@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If physics-based non-negativity and sum-to-one regularizations are incorporated into a diffusion model and weighted by \u03b11 and \u03b12, then the PCDiff model will produce generated composite compositions with significantly higher proportions of physically valid samples (Validityreg and Validityfab) while maintaining or improving fidelity and diversity (density and coverage) compared to CVAE and TabDDPM because enforcing these constraints guides the generative process to respect compositional feasibility."
+}

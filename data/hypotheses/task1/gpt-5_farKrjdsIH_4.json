@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If Segment Anything Model 2 is fine-tuned end-to-end on physics-informed synthetic LPTEM videos spanning realistic SNR and resolution variations, then the resulting SAM-EM will outperform a U-Net baseline in Jaccard, F1, and J&F on held-out tests and yield centroid positions on real LPTEM data that agree with manual annotations because combining broad pretrained priors with domain-specific variability enables robust segmentation of weak-contrast nanoparticles."
+}

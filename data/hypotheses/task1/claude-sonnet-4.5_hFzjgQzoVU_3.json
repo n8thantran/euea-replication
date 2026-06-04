@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Graph neural networks can predict X-ray absorption spectra from local atomic structure representations of iron-containing proteins with quantifiable accuracy."
+}

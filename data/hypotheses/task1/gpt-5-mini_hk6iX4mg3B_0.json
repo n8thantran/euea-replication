@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If multiple models are trained jointly with a consistency loss that encourages each model to match the detached ensemble mean prediction on unlabeled data (ensemble consensus), then semi-supervised learning will produce better predictive accuracy and calibration than supervised training and alternative SSL methods (mean-teacher, PSEUDO\u03c3) across molecular graph and image datasets, with improvements growing with ensemble size and remaining robust to coupling weight, scheduling, and loss-function choices."
+}

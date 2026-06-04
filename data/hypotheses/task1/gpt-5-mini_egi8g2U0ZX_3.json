@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If generative models are pre-trained on ChEMBL v35, fine-tuned on the curated 103 CTF structures, and trained with reinforcement learning using the expert-defined reward functions (flatness, symmetry, conjugation, steric hindrance, and SMARTS pattern matching), then they will produce porous carbon candidates with significantly higher percentage passing expert filters, greater uniqueness, internal diversity, and novelty, and lower Fr\u00e9chet ChemNet Distance than models pre-trained on older ChEMBL versions or ZINC-15 or models that omit fine-tuning or the expert RL rewards."
+}

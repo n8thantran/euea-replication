@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If a hybrid deep learning model combining a 2D CNN surface encoder, a GRU polymer encoder, and a multi-head attention module is trained on the MD-derived polymer\u2013surface binding free energy dataset with symmetry-based augmentation, then it will predict binding free energies with significantly lower mean absolute error than baseline DNNs and alternative polymer encoders because the architecture more effectively captures spatial surface motifs and sequence\u2013surface interactions."
+}

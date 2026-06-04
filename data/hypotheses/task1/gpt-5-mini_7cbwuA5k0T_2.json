@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "If task-tool alignment is increased\u2014via decomposing tasks, providing more comprehensive tool descriptions, and adding hypothesis-generation tools\u2014then scientific LLM agents will achieve significantly higher pass@5, success rate, and average scores than gains obtained by changing agent scaffold (ReAct vs tool-calling) or model (Claude-3.5 Sonnet vs GPT-4o), because improved alignment leads to more accurate tool selection and effective execution."
+}

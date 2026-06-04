@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Using ML surrogates (eqV2 or eSEN) to generate an approximate minimum energy path and restarting VASP-based SSNEB from those ML-converged images will reduce SSNEB iterations and computational time to converge the MEP for CsPbI3 and TiO2 transformations, while yielding transition states and minimum-energy paths with accuracy comparable to conventional VASP-only SSNEB."
+}

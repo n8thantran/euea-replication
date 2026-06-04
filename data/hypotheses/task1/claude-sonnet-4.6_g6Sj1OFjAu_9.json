@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a chemically-informed latent space derived from periodic table representations is used to condition a diffusion model on adsorption energy and adsorbate identity, then it will generate shell-wise surface compositions that more accurately satisfy chemical constraints and match target adsorption energy distributions compared to a chemically-agnostic baseline, because encoding domain-specific elemental relationships into the latent space provides inductive biases that guide the generative model toward physically meaningful and constraint-compliant catalyst compositions."
+}

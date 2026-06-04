@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "The domain-specific single-agent extraction pipeline will achieve higher end-to-end extraction F1 scores for outputting dataset-specific structured chemical information than the combination of baseline LLMs and domain-general multi-agent systems across both nanozyme and chelate-complex datasets."
+}

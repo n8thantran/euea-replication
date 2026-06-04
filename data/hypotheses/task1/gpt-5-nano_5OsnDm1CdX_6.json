@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Graph-based multi-gas models that concatenate frozen single-gas network features with Ar fraction inputs can generalize to accurately predict the ten radial etching rates of Ar/O2 mixtures across varying coil power and pressure, and will outperform a baseline feedforward neural network trained directly on mixture data."
+}

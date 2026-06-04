@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 2,
+  "task": "task1",
+  "hypothesis": "Using GFN1-xTB band gaps as a baseline and training an XGBoost \u2206-learning model on the selected structural and compositional descriptors will predict DFT (PBE and HSE06) band gaps of MOFs with lower error than direct XGBoost models and fine-tuned deep learning benchmarks, because systematic errors in GFN1-xTB can be learned and corrected."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "If fragment-based polymer generation is combined with DFT-refined Lennard-Jones parameters, a two-stage MD+GCMC simulation workflow, and Bayesian optimization using polymer-specific molecular representations and advanced surrogate models, then high-CO2-adsorption polyamine candidates will be discovered more accurately and with fewer simulations than when using generic representations or unrefined force-field mixing rules."
+}

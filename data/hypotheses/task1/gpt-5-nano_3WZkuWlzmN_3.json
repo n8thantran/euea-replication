@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "If a cross-modal latent-space predictive architecture that trains two modalities (graph, text, and XRD) to predict the third is used to predict crystal properties, then it will achieve lower MAE on Matbench crystal-property tasks and AFLOW Band Gap prediction than single-modality or baseline multi-modality models, because integrating information from multiple modalities yields richer representations for material property prediction."
+}

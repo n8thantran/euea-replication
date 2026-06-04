@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If a 3D molecular encoder is trained via multimodal contrastive alignment with a semantically rich SMILES-based language model, then the resulting 3D representations will exhibit emergent pose-invariance\u2014enabling robust retrieval of molecules across arbitrary rotations without explicit geometric equivariance constraints\u2014because the contrastive objective forces the 3D encoder to learn molecular identity features encoded in the SMILES modality rather than orientation-dependent spatial features."
+}

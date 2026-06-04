@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "A Transformer encoder\u2013decoder using patch-based spectrum embeddings and a jointly trained spectral reconstruction alignment network, pretrained on simulated MD-derived IR spectra and fine-tuned on NIST spectra with multitask concentration training, can accurately predict constituent molecular structures from binary and ternary mixture IR spectra (achieving high Top-k accuracy and Tanimoto similarity on simulated and experimental ATR-IR mixtures) and outperforms architectures lacking the alignment/reconstruction loss."
+}

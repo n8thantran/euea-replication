@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If the diversity-based acquisition function is paired with the diffusion-guided MatterGen structure generator within the MADE benchmark, then more novel stable compounds will be discovered within a 20-query budget than with a random acquisition paired with the Random structure generator, because enhanced exploration of composition-structure space increases the discovery of unique candidates that meet the \u03b5 = 0.01 eV/atom stability threshold."
+}

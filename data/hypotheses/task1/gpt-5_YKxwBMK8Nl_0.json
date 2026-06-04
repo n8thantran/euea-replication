@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If automated chemical information extraction on ChemX nanozyme and chelate-complex articles uses a single-agent pipeline with structure-preserving PDF-to-markdown conversion and integrated image captioning, then it will achieve higher per-column F1 scores and better JSON schema compliance than GPT-5/GPT-5 Thinking, a general-purpose ChatGPT Agent, and domain-specific multi-agent systems because preserving document structure and reducing orchestration complexity improves end-to-end extraction accuracy and robustness."
+}

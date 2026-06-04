@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 9,
+  "task": "task1",
+  "hypothesis": "If a Transformer-based encoder\u2013decoder is trained with a joint spectrum-to-spectrum reconstruction loss (L_reconstruction) in addition to the standard sequence-to-sequence loss (L_S2S) and multitask learning across multiple concentration ratios, then it will accurately identify and reconstruct the constituent pure-component spectra from IR spectra of mixtures (binary and ternary across 10%\u201390% ratios) with higher accuracy and spectral similarity than a model trained without the reconstruction loss, because the reconstruction objective aligns encoder representations with pure spectra and improves disambiguation of overlapping spectral features."
+}

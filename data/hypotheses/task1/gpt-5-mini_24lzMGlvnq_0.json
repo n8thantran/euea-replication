@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "If open-weight language models are first supervised fine-tuned on known BCC/B2 compositions and then refined with Direct Preference Optimization using Thermo-Calc\u2013based hierarchical preference labels, then the DPO-refined models will generate alloy compositions that achieve higher mean reward and greater compliance with the synthesis objectives (BCC/B2 coexistence, BCC forming first, room-temperature B2, <10% other phases), higher compositional validity and novelty, and improved coverage compared to SFT-only models and other baselines, because physics-based preference feedback steers generation toward thermodynamically favorable candidates."
+}

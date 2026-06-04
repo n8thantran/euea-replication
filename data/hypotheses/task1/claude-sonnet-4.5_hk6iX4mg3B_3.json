@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Enforcing prediction consistency across an ensemble of models on unlabeled molecular graph data improves generalization performance in semi-supervised learning compared to supervised baselines and existing semi-supervised methods because the ensemble consensus regularizes individual models against overfitting to limited labeled data."
+}

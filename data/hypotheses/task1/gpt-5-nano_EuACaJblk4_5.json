@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 5,
+  "task": "task1",
+  "hypothesis": "If E2EFOLD is trained end-to-end with a composite loss that jointly optimizes structure reconstruction (FAPE, C\u03b1-FAPE, torsion, distogram) and sequence recovery, then it will achieve higher sequence recovery and more accurate structure predictions (lower RMSD and higher TM-score) on benchmark datasets than models trained separately for structure prediction and sequence design, because the joint objective aligns sequence and structure optimization."
+}

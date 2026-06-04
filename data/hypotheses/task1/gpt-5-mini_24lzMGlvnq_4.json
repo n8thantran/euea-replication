@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If language models fine-tuned on alloy data are further trained with Direct Preference Optimization using thermodynamic simulation\u2013based pairwise rewards, then they will generate BCC/B2 alloy compositions with higher mean synthesis reward (improved BCC/B2 coexistence, correct phase ordering, room-temperature B2 stability, and \u226410% non-BCC/B2 phases), higher compositional validity, and improved uniqueness/novelty/coverage compared to SFT-only and baseline methods because DPO directly optimizes for physics-based preferences while constraining distribution shift."
+}

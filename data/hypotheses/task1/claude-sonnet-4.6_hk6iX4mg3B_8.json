@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If molecular graph neural networks are trained with an ensemble consensus objective that encourages agreement among ensemble members on unlabeled data, then their predictive accuracy and calibration will improve compared to supervised-only baselines and other semi-supervised approaches, because the mutual consistency constraint leverages unlabeled molecular data to regularize learning while the ensemble diversity provides more reliable pseudo-targets than single-model self-training."
+}

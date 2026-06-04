@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Larger frozen language model encoders combined with deeper trainable decoders will produce more accurate multilayer thin-film designs for structural coloration from natural language prompts because increased model capacity enables better semantic understanding and design space exploration."
+}

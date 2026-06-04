@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "Enforcing prediction consensus among an ensemble of neural networks trained on unlabeled molecular graphs improves generalization performance in low-data regimes because the consistency constraint acts as a regularizer that reduces model variance and prevents overfitting to limited labeled examples."
+}

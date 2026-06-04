@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "If Segment Anything Model 2 is fine-tuned end-to-end on a physics-informed synthetic LPTEM video dataset spanning liquid thickness (SNR) and resolution variations with box-prompt conditioning, then it will achieve higher segmentation accuracy (IoU/F1/J&F) and centroid agreement on both synthetic and real LPTEM videos than a U-Net baseline, because SAM\u2019s broad visual pretraining combined with domain-matched synthetic coverage enables robust generalization to low-contrast, overlapping-particle conditions."
+}

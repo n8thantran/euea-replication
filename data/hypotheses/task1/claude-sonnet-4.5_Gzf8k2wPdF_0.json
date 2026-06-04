@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Dynamic batching algorithms will achieve faster training times than static batching algorithms for graph neural networks because they reduce wasted computation from excessive padding while maintaining efficient GPU utilization."
+}

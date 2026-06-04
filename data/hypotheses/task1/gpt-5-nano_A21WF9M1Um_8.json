@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If the XRD-based crystal-structure recovery problem has a rough, non-convex loss landscape, then gradient-descent optimization using the differentiable XRD simulator will fail to reliably recover the ground-truth structures from distorted XRD patterns, yielding low match rates that are not substantially improved by imposing symmetry constraints."
+}

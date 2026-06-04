@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 7,
+  "task": "task1",
+  "hypothesis": "Large language models pre-trained on chemical corpora can predict metal-organic framework properties more accurately than structure-based machine learning baselines, particularly in low-data regimes, because domain-specific pre-training enables better transfer learning from limited labeled MOF datasets."
+}

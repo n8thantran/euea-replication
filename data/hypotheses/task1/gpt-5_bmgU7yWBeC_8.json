@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 8,
+  "task": "task1",
+  "hypothesis": "If a structure evaluated by a pre-trained neural network interatomic potential exhibits a large Force Delta (RMS disagreement between \u2212\u2207E and directly predicted forces), then its true non-conservative force error relative to DFT will be large\u2014across equilibrium and adversarially generated OOD structures and for both Orb and EquiformerV2 models\u2014because this internal force inconsistency captures epistemic uncertainty more accurately than ensemble variance."
+}

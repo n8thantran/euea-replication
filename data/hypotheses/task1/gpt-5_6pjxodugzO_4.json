@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "If molecular embeddings from large SMILES\u2011pretrained chemical foundation models are aggregated by composition to represent formulations and combined with device variables, then predictive models will achieve higher accuracy and out\u2011of\u2011distribution robustness across molecular, formulation, interfacial, and device\u2011level battery tasks than models based on Morgan fingerprints or graph baselines because the pretrained embeddings encode transferable chemical knowledge that aligns with functional moieties."
+}

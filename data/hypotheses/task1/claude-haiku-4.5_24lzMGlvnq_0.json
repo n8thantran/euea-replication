@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 0,
+  "task": "task1",
+  "hypothesis": "Training language models with direct preference optimization using physics-based thermodynamic rewards will generate novel BCC/B2 superalloy compositions with higher phase stability and lower defect content than models trained with supervised fine-tuning alone or baseline generative approaches."
+}

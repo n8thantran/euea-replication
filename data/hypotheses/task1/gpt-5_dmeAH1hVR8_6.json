@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a small LLM is continually pre-trained on MOF-focused literature and large-scale chemical structure/property data, then when it is fine-tuned on QMOF and hMOF using MOFid text inputs\u2014especially with limited labeled samples\u2014it will achieve lower MAE than models without such pre-training or relying on 3D structural features, because domain-specific pre-training embeds transferable chemical knowledge that enables accurate text-based property prediction."
+}

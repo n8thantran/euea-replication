@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 1,
+  "task": "task1",
+  "hypothesis": "Language models can accurately predict the molecular composition of IR spectral mixtures by learning spectral patterns through pretraining on simulated spectra and fine-tuning with a joint reconstruction loss that enforces alignment between encoder representations and pure component spectra."
+}

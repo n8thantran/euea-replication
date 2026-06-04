@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 3,
+  "task": "task1",
+  "hypothesis": "Training 3D molecular generative models on chemically accurate Kekulized datasets with corrected valency calculations will produce generated molecules with significantly lower GFN2-xTB relaxation energies and smaller bond length, bond angle, and torsion deviations compared to models trained on the original dataset with the aromatic-valency bug."
+}

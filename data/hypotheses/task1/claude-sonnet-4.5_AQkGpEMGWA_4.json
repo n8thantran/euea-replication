@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 4,
+  "task": "task1",
+  "hypothesis": "AI-guided generative design conditioned on structural stability criteria (specifically, constant Li-ion channel radius between charged and discharged states) will identify silicon-based anode materials with capacities exceeding 1500 mAh/g that maintain stable Li-ion diffusion pathways during electrochemical cycling."
+}

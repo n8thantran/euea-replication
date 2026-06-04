@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "Guided diffusion models trained only on metastable state data can generate accurate transition state ensembles by interpolating conditional scores to define an approximate reaction coordinate, which when maximized via force projection yields configurations with committor values near 0.5."
+}

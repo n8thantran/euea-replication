@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 6,
+  "task": "task1",
+  "hypothesis": "If a 3D molecular encoder is trained with a CLIP/SigLIP-style contrastive objective to align electron-density grids with pose-agnostic SMILES embeddings (without explicit SE(3) constraints), then it will learn pose-invariant representations that outperform unimodal and SE(3)-equivariant baselines on retrieval under unseen rotations and downstream property prediction, because the multimodal alignment supplies rotation-invariant supervision that encourages the 3D encoder to discard pose information."
+}
