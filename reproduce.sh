@@ -66,20 +66,17 @@ echo ""
 # ============================================================
 # Step 3: Run skill evaluation with mock VLM
 # ============================================================
-echo "Step 3: Running skill evaluation..."
+echo "Step 3: Running skill evaluation with MockVLM..."
 python -c "
 import sys, json
 sys.path.insert(0, '/workspace')
-from src.skill_evaluation import SkillEvaluator
+from src.vlm_inference import MockVLM
+from src.skill_evaluation import run_full_skill_evaluation, format_results_table
 
-evaluator = SkillEvaluator(vlm_model=None)
-results = evaluator.evaluate_all_skills('/workspace/data/eval')
+mock_vlm = MockVLM()
+results = run_full_skill_evaluation(vlm=mock_vlm, data_dir='/workspace/data/eval')
 
-print('Skill Evaluation Results (Mock VLM):')
-for skill, metrics in results.items():
-    if isinstance(metrics, dict):
-        primary = list(metrics.values())[0] if metrics else 'N/A'
-        print(f'  {skill}: {primary}')
+print(format_results_table(results, 'MockVLM'))
 
 with open('/workspace/results/skill_eval_mock.json', 'w') as f:
     json.dump(results, f, indent=2)
