@@ -24,8 +24,8 @@
     "SAP_step_accuracy_std": 14.0
   },
   "action_prediction": {
-    "ASP_prediction_accuracy_mean": 50.0,
-    "ASP_prediction_accuracy_std": 50.0
+    "ASP_prediction_accuracy_mean": 40.0,
+    "ASP_prediction_accuracy_std": 48.98979485566356
   },
   "future_captioning": {
     "FSC_captioning_similarity_mean": 24.846153846153847,
@@ -46,7 +46,7 @@
     "GR_main_recognition_accuracy_std": 49.839743177508446
   },
   "goal_recognition_sub": {
-    "GR_sub_recognition_accuracy_mean": 66.0,
-    "GR_sub_recognition_accuracy_std": 47.37087712930804
+    "GR_sub_recognition_accuracy_mean": 58.0,
+    "GR_sub_recognition_accuracy_std": 49.35585071701227
   }
 }
