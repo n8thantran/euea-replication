@@ -1,0 +1,702 @@
+[
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "apple",
+    "gt_description": "After ToggleObjectOn on apple, the apple is now in a different state.",
+    "image_id": "scene_0223"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "apple",
+    "gt_description": "After ToggleObjectOn on apple, the apple is now in a different state.",
+    "image_id": "scene_0549"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "book",
+    "gt_description": "After ToggleObjectOff on book, the book is now in a different state.",
+    "image_id": "scene_0175"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "pen",
+    "gt_description": "After ToggleObjectOff on pen, the pen is now in a different state.",
+    "image_id": "scene_0252"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "lettuce",
+    "gt_description": "After ToggleObjectOn on lettuce, the lettuce is now in a different state.",
+    "image_id": "scene_0117"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "credit card",
+    "gt_description": "After CloseObject on credit card, the credit card is now in a different state.",
+    "image_id": "scene_0899"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "watch",
+    "gt_description": "After CloseObject on watch, the watch is now in a different state.",
+    "image_id": "scene_0529"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "apple",
+    "gt_description": "After PutObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0903"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "potato",
+    "gt_description": "After CloseObject on potato, the potato is now in a different state.",
+    "image_id": "scene_0895"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "plate",
+    "gt_description": "After PutObject on plate, the plate is now in a different state.",
+    "image_id": "scene_0059"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "cup",
+    "gt_description": "After ToggleObjectOn on cup, the cup is now in a different state.",
+    "image_id": "scene_0429"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "candle",
+    "gt_description": "After ToggleObjectOn on candle, the candle is now in a different state.",
+    "image_id": "scene_0357"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "tomato",
+    "gt_description": "After PutObject on tomato, the tomato is now in a different state.",
+    "image_id": "scene_0257"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "fork",
+    "gt_description": "After SliceObject on fork, the fork is now in a different state.",
+    "image_id": "scene_0042"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "egg",
+    "gt_description": "After PutObject on egg, the egg is now in a different state.",
+    "image_id": "scene_0039"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "egg",
+    "gt_description": "After PickupObject on egg, the egg is now in a different state.",
+    "image_id": "scene_0805"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "apple",
+    "gt_description": "After CloseObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0196"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "pen",
+    "gt_description": "After PickupObject on pen, the pen is now in a different state.",
+    "image_id": "scene_0230"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "bread",
+    "gt_description": "After PickupObject on bread, the bread is now in a different state.",
+    "image_id": "scene_0124"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "bread",
+    "gt_description": "After OpenObject on bread, the bread is now in a different state.",
+    "image_id": "scene_0082"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "credit card",
+    "gt_description": "After CloseObject on credit card, the credit card is now in a different state.",
+    "image_id": "scene_0029"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "bread",
+    "gt_description": "After CloseObject on bread, the bread is now in a different state.",
+    "image_id": "scene_0345"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "apple",
+    "gt_description": "After ToggleObjectOn on apple, the apple is now in a different state.",
+    "image_id": "scene_0262"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "apple",
+    "gt_description": "After PickupObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0614"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "bread",
+    "gt_description": "After ToggleObjectOff on bread, the bread is now in a different state.",
+    "image_id": "scene_0941"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "cd",
+    "gt_description": "After ToggleObjectOn on cd, the cd is now in a different state.",
+    "image_id": "scene_0737"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "book",
+    "gt_description": "After ToggleObjectOff on book, the book is now in a different state.",
+    "image_id": "scene_0236"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "fork",
+    "gt_description": "After ToggleObjectOff on fork, the fork is now in a different state.",
+    "image_id": "scene_0770"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "cd",
+    "gt_description": "After SliceObject on cd, the cd is now in a different state.",
+    "image_id": "scene_0453"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "knife",
+    "gt_description": "After PickupObject on knife, the knife is now in a different state.",
+    "image_id": "scene_0719"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "plate",
+    "gt_description": "After ToggleObjectOn on plate, the plate is now in a different state.",
+    "image_id": "scene_0612"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "bread",
+    "gt_description": "After ToggleObjectOn on bread, the bread is now in a different state.",
+    "image_id": "scene_0481"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "fork",
+    "gt_description": "After PutObject on fork, the fork is now in a different state.",
+    "image_id": "scene_0510"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "potato",
+    "gt_description": "After PutObject on potato, the potato is now in a different state.",
+    "image_id": "scene_0120"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "potato",
+    "gt_description": "After SliceObject on potato, the potato is now in a different state.",
+    "image_id": "scene_0289"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "credit card",
+    "gt_description": "After CloseObject on credit card, the credit card is now in a different state.",
+    "image_id": "scene_0988"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "mug",
+    "gt_description": "After OpenObject on mug, the mug is now in a different state.",
+    "image_id": "scene_0036"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "credit card",
+    "gt_description": "After CloseObject on credit card, the credit card is now in a different state.",
+    "image_id": "scene_0579"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "cup",
+    "gt_description": "After OpenObject on cup, the cup is now in a different state.",
+    "image_id": "scene_0434"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "bread",
+    "gt_description": "After PutObject on bread, the bread is now in a different state.",
+    "image_id": "scene_0694"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "bread",
+    "gt_description": "After SliceObject on bread, the bread is now in a different state.",
+    "image_id": "scene_0966"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "egg",
+    "gt_description": "After ToggleObjectOff on egg, the egg is now in a different state.",
+    "image_id": "scene_0905"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "mug",
+    "gt_description": "After ToggleObjectOn on mug, the mug is now in a different state.",
+    "image_id": "scene_0670"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "tomato",
+    "gt_description": "After ToggleObjectOff on tomato, the tomato is now in a different state.",
+    "image_id": "scene_0341"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "spoon",
+    "gt_description": "After SliceObject on spoon, the spoon is now in a different state.",
+    "image_id": "scene_0016"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "spoon",
+    "gt_description": "After CloseObject on spoon, the spoon is now in a different state.",
+    "image_id": "scene_0110"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "bread",
+    "gt_description": "After CloseObject on bread, the bread is now in a different state.",
+    "image_id": "scene_0320"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "mug",
+    "gt_description": "After OpenObject on mug, the mug is now in a different state.",
+    "image_id": "scene_0493"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "cup",
+    "gt_description": "After OpenObject on cup, the cup is now in a different state.",
+    "image_id": "scene_0579"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "tomato",
+    "gt_description": "After CloseObject on tomato, the tomato is now in a different state.",
+    "image_id": "scene_0220"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "egg",
+    "gt_description": "After PickupObject on egg, the egg is now in a different state.",
+    "image_id": "scene_0389"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "apple",
+    "gt_description": "After SliceObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0864"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "pen",
+    "gt_description": "After PickupObject on pen, the pen is now in a different state.",
+    "image_id": "scene_0616"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "bread",
+    "gt_description": "After OpenObject on bread, the bread is now in a different state.",
+    "image_id": "scene_0884"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "lettuce",
+    "gt_description": "After ToggleObjectOn on lettuce, the lettuce is now in a different state.",
+    "image_id": "scene_0939"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "apple",
+    "gt_description": "After ToggleObjectOn on apple, the apple is now in a different state.",
+    "image_id": "scene_0686"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "knife",
+    "gt_description": "After ToggleObjectOn on knife, the knife is now in a different state.",
+    "image_id": "scene_0851"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "fork",
+    "gt_description": "After SliceObject on fork, the fork is now in a different state.",
+    "image_id": "scene_0053"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "fork",
+    "gt_description": "After PickupObject on fork, the fork is now in a different state.",
+    "image_id": "scene_0665"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "potato",
+    "gt_description": "After ToggleObjectOff on potato, the potato is now in a different state.",
+    "image_id": "scene_0856"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "apple",
+    "gt_description": "After SliceObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0382"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "cd",
+    "gt_description": "After OpenObject on cd, the cd is now in a different state.",
+    "image_id": "scene_0834"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "credit card",
+    "gt_description": "After ToggleObjectOff on credit card, the credit card is now in a different state.",
+    "image_id": "scene_0842"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "potato",
+    "gt_description": "After ToggleObjectOff on potato, the potato is now in a different state.",
+    "image_id": "scene_0820"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "spoon",
+    "gt_description": "After ToggleObjectOff on spoon, the spoon is now in a different state.",
+    "image_id": "scene_0026"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "knife",
+    "gt_description": "After ToggleObjectOn on knife, the knife is now in a different state.",
+    "image_id": "scene_0871"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "apple",
+    "gt_description": "After PutObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0460"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "apple",
+    "gt_description": "After OpenObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0310"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "apple",
+    "gt_description": "After ToggleObjectOn on apple, the apple is now in a different state.",
+    "image_id": "scene_0642"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "apple",
+    "gt_description": "After PutObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0108"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "candle",
+    "gt_description": "After PutObject on candle, the candle is now in a different state.",
+    "image_id": "scene_0288"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "fork",
+    "gt_description": "After SliceObject on fork, the fork is now in a different state.",
+    "image_id": "scene_0099"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "book",
+    "gt_description": "After ToggleObjectOn on book, the book is now in a different state.",
+    "image_id": "scene_0757"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "cd",
+    "gt_description": "After ToggleObjectOn on cd, the cd is now in a different state.",
+    "image_id": "scene_0697"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "egg",
+    "gt_description": "After OpenObject on egg, the egg is now in a different state.",
+    "image_id": "scene_0545"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "fork",
+    "gt_description": "After CloseObject on fork, the fork is now in a different state.",
+    "image_id": "scene_0823"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "candle",
+    "gt_description": "After ToggleObjectOff on candle, the candle is now in a different state.",
+    "image_id": "scene_0338"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "mug",
+    "gt_description": "After SliceObject on mug, the mug is now in a different state.",
+    "image_id": "scene_0985"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "cup",
+    "gt_description": "After PutObject on cup, the cup is now in a different state.",
+    "image_id": "scene_0527"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "apple",
+    "gt_description": "After PutObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0654"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "bread",
+    "gt_description": "After PickupObject on bread, the bread is now in a different state.",
+    "image_id": "scene_0153"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "lettuce",
+    "gt_description": "After ToggleObjectOff on lettuce, the lettuce is now in a different state.",
+    "image_id": "scene_0003"
+  },
+  {
+    "skill": "FSC",
+    "action": "PickupObject",
+    "object_name": "cell phone",
+    "gt_description": "After PickupObject on cell phone, the cell phone is now in a different state.",
+    "image_id": "scene_0356"
+  },
+  {
+    "skill": "FSC",
+    "action": "PutObject",
+    "object_name": "cd",
+    "gt_description": "After PutObject on cd, the cd is now in a different state.",
+    "image_id": "scene_0457"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "pen",
+    "gt_description": "After ToggleObjectOn on pen, the pen is now in a different state.",
+    "image_id": "scene_0437"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "potato",
+    "gt_description": "After ToggleObjectOn on potato, the potato is now in a different state.",
+    "image_id": "scene_0137"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "apple",
+    "gt_description": "After CloseObject on apple, the apple is now in a different state.",
+    "image_id": "scene_0930"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "potato",
+    "gt_description": "After SliceObject on potato, the potato is now in a different state.",
+    "image_id": "scene_0379"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "egg",
+    "gt_description": "After CloseObject on egg, the egg is now in a different state.",
+    "image_id": "scene_0737"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "credit card",
+    "gt_description": "After ToggleObjectOn on credit card, the credit card is now in a different state.",
+    "image_id": "scene_0653"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "cup",
+    "gt_description": "After OpenObject on cup, the cup is now in a different state.",
+    "image_id": "scene_0982"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "apple",
+    "gt_description": "After ToggleObjectOn on apple, the apple is now in a different state.",
+    "image_id": "scene_0941"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "credit card",
+    "gt_description": "After OpenObject on credit card, the credit card is now in a different state.",
+    "image_id": "scene_0869"
+  },
+  {
+    "skill": "FSC",
+    "action": "SliceObject",
+    "object_name": "cup",
+    "gt_description": "After SliceObject on cup, the cup is now in a different state.",
+    "image_id": "scene_0802"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "egg",
+    "gt_description": "After ToggleObjectOff on egg, the egg is now in a different state.",
+    "image_id": "scene_0093"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOn",
+    "object_name": "tomato",
+    "gt_description": "After ToggleObjectOn on tomato, the tomato is now in a different state.",
+    "image_id": "scene_0173"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "fork",
+    "gt_description": "After OpenObject on fork, the fork is now in a different state.",
+    "image_id": "scene_0617"
+  },
+  {
+    "skill": "FSC",
+    "action": "CloseObject",
+    "object_name": "potato",
+    "gt_description": "After CloseObject on potato, the potato is now in a different state.",
+    "image_id": "scene_0070"
+  },
+  {
+    "skill": "FSC",
+    "action": "ToggleObjectOff",
+    "object_name": "potato",
+    "gt_description": "After ToggleObjectOff on potato, the potato is now in a different state.",
+    "image_id": "scene_0254"
+  },
+  {
+    "skill": "FSC",
+    "action": "OpenObject",
+    "object_name": "mug",
+    "gt_description": "After OpenObject on mug, the mug is now in a different state.",
+    "image_id": "scene_0602"
+  }
+]

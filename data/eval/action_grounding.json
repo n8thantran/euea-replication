@@ -1,0 +1,1302 @@
+[
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "apple",
+    "gt_bbox": [
+      288,
+      567,
+      492,
+      623
+    ],
+    "image_id_before": "scene_0574",
+    "image_id_after": "scene_0203"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "apple",
+    "gt_bbox": [
+      177,
+      437,
+      247,
+      628
+    ],
+    "image_id_before": "scene_0300",
+    "image_id_after": "scene_0849"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "book",
+    "gt_bbox": [
+      596,
+      300,
+      687,
+      468
+    ],
+    "image_id_before": "scene_0388",
+    "image_id_after": "scene_0276"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "pen",
+    "gt_bbox": [
+      624,
+      601,
+      741,
+      842
+    ],
+    "image_id_before": "scene_0598",
+    "image_id_after": "scene_0438"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "lettuce",
+    "gt_bbox": [
+      599,
+      323,
+      845,
+      537
+    ],
+    "image_id_before": "scene_0348",
+    "image_id_after": "scene_0114"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "credit card",
+    "gt_bbox": [
+      364,
+      295,
+      428,
+      406
+    ],
+    "image_id_before": "scene_0899",
+    "image_id_after": "scene_0580"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "watch",
+    "gt_bbox": [
+      512,
+      173,
+      625,
+      280
+    ],
+    "image_id_before": "scene_0065",
+    "image_id_after": "scene_0346"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      634,
+      640,
+      805,
+      752
+    ],
+    "image_id_before": "scene_0803",
+    "image_id_after": "scene_0484"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "potato",
+    "gt_bbox": [
+      127,
+      503,
+      317,
+      578
+    ],
+    "image_id_before": "scene_0051",
+    "image_id_after": "scene_0667"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "plate",
+    "gt_bbox": [
+      643,
+      605,
+      708,
+      846
+    ],
+    "image_id_before": "scene_0321",
+    "image_id_after": "scene_0058"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "cup",
+    "gt_bbox": [
+      647,
+      628,
+      830,
+      758
+    ],
+    "image_id_before": "scene_0957",
+    "image_id_after": "scene_0267"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "candle",
+    "gt_bbox": [
+      120,
+      300,
+      264,
+      422
+    ],
+    "image_id_before": "scene_0161",
+    "image_id_after": "scene_0448"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "tomato",
+    "gt_bbox": [
+      102,
+      144,
+      314,
+      302
+    ],
+    "image_id_before": "scene_0849",
+    "image_id_after": "scene_0283"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "fork",
+    "gt_bbox": [
+      365,
+      423,
+      425,
+      564
+    ],
+    "image_id_before": "scene_0215",
+    "image_id_after": "scene_0698"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "egg",
+    "gt_bbox": [
+      531,
+      277,
+      632,
+      444
+    ],
+    "image_id_before": "scene_0358",
+    "image_id_after": "scene_0312"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "egg",
+    "gt_bbox": [
+      371,
+      496,
+      576,
+      676
+    ],
+    "image_id_before": "scene_0118",
+    "image_id_after": "scene_0394"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      480,
+      438,
+      703,
+      679
+    ],
+    "image_id_before": "scene_0924",
+    "image_id_after": "scene_0178"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "pen",
+    "gt_bbox": [
+      253,
+      200,
+      309,
+      261
+    ],
+    "image_id_before": "scene_0250",
+    "image_id_after": "scene_0486"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "bread",
+    "gt_bbox": [
+      517,
+      186,
+      685,
+      406
+    ],
+    "image_id_before": "scene_0543",
+    "image_id_after": "scene_0572"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "bread",
+    "gt_bbox": [
+      191,
+      204,
+      300,
+      352
+    ],
+    "image_id_before": "scene_0710",
+    "image_id_after": "scene_0156"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "credit card",
+    "gt_bbox": [
+      448,
+      394,
+      669,
+      617
+    ],
+    "image_id_before": "scene_0817",
+    "image_id_after": "scene_0414"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "bread",
+    "gt_bbox": [
+      438,
+      334,
+      680,
+      491
+    ],
+    "image_id_before": "scene_0258",
+    "image_id_after": "scene_0854"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "apple",
+    "gt_bbox": [
+      427,
+      221,
+      632,
+      426
+    ],
+    "image_id_before": "scene_0986",
+    "image_id_after": "scene_0765"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      173,
+      629,
+      423,
+      689
+    ],
+    "image_id_before": "scene_0355",
+    "image_id_after": "scene_0545"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "bread",
+    "gt_bbox": [
+      601,
+      545,
+      770,
+      706
+    ],
+    "image_id_before": "scene_0845",
+    "image_id_after": "scene_0748"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "cd",
+    "gt_bbox": [
+      466,
+      550,
+      658,
+      794
+    ],
+    "image_id_before": "scene_0246",
+    "image_id_after": "scene_0707"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "book",
+    "gt_bbox": [
+      173,
+      247,
+      303,
+      327
+    ],
+    "image_id_before": "scene_0760",
+    "image_id_after": "scene_0548"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "fork",
+    "gt_bbox": [
+      552,
+      155,
+      605,
+      351
+    ],
+    "image_id_before": "scene_0291",
+    "image_id_after": "scene_0480"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "cd",
+    "gt_bbox": [
+      354,
+      652,
+      513,
+      780
+    ],
+    "image_id_before": "scene_0582",
+    "image_id_after": "scene_0635"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "knife",
+    "gt_bbox": [
+      514,
+      122,
+      739,
+      231
+    ],
+    "image_id_before": "scene_0946",
+    "image_id_after": "scene_0270"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "plate",
+    "gt_bbox": [
+      90,
+      492,
+      328,
+      624
+    ],
+    "image_id_before": "scene_0618",
+    "image_id_after": "scene_0256"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "bread",
+    "gt_bbox": [
+      406,
+      468,
+      541,
+      600
+    ],
+    "image_id_before": "scene_0686",
+    "image_id_after": "scene_0107"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "fork",
+    "gt_bbox": [
+      690,
+      502,
+      934,
+      565
+    ],
+    "image_id_before": "scene_0208",
+    "image_id_after": "scene_0273"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "potato",
+    "gt_bbox": [
+      207,
+      560,
+      440,
+      684
+    ],
+    "image_id_before": "scene_0521",
+    "image_id_after": "scene_0722"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "potato",
+    "gt_bbox": [
+      355,
+      651,
+      553,
+      869
+    ],
+    "image_id_before": "scene_0501",
+    "image_id_after": "scene_0886"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "credit card",
+    "gt_bbox": [
+      654,
+      389,
+      729,
+      551
+    ],
+    "image_id_before": "scene_0102",
+    "image_id_after": "scene_0538"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "mug",
+    "gt_bbox": [
+      682,
+      120,
+      792,
+      331
+    ],
+    "image_id_before": "scene_0700",
+    "image_id_after": "scene_0943"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "credit card",
+    "gt_bbox": [
+      234,
+      224,
+      328,
+      294
+    ],
+    "image_id_before": "scene_0624",
+    "image_id_after": "scene_0891"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "cup",
+    "gt_bbox": [
+      306,
+      517,
+      433,
+      617
+    ],
+    "image_id_before": "scene_0393",
+    "image_id_after": "scene_0873"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "bread",
+    "gt_bbox": [
+      190,
+      693,
+      264,
+      903
+    ],
+    "image_id_before": "scene_0661",
+    "image_id_after": "scene_0040"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "bread",
+    "gt_bbox": [
+      543,
+      352,
+      784,
+      488
+    ],
+    "image_id_before": "scene_0823",
+    "image_id_after": "scene_0117"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "egg",
+    "gt_bbox": [
+      624,
+      385,
+      830,
+      491
+    ],
+    "image_id_before": "scene_0663",
+    "image_id_after": "scene_0064"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "mug",
+    "gt_bbox": [
+      151,
+      551,
+      358,
+      705
+    ],
+    "image_id_before": "scene_0961",
+    "image_id_after": "scene_0974"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "tomato",
+    "gt_bbox": [
+      299,
+      178,
+      493,
+      280
+    ],
+    "image_id_before": "scene_0070",
+    "image_id_after": "scene_0849"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "spoon",
+    "gt_bbox": [
+      228,
+      321,
+      291,
+      403
+    ],
+    "image_id_before": "scene_0759",
+    "image_id_after": "scene_0431"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "spoon",
+    "gt_bbox": [
+      552,
+      504,
+      620,
+      574
+    ],
+    "image_id_before": "scene_0329",
+    "image_id_after": "scene_0622"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "bread",
+    "gt_bbox": [
+      311,
+      433,
+      400,
+      658
+    ],
+    "image_id_before": "scene_0945",
+    "image_id_after": "scene_0485"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "mug",
+    "gt_bbox": [
+      279,
+      160,
+      418,
+      352
+    ],
+    "image_id_before": "scene_0376",
+    "image_id_after": "scene_0117"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "cup",
+    "gt_bbox": [
+      460,
+      121,
+      546,
+      360
+    ],
+    "image_id_before": "scene_0648",
+    "image_id_after": "scene_0995"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "tomato",
+    "gt_bbox": [
+      574,
+      166,
+      712,
+      326
+    ],
+    "image_id_before": "scene_0113",
+    "image_id_after": "scene_0290"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "egg",
+    "gt_bbox": [
+      595,
+      285,
+      773,
+      478
+    ],
+    "image_id_before": "scene_0853",
+    "image_id_after": "scene_0684"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      158,
+      299,
+      319,
+      499
+    ],
+    "image_id_before": "scene_0410",
+    "image_id_after": "scene_0536"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "pen",
+    "gt_bbox": [
+      206,
+      127,
+      301,
+      374
+    ],
+    "image_id_before": "scene_0643",
+    "image_id_after": "scene_0505"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "bread",
+    "gt_bbox": [
+      142,
+      679,
+      344,
+      858
+    ],
+    "image_id_before": "scene_0393",
+    "image_id_after": "scene_0473"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "lettuce",
+    "gt_bbox": [
+      339,
+      446,
+      493,
+      694
+    ],
+    "image_id_before": "scene_0346",
+    "image_id_after": "scene_0695"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "apple",
+    "gt_bbox": [
+      589,
+      145,
+      804,
+      366
+    ],
+    "image_id_before": "scene_0433",
+    "image_id_after": "scene_0520"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "knife",
+    "gt_bbox": [
+      689,
+      219,
+      923,
+      381
+    ],
+    "image_id_before": "scene_0044",
+    "image_id_after": "scene_0420"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "fork",
+    "gt_bbox": [
+      542,
+      430,
+      733,
+      506
+    ],
+    "image_id_before": "scene_0728",
+    "image_id_after": "scene_0866"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "fork",
+    "gt_bbox": [
+      393,
+      199,
+      478,
+      258
+    ],
+    "image_id_before": "scene_0293",
+    "image_id_after": "scene_0939"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "potato",
+    "gt_bbox": [
+      561,
+      661,
+      748,
+      715
+    ],
+    "image_id_before": "scene_0647",
+    "image_id_after": "scene_0527"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      309,
+      66,
+      450,
+      133
+    ],
+    "image_id_before": "scene_0353",
+    "image_id_after": "scene_0246"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "cd",
+    "gt_bbox": [
+      606,
+      534,
+      720,
+      593
+    ],
+    "image_id_before": "scene_0771",
+    "image_id_after": "scene_0662"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "credit card",
+    "gt_bbox": [
+      234,
+      608,
+      359,
+      740
+    ],
+    "image_id_before": "scene_0105",
+    "image_id_after": "scene_0081"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "potato",
+    "gt_bbox": [
+      213,
+      81,
+      299,
+      286
+    ],
+    "image_id_before": "scene_0694",
+    "image_id_after": "scene_0800"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "spoon",
+    "gt_bbox": [
+      240,
+      561,
+      422,
+      710
+    ],
+    "image_id_before": "scene_0935",
+    "image_id_after": "scene_0575"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "knife",
+    "gt_bbox": [
+      211,
+      228,
+      353,
+      408
+    ],
+    "image_id_before": "scene_0229",
+    "image_id_after": "scene_0124"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      527,
+      579,
+      665,
+      661
+    ],
+    "image_id_before": "scene_0899",
+    "image_id_after": "scene_0848"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      679,
+      596,
+      752,
+      774
+    ],
+    "image_id_before": "scene_0656",
+    "image_id_after": "scene_0172"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "apple",
+    "gt_bbox": [
+      608,
+      346,
+      822,
+      473
+    ],
+    "image_id_before": "scene_0494",
+    "image_id_after": "scene_0250"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      376,
+      297,
+      545,
+      378
+    ],
+    "image_id_before": "scene_0273",
+    "image_id_after": "scene_0460"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "candle",
+    "gt_bbox": [
+      556,
+      661,
+      773,
+      883
+    ],
+    "image_id_before": "scene_0481",
+    "image_id_after": "scene_0292"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "fork",
+    "gt_bbox": [
+      453,
+      432,
+      589,
+      624
+    ],
+    "image_id_before": "scene_0961",
+    "image_id_after": "scene_0374"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "book",
+    "gt_bbox": [
+      356,
+      657,
+      492,
+      836
+    ],
+    "image_id_before": "scene_0848",
+    "image_id_after": "scene_0521"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "cd",
+    "gt_bbox": [
+      298,
+      82,
+      494,
+      311
+    ],
+    "image_id_before": "scene_0112",
+    "image_id_after": "scene_0195"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "egg",
+    "gt_bbox": [
+      400,
+      609,
+      540,
+      832
+    ],
+    "image_id_before": "scene_0790",
+    "image_id_after": "scene_0888"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "fork",
+    "gt_bbox": [
+      199,
+      347,
+      259,
+      470
+    ],
+    "image_id_before": "scene_0978",
+    "image_id_after": "scene_0731"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "candle",
+    "gt_bbox": [
+      533,
+      152,
+      757,
+      399
+    ],
+    "image_id_before": "scene_0140",
+    "image_id_after": "scene_0005"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "mug",
+    "gt_bbox": [
+      346,
+      88,
+      398,
+      214
+    ],
+    "image_id_before": "scene_0581",
+    "image_id_after": "scene_0617"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "cup",
+    "gt_bbox": [
+      385,
+      138,
+      537,
+      359
+    ],
+    "image_id_before": "scene_0097",
+    "image_id_after": "scene_0189"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      352,
+      426,
+      559,
+      532
+    ],
+    "image_id_before": "scene_0224",
+    "image_id_after": "scene_0980"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "bread",
+    "gt_bbox": [
+      218,
+      385,
+      401,
+      548
+    ],
+    "image_id_before": "scene_0119",
+    "image_id_after": "scene_0696"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "lettuce",
+    "gt_bbox": [
+      273,
+      642,
+      341,
+      703
+    ],
+    "image_id_before": "scene_0433",
+    "image_id_after": "scene_0352"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PickupObject",
+    "gt_object": "cell phone",
+    "gt_bbox": [
+      171,
+      232,
+      358,
+      382
+    ],
+    "image_id_before": "scene_0541",
+    "image_id_after": "scene_0130"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "PutObject",
+    "gt_object": "cd",
+    "gt_bbox": [
+      662,
+      99,
+      774,
+      338
+    ],
+    "image_id_before": "scene_0045",
+    "image_id_after": "scene_0411"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "pen",
+    "gt_bbox": [
+      619,
+      557,
+      681,
+      695
+    ],
+    "image_id_before": "scene_0964",
+    "image_id_after": "scene_0658"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "potato",
+    "gt_bbox": [
+      447,
+      298,
+      562,
+      400
+    ],
+    "image_id_before": "scene_0338",
+    "image_id_after": "scene_0662"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "apple",
+    "gt_bbox": [
+      65,
+      266,
+      163,
+      505
+    ],
+    "image_id_before": "scene_0120",
+    "image_id_after": "scene_0764"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "potato",
+    "gt_bbox": [
+      370,
+      473,
+      431,
+      667
+    ],
+    "image_id_before": "scene_0884",
+    "image_id_after": "scene_0226"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "egg",
+    "gt_bbox": [
+      609,
+      550,
+      706,
+      738
+    ],
+    "image_id_before": "scene_0657",
+    "image_id_after": "scene_0980"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "credit card",
+    "gt_bbox": [
+      681,
+      544,
+      899,
+      718
+    ],
+    "image_id_before": "scene_0016",
+    "image_id_after": "scene_0006"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "cup",
+    "gt_bbox": [
+      465,
+      520,
+      659,
+      632
+    ],
+    "image_id_before": "scene_0713",
+    "image_id_after": "scene_0231"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "apple",
+    "gt_bbox": [
+      93,
+      285,
+      197,
+      512
+    ],
+    "image_id_before": "scene_0908",
+    "image_id_after": "scene_0580"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "credit card",
+    "gt_bbox": [
+      448,
+      603,
+      582,
+      751
+    ],
+    "image_id_before": "scene_0773",
+    "image_id_after": "scene_0757"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "SliceObject",
+    "gt_object": "cup",
+    "gt_bbox": [
+      511,
+      552,
+      619,
+      693
+    ],
+    "image_id_before": "scene_0566",
+    "image_id_after": "scene_0963"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "egg",
+    "gt_bbox": [
+      55,
+      365,
+      218,
+      507
+    ],
+    "image_id_before": "scene_0779",
+    "image_id_after": "scene_0276"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOn",
+    "gt_object": "tomato",
+    "gt_bbox": [
+      192,
+      325,
+      319,
+      443
+    ],
+    "image_id_before": "scene_0504",
+    "image_id_after": "scene_0149"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "fork",
+    "gt_bbox": [
+      255,
+      540,
+      385,
+      635
+    ],
+    "image_id_before": "scene_0987",
+    "image_id_after": "scene_0407"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "CloseObject",
+    "gt_object": "potato",
+    "gt_bbox": [
+      468,
+      561,
+      553,
+      773
+    ],
+    "image_id_before": "scene_0310",
+    "image_id_after": "scene_0247"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "ToggleObjectOff",
+    "gt_object": "potato",
+    "gt_bbox": [
+      413,
+      220,
+      628,
+      426
+    ],
+    "image_id_before": "scene_0045",
+    "image_id_after": "scene_0576"
+  },
+  {
+    "skill": "AG",
+    "gt_action": "OpenObject",
+    "gt_object": "mug",
+    "gt_bbox": [
+      562,
+      204,
+      700,
+      260
+    ],
+    "image_id_before": "scene_0494",
+    "image_id_after": "scene_0107"
+  }
+]

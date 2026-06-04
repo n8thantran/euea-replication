@@ -1,0 +1,602 @@
+[
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "no",
+    "image_id": "scene_0603"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first apple.",
+    "gt_answer": "yes",
+    "image_id": "scene_0721"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the book.",
+    "gt_answer": "no",
+    "image_id": "scene_0863"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the pen.",
+    "gt_answer": "yes",
+    "image_id": "scene_0141"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the lettuce.",
+    "gt_answer": "yes",
+    "image_id": "scene_0464"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the credit card.",
+    "gt_answer": "no",
+    "image_id": "scene_0835"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the watch.",
+    "gt_answer": "yes",
+    "image_id": "scene_0602"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "yes",
+    "image_id": "scene_0099"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the potato.",
+    "gt_answer": "yes",
+    "image_id": "scene_0948"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the plate.",
+    "gt_answer": "no",
+    "image_id": "scene_0514"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cup.",
+    "gt_answer": "no",
+    "image_id": "scene_0244"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first candle.",
+    "gt_answer": "yes",
+    "image_id": "scene_0683"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the tomato.",
+    "gt_answer": "no",
+    "image_id": "scene_0789"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the fork.",
+    "gt_answer": "yes",
+    "image_id": "scene_0362"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the egg.",
+    "gt_answer": "yes",
+    "image_id": "scene_0675"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the egg.",
+    "gt_answer": "yes",
+    "image_id": "scene_0725"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "yes",
+    "image_id": "scene_0311"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first pen.",
+    "gt_answer": "no",
+    "image_id": "scene_0907"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "no",
+    "image_id": "scene_0627"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "no",
+    "image_id": "scene_0417"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first credit card.",
+    "gt_answer": "no",
+    "image_id": "scene_0941"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "yes",
+    "image_id": "scene_0767"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "yes",
+    "image_id": "scene_0987"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first apple.",
+    "gt_answer": "no",
+    "image_id": "scene_0070"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "yes",
+    "image_id": "scene_0850"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cd.",
+    "gt_answer": "no",
+    "image_id": "scene_0458"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the book.",
+    "gt_answer": "yes",
+    "image_id": "scene_0756"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the fork.",
+    "gt_answer": "no",
+    "image_id": "scene_0188"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cd.",
+    "gt_answer": "yes",
+    "image_id": "scene_0970"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the knife.",
+    "gt_answer": "yes",
+    "image_id": "scene_0557"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the plate.",
+    "gt_answer": "yes",
+    "image_id": "scene_0984"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "no",
+    "image_id": "scene_0710"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the fork.",
+    "gt_answer": "no",
+    "image_id": "scene_0448"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the potato.",
+    "gt_answer": "no",
+    "image_id": "scene_0483"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the potato.",
+    "gt_answer": "no",
+    "image_id": "scene_0353"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first credit card.",
+    "gt_answer": "yes",
+    "image_id": "scene_0419"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the mug.",
+    "gt_answer": "yes",
+    "image_id": "scene_0444"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the credit card.",
+    "gt_answer": "yes",
+    "image_id": "scene_0509"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cup.",
+    "gt_answer": "yes",
+    "image_id": "scene_0390"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "no",
+    "image_id": "scene_0034"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "yes",
+    "image_id": "scene_0144"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the egg.",
+    "gt_answer": "no",
+    "image_id": "scene_0664"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the mug.",
+    "gt_answer": "no",
+    "image_id": "scene_0222"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the tomato.",
+    "gt_answer": "yes",
+    "image_id": "scene_0832"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the spoon.",
+    "gt_answer": "yes",
+    "image_id": "scene_0487"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the spoon.",
+    "gt_answer": "yes",
+    "image_id": "scene_0281"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "yes",
+    "image_id": "scene_0095"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the mug.",
+    "gt_answer": "yes",
+    "image_id": "scene_0826"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cup.",
+    "gt_answer": "yes",
+    "image_id": "scene_0385"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the tomato.",
+    "gt_answer": "no",
+    "image_id": "scene_0046"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the egg.",
+    "gt_answer": "no",
+    "image_id": "scene_0882"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "no",
+    "image_id": "scene_0763"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first pen.",
+    "gt_answer": "no",
+    "image_id": "scene_0697"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "yes",
+    "image_id": "scene_0329"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the lettuce.",
+    "gt_answer": "no",
+    "image_id": "scene_0067"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first apple.",
+    "gt_answer": "no",
+    "image_id": "scene_0316"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the knife.",
+    "gt_answer": "yes",
+    "image_id": "scene_0992"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the fork.",
+    "gt_answer": "yes",
+    "image_id": "scene_0781"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the fork.",
+    "gt_answer": "yes",
+    "image_id": "scene_0777"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the potato.",
+    "gt_answer": "yes",
+    "image_id": "scene_0298"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "no",
+    "image_id": "scene_0136"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cd.",
+    "gt_answer": "no",
+    "image_id": "scene_0882"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the credit card.",
+    "gt_answer": "no",
+    "image_id": "scene_0313"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the potato.",
+    "gt_answer": "yes",
+    "image_id": "scene_0068"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the spoon.",
+    "gt_answer": "no",
+    "image_id": "scene_0720"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the knife.",
+    "gt_answer": "yes",
+    "image_id": "scene_0242"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "yes",
+    "image_id": "scene_0443"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "no",
+    "image_id": "scene_0862"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "no",
+    "image_id": "scene_0074"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "yes",
+    "image_id": "scene_0051"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first candle.",
+    "gt_answer": "yes",
+    "image_id": "scene_0441"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the fork.",
+    "gt_answer": "no",
+    "image_id": "scene_0512"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the book.",
+    "gt_answer": "no",
+    "image_id": "scene_0486"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cd.",
+    "gt_answer": "no",
+    "image_id": "scene_0428"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the egg.",
+    "gt_answer": "no",
+    "image_id": "scene_0196"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the fork.",
+    "gt_answer": "no",
+    "image_id": "scene_0671"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first candle.",
+    "gt_answer": "no",
+    "image_id": "scene_0488"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the mug.",
+    "gt_answer": "no",
+    "image_id": "scene_0291"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cup.",
+    "gt_answer": "no",
+    "image_id": "scene_0958"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "yes",
+    "image_id": "scene_0465"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the bread.",
+    "gt_answer": "no",
+    "image_id": "scene_0093"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the lettuce.",
+    "gt_answer": "yes",
+    "image_id": "scene_0957"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cell phone.",
+    "gt_answer": "yes",
+    "image_id": "scene_0774"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cd.",
+    "gt_answer": "yes",
+    "image_id": "scene_0772"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the pen.",
+    "gt_answer": "no",
+    "image_id": "scene_0713"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the potato.",
+    "gt_answer": "no",
+    "image_id": "scene_0867"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the first apple.",
+    "gt_answer": "yes",
+    "image_id": "scene_0712"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the potato.",
+    "gt_answer": "no",
+    "image_id": "scene_0566"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the egg.",
+    "gt_answer": "yes",
+    "image_id": "scene_0859"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the credit card.",
+    "gt_answer": "yes",
+    "image_id": "scene_0542"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cup.",
+    "gt_answer": "yes",
+    "image_id": "scene_0669"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the apple.",
+    "gt_answer": "yes",
+    "image_id": "scene_0946"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the credit card.",
+    "gt_answer": "yes",
+    "image_id": "scene_0512"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the cup.",
+    "gt_answer": "yes",
+    "image_id": "scene_0696"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the egg.",
+    "gt_answer": "yes",
+    "image_id": "scene_0191"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the tomato.",
+    "gt_answer": "no",
+    "image_id": "scene_0282"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the fork.",
+    "gt_answer": "no",
+    "image_id": "scene_0990"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the potato.",
+    "gt_answer": "yes",
+    "image_id": "scene_0732"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the potato.",
+    "gt_answer": "no",
+    "image_id": "scene_0988"
+  },
+  {
+    "skill": "GR_sub",
+    "subgoal": "Pick up the mug.",
+    "gt_answer": "yes",
+    "image_id": "scene_0118"
+  }
+]
