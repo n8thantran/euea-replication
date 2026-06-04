@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Silicon-based alloy anodes with invariant Li-ion migration channel dimensions will exhibit superior electrochemical performance only if the alloying elements form dynamic coordination shells around lithium during cycling, and materials where these coordination environments collapse upon delithiation will show equivalent capacity fade rates to pure silicon despite maintaining static channel geometries."
+}

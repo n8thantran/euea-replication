@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating topology-specific pre-training data from the RCSR database alongside MOFid representations will enable LLMs to predict MOF properties with higher accuracy than current approaches, particularly for frameworks with rare or underrepresented topological motifs not well-covered in existing QMOF and hMOF datasets."
+}

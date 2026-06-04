@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "If class-balancing strategies (such as template-frequency-weighted sampling or loss reweighting during training) are applied to retrosynthesis models trained on USPTO-retro, then top-k accuracy for rare reaction templates (frequency 1\u201310) will increase substantially without a corresponding decrease in accuracy for common templates, and this improvement will be most pronounced for template-based models like LocalRetro\u2014which are most sensitive to class imbalance\u2014while also yielding measurable gains in Pistachio OOD generalization for template-free models like RootAligned and MEGAN."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The structural complexity of synthesis procedure graphs, as measured by node count and graph diameter in PROV-DM representation, correlates with the reproducibility variance of resulting material properties across independent laboratories, with more complex graphs (>20 nodes, multiple branching points) exhibiting higher property variance due to increased sensitivity to procedural execution order and parameter control."
+}

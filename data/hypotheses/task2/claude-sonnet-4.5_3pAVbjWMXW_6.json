@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Molecular interactions in hydrogen-bonding mixtures generate non-linear spectral features that could be explicitly modeled through a physics-informed reconstruction loss, enabling the model to distinguish true mixture components from artifacts arising from intermolecular forces."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "The NN-BAX method's efficiency gain will diminish for systems with multi-funnel energy landscapes containing numerous competing pathways, because the random sampling acquisition strategy cannot distinguish between equally uncertain points that lead to mechanistically distinct MEPs rather than refinement of a single MEP."
+}

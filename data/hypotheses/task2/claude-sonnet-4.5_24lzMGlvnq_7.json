@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating uncertainty quantification from CALPHAD simulations into the DPO reward signal would enable language models to preferentially explore compositional regions where thermodynamic predictions are most reliable, thereby reducing the generation of high-reward but experimentally infeasible alloy candidates in poorly-characterized regions of the design space."
+}

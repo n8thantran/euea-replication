@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Pre-training generative models on domain-specific inorganic crystal structure databases (e.g., Materials Project, ICSD) will enable direct generation of 3D periodic framework structures with superior porosity and conductivity metrics compared to models trained on molecular databases, bypassing the need for substrate-to-framework conversion and reducing the computational cost of reinforcement learning by at least 40%."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating intentional architectural heterogeneity among ensemble members\u2014such as combining message-passing GNNs with graph transformers or equivariant networks with invariant ones\u2014will increase prediction diversity in ways that are not reducible to random initialization differences, thereby amplifying the knowledge distillation effect observed in ensemble consensus training and yielding individual deployed models that outperform homogeneous coupled ensembles of larger size on molecular property prediction tasks."
+}

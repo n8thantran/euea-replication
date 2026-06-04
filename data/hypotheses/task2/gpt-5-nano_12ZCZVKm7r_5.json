@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Imposing explicit physics priors\u2014such as energy conservation, rotational/translational symmetry, and consistent energy\u2013force relationships\u2014as a shared cross-domain pretraining objective across molecular, materials, and protein models will drive learned representations toward a universal, modality-agnostic matter manifold and yield stronger cross-domain alignment and improved OOD generalization than purely data-driven pretraining."
+}

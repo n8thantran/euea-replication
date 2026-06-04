@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Transfer learning from SEM images of additive-free NCM cathodes will show diminished performance gains when applied to structurally distinct cathode chemistries (e.g., LFP or NCA) compared to within-NCM domain shifts, because the morphological degradation patterns and particle fragmentation mechanisms are chemistry-specific rather than universally transferable across layered oxide cathode families."
+}

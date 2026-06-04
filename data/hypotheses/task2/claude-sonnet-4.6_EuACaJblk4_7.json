@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating a confidence estimation head into E2EFOLD's decoder that predicts per-residue prediction error (analogous to pLDDT) and training it jointly with the existing structure recovery objective will reveal that sequences designed under higher Gumbel-Softmax sampling temperatures produce systematically lower predicted confidence scores, thereby establishing sampling temperature as a proxy for designability that can be exploited to filter high-quality sequences without requiring external structure prediction validation by models such as Boltz-2."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Transfer learning efficacy for materials discovery will exhibit a domain-specific saturation point where further increases in pre-training dataset size or fine-tuning iterations yield diminishing returns in material-specific property compliance due to growing distributional mismatch between general chemical space and constrained materials chemistry feature spaces."
+}

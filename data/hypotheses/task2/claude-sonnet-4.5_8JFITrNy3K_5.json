@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The structural complexity of synthesis procedure graphs\u2014quantified by node count, branching factor, and edge density\u2014systematically correlates with the reproducibility variance of material properties across independent laboratories, such that materials synthesized via higher-complexity procedures (>20 nodes with multiple branching points) exhibit 2-3 times greater inter-laboratory property variation than those from simpler linear procedures (<10 nodes)."
+}

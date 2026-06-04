@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Fine-tuning SAM-EM on multi-lab experimental LPTEM datasets with varying microscope configurations, liquid chemistries, and nanoparticle material compositions will reveal that domain-specific segmentation performance degrades non-uniformly across these factors, such that performance loss under cross-lab transfer is predictable from measurable image statistics (e.g., contrast, noise texture, particle morphology variance) and can be mitigated through selective retraining on a minimal set of representative experimental conditions rather than requiring full retraining on all combinations."
+}

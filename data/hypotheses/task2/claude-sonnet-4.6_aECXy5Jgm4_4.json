@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Multi-fidelity Bayesian optimization that couples the fast MD/GCMC simulations developed here with long-timescale MD validation will exhibit surrogate model representation sensitivity that inverts as a function of fidelity level\u2014specifically, polymer-specific language model embeddings (PolyNC, polyBERT) will provide the dominant advantage at the low-fidelity query stage where data are scarce, but general chemical space embeddings will become comparably or more effective at the high-fidelity stage because the conformational and packing features that differentiate high-performing branched and crosslinked architectures from linear ones are not captured by monomer-level PSMILES encodings, making this crossover point in relative embedding utility a measurable and architecture-dependent threshold that can be identified by systematically varying the ratio of low-to-high fidelity queries across polymer topologies."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Fine-tuning SAM-EM on multi-lab experimental LPTEM data with varying microscope geometries and electron beam parameters will reveal domain-specific segmentation failure modes that cannot be predicted from synthetic data alone, requiring adaptive prompt strategies or ensemble methods to maintain sub-nanometer centroid accuracy across different instrumental configurations."
+}

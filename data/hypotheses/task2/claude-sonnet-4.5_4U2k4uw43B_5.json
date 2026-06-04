@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit stress tensor weighting optimization during ML model pretraining on large materials databases will reduce SSNEB convergence iterations by at least 40% compared to current pretrained models when applied to high-pressure phase transitions in materials with anisotropic compressibility."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "If the CNN-GRU-attention hybrid model trained on coarse-grained binary (strong/weak) bead sequences is extended to encode polymer sequences as continuous-valued interaction parameter vectors rather than binary representations, then the model will exhibit a non-linear threshold behavior in binding free energy prediction where intermediate interaction strengths produce disproportionately large changes in adhesion relative to extreme values, revealing a critical interaction strength regime that cannot be inferred from binary sequence models alone and that governs selectivity between chemically similar surfaces."
+}

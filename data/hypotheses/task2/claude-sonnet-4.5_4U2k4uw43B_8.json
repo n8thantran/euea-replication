@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating multi-fidelity active learning that adaptively weights stress tensor predictions during SSNEB iterations will reduce the symmetry-breaking artifacts observed in ML-restarted DFT calculations and further decrease computational cost by 40-50% compared to the current eSEN+VASP approach for complex phase transitions with large unit cells."
+}

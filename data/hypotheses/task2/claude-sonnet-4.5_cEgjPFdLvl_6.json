@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Given that AMDEN demonstrates that standard diffusion models struggle to generate relaxed, low-energy amorphous structures due to the lack of funnel-like potential energy landscapes in glassy systems, and that HMC denoising successfully overcomes this by equilibrating structures during generation:\n\n**Hypothesis:** Training a diffusion model on a dataset augmented with intermediate-energy structures sampled along thermal relaxation trajectories (rather than only final equilibrium states) will enable standard denoising procedures to generate low-energy amorphous configurations without requiring computationally expensive HMC refinement during inference."
+}

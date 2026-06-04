@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating compositional symmetry constraints derived from known stable phases into the structure generation policy will increase the discovery rate of novel stable materials by at least 50% compared to unconstrained generative models, particularly in higher-dimensional chemical spaces (quaternary and beyond), by biasing exploration toward regions of composition space that respect underlying chemical bonding principles."
+}

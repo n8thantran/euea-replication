@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-guided generative models trained on structurally diverse reference sets will generate molecules with higher predicted binding affinity and biological activity than models trained on reference sets with high internal structural similarity, because increased pharmacophoric pattern diversity in training data reduces overfitting to scaffold-specific interaction modes."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Varying the relative weights of the non-negativity and sum-to-one regularization terms (\u03b1\u2081 and \u03b1\u2082) during different stages of the reverse diffusion process will enable discovery of composite materials with superior property-performance trade-offs compared to fixed-weight regularization, by allowing the model to prioritize composition validity in early denoising steps and property fidelity in later steps."
+}

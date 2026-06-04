@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating explicit uncertainty quantification of polymer conformational flexibility into the surrogate model via ensemble molecular dynamics trajectories will improve Bayesian optimization discovery rates for high-performing CO2 adsorbents by 20-30% compared to single-conformation embeddings, particularly when initial labeled data quality is poor (\u03b3 \u2264 0.3)."
+}

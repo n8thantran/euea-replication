@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Fine-tuning SAM-EM on multi-modal LPTEM datasets that include simultaneous energy-dispersive X-ray spectroscopy (EDS) signals will enable automated differentiation of chemically distinct but morphologically similar nanoparticles in heterogeneous mixtures, thereby resolving identity-switching errors that currently occur during particle overlap events in single-modality imaging."
+}

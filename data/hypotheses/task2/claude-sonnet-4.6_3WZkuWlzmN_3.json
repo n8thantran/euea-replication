@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "When one modality is systematically absent or corrupted at inference time (e.g., XRD patterns are unavailable for amorphous or nanostructured materials), the cross-modal predictive training objective of X-MoPA will enable the model to hallucinate a latent representation of the missing modality from the remaining two with sufficient fidelity that downstream property prediction accuracy degrades by no more than 10% relative to the full three-modality case, because the latent predictors have explicitly learned to encode the mutual information shared across modalities during pretraining\u2014and this robustness will be measurably greater than that of concatenation-based multimodal baselines trained without cross-modal prediction objectives."
+}

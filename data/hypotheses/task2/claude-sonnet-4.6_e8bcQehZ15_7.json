@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Extending CAST to control discrete and graph-structured molecular attributes, the concept bottleneck module can be augmented with a graph neural network encoder operating on molecular scaffolds such that steering vectors derived from scaffold-level representations will enable simultaneous control of both continuous physicochemical properties and categorical structural constraints (e.g., specific ring systems or functional group presence), and this scaffold-conditioned steering will achieve lower property MAE on out-of-distribution targets than property-only steering because scaffold topology provides complementary geometric constraints that reduce the combinatorial search space navigated by the LLM's residual stream during autoregressive SMILES generation."
+}

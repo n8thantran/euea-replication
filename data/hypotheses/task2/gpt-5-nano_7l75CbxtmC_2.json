@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Integrating explicit reaction kinetics and catalyst lifecycle cost data into the reaction-network optimization will shift the identified optimal Ca2SiO4 synthesis recipes toward routes with lower energy input and lighter catalyst burden, resulting in at least a 20% higher grams-per-euro under simulated market price volatility compared to the thermodynamics-only optimization."
+}

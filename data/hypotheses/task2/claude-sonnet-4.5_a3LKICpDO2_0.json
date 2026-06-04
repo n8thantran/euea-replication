@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating dynamic structural flexibility descriptors derived from GFN1-xTB molecular dynamics trajectories into the \u0394-learning framework will improve band gap predictions for MOFs containing 3d transition metals by capturing the effects of thermal fluctuations on d-electron orbital hybridization that static structure-based descriptors cannot resolve."
+}

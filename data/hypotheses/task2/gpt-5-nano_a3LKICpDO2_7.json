@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Augmenting the \u2206-learning framework with transition-metal\u2013specific electronic descriptors (oxidation state, local spin state, and d-electron count) for MOFs containing Cr, Mn, Fe, Co, or Ni will significantly improve the accuracy of HSE06 band-gap predictions by reducing the MAE relative to a TM-agnostic \u2206-learning model."
+}

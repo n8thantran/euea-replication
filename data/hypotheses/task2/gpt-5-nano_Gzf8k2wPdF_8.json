@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "An adaptive hybrid batching strategy that switches between dynamic batching and static-64 batching during training based on real-time estimates of graph-size variance and recompilation cost will achieve lower mean time per training step and comparable or better final RMSE than either static-64 or dynamic batching alone across QM9 and AFLOW datasets and the SchNet, MPEU, and PaiNN models."
+}

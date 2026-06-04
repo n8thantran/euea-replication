@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "LLMs equipped with explicit thermodynamic gradient information (computed as the rate of change in Gibbs free energy with respect to temperature and composition) will achieve significantly higher success rates on multi-phase synthesis challenges than LLMs using only phase diagram topology, because such gradients provide quantifiable proxies for the abstract domain knowledge currently encoded implicitly in model weights."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Loqi-generated conformers trained on implicit solvent CPCM-AIMNet2 optimized structures will exhibit systematically lower binding affinities in explicit solvent molecular dynamics simulations compared to conformers optimized directly in explicit solvent, due to incomplete representation of solvent-specific hydrogen bonding networks and water-mediated interactions that become kinetically trapped during the transition from implicit to explicit solvation environments."
+}

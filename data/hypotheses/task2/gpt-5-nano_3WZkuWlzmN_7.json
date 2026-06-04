@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Enforcing SE(3)-equivariance in the cross-modal latent-space predictors of X-MoPA via an SE(3)-equivariant graph encoder and symmetry-aware losses will improve generalization to unseen crystal polymorphs and increase robustness to missing modalities, compared to the original X-MoPA framework."
+}

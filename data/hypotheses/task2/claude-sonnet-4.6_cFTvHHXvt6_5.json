@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Replacing the template-based natural language prompt generation with prompts authored by domain-naive human users will reveal a systematic degradation in CHROMA's color accuracy (increased mean \u2206E) that correlates specifically with the use of ambiguous perceptual color descriptors (e.g., \"warm,\" \"muted,\" \"vivid\") rather than with structural constraint complexity, indicating that the frozen LLM encoder's projection to a fixed 512-dimensional bottleneck fails to preserve the fine-grained colorimetric distinctions encoded in colloquial color language, and that fine-tuning only the encoder projection layer on a small set of human-authored prompt\u2013spectrum pairs will recover performance more efficiently than increasing decoder depth."
+}

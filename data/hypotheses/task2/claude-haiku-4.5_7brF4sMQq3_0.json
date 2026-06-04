@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "The score difference vector approximation to the reaction coordinate will remain effective for systems with more than two metastable states, enabling ASTRA to identify transition states connecting specific state pairs while automatically filtering out competing pathways involving intermediate states."
+}

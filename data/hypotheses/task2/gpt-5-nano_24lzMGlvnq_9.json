@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating calibrated uncertainty estimates from physics-based feedback (e.g., Thermo-Calc) into the Direct Preference Optimization reward\u2014by modeling the feedback as a distribution and using a risk-sensitive metric (e.g., a lower confidence bound) across temperatures\u2014will improve the out-of-distribution robustness, validity, and design-space diversity of LM-generated BCC/B2 alloy candidates, reducing drift observed in architectures like OLMo."
+}

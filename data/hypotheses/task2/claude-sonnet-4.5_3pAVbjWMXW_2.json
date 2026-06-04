@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating explicit hydrogen-bonding descriptors as auxiliary inputs to the encoder will improve Top-1 accuracy by more than 5 percentage points for mixtures containing protic compounds, because the current linear combination assumption systematically underestimates non-additive spectral shifts arising from intermolecular interactions not captured by gas-phase simulations."
+}

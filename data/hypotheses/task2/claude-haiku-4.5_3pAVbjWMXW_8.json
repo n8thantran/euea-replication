@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Models trained on synthetic linear-combination mixture spectra will exhibit significantly degraded performance on real mixtures exhibiting non-linear spectral interactions (such as hydrogen bonding or charge-transfer complexes), and this performance gap will correlate quantitatively with the magnitude of deviation from linearity measured in the experimental spectra."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating protein flexibility through ensemble pharmacophore models derived from multiple receptor conformations (rather than a single crystallographic structure) as the reference set for CATS descriptor generation will yield generated molecules with significantly improved binding affinity across diverse receptor states, as measured by cross-docking scores against an ensemble of alpha-estrogen receptor conformations, while maintaining the high pharmacophoric fidelity and structural novelty demonstrated by the current single-conformation framework."
+}

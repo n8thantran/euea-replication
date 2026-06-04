@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "The number of HMC iterations required during denoising to accurately reproduce target macroscopic properties scales predictably with the ruggedness of the potential energy landscape of the target material class, such that materials with more complex network-forming chemistries (e.g., multi-component phosphosilicate glasses) will require exponentially more HMC steps than single-component systems (e.g., amorphous Si) to achieve equivalent property prediction accuracy, and this scaling relationship can be quantified by measuring the variance of the learned noise energy landscape across diffusion timesteps."
+}

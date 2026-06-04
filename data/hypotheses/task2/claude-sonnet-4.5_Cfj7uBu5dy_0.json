@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating explicit chemical coordination environment constraints into the acquisition function of active learning agents will improve discovery efficiency by at least 30% compared to composition-only diversity metrics, particularly in ternary and higher-order systems where local bonding motifs govern thermodynamic stability more strongly than global composition."
+}

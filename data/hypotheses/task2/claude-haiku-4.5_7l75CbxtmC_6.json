@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating dynamic price volatility forecasting and supply chain disruption risk models into the workflow will identify synthesis routes that remain economically optimal across multiple future market scenarios, thereby enabling selection of recipes with superior resilience to geopolitical and economic shocks compared to static price-based optimization."
+}

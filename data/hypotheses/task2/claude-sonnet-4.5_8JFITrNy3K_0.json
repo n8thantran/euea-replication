@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Synthesis procedures with higher graph connectivity (measured by edge-to-node ratio) will exhibit stronger correlations with specific material property outcomes than procedures with linear structures, enabling predictive modeling of material performance directly from procedural graph topology."
+}

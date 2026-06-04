@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Multi-fidelity Bayesian optimization that uses polymer-specific pretrained embeddings (PolyNC or polyBERT) as the molecular representation in the surrogate model will achieve greater sample efficiency gains over single-fidelity approaches when the low-fidelity observations (fast MD+GCMC) and high-fidelity observations (long-timescale MD) exhibit systematic, embedding-dependent discrepancies\u2014specifically, that the correlation between fidelity levels will be higher in regions of embedding space corresponding to polymers with dense secondary amine content than in regions dominated by tertiary amines, because the DFT-derived binding energy differences between amine types create structured, representation-recoverable errors in the fast simulation that polymer language models, having been pretrained on amine-rich chemical space, can capture more accurately than general molecular representations."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating dynamic real-time adjustment of bicarbonate-to-carbonate ratio during electrolysis, guided by in-situ pH and dissolved CO2 measurements, will enable adaptive optimization that surpasses the static optimal ratio of 1.5 M KHCO3 and 0.75 M K2CO3 by maintaining peak reactor yield across varying current densities and flow conditions."
+}

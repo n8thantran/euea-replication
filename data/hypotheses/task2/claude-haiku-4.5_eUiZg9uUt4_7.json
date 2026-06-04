@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Applying class-balancing techniques during training (such as weighted loss functions or oversampling of rare templates) will improve model generalization to novel out-of-distribution reaction templates more substantially than increasing training set diversity alone, because it directly addresses the implicit class imbalance that all three architectures exhibit regardless of whether they explicitly use templates."
+}

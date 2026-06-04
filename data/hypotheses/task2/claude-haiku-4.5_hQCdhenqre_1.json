@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Models trained on curated datasets with force-based filtering will exhibit degraded transferability to out-of-distribution molecular systems with high-energy transition states or reactive intermediates compared to models trained on unfiltered datasets, despite showing superior validation metrics on in-distribution structures."
+}

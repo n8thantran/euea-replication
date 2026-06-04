@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Agents employing uncertainty-aware acquisition functions that leverage calibrated lower-fidelity MLIP predictions to guide selective DFT evaluation will discover thermodynamically stable compounds with significantly higher sample efficiency than agents using either single-fidelity oracles or non-adaptive multi-fidelity strategies, particularly in high-dimensional chemical spaces where the gap between MLIP and DFT predictions is largest."
+}

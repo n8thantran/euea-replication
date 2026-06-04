@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Integrating a dedicated 3D conformer modality encoded as standardized Cartesian coordinates and dihedral angles into STR-Bamba426M's multimodal vocabulary will yield a statistically significant reduction in error for conformer-dependent properties (e.g., relative conformer energies, barrier heights, and dipole moments) across small molecules and polymers and will improve zero-shot generalization to unseen chemistries compared to using only 2D textual representations."
+}

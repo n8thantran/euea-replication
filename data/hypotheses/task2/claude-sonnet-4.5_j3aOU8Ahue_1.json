@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating multi-scale SEM imaging (e.g., 500\u00d7, 1000\u00d7, and 5000\u00d7 magnification) into a hierarchical transfer learning framework will improve classification accuracy for subtle early-stage degradation states (e.g., <50 cycles) by enabling the model to learn both particle-level morphology and nanoscale surface film formation features that are not resolvable at a single magnification."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Universal machine learning interatomic potentials trained on datasets enriched with out-of-equilibrium structures from flexible MOF conformations will demonstrate significantly improved accuracy for predicting adsorption-induced structural deformations and guest-dependent mechanical properties compared to potentials trained exclusively on rigid equilibrium geometries."
+}

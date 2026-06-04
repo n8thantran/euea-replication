@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating uncertainty quantification from the EquiformerV2 ensemble predictions into the NN-BAX acquisition function will reduce the number of required function evaluations by 30-50% compared to random sampling from the NEB path, by preferentially selecting high-uncertainty transition state regions that most improve model accuracy for barrier height prediction."
+}

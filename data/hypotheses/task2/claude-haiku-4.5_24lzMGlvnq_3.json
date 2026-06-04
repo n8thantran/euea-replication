@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating uncertainty quantification from Thermo-Calc predictions into the DPO reward function will improve model generalization to out-of-distribution alloy compositions by preventing preference optimization from overweighting high-confidence but potentially unreliable thermodynamic predictions in sparse regions of the composition space."
+}

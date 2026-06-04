@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Transfer learning from SEM images of additive-free NCM cathodes will show diminished performance gains when applied to chemically dissimilar cathode materials (e.g., LFP or NCA compositions) compared to the same NCM family, suggesting that morphological feature transferability is constrained by underlying electrochemical similarity rather than general aging patterns."
+}

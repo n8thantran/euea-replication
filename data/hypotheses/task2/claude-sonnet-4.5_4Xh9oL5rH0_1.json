@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nTraining universal machine learning interatomic potentials on chemically diverse datasets that explicitly include metal-ligand bond dissociation and formation trajectories will enable accurate prediction of MOF defect formation energies and guest-induced structural transitions without requiring domain-specific fine-tuning."
+}

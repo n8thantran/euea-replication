@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "We hypothesize that enabling on-demand augmentation of the toolset during task execution\u2014selecting and injecting a domain-specific tool whose embedding is most aligned with the current task representation and the agent\u2019s reasoning trace\u2014will significantly improve pass@5 in MD and Spectra environments compared to fixed tool provisioning, and the magnitude of improvement will be inversely correlated with the initial task\u2013tool embedding distance."
+}

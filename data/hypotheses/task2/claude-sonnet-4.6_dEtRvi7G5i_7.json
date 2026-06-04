@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating ternary metal combinations (two distinct metals sharing the same chemical template lattice) into the ML-guided chemical template workflow will yield stable ternary superhydrides with non-integer hydrogen-to-metal ratios exhibiting superconducting transition temperatures exceeding those of their binary analogues, because the electronic heterogeneity introduced by mixed metal sites will enhance electron-phonon coupling through additional low-frequency phonon modes while preserving the three-dimensional hydrogen clathrate network required for high Tc."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "An uncertainty-aware adaptive fusion strategy that weights each cross-modal predictor inversely to its estimated epistemic uncertainty, such that the most reliable two modalities are used to predict the third latent modality, will improve robustness to corrupted or missing modalities and enhance generalization to out-of-distribution materials compared to X-MoPA's fixed two-modality prediction scheme."
+}

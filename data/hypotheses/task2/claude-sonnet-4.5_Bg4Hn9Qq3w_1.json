@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Providing LLM agents with access to a diverse ensemble of simulated reactor configurations simultaneously, each with different chemical reaction pathways but shared measurement modalities, will enable cross-system generalization that accelerates discovery of rare self-limiting surface reactions compared to sequential exploration of individual systems."
+}

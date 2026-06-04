@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating learnable temperature parameters (kBT) in the energy-based score function, separately optimized for different material compositions and property domains, will enable AMDEN to generate relaxed structures with improved energy accuracy and property conditioning fidelity compared to the fixed normalization constants currently used."
+}

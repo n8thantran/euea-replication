@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating ternary metal sublattices (two distinct metal species at s-d border positions) into the chemical template framework will yield stable ternary superhydrides with non-integer hydrogen-to-metal ratios whose superconducting transition temperatures exceed those of the best binary analogues, because the electronic mismatch between the two metal species will create additional interstitial quasi-atom sites that strengthen hydrogen cage formation and increase the electron-phonon coupling constant \u03bb beyond values achievable in single-metal clathrate structures."
+}

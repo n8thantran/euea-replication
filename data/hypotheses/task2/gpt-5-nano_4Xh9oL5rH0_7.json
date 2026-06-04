@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable long-range electrostatics/polarization module (e.g., learned multipole charges with an Ewald-like summation) into universal MLIPs will significantly improve structural-optimization convergence, MD stability, and accuracy of bulk-property predictions for MOFs with open metal sites and charge-transfer behavior, enabling more reliable zero-shot predictions on MOF chemistries absent from the training data."
+}

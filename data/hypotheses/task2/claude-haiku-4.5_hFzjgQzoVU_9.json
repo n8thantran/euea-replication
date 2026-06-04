@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Machine learning models trained on the XDIP dataset will exhibit systematic prediction errors that correlate with the incompleteness of manually reconstructed protein structures, and this correlation can be exploited to automatically identify and prioritize which entries require experimental validation or structural refinement through synchrotron crystallography."
+}

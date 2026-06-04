@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Models trained with explicit multi-modal contrastive objectives that jointly optimize alignment between molecular graphs, 3D coordinates, and natural language descriptions will exhibit significantly higher representational convergence on out-of-distribution structures compared to models trained on single modalities, thereby breaking the current data-governance constraint that limits foundation-level generality."
+}

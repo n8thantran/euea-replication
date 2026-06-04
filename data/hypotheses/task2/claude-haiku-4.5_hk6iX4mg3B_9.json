@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "The knowledge distillation-like effect observed in individual ensemble members trained with consensus loss will be substantially diminished or eliminated when ensemble members are trained on non-overlapping subsets of the labeled data, suggesting that the improvement in individual model performance depends critically on shared supervised signal rather than purely on the diversity-regulating properties of the ensemble consensus mechanism."
+}

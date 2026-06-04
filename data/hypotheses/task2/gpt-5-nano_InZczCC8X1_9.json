@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "A bifunctional gas-diffusion electrode that integrates copper active sites with silver to simultaneously promote in situ i-CO2 formation and CO2 reduction at the same interface will shift the optimum reactor yield to higher CO production current density with comparable or improved CO2 utilization, achieving reactor yields above 44 mA cm\u22122 under the optimized electrolyte conditions (1.5 M KHCO3 and 0.75 M K2CO3) compared"
+}

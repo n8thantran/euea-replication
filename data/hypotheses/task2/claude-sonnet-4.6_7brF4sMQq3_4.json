@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "The interpolation weight \u03ba in Score-Based Interpolation, when dynamically conditioned on local energy curvature information rather than solely on relative log-densities, will enable ASTRA to distinguish and selectively sample higher-index saddle points (second-order or above) on the potential energy surface, thereby extending the method's applicability to the characterization of bifurcation points and reaction network branch points that are inaccessible to current first-order saddle point searches."
+}

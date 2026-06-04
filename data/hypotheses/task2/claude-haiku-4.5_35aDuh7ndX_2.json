@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-guided generative models trained with multi-target pharmacophore ensembles will generate molecules with improved cross-target selectivity and reduced off-target binding compared to single-target pharmacophore optimization, despite maintaining equivalent or superior pharmacophoric similarity to the primary target."
+}

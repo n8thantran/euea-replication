@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nMulti-fidelity Bayesian optimization agents that dynamically select oracle fidelity levels (MLIP vs. DFT) based on uncertainty-weighted information gain will discover 2-3\u00d7 more novel stable compounds per unit computational cost compared to fixed-fidelity policies in quaternary chemical systems, with the performance gap widening as the dimensionality of the chemical space increases beyond ternary compositions."
+}

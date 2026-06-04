@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Bicarbonate concentration-dependent changes in local pH microenvironment at the electrode surface will modulate the in situ CO2 release kinetics and mass transport efficiency in ways that are decoupled from bulk CO2 utilization, such that optimizing for reactor yield under non-aqueous or mixed-solvent electrolytes could yield substantially higher performance than the current aqueous-only system by reducing the solubility-driven trade-off between JCO and UCO2."
+}

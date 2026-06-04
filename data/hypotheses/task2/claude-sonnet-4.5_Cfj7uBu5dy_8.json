@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nMulti-fidelity active learning agents that adaptively allocate oracle queries across MLIP, DFT, and experimental validation levels based on predicted information gain will discover stable materials with 3-5\u00d7 greater sample efficiency than fixed single-fidelity policies when the evaluation budget is constrained to fewer than 50 total queries across all fidelity levels."
+}

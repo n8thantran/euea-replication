@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating transition metals with multiple accessible oxidation states (e.g., V, Ti) into Si-X alloy frameworks will enable reversible local coordination changes that dynamically stabilize Li+ migration channels during cycling, resulting in anodes with >2000 mAh/g capacity and <5% channel radius variation across full charge-discharge cycles."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Augmenting uMLIP training data with defect-containing and non-equilibrium MOF structures\u2014created by introducing common defects (e.g., missing linkers, under-coordinated metal centers) and sampling high-temperature MD perturbations\u2014will improve zero-shot transferability to unseen MOFs with open metal sites and diverse porosities, reducing MD instability events and structural-optimization volume errors on MOFSimBench compared with models trained solely on pristine equilibrium data."
+}

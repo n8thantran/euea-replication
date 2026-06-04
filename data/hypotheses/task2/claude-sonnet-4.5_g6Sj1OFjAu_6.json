@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nCompGen's shell-wise composition framework can be extended to predict and generate optimal compositional gradients across multiple concentric shells (\u22653 shells) to simultaneously control both surface reactivity and subsurface electronic structure, enabling inverse design of catalysts with tunable selectivity for competing reaction pathways through depth-resolved ligand effects."
+}

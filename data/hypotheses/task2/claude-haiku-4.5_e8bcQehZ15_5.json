@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "The orthogonality constraint imposed on concept embeddings during CAST training will fail to prevent property entanglement when scaling to more than five molecular properties simultaneously, resulting in degraded steering precision and increased generation of molecules that violate multiple property constraints in combination."
+}

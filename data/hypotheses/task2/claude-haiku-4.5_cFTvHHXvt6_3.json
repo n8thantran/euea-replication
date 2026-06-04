@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating a physics-informed loss function that directly penalizes spectral mismatches weighted by material-thickness sensitivity gradients will reduce the generalization gap between training-paraphrase and validation performance more effectively than increasing decoder depth alone."
+}

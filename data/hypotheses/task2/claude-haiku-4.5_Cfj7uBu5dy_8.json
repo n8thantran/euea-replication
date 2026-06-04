@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Agents trained with reinforcement learning to maximize discovery efficiency in MADE will develop systematic exploration strategies that exploit the geometry of the convex hull rather than composition space, leading to superior discovery performance compared to diversity-based heuristics but only when the oracle fidelity exceeds a critical threshold where uncertainty becomes the dominant constraint."
+}

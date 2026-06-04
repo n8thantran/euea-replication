@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Systematic fine-tuning of an LLM on a curated dataset of physics-based simulator trajectories from the target material system\u2014rather than relying solely on general pretraining priors and few-shot prompt tuning\u2014will yield a statistically significant improvement in synthesis planning success rate for multi-phase target challenges (analogous to Challenges 2 and 3) compared to the prompt-tuned ReAct baseline, because the model will internalize the nonlinear mapping between composition-temperature-time actions and resulting phase fractions that general scientific literature inadequately captures."
+}

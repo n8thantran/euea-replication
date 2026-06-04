@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit treatment of spin states and magnetic ordering through multi-fidelity descriptors will enable \u2206-learning models to accurately predict band gaps in MOFs containing open-shell transition metals (Cr, Mn, Fe, Co, Ni) where GFN1-xTB currently fails."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "A generative model trained to jointly predict both the crystal structure and its space group symmetry directly from XRD patterns\u2014using symmetry classification as an auxiliary objective during training rather than as a post-hoc constraint\u2014will produce candidate structures that, when subsequently relaxed with a machine learning interatomic potential, converge to the correct ground-truth phase at significantly higher rates than models conditioned on XRD alone, because embedding symmetry as an inductive bias during generation will place candidates within the basin of attraction of the correct energy minimum rather than a competing polymorph."
+}

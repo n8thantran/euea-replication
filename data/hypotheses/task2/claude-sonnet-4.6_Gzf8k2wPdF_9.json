@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "A hybrid adaptive batching algorithm that dynamically switches between static-64 and dynamic batching strategies based on a real-time estimate of the current graph size variance within a training epoch will achieve greater overall training speedup than either algorithm alone, because it exploits the superior gradient-update compilation efficiency of static-64 once recompilations are exhausted while retaining dynamic batching's advantage during early training when recompilation overhead dominates, and this benefit will be most pronounced for datasets with heavy-tailed node/edge distributions such as AFLOW where the variance in batch composition is highest."
+}

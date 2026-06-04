@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "LLM performance on MOF property prediction will exhibit a non-monotonic relationship with pre-training corpus diversity, where intermediate diversity levels (balancing domain-specific and general chemical knowledge) yield superior generalization to unseen MOF families compared to either highly specialized or maximally diverse pre-training corpora."
+}

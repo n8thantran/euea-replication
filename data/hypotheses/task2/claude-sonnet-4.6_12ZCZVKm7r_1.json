@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "If equivariance-inducing training regularization (such as equigrad) causes non-equivariant architectures to develop latent representations that converge toward those of architecturally equivariant models, then systematically interpolating the strength of this regularization during training will produce a monotonic increase in representational alignment with equivariant models that quantitatively predicts downstream out-of-distribution generalization performance, thereby establishing representation alignment as a causal\u2014rather than merely correlational\u2014indicator of physically grounded inductive bias acquisition."
+}

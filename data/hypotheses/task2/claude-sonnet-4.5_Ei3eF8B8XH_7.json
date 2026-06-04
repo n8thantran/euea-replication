@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating explicit protein-ligand interaction features from docking poses into LoQI's diffusion training objective will enable direct generation of bioactive conformers that simultaneously optimize both intramolecular energy and protein complementarity, eliminating the need for separate docking steps in structure-based drug design workflows."
+}

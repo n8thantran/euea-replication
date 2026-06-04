@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Integrating explicit energy and purification costs with a probabilistic, real-time price-uncertainty model into the economic objective will shift the Pareto-optimal synthesis recipe set for Ca2SiO4 such that the CaO+SiO2 route no longer dominates under market volatility, and a robust alternative recipe will emerge as the expected optimum across price scenarios."
+}

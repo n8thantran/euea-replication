@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Applying CAST to jointly steer continuous molecular properties (QED, LogP) and discrete structural constraints (e.g., presence of specific functional groups or scaffold motifs) through multi-modal concept embeddings will enable simultaneous control over both chemical properties and molecular topology without requiring additional fine-tuning of the base LLM."
+}

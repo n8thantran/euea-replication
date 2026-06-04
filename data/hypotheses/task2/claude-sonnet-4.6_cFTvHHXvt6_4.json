@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Replacing the template-based natural language prompt generation with prompts authored by domain-naive human users will reveal a systematic performance degradation in CHROMA that correlates specifically with the linguistic complexity of constraint expressions (e.g., relative thickness comparisons, forbidden adjacencies, positional ordering), such that fine-tuning the frozen LLM encoder on a small set of domain-specific constraint phrasings\u2014rather than increasing decoder depth\u2014will close more than half of the resulting performance gap, demonstrating that the generalization bottleneck for out-of-distribution language shifts from decoder capacity to encoder comprehension when prompt distributions deviate from templated paraphrases."
+}

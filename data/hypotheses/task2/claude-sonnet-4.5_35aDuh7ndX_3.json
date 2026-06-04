@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-guided generative models that simultaneously optimize for both spatial pharmacophore similarity to active compounds and dissimilarity to inactive or toxic compounds will generate molecules with improved therapeutic windows compared to models optimized only for similarity to active references."
+}

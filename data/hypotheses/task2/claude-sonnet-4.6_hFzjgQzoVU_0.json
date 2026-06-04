@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "An equivariant graph neural network trained on the XDIP dataset to predict Fe K-edge XANES spectra directly from three-dimensional local coordination geometries will demonstrate that prediction error systematically correlates with the degree of structural asymmetry around the iron center\u2014specifically, that iron sites with lower local symmetry (e.g., distorted octahedral or mixed-ligand environments) will exhibit significantly higher MAE than high-symmetry sites (e.g., regular tetrahedral or octahedral coordination), thereby revealing that geometric distortion magnitude, quantifiable from the annotated bond angles and lengths in XDIP, is the dominant determinant of structure-to-spectrum mapping difficulty and can serve as a trainable auxiliary target to improve spectral prediction accuracy for underrepresented coordination environments."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "When modalities are missing or corrupted during inference, X-MoPA's cross-modal prediction capability will enable graceful degradation with recoverable performance through latent space reconstruction, but only if the pre-training redundancy between modalities is sufficient to satisfy the mutual information threshold I(Z;X,Y) \u2265 H(Z)-\u03b5, and this threshold varies systematically with material class complexity as measured by space group symmetry."
+}

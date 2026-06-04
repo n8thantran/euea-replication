@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Applying class-balancing strategies during training\u2014specifically oversampling rare reaction templates or undersampling frequent ones to achieve a more uniform template frequency distribution\u2014will disproportionately improve top-k accuracy for rare templates (frequency < 10) without substantially degrading accuracy for common templates (frequency > 10,000), and will simultaneously improve out-of-distribution generalization on the Pistachio OOD test set for template-free models such as MEGAN and RootAligned, because the models will be forced to learn generalizable chemical features rather than memorizing dominant template patterns."
+}

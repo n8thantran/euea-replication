@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating a weighted multi-objective metric that combines DFT-derived energy-above-hull with distributional EMD on formation energy will enable generative models to produce crystal structures with higher experimental synthesizability rates than models optimized using either metric alone."
+}

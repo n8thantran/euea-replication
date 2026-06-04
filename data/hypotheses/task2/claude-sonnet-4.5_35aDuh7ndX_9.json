@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-constrained generative models trained with dual-objective optimization (maximizing pharmacophoric similarity while minimizing structural similarity) will produce molecules with superior experimental binding affinity to their protein targets compared to molecules generated using docking-based rewards, when both are evaluated by orthogonal binding assays such as surface plasmon resonance or isothermal titration calorimetry."
+}

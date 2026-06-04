@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "The performance gains from continual pre-training on curated chemical corpora will be significantly diminished or reversed when applied to MOF property prediction tasks involving multi-component properties (e.g., simultaneous prediction of adsorption across different adsorbates and pressures) compared to single-property tasks, due to the reduced contextual capacity of the pre-trained representations to capture inter-property dependencies."
+}

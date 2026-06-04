@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "The Force Delta uncertainty metric will exhibit systematically weaker correlation with true force error in systems where the model's non-conservative force predictions are systematically biased in a consistent direction across the configuration space, compared to systems where errors are randomly distributed, because systematic bias reduces the physical inconsistency signal that the metric depends upon."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Template frequency bias in retrosynthesis models can be mitigated by training on synthetically balanced datasets where rare templates are augmented through reaction analogy transfer from chemically similar but more frequent templates, and this approach will improve out-of-distribution generalization to novel disconnections without sacrificing in-distribution performance on common templates."
+}

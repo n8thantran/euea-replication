@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Conditioning the diffusion model on explicit geometric descriptors (such as nearest-neighbor distances from the adsorbate to first-shell atoms and second-shell coordination numbers) will enable CompGen to generate surface compositions with improved predictive accuracy for experimentally realizable adsorption configurations compared to conditioning on composition and energy alone."
+}

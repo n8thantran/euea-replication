@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Based on the identified gap that only 61% of newly discovered superhydrides exhibit Tc > 100 K despite containing 3D hydrogen clathrate structures, I propose:\n\nIncorporating transition metals with partially filled d-orbitals into the metal lattice sites of identified clathrate frameworks will enhance electron-phonon coupling at the Fermi level beyond the current hydrogen-dominated contribution, thereby increasing the superconducting transition temperature above 200 K in at least 40% of the modified structures."
+}

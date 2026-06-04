@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Augment foundation-model based molecular embeddings with a cross-scale attention module that explicitly learns interactions between moiety-level features and device-level descriptors (temperature, separator, cathode loading) in a multi-task, multi-scale electrolyte\u2013device predictive model to improve both in-distribution accuracy and out-of-distribution generalization to novel formulations compared to simple aggregation-based baselines."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating stereochemical diversity metrics (e.g., chiral center enumeration, atropisomeric variation, and E/Z isomer tracking) as an additional constraint layer in NaviDiv will reveal that reinforcement learning optimization for property-targeted molecular generation disproportionately collapses stereochemical diversity faster than structural fingerprint-based diversity, and that adding explicit stereochemical penalty functions will recover a measurable improvement in the discovery of high-performing enantiomeric or diastereomeric candidates that are missed by current fragment- and scaffold-based constraints alone."
+}

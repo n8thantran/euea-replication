@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating structural diversity among ensemble members through heterogeneous GNN architectures (e.g., combining PaiNN, SchNet, and DimeNet within a single coupled ensemble) will amplify the ambiguity term in the ensemble-diversity decomposition, thereby producing stronger consensus targets for unlabeled molecular data and yielding greater accuracy gains in individual distilled members compared to homogeneous coupled ensembles of equivalent size, particularly for molecular properties that depend on distinct geometric representations such as long-range electrostatics versus local bonding interactions."
+}

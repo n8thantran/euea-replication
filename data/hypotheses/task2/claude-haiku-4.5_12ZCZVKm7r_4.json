@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Models that achieve higher representational alignment through equivariance-inducing training (like OrbV3's equigrad regularization) will show superior transfer learning performance when fine-tuned on downstream tasks with limited training data compared to architecturally equivariant models, because the learned quasi-equivariance in latent space provides more robust generalization than built-in architectural constraints."
+}

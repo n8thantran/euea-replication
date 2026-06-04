@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nFoundation models pre-trained on molecular SMILES representations will exhibit superior predictive performance for battery device-level metrics when the pre-training corpus is augmented with synthetic formulation-level SMILES strings that explicitly encode composition ratios and multi-component interactions, compared to models relying solely on single-molecule pre-training with post-hoc composition aggregation."
+}

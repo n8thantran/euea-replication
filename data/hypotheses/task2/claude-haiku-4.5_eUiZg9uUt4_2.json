@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Training retrosynthesis models with class-balanced sampling that explicitly equalizes template frequency across all reaction types will improve out-of-distribution generalization to novel disconnections without sacrificing in-distribution performance on common templates."
+}

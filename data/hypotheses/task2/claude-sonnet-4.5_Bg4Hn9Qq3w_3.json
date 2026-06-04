@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Multi-agent LLM systems with dynamically adjusted exploration-exploitation trade-offs based on real-time detection of diminishing information gain will discover rare chemical reaction pathways in complex ALP systems more efficiently than single-agent systems with fixed persistence parameters."
+}

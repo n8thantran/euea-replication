@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating virial stress tensor components as an explicit loss term during active learning fine-tuning will reduce the symmetry-breaking artifacts observed when restarting DFT-based SSNEB from ML-converged pathways, thereby achieving >3-fold computational speedup while maintaining structural symmetry throughout the transition path."
+}

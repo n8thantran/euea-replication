@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating dynamic phonon spectra as a fourth modality in X-MoPA will improve prediction accuracy for temperature-dependent properties (e.g., thermal conductivity, heat capacity) by capturing vibrational degrees of freedom that are not fully encoded in static crystal graphs, XRD patterns, or text descriptions, especially for materials with strong anharmonic effects or soft phonon modes."
+}

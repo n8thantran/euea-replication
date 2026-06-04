@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Adaptive, online-tuned padding budgets that adjust the batching memory target to the current batch-size and graph-size distribution during GNN training will yield greater mean training throughput and equal or better final RMSE than any fixed-budget batching (static-64, static-2N, or dynamic with a fixed budget) on heterogeneous graph datasets."
+}

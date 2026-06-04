@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating explicit surface-polymer distance-dependent interaction potentials as a learned auxiliary output in the hybrid CNN-GRU-Transformer model will enable accurate prediction of polymer conformational transitions (coil-to-globule or extended-to-collapsed states) on heterogeneous surfaces, thereby allowing inverse design of surfaces that trigger programmable shape-shifting in responsive polymers at specified adsorption thresholds."
+}

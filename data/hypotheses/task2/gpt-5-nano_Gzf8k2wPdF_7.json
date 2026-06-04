@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Graph-size distribution topology\u2014specifically the skewness and kurtosis of per-graph node/edge counts\u2014deterministically determines which batching algorithm (dynamic, static-64, or static-2N) yields the minimum mean training time per step for a given GNN model and batch size, and a predictive model trained on these statistics can select the optimal batching strategy on new datasets with substantially less profiling overhead."
+}

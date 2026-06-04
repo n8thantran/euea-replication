@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating DFT-derived band gap distributions as an additional EMD-based evaluation metric will reveal systematic compositional biases in diffusion-based generative models that neither energy-based SUN scores nor latent-space coverage metrics can detect, specifically showing that models generating structures with plausible formation energies nonetheless fail to reproduce the electronic property distribution of the training set in chemically meaningful ways."
+}

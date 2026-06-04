@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Replacing the fixed (d=512) linear projection bottleneck between the frozen LLM encoder and the trainable decoder with a learned cross-attention adapter that dynamically routes encoder representations according to constraint-type (material inclusion/exclusion, adjacency, thickness bounds, angle) will reduce the validation \u2206E gap relative to training-paraphrase performance by at least 30%, because constraint-specific routing will allow the decoder to selectively amplify the latent dimensions most predictive of each constraint class rather than compressing all linguistic information into a single undifferentiated fixed-dimensional vector."
+}

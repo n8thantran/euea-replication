@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nAdaptive hybrid batching that dynamically switches between static-64 and dynamic algorithms based on real-time graph size variance within a training epoch will reduce total training time by 15-30% compared to using either algorithm alone, particularly for datasets with heterogeneous graph size distributions that evolve during data augmentation or curriculum learning strategies."
+}

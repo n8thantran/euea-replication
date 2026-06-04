@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "A symmetry-aware, conditional diffusion model that maps XRD patterns to a multimodal posterior over crystal structures within the ground-truth space group, followed by energy relaxation, will yield higher structure-recovery accuracy and calibrated uncertainty across lattice and coordinate distortions than symmetry-projection gradient descent or conventional XRD-similarity optimization."
+}

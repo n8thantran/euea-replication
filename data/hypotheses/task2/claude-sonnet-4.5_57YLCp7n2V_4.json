@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Flow-matching models trained on GEOM-Drugs will achieve diffusion-level geometric accuracy when trained with an auxiliary loss function that explicitly penalizes deviations from chemically valid aromatic-to-non-aromatic valency transitions during the generative trajectory."
+}

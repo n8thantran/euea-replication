@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit lattice parameter constraints as intermediate reward checkpoints during DPO training will improve model generalization across architectures by preventing off-distribution drift on domain-critical composition tokens, particularly for smaller models like OLMo."
+}

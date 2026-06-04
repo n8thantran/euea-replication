@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating ternary metal combinations (two distinct metal species) into the chemical template framework will yield stable superhydrides with non-integer hydrogen-to-metal ratios exhibiting Tc values exceeding 200 K at moderate pressures (below 150 GPa), because the electronic heterogeneity introduced by mixed metal sublattices will create synergistic quasi-atom interstitial sites that simultaneously optimize hydrogen cage geometry and electron-phonon coupling strength beyond what any single-metal template can achieve."
+}

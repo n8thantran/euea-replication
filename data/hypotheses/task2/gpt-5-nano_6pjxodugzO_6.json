@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "A learnable fusion model that combines Morgan fingerprints with SMILES-based foundation-model embeddings via an attention-based gating mechanism will outperform both MF-only and FM-only predictors in predicting multi-scale battery electrolyte properties, particularly in low-data and out-of-distribution scenarios, by adaptively leveraging complementary substructure and moiety-level representations."
+}

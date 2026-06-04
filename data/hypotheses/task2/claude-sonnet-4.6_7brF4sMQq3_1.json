@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "The interpolation weight \u03ba in Score-Based Interpolation, when dynamically adapted during reverse diffusion based on the local curvature of the combined score field rather than held at a fixed value or determined solely by isodensity conditions, will more accurately locate transition states for systems with asymmetric energy barriers (where reactant and product basins have substantially different widths or depths) by compensating for the unequal score magnitudes that cause the naive isodensity criterion to sample off the true committor-0.5 surface in such systems."
+}

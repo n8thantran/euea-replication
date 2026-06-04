@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating molecular charge as a latent conditioning variable into the MLIP message-passing framework\u2014rather than simply excluding non-neutral structures from training\u2014will enable a single equivariant GNN model to predict energies and forces across multiple charge states with accuracy comparable to charge-specific models, as measured by MAE on a held-out benchmark of charged organic drug-like molecules from SPICE2, while maintaining MD simulation stability equivalent to the neutral-only pre-trained models presented in this work."
+}

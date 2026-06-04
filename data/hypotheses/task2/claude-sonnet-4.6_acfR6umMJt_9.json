@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Replacing the uniform random sampling strategy used to select acquisition points along the NEB path with an uncertainty-weighted sampling scheme\u2014where points are selected proportionally to the local epistemic uncertainty of the current EquiformerV2 model\u2014will reduce the number of BAX iterations required for convergence by at least 50% compared to uniform sampling, particularly for multi-minima pathways where uncertainty is heterogeneously distributed along the reaction coordinate."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating three-dimensional conformational information\u2014such as atomic coordinates derived from low-energy conformer ensembles encoded as a structured textual representation (e.g., serialized distance matrices or torsion angle sequences)\u2014as an eighth modality within the STR-Bamba unified vocabulary will produce a latent space cluster that is geometrically distinct from all seven existing textual representations yet exhibits measurable cross-modal alignment with SMILES and InChI embeddings, thereby improving prediction accuracy for conformation-dependent properties (e.g., protein-ligand binding affinity, membrane permeability) beyond what any combination of the current seven representations achieves."
+}

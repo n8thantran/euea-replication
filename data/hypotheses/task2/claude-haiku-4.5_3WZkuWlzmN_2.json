@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "The cross-modal predictive architecture will exhibit degraded transfer performance on out-of-distribution material classes (e.g., transferring from perovskites to complex intermetallics) because the latent manifold learned through redundancy between graph, text, and XRD modalities captures only the structural and symmetry regularities common to the training distribution, failing to generalize when materials lack this redundancy or possess fundamentally different local coordination environments."
+}

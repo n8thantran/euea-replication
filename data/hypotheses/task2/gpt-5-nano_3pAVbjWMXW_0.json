@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating a physics-informed non-linear mixing layer that adds learned pairwise interference spectra to the linear superposition of pure-component IR spectra will improve mixture-disentanglement and increase the Top-10 accuracy on real ATR-IR ternary mixtures to at least 60%, compared with the current linear-mixing baseline."
+}

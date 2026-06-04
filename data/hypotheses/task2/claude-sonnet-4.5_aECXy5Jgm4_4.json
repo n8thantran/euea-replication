@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Branched and cross-linked polyamine architectures with controlled spatial distribution of secondary amine groups will exhibit 15-30% higher CO2 adsorption capacity compared to linear polymers at identical amine densities due to enhanced accessibility of binding sites and reduced competitive inhibition from water molecules."
+}

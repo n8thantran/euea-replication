@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "A Bayesian tensor completion surrogate providing calibrated predictive intervals, when used in an uncertainty-driven active-learning loop under biased sampling, will require fewer experimentally validated designs to achieve a target elastic modulus-to-mass ratio than the non-uncertainty-aware tensor completion approach."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Multi-agent swarms with independently randomized initial conditions and temperature parameters will collectively discover a more complete set of self-limiting surface reactions in complex ALP systems than single agents with equivalent total computational budget, due to reduced path-dependence and enhanced exploration of rare kinetic regimes that require specific precursor temperature and exposure time combinations."
+}

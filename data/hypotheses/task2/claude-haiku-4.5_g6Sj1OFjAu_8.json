@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit geometric constraints (such as inter-atomic distances and coordination geometry) into the conditional diffusion model will improve the chemical validity and catalytic performance of generated surface compositions compared to composition-only generation, because it will encode ensemble and ligand effects more precisely than the current shell-wise composition abstraction alone."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Machine learning models trained on the XDIP dataset to predict Fe K-edge XAS spectra from protein structures will show significantly reduced generalization performance when applied to iron-containing proteins from organisms or environments with extreme conditions (high temperature, high pressure, or high salinity) that are underrepresented in the literature-derived training data, suggesting that spectral-structure relationships are contingent on physiological context rather than purely determined by local coordination geometry."
+}

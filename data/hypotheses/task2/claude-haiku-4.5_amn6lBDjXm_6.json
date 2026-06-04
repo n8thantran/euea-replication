@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Generative models trained on larger, more chemically diverse datasets (such as OQMD) will exhibit superior stability metrics (higher SUN scores) not merely due to dataset size, but because exposure to a broader range of metastable structures during training enables the model to learn an implicit convex hull geometry that biases generation toward thermodynamically feasible regions of composition space."
+}

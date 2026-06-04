@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "The iterative refinement accuracy of MatAgent will decrease when optimizing for multiple conflicting material properties simultaneously, and this degradation will be proportional to the number of properties optimized rather than their individual complexity."
+}

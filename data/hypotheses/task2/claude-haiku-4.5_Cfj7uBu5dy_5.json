@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Agents employing multi-fidelity uncertainty quantification that dynamically switches between MLIP and DFT oracles based on predicted epistemic uncertainty will discover thermodynamically stable compounds with significantly higher sample efficiency than fixed-fidelity policies, because uncertainty-driven acquisition can identify regions of MLIP unreliability and selectively allocate expensive DFT evaluations to high-uncertainty candidates near phase boundaries."
+}

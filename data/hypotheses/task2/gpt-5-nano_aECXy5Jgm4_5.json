@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Branched and cross-linked polyamine polymers will achieve higher CO2 uptake at ambient conditions than structurally equivalent linear polyamines due to enhanced free volume and cooperative amine\u2013CO2 interactions, and a multi-fidelity Bayesian optimization approach that combines fast MD+GCMC with longer-timescale MD data will discover these branched sorbents more efficiently (requiring fewer high-fidelity simulations) than a single-fidelity BO based only on fast MD+GCMC."
+}

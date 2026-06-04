@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "A diffusion-based crystal structure generator that conditions on both the XRD pattern and a learned posterior over crystal symmetry (space groups) and performs symmetry-marginalized decoding followed by energy refinement will achieve higher ground-truth match rates across lattice and coordinate perturbations than symmetry-fixed or XRD-only optimization methods."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "An uncertainty-driven active-learning SSNEB loop that triggers targeted DFT recalculations and model updates whenever the ML-predicted energy, forces, or stresses along the path exceed a predefined predictive-uncertainty threshold will yield more accurate MEPs with fewer total DFT evaluations and improved transferability across CsPbI3, TiO2, and other polymorphic solid-state systems."
+}

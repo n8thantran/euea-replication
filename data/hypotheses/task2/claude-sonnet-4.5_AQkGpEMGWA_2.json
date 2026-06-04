@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating dynamic lattice strain engineering through controlled introduction of substitutional defects at specific crystallographic sites in Si-X alloys will create localized compressive stress fields that actively counteract lithiation-induced expansion, enabling Si-based anodes with >2500 mAh/g capacity while maintaining channel radius variation below 0.3 \u00c5 across full charge-discharge cycles."
+}

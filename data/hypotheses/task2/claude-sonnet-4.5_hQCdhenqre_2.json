@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Training MLIP models with a curriculum learning strategy that progressively increases molecular system size and structural complexity will yield superior generalization performance on out-of-distribution biomolecular systems compared to standard random sampling training, particularly for systems containing rare elemental combinations not well-represented in SPICE2."
+}

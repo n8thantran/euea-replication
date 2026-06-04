@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nCross-representational molecular embeddings from STR-Bamba426M encode complementary structural information that can be systematically decomposed, such that the divergence between SMILES and SELFIES embeddings of the same molecule predicts structural complexity and synthesis difficulty, while the divergence between SMILES and InChI embeddings predicts stereochemical ambiguity."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Imposing physics-informed regularization that enforces mass-balance and reaction-kinetics consistency within the inductive GraphSAGE framework, using outputs from pre-trained single-gas networks as node features, will improve both the accuracy and extrapolative capability of etching-rate predictions for unseen multi-gas mixtures and reactor conditions compared to the purely data-driven GraphSAGE model."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Based on the identified gap that only 19 of 31 newly discovered superhydrides (61%) exhibit Tc > 100 K despite all containing 3D hydrogen clathrate structures, I propose:\n\nHypothesis: The superconducting transition temperature of metal superhydrides is limited not solely by hydrogen clathrate topology but by the degree of metal d-orbital hybridization with hydrogen s-states at interstitial quasi-atom sites, such that engineering metal sublattices with specific d-band filling (between 40-60% occupancy) will systematically elevate Tc above 200 K even in non-clathrate hydrogen networks."
+}

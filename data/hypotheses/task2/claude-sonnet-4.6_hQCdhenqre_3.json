@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating molecular charge as a latent conditioning variable into the equivariant message-passing layers of MACE\u2014rather than treating it solely as a scalar input at the readout stage\u2014will yield greater improvements in force prediction accuracy for ionizable organic molecules and charged peptides than charge-neutral pre-training followed by fine-tuning, because charge-dependent polarization effects propagate non-locally through the atomic neighbor density in ways that require charge information to modulate the intermediate equivariant features at each interaction block."
+}

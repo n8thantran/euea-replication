@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating three-dimensional conformational information\u2014specifically low-energy conformer descriptors encoded as structured text strings (e.g., serialized distance matrices or torsion angle sequences)\u2014as an eighth modality within the STR-Bamba unified vocabulary will produce a latent space cluster that is geometrically distinct from all seven existing textual representations, and models pre-trained with this augmented multimodal corpus will achieve statistically significant improvements in predicting properties that depend on three-dimensional molecular shape (e.g., protein-ligand binding affinity and chirality-sensitive bioactivity), compared to the seven-modality STR-Bamba426M baseline, because current textual representations encode topology but not spatial geometry, leaving a systematic information gap that conformational string encodings would uniquely fill."
+}

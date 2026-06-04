@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Integrating a dedicated ChemX-annotated molecular-structure localization and segmentation module to detect and extract chemical structures from article figures, coupled with a SMILES reconstruction model, will improve SMILES extraction precision and recall for small molecules in Nanozymes and Complexes datasets by at least 0.20 in F1 score compared to current text-centric preprocessing pipelines."
+}

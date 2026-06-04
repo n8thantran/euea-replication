@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating humidity-dependent CO2 adsorption capacity as a multi-objective target in the Bayesian optimization framework\u2014using the DFT-derived finding that H2O-amine binding energies systematically exceed CO2-amine binding energies across all amine types\u2014will reveal that polymer-specific pretrained embeddings (PolyNC, polyBERT) maintain their early-discovery advantage over general chemical space embeddings more persistently under competitive water co-adsorption conditions than under dry CO2 conditions, because polymer backbone topology governs steric accessibility to amine sites in ways that monomer-level representations fail to encode."
+}

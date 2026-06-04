@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating edge features that encode pairwise interaction strengths between gas species\u2014computed from physics-based reaction-rate data\u2014into the inductive GraphSAGE framework will maintain or improve etching-rate prediction accuracy when extending from two-gas Ar/O2 mixtures to three-gas Ar/O2/N2 mixtures on PMMA etching, compared to a baseline model that relies solely on node features without edge information."
+}

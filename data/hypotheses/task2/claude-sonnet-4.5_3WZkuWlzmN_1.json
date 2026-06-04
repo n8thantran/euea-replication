@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating dynamically weighted modality-specific uncertainty estimates into the cross-modal prediction loss will enable X-MoPA to achieve superior property prediction accuracy for materials with incomplete or noisy experimental characterization data, particularly when XRD patterns contain peak broadening or preferred orientation artifacts that violate the assumed Lipschitz continuity of the latent manifold."
+}

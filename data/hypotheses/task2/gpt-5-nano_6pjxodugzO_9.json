@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Integrating explicit formulation- and device-level supervision (solubility, miscibility, interfacial energy, conductivity, and cycle-performance metrics) into multi-task pretraining of SMILES-based chemical foundation models will yield superior out-of-distribution generalization to novel electrolyte formulations and device configurations compared to SMILES-only pretraining, enabling more reliable cross-scale battery material discovery."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Fine-tuning pre-trained ML models on a curated dataset of transition state structures with enhanced stress tensor weighting will reduce the stress prediction error by at least 50% and enable direct ML-only SSNEB convergence to DFT-equivalent pathways without requiring a subsequent VASP restart step."
+}

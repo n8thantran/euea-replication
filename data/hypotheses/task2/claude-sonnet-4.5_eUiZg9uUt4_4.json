@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Template diversity can be actively increased through synthetic reaction augmentation strategies that systematically generate training examples for underrepresented reaction classes, which will improve top-k accuracy for rare templates without requiring additional experimental data collection."
+}

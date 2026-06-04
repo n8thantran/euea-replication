@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Non-linear spectral interactions in binary mixtures exhibiting hydrogen bonding or other strong intermolecular forces will cause the linear additivity assumption to break down systematically, and models trained with a spectral reconstruction loss weighted by the degree of predicted non-linearity will maintain higher accuracy on such mixtures compared to models trained on linearly-combined spectra alone."
+}

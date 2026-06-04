@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nTransfer learning from cross-modal SEM-to-XRD image representations will improve early-stage degradation prediction in lithium-ion batteries more effectively than single-modality transfer learning, because crystallographic features captured in XRD complement morphological features in SEM to detect subtle structural changes preceding visible particle cracking."
+}

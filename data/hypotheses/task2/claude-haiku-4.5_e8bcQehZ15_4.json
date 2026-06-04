@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "The orthogonality loss constraint imposed on concept embedding vectors during CAST training will degrade performance on molecular generation tasks requiring simultaneous control of correlated molecular properties that naturally exhibit non-orthogonal relationships in chemical space."
+}

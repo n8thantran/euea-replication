@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Integrating real-time synthesizability scoring from retrosynthetic analysis models will enable MatAgent to autonomously filter thermodynamically stable but kinetically inaccessible materials, thereby increasing the experimental realization rate of AI-proposed inorganic compounds by at least 40% compared to stability-only guidance."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "LLM-generated synthesis plans will demonstrate superior generalization to previously unseen ternary or higher-order oxide systems when the LLM is fine-tuned on physics-based simulator trajectories from binary systems, compared to LLMs prompted only with literature-derived synthesis knowledge."
+}

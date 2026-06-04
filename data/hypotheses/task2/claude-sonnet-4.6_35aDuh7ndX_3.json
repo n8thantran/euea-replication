@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating protein flexibility through ensemble pharmacophore models derived from multiple receptor conformations (rather than a single static crystal structure) as the reference set for CATS descriptor computation will yield generated molecules with broader receptor subtype selectivity profiles and improved experimental binding affinities compared to pharmacophore models derived from a single reference conformation, because ensemble-based pharmacophores capture the dynamic interaction space that governs induced-fit binding events missed by rigid pharmacophore constraints."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating stereochemical diversity metrics into NaviDiv's constraint framework will reveal that reinforcement learning optimization causes disproportionate collapse in stereochemical space relative to constitutional diversity, and that stereochemistry-aware penalties applied during optimization will recover chiral molecular candidates with superior target property profiles compared to constraint regimes based solely on structural fingerprints, fragment frequency, or n-gram analysis."
+}

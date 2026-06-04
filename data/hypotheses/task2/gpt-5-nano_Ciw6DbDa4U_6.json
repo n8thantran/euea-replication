@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Integrating physics-informed priors that enforce a monotonic increase of Young's modulus with lattice density (mass per unit volume) into CPD-S tensor completion will improve predictive accuracy under biased sampling, yielding at least a 0.05 higher held-out R^2 than CPD-S without such priors."
+}

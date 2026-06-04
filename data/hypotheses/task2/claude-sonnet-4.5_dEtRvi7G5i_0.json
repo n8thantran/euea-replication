@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "If metal lattices with strong template effects can be identified through electron localization patterns at interstitial sites, then ternary metal superhydrides (M\u2081M\u2082H\u2093) incorporating two distinct metals with complementary electronic structures will exhibit enhanced thermodynamic stability and higher superconducting transition temperatures compared to their binary counterparts by creating heterogeneous hydrogen cage environments that optimize both structural rigidity and electron-phonon coupling."
+}

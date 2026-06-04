@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit solvent molecule interactions through a hybrid implicit-explicit solvation scheme during ChEMBL3D dataset generation\u2014rather than relying solely on CPCM implicit solvent\u2014will reveal systematic conformational biases in current LoQI predictions for strongly amphiphilic drug-like molecules, and retraining LoQI on this augmented dataset will reduce the energy gap between predicted solution-phase minima and protein-bound crystal conformers in the Platinum Diverse benchmark by at least 30%, because explicit first-shell water molecules impose directional hydrogen-bonding constraints that reshape the accessible conformational landscape in ways that better approximate the polar microenvironment of protein binding pockets."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating an uncertainty-aware confidence estimate from Thermo-Calc into the DPO reward signal\u2014specifically by down-weighting preference pairs where the thermodynamic simulation operates in compositional regions with sparse empirical database coverage\u2014will reduce reward hacking and out-of-distribution drift in architecturally sensitive models like OLMo, resulting in more consistent improvement across all three model families compared to the uniform reward weighting used in the current framework."
+}

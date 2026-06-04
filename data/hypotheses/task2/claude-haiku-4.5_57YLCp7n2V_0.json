@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Generative models trained on Kekulized molecular datasets will exhibit superior transfer performance to out-of-distribution molecular scaffolds and chemical spaces not represented in GEOM-Drugs compared to models trained on aromatic representations, due to reduced ambiguity in valency constraints enabling more robust learning of fundamental bonding principles."
+}

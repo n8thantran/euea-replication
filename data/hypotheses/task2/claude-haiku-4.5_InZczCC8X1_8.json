@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "The optimal bicarbonate-to-carbonate ratio that maximizes reactor yield is catalyst-dependent, such that silver catalysts require different electrolyte compositions than alternative catalysts (e.g., copper or nickel-based materials) to achieve comparable trade-offs between CO partial current density and CO2 utilization."
+}

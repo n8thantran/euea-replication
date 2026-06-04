@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nTraining universal machine learning interatomic potentials on synthetically generated defect-containing MOF structures (including missing linkers, node vacancies, and framework distortions) will improve their ability to predict guest molecule adsorption dynamics and framework flexibility under operational conditions compared to models trained exclusively on equilibrium crystalline structures."
+}

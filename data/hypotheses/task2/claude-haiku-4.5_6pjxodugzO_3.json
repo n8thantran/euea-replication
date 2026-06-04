@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Foundation models pre-trained on SMILES representations will exhibit systematically degraded performance when predicting battery device-level metrics for electrolyte formulations containing chemical moieties that are underrepresented in the pre-training corpus, and this performance degradation can be quantitatively predicted by measuring the frequency of constituent molecular substructures in the original pre-training dataset."
+}

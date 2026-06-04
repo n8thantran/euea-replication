@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating explicit hydrogen-bonding topology descriptors (e.g., the ratio of primary:secondary:tertiary amines and their spatial distribution) as auxiliary features alongside pretrained molecular embeddings will improve early-stage Bayesian optimization convergence by more than 20% compared to embeddings alone, particularly when initial labeled data contains only low-performing polymers (\u03b3 < 0.3)."
+}

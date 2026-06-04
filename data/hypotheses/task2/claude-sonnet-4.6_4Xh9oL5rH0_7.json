@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit metal coordination environment descriptors\u2014derived from local geometry fingerprints of metal nodes\u2014as auxiliary training targets during uMLIP fine-tuning on MOF-relevant data will improve prediction accuracy for flexible MOFs undergoing large-amplitude breathing transitions more than simply increasing the quantity of non-equilibrium training structures, because the current performance bottleneck for such materials lies in misrepresentation of coordination bond directionality rather than insufficient potential energy surface coverage."
+}

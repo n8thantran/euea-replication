@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Automated chemical information extraction performance will improve significantly when multi-agent systems incorporate domain-specific validation loops that cross-reference extracted values against known chemical constraints (e.g., thermodynamic feasibility, stoichiometric validity, structural compatibility) rather than relying solely on document preprocessing and single-pass extraction."
+}

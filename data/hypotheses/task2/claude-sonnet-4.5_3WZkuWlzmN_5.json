@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating dynamically weighted modality contributions based on learned uncertainty estimates will enable X-MoPA to achieve superior property prediction accuracy on materials with incomplete or noisy experimental characterization data compared to static multimodal fusion, as modality-specific reliability varies systematically with crystal structure complexity and measurement conditions."
+}

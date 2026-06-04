@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Training LoQI on a dataset of explicit-solvent optimized conformers will yield more accurate energy rankings and higher docking enrichment for polar/charged molecules than the current implicit-solvent LoQI, demonstrating solvent-specific conformational preferences not captured by implicit-solvent training."
+}

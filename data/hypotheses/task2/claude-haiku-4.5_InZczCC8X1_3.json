@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "The bicarbonate-to-carbonate ratio that maximizes reactor yield under optimized electrolyzer conditions will shift systematically with catalyst composition, such that alternative transition metal catalysts (e.g., copper, nickel) will exhibit distinct optimal bicarbonate:carbonate ratios that correlate with their intrinsic CO2 reduction selectivity profiles."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating episodic memory of past simulation failures and parameter extraction errors into the multi-agent framework\u2014allowing agents to retrieve and condition their behavior on structurally similar prior tasks\u2014will significantly reduce the frequency of recurring configuration errors (such as incorrect Widom insertion setup or mixture-versus-individual simulation misclassification) compared to the memoryless baseline, as measured by success rate across repeated runs on identical task types."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Universal machine learning interatomic potentials trained on larger and more diverse out-of-equilibrium datasets will exhibit systematic transferability improvements to flexible metal-organic frameworks undergoing structural phase transitions, but this improvement will plateau for frameworks with coordination geometries absent from the training distribution, revealing a fundamental limit in zero-shot generalization that cannot be overcome by dataset scaling alone."
+}

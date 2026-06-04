@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Multi-fidelity Bayesian optimization that uses fast MD/GCMC estimates as low-fidelity observations and long-timescale MD simulations as high-fidelity observations will exhibit a surrogate model representation sensitivity that is inverted relative to the single-fidelity case: polymer-specific pretrained embeddings (PolyNC, polyBERT) will provide greater advantage in the high-fidelity acquisition decisions than in low-fidelity ones, because the structural features distinguishing high-performing branched and cross-linked polyamines from linear ones are encoded more faithfully in polymer-domain language models, making the fidelity-correlation learned by the multi-fidelity surrogate more accurate and leading to at least 40% reduction in high-fidelity simulation queries needed to identify top-decile performers compared to general chemical space embeddings under equivalent total computational budgets."
+}

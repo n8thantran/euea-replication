@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating stereochemical diversity constraints into NaviDiv's adaptive penalty framework will reveal that reinforcement learning optimization for chiral molecular targets exhibits faster diversity collapse along stereochemical axes than along constitutional structural axes, and that penalizing over-representation of specific stereoisomeric patterns independently of their constitutional scaffolds will recover a measurable improvement in enantioselective property optimization performance compared to scaffold-only or fragment-only diversity constraints."
+}

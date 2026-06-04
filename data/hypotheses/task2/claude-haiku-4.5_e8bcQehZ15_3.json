@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "The orthogonality constraint imposed during CBM training will fail to maintain disentangled property representations when scaling beyond two properties, causing steering vector interference that degrades generation fidelity for individual properties in a multiplicative rather than additive manner."
+}

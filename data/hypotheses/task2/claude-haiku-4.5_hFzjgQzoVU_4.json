@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Machine learning models trained on Fe K-edge XAS spectra will exhibit significantly improved predictive performance for iron coordination number and local geometry when augmented with transfer learning from pre-trained models on structurally analogous non-protein iron compounds from the Materials Project, despite the domain shift between inorganic and protein-bound iron environments."
+}

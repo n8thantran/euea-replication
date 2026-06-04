@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "The interpolation weight \u03ba in Score-Based Interpolation, when systematically varied away from the equal-density condition (\u03ba = 0.5) toward either metastable state during inference, will trace out isocommittor surfaces corresponding to committor values other than 0.5, enabling ASTRA to reconstruct the full committor function and transition path ensemble without any additional molecular dynamics simulations or committor calculations."
+}

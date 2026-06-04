@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nTraining coupled ensembles with dynamically weighted unlabeled data\u2014where each unlabeled sample's contribution to the consensus loss is weighted by the ensemble's predictive uncertainty for that sample\u2014will reduce calibration error and improve out-of-distribution generalization compared to uniform weighting, particularly when the unlabeled dataset contains chemical structures from a broader distribution than the labeled data."
+}

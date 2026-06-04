@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Transfer learning performance in materials discovery generative models will be significantly enhanced when the reward function incorporates multi-objective optimization that explicitly weights the trade-off between material-specific property constraints and chemical diversity, rather than averaging constraint scores equally."
+}

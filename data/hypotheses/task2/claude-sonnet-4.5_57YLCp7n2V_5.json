@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Flow-matching-based 3D molecular generative models exhibit systematically larger geometric deviations from GFN2-xTB energy minima than diffusion-based models due to insufficient sampling steps during inference, and increasing the number of flow-matching steps to match diffusion sampling density will eliminate the observed performance gap in bond length and angle precision."
+}

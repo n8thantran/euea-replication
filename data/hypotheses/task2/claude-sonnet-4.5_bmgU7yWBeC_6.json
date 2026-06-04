@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating the Force Delta as a differentiable regularization term during neural network training will produce direct-force models with improved energy-force consistency that generalize better to out-of-distribution structures than models trained without this physics-informed constraint, even when evaluated on systems chemically distinct from the training distribution."
+}

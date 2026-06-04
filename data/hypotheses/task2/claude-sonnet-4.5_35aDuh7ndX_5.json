@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-guided generative models trained with cosine similarity on CATS descriptors will generate molecules with superior experimental binding affinity to estrogen receptor alpha compared to those generated using Euclidean distance metrics, when validated by surface plasmon resonance assay."
+}

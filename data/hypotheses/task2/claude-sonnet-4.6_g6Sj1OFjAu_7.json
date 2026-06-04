@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit electronegativity difference tensors between shell 1 and shell 2 elements as an additional conditioning signal in the latent diffusion model will improve adsorption energy prediction accuracy and generation fidelity for multi-component HEA surfaces beyond what adsorbate identity, scalar adsorption energy, and element list alone can achieve, because inter-shell electronegativity gradients directly modulate charge transfer at the active site and thus encode ligand effects that the current conditioning scheme captures only implicitly."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Introducing a transition-metal\u2013aware delta-correction that encodes metal identity (Cr, Mn, Fe, Co, Ni), nominal oxidation/spin state, and local d-electron occupancy into the \u2206-learning XGBoost framework will reduce the MAE of HSE06 band-gap predictions for MOFs containing 3d transition metals by at least 0.15 eV on a held-out test set relative to the baseline xTB-based \u2206-learning model."
+}

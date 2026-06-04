@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "The number of HMC iterations required during AMDEN's denoising process to achieve accurate structural and property reproduction scales predictably with the ruggedness of the material's potential energy landscape, such that glasses with higher fragility indices (characterized by more complex, multi-funnel energy landscapes) will require exponentially more HMC steps to converge to the correct energy distribution compared to strong glass formers, and this scaling relationship can be quantified a priori from the curvature statistics of the learned noise energy function \u02c6E\u03b8 without running full inference."
+}

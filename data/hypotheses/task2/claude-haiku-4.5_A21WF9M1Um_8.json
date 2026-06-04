@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating multi-modal constraints that simultaneously optimize for XRD similarity and phase-specific structural motifs (derived from high-resolution pair distribution function data) will produce smoother, more convex loss landscapes than XRD-only optimization, enabling gradient descent to reliably recover ground-truth structures even under high-magnitude distortions without requiring prior knowledge of the crystal family."
+}

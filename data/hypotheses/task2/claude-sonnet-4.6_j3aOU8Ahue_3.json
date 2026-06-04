@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating a contrastive learning objective during the pretraining stage\u2014trained to pull together SEM image representations of the same cathode composition across different aging states while pushing apart representations of different compositions\u2014will yield more transferable feature embeddings than standard cross-entropy pretraining alone, such that subsequent fine-tuning on additive-containing samples requires fewer labeled examples (e.g., fewer than 20 per class) to achieve equivalent classification accuracy and F1 scores on domain-shifted aging-state classes."
+}

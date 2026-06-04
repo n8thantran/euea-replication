@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Models trained with explicit physical loss constraints (e.g., energy conservation, force equivariance) will show stronger representational convergence to out-of-distribution data than models trained solely on prediction accuracy, suggesting that encoding fundamental physical symmetries in training objectives\u2014rather than just architectural inductive biases\u2014is necessary for achieving true foundation-level generality."
+}

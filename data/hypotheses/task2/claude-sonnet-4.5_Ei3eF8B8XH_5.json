@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Stereochemical graph augmentation applied to LoQI will enable accurate prediction of atropisomeric conformational preferences in molecules with restricted rotation around single bonds, achieving comparable accuracy to current performance on tetrahedral and double-bond stereochemistry."
+}

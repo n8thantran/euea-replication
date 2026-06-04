@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "HMC-guided diffusion models trained on multi-element glasses with diverse cooling rates will generate novel amorphous structures with lower potential energies than their training data by learning to navigate multiple funnels in the potential energy landscape, thereby enabling extrapolation beyond the relaxation states present in the training distribution."
+}

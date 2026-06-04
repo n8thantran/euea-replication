@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating uncertainty quantification through ensemble predictions from the stochastic sampling distribution will enable E2EFOLD to identify designed sequences with high structural confidence while simultaneously predicting which sequences are likely to misfold due to marginal thermodynamic stability."
+}

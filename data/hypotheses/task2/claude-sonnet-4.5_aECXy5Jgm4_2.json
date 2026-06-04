@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating explicit topological descriptors of amine spatial distribution (e.g., persistent homology features capturing void geometry and amine clustering patterns) into the molecular embeddings will improve Bayesian optimization convergence rates for discovering high-capacity CO2 sorbents by 30% compared to sequence-based polymer language model embeddings alone, particularly when initial labeled data quality is poor (\u03b3 < 0.3)."
+}

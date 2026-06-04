@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable, aromaticity-aware valence constraint (encoding (narom, vother) patterns and a valence-violation penalty) into 3D molecular generative model training will reduce atom-valence violations and molecular fragmentation on GEOM-Drugs beyond what Kekulized training achieves, and will improve agreement between generated structures and GFN2-xTB minima compared to baseline models."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Given that the paper demonstrates successful use of metal lattice template effects to discover superhydrides with 3D hydrogen clathrate structures, and that 19 of 31 newly identified compounds exhibit Tc > 100 K, a novel hypothesis extending this work would be:\n\n**Hypothesis:** Ternary metal superhydrides incorporating two metals with complementary electron donation properties (one s-block and one d-block metal) will stabilize novel asymmetric hydrogen clathrate topologies that cannot form in binary systems, resulting in superconducting transition temperatures exceeding 200 K at pressures below 200 GPa due to enhanced electron-phonon coupling from competing metal-hydrogen template interactions."
+}

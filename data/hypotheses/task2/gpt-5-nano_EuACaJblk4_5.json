@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Conditioning the sequence decoder of the end-to-end E2EFOLD framework on an explicit target binding-pocket geometry and a desired binding energy will enable conditional design such that designed sequences yield backbones with higher pocket-geometry fidelity and higher predicted binding energies than designs produced without conditioning, demonstrating that end-to-end conditional structure-based design improves functional specificity."
+}

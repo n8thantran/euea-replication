@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating dynamic, property-dependent constraint weighting (where \u03b1\u2081 and \u03b1\u2082 in Equation 4 are learned functions of target properties y* rather than fixed hyperparameters) will enable PCDiff to adaptively balance physical feasibility and compositional diversity across different regions of the property space, thereby improving coverage for extreme property targets (e.g., ultra-high strength or ultra-high conductivity composites) where fixed regularization weights may over-constrain the generative process."
+}

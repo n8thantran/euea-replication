@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "The reaction coordinate approximation quality (rSAA = sB_\u03b8(x,t) - sA_\u03b8(x,t)) degrades systematically with increasing molecular size, and this degradation can be predicted and corrected by training an auxiliary neural network to learn the residual between score differences and true committor gradients across a hierarchy of system sizes."
+}

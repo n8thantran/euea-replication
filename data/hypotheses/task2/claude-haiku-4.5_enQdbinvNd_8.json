@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "LLM-based agents equipped with persistent episodic memory of past simulation failures and their corrections will demonstrate significantly improved force field parameter extraction accuracy and reduced task-specific errors compared to stateless agents, particularly when encountering force fields with non-standard table layouts or unconventional parameter presentations."
+}

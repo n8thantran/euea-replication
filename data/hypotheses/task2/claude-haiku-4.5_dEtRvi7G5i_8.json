@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Metal superhydrides with non-integer stoichiometries exhibiting Tc > 100 K will demonstrate pressure-dependent superconducting gaps that correlate more strongly with hydrogen cage distortion metrics than with traditional electron-phonon coupling parameters, suggesting that geometric frustration in the hydrogen sublattice is a primary mechanism for enhancing superconductivity in these materials."
+}

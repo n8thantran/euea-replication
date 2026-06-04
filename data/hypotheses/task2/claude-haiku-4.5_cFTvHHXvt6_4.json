@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating sequence-level, physics-informed loss functions that directly optimize for spectral fidelity rather than token-level cross-entropy will reduce the generalization gap between training-paraphrase and validation performance by at least 50%, enabling the model to achieve sub-JND accuracy on held-out structures."
+}

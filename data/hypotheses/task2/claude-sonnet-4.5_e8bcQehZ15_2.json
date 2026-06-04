@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Applying CAST to multi-objective molecular optimization tasks with conflicting properties (e.g., simultaneously maximizing QED while minimizing synthetic accessibility score) will reveal a Pareto-optimal trade-off frontier in the activation space that can be traversed by interpolating between property-specific steering vectors, enabling controlled navigation of property trade-offs without retraining the concept bottleneck model."
+}

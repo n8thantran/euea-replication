@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "LLM performance on MOF property prediction will improve non-monotonically with pre-training corpus size due to an optimal balance point between domain-specific chemical knowledge density and general language modeling capacity, beyond which further scaling introduces noise that degrades transfer learning efficiency for small downstream datasets."
+}

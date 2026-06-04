@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating multi-modal electron beam condition parameters (dose rate, accelerating voltage, and frame rate) as explicit auxiliary input channels during fine-tuning will enable SAM-EM to dynamically adapt its segmentation confidence thresholds at inference time, such that a single unified model achieves higher J&F scores across the full experimental parameter space than separate models trained at fixed imaging conditions."
+}

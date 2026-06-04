@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating a physics-informed regularizer that enforces thermodynamic consistency and ion-transport constraints across molecular, formulation, and device scales during foundation-model\u2013based predictions will improve out-of-distribution extrapolation to novel electrolyte formulations, reducing the MAE of device-performance predictions on unseen chemistries by at least 15% compared to SMILES-based FM embeddings alone."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating an active learning acquisition strategy that sequentially selects the next lattice structure experiment to minimize tensor reconstruction uncertainty\u2014rather than passively accommodating whatever biased sampling an experimentalist happens to produce\u2014will achieve equivalent predictive accuracy (R\u00b2) to uniform random sampling using significantly fewer total experimental observations than either tensor completion with passive biased sampling or Gaussian Process with uniform sampling."
+}

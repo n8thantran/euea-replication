@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Synthesis procedures with higher structural complexity (measured by node count and graph branching) will exhibit systematically different parameter value ranges and distributions compared to linear procedures, enabling prediction of optimal synthesis conditions based purely on procedural graph topology without requiring material composition information."
+}

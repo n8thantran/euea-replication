@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "The diffusion model's ability to approximate the reaction coordinate through score differences will degrade systematically with increasing dimensionality and complexity of the potential energy surface, requiring adaptive weighting of the Score-Aligned Ascent force that scales with local curvature anisotropy to maintain transition state sampling accuracy in systems with more than five competing pathways."
+}

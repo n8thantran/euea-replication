@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Polymer-surface binding free energy predictions trained on coarse-grained models with uniform interaction strengths will fail to generalize to systems where polymer-surface interaction strengths vary spatially across the surface in a heterogeneous manner, requiring explicit encoding of interaction strength maps as additional input channels to the CNN module."
+}

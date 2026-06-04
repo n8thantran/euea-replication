@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating dynamically weighted modality fusion based on property-specific information bottleneck constraints will enable X-MoPA to achieve superior prediction accuracy for properties with inherently asymmetric modality relevance (e.g., electronic properties more dependent on graph topology than XRD patterns) compared to the current fixed equal-weight cross-modal prediction scheme."
+}

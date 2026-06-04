@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating material-specific structural constraints directly into the molecular string representation (e.g., encoding symmetry group, flatness, and conjugation requirements as conditional tokens within SELFIES) during pre-training on general chemical databases will yield higher percentages of CTF-valid candidate molecules than post-hoc reinforcement learning fine-tuning, because embedding domain constraints at the representational level will fundamentally reshape the model's learned chemical space rather than merely biasing sampling within a drug-like chemical space."
+}

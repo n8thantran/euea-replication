@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Systematic differences in GFN2-xTB relaxation energy between flow-matching and diffusion-based generative models arise primarily from inadequate sampling of torsional degrees of freedom rather than bond length or angle errors, such that architectural modifications specifically targeting dihedral angle prediction\u2014for example, through explicit torsion-angle-aware loss terms or equivariant representations of four-body interactions\u2014will disproportionately close the observed performance gap between these two classes of models while producing negligible improvement in bond length and angle metrics."
+}

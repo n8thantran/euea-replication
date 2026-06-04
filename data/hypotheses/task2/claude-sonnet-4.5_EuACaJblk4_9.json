@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Training the encoder with a generative diffusion objective instead of categorical cross-entropy for sequence recovery will produce designed sequences with higher structural diversity while maintaining equivalent self-consistency scores, as measured by the variance in backbone RMSD across multiple sampled sequences for the same input structure."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating ensemble diversity through deliberately heterogeneous architectures (e.g., combining message-passing GNNs with graph transformers) within the ensemble consensus framework will yield greater semi-supervised performance gains than same-architecture ensembles, because architectural diversity produces functionally complementary consensus targets that encode structurally distinct inductive biases about molecular graphs, thereby providing richer supervisory signals for unlabeled data than the diversity arising solely from random initialization and stochastic optimization."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Imposing a cross-domain physics-constrained projection that enforces energy-gradient consistency and symmetry invariances across molecular, materials, and protein foundation models will force their latent representations to inhabit a single universal subspace, yielding dataset-shift\u2013robust cross-domain alignment and improved out-of-distribution generalization to novel matter."
+}

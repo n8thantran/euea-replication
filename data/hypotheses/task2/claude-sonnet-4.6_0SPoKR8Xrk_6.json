@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "If the CNN-GRU-attention architecture is extended into a tandem inverse design framework where the decoder is conditioned on a target binding free energy, then simultaneously optimizing both polymer sequence and surface spatial pattern through gradient-based or evolutionary search in the learned latent space will reveal non-intuitive synergistic sequence-pattern combinations that achieve prescribed adhesion strengths unattainable by optimizing polymer sequence or surface composition independently, thereby demonstrating that the joint sequence-pattern design space contains emergent adhesion regimes not predictable from the marginal effects of either design variable alone."
+}

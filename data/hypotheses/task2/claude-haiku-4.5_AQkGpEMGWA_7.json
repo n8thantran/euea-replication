@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Silicon-based anode alloys with invariant Li+ migration channel dimensions across lithiation states will exhibit superior electrochemical performance only if the alloying elements form dynamic coordination shells around Li+ that compensate for volume changes through reversible local structural rearrangements rather than maintaining rigid geometric frameworks."
+}

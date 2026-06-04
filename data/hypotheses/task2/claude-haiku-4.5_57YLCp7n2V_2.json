@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Generative models trained on Kekulized molecules will exhibit superior transfer learning performance when fine-tuned on experimental crystal structures from the Cambridge Structural Database compared to models trained on aromatic representations, due to reduced ambiguity in valency constraints facilitating more robust chemical constraint learning."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Tensor completion performance on biased material design datasets will degrade monotonically as the dimensionality of the design space increases beyond five dimensions, due to the exponential growth of unobserved tensor entries outpacing the tensor's ability to exploit structural correlations in low-rank factor matrices."
+}

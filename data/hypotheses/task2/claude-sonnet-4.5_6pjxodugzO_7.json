@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Hypothesis\n\nIncorporating explicit multi-scale structural descriptors (e.g., solvation shell geometries, ion-pairing metrics, and interfacial interaction energies) into foundation model embeddings during pre-training will enable accurate prediction of device-level battery performance with fewer than 50 labeled examples, surpassing current transfer learning approaches that rely solely on molecular SMILES representations."
+}

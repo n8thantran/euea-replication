@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating ensemble-based confidence estimates from Thermo-Calc predictions into the DPO reward function will improve model generalization to out-of-distribution compositions and prevent catastrophic distribution shift on domain-critical tokens, particularly for smaller models like OLMo."
+}

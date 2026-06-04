@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "# Novel Hypothesis\n\nIncorporating a learned spectral deconvolution prior trained on known intermolecular interaction patterns (e.g., hydrogen bonding, \u03c0-\u03c0 stacking) will enable the model to predict mixture components with >70% Top-10 accuracy even when non-linear spectral perturbations exceed 15% mean absolute deviation from ideal linear combinations."
+}

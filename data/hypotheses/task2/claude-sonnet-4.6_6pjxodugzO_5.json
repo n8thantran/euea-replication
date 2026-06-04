@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating temporal degradation dynamics into foundation model pre-training by augmenting SMILES corpora with sequential electrochemical cycling data will enable FM embeddings to encode kinetic stability features that static molecular representations cannot capture, such that a single FM-derived formulation descriptor will simultaneously predict both initial performance metrics and capacity fade trajectories across at least 500 cycles with lower MAE than models trained on composition-only representations, with the hypothesis being falsifiable by comparing cycle-life prediction accuracy between temporally-augmented and standard SMILES-pretrained models on a held-out dataset of electrolytes with known degradation profiles."
+}

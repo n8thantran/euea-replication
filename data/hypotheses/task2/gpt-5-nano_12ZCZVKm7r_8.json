@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "A cross-domain extensivity-consistency objective during joint pretraining across molecules, materials, and proteins will enforce that the latent embedding of a composite structure equals an additive fusion of its non-overlapping subsystems, yielding a universal, additive representation that increases cross-domain alignment (CKNNA/IDCor) and improves out-of-distribution generalization compared to models trained without the constraint."
+}

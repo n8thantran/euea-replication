@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating domain-specific chemical reaction mechanisms and synthesis pathways from the PMC corpus during pre-training will enable LLMs to predict not only MOF properties but also the synthetic feasibility and scalability of proposed MOF structures, thereby identifying which high-performing MOFs are experimentally realizable."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "If the invariance of Li\u207a migration channel radius across lithiation states serves as a reliable predictor of volumetric stability in Si\u2013X binary alloys, then extending this descriptor to ternary Si\u2013X\u2013Y systems where the two alloying elements X and Y occupy topologically distinct sublattice sites will reveal a synergistic stabilization mechanism\u2014whereby one element (X) maintains the geometric rigidity of the channel walls while the other (Y) modulates local electronic charge density to reduce Li\u2013host binding anisotropy\u2014such that computationally screening ternary compositions for simultaneous minimization of channel radius slope and maximization of sublattice site-symmetry will identify a class of Si-based anodes achieving both gravimetric capacity above 2000 mAh/g and volumetric expansion below 50%, a combination not attainable in any binary Si\u2013X alloy currently documented in the Materials Project or GNoME databases."
+}

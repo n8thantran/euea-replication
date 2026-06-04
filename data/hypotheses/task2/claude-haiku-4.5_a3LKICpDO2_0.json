@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit transition metal d-electron correlation descriptors into the delta-learning framework will improve band gap prediction accuracy for MOFs containing 3d transition metals beyond the current performance achieved with stoichiometric and topological descriptors alone."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Imposing a crystallography-informed symmetry-consistency regularizer that enforces invariance of the shared latent embeddings under symmetry operations (rotations, translations, and space-group equivalents) across CIF graphs, XRD spectra, and text descriptions will improve X-MoPA's generalization to unseen polymorphs and space-group variants, reducing prediction error on out-of-distribution materials compared to the baseline model."
+}

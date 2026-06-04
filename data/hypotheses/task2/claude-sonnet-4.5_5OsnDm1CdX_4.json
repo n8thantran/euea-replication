@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Graph neural networks trained on single-element plasma etching predictors can generalize to ternary and quaternary gas mixtures without retraining on mixture-specific data, provided that the graph topology encodes stoichiometric ratios and reaction pathway similarities between constituent gases as learnable edge attributes."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "The multimodal transformer architecture with spectral alignment can achieve superior mixture deconvolution when trained on synthetic mixtures that explicitly model non-linear intermolecular interactions (e.g., hydrogen bonding, \u03c0-\u03c0 stacking) computed via quantum chemical methods, rather than assuming purely linear spectral additivity."
+}

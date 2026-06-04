@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "When ensemble members are trained with consensus-based semi-supervised learning on molecular graphs, the degree of diversity loss due to shared mini-batch supervision will correlate with the magnitude of performance degradation in out-of-distribution molecular property prediction compared to ensembles trained on distinct mini-batches."
+}

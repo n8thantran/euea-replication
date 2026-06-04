@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Extending CAST to discrete and graph-structured molecular attributes by replacing the scalar concept bottleneck with a differentiable graph-structured concept module will enable simultaneous steering of both continuous physicochemical properties and categorical substructural constraints (e.g., presence of specific pharmacophores or scaffold retention), yielding significantly higher rates of valid molecules satisfying multi-constraint design specifications compared to scalar-only activation steering, particularly for out-of-distribution property combinations where structural diversity and property alignment are jointly required."
+}

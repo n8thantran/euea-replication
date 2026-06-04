@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Agents with access to domain-specific tools exhibiting lower embedding similarity to task requirements will show improved performance when augmented with explicit meta-cognitive tools that decompose task requirements into semantic sub-goals matching available tool embeddings, rather than simply adding tools that reduce embedding distance."
+}

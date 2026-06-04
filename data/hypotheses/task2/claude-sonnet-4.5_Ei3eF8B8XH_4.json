@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The stereochemical augmentation approach employed in LoQI will fail to preserve conformational accuracy for molecules containing axially chiral biaryl systems with restricted rotation barriers below 20 kcal/mol, as the current graph encoding scheme does not explicitly model the dynamic interconversion timescales between atropisomers under physiological conditions."
+}

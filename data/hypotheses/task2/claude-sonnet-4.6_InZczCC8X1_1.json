@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating a dynamic, real-time adjustment of the bicarbonate-to-carbonate ratio during electrolysis\u2014guided by continuous feedback from in-line product sensing and an online Bayesian optimizer\u2014will sustain reactor yield above 44 mA cm\u207b\u00b2 for extended operation by compensating for the time-dependent depletion of bicarbonate and accumulation of carbonate that otherwise shifts the system away from the optimal 1.5 M KHCO\u2083 / 0.75 M K\u2082CO\u2083 composition identified under static conditions."
+}

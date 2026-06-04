@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "The number of HMC iterations required during denoising to achieve accurate structural relaxation and property prediction scales predictably with the ruggedness of the potential energy landscape, such that materials with more complex multi-component compositions and deeper metastable minima (quantifiable via the inherent structure energy variance in training data) will require exponentially more HMC steps to converge, and this scaling relationship can be learned and predicted a priori from compositional descriptors alone, enabling adaptive HMC step allocation that reduces total inference cost without sacrificing generation quality."
+}

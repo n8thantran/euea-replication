@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Integrating a specialized molecular image detection and segmentation pre-processing module\u2014trained to localize and isolate chemical structure depictions within heterogeneous scientific article layouts\u2014into the single-agent extraction pipeline will yield statistically significant improvements in SMILES extraction F1 scores (from near-zero to above 0.40) across both nanomaterial and small molecule ChemX datasets, because the current near-zero performance on SMILES fields is attributable specifically to the absence of reliable molecular image localization rather than to the LLM's capacity to convert correctly segmented molecular images into valid SMILES strings."
+}

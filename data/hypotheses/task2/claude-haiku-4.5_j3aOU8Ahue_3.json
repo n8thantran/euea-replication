@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Transfer learning from SEM images of additive-free NCM cathodes will show diminished performance gains when applied to cathodes with different electrolyte additives that induce morphological changes fundamentally incompatible with the source domain feature representations, requiring intermediate domain adaptation layers rather than direct fine-tuning to maintain classification accuracy above 0.95 F1 score."
+}

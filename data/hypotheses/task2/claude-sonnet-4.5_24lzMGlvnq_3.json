@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating a learned temperature-dependent reward function that explicitly penalizes thermodynamic instability at specific operational temperature ranges (e.g., 1200-1500\u00b0C) will enable DPO-tuned language models to generate BCC/B2 superalloys with superior high-temperature mechanical properties compared to models trained with the current temperature-agnostic reward function, while maintaining comparable design space coverage."
+}

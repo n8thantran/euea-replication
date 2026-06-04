@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Extending the paper's finding that SMILES-anchored contrastive pretraining implicitly induces SO(3) invariance by leveraging the orientation-invariance of the symbolic modality, we hypothesize that replacing canonical SMILES with stereochemistry-sensitive molecular descriptors (e.g., InChI strings encoding absolute configuration or CIP-annotated SMILES) as the symbolic anchor in multimodal contrastive pretraining will cause the 3D encoder to selectively preserve chirality-dependent geometric features in its embeddings, such that enantiomeric pairs of molecules will be distinguishably separated in the learned latent space\u2014quantifiably measured by a higher inter-enantiomer cosine distance compared to models trained with canonical SMILES anchors\u2014while retaining comparable SO(3) retrieval performance for achiral molecules."
+}

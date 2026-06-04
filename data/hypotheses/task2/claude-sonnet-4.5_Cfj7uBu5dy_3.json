@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Given that MADE demonstrates that simple diversity-based acquisition strategies already improve discovery efficiency over random selection, and that the paper identifies the need for better handling of structural complexity and out-of-distribution uncertainty:\n\n**Hypothesis:** A hybrid acquisition function that combines structural fingerprint-based uncertainty quantification from ensemble MLIPs with chemical substitution heuristics guided by electronegativity differences will discover 50% more novel stable compounds per query than diversity-based acquisition alone when searching ternary and quaternary chemical systems with limited initial reference structures."
+}

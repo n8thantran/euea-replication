@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "When autonomous discovery agents are trained via reinforcement learning within the MADE environment, agents that receive shaped rewards encoding thermodynamic proximity to the convex hull throughout the episode will develop acquisition policies that generalize across chemically dissimilar held-out systems more effectively than agents trained with sparse terminal rewards, because intermediate energetic feedback enables the agent to learn transferable heuristics about chemical composition-stability relationships rather than system-specific memorization."
+}

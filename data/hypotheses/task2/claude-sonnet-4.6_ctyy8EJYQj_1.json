@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Systematic fine-tuning of an LLM on a curated dataset of CALPHAD-computed thermodynamic trajectories and phase transformation sequences across multiple binary and ternary oxide systems will produce a domain-specialized model whose synthesis route success rates significantly exceed those of general-purpose GPT-4o, specifically because the fine-tuned model will develop accurate implicit representations of the nonlinear mapping between composition-temperature control actions and resulting phase fractions, thereby eliminating the failure mode observed in Challenge 2 where the LLM correctly identified target phases but could not achieve precise stoichiometric fractions."
+}

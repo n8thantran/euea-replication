@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "The inductive generalization capability of GraphSAGE to unseen gas mixtures will degrade systematically as the number of constituent gases increases, with performance loss correlating to the exponential growth in possible inter-gas interaction patterns rather than linearly with mixture complexity."
+}

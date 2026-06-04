@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating a third modality of molecular vibrational spectra (IR or Raman) into the contrastive multimodal framework will induce emergent chirality-awareness in the learned representations, enabling the model to distinguish between enantiomers despite the inherent chirality-blindness of both SMILES strings and achiral electron density fields."
+}

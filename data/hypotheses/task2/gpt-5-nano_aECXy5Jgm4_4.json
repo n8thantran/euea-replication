@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Branched and cross\u2011linked polyamine sorbents designed via topology\u2011aware fragment assembly will achieve greater CO2 uptake at 0.4 mbar and ambient temperature and require less regeneration energy per mole CO2 released than linear polyamines with the same amine density, owing to cooperative amine\u2013CO2 binding pockets and enhanced, humidity\u2011tolerant microporosity."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit representations of metal coordination geometry and oxidation state into uMLIP training datasets\u2014through systematic generation of distorted and partially-coordinated metal-node configurations spanning the full oxidation state space of common MOF metals\u2014will disproportionately improve uMLIP performance on MOF structural optimization and molecular dynamics stability relative to simply increasing the volume of training data with bulk inorganic structures, such that a targeted dataset of ~10,000 MOF-relevant configurations will yield larger accuracy gains than adding ~1,000,000 additional bulk-phase configurations from datasets like OMat24."
+}

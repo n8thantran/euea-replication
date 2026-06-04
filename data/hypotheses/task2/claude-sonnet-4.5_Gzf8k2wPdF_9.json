@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nDynamic batching algorithms that adaptively adjust padding targets during training based on running statistics of encountered graph sizes will reduce recompilation overhead by up to 40% compared to fixed one-time budget estimation while maintaining equivalent model convergence properties across heterogeneous graph datasets."
+}

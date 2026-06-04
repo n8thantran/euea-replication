@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "The optimal bicarbonate-to-carbonate ratio that maximizes reactor yield in alkaline capture solutions will shift systematically with catalyst composition, such that catalysts with higher intrinsic CO2 reduction selectivity will require higher bicarbonate concentrations to balance CO2 utilization, whereas catalysts with lower selectivity will achieve maximum reactor yield at lower bicarbonate concentrations."
+}

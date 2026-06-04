@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "The chemical template effect strength of a metal sublattice, as quantified by interstitial electron localization function maxima, will exhibit a systematic and transferable correlation with superconducting transition temperature across ternary metal superhydrides (M\u2081M\u2082H\u2093), such that ML models trained exclusively on binary superhydride metal lattices can predict stable ternary superhydride compositions with Tc > 150 K by identifying metal sublattice pairs whose combined template effects produce synergistic interstitial charge density distributions exceeding those achievable by either constituent metal alone."
+}

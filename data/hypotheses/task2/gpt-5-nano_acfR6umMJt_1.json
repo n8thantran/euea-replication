@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Replacing the random path-point selection in NN-BAX with uncertainty-guided acquisition using an ensemble of equivariant neural surrogates to quantify predictive uncertainty will reduce the total number of expensive energy/force evaluations required to converge the NEB path by at least 2\u00d7 across LJ7 and LJ38 transitions and small DFT-reliant systems, while preserving barrier heights and saddle-point coordinates within 1% of the ground truth."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "If equivariance-inducing training regularization (such as equigrad) causes non-equivariant models to converge toward the same representational manifold as architecturally equivariant models, then systematically interpolating the strength of this regularization during training will reveal a monotonic relationship between the degree of learned quasi-equivariance and cross-model representational alignment, with a quantifiable threshold of regularization strength above which alignment with equivariant models saturates\u2014demonstrating that inductive bias encoded through training objectives and inductive bias encoded through architecture are representationally equivalent and interchangeable beyond that threshold."
+}

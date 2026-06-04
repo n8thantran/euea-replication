@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Synthesis procedures with higher structural complexity (measured by graph node count and edge density) will exhibit systematically different parameter value distributions across temperature, pressure, and duration compared to simpler linear procedures, suggesting that procedural complexity serves as a predictor of the synthesis conditions required to achieve target material properties."
+}

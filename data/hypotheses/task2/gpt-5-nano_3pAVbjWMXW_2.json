@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "A physics-informed nonlinear mixing module that explicitly models inter-molecular vibrational coupling and cross-terms in IR spectra of mixtures will enable the model to disentangle overlapped bands and increase Top-10 accuracy on imbalanced real-world ATR-IR mixtures by at least 5 percentage points over the current linear-combination-trained baseline, with the largest gains for systems exhibiting strong hydrogen-bonding and spectral overlap."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "# Hypothesis\n\nIncorporating attention-weighted spectral subtraction into the decoder architecture will enable the model to iteratively identify and predict all components in a mixture without requiring prior knowledge of the molecular formula or concentration, achieving at least 45% Top-10 accuracy for complete mixture deconvolution on ternary balanced mixtures."
+}

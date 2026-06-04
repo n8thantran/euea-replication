@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "The ability of ASTRA to discover multiple competing transition pathways by sampling the committor q\u22480.5 isosurface suggests that the score difference vector rSAA could be used to predict relative kinetic barriers between competing pathways without explicit energy evaluation, by correlating the magnitude and stability of rSAA across the transition state ensemble to transition rate coefficients."
+}

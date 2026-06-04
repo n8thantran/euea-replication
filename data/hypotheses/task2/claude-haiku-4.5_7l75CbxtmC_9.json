@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating real-time supply chain disruption data and geopolitical risk indices into the workflow's economic efficiency calculations will identify synthesis routes that remain cost-effective under predicted future commodity price volatility better than routes optimized solely on historical average market prices."
+}

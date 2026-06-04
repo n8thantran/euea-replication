@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Polymer-specific pre-trained molecular representations will demonstrate superior transfer learning efficiency when applied to Bayesian optimization-assisted discovery of amine-based sorbents for other small-molecule capture applications (e.g., H2S, NH3, or NOx) compared to general chemical space models, due to their encoded understanding of backbone connectivity patterns that generalize across functional group variations."
+}

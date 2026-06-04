@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating an ensemble of receptor conformations into the pharmacophore-guided reinforcement learning reward will bias generated molecules toward scaffolds whose pharmacophoric features are preserved across multiple protein states, yielding higher ensemble docking scores and greater selectivity against off-target receptors than design based on a single receptor conformation."
+}

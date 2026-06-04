@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Introducing environment-aware conditioning that encodes explicit solvent and receptor-pocket properties into LoQI will enable single-shot generation of bound-state-like ligand conformers with significantly lower RMSD to crystal-bound geometries and higher docking enrichment in protein\u2013ligand virtual screening compared to LoQI generated conformers using implicit solvent alone."
+}

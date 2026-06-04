@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Augmenting training datasets with synthetically generated reaction examples from underrepresented template classes (frequency <100) using a generative chemistry model will disproportionately improve top-10 accuracy for rare templates without degrading performance on common templates, thereby mitigating the class imbalance problem in single-step retrosynthesis prediction."
+}

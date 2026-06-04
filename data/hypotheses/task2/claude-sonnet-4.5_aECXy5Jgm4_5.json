@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Cross-linked polyamine architectures with controlled mesoporous structures (pore diameter 2-5 nm) will exhibit 30-50% higher CO2 adsorption capacity compared to their linear counterparts at 400 ppm CO2 partial pressure due to enhanced amine accessibility and reduced competitive water adsorption, which can be predicted by augmenting the current GCMC simulation framework with explicit pore topology descriptors in the surrogate model."
+}

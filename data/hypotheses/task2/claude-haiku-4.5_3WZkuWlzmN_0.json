@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "When modalities are missing or corrupted during inference, X-MoPA's cross-modal predictive architecture will maintain prediction accuracy above a critical threshold only if the remaining modalities share sufficient mutual information to reconstruct the joint embedding space, and this threshold will be systematically lower for properties with higher intrinsic dimensionality in the latent manifold."
+}

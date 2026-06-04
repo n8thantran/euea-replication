@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating physics-informed coordination-chemistry constraints and explicit charge representations into a uMLIP trained on a multi-fidelity MOF dataset that includes non-equilibrium configurations will improve zero-shot MOF predictions, yielding MD stability over 50 ps at 300 K and bulk modulus/heat capacity predictions within 5% of DFT for MOFs with previously unseen metal nodes, outperforming unconstrained uMLIPs."
+}

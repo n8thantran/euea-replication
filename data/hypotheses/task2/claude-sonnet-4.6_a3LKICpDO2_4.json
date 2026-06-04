@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating a DFT+U correction specifically parameterized for the problematic 3d transition metals (Cr, Mn, Fe, Co, Ni) as an intermediate-fidelity level between GFN1-xTB and HSE06 in a multi-fidelity \u2206-learning cascade will reduce the HSE06 band gap prediction error for transition-metal-containing MOFs by more than 50% compared to the two-level GFN1-xTB/HSE06 \u2206-learning model, because the dominant source of residual error in the current framework is the failure of GFN1-xTB to capture strong d-electron correlation, and providing the ML model with a baseline that already accounts for this physics will yield a more learnable and physically meaningful correction signal."
+}

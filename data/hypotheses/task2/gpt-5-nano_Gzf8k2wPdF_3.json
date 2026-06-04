@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "An online-adaptive dynamic batching policy that continuously updates the per-batch node/edge padding budget based on real-time statistics of observed graph sizes will reduce the total training time to convergence and preserve or improve the final RMSE compared with fixed-budget dynamic batching and static batching, particularly for datasets with heavy-tailed graph-size distributions."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "A hybrid adaptive batching algorithm that dynamically switches between static-64 and dynamic batching based on a real-time estimate of the current recompilation frequency will achieve lower mean combined training time than either algorithm alone across all tested combinations of dataset, model, and batch size, by exploiting dynamic batching's compilation efficiency during early training stages while transitioning to static-64's lower per-step overhead once the recompilation rate drops below a threshold."
+}

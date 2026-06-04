@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-guided generative models trained with multi-target reference sets will generate molecules with superior target selectivity and reduced off-target binding compared to single-target pharmacophore optimization, despite maintaining equivalent pharmacophoric similarity to their respective reference compounds."
+}

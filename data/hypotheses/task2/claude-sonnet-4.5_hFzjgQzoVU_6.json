@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The systematic inclusion of second-coordination sphere residues and hydrogen bonding networks in the local structural representation will significantly improve the accuracy of XAS spectrum prediction from protein structures, particularly for differentiating between spectroscopically similar iron coordination environments that differ in outer-sphere electrostatic tuning."
+}

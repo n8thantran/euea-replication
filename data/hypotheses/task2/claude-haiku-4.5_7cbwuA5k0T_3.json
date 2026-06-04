@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Agents with access to domain-specific tools that are semantically aligned with task requirements will show improved generalization to out-of-distribution tasks within the same scientific domain compared to agents with misaligned tools, even when the base model lacks foundational domain knowledge."
+}

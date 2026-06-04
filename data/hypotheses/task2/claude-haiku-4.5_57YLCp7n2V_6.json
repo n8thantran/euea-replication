@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Generative models trained on Kekulized molecular representations will exhibit superior performance on out-of-distribution aromatic systems not present in GEOM-Drugs compared to models trained on explicit aromatic bonds, due to improved generalization of bonding patterns through explicit single/double bond alternation."
+}

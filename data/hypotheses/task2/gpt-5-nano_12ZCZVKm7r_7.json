@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Introducing a physics-informed, cross-domain pretraining objective that enforces energy-consistency and rigid-body invariance across chemistry, materials, and protein models will produce a universal latent representation of matter evidenced by increased cross-modal alignment (CKNNA and IDCor), reduced asymmetry in information imbalance, and improved generalization to out-of-distribution structures beyond modality-specific baselines."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Generative models trained on larger, more chemically diverse databases (such as OQMD) will exhibit superior transferability to out-of-distribution chemical compositions compared to models trained on smaller, curated datasets (such as MP), even when controlling for model architecture and DFT evaluation protocols."
+}

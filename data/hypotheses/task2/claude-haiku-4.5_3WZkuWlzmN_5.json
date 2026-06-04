@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Cross-modal prediction performance in X-MoPA will degrade non-uniformly across material classes when modalities encode conflicting structural information due to polymorphism or phase ambiguity, such that materials with multiple stable phases will exhibit systematically higher prediction errors than single-phase materials even when controlling for dataset size and property complexity."
+}

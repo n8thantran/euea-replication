@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Polymer-specific pre-trained models will maintain their performance advantage over general chemical models in Bayesian optimization discovery of high-performing polyamines even when the search space is expanded to include branched and cross-linked architectures beyond linear polymers, because the structural diversity of non-linear polymers will amplify the importance of polymer-language-specific inductive biases encoded in models like PolyNC and polyBERT."
+}

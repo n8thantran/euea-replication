@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Applying targeted class-balancing techniques during training (such as focal loss, cost-sensitive learning, or template-based sample reweighting) will enable template-free models to achieve superior generalization to rare and unseen reaction templates compared to template-based approaches, by decoupling the learned implicit chemical representations from the skewed template frequency distribution in the training data."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "When GraphSAGE is trained on mixtures with restricted composition ranges (e.g., Ar fractions between 0.2\u20130.96), its learned aggregation functions will fail to generalize to mixtures outside the training composition space due to extrapolation beyond the learned neighborhood sampling distributions, even though the individual single-gas predictors remain valid in their respective operating regimes."
+}

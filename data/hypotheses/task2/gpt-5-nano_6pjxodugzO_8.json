@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "A multi-modal foundation model pre-trained on SMILES, 3D structural descriptors, and temperature-resolved electrolyte-property data will outperform SMILES-only foundation models in predicting multi-scale battery performance for unseen formulations, showing lower tail-end out-of-distribution MAE and better-calibrated predictive uncertainty that tracks chemical similarity."
+}

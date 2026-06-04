@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Integrating topology-aware graph embeddings derived from RCSR database topological codes with MOFid-based LLM representations will enable more accurate prediction of gas selectivity ratios (e.g., CO2/N2, CO2/CH4) than either representation alone, particularly in low-data regimes where SFT datasets contain fewer than 1,000 labeled examples."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "The energy-based score function's ability to predict relaxed structures through noise energy estimation will generalize to multi-property conditioning scenarios, enabling simultaneous inverse design of amorphous materials across multiple target properties (e.g., Young's modulus and thermal conductivity) without requiring sequential or weighted objective optimization."
+}

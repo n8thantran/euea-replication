@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Conditioning E2EFOLD\u2019s encoder on explicit biophysical constraint vectors (e.g., target melting temperature and solubility proxies) and training with a multitask loss that combines structure-recovery with constraint-satisfaction objectives will yield design sequences that meet the specified constraints with higher fidelity and robustness than unconstrained end-to-end designs."
+}

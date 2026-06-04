@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Transferring discovery policies trained on low-dimensional binary chemical systems to higher-dimensional ternary and quaternary systems within the MADE framework will exhibit systematic performance degradation that correlates with the ratio of known stable phases to total compositional space volume, such that agents augmented with a meta-learning objective\u2014explicitly trained to adapt acquisition strategies across chemical systems of varying dimensionality using only a handful of initial oracle queries\u2014will recover near-optimal discovery efficiency in novel high-dimensional systems faster than agents trained on single chemical systems, thereby revealing that cross-system transferability of adaptive experiment design strategies, rather than generative model quality alone, is the primary bottleneck for autonomous materials discovery at scale."
+}

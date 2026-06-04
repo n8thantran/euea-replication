@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "The interpolation weight \u03ba in Score-Based Interpolation, when dynamically adapted using committor estimates computed on-the-fly from short stochastic trajectories rather than fixed at 0.5, will more accurately target asymmetric transition state ensembles in systems where the dividing surface is significantly displaced from the geometric midpoint between metastable states, thereby improving committor distributions for reactions with pronounced thermodynamic asymmetry such as enzymatic catalysis or barrierless recombination reactions."
+}

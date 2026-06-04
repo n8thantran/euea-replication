@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Augmenting mixture spectra with a learnable non-linear mixing correction that captures concentration-dependent spectral shifts and inter-component interferences will improve the Transformer model\u2019s ability to disentangle and identify all four components in quaternary mixtures, yielding at least a 15\u2011percentage-point increase in Top\u201110 accuracy over a linear-additive baseline on both simulated and real ATR\u2011IR spectra."
+}

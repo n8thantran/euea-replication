@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Generative models that explicitly incorporate DFT-derived energy landscapes during training will produce structures with significantly higher stability (SUN scores) and lower RMSD values compared to models trained on structure geometry alone, even when controlling for model architecture and dataset size."
+}

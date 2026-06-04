@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Replacing the template-based natural language prompt generation with a retrieval-augmented generation approach\u2014where prompts for new target spectra are constructed by retrieving and adapting descriptions of structurally similar training examples\u2014will reduce the validation generalization gap (currently \u0394E \u224834) by at least 40% compared to the baseline CHROMA model, because retrieved analogous structures provide the decoder with implicit spectral neighborhood information that purely template-generated prompts cannot encode, thereby enabling better interpolation across unseen regions of the material-thickness combinatorial space."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Integrating a multi-property synthesizability predictor trained on experimental synthesis routes as an additional tool in MatAgent will enable the framework to autonomously navigate the trade-off between target property optimization and experimental realizability, resulting in a 40% reduction in failed synthesis attempts for AI-proposed materials compared to property-only guided generation."
+}

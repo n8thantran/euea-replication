@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Embedding similarity between tasks and tools will exhibit diminishing predictive power for agent performance as task complexity increases beyond a critical threshold, because highly complex scientific tasks require dynamic tool composition and sequential tool interdependencies that static embedding distances cannot capture."
+}

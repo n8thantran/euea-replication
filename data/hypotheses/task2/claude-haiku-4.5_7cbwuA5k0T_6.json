@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Agents with access to domain-specific tools that are semantically aligned with task requirements will show improved performance when those tools are dynamically ranked and presented to the model in order of semantic similarity to the current task step, rather than presented uniformly or statically."
+}

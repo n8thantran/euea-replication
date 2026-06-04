@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "When task-tool semantic alignment is poor, augmenting the tool set with intermediate abstraction tools that decompose high-level scientific reasoning into lower-level procedural steps will improve agent performance more effectively than adding domain-specific tools alone, because such abstraction tools reduce the cognitive gap between task requirements and available capabilities."
+}

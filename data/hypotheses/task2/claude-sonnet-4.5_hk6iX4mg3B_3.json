@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nEnsemble consensus semi-supervised learning will exhibit superior out-of-distribution generalization when the unlabeled dataset is drawn from a chemically distinct but related domain (e.g., training on small organic molecules while using unlabeled transition metal complexes), compared to traditional domain adaptation methods, because the ensemble diversity mechanism implicitly learns domain-invariant molecular representations through cross-member agreement on structurally diverse unlabeled data."
+}

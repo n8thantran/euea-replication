@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable physics-aware loss term that directly penalizes spectral deviation during decoder training, rather than relying solely on token-level cross-entropy, will reduce the validation generalization gap (\u2206E) for held-out structures by enabling the model to learn optical-response-sensitive layer sequences."
+}

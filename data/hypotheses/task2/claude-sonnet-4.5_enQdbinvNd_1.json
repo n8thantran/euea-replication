@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating episodic memory of past simulation failures and force field parameter extraction errors will enable multi-agent systems to autonomously refine heuristics for non-standard parameter table layouts, reducing IoU degradation below 0.90 when processing force fields from publications with unconventional formatting."
+}

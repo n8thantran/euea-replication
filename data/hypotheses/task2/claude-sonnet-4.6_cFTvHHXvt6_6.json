@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating a sequence-level, physics-informed reinforcement learning signal\u2014specifically, using the differentiable TMM-computed \u0394E as a reward to fine-tune the decoder after initial cross-entropy pretraining\u2014will reduce the generalization gap between training-paraphrase and held-out validation performance (currently \u0394E \u22481 vs. \u224834) by more than 50%, because directly optimizing the spectral color error rather than token-level likelihood will enable the decoder to discover functionally equivalent but structurally distinct layer sequences that satisfy optical targets for unseen material combinations."
+}

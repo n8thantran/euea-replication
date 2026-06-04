@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Flow-matching-based molecular generative models will achieve geometric precision comparable to diffusion-based models when trained with intermediate conformational states sampled from GFN2-xTB optimization trajectories rather than only the final optimized structures, thereby reducing the observed 5-10 kcal/mol performance gap in mean relaxation energy."
+}

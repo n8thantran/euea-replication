@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating structural diversity among ensemble members through heterogeneous GNN architectures (e.g., combining message-passing networks with graph transformers) within the ensemble consensus training framework will yield greater semi-supervised performance gains than homogeneous ensembles of identical architectures, because architectural diversity generates functionally distinct prediction disagreements that provide richer consensus targets on unlabeled molecular data, particularly for properties governed by both local bonding environments and long-range electronic effects."
+}

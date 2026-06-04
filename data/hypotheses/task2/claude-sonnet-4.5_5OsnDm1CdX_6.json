@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The GraphSAGE framework's predictive accuracy for plasma etching rates will degrade nonlinearly when scaling beyond binary mixtures to ternary or quaternary gas systems, with the degradation rate correlating inversely with the chemical similarity (measured by ionization potential and molecular weight ratios) between the constituent gases."
+}

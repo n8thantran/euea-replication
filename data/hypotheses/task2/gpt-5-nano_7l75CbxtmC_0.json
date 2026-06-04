@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Integrating explicit energy consumption (heating/cooling) and kinetic barriers into the Cellular Automaton\u2013based synthesis simulation will shift the economically optimal Ca2SiO4 recipes away from the thermodynamics-only optimum and yield a subset of recipes whose profitability remains robust across simulated dynamic energy-price scenarios."
+}

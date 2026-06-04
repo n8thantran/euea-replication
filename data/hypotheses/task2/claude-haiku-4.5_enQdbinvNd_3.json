@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating persistent episodic memory of past simulation failures and their corrections will enable LLM-based agents to autonomously adapt force field selection strategies and reduce task-specific errors in complex multi-adsorbate scenarios without requiring explicit retraining or prompt modification."
+}

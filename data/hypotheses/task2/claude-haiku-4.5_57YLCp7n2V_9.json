@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Generative models trained on Kekulized molecular representations will exhibit superior transfer performance when fine-tuned on datasets optimized with higher-level quantum chemical methods (e.g., DFT or coupled-cluster theory) compared to models trained on aromatic representations, because explicit single/double bond patterns reduce the ambiguity in valency definitions across different computational levels of theory."
+}

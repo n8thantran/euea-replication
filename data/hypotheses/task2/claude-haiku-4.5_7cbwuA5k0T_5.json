@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "When task-tool alignment is poor, augmenting the tool set with semantically aligned generative tools (that propose candidate solutions or intermediate representations) will improve agent performance more substantially than augmenting it with retrieval or execution tools alone, because generative tools reduce the semantic gap by helping agents bridge between high-level task descriptions and available concrete tools."
+}

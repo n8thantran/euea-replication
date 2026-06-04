@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating protein pocket flexibility information into the pharmacophore reference set construction\u2014by deriving consensus pharmacophore features from ensemble docking poses across multiple receptor conformations rather than a single crystal structure\u2014will improve the biological relevance of pharmacophore-guided generative models such that generated molecules exhibit significantly higher hit rates in experimental binding assays compared to molecules generated using static single-conformation pharmacophores, even when both approaches produce comparable in silico docking scores."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating DFT-derived band gap values computed via the \u2206-Sol method directly into an EMD-based metric (band gap EMD) will exhibit stronger correlation with SUN stability scores than formation energy EMD computed from machine learning regressors, because DFT-grounded electronic structure properties capture chemically meaningful constraints that ML-predicted energies systematically misrepresent for out-of-distribution generated structures, and this correlation will be measurable and statistically significant across both the MP and OQMD datasets using the perturbative benchmark introduced in this framework."
+}

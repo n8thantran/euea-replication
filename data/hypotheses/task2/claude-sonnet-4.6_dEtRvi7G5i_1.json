@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating ternary metal sublattices (two distinct metal species) into the chemical template framework will yield metal superhydrides with non-integer stoichiometries exhibiting superconducting transition temperatures exceeding 200 K at moderate pressures below 150 GPa, because the electronic heterogeneity introduced by mixed-metal quasi-atom sites will simultaneously enhance hydrogen cage distortion, increase the density of states at the Fermi level, and strengthen electron-phonon coupling beyond what is achievable in any binary metal superhydride discovered through the current binary-only template screening workflow."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "The composition-energy relationship learned by CompGen's diffusion model will exhibit systematic transferability to predict adsorption energies on unseen catalyst surfaces when the model is inverted to map generated shell compositions back to their corresponding adsorption energies, enabling property prediction without explicit DFT calculations."
+}

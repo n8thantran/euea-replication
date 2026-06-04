@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Polymer-specific pre-trained molecular representations will maintain their discovery advantage over general chemical space models even when extended to branched and cross-linked polyamine architectures, because the structural diversity within these non-linear topologies introduces representation gaps that polymer-language models are inherently better equipped to capture than general chemical encoders."
+}

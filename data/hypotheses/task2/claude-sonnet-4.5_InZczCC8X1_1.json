@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Integrating real-time catalyst surface characterization (e.g., operando spectroscopy or electrochemical impedance spectroscopy) into the AdaCarbon closed-loop optimization will enable identification of catalyst degradation modes that limit reactor yield at extended operation times, leading to discovery of stabilization strategies that maintain >90% of peak reactor yield after 100+ hours of continuous electrolysis."
+}

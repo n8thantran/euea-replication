@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Fine-tuning SAM-EM on multi-lab experimental LPTEM data with varying microscope conditions and sample chemistries will reveal domain-specific failure modes that cannot be predicted from synthetic training data alone, requiring adaptive prompt strategies or ensemble methods to maintain segmentation robustness across different experimental platforms."
+}

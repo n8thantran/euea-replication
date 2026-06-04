@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Pre-training generative models on synthetic datasets of computationally-generated CTF structures with diverse topological constraints will improve the percentage of molecules passing expert-defined filters more effectively than pre-training on general chemical databases like ChEMBL or ZINC, even when the synthetic dataset is smaller in size."
+}

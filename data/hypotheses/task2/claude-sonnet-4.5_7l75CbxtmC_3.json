@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Integrating real-time commodity futures market data into the analysis module will enable predictive identification of synthesis routes that remain economically optimal under multiple future price scenarios, thereby reducing the risk of route selection becoming obsolete within a 12-month industrial planning horizon."
+}

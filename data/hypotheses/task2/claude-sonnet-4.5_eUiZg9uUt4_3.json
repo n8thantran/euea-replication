@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Augmenting training datasets with synthetically generated reactions from underrepresented template classes (frequency <100) using forward reaction models and molecular generative models will reduce the accuracy gap between rare and common templates by at least 20% in top-10 accuracy for template-free models, while maintaining overall performance on frequent template classes."
+}

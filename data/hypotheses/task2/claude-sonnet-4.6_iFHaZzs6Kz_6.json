@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Replacing the canonical SMILES anchor with stereochemistry-preserving SELFIES representations that explicitly encode chiral centers and E/Z double-bond configurations will induce enantiomer-discriminating pose invariance in the 3D encoder, such that the contrastive model achieves greater than 90% Accuracy@10 for retrieving correct stereoisomers under unseen SO(3) rotations while simultaneously reducing retrieval confusion between enantiomeric pairs\u2014a failure mode that the current SMILES-anchored framework cannot resolve because canonical SMILES representations are insensitive to spatial chirality."
+}

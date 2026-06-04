@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "LLMs equipped with explicit kinetic barrier information and intermediate phase stability constraints will demonstrate significantly improved synthesis planning success rates on multi-phase transformation problems compared to LLMs operating with only thermodynamic equilibrium data, because the current framework's reliance on equilibrium phase diagrams masks kinetically-trapped pathways that LLMs cannot infer without explicit guidance."
+}

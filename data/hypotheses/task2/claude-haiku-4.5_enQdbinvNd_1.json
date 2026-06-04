@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Multi-agent systems equipped with episodic memory that tracks force field performance outcomes across diverse material-adsorbate combinations will demonstrate improved force field selection accuracy through iterative refinement, such that agents encountering novel zeolite-adsorbate pairs will preferentially recommend force fields whose historical performance metrics most closely match the structural and chemical properties of the new system."
+}

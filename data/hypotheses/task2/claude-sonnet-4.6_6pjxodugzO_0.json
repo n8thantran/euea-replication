@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating temporal degradation trajectories of electrolyte formulations\u2014captured as time-series embeddings of capacity fade and impedance growth across battery cycling\u2014into the pre-training corpus of SMILES-based foundation models will enable those models to learn thermodynamic instability signatures at the molecular level, such that the resulting embeddings will predict long-term cycle life (>500 cycles) with lower out-of-distribution error than models trained solely on static molecular or formulation representations, because the latent space will encode kinetic decomposition pathways of chemical moieties rather than only equilibrium structural features."
+}

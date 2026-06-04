@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating sequence-level physics-informed losses that directly optimize for spectral fidelity rather than token-level cross-entropy will reduce the generalization gap between training-paraphrase and validation performance by at least 40%, particularly for designs with complex angle-dependent constraints."
+}

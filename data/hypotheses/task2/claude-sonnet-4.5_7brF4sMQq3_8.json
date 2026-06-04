@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The score difference approximation to the reaction coordinate (rSAA = sB_\u03b8(x,t) - sA_\u03b8(x,t)) will degrade in accuracy for systems with more than two competing metastable states, requiring a multi-state extension where the reaction coordinate is approximated by a weighted combination of pairwise score differences normalized by their respective free energy barriers."
+}

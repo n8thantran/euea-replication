@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Flow-matching models trained on GEOM-Drugs exhibit systematically higher geometric deviations from GFN2-xTB energy minima than diffusion models due to their reduced sampling steps inducing insufficient exploration of the conformational energy landscape, and this performance gap can be closed by implementing adaptive step scheduling that dynamically allocates more sampling steps to high-energy regions during generation."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating substrate material identity as an additional node feature in the inductive GraphSAGE framework (with optional calibration on the new substrate) will enable accurate generalization of Ar/O2 mixture etching-rate predictions to unseen substrate materials (e.g., PMMA, SiO2, and polyimides) with accuracy comparable to predictions on trained substrates."
+}

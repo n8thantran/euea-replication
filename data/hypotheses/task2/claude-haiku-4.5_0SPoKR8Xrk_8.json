@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "The CNN-GRU-Transformer model's ability to predict binding free energies will degrade substantially when applied to polymers with non-binary monomer types or surfaces with more than two distinct chemical functionalities, indicating that the learned attention mechanisms are fundamentally constrained to binary compositional spaces rather than generalizing to continuous or multi-state chemical heterogeneity."
+}

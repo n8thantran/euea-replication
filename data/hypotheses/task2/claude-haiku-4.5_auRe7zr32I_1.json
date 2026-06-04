@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Adaptive diversity constraint thresholds that are dynamically optimized using multi-objective Bayesian optimization will maintain superior property-diversity trade-offs compared to manually-tuned fixed thresholds across diverse molecular design tasks and generative architectures."
+}

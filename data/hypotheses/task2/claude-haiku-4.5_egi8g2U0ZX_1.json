@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Combining transfer learning strategies with adaptive reward function weighting that dynamically adjusts criterion importance based on the diversity-exploitation trade-off will yield higher percentages of molecules passing material-specific filters while maintaining greater molecular diversity compared to fixed-weight reward aggregation."
+}

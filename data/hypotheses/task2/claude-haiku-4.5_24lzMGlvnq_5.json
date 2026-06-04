@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating lattice parameter prediction as a continuous reward signal during DPO training will enable language models to generate BCC/B2 superalloy compositions with superior phase stability and reduced lattice mismatch compared to models trained with the current hierarchical boolean reward function."
+}

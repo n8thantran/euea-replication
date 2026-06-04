@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Applying systematic class-balancing techniques during training (such as template-frequency reweighting or stratified sampling) will improve top-10 accuracy on rare templates without substantially degrading performance on common templates, thereby reducing the template frequency bias observed across all three model architectures."
+}

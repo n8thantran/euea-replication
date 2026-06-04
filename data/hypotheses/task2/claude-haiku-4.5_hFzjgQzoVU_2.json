@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Iron coordination geometry and ligand composition together determine XANES spectral features with greater predictive accuracy than structure-to-spectrum models trained on local atomic environments alone, suggesting that intermediate-range protein scaffold effects beyond the first coordination sphere encode information necessary for precise spectroscopic interpretation."
+}

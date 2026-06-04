@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating class-balancing techniques during training will improve template-free models' generalization to out-of-distribution templates more substantially than template-based models, because explicit template constraints in template-based approaches inherently limit their capacity to learn alternative chemical principles regardless of training data distribution."
+}

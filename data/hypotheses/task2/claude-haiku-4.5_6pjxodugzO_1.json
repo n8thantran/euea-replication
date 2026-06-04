@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Foundation models pre-trained on SMILES representations will exhibit systematically degraded performance on battery electrolyte formulations containing novel salt-solvent pairs that violate learned ion-solvation interaction patterns from their training data, even when individual constituent molecules remain chemically similar to training examples."
+}

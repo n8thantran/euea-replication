@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Non-linear mixture interactions that violate the additivity assumption will become increasingly prevalent and performance-degrading in ternary and higher-order mixtures, particularly when component pairs exhibit strong hydrogen bonding or charge-transfer complexation, requiring a learned non-linear spectral combination model rather than the linear superposition currently assumed."
+}

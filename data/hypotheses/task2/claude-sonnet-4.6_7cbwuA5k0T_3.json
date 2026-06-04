@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "If the embedding similarity between task descriptions and tool descriptions reliably predicts agent performance across scientific domains, then dynamically augmenting an agent's tool set at runtime by retrieving semantically aligned tools from a large tool repository\u2014rather than providing a fixed, pre-curated tool set\u2014will yield greater performance improvements in low-alignment domains than any choice of reasoning framework or increase in tool description verbosity, and this improvement will be proportional to the reduction in mean minimum cosine distance between tasks and their closest available tools."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "A unified multimodal agent that jointly optimizes (i) structured text preprocessing, (ii) precise localization of molecular structures in figures/images, and (iii) cross-modal alignment between depicted structures and textual descriptors (e.g., SMILES) will yield at least a 25% increase in end-to-end F1 for SMILES extraction and related molecular descriptors on the ChemX nanomaterials and small-molecule datasets, compared with the best-performing single-agent or domain-specific multi-agent pipelines."
+}

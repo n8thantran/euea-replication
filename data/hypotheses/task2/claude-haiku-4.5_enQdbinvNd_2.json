@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Multi-agent systems with episodic memory that explicitly track force field performance predictions against experimental validation data will demonstrate improved force field selection accuracy for novel material-adsorbate combinations not present in the training literature, compared to systems that only encode procedural knowledge in prompts."
+}

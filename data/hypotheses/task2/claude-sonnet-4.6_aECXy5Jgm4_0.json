@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Multi-fidelity Bayesian optimization that uses polymer-specific language model embeddings (particularly PolyNC) as the molecular representation for the surrogate model will achieve superior sample efficiency when correlating fast MD/GCMC estimates with long-timescale MD validation data, because the structured chemical token embeddings of polymer-specific models will better capture the backbone connectivity features that govern the systematic discrepancy between low-fidelity and high-fidelity CO2 uptake estimates, enabling the multi-fidelity surrogate to learn a more accurate inter-fidelity correlation function and thereby require fewer expensive high-fidelity simulations to identify top-performing branched polyamine sorbents compared to multi-fidelity frameworks using general chemical space representations."
+}

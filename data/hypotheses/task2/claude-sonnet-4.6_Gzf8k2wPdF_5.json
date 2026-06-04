@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "For datasets with heavy-tailed graph-size distributions (such as AFLOW), a hybrid batching algorithm that applies dynamic batching during early training steps\u2014when recompilation costs dominate\u2014and automatically switches to static-64 batching after a learned or threshold-based transition point will achieve lower total wall-clock training time than either algorithm applied uniformly, while preserving equivalent final model test metrics."
+}

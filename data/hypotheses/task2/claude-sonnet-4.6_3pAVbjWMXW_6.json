@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating uncertainty-quantified concentration estimates from LC-MS as continuous probability distributions\u2014rather than point values\u2014as conditional inputs to the transformer decoder will disproportionately improve structure prediction accuracy for minority-concentration components (\u226420%) in binary mixtures, because the model will learn to propagate concentration uncertainty into its attention weighting over spectral regions, thereby reducing the systematic bias toward dominant-component spectral features that currently causes performance degradation at low target-compound fractions."
+}

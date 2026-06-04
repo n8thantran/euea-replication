@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Deploying a swarm of LLM agents with systematically varied temperature parameters to explore the same atomic layer processing reactor in parallel, with a meta-agent that dynamically re-allocates experimental time budgets toward agents whose trajectories diverge most from the current consensus state space coverage, will achieve more complete discovery of rare chemical interactions (such as passivation and co-dosing effects) within a fixed total experimental budget than either single-agent exploration or parallel agents with uniform time allocation."
+}

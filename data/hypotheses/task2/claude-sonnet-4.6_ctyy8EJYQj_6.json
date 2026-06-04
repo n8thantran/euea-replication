@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Systematic fine-tuning of an LLM on a curated dataset of physics-based simulator trajectories\u2014where each trajectory encodes the sequence of actions, intermediate states, and thermodynamic outcomes for a given binary oxide system\u2014will produce a model whose internal representations explicitly encode activation energy barriers and equilibrium phase boundaries, enabling zero-shot generalization to ternary or higher-order oxide systems with success rates significantly exceeding those of the base GPT-4o model without such fine-tuning, as measured by phase fraction accuracy in the same JMA-CALPHAD simulation framework."
+}

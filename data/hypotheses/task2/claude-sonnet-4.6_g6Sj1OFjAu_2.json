@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit electronegativity difference tensors between adjacent shell elements as an additional conditioning signal in the CIAE latent space will improve adsorption energy prediction accuracy and generation fidelity for multi-element catalytic surfaces, because the charge transfer interactions governing ensemble and ligand effects are primarily determined by electronegativity gradients across shell boundaries rather than elemental identity alone, and this signal is absent from the current periodic table representation despite being directly computable from known atomic properties."
+}

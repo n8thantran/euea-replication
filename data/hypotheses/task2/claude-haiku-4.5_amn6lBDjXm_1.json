@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Generative models trained on larger, more chemically diverse datasets (such as OQMD) will exhibit improved stability prediction accuracy (higher SUN scores) when fine-tuned with a loss function that incorporates DFT-computed energy-above-hull penalties during training, compared to models trained with standard reconstruction losses alone."
+}

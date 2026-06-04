@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Systematic differences in GFN2-xTB relaxation energy between flow-matching and diffusion-based models reflect fundamentally different learned energy landscape representations, such that models trained with a GFN2-xTB-based geometry loss term explicitly penalizing bond length, bond angle, and torsion deviations during training\u2014rather than only at evaluation\u2014will close the observed performance gap between flow-matching and diffusion architectures by at least 50% without requiring increased model capacity or additional inference steps."
+}

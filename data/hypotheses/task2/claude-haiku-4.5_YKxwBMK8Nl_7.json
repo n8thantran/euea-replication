@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating domain-specific chemical ontology constraints and hierarchical relationship validation into the agentic extraction pipeline will improve extraction accuracy for complex multi-value records by reducing false positives in property-to-material linkages more effectively than post-hoc verification alone."
+}

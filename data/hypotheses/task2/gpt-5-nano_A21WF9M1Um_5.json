@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Embedding a symmetry-equivariant, Wyckoff-basis generative prior into the XRD-conditioned structure generation pipeline (then applying minimal energy relaxation) will yield more robust ground-truth reconstructions from noisy XRD data by flattening the loss landscape along symmetry axes and reducing false local minima compared to standard gradient descent with or without post hoc symmetry projections."
+}

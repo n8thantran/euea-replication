@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Tensor completion performance in biased sampling scenarios will degrade significantly when the bias pattern itself is non-stationary across the design space\u2014that is, when different regions of the lattice parameter space exhibit fundamentally different degrees and types of experimental sampling bias\u2014compared to the stationary bias patterns tested in this work."
+}

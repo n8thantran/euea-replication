@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Structured preprocessing of scientific documents (e.g., markdown conversion with explicit image captioning) will disproportionately improve extraction recall for nanomaterial datasets compared to small molecule datasets, because nanomaterial properties are more frequently encoded in heterogeneous tabular and visual formats that benefit from format normalization, whereas small molecule extraction failure is dominated by irreducible structure recognition errors (e.g., SMILES from images) that preprocessing cannot resolve."
+}

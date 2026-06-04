@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit topological descriptors (e.g., persistent homology features of the medium-range order) as additional conditioning variables in AMDEN will enable generation of amorphous materials with controlled structural heterogeneity, leading to improved prediction accuracy for properties that depend on both local coordination and mesoscale structural motifs, such as fracture toughness and ionic conductivity."
+}

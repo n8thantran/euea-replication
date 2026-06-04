@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Among the Si\u2013X alloy candidates identified by the AI framework as exhibiting invariant Li\u207a migration channel sizes across lithiation states, those whose stabilizing alloying element (X) forms a rigid, electronegatively distinct sublattice that is thermodynamically decoupled from the Si\u2013Li alloying reaction will demonstrate a quantifiable threshold effect: below a critical molar fraction of X (predicted to lie between 5\u201315 at%), channel radius variance will scale linearly with X content, but above this threshold, channel variance will plateau near zero regardless of further X addition, a nonlinear relationship that can be experimentally verified through in-situ synchrotron X-ray diffraction combined with electrochemical cycling and computationally tested by systematically varying X concentration in CHGNet-relaxed structures while measuring the slope of channel radius versus state of charge."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable synthesizability predictor\u2014trained on literature-sourced synthesis routes and integrated into the Property Evaluation loop to jointly optimize formation energy and synthesizability (via Pareto-front guidance in the Planning stage)\u2014will increase the proportion of proposed compositions that are both near-target formation energy and practically synthesizable compared to the original single-objective MatAgent framework."
+}

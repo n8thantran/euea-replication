@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Fine-tuning pre-trained ML models on a dataset enriched with structures near saddle points and transition states will reduce the stress tensor prediction error by at least 40% compared to models trained on equilibrium structures alone, thereby enabling direct ML-based SSNEB convergence without DFT restart while maintaining pathway accuracy within 0.05 eV of full DFT results."
+}

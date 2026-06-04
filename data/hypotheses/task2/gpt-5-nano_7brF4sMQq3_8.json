@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Extending ASTRA to condition on more than two metastable states and employing a multi-way interpolation of conditional scores will enable a priori sampling of higher-dimensional transition-state manifolds that connect multiple basins, thereby revealing branching transition-state ensembles in complex reaction networks that cannot be captured by pairwise two-state conditioning."
+}

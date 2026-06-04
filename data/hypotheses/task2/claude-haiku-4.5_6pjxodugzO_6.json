@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Foundation models pre-trained on SMILES representations will exhibit systematically degraded performance when predicting electrolyte properties in multi-component systems where synergistic or antagonistic interactions between constituent molecules are non-additive, and this degradation will correlate with the degree of non-linearity in the composition-property relationship rather than chemical similarity alone."
+}

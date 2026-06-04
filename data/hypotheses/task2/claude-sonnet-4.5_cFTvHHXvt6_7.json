@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Given that CHROMA demonstrates a persistent generalization gap between training-paraphrase (\u0394E \u22481) and validation (\u0394E \u224834) performance, and that this gap persists even with deeper decoders despite successful linguistic variation handling, **incorporating a physics-informed auxiliary loss that penalizes spectral deviation during training will reduce the validation \u0394E gap by enabling the decoder to learn optical sensitivity patterns rather than memorizing token-to-spectrum mappings**."
+}

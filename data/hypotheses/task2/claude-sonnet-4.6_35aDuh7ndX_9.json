@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating protein flexibility through ensemble pharmacophore modeling\u2014derived from multiple receptor conformations rather than a single crystal structure\u2014as the reference set for the reinforcement learning reward function will yield generated molecules with broader selectivity profiles and improved experimental binding affinity compared to pharmacophore models derived from a single static receptor conformation, because ensemble-based pharmacophores capture the conformational heterogeneity of the binding site that single-structure CATS descriptors systematically ignore."
+}

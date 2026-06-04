@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit modeling of sequence-structure uncertainty through ensemble sampling during the quantization step will improve the generalization of E2EFOLD's structure prediction to out-of-distribution designed sequences by capturing the degeneracy landscape rather than committing to point estimates of sequences."
+}

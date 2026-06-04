@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Adaptive diversity constraint thresholds that dynamically adjust based on real-time monitoring of the property-diversity trade-off curve will enable generative models to maintain higher chemical diversity while achieving comparable property optimization performance compared to fixed-threshold constraints."
+}

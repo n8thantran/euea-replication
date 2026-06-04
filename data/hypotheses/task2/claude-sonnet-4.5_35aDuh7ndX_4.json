@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-conditioned generative models trained with fragment-level structural diversity constraints will produce molecules with superior synthetic accessibility and retained bioactivity compared to those optimized solely for whole-molecule structural novelty, due to preservation of synthetically tractable chemical motifs while enabling scaffold innovation."
+}

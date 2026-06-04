@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Given that GFN1-xTB systematically underestimates band gaps for MOFs containing 3d transition metals (Cr, Mn, Fe, Co, Ni) due to inadequate treatment of strong correlation effects, incorporating element-specific correction terms trained on a small set of high-fidelity DFT+U or hybrid functional calculations exclusively for transition metal-containing MOFs will enable a hierarchical \u0394-learning framework that achieves sub-0.2 eV prediction accuracy across the full MOF chemical space without requiring expensive calculations for the entire dataset."
+}

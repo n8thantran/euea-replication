@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit physical constraints from the Langevin equation of nanoparticle motion directly into SAM-EM's architecture through physics-informed loss terms will enable the model to accurately segment and track particles in LPTEM videos at liquid thicknesses exceeding 200 nm, where current performance degrades due to extreme electron scattering and near-complete loss of edge contrast."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Agents with access to domain-specific tools exhibiting high semantic alignment to task requirements will show diminishing performance gains from increased tool verbosity when the base model lacks foundational domain knowledge, but will demonstrate continued sensitivity to tool description quality when domain knowledge is present."
+}

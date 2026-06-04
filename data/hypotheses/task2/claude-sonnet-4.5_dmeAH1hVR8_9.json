@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating topology-aware pretraining data that explicitly encodes RCSR topology codes and their structural implications will further improve LLM performance on MOF property prediction tasks compared to using only SMILES-based ligand and metal node representations."
+}

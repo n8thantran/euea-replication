@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating multi-modal electron beam dose rate as an explicit conditioning variable during SAM-EM fine-tuning\u2014rather than treating SNR variation solely as a function of liquid thickness\u2014will enable the model to disentangle beam-induced motion artifacts from genuine nanoparticle dynamics, thereby improving segmentation fidelity and trajectory accuracy in closed-loop LPTEM experiments where dose rate is actively modulated as a feedback control parameter."
+}

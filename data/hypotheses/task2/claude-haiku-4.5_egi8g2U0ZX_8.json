@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Combining transfer learning strategies across multiple generative model architectures through an ensemble approach that weights predictions based on material-specific property prediction confidence will increase the percentage of valid CTF candidates passing expert filters beyond the current maximum of 97.7% while maintaining diversity metrics above 75%."
+}

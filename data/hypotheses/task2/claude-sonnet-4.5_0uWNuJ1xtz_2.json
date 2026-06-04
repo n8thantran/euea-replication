@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nThe multimodal molecular latent space learned by STR-Bamba426M exhibits emergent cross-representation transfer learning capabilities, such that fine-tuning on property prediction tasks using one molecular representation will systematically improve zero-shot or few-shot performance on the same task when queried with alternative representations of unseen molecules, with the magnitude of transfer inversely proportional to the semantic distance between representations in the shared embedding space."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Replacing the template-based natural language prompt generation with prompts authored by domain-naive human users will reveal a systematic degradation in CHROMA's color accuracy (increased \u2206E) that correlates specifically with the linguistic distance between user-generated descriptions and training templates, and that this degradation can be substantially recovered by fine-tuning only the encoder projection layer on a small set of human-authored prompt\u2013structure pairs without unfreezing the LLM encoder, demonstrating that the projection layer is the primary site of domain mismatch between real-world language variation and the fixed semantic embedding space."
+}

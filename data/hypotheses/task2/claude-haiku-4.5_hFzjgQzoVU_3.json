@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Machine learning models trained on the XDIP dataset to predict XAS spectra from protein structures will exhibit systematically different prediction errors for iron centers with different oxidation states, and this oxidation-state-dependent error pattern can be leveraged to develop a secondary model that predicts iron oxidation state directly from structure-to-spectrum prediction residuals."
+}

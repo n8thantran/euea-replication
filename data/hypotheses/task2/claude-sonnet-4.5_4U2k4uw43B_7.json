@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit stress tensor weighting into the loss function during active learning fine-tuning of pre-trained ML models will reduce symmetry-breaking artifacts during SSNEB convergence and enable direct computational cost reductions exceeding 5-fold compared to pure DFT for high-pressure phase transitions in ionic solids."
+}

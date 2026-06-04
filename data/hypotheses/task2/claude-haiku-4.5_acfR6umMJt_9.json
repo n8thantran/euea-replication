@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "The NN-BAX method's efficiency gain will degrade non-linearly with increasing system complexity and chemical diversity, such that the speedup factor will decrease by more than 50% when transitioning from Lennard-Jones systems to realistic DFT-based catalytic surfaces due to the distribution shift between the OMat24 pre-training data and the target chemical space requiring exponentially more BAX iterations to achieve comparable model accuracy."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Including a dedicated 3D structural modality (e.g., discretized 3D distance matrices or torsion-angle tokens) in the STR-Bamba426M multimodal vocabulary and training objective will further align cross-representation latent spaces and improve translation fidelity between representations as well as structure-sensitive property predictions for conformationally diverse molecules, compared to the current text-only multimodal model."
+}

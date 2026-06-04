@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating a confidence estimation head into E2EFOLD's decoder that predicts per-residue prediction error (analogous to pLDDT) and training it jointly with the existing structure recovery objective will reveal that designed sequences with high self-consistency systematically exhibit lower predicted local distance difference test scores specifically at buried hydrophobic core positions, thereby enabling the confidence signal to serve as a differentiable, sequence-position-specific feedback mechanism that guides the encoder toward designing sequences with improved packing geometry rather than merely optimizing global backbone reconstruction fidelity."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating differentiable energy constraints as a regularization term within XRD-based gradient descent optimization will enable recovery of structurally correct phases even under high noise levels by biasing the search toward low-energy minima that coincide with XRD-similar solutions."
+}

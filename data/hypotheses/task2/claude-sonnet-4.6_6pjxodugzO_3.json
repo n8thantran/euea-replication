@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating temporal degradation dynamics into foundation model pre-training by augmenting SMILES corpora with time-series electrochemical cycling data will enable FM-derived representations to encode kinetic stability features that are absent from static molecular embeddings, thereby allowing a single multi-scale predictor to simultaneously forecast both initial device performance and capacity fade trajectories across novel electrolyte formulations with quantifiable confidence intervals derived from chemical similarity to the training distribution."
+}

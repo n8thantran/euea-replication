@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating multi-modal constraint propagation through hierarchical knowledge graphs will improve chemical information extraction performance by enabling LLM agents to resolve context-dependent ambiguities and enforce domain-specific ontological consistency across heterogeneous data representations."
+}

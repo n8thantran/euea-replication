@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "LoQI's stereochemistry-aware graph augmentation will fail to preserve configurational integrity for atropisomeric molecules with high rotational barriers, resulting in significantly lower stereochemical accuracy compared to its performance on R/S and E/Z stereocenters."
+}

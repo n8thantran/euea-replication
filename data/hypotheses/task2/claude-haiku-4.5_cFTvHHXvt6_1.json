@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating a physics-informed loss function that directly penalizes spectral mismatch rather than token-level cross-entropy will reduce the generalization gap between training-paraphrase and validation performance by enabling the decoder to learn the non-linear relationship between discrete material-thickness sequences and their optical consequences."
+}

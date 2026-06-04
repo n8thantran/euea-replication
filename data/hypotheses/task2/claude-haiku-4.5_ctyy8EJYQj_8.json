@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "LLM-guided synthesis planning performance will improve substantially when the kinetic model parameters (activation energy and pre-exponential factor) are systematically varied to reflect uncertainty in experimentally-determined values, because LLMs will learn to exploit parameter sensitivity patterns that classical search methods cannot efficiently explore without explicit mathematical formulation."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Multi-component high-entropy silicon-based alloys (Si with at least three additional elements) will preserve near-constant Li+ diffusion channel radii (Rt) throughout lithiation and delithiation due to configurational entropy stabilizing a percolating diffusion network, enabling sustained capacities above 1500 mAh g\u22121 with substantially reduced capacity fade over 500 cycles compared with binary Si\u2013X alloys."
+}

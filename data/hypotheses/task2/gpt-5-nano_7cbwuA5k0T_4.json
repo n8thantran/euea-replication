@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "There exists an optimal task-decomposition depth for complex scientific tasks such that agent performance (pass@5) is maximized at that depth, with performance declining due to error accumulation beyond it, and the optimal depth increasing as the base model's domain knowledge decreases."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nGenerative models trained with a hybrid loss function that explicitly incorporates DFT-derived energy-above-hull values and local atomic displacement penalties will produce materials with superior stability metrics (SUN > 15%) while maintaining comparable RMSD values to current state-of-the-art models, effectively bridging the gap between ML-based generation and chemically feasible structures."
+}

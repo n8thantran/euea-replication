@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating multi-modal loss functions that jointly optimize XRD similarity and local structural order parameters (such as bond-angle distributions or coordination environment fingerprints) will produce smoother, more convex optimization landscapes than XRD similarity alone, enabling gradient-based recovery of structures without requiring prior knowledge of the ground-truth crystal symmetry."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating dynamic electronic structure descriptors (e.g., d-band center, Bader charges) as additional conditioning signals in CompGen will enable the generation of catalytic surface compositions that simultaneously optimize both geometric ensemble effects and electronic ligand effects, thereby achieving multi-objective inverse design of active sites with predictable reactivity beyond adsorption energy alone."
+}

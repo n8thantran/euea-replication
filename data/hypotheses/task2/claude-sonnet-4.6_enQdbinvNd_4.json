@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating episodic memory of past simulation failures and force field extraction errors into the multi-agent framework will enable agents to dynamically update their parameter-selection heuristics across successive tasks, such that systems exposed to a history of EPM2-style unconventional table layouts will achieve significantly higher force field extraction IoU scores compared to systems without such memory, demonstrating measurable cross-task learning in automated molecular simulation workflows."
+}

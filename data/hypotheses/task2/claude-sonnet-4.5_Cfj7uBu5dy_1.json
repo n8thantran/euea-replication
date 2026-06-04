@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating a learned uncertainty-aware acquisition function that jointly optimizes for both compositional diversity and predicted thermodynamic stability will discover 2-3\u00d7 more novel stable compounds per oracle query than diversity-based sampling alone, particularly in high-dimensional (quaternary and beyond) chemical systems where the convex hull landscape is sparse and multimodal."
+}

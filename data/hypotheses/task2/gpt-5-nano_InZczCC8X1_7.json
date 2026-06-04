@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Adopting a gradient, two-zone catalyst electrode that spatially decouples bicarbonate-to-i-CO2 formation from the CO2 reduction active sites\u2014where the upstream region preferentially catalyzes i-CO2 generation from bicarbonate and the downstream region selectively reduces i-CO2 to CO\u2014will increase reactor yield by boosting JCO while maintaining or increasing CO2 utilization (UCO2) compared with a uniform Ag gas-diffusion electrode under the same operating conditions."
+}

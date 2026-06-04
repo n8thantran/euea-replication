@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating MOF-specific topology descriptors from the RCSR database as structured pre-training sequences\u2014distinct from and complementary to SMILES representations\u2014will disproportionately improve LLM performance on electronic property prediction tasks (such as band gap in QMOF) compared to gas adsorption tasks (such as those in hMOF), because electronic properties are more sensitive to the three-dimensional network topology encoded in MOFid's topology codes than to the chemical identity of individual building blocks, and this effect will be most pronounced when the supervised fine-tuning dataset contains fewer than 5,000 samples."
+}

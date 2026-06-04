@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "If LoQI's stereochemistry-aware graph augmentation encoding R/S and E/Z configurations is extended to include axial chirality (e.g., atropisomers) and planar chirality through analogous directed-edge representations, then the resulting model will achieve stereochemical accuracy exceeding 0.95 for these non-tetrahedral chiral classes on drug-like molecules containing biaryl or paracyclophane scaffolds, as measured against DFT-optimized reference structures, because the architecture-agnostic nature of the augmentation strategy demonstrated for tetrahedral and double-bond stereocenters should generalize to any stereochemical element expressible as a local topological relationship in the molecular graph."
+}

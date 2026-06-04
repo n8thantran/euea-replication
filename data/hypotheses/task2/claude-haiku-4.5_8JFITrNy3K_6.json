@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Synthesis procedures with greater structural complexity (measured by node count and edge density in the provenance graph) will exhibit systematically lower extraction accuracy by LLMs, and this accuracy degradation will be non-linear, with a critical complexity threshold beyond which parametric-level extraction fails more severely than structural-level extraction."
+}

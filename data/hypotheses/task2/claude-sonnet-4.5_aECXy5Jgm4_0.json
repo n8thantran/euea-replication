@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating explicit topological descriptors of polymer chain entanglement and void space distribution into the molecular representation will improve Bayesian optimization performance for branched and crosslinked polyamines more than sequence-based embeddings alone, particularly when initial labeled data contains structurally dissimilar samples (\u03b3 < 0.3)."
+}

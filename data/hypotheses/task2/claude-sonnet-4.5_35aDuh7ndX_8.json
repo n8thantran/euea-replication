@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-conditioned generative models trained with fragment-based reinforcement learning will exhibit superior scaffold hopping capability when the reward function incorporates dynamic pharmacophore clustering that adapts to the diversity of generated molecules during training, compared to static reference-based pharmacophore similarity."
+}

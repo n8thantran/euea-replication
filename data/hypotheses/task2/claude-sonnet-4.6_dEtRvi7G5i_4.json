@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "The strength of a metal lattice's chemical template effect\u2014quantified by the degree of electron localization at interstitial quasi-atom sites\u2014will systematically correlate with the optimal hydrogen cage geometry and hydrogen-to-metal ratio in the resulting superhydride, such that metal lattices exhibiting anisotropic quasi-atom distributions will preferentially stabilize non-integer stoichiometries with mixed cage motifs (e.g., coexisting H24 and H32 cages) rather than uniform clathrate frameworks, and this correlation can be learned and predicted by a graph neural network trained on electron localization function topologies, enabling a priori cage-type classification before any structural search is performed."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "A dynamic, domain-adaptive tool provisioning strategy that continuously tunes the agent\u2019s toolkit in response to real-time task-to-tool embedding alignment and model confidence\u2014including automatic tool generation or re-parameterization when needed\u2014will yield higher pass@5 scores in the MD and Spectra environments than any static tool provisioning, regardless of whether ReAct or tool-calling scaffolds are used."
+}

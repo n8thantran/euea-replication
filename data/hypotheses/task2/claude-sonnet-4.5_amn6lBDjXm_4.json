@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating multi-fidelity DFT calculations (combining low-cost GGA with selective high-accuracy hybrid functional validation) into the training objective of diffusion models will produce structures with higher SUN scores while maintaining computational tractability, as the model learns to distinguish between metastable and unstable regions of chemical space during generation rather than post-hoc filtering."
+}

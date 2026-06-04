@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating polymer chain length as a continuous input variable into the hybrid CNN-GRU-Transformer model will reveal that optimal binding free energy landscapes exhibit distinct critical transition lengths that depend non-linearly on surface pattern periodicity, where polymers shorter than this threshold bind via localized patch matching while longer chains transition to a global wrapping regime with emergent multivalent interactions not captured by the current 40-bead fixed-length framework."
+}

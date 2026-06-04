@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "LLMs equipped with iterative access to physics-based simulators will demonstrate improved synthesis planning performance when the simulator provides explicit thermodynamic gradients or sensitivity analyses indicating which state variables (temperature, composition, or time) most directly influence the distance to goal states, compared to LLMs that only receive binary success/failure feedback from simulator evaluations."
+}

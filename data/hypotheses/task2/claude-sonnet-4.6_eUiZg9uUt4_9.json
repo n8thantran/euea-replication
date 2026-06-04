@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Applying class-balancing strategies during training\u2014specifically oversampling rare reaction templates or using template-frequency-weighted loss functions\u2014will disproportionately improve out-of-distribution (OOD) generalization to unseen templates in template-free models such as MEGAN and RootAligned, increasing their Pistachio OOD top-10 accuracy by at least fivefold compared to standard training, because the current near-zero OOD performance is driven primarily by the models learning to replicate the skewed template frequency distribution rather than learning underlying chemical transformation principles."
+}

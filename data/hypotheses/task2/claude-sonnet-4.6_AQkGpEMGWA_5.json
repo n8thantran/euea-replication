@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Among the Si\u2013X alloy candidates identified by the AI framework as exhibiting invariant Li\u207a migration channel dimensions across lithiation states, those incorporating elements with high bulk modulus (e.g., W, Mo, or Re) as the alloying component X will demonstrate a statistically significant negative correlation between the alloying element's bulk modulus and the slope of channel radius versus state-of-charge, such that substituting even 5\u201310 at% of Si with these stiff elements mechanically pins the Si sublattice geometry and reduces volumetric expansion below 50% while maintaining gravimetric capacity above 1500 mAh/g\u2014a relationship that can be tested by computing channel-radius slopes and volume changes via CHGNet relaxation across a systematically varied series of Li\u2013Si\u2013X structures drawn from the Materials Project database."
+}

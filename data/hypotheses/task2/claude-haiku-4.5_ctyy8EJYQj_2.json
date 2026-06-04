@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "LLMs equipped with iterative access to physics-based simulators will demonstrate improved synthesis planning performance for ternary and higher-order material systems compared to binary systems, but only when the thermodynamic database completeness exceeds a critical threshold (\u226585% of experimentally validated phase boundaries), below which their performance degrades to levels comparable to classical search methods."
+}

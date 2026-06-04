@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nTraining universal machine learning interatomic potentials on synthetic MOF structures generated through active learning with targeted perturbations around coordination geometries and guest molecule binding sites will improve zero-shot prediction accuracy for flexible MOF breathing phenomena and guest-framework interactions beyond what can be achieved with current datasets dominated by inorganic materials and equilibrium conformations."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating trace amounts of electrochemically inactive framework-forming elements (e.g., B, P, or light transition metals) into Si-based alloy anodes will create rigid polyhedral scaffolds that decouple Li+ migration channel geometry from lithiation state, thereby enabling >2000 mAh/g capacity with <5% channel radius variation across full charge/discharge cycles\u2014a performance unattainable by binary Si-X systems identified in this study."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "When one modality is systematically absent or corrupted during inference (e.g., XRD patterns unavailable for amorphous materials lacking long-range order), X-MoPA's cross-modal predictive training will have implicitly learned to reconstruct that modality's latent representation from the remaining two, such that fine-tuning with only two modalities on such out-of-distribution material classes will achieve lower prediction error than single-modality baselines trained directly on those same classes\u2014demonstrating that the joint latent space encodes modality-invariant physical representations that confer robustness to modality dropout without requiring explicit missing-modality training objectives."
+}

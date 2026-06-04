@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Integrating a dedicated molecular image detection and segmentation module\u2014trained specifically on the heterogeneous layouts of chemistry journal PDFs\u2014into the single-agent preprocessing pipeline will yield a statistically significant improvement in SMILES extraction F1 scores across all ChemX small molecule datasets compared to the current pipeline that omits such visual structure recognition, with the greatest gains observed for datasets where molecular structures appear exclusively in figures rather than as textual identifiers."
+}

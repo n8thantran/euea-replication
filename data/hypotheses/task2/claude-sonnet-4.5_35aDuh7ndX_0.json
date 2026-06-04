@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-guided generative models trained on structurally diverse reference sets from multiple therapeutic classes will generate molecules with transferable pharmacophoric motifs that exhibit polypharmacological activity against unrelated protein targets sharing similar binding site topologies."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Among Si\u2013X alloy anodes that exhibit stable Li\u207a migration channel sizes across lithiation states, the identity and atomic radius of the alloying element X will determine a quantitative threshold channel-stability slope (below ~0.3 \u00c5/100% state-of-charge) below which first-principles-calculated Li-ion diffusion barriers remain below 0.4 eV throughout the full delithiation range, such that a machine learning model trained on the alloying element's electronegativity, atomic radius, and sublattice coordination number can predict this diffusion barrier threshold with greater accuracy than channel radius alone, thereby establishing alloying element selection as the primary design lever for simultaneously optimizing ionic conductivity and mechanical stability in silicon-based anodes."
+}

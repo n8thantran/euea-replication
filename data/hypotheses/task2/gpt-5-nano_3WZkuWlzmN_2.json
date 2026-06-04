@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "X-MoPA\u2019s cross-modal latent space generalizes to materials from crystal structure families unseen during training, enabling zero-shot property prediction by a lightweight linear head on top of the frozen encoders that achieves MAE within 1.2\u00d7 of the in-domain baseline."
+}

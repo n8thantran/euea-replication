@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating active learning strategies that iteratively select the next experimental observation to maximally reduce tensor reconstruction uncertainty\u2014prioritizing undersampled tensor modes\u2014will enable tensor completion surrogate models to outperform Gaussian Process regression even under uniform random sampling conditions, closing the performance gap identified in this paper while simultaneously reducing the total number of required experiments by at least 30% to achieve equivalent predictive accuracy."
+}

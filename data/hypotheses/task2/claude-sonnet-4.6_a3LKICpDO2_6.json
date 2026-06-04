@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating DFT+U corrections specifically parameterized for the identified problematic 3d transition metals (Cr, Mn, Fe, Co, Ni) as an intermediate fidelity level within a multi-fidelity \u2206-learning hierarchy\u2014where the first \u2206 corrects GFN1-xTB to DFT+U and the second \u2206 corrects DFT+U to HSE06\u2014will yield greater band gap prediction accuracy for transition-metal-containing MOFs than the current two-level GFN1-xTB-to-HSE06 \u2206-learning scheme, because the intermediate level explicitly captures strong d-electron correlation effects that GFN1-xTB cannot describe, thereby reducing the magnitude and variance of the correction that the ML model must learn."
+}

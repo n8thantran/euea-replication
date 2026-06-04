@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Semantic alignment between tools and tasks, as measured by embedding similarity, will exhibit domain-specific scaling properties such that the relationship between alignment distance and agent performance follows different functional forms (linear, logarithmic, or threshold-based) depending on the cognitive complexity level of the required reasoning task."
+}

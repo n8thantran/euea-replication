@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "A real-time model-predictive control (MPC) system that dynamically adjusts bicarbonate feed concentration and applied current density in response to continuous online measurements of JCO and UCO2 will achieve a higher peak reactor yield than any fixed Bayesian-optimized operating point under realistic capture electrolytes."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Integrating a 3D geometric modality that encodes conformational information (such as interatomic distance matrices derived from 3D coordinates) into the unified STR-Bamba426M multimodal vocabulary will improve predictive accuracy for conformationally sensitive properties and increase fidelity of cross-representation translations, with gains most pronounced on molecules exhibiting high conformational diversity, even when 3D-geometry data is available for only a subset of the training samples."
+}

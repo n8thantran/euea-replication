@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating stress tensor weighting into the pre-training objective function of equivariant neural network potentials will reduce the symmetry-breaking artifacts observed during ML-SSNEB convergence and enable direct ML-only pathway prediction that matches DFT accuracy without requiring subsequent VASP restart refinement."
+}

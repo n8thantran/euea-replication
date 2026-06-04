@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Integrating a calibrated Bayesian neural network surrogate into the NN-BAX loop and selecting next NEB-query points with an information-theoretic acquisition that leverages predictive uncertainty will yield greater speedups and more accurate barrier predictions for DFT-level NEB on high-dimensional systems than the current deterministic NN-BAX with random path sampling."
+}

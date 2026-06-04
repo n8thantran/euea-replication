@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Quantitative task-tool embedding similarity thresholds exist below which no amount of task decomposition can compensate for tool-task misalignment, such that there is a critical cosine distance value above which chained task decomposition fails to improve agent performance regardless of model capability or framework choice."
+}

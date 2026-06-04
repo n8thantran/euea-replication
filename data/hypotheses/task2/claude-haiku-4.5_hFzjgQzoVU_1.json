@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Machine learning models trained on the XDIP dataset to predict Fe K-edge XAS spectra from protein structure will exhibit significantly improved generalization to iron-containing proteins with non-canonical coordination geometries (coordination numbers outside the 4-6 range typically observed in biological systems) if the models are augmented with physics-informed constraints that enforce consistency with known Fe 3d orbital splitting patterns and ligand field theory predictions."
+}

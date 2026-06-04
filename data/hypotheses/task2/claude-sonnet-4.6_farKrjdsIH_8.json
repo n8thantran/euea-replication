@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating electron beam dose rate as a dynamic conditioning variable during SAM-EM fine-tuning\u2014by generating synthetic training data that explicitly pairs spatiotemporally varying dose rate maps with their corresponding image contrast degradation and beam-induced particle motion artifacts\u2014will enable the model to disentangle beam-driven dynamics from intrinsic nanoparticle diffusion, thereby allowing real-time classification of particle trajectories as thermally driven, beam-driven, or mixed, which would be falsifiable by comparing diffusion coefficients extracted by the conditioned model against those measured under systematically varied dose rates in controlled LPTEM experiments where beam-induced effects are independently quantified."
+}

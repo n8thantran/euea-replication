@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Tensor completion performance on biased sampling will degrade when the bias pattern itself is non-stationary across the design space (i.e., when different regions of the search space exhibit different degrees and types of sampling bias), whereas classical ML methods will maintain more consistent relative performance degradation across varying bias structures."
+}

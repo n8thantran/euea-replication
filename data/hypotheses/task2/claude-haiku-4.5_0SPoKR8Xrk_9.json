@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Polymer sequences with spatially clustered strong-interaction beads will exhibit non-monotonic binding free energy landscapes with respect to surface pattern regularity, such that moderately disordered surfaces produce stronger adhesion than either highly ordered or completely random surface patterns due to competing effects between entropic polymer conformational constraints and enthalpic multivalent binding interactions."
+}

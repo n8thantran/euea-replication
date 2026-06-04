@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nMultimodal pre-training of domain-specific vision-language models on chemical structure segmentation and contextual entity linking will achieve >0.80 F1 score on SMILES extraction from heterogeneous scientific figures when combined with document layout analysis, surpassing current general-purpose LLM and single-agent approaches that fail to extract molecular structures (F1 \u2248 0.00\u20130.06)."
+}

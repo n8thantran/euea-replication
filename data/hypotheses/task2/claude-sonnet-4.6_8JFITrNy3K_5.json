@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Fine-tuning a smaller open-source language model (e.g., a 7B-parameter model) on the MatPROV dataset's paired synthesis-text-to-PROV-JSONLD examples will achieve higher structural-level F1-scores than the zero-shot o4-mini baseline on held-out inorganic synthesis procedures outside the thermoelectric and magnetic material domains, demonstrating that domain-specific supervised fine-tuning on provenance graph representations can outperform general-purpose reasoning models while also reducing inference cost and eliminating dependency on proprietary APIs."
+}

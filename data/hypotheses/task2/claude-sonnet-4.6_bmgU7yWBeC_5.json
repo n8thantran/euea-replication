@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "If the Force Delta metric quantifies the degree to which a neural network potential's learned energy landscape violates physical self-consistency, then incorporating the Force Delta as an explicit regularization term during fine-tuning of pre-trained foundation models on domain-specific data will simultaneously reduce the Force Delta magnitude and improve generalization to out-of-distribution configurations more effectively than standard force-matching loss alone, because penalizing non-conservative behavior during training directly constrains the model toward physically consistent potential energy surfaces rather than merely fitting observed force vectors."
+}

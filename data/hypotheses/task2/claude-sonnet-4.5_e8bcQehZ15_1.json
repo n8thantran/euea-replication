@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Applying CAST to multi-objective molecular optimization with conflicting property constraints (e.g., simultaneously maximizing QED while minimizing molecular weight and maintaining high synthetic accessibility) will reveal a Pareto frontier in the concept embedding space, where the orthogonality loss between concept vectors directly correlates with the achievable trade-off granularity between competing molecular properties."
+}

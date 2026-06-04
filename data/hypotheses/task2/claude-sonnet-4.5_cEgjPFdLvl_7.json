@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit topological constraints derived from persistent homology into the AMDEN diffusion process will enable generation of amorphous materials with targeted medium-range order without requiring Hamiltonian Monte Carlo refinement, thereby reducing computational cost while maintaining structural accuracy."
+}

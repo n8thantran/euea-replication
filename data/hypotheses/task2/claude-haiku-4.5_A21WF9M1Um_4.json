@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Hybrid XRD-energy loss landscapes that jointly weight XRD similarity and predicted energy will exhibit reduced non-convexity along symmetry axes compared to XRD-only optimization, enabling gradient descent to recover correct structures from high-noise distortions without requiring prior knowledge of the ground-truth crystal family."
+}

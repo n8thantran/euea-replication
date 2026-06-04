@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "A generative model trained to jointly predict both the crystal structure and its space group symmetry directly from XRD patterns\u2014where symmetry classification is used as an intermediate latent variable that gates the choice of Wyckoff position parameterization\u2014will achieve higher structure recovery rates than models conditioned on XRD alone, because constraining the generative prior to symmetry-consistent structural manifolds will reduce the effective search space sufficiently to avoid the non-convex local minima identified in direct XRD-based gradient descent optimization."
+}

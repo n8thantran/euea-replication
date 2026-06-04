@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "A hierarchical multi-agent system where a central curator assigns non-overlapping subspaces of the ALP reactor configuration to independent agents and periodically fuses their diverse summaries with uncertainty estimates will yield a higher rate of novel, transferable reaction-rule discovery (e.g., ALD/ALE/CVD-like regimes) and greater robustness to path-dependence than a single-agent REACT configuration."
+}

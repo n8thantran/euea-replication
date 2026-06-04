@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "If the DPO \u03b2 parameter is adaptively modulated per-token based on the token's domain criticality (e.g., higher \u03b2 for element symbols and stoichiometric numerals, lower \u03b2 for structural tokens), then OLMo-class architectures exhibiting over-steer on chemistry-critical tokens will achieve reward improvements comparable to LLaMA and Gemma while maintaining coverage and diversity, because constraining distributional shift precisely where alloy identity is encoded will prevent the chemistry grammar collapse identified as the mechanism of OLMo's DPO failure."
+}

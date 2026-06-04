@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Agents employing uncertainty-aware acquisition functions that leverage multi-fidelity oracle predictions (MLIP\u2192DFT\u2192experiment) will discover thermodynamically stable compounds with significantly higher efficiency than single-fidelity agents, because the cost-benefit trade-off of querying expensive high-fidelity oracles strategically outweighs the additional computational overhead of maintaining calibrated uncertainty estimates across fidelity levels."
+}

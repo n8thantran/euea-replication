@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "When autonomous discovery agents operating within the MADE framework are trained via reinforcement learning across multiple chemical systems simultaneously, they will develop transferable acquisition strategies that generalize to unseen chemical systems more efficiently than agents trained on single systems, such that the number of oracle queries required to discover a fixed proportion of stable compounds in a held-out chemical system decreases monotonically with the structural and compositional diversity of the training chemical systems encountered during agent training."
+}

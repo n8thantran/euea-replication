@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Synthesis procedure graphs with higher structural complexity (as measured by the ratio of branching/converging nodes to total nodes) will exhibit stronger correlations with material property variance than linear synthesis pathways, enabling predictive models to identify which procedural features most critically influence functional outcomes in thermoelectric and magnetic materials."
+}

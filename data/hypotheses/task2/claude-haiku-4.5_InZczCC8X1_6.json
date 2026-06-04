@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "The trade-off between CO partial current density and CO2 utilization that constrains reactor yield in alkaline bicarbonate electrolyzers can be decoupled by implementing spatially segregated catalyst zones with differential bicarbonate concentration gradients within a single electrochemical cell, enabling simultaneous maximization of both metrics beyond their current mutual exclusivity constraints."
+}

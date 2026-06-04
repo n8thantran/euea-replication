@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Pre-training generative models on a hybrid dataset combining general chemical structures (ChEMBL) with a small fraction (<5%) of structurally analogous porous organic frameworks will yield higher percentages of molecules passing expert-defined structural filters than pre-training on ChEMBL alone, while maintaining computational costs within 20% of the baseline approach."
+}

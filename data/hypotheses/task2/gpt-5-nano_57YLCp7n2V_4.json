@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "A valency-aware training objective that explicitly encodes aromatic-bond counting using the refined Narom/Vother valency framework will yield generative models whose outputs exhibit higher chemical validity (larger fraction of atoms with allowed valencies) and smaller GFN2-xTB relaxation and geometry deviations (bond lengths, angles, and torsions) compared with standard training, and this improvement will generalize from GEOM-Drugs to a broader organic molecule dataset."
+}

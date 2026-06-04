@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Adding Raman spectroscopy as a fourth modality to X-MoPA and training the model to predict Raman spectra from any two existing modalities in latent space will yield statistically significant improvements in predicting band gap, bulk modulus, and formation energy on Matbench and will improve cross-dataset transfer to AFLOW."
+}

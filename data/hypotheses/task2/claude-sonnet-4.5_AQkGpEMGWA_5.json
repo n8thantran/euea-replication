@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Doping silicon-based alloy anodes with elements that introduce local lattice strain gradients will create self-healing Li-ion migration channels that dynamically compensate for volumetric expansion, thereby maintaining constant effective channel radii across full charge-discharge cycles without requiring external structural reinforcement."
+}

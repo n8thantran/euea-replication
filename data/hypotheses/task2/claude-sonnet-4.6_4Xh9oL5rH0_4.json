@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit long-range electrostatic interactions\u2014beyond the DFT-D3 dispersion correction currently applied\u2014into uMLIP training data for MOFs will disproportionately improve prediction accuracy for guest-accessible pore properties (such as CO\u2082 adsorption isotherms derived from grand canonical Monte Carlo simulations) relative to bulk mechanical properties, because the dominant failure mode of current uMLIPs in porous materials arises from inadequate description of metal-node\u2013linker electrostatic environments rather than short-range bonding inaccuracies, and this hypothesis is testable by systematically comparing uMLIP-derived partial charges against DDEC6 reference charges across the MOFSimBench structure set and correlating charge errors with adsorption prediction errors stratified by pore chemistry."
+}

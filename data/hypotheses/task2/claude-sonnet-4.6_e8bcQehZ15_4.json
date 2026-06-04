@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Extending CAST to control quantum mechanical properties (e.g., HOMO-LUMO gaps) requires that the concept bottleneck model operate on molecular representations encoding electronic structure information not present in SMILES-derived LLM activations; therefore, augmenting the CBM's input with graph neural network embeddings derived from molecular graphs will yield significantly lower MAE for quantum mechanical property targets compared to using LLM hidden states alone, while maintaining comparable validity and generative efficiency to the SMILES-only CAST framework."
+}

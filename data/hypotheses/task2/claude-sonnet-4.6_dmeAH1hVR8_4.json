@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating MOF synthesis condition data (e.g., solvent type, temperature, reaction time, and precursor concentrations) extracted from the PMC Open Access literature as an additional continual pre-training corpus will enable the LLM to learn implicit structure-synthesis-property relationships, such that fine-tuning on a dataset of fewer than 1,000 labeled MOF samples will yield lower MAE on band gap prediction than the current PMC+PubChem pre-trained model fine-tuned on 5,226 samples."
+}

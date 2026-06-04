@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Generative models trained on DFT-relaxed structures will exhibit systematically lower RMSD values to their DFT-relaxed counterparts compared to their SUN stability scores, because the relaxation process itself biases the training distribution toward local energy minima rather than thermodynamically stable compositions, causing models to learn structural proximity to relaxed geometries without learning the compositional rules that determine true stability."
+}

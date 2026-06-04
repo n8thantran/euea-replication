@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nTraining scientific foundation models on deliberately constructed datasets that maximize structural diversity across energy landscapes (e.g., by systematically sampling high-energy transition states, frustrated geometries, and metastable configurations) will yield representations with higher intrinsic dimensionality that exhibit stronger cross-domain alignment on out-of-distribution data than models trained on conventional near-equilibrium datasets, thereby accelerating convergence toward a universal representation of matter."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "An adaptive hybrid batching strategy that starts with dynamic batching during early training and switches to static-64 batching in later stages based on real-time monitoring of batch-size variability, padding overhead, and gradient-update time will yield faster overall convergence and equal or better generalization across diverse GNN architectures and datasets than either static-64 or dynamic batching alone."
+}

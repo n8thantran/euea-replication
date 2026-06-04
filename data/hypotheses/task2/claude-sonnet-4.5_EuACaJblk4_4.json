@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Increasing the weight of the structure recovery loss relative to sequence recovery loss in E2EFOLD's training objective will improve self-consistency on longer proteins (>200 residues) more than on shorter proteins (<100 residues), while maintaining sequence recovery above 25%."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "The LLM's synthesis planning performance will systematically improve when the kinetic parameters (activation energy and pre-exponential factor) are explicitly provided in the prompt as quantitative constraints, rather than being implicitly encoded only through the simulator's behavior, because this grounds the model's reasoning in physical principles that are underrepresented in its training data."
+}

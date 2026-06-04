@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Replacing the uniform random sampling strategy along the NEB path with an uncertainty-weighted acquisition that preferentially selects images near predicted transition states will reduce the number of BAX iterations required for convergence by at least 50% compared to uniform sampling, because concentrating evaluations at high-energy, high-uncertainty regions of the path provides greater information gain about the energy barrier and transition state geometry while spending fewer function evaluations on low-energy regions near the endpoints."
+}

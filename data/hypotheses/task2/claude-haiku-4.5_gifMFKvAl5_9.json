@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "The adaptive weighting of regularization coefficients \u03b1\u2081 and \u03b1\u2082 during the diffusion timesteps will improve both validity and design space coverage beyond PCDiff's current fixed-weight approach, with higher weights enforcing stricter constraints in early denoising steps and progressively relaxed weights in later steps to preserve sample diversity."
+}

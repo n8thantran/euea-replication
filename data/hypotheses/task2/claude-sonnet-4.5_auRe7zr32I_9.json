@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Fragment-based diversity constraints that dynamically adjust thresholds based on the rate of property optimization convergence will achieve superior property-diversity trade-offs compared to static threshold constraints, as rapid optimization phases can tolerate lower diversity while plateau phases benefit from increased exploration pressure."
+}

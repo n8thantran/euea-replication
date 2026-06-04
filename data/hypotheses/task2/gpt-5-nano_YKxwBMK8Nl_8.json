@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Integrating a dedicated molecular-structure localization step with a robust image-to-SMILES converter into the ChemX extraction pipeline will increase SMILES extraction accuracy for small-molecule data (e.g., Benzimidazoles, Oxazolidinones) and improve the overall extraction F1 on Nanozymes and Complexes datasets relative to the current text-centric single-agent approach."
+}

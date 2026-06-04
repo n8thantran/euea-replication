@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating multi-modal electron beam condition parameters (dose rate, accelerating voltage, and acquisition frame rate) as explicit auxiliary inputs to the SAM-EM encoder during fine-tuning will enable the model to dynamically recalibrate its segmentation confidence thresholds in a physics-informed manner, thereby achieving superior mask fidelity and identity stability compared to image-only fine-tuning across the full experimental parameter space without requiring separate model retraining for each microscope configuration."
+}

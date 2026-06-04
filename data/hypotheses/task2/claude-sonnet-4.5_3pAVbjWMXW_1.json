@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The spectral alignment mechanism's reconstruction loss will exhibit differential sensitivity to functional group types, such that mixtures containing compounds with strongly overlapping characteristic bands (e.g., carbonyl stretches at ~1700 cm\u207b\u00b9) will require higher \u03bb values (>50) to achieve optimal component separation compared to mixtures with spectrally distinct functional groups."
+}

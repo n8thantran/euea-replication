@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating physics-informed constraints from lattice symmetry groups into tensor completion factor matrices will reduce prediction error by 15-20% compared to unconstrained tensor methods when extrapolating mechanical properties to novel unit cell geometries outside the training distribution."
+}

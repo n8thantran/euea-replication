@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating a confidence estimation head into E2EFOLD's decoder that predicts per-residue prediction uncertainty will reveal that self-consistency errors are systematically concentrated at structurally ambiguous regions where the encoder's sequence distribution entropy is highest, such that using this entropy signal as an additional loss-weighting term during end-to-end training will selectively improve structure recovery in those regions without sacrificing overall sequence recovery."
+}

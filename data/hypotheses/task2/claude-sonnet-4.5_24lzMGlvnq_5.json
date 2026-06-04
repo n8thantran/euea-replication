@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating physics-informed regularization during DPO training that penalizes model updates on domain-critical tokens (chemical elements and stoichiometric coefficients) will prevent distribution collapse in smaller language models like OLMo while maintaining reward improvements comparable to larger models like LLaMA and Gemma."
+}

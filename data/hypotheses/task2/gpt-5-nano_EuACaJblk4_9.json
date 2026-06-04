@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Extending E2EFOLD to jointly model a distribution over alternative backbones for every designed sequence and training with ensemble-aware losses (ensemble reconstruction and cross-backbone consistency) will increase design self-consistency and the accuracy of structure prediction for designed sequences across backbone conformations compared with a single-backbone end-to-end objective."
+}

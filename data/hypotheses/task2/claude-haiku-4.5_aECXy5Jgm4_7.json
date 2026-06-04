@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Polymer-specific pre-trained embeddings will maintain their discovery advantage over general chemical models even when the initial labeled dataset is constrained to extremely poor quality samples (\u03b3 < 0.1) if and only if the surrogate model can effectively calibrate its uncertainty estimates through multi-fidelity feedback from computationally cheaper proxy simulations that correlate with full GCMC results."
+}

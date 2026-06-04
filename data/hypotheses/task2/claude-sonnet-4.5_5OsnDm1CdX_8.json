@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Hypothesis: For plasma etching mixtures involving three or more gas chemistries with distinct reaction mechanisms (e.g., Ar/O2/CF4), the optimal node feature representation in the GraphSAGE architecture will shift from intermediate hidden layers to earlier layers as the number of mixture components increases, because early-layer representations encode more generalizable chemistry-agnostic features that facilitate cross-chemistry interaction learning in higher-dimensional compositional spaces."
+}

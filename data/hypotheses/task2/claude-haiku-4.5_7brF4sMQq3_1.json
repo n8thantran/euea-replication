@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "The score difference vector between conditionally trained diffusion models can effectively approximate reaction coordinates for systems with more than two metastable states, enabling ASTRA to discover transition state ensembles in multi-state reaction networks without requiring pairwise retraining of the diffusion model."
+}

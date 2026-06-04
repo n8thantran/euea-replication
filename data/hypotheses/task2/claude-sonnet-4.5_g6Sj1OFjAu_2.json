@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating dynamic shell-radius adaptation during the diffusion sampling process, where shell boundaries (currently fixed at 2.5 \u00c5 and 5.0 \u00c5) are jointly optimized as learnable parameters conditioned on adsorbate identity and target adsorption energy, will improve generation quality for underrepresented adsorbate-surface pairs by allowing the model to discover optimal local environment definitions that vary across chemical systems."
+}

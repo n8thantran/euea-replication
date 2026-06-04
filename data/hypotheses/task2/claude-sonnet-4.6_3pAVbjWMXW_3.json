@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the transformer model on a small set of experimentally measured ATR-IR mixture spectra with known compositions\u2014where non-linear spectral interactions between components are present\u2014will yield greater performance improvements for chemically reactive or hydrogen-bonding compound pairs (such as acid-amine mixtures) than for non-interacting pairs, because the linear superposition approximation used in synthetic training data systematically fails for such systems, and a domain-adaptive fine-tuning strategy that explicitly encodes pairwise molecular interaction descriptors as additional conditioning inputs will recover this performance gap more effectively than spectral fine-tuning alone."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Applying NN-BAX to systems governed by density functional theory potentials will reveal that the computational speedup relative to classical NEB scales superlinearly with the cost-per-evaluation of the underlying simulator, such that for DFT calculations on transition metal surfaces with adsorbed molecules (where single-point energies require hours of compute), NN-BAX will achieve three or more orders of magnitude reduction in total wall-clock time compared to classical NEB while maintaining energy barrier accuracy within 5% of the DFT ground truth, because the fixed BAX overhead becomes negligible relative to the avoided DFT evaluations and the EquiformerV2 foundation model's pretraining on OMat24 provides sufficient inductive bias to generalize to surface chemistry with fewer fine-tuning samples than required for the Lennard-Jones systems tested here."
+}

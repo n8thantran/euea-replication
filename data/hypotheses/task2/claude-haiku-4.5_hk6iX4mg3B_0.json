@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Ensemble consensus-based semi-supervised learning will demonstrate superior out-of-distribution generalization to unseen molecular databases compared to supervised baselines, because the moving ensemble targets provide implicit regularization that prevents overfitting to the specific chemical space of the labeled training set."
+}

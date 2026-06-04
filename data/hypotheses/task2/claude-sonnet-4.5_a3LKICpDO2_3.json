@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating guest molecule-induced electronic perturbations as additional features in the \u0394-learning framework will enable accurate prediction of band gap modulation in MOFs upon host-guest interactions, overcoming the current limitation of training only on pristine framework structures."
+}

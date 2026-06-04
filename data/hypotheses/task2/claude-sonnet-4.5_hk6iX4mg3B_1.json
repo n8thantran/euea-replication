@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIn molecular property prediction tasks where structural similarity does not guarantee label similarity (e.g., enantiomers with vastly different biological activity), a heterogeneous ensemble trained with consensus-based SSL using architectures with fundamentally different inductive biases (e.g., message-passing GNNs, Transformers, and 3D equivariant networks) will achieve superior predictive accuracy and calibration compared to homogeneous ensembles of the same total parameter count, because architectural diversity provides a more robust consensus signal that better captures distinct aspects of molecular structure-property relationships without relying on label-preserving augmentations."
+}

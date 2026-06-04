@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "The computational cost of HMC refinement in AMDEN scales prohibitively with system size and number of denoising steps; therefore, replacing the uniform HMC sampling schedule with an adaptive schedule that concentrates HMC iterations preferentially at intermediate diffusion times where the noise-energy landscape transitions from smooth to rugged (identifiable by the divergence point between forward and denoising trajectories, approximately t = 0.4 as observed in the paper) will achieve equivalent structural relaxation quality with significantly fewer total model evaluations, because barrier-crossing events critical for escaping metastable configurations are concentrated in this transitional regime rather than distributed uniformly across all diffusion timesteps."
+}

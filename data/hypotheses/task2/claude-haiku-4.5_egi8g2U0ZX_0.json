@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Combining transfer learning strategies sequentially\u2014where reinforcement learning is applied to a model first fine-tuned on domain-specific data rather than on a pre-trained general model\u2014will produce higher percentages of molecules passing material-specific filters than the currently optimal fine-tuning plus reinforcement learning approach, because the intermediate fine-tuning step creates a more stable reward landscape that prevents policy collapse and reduces the exploration-exploitation trade-off that currently causes the observed negative correlation between diversity and filter-passing metrics."
+}

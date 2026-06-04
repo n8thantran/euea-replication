@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Among the Si\u2013X alloy candidates identified by the AI framework as exhibiting invariant Li\u207a migration channel radii across lithiation states, those in which the stabilizing element X possesses a higher bulk modulus than silicon will demonstrate a quantitatively predictable linear relationship between the bulk modulus contrast (\u0394B = B_X \u2212 B_Si) and the slope of channel radius versus state-of-charge, such that alloys with \u0394B > 50 GPa will exhibit channel radius slopes below 0.3 \u00c5/100% \u2014 a threshold unachievable by nanostructuring or coating strategies alone \u2014 thereby establishing sublattice mechanical stiffness contrast as an independent, experimentally verifiable design rule for suppressing volumetric instability in silicon-based anodes."
+}

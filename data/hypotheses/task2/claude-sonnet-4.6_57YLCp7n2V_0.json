@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Systematic biases introduced by Kekulization during dataset preprocessing will differentially affect the learned latent representations of aromatic versus non-aromatic substructures across generative model architectures, such that models trained on Kekulized GEOM-Drugs will exhibit measurably lower torsion angle deviations for non-aromatic rings but higher deviations for fused polycyclic aromatic systems compared to models trained on the original aromatic bond representation, because the discrete alternation of single and double bonds in Kekulized forms introduces artificial asymmetry in bond-length distributions that propagates through equivariant message-passing layers and biases conformer sampling away from true GFN2-xTB energy minima for extended conjugated systems."
+}

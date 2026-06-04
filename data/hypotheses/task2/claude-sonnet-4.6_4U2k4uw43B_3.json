@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Fine-tuning pre-trained ML interatomic potentials (such as eSEN or eqV2) on stress-tensor-augmented active learning datasets generated specifically along SSNEB-converged pathways will disproportionately reduce stress prediction errors relative to energy and force errors, and this targeted stress correction will enable fully ML-only SSNEB calculations to achieve energy barriers within 5% of DFT reference values without any DFT restart step, thereby eliminating the hybrid workflow bottleneck identified in this paper."
+}

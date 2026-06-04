@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Machine learning models trained on Fe K-edge XAS spectra will exhibit significantly improved predictive performance for inferring iron coordination geometry when augmented with physics-informed constraints that enforce consistency between predicted spectral features and the known selection rules governing X-ray absorption transitions in transition metal complexes."
+}

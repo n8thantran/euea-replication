@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nTraining scientific foundation models on datasets that systematically sample phase space far from thermodynamic equilibrium will yield representations that exhibit higher cross-domain alignment than models trained primarily on equilibrium or near-equilibrium structures, even when tested on in-distribution data."
+}

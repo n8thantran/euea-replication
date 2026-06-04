@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Tensor completion models with adaptive rank selection that dynamically adjusts decomposition rank based on the sparsity pattern and local geometry of biased sampling regions will achieve superior generalization performance compared to fixed-rank tensor methods across diverse material design spaces with non-uniform experimental sampling distributions."
+}

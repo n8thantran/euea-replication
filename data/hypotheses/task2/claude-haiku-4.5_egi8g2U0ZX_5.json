@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Transfer learning models fine-tuned on small material-specific datasets will exhibit superior generalization to structurally novel CTF candidates outside their training chemical space compared to models pre-trained on larger general chemistry datasets, because the constrained optimization landscape of domain-specific fine-tuning reduces overfitting to common drug-like molecular features that are irrelevant to porous carbon frameworks."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Augmenting MatPROV graphs with explicit property nodes linked to the final material and training a graph neural network to predict those properties from the synthesis pathway will yield predictive performance significantly higher than models trained on synthesis structure alone."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "When one modality is intentionally corrupted or removed during inference, the cross-modal predictive architecture will exhibit asymmetric degradation in property prediction accuracy that correlates with the information-theoretic redundancy hierarchy among the three modalities, revealing which modality pair is most sufficient for capturing the underlying crystal system."
+}

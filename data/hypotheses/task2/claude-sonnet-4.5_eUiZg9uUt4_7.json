@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Augmenting training data with synthetically generated reaction examples using template-specific data augmentation (e.g., applying rare templates to diverse molecular scaffolds via forward synthesis) will disproportionately improve top-k accuracy for underrepresented reaction classes without degrading performance on common templates, thereby mitigating the class imbalance problem in single-step retrosynthesis models."
+}

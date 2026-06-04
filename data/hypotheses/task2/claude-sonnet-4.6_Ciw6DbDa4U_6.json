@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating an active learning strategy that iteratively selects the next biased sampling location to maximize uncertainty reduction in the tensor completion model's reconstruction will outperform both random uniform sampling and experimentalist-mimicking biased sampling in achieving high predictive accuracy (R\u00b2 > 0.95) for lattice structure mechanical properties with fewer than 50 total experimental observations."
+}

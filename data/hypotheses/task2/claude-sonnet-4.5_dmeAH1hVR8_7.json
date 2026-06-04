@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating topology-aware pre-training on synthetic MOF structures with systematically varied linker-node combinations will enable LLMs to predict stability and synthesizability of novel MOF candidates more accurately than models trained solely on experimentally reported structures and chemical literature."
+}

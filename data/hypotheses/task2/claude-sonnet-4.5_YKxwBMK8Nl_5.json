@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Structured preprocessing via single-agent pipelines improves extraction recall primarily by mitigating hallucination in tabular data parsing, but this advantage will disappear when extracting from figures containing reaction schemes or multi-step synthetic pathways where semantic relationships between disconnected visual elements must be inferred across page boundaries."
+}

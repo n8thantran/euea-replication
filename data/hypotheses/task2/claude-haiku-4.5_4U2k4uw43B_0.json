@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "ML models fine-tuned on transition-state structures through active learning will exhibit systematically lower stress prediction errors along minimum energy pathways compared to untrained models, thereby enabling single-stage ML-SSNEB convergence without DFT restart for materials within the training distribution."
+}

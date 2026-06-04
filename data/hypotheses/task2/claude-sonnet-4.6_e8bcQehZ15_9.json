@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Hierarchical steering vectors computed at multiple transformer layers simultaneously, weighted by layer-specific concept relevance scores derived from the CBM's gradient attribution, will outperform single-layer CAST steering for properties requiring both local chemical substructure control (such as functional group presence) and global molecular scaffold constraints, because different transformer layers encode chemical information at different levels of structural abstraction."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating lattice parameter constraints directly into the DPO reward function as a learnable weighting scheme, rather than as a fixed hierarchical penalty, will enable language models to discover BCC/B2 superalloys with improved phase stability across a wider temperature range while maintaining design space exploration."
+}

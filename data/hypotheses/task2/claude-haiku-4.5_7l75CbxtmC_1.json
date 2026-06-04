@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating real-time supply chain disruption data and geopolitical risk indices into the economic efficiency module will enable the workflow to identify synthesis routes that remain cost-effective under simulated future supply chain scenarios, thereby predicting which recipes will maintain profitability across multiple plausible geopolitical futures rather than only optimizing for current market conditions."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Synthesis procedures extracted from papers with higher structural complexity (more nodes and branching pathways) will exhibit stronger correlations between specific parameter combinations and final material properties than procedures with linear, sequential structures, enabling more accurate property prediction through graph-based machine learning models."
+}

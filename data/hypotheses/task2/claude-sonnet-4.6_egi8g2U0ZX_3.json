@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating a hierarchical reward function in reinforcement learning that explicitly penalizes generated molecules whose lattice node representations fail symmetry and conjugation criteria\u2014even when the corresponding substrate representations pass all filters\u2014will yield a higher percentage of CTF candidates satisfying material-specific constraints than reward functions defined independently at the substrate level, because the mesh-level structural requirements impose constraints on substrate design that are not recoverable through post-hoc filtering of substrate-only optimized molecules."
+}

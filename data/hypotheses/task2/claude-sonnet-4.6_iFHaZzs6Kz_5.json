@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Contrastive alignment between SMILES and 3D electron density grids will induce emergent invariance not only to global SO(3) rotations but also to local conformational changes, such that a model pretrained exclusively on single low-energy conformers will retrieve alternative conformers of the same molecule (differing by rotatable bond torsions) with significantly higher Recall@10 than a unimodal 3D baseline, because the invariant SMILES anchor forces the volumetric encoder to suppress conformer-specific spatial features in favor of topology-preserving chemical features\u2014and this conformer-invariance will be quantitatively stronger for rigid aromatic scaffolds than for flexible aliphatic chains, providing a falsifiable prediction testable by constructing a benchmark of molecules with systematically varied torsional states generated via RDKit conformer sampling."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Uncertainty-aware Direct Preference Optimization that incorporates calibrated physics-based uncertainty (e.g., ensemble Thermo-Calc predictions) into a risk-sensitive objective (mean reward minus a penalty for reward uncertainty) will reduce over-steering toward high-reward but uncertain regions, mitigate domain-critical token drift, and improve composition validity and design-space coverage across LLaMA-3.1, Gemma-2, and OLMo-2 models compared with standard DPO using point estimates."
+}

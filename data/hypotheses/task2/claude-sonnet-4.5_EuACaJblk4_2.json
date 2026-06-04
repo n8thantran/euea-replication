@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Training a structure-based sequence design model with an auxiliary structure prediction loss weighted by predicted structural confidence scores will yield sequences with higher experimental folding success rates than models trained with uniform loss weighting, as it will bias the encoder toward designing sequences in regions where the decoder demonstrates high structural prediction certainty."
+}

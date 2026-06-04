@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating a DFT+U correction specifically calibrated for 3d transition metal MOFs as an intermediate fidelity level in a multi-fidelity \u2206-learning cascade (GFN1-xTB \u2192 DFT+U \u2192 HSE06) will yield greater band gap prediction accuracy for transition-metal-containing MOFs than the two-level GFN1-xTB/HSE06 \u2206-learning scheme, because the explicit treatment of strong d-electron correlation at the DFT+U level will reduce the systematic underestimation of band gaps identified for Cr, Mn, Fe, Co, and Ni MOFs, providing a more informative correction signal that the XGBoost model can learn from with fewer high-fidelity HSE06 training points."
+}

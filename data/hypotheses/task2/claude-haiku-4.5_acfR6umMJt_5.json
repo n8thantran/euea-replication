@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "The NN-BAX method's efficiency gain will degrade non-linearly as system complexity increases beyond the tested Lennard-Jones clusters, such that the speedup factor will decrease by more than 50% when transitioning from LJ38 to realistic catalytic surfaces with >100 atoms and heterogeneous chemical environments not represented in the OMat24 pre-training distribution."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating ensemble-based uncertainty estimates from the physics feedback (Thermo-Calc) into the Direct Preference Optimization reward by penalizing high-uncertainty regions will reduce out-of-distribution drift in domain-critical tokens, improve cross-temperature synthesize-ability of generated BCC/B2 alloy triples, and maintain or increase design-space coverage and diversity compared to a deterministic feedback-only DPO."
+}

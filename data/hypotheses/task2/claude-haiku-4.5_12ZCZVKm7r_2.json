@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Models trained with explicit physical constraints (e.g., conservation laws, symmetry operations) will exhibit higher representational alignment with models trained purely on data-driven objectives when evaluated on physically anomalous or constraint-violating structures compared to physically valid structures."
+}

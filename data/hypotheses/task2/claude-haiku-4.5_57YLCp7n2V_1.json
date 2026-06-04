@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Models trained on Kekulized molecular representations will demonstrate superior generalization to out-of-distribution aromatic systems not present in the training set compared to models trained on explicit aromatic bond representations, despite comparable in-distribution performance on GEOM-Drugs."
+}

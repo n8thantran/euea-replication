@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Pharmacophore-guided generative models that dynamically weight pharmacophore features based on predicted protein binding pocket flexibility will produce molecules with superior in vitro binding affinity compared to static pharmacophore models, particularly for targets with multiple conformational states."
+}

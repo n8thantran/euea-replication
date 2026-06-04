@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the transformer model on a small set of experimentally measured ATR-IR mixture spectra that deliberately include compound pairs with strong intermolecular interactions (e.g., hydrogen-bond donors paired with acceptors, such as acids with amines) will disproportionately improve prediction accuracy for minority-concentration components compared to majority-concentration components, because the primary source of error for low-concentration targets is nonlinear spectral deviation from the linear superposition assumption rather than signal weakness per se, and this hypothesis is testable by comparing Top-10 accuracy gains at 10% versus 90% concentration levels before and after such interaction-focused fine-tuning against a control fine-tuned on non-interacting compound pairs."
+}

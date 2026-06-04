@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Fine-tuning SAM-EM on multi-lab experimental LPTEM data with varying microscope conditions, sample chemistries, and electron beam parameters will reveal that transfer learning performance degrades non-uniformly across these variables, such that model robustness to liquid thickness variations does not guarantee robustness to changes in beam dose rate or particle material composition, requiring domain-specific adapter modules rather than full model fine-tuning for true cross-lab generalization."
+}

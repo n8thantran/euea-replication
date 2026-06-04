@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating uncertainty-aware concentration estimation as an auxiliary output head\u2014trained jointly with the spectral alignment and structure prediction objectives\u2014will enable the model to propagate concentration uncertainty into its molecular candidate rankings, thereby yielding calibrated confidence scores that improve Top-1 accuracy for minority-component identification (\u226430% concentration) in imbalanced mixtures beyond what fixed concentration prompting achieves."
+}

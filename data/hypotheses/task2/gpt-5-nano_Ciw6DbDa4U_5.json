@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Introducing a Bayesian tensor completion framework that provides calibrated predictive uncertainty for lattice-performance surfaces will enable active-learning-driven experiment sequencing under biased sampling, yielding faster convergence to optimal lattice designs than deterministic tensor completion methods."
+}

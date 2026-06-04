@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Concept-based activation steering vectors computed from a concept bottleneck model will exhibit transferability across different molecular generation LLM architectures trained on distinct molecular datasets, such that steering vectors learned from one model can be linearly transformed to guide property-conditioned generation in another model without retraining the concept network."
+}

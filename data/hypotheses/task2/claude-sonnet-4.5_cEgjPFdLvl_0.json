@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit physical constraints through learned auxiliary potentials during HMC denoising will enable diffusion models to generate ultra-stable amorphous structures with energies lower than those achievable through conventional thermal annealing simulations alone."
+}

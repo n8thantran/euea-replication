@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The stereochemical graph augmentation strategy employed in LoQI will fail to accurately preserve axial chirality in allenes and atropisomers with rotation barriers below 20 kcal/mol, requiring dynamic edge weighting based on conformational interconversion timescales to achieve >90% stereochemical accuracy for these compound classes."
+}

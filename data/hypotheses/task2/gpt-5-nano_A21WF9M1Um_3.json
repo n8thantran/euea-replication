@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating a symmetry-conditioned generative prior that explicitly enforces space-group and Wyckoff-site constraints into an end-to-end XRD-to-structure pipeline, followed by energy-based refinement, will yield significantly higher recovery rates and fewer local minima than symmetry-projection-based gradient descent alone across diverse crystal families, even for novel (database-free) phases and under both lattice and coordinate noise."
+}

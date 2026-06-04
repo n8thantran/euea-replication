@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating DFT-derived band gap values as a physically grounded distributional property within the EMD framework will produce a metric that correlates significantly more strongly with SUN stability scores than either density-based or ML-predicted energy-based EMD variants, because band gap distributions are sensitive to both compositional validity and local atomic coordination geometry, thereby providing a computationally scalable proxy for thermodynamic feasibility that can be empirically validated by comparing Spearman rank correlations across the three EMD variants against SUN scores obtained from static DFT calculations on the same set of generated structures."
+}

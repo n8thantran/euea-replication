@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating an active learning acquisition strategy that sequentially selects the next lattice structure experiment to maximize information gain within the tensor completion framework will reduce the performance gap between tensor completion and Gaussian Process under uniform sampling conditions while simultaneously preserving tensor completion's advantage under biased sampling, because the structured low-rank inductive bias of tensor decomposition will guide acquisition toward systematically underrepresented tensor modes rather than relying solely on predictive uncertainty."
+}

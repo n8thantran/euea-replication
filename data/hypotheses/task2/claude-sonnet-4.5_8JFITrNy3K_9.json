@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Synthesis procedure graph topology predicts material property convergence: materials synthesized through procedures with higher graph branching complexity (measured by the ratio of convergent nodes to total nodes) will exhibit narrower distributions of functional properties compared to linearly-structured synthesis routes, due to increased opportunities for compositional homogenization at merge points."
+}

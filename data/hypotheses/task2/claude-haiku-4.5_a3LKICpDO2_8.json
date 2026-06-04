@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "The systematic underprediction of band gaps in MOFs containing 3d transition metals by GFN1-xTB can be compensated through a metal-specific delta-learning model trained on transition metal composition features, enabling accurate band gap prediction for this previously problematic subset without requiring hybrid DFT calculations for model training."
+}

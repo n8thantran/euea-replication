@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Si-based alloy anodes that maintain an invariant largest Li+ diffusion channel radius across lithiation and delithiation (Rt variation \u2264 0.15 \u00c5) will exhibit substantially reduced SEI growth\u2013driven lithium consumption and at least a twofold increase in cycle life at 1C in full Li-ion cells compared with Si\u2013X alloys that do not preserve Rt, demonstrating that channel-geometry invariance directly enhances practical cyclability."
+}

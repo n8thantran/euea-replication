@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Introducing dynamic surface patterns that undergo time-dependent structural rearrangements during polymer adsorption will create path-dependent binding free energy landscapes that cannot be accurately predicted by the static CNN-GRU attention model without incorporating recurrent temporal encoding of surface state evolution."
+}

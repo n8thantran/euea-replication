@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "A Bayesian tensor completion framework that yields calibrated uncertainty estimates, when used in an active-learning loop to select biased-sample experiments by maximizing expected information gain, will achieve higher predictive accuracy with fewer experiments than the current tensor-completion or GP baselines across multiple lattice geometries."
+}

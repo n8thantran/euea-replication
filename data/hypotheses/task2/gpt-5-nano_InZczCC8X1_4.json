@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Autonomous co-optimization of catalyst composition and electrode microstructure together with the six operating parameters will yield a reactor yield exceeding the current optimum of 44 mA cm\u22122 by enabling higher CO partial current density at comparable or higher CO2 utilization under realistic bicarbonate/carbonate capture electrolytes."
+}

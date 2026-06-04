@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "The regularization weights \u03b11 and \u03b12 in the physics-constrained diffusion model exhibit a non-monotonic relationship with generated composite validity and property prediction accuracy, such that intermediate weight values produce superior designs compared to either maximum constraint enforcement or unconstrained generation."
+}

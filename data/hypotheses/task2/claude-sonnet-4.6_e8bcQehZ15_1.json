@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Extending CAST to discrete or graph-structured molecular properties reveals a gap: the concept bottleneck model's learned embedding vectors **e**_i encode property-specific directions in the LLM's activation space that are linearly separable, and these directions will exhibit systematic geometric relationships (e.g., near-orthogonality for chemically independent properties like QED and logP, but measurable angular proximity for correlated properties like synthetic accessibility and molecular weight) that can be quantitatively predicted from the known physicochemical correlations between properties prior to any training, such that pre-initializing the embedding vectors **e**_i according to a correlation-derived orthogonal basis derived from a large molecular database will yield faster convergence and superior multi-property conditional generation accuracy compared to random initialization, particularly for out-of-distribution property combinations where the steering vectors must extrapolate beyond the training distribution."
+}

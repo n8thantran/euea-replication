@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Flow-matching models trained on Kekulized GEOM-Drugs with explicit torsional angle guidance during generation will achieve geometric quality comparable to diffusion-based models while maintaining computational efficiency, eliminating the observed performance gap between flow-matching and diffusion approaches."
+}

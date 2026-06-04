@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Combining dynamic batching with a graph-complexity-aware curriculum that sorts training samples by increasing node/edge count will reduce total recompilation events to near-zero while simultaneously accelerating model convergence, such that the resulting wall-clock time to reach a target validation RMSE will be lower than either dynamic batching alone or static-64 batching alone across datasets with heavy-tailed graph size distributions such as AFLOW."
+}

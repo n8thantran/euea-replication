@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "The hybrid CNN-GRU-Transformer model's attention mechanism will exhibit systematic failure modes when predicting binding free energies for polymer-surface systems where the optimal binding site location is physically incompatible with the learned spatial attention patterns from the training data, resulting in prediction errors that correlate with the degree of mismatch between polymer sequence periodicity and surface pattern periodicity."
+}

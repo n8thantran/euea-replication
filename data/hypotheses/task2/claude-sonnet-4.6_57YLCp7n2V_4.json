@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Systematic biases in GFN2-xTB geometry optimization failures are non-random with respect to molecular topology\u2014specifically, molecules containing strained ring systems, highly conjugated polycyclic frameworks, or reactive functional groups will exhibit disproportionately higher GFN2-xTB fragmentation rates, and training generative models on datasets that selectively exclude these chemotypes will introduce a measurable and quantifiable blind spot in the learned chemical space distribution, such that models trained on the filtered GEOM-Drugs dataset will generate molecules with statistically lower ring strain and fewer reactive substructures compared to models trained on the unfiltered dataset."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The concept-based steering vectors learned by CAST exhibit property-specific geometric structure in the activation space that enables zero-shot compositional generalization to unseen multi-property combinations, such that the angular relationship between learned concept embeddings predicts the degree of property interference during simultaneous multi-property steering."
+}

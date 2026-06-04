@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating MOF synthesis route descriptions and reaction condition text from literature (e.g., solvent type, temperature, reaction time) into the continual pre-training corpus will enable the LLM to learn implicit structure-property-synthesis relationships, such that the resulting model will outperform corpora lacking synthesis text on predicting properties of experimentally synthesized MOFs from CoRE MOF 2019 while showing no significant improvement on purely hypothetical MOF datasets like hMOF, where synthesis feasibility is unconstrained."
+}

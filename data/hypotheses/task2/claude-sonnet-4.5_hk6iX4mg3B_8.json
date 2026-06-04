@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nEnsemble consensus-based semi-supervised learning will exhibit superior out-of-distribution generalization compared to traditional supervised ensembles when the unlabeled data is drawn from a related but distinct chemical space (e.g., training on drug-like molecules while using unlabeled data from natural product libraries), because the consensus mechanism implicitly learns invariant molecular representations that are less dependent on dataset-specific biases."
+}

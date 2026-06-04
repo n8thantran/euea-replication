@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Applying targeted class-balancing techniques during training (such as focal loss or template-frequency reweighting) will improve top-k accuracy on rare templates without proportionally reducing top-5 round-trip accuracy on frequent templates, thereby breaking the observed trade-off between recall and feasibility."
+}

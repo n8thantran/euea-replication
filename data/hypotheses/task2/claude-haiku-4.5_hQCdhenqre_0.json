@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Models trained on diverse organic chemistry datasets exhibit degraded transferability to inorganic and organometallic systems due to fundamental differences in many-body correlation order requirements, which could be remedied by architecture-specific correlation order adaptation during transfer learning rather than fixed hyperparameter reuse."
+}

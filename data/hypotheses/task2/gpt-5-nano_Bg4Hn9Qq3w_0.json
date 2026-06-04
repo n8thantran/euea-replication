@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "An orchestrated swarm of heterogeneously prompted LLM agents, coordinated by a meta-agent that adaptively allocates reactor time and fuses their findings, will discover a more diverse and comprehensive set of ALP reaction pathways\u2014including ALD, ALE, ASD, and CVD-like regimes\u2014than any single agent under the same time budget, producing at least one pathway that remains undiscovered by all individuals."
+}

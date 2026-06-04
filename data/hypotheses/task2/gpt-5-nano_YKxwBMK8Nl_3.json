@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Integrating a chemistry-domain knowledge graph as a retrieval-augmented reasoning module in agent-based chemical information extraction will improve precision and recall on ChemX nanomaterial datasets\u2014particularly for hierarchical, multi-value records\u2014over baseline agentic pipelines that do not leverage knowledge-graph augmentation."
+}

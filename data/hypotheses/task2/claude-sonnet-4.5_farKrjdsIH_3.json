@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The temporal memory bank mechanism in SAM-EM's architecture encodes physics-specific priors about nanoparticle diffusion dynamics that can be extracted and transferred to predict material transformation pathways in chemically distinct LPTEM systems without additional fine-tuning."
+}

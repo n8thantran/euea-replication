@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating trajectory-level uncertainty quantification into acquisition functions will disproportionately improve discovery efficiency in high-dimensional chemical systems (quaternary and beyond) compared to binary/ternary systems, because structural diversity increases exponentially with compositional complexity, making epistemic uncertainty a more informative signal than compositional diversity alone for guiding exploration beyond the convex hull."
+}

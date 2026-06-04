@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "If the \u03b2 parameter in DPO controls the degree of distributional shift from the SFT policy, then dynamically scheduling \u03b2 across training\u2014starting high to preserve chemical grammar learned during SFT and gradually decreasing to allow greater reward-driven exploration\u2014will simultaneously prevent the over-steering failure mode observed in OLMo and yield larger mean reward improvements than fixed-\u03b2 DPO across all three model architectures, without sacrificing coverage recall or generated pair uniqueness."
+}

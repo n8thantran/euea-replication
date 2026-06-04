@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nTraining universal machine learning interatomic potentials on synthetically generated strained MOF configurations with systematically varied metal-linker coordination geometries will improve their ability to predict framework flexibility and guest-induced structural transitions beyond what is achievable through equilibrium-dominated datasets like OMat24."
+}

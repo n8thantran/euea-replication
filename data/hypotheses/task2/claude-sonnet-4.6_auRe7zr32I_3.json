@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating stereochemical diversity constraints into NaviDiv's adaptive penalty framework will reveal that reinforcement learning optimization for chiral molecular targets exhibits a stereochemical collapse phenomenon distinct from structural collapse\u2014where the model converges on a single enantiomeric or diastereomeric preference well before overall fingerprint-based diversity metrics detect any significant loss\u2014and that adding explicit stereocentre-aware penalties to the combined constraint regime will recover enantiodiverse candidate libraries while maintaining property optimization performance comparable to the fragment-only constraint regime."
+}

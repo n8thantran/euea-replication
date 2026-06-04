@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating an ensemble-derived, target-conformation pharmacophore representation into the pharmacophore-guided RL framework will yield de novo molecules that preferentially bind ER\u03b1 over ER\u03b2 while maintaining pharmacophore fidelity, novelty, and docking plausibility, compared to generation using a single static pharmacophore reference."
+}

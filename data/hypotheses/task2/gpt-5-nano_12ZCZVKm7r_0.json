@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Imposing a shared, physics-informed universal latent bottleneck in a jointly trained multi-domain foundation model (encompassing molecules, materials, and proteins) will yield a domain-agnostic subspace that drives higher cross-domain representation alignment and enables accurate zero-shot property prediction for unseen matter types using only symmetry-aware descriptors."
+}

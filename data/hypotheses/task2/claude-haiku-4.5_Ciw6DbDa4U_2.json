@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Tensor completion performance on biased sampling will degrade when the bias pattern itself varies across different design dimensions (i.e., when experimentalists exhibit inconsistent sampling preferences across different lattice geometry parameters), requiring adaptive rank selection strategies that differ from uniform-rank approaches."
+}

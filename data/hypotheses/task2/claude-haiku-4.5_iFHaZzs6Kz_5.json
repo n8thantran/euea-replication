@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Multimodal contrastive pretraining between SMILES and electron density grids will induce emergent SO(3) invariance in the 3D encoder specifically through selective suppression of high-frequency spatial modes in the latent representation, such that molecules differing only by rotation will exhibit systematically lower variance in their Fourier-transformed embeddings compared to chemically distinct molecules."
+}

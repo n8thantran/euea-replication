@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating smoothness constraints along physically meaningful dimensions of the tensor (e.g., ordering unit cell geometry types by structural similarity rather than arbitrarily) will further reduce the performance gap between tensor completion and Gaussian Process under uniform random sampling, such that CPD-S with geometry-informed factor ordering achieves statistically significantly higher R\u00b2 than standard CPD-S and matches or exceeds Gaussian Process performance at training set sizes below 100 samples."
+}

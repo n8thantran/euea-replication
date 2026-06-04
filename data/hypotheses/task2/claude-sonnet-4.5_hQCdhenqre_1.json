@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Training MLIP models with a dynamic force-filtering threshold that progressively relaxes during training epochs (starting strict and gradually increasing the maximum allowed per-atom force from 15 eV/\u00c5 to 25 eV/\u00c5) will improve both energy prediction accuracy on high-force conformations and MD simulation stability compared to models trained with a fixed force filter, without sacrificing performance on low-force equilibrium structures."
+}

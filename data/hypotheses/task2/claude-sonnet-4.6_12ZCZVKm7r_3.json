@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "If models trained with equivariance-inducing regularization (such as equigrad) achieve representational alignment comparable to architecturally equivariant models despite lacking built-in symmetry constraints, then systematically fine-tuning a non-equivariant general-purpose large language model on molecular property prediction tasks using equivariance-inducing loss terms will produce latent representations that align more strongly with state-of-the-art equivariant MLIPs than those of architecturally equivariant models trained on narrower chemical domains, demonstrating that learned physical inductive biases can substitute for architectural ones as a route to universal chemical representations."
+}

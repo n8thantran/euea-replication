@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Systematic fine-tuning of an LLM on a curated dataset of physics-based simulation trajectories\u2014where each trajectory encodes the full sequence of intermediate states, phase fractions, and temperatures produced by the JMA-kinetics simulator\u2014will yield a domain-adapted model whose synthesis route success rate on multi-phase, non-adjacent challenges (analogous to Challenges 2 and 3) significantly exceeds that of the prompt-tuned GPT-4o baseline, because the model will internalize the nonlinear mapping between compositional/thermal control inputs and resulting phase fraction evolution that cannot be conveyed through few-shot prompting alone."
+}

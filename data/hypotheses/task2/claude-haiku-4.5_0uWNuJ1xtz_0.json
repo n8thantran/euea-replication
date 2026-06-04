@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Multimodal molecular representations that are semantically aligned in the encoder's latent space will exhibit differential sensitivity to perturbations in molecular structure, such that representations capturing global topological features (e.g., molecular formula) degrade more gracefully under small structural modifications than representations encoding local connectivity patterns (e.g., SMILES), resulting in asymmetric robustness profiles that could enable representation-specific uncertainty quantification for molecular property predictions."
+}

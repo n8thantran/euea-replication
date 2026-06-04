@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "A per-instance reliability gate that estimates modality-wise uncertainty and dynamically selects or weights the two most informative modalities (graph, text, or XRD) to predict the third will improve downstream property MAE and resilience to missing/corrupted modalities in X-MoPA relative to the current two-to-one latent-space prediction approach."
+}

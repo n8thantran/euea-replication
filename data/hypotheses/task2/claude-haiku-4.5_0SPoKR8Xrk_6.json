@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "The asymmetric sensitivity of binding free energy to surface versus polymer composition observed in this work will diminish or reverse when considering dynamic surface reorganization, such that polymer sequence becomes the dominant determinant of adhesion strength in systems where surface patterns can rearrange in response to polymer adsorption."
+}

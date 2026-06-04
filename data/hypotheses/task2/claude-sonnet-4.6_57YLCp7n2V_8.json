@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Systematic biases in GFN2-xTB geometry optimization failures are non-random with respect to molecular topology\u2014specifically, molecules containing strained ring systems, highly conjugated heterocycles, or metal-coordinating functional groups will exhibit disproportionately higher fragmentation rates during GFN2-xTB optimization, such that removing these fractured structures from training data introduces a measurable topological bias in learned generative model distributions that can be detected as statistically significant underrepresentation of those substructure classes in generated molecules compared to the full unfiltered GEOM-Drugs dataset."
+}

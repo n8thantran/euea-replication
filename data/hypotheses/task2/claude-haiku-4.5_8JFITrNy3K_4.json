@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Synthesis procedures extracted as PROV-DM graphs from papers with higher structural complexity (more nodes and branching) will exhibit stronger predictive power for material property outcomes than those from simpler linear procedures, due to their capture of implicit causal relationships between parallel synthesis pathways and final material characteristics."
+}

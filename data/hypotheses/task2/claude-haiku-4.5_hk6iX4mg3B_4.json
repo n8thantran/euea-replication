@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "The ensemble consensus signal will be more effective for molecular property prediction when the unlabeled dataset is drawn from a chemically distinct domain than the labeled dataset, because the diversity of chemical space will increase the ambiguity term and force individual models to learn more robust representations rather than memorizing labeled-set-specific patterns."
+}

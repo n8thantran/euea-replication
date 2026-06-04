@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating a dynamic \u03b2 schedule during DPO training that decreases \u03b2 for domain-critical tokens (chemical elements and stoichiometric coefficients) while maintaining standard \u03b2 for other tokens will enable successful preference tuning across all model architectures, including OLMo, by preventing distributional collapse on chemistry-defining tokens while still achieving reward optimization."
+}

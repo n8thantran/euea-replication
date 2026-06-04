@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Ensemble consensus-based semi-supervised learning will exhibit superior performance gains when applied to molecular property prediction tasks where the unlabeled dataset is drawn from a different chemical space than the labeled dataset, compared to scenarios where both datasets are drawn from the same distribution."
+}

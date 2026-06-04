@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Pre-training generative models on domain-specific molecular datasets that share structural motifs with target materials (e.g., polycyclic aromatic hydrocarbons for porous carbons) will yield higher percentages of molecules passing material-specific filters than pre-training on general chemical databases like ChEMBL, even when the domain-specific dataset is orders of magnitude smaller."
+}

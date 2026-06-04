@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating uncertainty quantification from the EquiformerV2 ensemble predictions into the NN-BAX acquisition function will enable adaptive convergence criteria that reduce the total number of BAX iterations required by 30-50% compared to the fixed MAEi threshold approach, particularly for high-dimensional systems (>100 degrees of freedom) where model epistemic uncertainty correlates with proximity to transition states."
+}

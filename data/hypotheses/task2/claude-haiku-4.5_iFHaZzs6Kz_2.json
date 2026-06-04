@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Multimodal contrastive pretraining with non-invariant symbolic modalities (e.g., SMILES augmented with stereochemical descriptors or conformer-specific notations) will fail to induce emergent SO(3) invariance in 3D molecular encoders, revealing that the invariance property fundamentally depends on the symbolic anchor's rotational equivalence rather than the contrastive objective alone."
+}

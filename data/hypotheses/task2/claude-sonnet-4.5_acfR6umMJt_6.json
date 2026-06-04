@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Hypothesis: The NN-BAX framework's efficiency gains will scale superlinearly with transition complexity when applied to heterogeneous multi-metallic catalytic systems, achieving greater than 100-fold reduction in DFT evaluations for pathways with more than five intermediate minima compared to the 10-100-fold reduction observed in homogeneous Lennard-Jones systems."
+}

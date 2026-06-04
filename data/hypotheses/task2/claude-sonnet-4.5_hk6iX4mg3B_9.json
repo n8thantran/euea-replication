@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nEnsemble consensus semi-supervised learning will exhibit differential performance gains across molecular property types, with properties that depend on global molecular topology (e.g., dipole moment, polarizability) showing larger improvements from unlabeled data than properties determined primarily by local chemical environments (e.g., atomization energies, HOMO-LUMO gaps), due to the ensemble's ability to capture long-range structural correlations more effectively than single models."
+}

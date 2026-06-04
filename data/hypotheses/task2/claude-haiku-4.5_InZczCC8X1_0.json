@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "The trade-off between CO2 utilization and CO production rate that limits reactor yield at the current silver catalyst loading can be overcome by implementing a spatially-stratified catalyst architecture where bicarbonate concentration and applied current density are independently optimized across distinct catalyst regions along the flow direction, such that upstream regions operate at high CO2 utilization conditions while downstream regions operate at high CO production conditions."
+}

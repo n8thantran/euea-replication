@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "If the Gumbel-Softmax temperature \u03c4 during training is annealed not on a fixed schedule but adaptively in response to the current self-consistency loss\u2014decreasing \u03c4 faster when structure recovery is improving and slower when it plateaus\u2014then the encoder will learn sequence distributions that more effectively balance discrete sequence commitment with gradient signal quality, resulting in superior self-consistency TM-scores compared to fixed annealing schedules without sacrificing sequence recovery performance."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating SEM images from intermediate cycling stages (e.g., 25, 50, and 75 cycles) as an auxiliary pretraining domain between the additive-free source domain and the additive-containing target domain will create a morphological degradation continuum that reduces the representational gap during fine-tuning, thereby enabling the two-stage transfer learning framework to achieve equivalent classification performance (\u22650.98 F1) on additive-containing aged cathodes with 50% fewer labeled target-domain samples than currently required."
+}

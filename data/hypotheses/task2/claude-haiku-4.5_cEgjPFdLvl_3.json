@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating learnable temperature parameters into the energy-based score function during HMC refinement will enable AMDEN to generate relaxed amorphous structures across different cooling rates without requiring separate models trained on data with specific thermal histories."
+}

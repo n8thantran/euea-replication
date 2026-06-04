@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Augmenting SMILES-based foundation model embeddings with physics-informed transport descriptors derived from a differentiable Nernst\u2013Planck surrogate will improve both the accuracy and out-of-distribution generalization of electrolyte formulation\u2013to\u2013device performance predictions across unseen temperature and composition regimes, compared to SMILES-only embeddings."
+}

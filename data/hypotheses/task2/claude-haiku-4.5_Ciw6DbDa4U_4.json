@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Tensor completion models will exhibit superior generalization to out-of-distribution lattice geometries and material classes not represented in the training data compared to traditional machine learning methods, because the learned factor matrices capture underlying low-rank structure in the design space that generalizes across structurally similar but unseen material families."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit electronegativity difference tensors between shell 1 and shell 2 elements as an additional conditioning signal in the latent diffusion model will improve adsorption energy prediction accuracy and generation fidelity for multi-adsorbate systems beyond single-atom adsorbates, because charge transfer effects at the active site are governed by inter-shell electronegativity gradients that the current periodic table representation encodes only implicitly through spatial proximity rather than directly as a learnable chemical descriptor."
+}

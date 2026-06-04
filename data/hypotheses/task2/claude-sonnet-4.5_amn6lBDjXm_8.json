@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating a physics-informed regularization term during diffusion model training that penalizes structures with high predicted energy-above-hull values will increase the fraction of stable structures (SUN metric) by at least 50% while maintaining comparable RMSD and latent-space diversity metrics."
+}

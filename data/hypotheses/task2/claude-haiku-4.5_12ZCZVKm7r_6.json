@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Models trained with explicit multi-domain objectives (jointly on molecules, materials, and proteins) will exhibit systematically lower representation alignment with single-domain models than single-domain models exhibit with each other, despite achieving comparable or superior downstream task performance, indicating a fundamental trade-off between representational universality and domain-specific optimization."
+}

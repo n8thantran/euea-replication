@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Dynamically adjusting the orthogonality constraint (\u03bb) during CBM training based on the correlation structure of target molecular properties will improve CAST's ability to generate molecules satisfying highly correlated property combinations (e.g., molecular weight and LogP) compared to the fixed \u03bb=1 approach."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "The accuracy degradation of GFN1-xTB for transition metal-containing MOFs due to poor treatment of d-electron correlation can be systematically corrected by training a separate \u03b4-learning model specifically on transition metal MOFs using DFT+U calculations as the high-fidelity reference, which would enable accurate band gap predictions across the entire MOF chemical space without requiring computationally expensive hybrid functional calculations."
+}

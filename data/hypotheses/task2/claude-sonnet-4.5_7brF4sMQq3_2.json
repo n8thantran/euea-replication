@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "The reaction coordinate approximation via score difference (s^B - s^A) will fail for systems with multiple competing pathways of similar barrier heights, necessitating a time-dependent weighting scheme that dynamically adjusts the contribution of each conditional score based on local curvature of the potential energy surface during the Score-Aligned Ascent optimization."
+}

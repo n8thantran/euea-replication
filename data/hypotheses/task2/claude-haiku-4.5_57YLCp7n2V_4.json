@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Generative models trained on Kekulized molecular representations will exhibit improved transfer performance to downstream tasks (e.g., property prediction, docking) compared to models trained on aromatic representations, because the removal of ambiguous aromatic bond valency assignments reduces learned structural noise and produces conformations more consistent with semi-empirical quantum chemical energy landscapes beyond GFN2-xTB."
+}

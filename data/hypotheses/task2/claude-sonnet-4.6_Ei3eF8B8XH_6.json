@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit solvent molecule interactions through a hybrid implicit-explicit solvation encoding in the graph augmentation scheme\u2014representing first-shell water or co-solvent molecules as auxiliary nodes with learned interaction edges\u2014will improve LoQI's conformer accuracy for polar, hydrogen-bond-rich drug-like molecules by better capturing solvent-induced conformational preferences that the current CPCM-only implicit solvent model systematically underestimates, as evidenced by a measurable reduction in RMSD to crystal structures for molecules with high polar surface area compared to the implicit-solvent-only baseline."
+}

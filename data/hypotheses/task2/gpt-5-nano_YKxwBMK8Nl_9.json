@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Augmenting a domain-specific agentic information extractor with a retrieval-augmented reasoning module that consults a structured chemistry knowledge base (including SMILES mappings, ontology relations, and literature-validated property associations) during document preprocessing and reasoning will improve cross-domain generalization and increase the F1 score by at least 0.12 on high-complexity ChemX nanomaterial and small-molecule datasets compared to the best existing single-agent baseline."
+}

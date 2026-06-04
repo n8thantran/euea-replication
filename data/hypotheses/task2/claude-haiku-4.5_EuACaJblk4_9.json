@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "The degree of sequence-structure degeneracy during end-to-end training varies systematically with protein fold complexity, such that models trained on proteins with higher fold complexity will learn sequence distributions with greater entropy that generalize better to novel backbone topologies not seen during training."
+}

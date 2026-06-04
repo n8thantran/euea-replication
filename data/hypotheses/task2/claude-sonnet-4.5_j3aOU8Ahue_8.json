@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "## Hypothesis\n\nIncorporating physics-informed constraints derived from electrochemical impedance spectroscopy (EIS) into the transfer learning framework will enable accurate prediction of battery degradation mechanisms (e.g., solid electrolyte interphase growth vs. active material loss) from SEM images alone, even when EIS data is unavailable at inference time."
+}

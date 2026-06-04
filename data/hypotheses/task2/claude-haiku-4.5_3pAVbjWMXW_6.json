@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "The spectral reconstruction alignment mechanism will exhibit differential effectiveness across molecular classes with varying degrees of spectral overlap, such that compounds with sparse, non-overlapping functional group signatures will show diminished alignment benefits compared to structurally similar isomers whose spectra exhibit substantial peak interference."
+}

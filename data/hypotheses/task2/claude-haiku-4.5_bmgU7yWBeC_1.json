@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "The Force Delta uncertainty metric will exhibit systematically degraded predictive performance on materials systems containing chemical elements or bonding motifs absent from the training data of the underlying NNIP, due to the decoupling between internal physical consistency violations and true out-of-distribution error when the model lacks the representational capacity to learn appropriate conservative force fields for novel chemistry."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Combining the material-specific filter criteria into a single differentiable scoring function and using it as the primary optimization objective in a multi-objective Bayesian optimization loop\u2014rather than as a post-hoc evaluation metric\u2014will yield a higher percentage of CTF candidates passing all expert filters than reinforcement learning alone, because it explicitly navigates the trade-off between structural diversity and property exploitation that the paper identifies as a fundamental tension in generative materials discovery."
+}

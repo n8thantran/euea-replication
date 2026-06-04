@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "The interpolation weight \u03ba in Score-Based Interpolation, when dynamically adapted using the local curvature of the potential energy surface rather than fixed isodensity conditions, will more accurately locate transition states in systems with asymmetric energy barriers\u2014where reactant and product basins have substantially different widths or depths\u2014because the equal-density criterion implicitly assumes symmetric free energy landscapes, and curvature-weighted interpolation would correct for this bias, yielding committor distributions more sharply peaked at q = 0.5 for asymmetric systems such as enzymatic reactions or post-translational modification events."
+}

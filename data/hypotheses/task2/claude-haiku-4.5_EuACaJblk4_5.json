@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit sidechain entropy regularization during end-to-end training will improve self-consistency of designed sequences by reducing the model's tendency to overfit to single low-energy conformations and instead learn sequence distributions that are robust to the conformational heterogeneity present in native proteins."
+}

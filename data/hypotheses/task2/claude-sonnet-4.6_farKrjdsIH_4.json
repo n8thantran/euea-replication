@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating multi-modal electron beam condition parameters (dose rate, accelerating voltage, and beam current) as explicit conditioning inputs during SAM-EM fine-tuning will enable the model to dynamically adapt its segmentation confidence thresholds to predicted SNR levels, thereby achieving significantly higher temporal identity stability and lower centroid deviation than the current fixed-architecture approach across the full experimental range of liquid thicknesses from 5 nm to 160 nm, including previously uncharacterized intermediate regimes where SNR degradation is nonlinear."
+}

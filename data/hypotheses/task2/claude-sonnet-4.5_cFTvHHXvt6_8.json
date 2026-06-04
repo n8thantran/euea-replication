@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable, physics-informed perceptual loss function that directly optimizes CIE76 \u0394E during decoder training, rather than relying solely on token-level cross-entropy, will significantly reduce the generalization gap between training-paraphrase and held-out validation performance while maintaining constraint satisfaction."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Applying automated machine learning-based threshold optimization to diversity constraint parameters will enable context-dependent constraint tuning that maintains optimization speed comparable to baseline while preserving diversity levels equivalent to manually-tuned combined constraints across diverse molecular design tasks beyond singlet fission materials."
+}

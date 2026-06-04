@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Fine-tuning pre-trained ML interatomic potentials (such as eSEN or eqV2) on stress-tensor-augmented active learning datasets generated specifically along SSNEB transition pathways will disproportionately reduce stress prediction errors relative to energy and force errors, and this targeted stress correction will eliminate the symmetry-breaking artifacts currently observed during VASP restarts, thereby achieving DFT-equivalent accuracy in ML-only SSNEB calculations without any DFT refinement step."
+}

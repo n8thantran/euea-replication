@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating local magnetic moment descriptors derived from GFN1-xTB calculations into the \u0394-learning framework will reduce prediction errors for 3d transition metal-containing MOFs by more than 50% compared to the current model, as these descriptors will better capture the open-shell electronic configurations and strong correlation effects that currently limit GFN1-xTB accuracy in these systems."
+}

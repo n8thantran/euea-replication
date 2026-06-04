@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating domain-specific chemical ontology constraints during the preprocessing and prompt engineering stages will significantly improve extraction performance for complex chemical structures and relationships compared to unconstrained LLM-based approaches, particularly by reducing false positives in SMILES generation and hierarchical property extraction."
+}

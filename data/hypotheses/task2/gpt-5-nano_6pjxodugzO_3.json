@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Integrating physics-informed priors derived from mesoscale ion transport theory into SMILES-based foundation model embeddings to jointly predict formulation-level and device-level performance will improve out-of-distribution generalization and predictive uncertainty calibration for novel electrolyte formulations beyond the training distribution."
+}

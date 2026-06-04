@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Loqi-generated conformer ensembles will exhibit lower accuracy in predicting ligand binding poses for protein targets where the bound conformation lies in a high-energy region of the implicit solvent energy landscape compared to targets where bioactive conformations are near global minima."
+}

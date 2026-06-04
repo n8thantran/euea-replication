@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Pharmacophore similarity derived from CATS descriptors will show differential predictive validity for binding affinity across structurally diverse protein targets, such that the same pharmacophore-guided reward function will generate molecules with higher docking scores for targets with conserved binding pocket geometries compared to targets with variable or allosteric binding modes."
+}

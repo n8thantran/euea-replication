@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Given that LoQI was trained exclusively on implicit solvent (CPCM) optimized conformers yet demonstrates robust generalization to crystal-bound ligand conformations in the Platinum Diverse dataset, explicit incorporation of protein-ligand interaction potentials during diffusion training would enable direct generation of bioactive conformers with improved binding pose accuracy compared to post-hoc docking of solution-phase structures."
+}

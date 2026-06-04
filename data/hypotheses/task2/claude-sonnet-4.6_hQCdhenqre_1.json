@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating molecular charge as a model input feature\u2014which the authors identify as a planned future capability\u2014will disproportionately improve MD simulation stability and force prediction accuracy for drug-like molecules containing ionizable groups (amines, carboxylic acids, phosphates) compared to neutral organic molecules, such that a charge-conditioned MACE model trained on the full SPICE2 dataset including the 142,647 currently excluded non-neutral structures will reduce force MAE by more than 30% on solvated amino acid subsets relative to the charge-agnostic pre-trained models presented here, while maintaining or improving simulation stability on the existing benchmark systems 1UAO and 1ABT."
+}

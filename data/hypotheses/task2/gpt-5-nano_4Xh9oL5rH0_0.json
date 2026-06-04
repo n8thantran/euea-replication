@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Augmenting universal MLIPs with a differentiable long-range electrostatics module that combines charge equilibration with polarization terms will improve the stability of structural optimizations and the accuracy of MD-predicted properties (e.g., bulk modulus and heat capacity) for MOFs with open metal sites under non-ambient conditions (temperatures 400\u2013800 K and pressures 1\u20135 GPa), and this improvement will generalize to MOFs not represented in the training data (zero-shot MOFs)."
+}

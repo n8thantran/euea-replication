@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Materials with invariant Li-ion migration channel dimensions across lithiation cycles will exhibit superior cycling stability only if the alloying elements form strong chemical bonds with the Si framework that resist mechanical shear stress during volumetric expansion, rather than merely providing geometric support through lattice architecture."
+}

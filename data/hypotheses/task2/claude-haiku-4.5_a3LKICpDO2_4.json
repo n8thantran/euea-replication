@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "The systematic underestimation of band gaps in MOFs containing 3d transition metals by GFN1-xTB due to inadequate treatment of strong correlation effects can be compensated through a metal-specific \u03b4-learning correction model trained separately for each transition metal class, which will achieve comparable prediction accuracy to the current universal model while enabling mechanistic insights into how d-electron correlation strength varies across the transition metal series."
+}

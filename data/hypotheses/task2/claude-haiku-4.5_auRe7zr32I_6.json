@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Dynamically optimizing diversity constraint thresholds through meta-learning on task-specific property-diversity trade-off curves will enable generative models to achieve superior Pareto-optimal solutions compared to fixed threshold approaches across diverse molecular design objectives."
+}

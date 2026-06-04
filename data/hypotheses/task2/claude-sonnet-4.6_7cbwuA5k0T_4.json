@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Fine-tuning or continual pre-training of foundation models on domain-specific scientific corpora (e.g., spectroscopy literature and molecular structure databases) will yield greater performance improvements on knowledge-intensive agentic tasks than any combination of tool provisioning and framework engineering, and this gain will be predictable by the reduction in embedding distance between task descriptions and the model's internal representations of relevant domain concepts."
+}

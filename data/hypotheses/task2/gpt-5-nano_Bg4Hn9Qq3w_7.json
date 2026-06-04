@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Adaptive prompting that continually updates the agent's exploration objectives (based on in-situ summary data and prior experiment outcomes) will increase both the speed and breadth of discovering self-limiting ALD/ALE or related surface reactions in the ALP reactor simulation, relative to a fixed-prompt agent given the same time budget, and this advantage will persist across different precursor kinetic settings."
+}

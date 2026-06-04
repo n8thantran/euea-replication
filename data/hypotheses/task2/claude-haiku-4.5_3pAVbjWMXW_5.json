@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Models trained on linear mixture spectra will fail to generalize to non-linear mixture spectra where intermolecular interactions (hydrogen bonding, charge transfer complexes, or aggregation) cause the combined spectrum to deviate significantly from the linear superposition of pure component spectra."
+}

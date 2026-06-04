@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "The \u2206-learning model's superior performance for MOFs containing transition metals with open-shell d-electrons will degrade significantly when applied to MOFs with lanthanide or actinide f-block metals due to the inability of both GFN1-xTB parameterization and hybrid DFT functionals to adequately capture strong correlation effects in f-electron systems, resulting in larger and less systematic \u03b4-corrections that cannot be reliably learned by the XGBoost model."
+}

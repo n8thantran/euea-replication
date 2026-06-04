@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Deploying a swarm of LLM agents with systematically varied model temperatures to explore the same ALP reactor simulation in parallel, with a meta-agent that dynamically weights and synthesizes their findings based on experimental novelty scores, will achieve greater coverage of rare chemical interaction regimes (such as passivation-protected ALE cycles) within a fixed total experimental time budget than either a single high-capability agent or multiple agents running independently without cross-communication."
+}

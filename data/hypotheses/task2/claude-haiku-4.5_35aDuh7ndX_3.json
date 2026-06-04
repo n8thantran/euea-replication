@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Molecules generated with pharmacophore-guided reinforcement learning will exhibit superior binding selectivity and reduced off-target activity against non-estrogen receptor proteins compared to docking-optimized molecules, despite showing lower absolute docking scores to the primary target."
+}

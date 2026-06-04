@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Synthesis procedures with higher graph branching complexity (measured by the ratio of convergence nodes to total nodes) will exhibit stronger correlations with emergent material properties than linear procedures, as branching structures enable intermediate product optimization that is undetectable through endpoint-only analysis."
+}

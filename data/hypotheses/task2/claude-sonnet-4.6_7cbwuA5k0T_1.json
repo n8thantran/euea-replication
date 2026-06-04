@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Fine-tuning a base LLM on domain-specific reasoning traces generated from high-performing agentic workflows in well-aligned environments (e.g., OpenCatalyst or ML) will not transfer performance improvements to low-alignment environments (e.g., Spectra), because the bottleneck in low-alignment settings is the semantic gap between task requirements and available tools rather than the model's general reasoning capacity\u2014meaning that embedding-similarity-guided tool augmentation will produce larger performance gains than continued model fine-tuning when tool-task cosine distance exceeds a measurable threshold."
+}

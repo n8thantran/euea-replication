@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "The quality of ASTRA's transition state sampling will degrade systematically as the number of intermediate metastable states between reactant and product increases, because the score-based interpolation between only two endpoint distributions cannot capture the sequential energy barriers of multi-step reaction networks; however, this limitation can be overcome by applying ASTRA iteratively in a chain-of-states fashion\u2014where each identified transition state serves as a boundary condition for training new conditional score models on adjacent intermediates\u2014such that the committor values of sampled configurations in multi-step pathways (three or more minima) will converge to 0.5 with accuracy comparable to single-step systems only when this iterative chaining strategy is employed."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Integrating domain-specific chemical property prediction models as feedback signals into the diversity constraint generation process will enable adaptive threshold optimization that automatically balances property optimization and diversity preservation without manual tuning, thereby outperforming fixed-threshold constraint regimes across diverse molecular design tasks."
+}

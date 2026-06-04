@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating a sequence-level, physics-informed loss that directly penalizes spectral prediction error rather than token-level cross-entropy will reduce the generalization gap between training-paraphrase and validation performance more effectively than increasing decoder depth alone."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating a confidence estimation head into E2EFOLD's decoder that predicts per-residue prediction uncertainty will reveal that the correlation between E2EFOLD and Boltz-2 prediction errors (Spearman's \u03c1 = 0.60) is driven primarily by structurally ambiguous regions, and that using this uncertainty signal as a dynamic loss weight during end-to-end training\u2014downweighting high-uncertainty residues in the structure recovery objective\u2014will improve self-consistency TM-scores by selectively pressuring the encoder to avoid designing sequences that encode structurally ambiguous backbone regions."
+}

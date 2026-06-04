@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Tensor completion performance on biased sampling will degrade monotonically as the bias pattern becomes more complex (e.g., multi-dimensional bias across multiple design parameters simultaneously) compared to single-parameter bias, suggesting a fundamental limit to the method's robustness that scales with the dimensionality of the bias structure."
+}

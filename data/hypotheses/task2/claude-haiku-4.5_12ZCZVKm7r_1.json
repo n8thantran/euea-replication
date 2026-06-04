@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Models trained with explicit multi-domain objectives (jointly on molecules, materials, and proteins) will exhibit systematically higher representational alignment with out-of-distribution data compared to single-domain models, because their learned representations capture domain-invariant physical principles rather than dataset-specific statistical patterns."
+}

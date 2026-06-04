@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating active learning into the tensor completion framework\u2014where the surrogate model iteratively selects the next most informative lattice structure to experimentally validate based on uncertainty estimates from the incomplete tensor reconstruction\u2014will reduce the total number of experimental observations required to identify the globally optimal lattice structure by at least 30% compared to both uniform random sampling and biased sampling strategies, particularly in high-dimensional design spaces where the tensor exhibits low-rank structure."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Multi-agent swarm architectures with deliberately randomized initial experimental conditions and variable model temperatures will discover a greater diversity of rare chemical reaction pathways in complex ALP systems than single-agent approaches, with the probability of discovering low-frequency effects scaling predictably with the number of independent agent trajectories deployed."
+}

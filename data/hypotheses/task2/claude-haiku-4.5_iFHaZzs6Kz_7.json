@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Contrastive multimodal alignment with invariant symbolic anchors will induce emergent SO(3) invariance in 3D molecular encodings even when trained on non-canonical molecular poses, provided the symbolic modality is sufficiently expressive to disambiguate stereoisomers and conformational states."
+}

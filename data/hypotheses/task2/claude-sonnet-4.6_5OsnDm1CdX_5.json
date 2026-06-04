@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "When predicting etching rates for three-or-more component gas mixtures using the GraphSAGE framework, edge features encoding pairwise chemical interaction parameters (such as reaction rate constants or ionization cross-sections between species pairs) will yield significantly higher predictive accuracy than node-feature-only representations, because the increased combinatorial complexity of multi-component plasma chemistry encodes interaction information that cannot be adequately captured by aggregating individual single-gas embeddings alone."
+}

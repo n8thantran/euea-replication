@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "The Force Delta uncertainty metric will exhibit systematic degradation in predictive power for direct-force neural network potentials trained on heterogeneous multi-material datasets compared to single-material potentials, due to increased internal inconsistency between conservative and non-conservative force predictions arising from conflicting optimization objectives across chemically diverse training distributions."
+}

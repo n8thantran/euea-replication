@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Transfer learning models that incorporate multi-objective optimization with dynamic reward weighting\u2014where the relative importance of material-specific criteria (porosity, conductivity, symmetry) is adjusted based on real-time feedback from experimental validation\u2014will generate candidate CTF molecules with higher success rates in actual synthesis than models using fixed, equally-weighted reward functions."
+}

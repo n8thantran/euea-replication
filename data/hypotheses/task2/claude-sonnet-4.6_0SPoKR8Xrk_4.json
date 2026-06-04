@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "If the CNN-GRU attention-based model's cross-attention weights are analyzed as a function of polymer sequence position versus surface spatial coordinates, then specific attention patterns will emerge that encode physically interpretable \"complementarity rules\" \u2014 whereby strong-bead clusters on the polymer preferentially attend to spatially contiguous strong-bead patches on the surface above a critical patch size threshold \u2014 and these learned rules will quantitatively predict a non-monotonic relationship between surface patch correlation length and binding free energy that cannot be captured by composition alone, a prediction that can be falsified by generating new umbrella sampling simulations of surfaces with identical composition but systematically varied patch sizes (controlled via the Ising coupling constant J) and comparing observed \u0394F values against model-extrapolated trends."
+}

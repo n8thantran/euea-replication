@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "When LLM-based agents are equipped with persistent episodic memory of previously failed simulation setups and their corrections, they will demonstrate significantly improved performance on novel materials characterization tasks by generalizing error patterns across structurally similar systems, even without explicit retraining or prompt modification."
+}

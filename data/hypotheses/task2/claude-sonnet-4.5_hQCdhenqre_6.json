@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Hypothesis: Incorporating explicit angular momentum conservation constraints into the message-passing layers of E(3)-equivariant graph neural networks will improve the long-term stability of molecular dynamics simulations for systems undergoing significant rotational motion, without sacrificing inference speed or energy prediction accuracy."
+}

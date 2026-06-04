@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Machine learning models trained on Fe K-edge XAS spectra will generalize to predict the coordination environment of other first-row transition metals (Mn, Co, Ni, Cu) without retraining, provided the spectra are normalized by their respective absorption edge energies and the models are fine-tuned with only 10-20% labeled data from each new metal."
+}

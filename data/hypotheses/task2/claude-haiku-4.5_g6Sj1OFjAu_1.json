@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "The generalization performance of CompGen will degrade significantly when applied to catalytic surfaces with adsorbates containing multiple bonding atoms (e.g., *N2, *CO2) compared to single-bonding-atom adsorbates, because the two-shell composition representation cannot capture the distinct electronic coupling effects arising from multiple simultaneous adsorbate-surface interactions."
+}

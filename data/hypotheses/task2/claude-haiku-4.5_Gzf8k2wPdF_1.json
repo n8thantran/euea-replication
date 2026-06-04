@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Adaptive batching algorithms that dynamically adjust padding targets during training based on real-time monitoring of gradient variance will reduce training time by more than 2.7x compared to static batching while simultaneously improving model convergence speed and generalization performance across datasets with heterogeneous graph size distributions."
+}

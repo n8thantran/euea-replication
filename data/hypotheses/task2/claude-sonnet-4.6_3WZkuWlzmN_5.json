@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "When one modality is systematically corrupted or absent during fine-tuning (simulating real-world experimental scenarios where XRD patterns or text descriptions are unavailable), the cross-modal predictive pretraining in X-MoPA will enable more robust property prediction than single-modality baselines by leveraging the learned inter-modal redundancy structure, such that models pretrained with all three modalities will exhibit smaller performance degradation under single-modality inference compared to models trained from scratch on only one modality\u2014and this robustness gap will be largest for properties (such as band gap) whose prediction relies most heavily on long-range structural information encoded preferentially in the XRD modality."
+}

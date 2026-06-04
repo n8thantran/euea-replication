@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "If the CNN-GRU-Transformer model trained on coarse-grained binary bead sequences is extended to encode continuous, multi-valued interaction parameters (e.g., a spectrum of \u03b5 values rather than binary strong/weak classifications) as input features, then the resulting model will reveal non-monotonic, composition-dependent optima in binding free energy\u2014specifically, intermediate surface heterogeneity fractions will produce stronger adhesion than either fully homogeneous or maximally heterogeneous surfaces for polymers with complementary block architectures\u2014a phenomenon that cannot be detected within the current binary framework but would be experimentally testable via systematic synthesis of gradient-composition self-assembled monolayers paired with force spectroscopy measurements."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "The computational cost of HMC denoising in AMDEN scales prohibitively with system size because HMC iterations require repeated gradient evaluations through the full EGNN; therefore, replacing the global HMC equilibration with a localized, atom-neighborhood-restricted Monte Carlo scheme\u2014where only atoms within a dynamically identified high-energy subgraph undergo stochastic refinement at each denoising step\u2014will achieve equivalent structural relaxation quality (as measured by radial distribution functions and potential energy distributions) while reducing inference cost by at least an order of magnitude, and this reduction will be most pronounced for multi-element glasses where compositional heterogeneity creates spatially isolated high-energy environments rather than globally frustrated configurations."
+}

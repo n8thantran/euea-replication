@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Among Si\u2013X alloy anodes identified as having stable Li\u207a migration channel sizes across lithiation states, the specific identity of the alloying element X will determine a quantifiable threshold channel radius (Rt*) below which electrochemical cycling stability degrades precipitously, such that alloys maintaining Rt consistently above this element-specific threshold will exhibit cycle life improvements of at least twofold compared to those with equivalent average Rt but higher variance, a relationship testable by correlating CHGNet-computed per-cycle channel radius distributions against experimental capacity retention curves across a systematic series of Si\u2013X binary anodes spanning groups 13\u201315 of the periodic table."
+}

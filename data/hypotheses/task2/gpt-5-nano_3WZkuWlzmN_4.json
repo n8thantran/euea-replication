@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "A per-sample learned modality-pair selector that adaptively chooses the two modalities most informative for predicting the third (instead of random pairing) will yield lower MAE on Matbench properties and improved robustness to missing modalities, indicating better generalization to unseen crystal classes."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Multimodal foundation model pretraining that jointly encodes SMILES, 3D conformers, and explicit solvent\u2013ion interaction graphs for battery electrolytes will improve out-of-distribution generalization to unseen solvent/salt formulations and device configurations, yielding significantly lower MAE in predicting device-scale metrics (CE, capacity, IC) than SMILES-only foundation models on a hold-out test set with novel moieties."
+}

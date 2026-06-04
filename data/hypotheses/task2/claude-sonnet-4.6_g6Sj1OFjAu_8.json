@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit electronegativity difference tensors between shell 1 and shell 2 elements as an additional conditioning signal in the latent diffusion model will improve adsorption energy prediction accuracy and generation fidelity for multi-adsorbate systems, because charge transfer effects across shell boundaries\u2014which are currently unrepresented in CompGen's conditioning scheme\u2014systematically govern binding strength variations that cannot be captured by composition ratios alone, and this hypothesis is testable by comparing FD, Leakage, and Cosine Similarity metrics with and without the electronegativity-difference conditioning on held-out OC20 and HEA test sets."
+}

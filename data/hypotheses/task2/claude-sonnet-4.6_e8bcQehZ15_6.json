@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Extending CAST to control discrete structural properties (e.g., presence of specific pharmacophores or scaffold types) requires categorical concept representations rather than scalar ones; therefore, replacing the scalar concept values in the CBM with learned categorical embeddings derived from graph-level molecular fingerprints will enable CAST to simultaneously steer both continuous physicochemical properties and discrete substructural constraints, yielding higher hit rates for multi-objective drug design targets that current scalar-only steering cannot satisfy."
+}

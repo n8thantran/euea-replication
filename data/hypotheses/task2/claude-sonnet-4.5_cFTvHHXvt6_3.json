@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable physics-informed regularization term that directly penalizes spectral deviation (\u2206E) during autoregressive decoding\u2014rather than relying solely on token-level cross-entropy loss\u2014will reduce the generalization gap between training-paraphrase and held-out validation performance by at least 30% in mean \u2206E for structural coloration designs with hard constraints at non-normal incidence angles."
+}

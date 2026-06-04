@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "## Novel Hypothesis\n\nIncorporating explicit phase-transition energy barriers and metastable intermediate phase constraints into the LLM's prompt structure will enable successful synthesis planning for multi-phase target materials (challenges 2 and 3) by guiding the model to avoid thermodynamically unfavorable direct pathways and instead propose kinetically accessible routes through transient phases."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Adding a small fraction of high-level quantum reference data for MOFs computed with hybrid functionals (e.g., HSE06-D3) into the training set of a universal MLIP will reduce the MAE of predicted bulk moduli (K) by at least 20% and heat capacities (Cv) by at least 15% on a held-out MOF test set containing transition-metal nodes, compared to a model trained only on PBE-D3 data, and this improvement will extend to zero-shot MOFs with unseen metal centers."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "If models trained with equivariance-inducing regularization (such as equigrad) achieve representational alignment comparable to architecturally equivariant models despite lower computational cost, then systematically interpolating the strength of equivariance-inducing regularization during training will produce a monotonic increase in cross-model representational alignment that saturates at a threshold regularization strength corresponding to the point of diminishing returns in energy prediction accuracy, thereby establishing regularization strength as a quantitative, architecture-agnostic knob for controlling convergence toward the universal matter representation without requiring full architectural equivariance."
+}

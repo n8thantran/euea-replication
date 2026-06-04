@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating ternary metal sublattices (two distinct metal species at s-d border positions) into the chemical template framework will yield stable superhydrides with non-integer stoichiometries that exhibit higher superconducting transition temperatures than their binary analogues, because the electronic mismatch between the two metal species will induce additional charge localization at interstitial quasi-atom sites, strengthening the template effect and producing more complex three-dimensional hydrogen clathrate cages with enhanced electron-phonon coupling constants exceeding those observed in the best binary superhydrides identified in this study."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "If equivariance-inducing regularization (equigrad) causes a non-equivariant architecture to converge toward the same representational manifold as architecturally equivariant models, then systematically interpolating the strength of this regularization during training will reveal a monotonic relationship between the degree of learned quasi-equivariance and cross-model representational alignment, such that a critical regularization threshold exists below which alignment drops sharply, providing a quantitative criterion for the minimum inductive bias required to achieve foundation-level representational universality without full architectural equivariance."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Branched and cross-linked polyamine sorbents discovered through a multi-fidelity Bayesian optimization framework that couples cheap packing-density surrogates with accurate MD-GCMC simulations will exhibit at least a 25% higher CO2 adsorption capacity than the best linear polyamine sorbents found by single-fidelity BO under ambient DAC conditions (0.4 mbar CO2, 298 K, ~50% RH)."
+}

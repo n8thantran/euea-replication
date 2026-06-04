@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Machine learning models fine-tuned on transition-state structures through active learning will exhibit systematically lower prediction errors in stress tensors during SSNEB convergence compared to untrained models, thereby enabling single-stage ML-only SSNEB calculations that converge to DFT-equivalent pathways without requiring subsequent DFT restart iterations."
+}

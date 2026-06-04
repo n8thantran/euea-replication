@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Selectively masking individual modalities during fine-tuning\u2014rather than freezing all encoder weights\u2014will reveal differential contributions of crystal graph, XRD, and text modalities to property-specific prediction accuracy, such that properties governed by long-range order (e.g., band gap) will show greater performance degradation upon XRD masking than upon text masking, while properties governed by local bonding environments (e.g., shear modulus) will show the reverse pattern, thereby providing a quantitative, property-specific modality importance ranking that can guide computationally efficient deployment of X-MoPA when only a subset of modalities is experimentally accessible."
+}

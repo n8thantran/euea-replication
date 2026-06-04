@@ -1,0 +1,7 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "If the embedding similarity between task descriptions and tool descriptions reliably predicts agentic performance across scientific domains, then dynamically augmenting an agent's tool set at runtime by retrieving semantically aligned tools from a large tool library\u2014rather than providing a fixed, pre-specified tool set\u2014will improve task completion rates in low-alignment environments (such as Spectra) more than any improvement achievable through changes to the reasoning framework (ReAct versus tool-calling), and this improvement will be proportional to the reduction in mean minimum cosine distance between tasks and the dynamically selected tools."
+}
