@@ -26,7 +26,7 @@ sys.path.insert(0, '/workspace')
 
 
 class SkillDataset(Dataset):
-    """Dataset for skill training data."""
+    """Dataset for skill training data. Handles both flat and conversation formats."""
     
     def __init__(self, data_path: str, tokenizer, max_length: int = 256):
         with open(data_path, 'r') as f:
@@ -37,12 +37,28 @@ class SkillDataset(Dataset):
     def __len__(self):
         return len(self.data)
     
-    def __getitem__(self, idx):
-        item = self.data[idx]
+    def _extract_prompt_response(self, item):
+        """Extract prompt and response from either flat or conversation format."""
+        # Conversation format (from our data_generator)
+        if "conversations" in item:
+            convs = item["conversations"]
+            prompt = ""
+            response = ""
+            for turn in convs:
+                if turn["role"] == "user":
+                    prompt = turn["content"].replace("<image>\n", "")
+                elif turn["role"] == "assistant":
+                    response = turn["content"]
+            return prompt, response
         
-        # Format as instruction-response pair
+        # Flat format
         prompt = item.get("prompt", item.get("instruction", ""))
         response = item.get("response", item.get("output", ""))
+        return prompt, response
+    
+    def __getitem__(self, idx):
+        item = self.data[idx]
+        prompt, response = self._extract_prompt_response(item)
         
         # Combine for causal LM training
         text = f"### Instruction:\n{prompt}\n\n### Response:\n{response}"
@@ -248,9 +264,24 @@ def run_grpo_demo(
     ref_model = ref_model.to(device)
     ref_model.eval()
     
-    # Load data
+    # Load data and extract prompt/response pairs  
     with open(data_path, 'r') as f:
-        data = json.load(f)
+        raw_data = json.load(f)
+    
+    # Convert conversation format to flat format
+    data = []
+    for item in raw_data:
+        if "conversations" in item:
+            prompt = ""
+            response = ""
+            for turn in item["conversations"]:
+                if turn["role"] == "user":
+                    prompt = turn["content"].replace("<image>\n", "")
+                elif turn["role"] == "assistant":
+                    response = turn["content"]
+            data.append({"prompt": prompt, "response": response})
+        else:
+            data.append(item)
     
     optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
     
@@ -268,8 +299,8 @@ def run_grpo_demo(
         batch_loss = 0.0
         
         for item in batch_items:
-            prompt = item.get("prompt", item.get("instruction", ""))
-            gt_response = item.get("response", item.get("output", ""))
+            prompt = item.get("prompt", "")
+            gt_response = item.get("response", "")
             
             prompt_enc = tokenizer(
                 f"### Instruction:\n{prompt}\n\n### Response:\n",
@@ -305,7 +336,6 @@ def run_grpo_demo(
                 else:
                     overlap = 0.0
                 
-                # Format reward (binary + partial)
                 reward = overlap
                 sample_rewards.append(reward)
             
