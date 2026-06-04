@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Replacing the 2D CATS pharmacophore reward with a conformer-ensemble 3D pharmacophore overlap metric during RL training will generate ER\u03b1 antagonist candidates with mean QVina docking energies at least 1.0 kcal/mol more favorable and median in vitro ER\u03b1 IC50 values at least twofold lower than those produced by the CATS-based framework, while preserving \u226595% database novelty."
+}

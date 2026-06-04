@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Pretraining on synthetic mixtures generated with a functional-group\u2013aware non-linear mixing simulator that introduces concentration-dependent peak shifts and intensity distortions will increase Top-10 accuracy on experimentally measured ATR-IR binary mixtures by at least 10 percentage points compared to pretraining on linear-combination mixtures."
+}

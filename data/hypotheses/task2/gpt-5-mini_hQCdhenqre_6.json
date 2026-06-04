@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "At fixed wall-clock inference latency, MLIP architectures that reallocate compute budget from higher-order equivariant tensor features (increased l_max) to deeper message-passing and larger scalar channel widths will produce more accurate long-timescale thermodynamic observables (e.g., free-energy differences and folding/unfolding rates) in biomolecular MD than architectures that use the same latency to increase equivariant order."
+}

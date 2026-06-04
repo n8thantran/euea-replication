@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "The mean pairwise cosine distance among a molecule's encoder embeddings across the seven textual representations is positively correlated with the molecule's structural ambiguity (quantified by the number of low\u2011energy conformers within 5 kcal/mol and the count of stereocenters/tautomeric forms) and predicts increased error (higher RMSE) in downstream stereochemistry- or conformation\u2011sensitive property prediction tasks, such that molecules with higher embedding dispersion will exhibit significantly larger prediction errors."
+}

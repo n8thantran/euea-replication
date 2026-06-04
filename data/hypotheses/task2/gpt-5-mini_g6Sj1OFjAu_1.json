@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Conditioning CompGen on active-site motif labels and the mean adsorbate\u2013first-shell metal distance will increase the proportion of generated shell compositions whose DFT\u2011relaxed adsorption energies fall within \u00b10.1 eV of the conditioning target by at least 30 percentage points compared to CompGen conditioned only on adsorbate identity and target energy."
+}

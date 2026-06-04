@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Active-learning fine-tuning of the eSEN surrogate, selecting additional DFT labels for images with the highest ensemble variance in predicted Cauchy stress along provisional SSNEB paths, will reduce the number of DFT evaluations required to converge the CsPbI3 \u03b2\u2013\u03b3 and TiO2-B\u2192anatase pathways by at least 50% relative to the zero-shot eSEN+DFT-restart workflow while preserving energy barriers within 0.02 eV of VASP-only results."
+}

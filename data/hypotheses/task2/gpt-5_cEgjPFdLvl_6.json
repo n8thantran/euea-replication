@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Training AMDEN with teacher\u2013student distillation that aligns standard denoising steps to HMC-refined reverse trajectories across diffusion time (by minimizing their distributional divergence) will enable inference without H"
+}

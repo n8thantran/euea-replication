@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Replacing the CATS-based pharmacophore reward with a conformer-ensemble 3D pharmacophore fingerprint while retaining MAP4-driven structural dissimilarity will at least double the fraction of generated ER\u03b1 ligands achieving Kd \u2264 1 \u00b5M in vitro compared to the original framework under matched generation budgets and selection thresholds (QED \u2265 0.5, Tanimoto \u2264 0.4 to references)."
+}

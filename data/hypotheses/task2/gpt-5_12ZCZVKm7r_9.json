@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Among 3D atomistic models, computing alignment on matched local atomic-environment embeddings instead of pooled structure-level embeddings will both reverse the observed OOD alignment inflation\u2014yielding significantly lower OOD than in-distribution CKNNA/IDCor\u2014and produce per-environment alignment values that negatively correlate with per-atom force MAE across models."
+}

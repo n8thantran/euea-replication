@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Relative to models trained on graphs with explicit aromatic bonds, training 3D molecular generative models on a fully Kekulized GEOM-Drugs representation will reduce the mean GFN2-xTB relaxation energy (\u2206Erelax) and the average bond-length, bond-angle, and torsion deviations after relaxation by at least 10% overall and by at least 15% for molecules with polycyclic aromatic"
+}

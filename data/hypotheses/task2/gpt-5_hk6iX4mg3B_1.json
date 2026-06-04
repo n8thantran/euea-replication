@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "In ensemble-consensus semi-supervised learning for molecular graphs, replacing a homogeneous ensemble with a parameter-matched heterogeneous ensemble (e.g., equal mix of GCN, GIN, and GatedGCN) will yield statistically significant improvements in both single-member test performance (lower MAE on QM9, higher AUROC on ogbg-molhiv) and calibration (lower ECE) because the more diverse consensus provides higher-quality targets."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "At fixed overall strong-bead fractions (f_poly = f_surf = 0.5) and interaction strengths as in the CG model, the binding free energy \u2206F is maximally negative when the polymer sequence correlation length (\u03be_p) matches the surface patch correlation length (\u03be_s) within \u00b120%, and is at least 20% less negative when \u03be_p/\u03be_s \u2264 0.5 or \u2265 2."
+}

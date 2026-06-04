@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating a GFN2-xTB-derived energy regularization term into the training objective of 3D molecular generative models will reduce the mean relaxation energy (\u2206Erelax) of generated molecules by at least 25% on the GEOM-Drugs test set compared to otherwise identical models trained without energy guidance."
+}

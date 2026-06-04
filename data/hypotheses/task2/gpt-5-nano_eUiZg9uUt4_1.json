@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Balancing the training template distribution by upweighting rare templates during optimization will reduce top-10 accuracy bias across template frequencies and improve generalisation to unseen templates (Pistachio OOD) for LocalRetro, MEGAN, and RootAligned without sacrificing top-1 round-trip accuracy on in-distribution test sets."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable FEA-trained surrogate of mechanical and thermal properties into the PCDiff denoising loss as an explicit physics-consistency term will reduce the mean squared error between generated composites' simulated properties and target properties by at least 20% and increase Validity_fab by at least 10% compared to the original PCDiff that uses only non-negativity and sum-to-one regularizers."
+}

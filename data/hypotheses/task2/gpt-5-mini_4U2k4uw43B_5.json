@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the pre-trained eSEN model with an active-learning set of \u226420 DFT-evaluated images sampled from the ML-converged SSNEB pathway will reduce the number of DFT SSNEB iterations required during the VASP restart by at least 30% relative to using the un-finetuned eSEN, lower the stress mean absolute error against VASP below 0.05 GPa, and produce a final MEP barrier height within 0.02 eV of the VASP-only result."
+}

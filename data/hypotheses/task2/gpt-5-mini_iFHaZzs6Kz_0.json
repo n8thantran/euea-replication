@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Aligning 3D electron density grids with SMILES strings that explicitly encode stereochemical configuration via contrastive multimodal pretraining will yield embeddings that are invariant to SO(3) rotations yet still separate enantiomers and diastereomers, producing significantly higher stereoisomer classification accuracy than equivalent models trained with non-stereochemical SMILES."
+}

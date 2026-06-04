@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Adding an explicit round-trip cycle-consistency loss across paired molecular representations (e.g., SMILES\u2192SELFIES\u2192SMILES and SMILES\u2192InChI\u2192SMILES) during STR-Bamba pretraining will produce statistically significant gains in cross-representation translation fidelity (validity, Tanimoto/BLEU) and downstream property prediction performance on MoleculeNet and polymer benchmarks compared to the current two-phase training without cycle constraints."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Augmenting the LLM agent with a CALPHAD-based sensitivity tool that returns the local Jacobian of equilibrium phase fractions with respect to temperature and overall oxygen composition will at least double its success rate and halve the median number of simulator calls on the multi-phase target problems in the Nb\u2013O testbed, relative to the same agent using simulator evaluations alone under identical prompting and compute budgets."
+}

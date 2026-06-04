@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "In systems with multiple competing reaction pathways, the relative frequency of ASTRA-generated configurations assigned to each transition-state cluster under fixed guidance and sampling settings predicts the corresponding product branching ratios within 20% of those obtained from long-timescale molecular dynamics on the same potential."
+}

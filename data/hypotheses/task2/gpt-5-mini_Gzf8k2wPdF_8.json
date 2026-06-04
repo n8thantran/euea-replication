@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "For graph datasets whose per-graph node-count distribution has excess kurtosis greater than one (e.g., AFLOW), dynamic batching yields a statistically different final test RMSE compared to static batching unless the optimizer learning rate is scaled proportionally to the mean number of real (non-padded) graphs per dynamic batch divided by the nominal batch size, in which case the final test RMSE will be statistically indistinguishable between the two batching methods."
+}

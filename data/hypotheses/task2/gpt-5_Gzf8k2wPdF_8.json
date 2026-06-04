@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "For the AFLOW dataset trained with the PaiNN model using stochastic gradient descent without momentum at batch size 64, dynamic batching will produce a final test RMSE at least 10% higher than static-64 batching after two million training steps."
+}

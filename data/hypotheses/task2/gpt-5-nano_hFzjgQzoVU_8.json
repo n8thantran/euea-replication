@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Training a multi-metal (Fe, Co, Ni) equivariant graph neural network with uncertainty quantification on an expanded XDIP-like dataset that includes Fe, Co, and Ni XAS spectra and corresponding local structures will enable transferable structure-to-spectrum and spectrum-to-structure predictions across metals, including reliable zero-shot inferences for unseen metal environments, with predictive uncertainties that correlate with spectral noise and data incompleteness."
+}

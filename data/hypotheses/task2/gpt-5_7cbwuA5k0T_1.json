@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "In Corral\u2019s MD and Spectra environments, pre-inference pruning of the accessible tools to the top-3 by cosine embedding similarity to the task prompt will increase pass@5 by at least 15 percentage points and reduce failed tool-call rate by at least 30% compared to providing the full toolset, independent of whether the agent uses ReAct or direct tool-calling."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Augmenting CHROMA so that the decoder predicts continuous layer thicknesses (instead of quantized tokens) and is fine-tuned with a sequence-level, physics-in-the-loop CIEDE2000 loss will reduce the mean validation \u2206E by at least 30% relative to the reported best discrete-token baseline (N=8 decoder, 8B encoder) on the same held-out split."
+}

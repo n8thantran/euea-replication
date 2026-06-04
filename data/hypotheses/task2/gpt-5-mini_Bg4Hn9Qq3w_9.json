@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "A coordinated heterogeneous multi-agent exploration strategy\u2014consisting of multiple LLM agents initialized with diverse random seeds and sampling temperatures and managed by a supervisor that allocates unexplored experimental subspaces\u2014will, within a fixed total reactor time, discover a greater proportion of distinct, predefined ALP behaviors (e.g., self-limiting ALD saturation, ALE etching, D-induced passivation, and co-dosing CVD) than a single-agent exploration by reducing path-dependent trapping in local experimental minima."
+}

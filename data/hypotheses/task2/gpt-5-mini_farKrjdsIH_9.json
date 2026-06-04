@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Integrating SAM-EM's real-time segmentation and trajectory analysis into a closed-loop LPTEM control system that dynamically adjusts electron beam dose will reduce beam-induced nanoparticle aggregation rates by at least 30% (measured as aggregation events per minute) compared to fixed-dose experiments under otherwise identical conditions."
+}

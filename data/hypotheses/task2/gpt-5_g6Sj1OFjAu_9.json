@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Conditioning CompGen on active-site motif (atop/bridge/hollow) and the mean adsorbate\u2013first-shell bond length, in addition to (S, E, L), will reduce shell-2 leakage by at least 25% and increase shell-2 cosine similarity by at least 0.05 on the HEA test set relative to the original conditioning."
+}

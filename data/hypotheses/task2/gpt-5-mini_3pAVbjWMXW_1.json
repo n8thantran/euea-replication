@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating low-resolution LC\u2013MS (mass) spectra as an additional input modality to the Transformer\u2014alongside the IR mixture spectrum, reported concentration, and molecular formula\u2014will increase Top\u201310 accuracy for detecting minority components at 10% concentration in binary mixtures by at least 20 percentage points and will increase Top\u201310 accuracy on balanced ternary mixtures by at least 25 percentage points compared to the current IR-only aligned model."
+}

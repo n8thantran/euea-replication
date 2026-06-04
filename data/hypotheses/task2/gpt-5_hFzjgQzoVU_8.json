@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "On the subset of XDIP entries with reported calibration energies, augmenting spectrum-to-property models with explicit inputs for calibration energy and EXAFS representation type (k-space vs r-space) will reduce mean nearest-neighbor distance regression MAE by at least 15% compared to identical models trained on spectra alone."
+}

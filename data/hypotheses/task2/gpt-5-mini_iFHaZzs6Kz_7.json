@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Training the multimodal contrastive model with multiple low-energy conformers per SMILES (instead of a single canonical conformer) will induce 3D embeddings that are invariant to SO(3) rotations and small intramolecular conformational changes, yielding significantly higher multi-pose retrieval rates (\u226510% absolute increase in \"3 Rot. Retrieved\") and lower MAE on conformer-sensitive QM9 properties (e.g., dipole moment and polarizability) compared to a model pretrained with only canonical conformers."
+}

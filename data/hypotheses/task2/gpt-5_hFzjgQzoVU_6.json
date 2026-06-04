@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Automated E0 alignment of all Fe K-edge spectra to a common energy scale prior to training will improve spectrum-to-property performance on XDIP, increasing coordination-number classification accuracy by at least 5 percentage points and reducing mean nearest-neighbor distance MAE by at least 10% compared to models trained on the current unaligned, uniformly interpolated spectra."
+}

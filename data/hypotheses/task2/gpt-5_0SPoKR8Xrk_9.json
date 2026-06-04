@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "At fixed polymer and surface compositions, chain length, temperature, and interaction strengths, the polymer\u2013surface binding free energy exhibits a nonmonotonic dependence on the ratio of polymer sequence autocorrelation length to surface pattern correlation length, with the strongest adhesion (most negative \u0394F) occurring near \u03bep/\u03bes = 1 and weaker adhesion for \u03bep/\u03bes \u226a 1 or \u226b 1."
+}

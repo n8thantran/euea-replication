@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Including edge attributes encoding pairwise thermochemical descriptors (differences in ionization energy, electron affinity, and estimated gas-phase reaction enthalpy) in the GraphSAGE model will increase R2 by at least 0.05 on out-of-distribution ternary mixture etch-rate predictions (e.g., Ar/O2/CF4) relative to an otherwise identical complete-graph model without edge attributes under equal training data and capacity."
+}

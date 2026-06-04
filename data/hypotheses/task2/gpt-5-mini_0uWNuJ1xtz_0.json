@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Augmenting STR-Bamba426M pretraining with an additional serialized 3D-conformer textual modality (atom-indexed XYZ tokens preserving bond connectivity) will reduce the mean absolute error on QM9 energy-related targets (U0, U298, H298, G298) by at least 15% after fine-tuning compared to the current STR-Bamba426M fine-tuned performance."
+}

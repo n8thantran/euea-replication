@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Pretraining a spectrum encoder via self-supervised masked-point reconstruction on Materials Project Fe K-edge XAS and then fine-tuning on XDIP will increase spectrum-to-coordination-number classification accuracy by at least 5 absolute percentage points compared to the same architecture trained from scratch."
+}

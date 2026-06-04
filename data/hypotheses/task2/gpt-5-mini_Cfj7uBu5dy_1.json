@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "An acquisition strategy that uses ensemble MLIP uncertainty to estimate each candidate\u2019s probability of lying within \u03b5 of the convex hull and selects candidates to maximize expected information gain about the convex hull will yield at least 50% more DFT-validated novel thermodynamically stable compounds within a fixed high-fidelity query budget B on held-out ternary/quaternary chemical systems than a diversity-based acquisition strategy."
+}

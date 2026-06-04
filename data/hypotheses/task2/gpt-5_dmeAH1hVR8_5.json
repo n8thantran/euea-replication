@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Adapting the model with a MOF-aware tokenizer that introduces special tokens for MOFid segments, SMILES substrings, and RCSR topology codes prior to the same PMC+PubChem continual pretraining will reduce QMOF band-gap MAE by at least 10% relative to the paper\u2019s best PMC+PubChem model when fine-tuned on 1K\u20133K SFT samples, while altering hMOF MAE by less than 2%."
+}

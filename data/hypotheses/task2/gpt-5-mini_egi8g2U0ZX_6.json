@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "For Covalent Triazine Framework substrates, reinforcement learning of a SMILES-based generative model using a composite reward that averages the expert filter score and a neural-network surrogate trained to predict DFT-computed electronic conductivity from 3D conformers will produce generated molecules whose mean DFT-computed electronic conductivity (evaluated on the top 100 candidates) is significantly greater (p < 0.05, two-sided test) than the mean conductivity of molecules produced by RL optimizing the expert-filter score alone."
+}

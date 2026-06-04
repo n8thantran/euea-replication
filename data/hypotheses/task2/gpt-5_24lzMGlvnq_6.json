@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Modifying the physics-based reward used for DPO to enforce BCC/B2 coexistence with lattice-parameter mismatch \u2264 0.015 \u00c5 across 1273\u20131673 K will increase by at least 50% (relative to the current DPO models) the fraction of generated alloys meeting these high-temperature criteria while maintaining coverage recall \u2265 0.95."
+}

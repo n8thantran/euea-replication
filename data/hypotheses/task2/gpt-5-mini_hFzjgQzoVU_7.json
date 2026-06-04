@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "A SE(3)-equivariant graph neural network trained on combined XDIP Fe K-edge XANES+EXAFS spectra and corresponding local atomic graphs will classify the iron formal oxidation state (Fe2+ versus Fe3+) with at least 90% accuracy on a held-out test set."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Including multiple low-energy conformers per molecule as distinct positive 3D inputs during multimodal contrastive pretraining will induce embeddings that are invariant to both SO(3) rotations and conformational variation, producing a statistically significant increase in retrieval Accuracy@10 over unseen conformers and a lower Davies\u2013Bouldin index for flexible functional groups relative to single-conformer training."
+}

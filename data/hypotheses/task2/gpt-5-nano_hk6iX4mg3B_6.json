@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Introducing unlabeled data from an out-of-domain chemical distribution into the ensemble-consensus SSL, controlled by a domain-distance-based weighting that downweights dissimilar samples, will improve the out-of-domain generalization of molecular property predictors relative to using only in-domain unlabeled data, with an optimal domain-distance threshold maximizing performance."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Pre-training STR-Bamba426M with an added modality that encodes per-molecule 3D conformer information as discretized pairwise-distance and key-angle tokens will reduce the MAE for HOMO and LUMO predictions on QM9 by at least 10% relative to the current fine-tuned STR-Bamba426M when evaluated on the standard QM9 train/validation/test splits."
+}

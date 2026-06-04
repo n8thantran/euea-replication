@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Jointly optimizing a differentiable XRD similarity loss with a pretrained ML interatomic potential energy (e.g., CHGNet) as a weighted sum will smooth the effective loss landscape and increase StructureMatcher recovery rates for lattice and coordinate perturbations (\u03c3l, \u03c3c \u2264 0.1), yielding at least a 20 percentage-point improvement in mean match rate compared to XRD-only gradient descent."
+}

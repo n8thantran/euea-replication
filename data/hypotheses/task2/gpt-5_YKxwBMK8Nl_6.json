@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "In the ChemX small-molecule datasets, augmenting the single-agent pipeline with a trained detector/segmenter for molecular depictions that routes regions to DECIMER and applies schema-constrained verification will increase SMILES extraction F1 from \u22640.05 to \u22650.50 while maintaining precision \u22650.40."
+}

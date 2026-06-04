@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Under the champion operating conditions identified in this study, substituting 20% of the K+ in the 3 M electrolyte with Cs+ (0.6 M Cs+, 2.4 M K+) will increase reactor yield by \u226520% relative to the all-K+ electrolyte by simultaneously increasing JCO and UCO2."
+}

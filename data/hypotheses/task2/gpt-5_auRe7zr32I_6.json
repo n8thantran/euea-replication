@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "During REINVENT4-driven singlet fission optimization, applying fragment-based diversity constraints to overrepresented fragments of size 4\u20137 non-hydrogen atoms (instead of >8) will reduce the final Morgan fingerprint mean pairwise similarity by at least 0.05 relative to the original Fragment-Based regime without a statistically significant decrease (two-sided t-test, p>0.05) in the final average molecular score across five random seeds."
+}

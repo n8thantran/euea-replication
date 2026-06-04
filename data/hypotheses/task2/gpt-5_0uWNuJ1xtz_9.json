@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Concatenating the IUPAC name and molecular formula as encoder input when translating to SMILES will increase the fraction of valid, InChIKey-identical outputs for unseen molecules by at least 25 percentage points relative to using either input alone."
+}

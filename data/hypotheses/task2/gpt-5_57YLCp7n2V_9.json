@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "When sampling budgets are equalized (same number of integration steps and wall-clock time), flow-matching and diffusion-based 3D molecular generative models trained on GEOM-Drugs will exhibit no statistically significant difference (p>0.05) in mean GFN2-xTB relaxation energy and average bond, angle, and torsion deviations."
+}

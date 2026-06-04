@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Augmenting E2EFOLD\u2019s decoder training data with a mixed-source curriculum that includes at least 30% out-of-distribution sequences designed by an external inverse-folding model (e.g., ProteinMPNN) will reduce the decoder\u2019s average RMSD on externally designed sequences by more than 0.5 \u00c5 compared to a decoder trained only on encoder-sampled sequences, without increasing the decoder\u2019s parameter count."
+}

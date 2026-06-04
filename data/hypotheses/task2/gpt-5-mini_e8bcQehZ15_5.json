@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit binary substructure concepts (e.g., Murcko scaffold identity and presence/absence of specified functional groups) into CAST\u2019s concept bottleneck\u2014by adding dedicated concept predictors and embeddings and enforcing orthogonality\u2014will increase scaffold retention rate for conditioned generations while maintaining or improving QED and LogP MAE and overall validity relative to the original CAST without substructure concepts."
+}

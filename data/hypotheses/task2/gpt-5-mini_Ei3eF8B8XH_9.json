@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Including a learned representation of the protein binding pocket (e.g., a grid of electrostatic potential and steric occupancy) as a conditional input to LoQI will decrease the median RMSD to experimentally observed ligand-bound conformations on the Platinum Diverse dataset by at least 0.15 \u00c5 when generating 10 conformers per ligand, compared to the unconditioned LoQI."
+}

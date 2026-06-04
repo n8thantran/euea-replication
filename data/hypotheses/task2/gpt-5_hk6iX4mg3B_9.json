@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "In consensus-based semi-supervised training for molecular graphs, assigning each ensemble member a bootstrap-resampled labeled subset (while sharing the same unlabeled pool and consensus loss) will yield significantly lower test error and improved calibration for individual models than training all members on identical labeled mini-batches under the same total label budget."
+}

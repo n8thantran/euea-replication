@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Integrating a scaffold-aware concept bottleneck into CAST to encode and enforce desired molecular substructures (scaffolds/functional groups) as differentiable steering targets and jointly optimize property alignment and scaffold fidelity during inference will improve scaffold retention while maintaining or improving QED/LogP control, including under out-of-distribution target distributions."
+}

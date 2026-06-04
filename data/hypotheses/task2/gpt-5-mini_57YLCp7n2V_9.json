@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating GFN2-xTB single-point energy supervision into the training loss of 3D molecular generative models will yield generated conformations that, after GFN2-xTB relaxation, have significantly lower mean \u2206Erelax and smaller mean bond/angle/torsion deviations compared to identical models trained without GFN2-xTB energy supervision."
+}

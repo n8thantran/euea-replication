@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "For mixtures of three or more gases, augmenting the inductive GraphSAGE model with composition-weighted pairwise edge features computed as the normalized overlap between predicted dominant reactive-species concentration vectors from frozen single-gas surrogates will increase held-out-mixture etching-rate prediction R2 by at least 0.05 compared to an identical GraphSAGE model using only node features."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Conditioning CompGen on the active-site motif (atop/bridge/hollow) and the mean adsorbate\u2013first-shell metal distance, in addition to adsorbate identity, target adsorption energy, and allowed elements, will reduce shell-2 composition Leakage by at least 25% and Fr\u00e9chet Distance by at least 15% on the HEA test set under zero-shot transfer relative to the original model."
+}

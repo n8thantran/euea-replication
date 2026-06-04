@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the SMI-TED foundation model on a curated multi-modal corpus of ~500 formulation\u2013device datapoints (SMILES-formulation strings paired with device metadata and experimental outcomes) will reduce out-of-distribution mean absolute error for battery device performance predictions by at least 20% compared to using frozen SMI-TED embeddings with the same downstream neural network."
+}

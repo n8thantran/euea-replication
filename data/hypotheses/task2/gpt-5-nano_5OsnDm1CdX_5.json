@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit pairwise interaction edge features, derived from a lightweight physics-informed reaction network, into the GraphSAGE-based mixture model will improve predictive accuracy and extrapolative generalization for ternary gas mixtures (e.g., Ar/O2/CF4) beyond what node-centered features achieve, and will outperform the two-node GraphSAGE model in predicting wafer-scale etching rates."
+}

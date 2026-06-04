@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Pretraining X-MoPA with stochastic modality dropout that masks one randomly chosen modality with probability 0.3 per instance will limit the relative MAE increase on the Matbench dielectric constant task to \u22645% when that modality is absent at inference, whereas the original X-MoPA without dropout will exhibit \u226520% relative MAE increase under the same ablation."
+}

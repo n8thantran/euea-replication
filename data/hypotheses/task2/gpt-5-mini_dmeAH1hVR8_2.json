@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Integrating compact 3D geometric descriptors derived from MOF crystal structures (e.g., pore-size distribution, accessible surface area, and coarse-grained radial distribution functions) as additional tokenized inputs to a continually pre-trained LLM will reduce QMOF band-gap MAE by at least 15% compared to the best text-only pre-trained LLM when fine-tuned with \u22645,226 training samples."
+}

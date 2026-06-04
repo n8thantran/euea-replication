@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Applying a 2 Hz square-wave pulsed current (350 mA cm\u22122 peak, 71% duty cycle; average \u2248250 mA cm\u22122) will increase reactor yield by at least 20% relative to constant-current operation at 249\u2013250 mA cm\u22122 in the same reactive carbon electrolyzer under the validated \u201crealistic\u201d electrolyte conditions (1.5 M KHCO3/0.75 M K2CO3, total K+ 3 M; 54\u00b0C; bicarbonate flow 144 mL min\u2212"
+}

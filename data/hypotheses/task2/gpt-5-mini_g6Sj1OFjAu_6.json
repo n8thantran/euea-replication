@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Conditioning CompGen\u2019s latent diffusion model on explicit active-site motif labels and per-site adsorbate\u2013first-shell radial distances will, after fine-tuning on the same HEA dataset, reduce the Fr\u00e9chet Distance of generated versus real latent embeddings on the HEA test set by \u226520% and reduce compositional Leakage by \u226525% compared to the original CompGen conditioned only on adsorbate identity, adsorption energy, and element list."
+}

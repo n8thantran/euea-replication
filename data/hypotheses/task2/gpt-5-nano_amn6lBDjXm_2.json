@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Training a multi-fidelity surrogate model that predicts both energy above hull (stability) and DFT-relaxation RMSD directly from generated crystal structures, using a combination of unrelaxed coordinates, symmetry descriptors, and low-cost lattice features, will match full DFT screening accuracy (AUC \u2265 0.9 for stability; RMSD error \u2264 0.1 \u00c5) on held-out MP/OQMD samples while reducing required DFT evaluations by at least 75%, enabling scalable online screening in the evaluation framework."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "When the characteristic lateral size of strongly interacting surface domains exceeds the radius of gyration of a polymer chain, the polymer's sequence blockiness (length of contiguous strong-bead runs) becomes the dominant determinant of binding free energy\u2014such that each additional contiguous strong-bead beyond three increases the binding free energy by at least 1 kBT\u2014whereas for surfaces with smaller domain sizes overall surface composition remains the primary determinant."
+}

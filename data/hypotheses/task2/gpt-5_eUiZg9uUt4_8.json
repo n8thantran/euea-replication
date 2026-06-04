@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "eUiZg9uUt4",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Applying an inverse-frequency class-balanced loss during training of the template-free RootAligned model will reduce the top-10 accuracy gap between rare (1\u201310 occurrences) and frequent (>10,000 occurrences) templates on USPTO-retro by at least 20 percentage points and increase Pistachio OOD top-10 accuracy by at least 1.0 percentage point, while not degrading USPTO-retro top-5 round-trip accuracy by more than 2 percentage points."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Adding the mean adsorbate\u2013first-shell bond distance as an additional conditioning variable to CompGen will reduce compositional Leakage by at least 25% and increase shell 1 Cosine Similarity by at least 0.05 on the HEA test set compared with conditioning on (S, E, L) alone."
+}

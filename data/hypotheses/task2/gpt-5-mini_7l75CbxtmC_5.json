@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "For industrial-scale production (\u226510 tonnes/year) of Ca2SiO4, augmenting the workflow's economic metric with modeled heating energy consumption (derived from reactant/product heat capacities and reaction enthalpies) and ML-predicted purification costs (based on solubility/volatility estimates) will reverse the cost-optimal recipe from CaO+SiO2 to Ca3SiO5+Si3N4 in at least 70% of realistic market-price and supply-risk scenarios over a 5-year forecast horizon."
+}

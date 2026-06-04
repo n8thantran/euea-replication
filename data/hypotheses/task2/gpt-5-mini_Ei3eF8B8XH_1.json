@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating AIMNet2-derived force (gradient) supervision into LoQI\u2019s diffusion denoising objective will reduce the median post-generation relaxation energy (\u0394Erelax) on the ChEMBL3D hold-out set from 3.48 kcal\u00b7mol\u22121 to below 1.0 kcal\u00b7mol\u22121 while preserving \u22650.95 R/S and \u22650.99 E/Z stereochemistry accuracy."
+}

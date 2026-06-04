@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Silicon-based anode materials whose Li+ migration channel radius changes by less than 0.5 \u00c5 per 100% state-of-charge will retain at least 80% of their initial specific capacity after 200 galvanostatic cycles at 0.5C in coin-cell half-cells versus Li metal, whereas materials with larger channel-radius change will not."
+}

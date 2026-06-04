@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Including second-sphere (3\u20136 \u00c5) residues and hydrogen-bonding partners around the Fe center in the input structural graph will reduce Fe K-edge XANES prediction mean absolute error by at least 15% relative to models trained on first-shell coordination only when evaluated on XDIP under identical architectures and training protocols."
+}

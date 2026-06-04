@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Integrating a synthesizability evaluation module\u2014trained on experimental synthesis outcomes and literature-derived synthesis routes\u2014and using its output as an additional feedback signal in MatAgent will increase the proportion of novel compositions proposed that are experimentally synthesizable (confirmed by matching entries in synthesis databases or by successful lab synthesis trials) by at least 30% relative to MatAgent without synthesizability feedback while preserving at least 80% of MatAgent\u2019s success rate in reaching the target formation-energy window (\u00b10.25 eV/atom)."
+}

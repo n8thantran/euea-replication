@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating high-magnification (\u22655,000\u00d7) SEM images into the two-stage transfer learning pipeline via a dual-branch CNN that fuses features from 500\u00d7 and \u22655,000\u00d7 inputs will significantly improve discrimination between formation-aged and 100-cycle NCM cathode states, yielding at least a 0.10 absolute increase in F1 score for those classes compared to using 500\u00d7 images alone."
+}

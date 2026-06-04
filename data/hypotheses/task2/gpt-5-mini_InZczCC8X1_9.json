@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "An Ag gas-diffusion electrode engineered with hierarchical macropores (10\u2013100 \u00b5m) and mesopores (2\u201350 nm) and ~30 wt% PTFE hydrophobicity will enable operation at 250 mA cm\u22122 total current density in the 1.5 M KHCO3 / 0.75 M K2CO3 electrolyte to produce a CO partial current density >120 mA cm\u22122 while maintaining CO2 utilization >60%, thereby increasing reactor yield to >72 mA cm\u22122."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating a fast learned surrogate model predicting DFT-derived formation energy and electronic-conductivity proxies into the reinforcement-learning reward for REINVENT will yield generated substrates that, when validated by full DFT, show at least a 20% higher fraction of low-formation-energy, conductive cyclic frameworks than RL optimized only on the expert heuristic filters, while simultaneously reducing the incidence of policy collapse and maintaining sample uniqueness above 50%."
+}

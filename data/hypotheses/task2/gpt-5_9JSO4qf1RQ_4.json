@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Augmenting MatAgent\u2019s feedback with a predicted distance-to-convex-hull metric and instructing the LLM to jointly minimize hull distance and formation-energy deviation will increase the fraction of candidates that are DFT-relaxed stable (Ehull \u2264 0.05 eV/atom) at a fixed iteration budget without a statistically significant decrease in the V.U.N. score compared to formation-energy-only feedback."
+}

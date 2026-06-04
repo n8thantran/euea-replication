@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the eSEN surrogate with a stress-balanced loss on no more than 500 DFT-labeled strained configurations per material (\u00b15% volumetric and shear strains) will reduce stress mean absolute error by at least 50% and cut VASP-restart SSNEB iterations by at least 30% for CsPbI3 \u03b2\u2194\u03b3 and TiO2-B\u2194anatase transitions, while keeping final DFT-refined energy barriers within 0.05 eV of VASP-only baselines."
+}

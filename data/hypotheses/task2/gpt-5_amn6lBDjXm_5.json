@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Given a fixed DFT evaluation budget, ranking generated structures with a surrogate classifier trained on 5% of candidates labeled by static DFT using density, minimum interatomic distance, space group, and nearest-neighbor CrystalNN fingerprint distance to the training set as features will yield at least 1.5\u00d7 the SUN-stable fraction compared to random selection."
+}

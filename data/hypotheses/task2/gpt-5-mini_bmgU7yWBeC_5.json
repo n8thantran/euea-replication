@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating the Force Delta as a differentiable regularization term during NNIP training (minimizing a loss L = Lenergy+Lforce+\u03bbU\u0394^2) will yield models with reduced test force RMSE and produce a Force Delta whose magnitude is calibrated\u2014i.e., linearly predictive\u2014of true DFT force error across both in-distribution and adversarial out-of-distribution structures."
+}

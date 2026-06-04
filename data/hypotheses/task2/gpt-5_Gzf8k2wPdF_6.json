@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "For the AFLOW dataset with its long-tailed graph-size distribution, pre-sorting training graphs by node count and feeding contiguous chunks to the static-64 algorithm will reduce the mean combined time per training step by at least 25% relative to random ordering at batch size 64 with PaiNN on a single A100 GPU, without a statistically significant (p>0.10) change in final test RMSE after two million steps."
+}

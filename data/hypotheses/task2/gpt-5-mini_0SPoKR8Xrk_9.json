@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "For the CNN\u2013GRU\u2013attention model trained on the coarse-grained dataset, the learned polymer-to-surface attention weights quantitatively correspond to physical monomer\u2013surface contact propensities such that, across independent MD test trajectories, the top 20% highest-attention monomers coincide with the top 20% most frequently contacting monomers with at least 75% precision in at least 80% of test systems."
+}

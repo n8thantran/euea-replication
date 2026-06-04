@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "In REINVENT4 singlet fission optimization, replacing fixed diversity thresholds with a stepwise proportional\u2013integral controller that tunes penalty weights to keep (i) mean pairwise ECFP6 Tanimoto similarity at 0.12\u00b10.01 and (ii) the number of SMILES 10-grams occurring in >3% of molecules below 50 will yield, after 1000 iterations, a median molecular score within 5%"
+}

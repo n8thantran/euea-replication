@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Applying a per-residue entropy-weighted sequence recovery loss that upweights encoder probabilities at residues where the decoder predicts high per-residue structural uncertainty will increase designed-sequence self-consistency (e.g., mean TM-score) without reducing overall sequence recovery compared to the current uniform loss weighting."
+}

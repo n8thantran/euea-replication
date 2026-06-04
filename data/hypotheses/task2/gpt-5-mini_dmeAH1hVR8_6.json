@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Continual pre-training of LLMs on chemical corpora augmented with computed coarse-grained 3D structural descriptors of MOFs (e.g., accessible surface area, pore volume, metal-node coordination numbers, and topology indices) will significantly reduce mean absolute error (MAE) on QMOF band-gap prediction compared to pre-training on textual-only corpora when fine-tuned with fewer than 5,000 supervised samples."
+}

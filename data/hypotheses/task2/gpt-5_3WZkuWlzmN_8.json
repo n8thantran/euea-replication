@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Adding a periodicity-aware regularizer that aligns low-frequency Fourier components between predicted and true XRD latent embeddings during cross-modal training will reduce mean absolute error by at least 10% on Matbench bulk modulus and dielectric constant prediction, relative to baseline X-MoPA, when XRD is unavailable at inference."
+}

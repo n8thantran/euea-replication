@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "For the CsPbI3 \u03b2\u2192\u03b3 transition, fine-tuning the eSEN model on 20\u201330 DFT-labeled SSNEB images using a loss that weights stress errors threefold over force errors will reduce the required VASP SSNEB restart iterations by at least 40% and maintain octahedral tilting symmetry (|\u0394\u03b8|,|\u0394\u03d5| \u2264 1\u00b0 relative to DFT) compared with equal energy/force/stress weighting."
+}

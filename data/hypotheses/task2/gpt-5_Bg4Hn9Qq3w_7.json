@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "In the ALP reactor simulation, coordinating a swarm of five independent LLM agents with diverse model temperatures and randomized precursor orderings under a novelty-search reward that maximizes coverage diversity of online-embedded pressure/QCM trajectories will at least double, compared to a single-agent persistence baseline, the probability of discovering within 7200 s all reaction modes present (ALD, ALE, ASD passivation of B\u2013C, CVD co-dose, and CVD via C decomposition)."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Extending the chemical-template\u2013guided ML structure discovery to ternary metal\u2013hydrogen\u2013light-element systems (M\u2013H\u2013X, X = C, N, O) will reveal stable non-integer hydrides with Tc exceeding 100 K at pressures below 250 GPa, outperforming equivalent binary MHx counterparts due to cooperative stabilization of hydrogen networks and enhanced electron\u2013phonon coupling, with Tc predictably correlated to a unified feature set describing metal-template strength, hydrogen connectivity, and X-induced lattice distortions."
+}

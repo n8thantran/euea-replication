@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "A foundation model pre-trained on a multimodal corpus pairing SMILES with tokenized formulation compositions and device-condition metadata (e.g., temperature, separator polymer SMILES, cathode loading) will, after fine-tuning, produce a statistically significant reduction in out-of-distribution mean absolute error (MAE) on ionic conductivity, contact angle, and device capacity prediction tasks compared to SMILES-only pre-trained models using transfer-learning aggregation (p < 0.05)."
+}

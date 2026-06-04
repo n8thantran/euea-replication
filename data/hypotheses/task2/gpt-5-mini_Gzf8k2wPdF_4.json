@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Dynamic batching, which yields variable numbers of labeled graphs per batch, will produce statistically significantly worse convergence speed and higher final test RMSE when GNNs are trained with non-adaptive optimizers such as vanilla SGD than static batching, while producing no significant degradation compared to static batching when trained with the Adam optimizer under identical hyperparameters."
+}

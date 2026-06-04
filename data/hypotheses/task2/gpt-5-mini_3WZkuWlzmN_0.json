@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating symmetry-preserving global structural augmentations (small lattice strains and cell rotations) into X-MoPA pretraining will force the joint latent space to encode long-range order and thereby reduce downstream MAE on long-range-sensitive properties (dielectric constant and band gap) by at least 10% compared to X-MoPA trained without such augmentations."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "For lanthanide-based metal superhydrides (specifically La and Ce) at pressures between 150 and 250 GPa, introducing non-integer hydrogen-to-metal ratios in the range 9.5\u201310.5 yields hydrogen cage motifs that increase the electron\u2013phonon coupling constant \u03bb by at least 10% and raise the superconducting Tc by at least 10 K compared to the corresponding integer MH10 phases under identical conditions."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Augmenting multimodal contrastive pretraining with stereochemistry-annotated SMILES and treating mirror-reflected electron-density grids as explicit hard negatives will yield 3D embeddings that remain SO(3)-rotation invariant but become parity sensitive, such that on a held-out chiral benchmark the mean cosine similarity between rotated poses of the same enantiomer exceeds that for its mirror image by at least 0.2 and Top-1 enantiomer discrimination accuracy exceeds 90%."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Applying a 2 Hz square\u2011wave current modulation cycling between 150 and 350 mA cm\u22122 (50% duty cycle; same 249 mA cm\u22122 average) in the reactive carbon electrolyzer will increase reactor yield by at least 15% relative to steady 249 mA cm\u22122 operation under the 1.5 M KHCO3/0.75 M K2CO3, 3 M K+ electrolyte conditions."
+}

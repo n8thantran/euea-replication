@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "A coupled ensemble of M=4 heterogeneous GNN architectures (e.g., GCN, GIN, GatedGCN, PaiNN) trained with the ensemble-consensus SSL loss using labeled QM9 data plus a large out-of-domain unlabeled molecular corpus (e.g., ZINC) will yield individual member models whose held-out test MAE on QM9 targets is significantly lower (p < 0.05) than individual members from a homogeneous coupled ensemble of four identical architectures and than individual models from decoupled supervised ensembles."
+}

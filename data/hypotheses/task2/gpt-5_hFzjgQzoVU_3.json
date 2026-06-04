@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "On XDIP entries with complete 3D coordinates beyond the first shell, augmenting GNN inputs to include second-sphere hydrogen-bonding atoms (donor\u2013acceptor distance \u22643.5 \u00c5 to first-shell ligands) will reduce test-set EXAFS spectrum prediction MAE by at least 15% relative to identically trained first-shell-only models using the same splits and architecture."
+}

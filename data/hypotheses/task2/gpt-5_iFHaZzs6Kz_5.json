@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating chirality-aware symbolic anchors (CIP-annotated SMILES) and an auxiliary contrastive head aligning 3D electron-density grids to the sign of specific optical rotation will produce embeddings that remain SO(3)-invariant (rotated-instance Accuracy@10 within 5% of the current baseline) while becoming enantioselective (linear-probe AUROC > 0.9 for discriminating enantiomeric pairs)."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Controlling for composition and measurement temperature, thermoelectric materials whose MatPROV provenance graphs include at least one converging branch immediately upstream of a densification activity (spark plasma sintering or hot pressing) exhibit higher reported ZT than comparable materials synthesized via strictly linear provenance graphs."
+}

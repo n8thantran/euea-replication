@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Augmenting the GraphSAGE mixture model with chemically informed edge features (pairwise differences in ionization potential, electron affinity, and Pauling electronegativity, plus the product of gas fractions) will increase R2 by at least 0.05 over the edge-agnostic baseline on PBM-simulated etch-rate profiles for unseen ternary Ar/O2/N2 mixtures when both models are trained only on the corresponding binary mixtures."
+}

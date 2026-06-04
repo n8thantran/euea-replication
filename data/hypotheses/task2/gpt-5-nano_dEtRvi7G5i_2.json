@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Explicitly incorporating quantum nuclear effects (e.g., via path-integral molecular dynamics) into the ML-guided discovery workflow for non-integer MHx hydrides will shift finite-temperature thermodynamic stability and Tc predictions, revealing thermodynamically stable, high-H-content hydrides and higher Tc phases that are not predicted by static lattice calculations."
+}

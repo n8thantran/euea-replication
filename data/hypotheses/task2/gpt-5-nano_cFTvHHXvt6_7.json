@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Replacing CHROMA's discrete thickness vocabulary with a differentiable continuous thickness parameterization (constrained by manufacturability) and training with a physics-informed loss that directly optimizes the spectral \u2206E will improve generalization to unseen structures, achieving \u2206E at or below the JND on held-out designs and reducing the training\u2013validation gap compared with the discrete-vocabulary baseline."
+}

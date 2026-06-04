@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating the modified-MACE mechanisms\u2014scalar gating of node features derived from symmetric-contraction outputs combined with species-conditioned edge MLPs\u2014into other E(3)-equivariant architectures (e.g., NequIP and ViSNet) will reduce GPU inference time by at least 30% while keeping force MAE within 5% of the original models and preserving MD stability (no significant increase in energy drift) on the SPICE2 validation set and the 1UAO/1ABT benchmarking systems."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "For MOFs containing Cr, Mn, Fe, Co, or Ni, a cascaded \u0394-learning pipeline that sequentially learns \u0394PBE\u2212xTB and then \u0394HSE06\u2212PBE ("
+}

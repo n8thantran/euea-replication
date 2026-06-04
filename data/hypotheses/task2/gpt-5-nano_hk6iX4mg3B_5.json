@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Using unlabeled molecules drawn from multiple chemically diverse spaces in ensemble-consensus SSL will yield superior cross-domain generalization and better calibrated predictions on unseen chemical spaces than using unlabeled data from a single domain."
+}

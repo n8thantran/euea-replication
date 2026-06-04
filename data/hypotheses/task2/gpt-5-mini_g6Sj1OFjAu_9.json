@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating active-site motif labels (atop/bridge/hollow), per-shell average adsorbate\u2013surface atom distances, and per-shell coordination numbers as additional conditioning inputs into CompGen will increase the cosine similarity of generated shell-2 compositions on the HEA test set by at least 15% relative to the current model conditioned only on adsorbate identity, adsorption energy, and allowed element list."
+}

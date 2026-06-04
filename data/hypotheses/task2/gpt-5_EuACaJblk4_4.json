@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Adding a cycle-consistency loss that re-encodes the decoder-predicted structure for each sampled sequence and minimizes cross-entropy between the re-encoded sequence distribution and the sampled sequence will increase mean self-consistency TM-score on RFData without reducing sequence recovery on E2EData."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Augmenting STR-Bamba426M pretraining with a compact tokenized 3D geometric modality (binned pairwise interatomic distances and canonicalized key dihedral-angle tokens) added to the unified vocabulary will reduce the fine-tuned model's QM9 average MAE across quantum energy-related targets by at least 15% compared to the current multimodal model trained without 3D tokens."
+}

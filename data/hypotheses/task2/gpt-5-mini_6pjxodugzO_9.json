@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Augmenting SMILES-pretrained foundation model embeddings with a learned pairwise interaction module (e.g., attention-derived pairwise constituent features) during formulation aggregation will produce a statistically significant reduction in prediction MAE (p < 0.05) and improved out-of-distribution generalization on the ionic conductivity, solubility, and device specific-capacity datasets compared to simple composition-weighted sum aggregation."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Pretraining X-MoPA with stochastic single-modality dropout (randomly masking one of the three modalities per instance during self-supervised cross-modal prediction) will produce latent representations that yield at least a 10% lower MAE on downstream material property prediction when one modality is missing at test time compared to X-MoPA pretrained without modality dropout."
+}

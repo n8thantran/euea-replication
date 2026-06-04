@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Per-sample adaptive weighting of the ensemble-consensus loss, where the unlabeled-consistency penalty for each molecule is scaled by the ensemble's predictive uncertainty for that molecule, will yield higher test accuracy and better calibration on molecular graph tasks than a fixed global coupling weight, particularly when unlabeled data are out-of-domain with respect to the labeled set."
+}

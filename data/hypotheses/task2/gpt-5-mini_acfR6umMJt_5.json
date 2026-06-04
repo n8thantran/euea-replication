@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "For NEB on double-funnel systems such as LJ38, replacing NN-BAX's random-path-point acquisition with an uncertainty-weighted acquisition that selects the path image with maximum predicted energy/force variance will reduce the number of true simulator evaluations required to reach an energy barrier error below 1% by at least 50% compared to the random-sampling acquisition."
+}

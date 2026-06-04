@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating computed electron charge-density and electron-localization-function (ELF) descriptors of candidate metal lattices into the ML feature set will reduce the model's mean absolute error in predicted formation enthalpy by at least 10% relative to the current atomic/lattice-feature-only model and increase the true-positive rate among the top-100 predicted stable superhydrides by at least 20%."
+}

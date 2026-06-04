@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Introducing probabilistic uncertainties in the thermodynamic (CALPHAD) and kinetic (activation energy) parameters and having the LLM optimize synthesis plans under this uncertainty will produce more robust, transferable Nb\u2013O synthesis routes with higher mean success rates and reduced plan-to-plan variability across runs than planning with deterministic inputs."
+}

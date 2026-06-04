@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Even when matched for architecture, training data, and an equal number of integration steps, equivariant flow-matching models will exhibit a mean GFN2-xTB \u2206Erelax at least 20% higher than otherwise identical diffusion models on the corrected GEOM-Drugs benchmark."
+}

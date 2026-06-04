@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Within NN-BAX, choosing at each iteration the NEB image with the highest predictive epistemic uncertainty (estimated by a 5-member EquiformerV2 deep ensemble) as the next simulator query will reduce the number of expensive function evaluations needed to match classical NEB\u2019s fmax threshold and achieve <1% barrier error by at least 30% compared to random path sampling on LJ7 and LJ38 transitions with one or more intermediate minima."
+}

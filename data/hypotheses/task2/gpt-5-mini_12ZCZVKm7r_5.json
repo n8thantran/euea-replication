@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Joint multi-modal pretraining across molecules, materials, proteins, and chemical language with a shared latent-space objective will yield representations that (when evaluated on out-of-distribution benchmarks such as OMol25 and RCSB) exhibit significantly higher cross-model CKNNA and IDCor and produce lower downstream energy/structure prediction MAEs after limited fine-tuning than equivalently-sized models trained independently on single domains."
+}

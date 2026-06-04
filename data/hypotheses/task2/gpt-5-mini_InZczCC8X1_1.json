@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Applying a periodic pulsed cathodic current (10 Hz, 50% duty cycle) synchronized with \u00b120% bicarbonate flow oscillations at the same frequency will increase reactor yield by at least 25% compared to the best steady-state champion conditions (1.5 M KHCO3/0.75 M K2CO3, 249 mA cm\u22122)."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Augmenting the \u2206-learning feature set with inexpensive local electronic descriptors derived from GFN1-xTB single-point outputs\u2014specifically metal-center d\u2011orbital population and estimated local spin state\u2014will reduce the HSE06 band-gap prediction MAE for MOFs containing Cr, Mn, Fe, Co, or Ni by at least 30% relative to the current \u2206-XGBoost model using only ST-135, RACs, and APRDF features."
+}

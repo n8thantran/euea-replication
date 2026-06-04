@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "An MLIP that integrates a differentiable long-range electrostatics correction, learned jointly with a local equivariant graph neural network potential and trained on a dataset enriched with charged species, will surpass charge-agnostic, short-range MLIPs in predicting energies, forces, and dipole moments for ionic and polar systems and will enable stable, long-timescale MD of ionic solutions beyond current SPICE2-based benchmarks."
+}

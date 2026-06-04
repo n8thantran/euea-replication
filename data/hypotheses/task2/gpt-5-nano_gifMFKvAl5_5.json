@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Integrating an anisotropy-aware constraint into PCDiff that explicitly links fiber/orientation distributions and filler alignment to direction-dependent mechanical properties (e.g., yield strength and Young's modulus along principal axes) will enable generation of composite designs with tunable anisotropic performance and higher directional-property prediction accuracy compared with isotropy-only diffusion."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Training E2EFOLD's decoder using multiple independently sampled discrete sequences per backbone during each training step (instead of a single straight-through Gumbel-Softmax sample) will reduce decoder overfitting to the encoder's sequence distribution and thereby improve structure-prediction accuracy on externally designed sequences (e.g., Boltz-2) while preserving or increasing self-consistency for encoder-designed sequences."
+}

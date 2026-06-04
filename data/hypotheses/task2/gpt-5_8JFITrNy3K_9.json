@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Among thermoelectric materials in MatPROV linked to Starrydata2, synthesis procedures that include sequential ball-milling followed by spark plasma sintering yield significantly higher reported ZT (mean over 300\u2013800 K) than composition-matched procedures that omit ball-milling and use conventional sintering, after controlling for densification temperature and pressure."
+}

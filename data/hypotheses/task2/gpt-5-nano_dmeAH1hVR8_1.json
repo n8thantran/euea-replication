@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "A unified multi-modal model that jointly learns MOFid-based textual representations and 3D structural embeddings (e.g., CGCNN-derived features) during continual pre-training will outperform text-only LLMs in predicting MOF properties, particularly under limited SFT data, and will generalize to MOFs with novel topologies."
+}

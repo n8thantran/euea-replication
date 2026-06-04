@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating second-shell atomic neighbors (atoms within 6 \u00c5 of the Fe center) into an SE(3)-equivariant graph neural network will improve EXAFS prediction accuracy on the XDIP dataset by at least a 20% reduction in mean absolute error compared to the reported GIN baseline trained on first-shell-only graphs."
+}

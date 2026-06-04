@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "When training PaiNN ensembles on QM9 with 10% labels and an unlabeled pool containing a 1:1 mix of QM9 and out-of-domain ZINC molecules, weighting each unlabeled sample\u2019s consensus loss by the inverse of the ensemble predictive variance will yield lower MAE and lower expected calibration error on the QM9 test set than the uniform-weighted consensus used in this paper."
+}

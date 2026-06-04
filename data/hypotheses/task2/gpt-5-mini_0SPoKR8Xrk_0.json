@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Polymers whose average contiguous strong-monomer block length matches the characteristic lateral size of strongly interacting surface patches will exhibit significantly stronger adhesion (lower binding free energy) than polymers with block lengths that are substantially shorter or longer than the surface patch size."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating modeled concentration-dependent non-linear spectral effects (e.g., hydrogen-bonding induced peak shifts and intensity changes) into the synthetic mixture training data will increase the Top\u201310 accuracy of the Transformer model on experimentally measured ATR\u2011IR binary mixtures with the target compound at 10% concentration by at least 10 percentage points compared to a model trained on purely linear-combination synthetic spectra."
+}

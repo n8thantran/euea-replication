@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Replacing CHROMA\u2019s discrete thickness tokens with a continuous thickness head and training the model using a sequence-level, differentiable TMM loss that directly minimizes CIE76 \u0394E over the specified viewing angles will reduce the mean held-out validation \u0394E from ~34 to \u226425 with the same N=8 decoder, dataset, and constraints."
+}

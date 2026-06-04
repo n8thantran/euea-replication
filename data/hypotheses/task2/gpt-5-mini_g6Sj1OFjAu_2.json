@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Conditioning CompGen on explicit local geometric descriptors\u2014specifically the active-site motif, per-site coordination numbers, and the adsorbate-to-first-shell distances\u2014in addition to (S, E, L) will reduce the Fr\u00e9chet Distance between generated and real latent embeddings on the HEA test set by at least 30% and increase the cosine similarity of generated versus ground-truth shell-2 compositions by at least 0.05 (absolute) compared to the original CompGen conditioned only on (S, E, L)."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "A foundation model pre-trained jointly on SMILES and simulated mixture-level physicochemical descriptors (e.g., ion solvation energies, ion-pairing constants, and solvent dielectric response) will produce at least a 20% lower mean absolute error than a SMILES-only pre-trained model when predicting out-of-distribution device-level battery performance metrics (e.g., Coulombic efficiency and specific capacity) on tail-end test sets."
+}

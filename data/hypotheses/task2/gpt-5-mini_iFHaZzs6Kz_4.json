@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Augmenting contrastive multimodal pretraining with explicit positive pairs formed from distinct low-energy conformers of the same molecule will produce embeddings that are jointly invariant to SO(3) rotations and internal conformational variation, increasing the multi-pose retrieval rate on the rotated benchmark to >75% and reducing QM9 HOMO MAE by >10% relative to the original SMILESDFT-CLIP model."
+}

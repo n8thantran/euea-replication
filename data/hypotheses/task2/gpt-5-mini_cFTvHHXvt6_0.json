@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Augmenting CHROMA with a continuous thickness refinement stage that takes the decoder's discrete output as initialization and optimizes layer thicknesses via differentiable TMM gradients will reduce mean validation CIE76 \u0394E on held-out structures to below 2 (the JND) for at least 50% of validation cases compared to the baseline discrete-only pipeline."
+}

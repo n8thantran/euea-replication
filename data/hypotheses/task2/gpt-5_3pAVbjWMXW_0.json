@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "On ATR-IR binary mixtures, replacing the true target concentration input with a uniformly perturbed value within \u00b120 percentage points will reduce the multitask model\u2019s Top-10 accuracy by no more than 5 percentage points compared to using the true concentration."
+}

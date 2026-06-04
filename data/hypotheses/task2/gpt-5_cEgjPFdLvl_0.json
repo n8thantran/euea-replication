@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "If AMDEN\u2019s score network is co-trained with a force-matching loss on forces from a 1% ab initio-relaxed subset of each dataset, then standard diffusion denoising without HMC will reproduce the correct cooling-rate energy ordering for amorphous Si and produce MEG samples whose Young\u2019s moduli deviate by no more than 10% from targets, while requiring at most half as many model evaluations as HMC denoising."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Using LoQI-generated lowest-energy conformers as initial structures for alchemical free-energy perturbation calculations on a benchmark set of 50 protein\u2013ligand complexes will reduce the mean unsigned error in predicted binding free energies by at least 0.5 kcal/mol compared to using RDKit ETKDG-generated initial conformers when the same FEP protocol and sampling effort are used."
+}

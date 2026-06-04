@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Augmenting X-MoPA training with stochastic modality dropout and a cycle-consistency constraint across the three latent predictors will reduce by at least 50% the relative MAE increase incurred when any single modality (graph, XRD, or text) is absent at inference on Matbench band gap and bulk modulus tasks, compared to the original X-MoPA."
+}

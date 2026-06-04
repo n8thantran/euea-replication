@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Allowing LLM agents to autonomously synthesize, validate, and register new composite tools at runtime (by composing existing tool APIs or generating short executable scripts) will increase task success rates in low task-tool alignment scientific environments (e.g., Spectra and MD) relative to agents restricted to a static, predesigned toolset."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "In property-driven generative optimization tasks sensitive to 3D molecular features (e.g., singlet/triplet excited-state energies), integrating 3D-conformation-aware diversity metrics (e.g., distributions of lowest-energy conformer RMSDs and 3D fragment-shape descriptors) into NaviDiv\u2019s adaptive constraint module will preserve a higher fraction of functionally relevant diversity\u2014measured as a statistically larger variance in predicted S1 and T1 energies among generated molecules at convergence\u2014while requiring equal or fewer reinforcement-learning iterations to reach the same average property score compared to using combined 1D/2D (fingerprint, SMILES, fragment) constraints alone."
+}

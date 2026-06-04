@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit adsorption-site geometry and local surface strain (facet label, first-shell bond lengths, and local strain) as additional conditioning signals in CompGen will enable facet- and motif-specific inverse design, producing two-shell compositions that achieve target adsorption energies with higher predictive accuracy and better transferability to unseen facet-strain conditions than the current geometry-agnostic formulation."
+}

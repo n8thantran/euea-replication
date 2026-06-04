@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Introducing a differentiable percolation-connectivity regularizer for conductive fillers (CNTs/Graphene) into the physics-constrained diffusion framework, which enforces a minimum filler-network connectivity above a critical volume fraction, will improve both manufacturability (Validityfab) and the accuracy of achieving target thermal and mechanical properties under processing variability, compared with the original PCdiff without such a connectivity constraint."
+}

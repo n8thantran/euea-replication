@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Introducing a 5\u201310% cross-modality contrastive alignment loss that pulls together co-representations of the same system from SMILES/SELFIES, 3D coordinates, and short natural-language descriptions during pretraining will, at fixed compute, significantly reduce the OOD\u2013ID CKNNA inflation and increase OOD property-prediction accuracy on OMol25 for models trained primarily on OMat24/sAlex compared to otherwise-identical models without this loss."
+}

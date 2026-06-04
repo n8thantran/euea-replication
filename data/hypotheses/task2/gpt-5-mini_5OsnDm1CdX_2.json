@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "A GraphSAGE-based mixture predictor augmented with explicit learned pairwise edge embeddings, trained only on pre-trained single-gas predictors and binary-mixture PBM data, will predict etching rates of unseen ternary gas mixtures (e.g., Ar/O2/N2) across the same power (50\u20132000 W) and pressure (10\u201370 mTorr) ranges with R2 \u2265 0.90 relative to PBM-generated ground truth without retraining the single-gas networks."
+}

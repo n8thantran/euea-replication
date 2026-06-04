@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Incorporating an explicit monotonicity constraint along the relative-density (volume fraction) mode into a CPD-based tensor completion model will increase test-set R^2 by at least 0.05 on underrepresented density levels compared with unconstrained CPD-S and Gaussian Process baselines trained under the same biased sampling."
+}

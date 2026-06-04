@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Pretraining small LLMs on paired MOF textual representations (MOFid and MOF-related PMC text) and compact 3D structural embeddings (e.g., SOAP or CGCNN-derived vectors) will yield a lower MAE on QMOF band-gap prediction than text-only pretraining using the same compute and corpora, with the performance gain being larger when supervised fine-tuning datasets contain fewer than 5,000 samples."
+}

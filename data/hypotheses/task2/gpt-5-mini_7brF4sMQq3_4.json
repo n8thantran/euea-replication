@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "In multi-step reaction networks containing intermediate metastable states, applying ASTRA sequentially via pairwise Score-Based Interpolation and Score-Aligned Ascent between each adjacent metastable pair will discover the corresponding elementary transition states (first-order saddle points) for each step, producing sampled ensembles whose committor distributions are centered near 0.5 despite the diffusion model being trained only on metastable-state configurations."
+}

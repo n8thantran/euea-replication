@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Integrating a persistent, graph-structured semantic memory that encodes force-field parameter ontologies with unit/provenance constraints and canonical RASPA configuration templates will increase the parameter-extraction IoU for non-standard table layouts (e.g., EPM2) from 0.67 to \u22650.90 and raise single-adsorbate HOA setup success from 80% to \u226595% on a held-out benchmark of at least 20 papers and 50 automated simulations, relative to the current system."
+}

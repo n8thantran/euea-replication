@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "During in situ LPTEM, a real-time closed-loop control system that uses online SAM-EM trajectory statistics (MSD vs lag, velocity autocorrelation, and displacement distribution) to adaptively modulate electron-beam dose rate and solution ionic strength will reliably steer a colloidal nanoparticle ensemble toward a predefined two-dimensional hexagonal lattice within 60 seconds, with a significantly higher success rate than identical experiments run under static conditions."
+}

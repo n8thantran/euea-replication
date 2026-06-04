@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "A multi-temperature ASTRA model trained on metastable-state configurations across a range of temperatures will generalize TS sampling to unseen temperatures, producing transition-state ensembles with committor values peaking near 0.5 and barrier heights within 1 kcal/mol of the ground-truth PES when evaluated at those unseen temperatures."
+}

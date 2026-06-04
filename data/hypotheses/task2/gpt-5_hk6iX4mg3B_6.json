@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "On molecular graph classification benchmarks (ogbg-molhiv and ogbg-molpcba), replacing the arithmetic-mean probability consensus with a geometric-mean (logit-averaged) consensus for the unlabeled consistency target in the proposed ensemble-consensus SSL will reduce test cross-entropy and expected calibration error at the same architecture and coupling weight \u03b3."
+}

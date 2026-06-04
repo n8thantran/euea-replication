@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Equipping the autonomous multi-agent materials characterization system with a persistent, structured semantic-episodic memory module will improve generalization to unseen zeolite/topology structures and adsorbates, resulting in a statistically significant increase in autonomous simulation setup success rate and force-field extraction IoU on a held-out test set (p<0.05) compared to a memoryless baseline, especially for multi-structure and multi-adsorbate scenarios."
+}

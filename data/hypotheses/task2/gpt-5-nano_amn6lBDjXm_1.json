@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Including spin\u2013orbit coupling (SOC) in DFT-based stability screening will significantly alter the energy above hull and SUN stability classifications for diffusion-model\u2013generated materials containing heavy elements (5d/6p), thereby reordering model rankings and yielding closer agreement with experimentally synthesizable structures than SOC-omitted evaluations."
+}

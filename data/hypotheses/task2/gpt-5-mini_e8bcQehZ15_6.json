@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating discrete scaffold concept embeddings into CAST\u2019s concept bottleneck model and using scaffold-conditioned steering vectors during generation will enable LLMs to retain a specified input scaffold in at least 90% of generated molecules while achieving target-property MAE within \u00b110% of unconstrained CAST and maintaining validity \u226590%, compared to CAST without scaffold concepts."
+}

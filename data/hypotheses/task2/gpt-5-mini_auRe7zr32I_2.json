@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Adaptive diversity constraints computed from 3D-conformer similarity (e.g., mean pairwise heavy-atom RMSD and 3D shape fingerprints) and applied to graph- or diffusion-based generative models will preserve significantly greater stereochemical and conformational diversity\u2014quantified by higher mean pairwise RMSD and a larger number of 3D conformer clusters\u2014while achieving equal or better property optimization scores after 1000 training iterations than equivalent adaptive constraints based on 2D fingerprints or SMILES n-grams."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "A rotationally and reflection equivariant graph neural network that explicitly encodes absorber\u2013scatterer multiple-scattering path geometry will reduce EXAFS spectrum prediction MAE on XDIP by at least 25% relative to the reported GIN baseline when trained on the same splits without additional data augmentation."
+}

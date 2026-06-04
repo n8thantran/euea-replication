@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Incorporating a token-class\u2013weighted KL anchor into DPO that penalizes divergence on element-symbol and numeral tokens at least 5\u00d7 more than on other tokens will prevent the collapse observed in OLMo-2 and yield a \u226515% increase in mean Thermo-Calc reward over OLMo-2 SFT while preserving coverage recall \u22650.98 and Unique pairs @100 \u22650.98."
+}

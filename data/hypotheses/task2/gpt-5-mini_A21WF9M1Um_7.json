@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Using a soft, classifier-weighted mixture of symmetry projection operators\u2014where each gradient step in XRD-based optimization is projected onto a weighted sum of crystal-family projectors with weights given by a space-group posterior from an XRD-based classifier\u2014will yield higher StructureMatcher recovery rates and reduced incidence of local-minimum trapping than both unconstrained optimization and hard single-space-group projection when reconstructing structures from moderately distorted XRD patterns."
+}

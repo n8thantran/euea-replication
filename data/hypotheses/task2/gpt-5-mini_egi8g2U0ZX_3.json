@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Integrating a differentiable surrogate model trained on a small DFT-labeled dataset to predict porosity and electronic conductivity into the reinforcement-learning reward function will increase the fraction of generated molecules that pass expert material-specific filters and reduce the negative correlation between internal diversity and passing-filters compared to reinforcement learning using only the original expert-filter rewards."
+}

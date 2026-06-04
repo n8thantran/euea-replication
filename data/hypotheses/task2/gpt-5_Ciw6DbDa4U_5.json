@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "In biased-sampling settings where observations are concentrated in specific unit-cell geometries, modeling E and E/m as an added \u201cproperty\u201d mode in a coupled low-rank tensor completion that shares all design-mode factors will yield lower test MAE for both properties\u2014particularly on under-sampled geometries\u2014than training separate (uncoupled) tensor models."
+}

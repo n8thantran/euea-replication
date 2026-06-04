@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating a kinetic-feasibility score, predicted from estimated activation barriers for common solid-state transformations within generated structures and evaluated at synthesis-relevant temperatures, into the evaluation framework will reduce false positives from purely thermodynamic stability assessments and yield a stronger correlation with experimentally synthesizable materials than SUN and RMSD alone."
+}

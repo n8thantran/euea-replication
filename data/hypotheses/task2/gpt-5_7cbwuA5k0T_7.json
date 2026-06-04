@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Pruning the available tools to the three with highest embedding similarity to the task prompt before execution will raise pass@5 by at least 0.10 and reduce failed tool calls by at least 20% on MD and Spectra tasks for both ReAct and tool-calling agents, compared to providing the full toolset."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Augment MLIP architectures with a jointly learned atomic partial charge predictor and a learned long-range electrostatics correction, trained on datasets including charged species, to achieve lower energy and force MAEs and improved MD stability for non-neutral systems (e.g., solvated ions and proton-transfer events) compared with charge-agnostic MLIPs."
+}

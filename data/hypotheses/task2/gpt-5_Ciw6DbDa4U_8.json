@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Under biased sampling of lattice design variables, an active learning policy that sequentially selects experiments by maximizing CPD-based entry leverage scores will reach the same test R2 on predicting Young\u2019s modulus and E/m as Gaussian Process uncertainty sampling using at least 30% fewer labeled samples."
+}

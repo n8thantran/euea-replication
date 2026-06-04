@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating estimated heating energy consumption (via heat capacities) and purification costs into the workflow's economic-efficiency metric will cause the higher-thermodynamic-yield but pricier recipes (e.g., Ca3SiO5+Si3N4) to become more cost-effective than the low-cost CaO+SiO2 recipe for Ca2SiO4 synthesis once the combined per-run energy and purification costs exceed the cost advantage provided by CaO's low market price."
+}

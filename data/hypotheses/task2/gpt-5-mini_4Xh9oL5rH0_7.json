@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Training a universal ML interatomic potential with an auxiliary objective to predict environment-dependent atomic partial charges (e.g., Hirshfeld charges) on a MOF-representative, out-of-equilibrium dataset will reduce the MD simulation failure rate (structures with >10% volume deviation) on the MOFSimBench set by at least 30% and decrease mean absolute error in bulk modulus and heat capacity predictions by at least 20% relative to the same uMLIP trained without the charge-prediction objective."
+}

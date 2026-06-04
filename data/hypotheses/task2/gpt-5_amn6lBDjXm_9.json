@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Computing the Earth Mover\u2019s Distance between static-DFT formation-energy distributions on a 10% random subsample of each model\u2019s outputs and those of the reference dataset will recover the full-sample SUN-based ranking of generative models with Kendall\u2019s tau \u2265 0.7 across both MP and OQMD composition splits."
+}

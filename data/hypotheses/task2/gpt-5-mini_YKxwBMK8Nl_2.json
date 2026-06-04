@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Implementing a two-stage computer-vision pipeline that first detects and localizes molecular structure images in scientific PDFs with \u226590% mAP and then segments and standardizes these images prior to applying DECIMER will increase SMILES extraction recall on ChemX small-molecule datasets from under 5% to over 50%, thereby improving overall small-molecule extraction F1 by at least 30 percentage points compared to the current single-agent approaches."
+}

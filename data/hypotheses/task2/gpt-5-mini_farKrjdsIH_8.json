@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Augmenting SAM-EM with a LEONARDO-derived physics-informed temporal prior and training the augmented model end-to-end will reduce particle identity-switch events during severe multi-particle overlaps by at least 50% on simulated LPTEM videos with liquid thickness \u2265125 nm compared to the current SAM-EM."
+}

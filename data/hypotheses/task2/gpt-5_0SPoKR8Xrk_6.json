@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "At fixed polymer and surface strong-site fractions and fixed pairwise interaction strengths, the binding free energy \u0394F is maximized when the polymer\u2019s sequence correlation length (mean strong-block length) matches the characteristic size of strong-site domains on the surface and decreases as the mismatch between these two length scales increases."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "An uncertainty-aware active-sampling strategy that uses tensor completion uncertainty estimates to select new lattice experiments will reduce the number of measured samples required to achieve a target test R^2 for predicting Young's modulus by at least 30% compared to Gaussian Process\u2013based active sampling when starting from a biased initial training set."
+}

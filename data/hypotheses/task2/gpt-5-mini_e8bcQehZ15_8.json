@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Augmenting CAST's concept bottleneck with binary labels and learned embeddings for 100 common functional groups will enable the model to generate molecules that satisfy specified functional-group presence/absence constraints for at least 90% of targets on held-out test sets while incurring less than a 10% relative increase in QED and LogP MAE and less than a 5% relative decrease in chemical validity compared to the original CAST."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "A SE(3)-equivariant graph neural network trained on the XDIP dataset augmented with DFT-computed iron oxidation states and spin multiplicities for each local structure will achieve at least a 20% lower EXAFS mean absolute error on the held-out test set compared to the GIN baseline reported in the paper."
+}

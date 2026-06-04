@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Replacing the scalarized average reward with a Pareto-dominance-based multi-objective reinforcement learning scheme that optimizes symmetry, flatness, conjugation, and steric hindrance separately will at least double the fraction of lattice node candidates passing all expert filters while maintaining uniqueness \u226580% relative to the best fine-tuning baseline under equal training compute."
+}

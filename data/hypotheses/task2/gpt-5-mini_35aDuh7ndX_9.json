@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Including protein-structure-derived 3D pharmacophore restraints (explicit spatial coordinates of H\u2011bond donors/acceptors and hydrophobic/aromatic features) in the reinforcement-learning reward will produce generated molecules whose median in vitro binding affinity (Kd) to estrogen receptor alpha is at least two-fold better than molecules generated using CATS-based pharmacophore guidance alone while maintaining equal or greater structural novelty (median MAP4 Tanimoto similarity to the reference set \u2264 0.35)."
+}

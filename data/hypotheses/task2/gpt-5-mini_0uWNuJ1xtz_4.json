@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating a conformer-derived textual modality encoding binned interatomic distances and angles into STR-Bamba's unified vocabulary will significantly improve (statistically lower MAE) prediction accuracy on QM9 electronic properties compared to an otherwise-identical STR-Bamba426M model trained without this conformer modality."
+}

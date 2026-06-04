@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "A coupled ensemble consisting of four heterogeneous molecular graph models (e.g., PaiNN, SchNet, GIN, and GatedGCN) trained with the ensemble-consensus semi-supervised objective using 10% labeled QM9 and 90% unlabeled ZINC will achieve a statistically significant lower QM9 test MAE and lower expected calibration error than a same\u2011sized coupled ensemble of four homogeneous PaiNN models trained under identical settings."
+}

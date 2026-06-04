@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "An iron-centered 3D-equivariant Graph Neural Network that explicitly encodes local angular geometry around the Fe site will achieve statistically significant improvements in forward XAS structure-to-spectrum predictions, particularly in the EXAFS region, compared to non-equivariant GNN baselines when trained on the XDIP dataset."
+}

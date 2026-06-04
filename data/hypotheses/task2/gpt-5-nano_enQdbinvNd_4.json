@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Integrating a persistent semantic-episodic memory module into the agent framework will enable better transfer learning to unseen zeolite/topology-adsorbate combinations, resulting in at least a 15 percentage-point increase in simulation\u2011setup success rate and a 0.15\u20130.20 rise in IoU for extracted force-field parameters on hold-out materials compared with a memoryless baseline."
+}

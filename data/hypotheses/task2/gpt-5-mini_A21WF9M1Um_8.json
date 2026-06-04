@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "For a range of lattice and coordinate perturbations, gradient-based optimization using a composite loss L_total = L_xrd + \u03bb E_CHGNet with \u03bb tuned in [1e-4, 1e-1] will yield significantly higher StructureMatcher recovery rates and a measurably smoother optimization landscape (fewer and shallower local minima) than optimization using L_xrd alone."
+}

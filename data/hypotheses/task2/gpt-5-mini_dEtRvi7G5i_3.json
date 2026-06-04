@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Incorporating metal-lattice electron localization function (ELF) descriptors and DFT charge-density convolution features into the ML screening will increase the true positive rate of identifying superhydrides with Tc > 100 K by at least 30% relative to the current lattice-and-composition-based ML workflow when evaluated on a held-out test set of \u2265200 candidate metal lattices at 150\u2013300 GPa."
+}

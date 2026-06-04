@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Augmenting CHROMA\u2019s discrete decoder with a lightweight regression head that predicts per-layer continuous thickness refinements within \u00b110 nm and training jointly with a differentiable TMM-based sequence-level loss will reduce the mean held-out CIE76 \u2206E by at least 25% compared to the cross-entropy\u2013only discrete baseline at the same decoder depth."
+}

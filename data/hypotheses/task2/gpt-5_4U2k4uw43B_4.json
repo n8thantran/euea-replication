@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "In the CsPbI3 \u03b2\u2192\u03b3 transition, fine-tuning the pretrained eSEN model on \u2264200 DFT-labeled SSNEB images selected from those with the highest predicted virial stresses, using a loss with stress:force:energy weights \u22653:1:1, will reduce the subsequent VASP-SSNEB convergence iterations by \u226550% relative to the unfine-tuned eSEN+VASP-restart baseline while keeping the final DFT energy barrier within 0.02 eV of the VASP-only result."
+}

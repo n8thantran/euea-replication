@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "In a ternary Ar/O2/He plasma etching system, augmenting the proposed GraphSAGE model with physics-derived edge features that encode pairwise interaction propensities (e.g., reaction counts or estimated cross-sections between species) will increase etch-rate prediction R2 by at least 0.05 on unseen operating conditions compared to the current node-only implementation, without retraining the single-gas predictors."
+}

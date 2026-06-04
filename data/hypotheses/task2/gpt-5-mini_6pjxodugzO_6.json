@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Pretraining a chemical foundation model on synthetic mixture representations (concatenated SMILES with explicit composition tokens) using contrastive objectives that encode pairwise solute\u2013solvent interaction signals will reduce out-of-distribution mean absolute error by at least 25% for ionic conductivity and solubility prediction tasks compared to an equivalent model pretrained only on single-molecule SMILES."
+}

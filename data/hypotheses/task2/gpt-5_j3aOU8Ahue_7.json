@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Using the same EfficientNet-B0 backbone, introducing a self-supervised contrastive pretraining stage on unlabeled additive-containing SEM images will enable a 50% reduction in labeled target data during fine-tuning while maintaining macro-F1 averaged over additive-domain formation and 100-cycle classes within 0.01 of the paper\u2019s Pre+FT(OS) baseline."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating differentiable micromechanics-derived constraints for stiffness and thermal conductivity (e.g., Mori\u2013Tanaka or effective medium approximations) into the PCDiff training loss will increase the fraction of generated composite compositions whose experimentally measured Yield Strength and Thermal Conductivity simultaneously lie within \u00b110% of target values by at least 25 percentage points compared to PCDiff using only non-negativity and sum-to-one regularization."
+}

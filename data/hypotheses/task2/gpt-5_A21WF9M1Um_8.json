@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "A homotopy-based refinement that begins by optimizing against artificially broadened pseudo-Voigt peaks (e.g., scaling the Caglioti parameters U,V,W by 3\u20135\u00d7 and increasing \u03b7 toward Gaussian) and monotonically anneals to the physical broadening will smooth the XRD-similarity loss enough to eliminate most spurious local minima and, on the MP20-derived test set with \u03c3l=0.05\u20130.10 or \u03c3c=0.02\u20130.05, will achieve at least 2\u00d7 higher StructureMatcher match rates than direct fixed-broadening optimization using the same similarity metric, without imposing symmetry constraints."
+}

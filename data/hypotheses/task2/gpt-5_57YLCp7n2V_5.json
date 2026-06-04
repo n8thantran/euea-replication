@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Enforcing the corrected aromatic-aware valency constraints (indexed by element, formal charge, number of aromatic bonds, and non-aromatic bond order) as hard masks during sampling in a GEOM-Drugs\u2013trained 3D diffusion model will reduce the mean GFN2-xTB relaxation energy of valid generated molecules by at least 20% compared to unconstrained sampling with identical network weights and denoising steps."
+}

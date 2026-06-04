@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "The spatially-averaged magnitude of the curl of the model\u2019s directly predicted non-conservative force field will correlate more strongly (higher Spearman rs) with the true DFT force error (\u03b5direct) across both in-distribution and adversarial out-of-distribution structures than the RMS Force Delta (U\u2206), making curl magnitude a superior data-free single-model UQ metric."
+}

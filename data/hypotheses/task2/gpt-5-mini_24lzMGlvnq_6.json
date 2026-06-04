@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Applying a token-targeted KL-regularized DPO\u2014i.e., including an explicit KL penalty anchoring the DPO model to the SFT policy only on element-symbol tokens and multi-digit numeric tokens during preference tuning\u2014will prevent the element-token distribution drift observed in OLMo and yield a statistically significant increase in mean reward and synthesis-constraint satisfaction while preserving output diversity."
+}

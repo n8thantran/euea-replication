@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "E2EFOLD's decoder will predict significantly more accurate structures (lower RMSD) for sequences sampled from its own encoder than for sequences designed by external design methods (e.g., ProteinMPNN, ESM-IF1), and the RMSD difference will increase monotonically with the per-residue KL-divergence between the encoder's predicted amino-acid distributions and those implied by the external methods."
+}

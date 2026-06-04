@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "For any generative model and dataset, computing the Earth Mover's Distance over formation energies predicted by an ML regressor retrained on a stratified, DFT-relaxed subset comprising at most 5% of the generated samples will yield an EMD that correlates with the SUN stability fraction (energy-above-hull \u22640.1 eV/atom) with Pearson r \u2265 0.8 on a held-out set of generated structures."
+}

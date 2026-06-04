@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "In MADE episodes on held-out ternary and quaternary chemical systems initialized with Materials Project hulls, a multi-fidelity agent that uses calibrated epistemic uncertainty from an MLIP to drive an information-gain acquisition function and selectively allocates a fixed budget of high-fidelity DFT queries to high-uncertainty candidates will discover more novel thermodynamically stable compounds per DFT query than agents using diversity-only or uncertainty-agnostic selection."
+}

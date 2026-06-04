@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating a textualized 3D conformer modality (e.g., quantized pairwise distance and torsion-angle tokens) into STR-Bamba pretraining will reduce MAE on QM9 dipole moment (mu) and polarizability (alpha) by a statistically significant margin compared to the current model trained only on 1D textual representations."
+}

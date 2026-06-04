@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Deploying SAM-EM in a closed-loop LPTEM workflow that reduces electron dose rate in real time whenever the model detects signatures of beam-induced perturbation (e.g., abrupt decreases in MSD or onset of sub-diffusive motion) will reduce the frequency of beam-induced nanoparticle aggregation events by at least 30% compared to identical open-loop experiments with constant dose under the same imaging conditions (35 e\u2212/\u00c52\u00b7s, 80 fps) and liquid thicknesses of 50\u2013150 nm."
+}

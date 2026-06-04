@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Integrating a calibrated, uncertainty-aware multi-fidelity surrogate for DFT-derived energy above hull into the SUN stability metric will improve cross-dataset generalization of stability assessments for ML-generated inorganic materials and substantially reduce the number of full DFT relaxations required per candidate without sacrificing the identification of truly stable structures."
+}

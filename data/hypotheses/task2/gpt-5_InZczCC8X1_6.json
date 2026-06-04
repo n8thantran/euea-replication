@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "In a reactive carbon electrolyzer operating with 1.5 M KHCO3 and 0.75 M K2CO3 (total 3 M K+), KHCO3 flow 144 mL min-1,"
+}

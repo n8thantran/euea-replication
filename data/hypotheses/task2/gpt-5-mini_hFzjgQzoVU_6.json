@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "An SE(3)-equivariant graph neural network trained on the XDIP dataset (using the same 80/10/10 split and 100-point interpolated spectra) will predict EXAFS spectra with a mean absolute error at least 25% lower than the reported GIN baseline (reducing EXAFS MAE from ~0.101 to \u22640.075 on the held-out test set)."
+}

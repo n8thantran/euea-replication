@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Augmenting SAM-EM with a Kalman filter whose process noise is parameterized by LEONARDO-learned diffusion statistics will reduce identity switching by at least 40% during pairwise particle overlaps in 150 nm\u2013thick LPTEM videos while changing the median per-frame Jaccard index by no more than \u00b12% relative to the current pipeline."
+}

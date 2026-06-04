@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "In mixtures of three or more gases for plasma etching, a hypergraph neural network that models learned higher-order (triplet and above) interactions among pre-trained single-gas neural predictors will produce statistically significantly lower mean squared error in predicted spatial etching-rate profiles than a comparable pairwise GraphSAGE model using only node features and pairwise edges."
+}

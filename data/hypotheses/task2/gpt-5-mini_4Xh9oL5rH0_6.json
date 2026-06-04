@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Fine-tuning a pre-trained universal ML interatomic potential with a targeted MOF-specific DFT dataset of \u22641000 diverse out-of-equilibrium snapshots that sample underrepresented metal\u2013linker coordination chemistries will reduce the fraction of non-converged structural optimizations and unstable NpT molecular dynamics simulations on a held-out diverse MOF test set by at least 50% compared to the same uMLIP without this fine-tuning."
+}

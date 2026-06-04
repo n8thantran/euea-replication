@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "In the ALP configuration III simulator, coordinating a population of six independently seeded LLM agents with a novelty objective that selects subsequent recipes to maximize pairwise distance in a running UMAP embedding of reactor states will, under"
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Augmenting SAM-EM with an explicit physics-informed short-term motion prior (e.g., a LEONARDO-derived predictor) used to condition segmentation predictions will reduce particle identity-switch errors during severe multi-particle overlaps by at least 50% on overlap-heavy LPTEM test videos compared to the existing SAM-EM baseline."
+}

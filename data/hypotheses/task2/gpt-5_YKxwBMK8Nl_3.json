@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Augmenting the single-agent ChemX extraction pipeline with a document-layout-aware molecule detector, DECIMER-based optical chemical structure recognition, and an ontology-constrained caption/text co-reference linker will increase SMILES and target-value F1 scores by at least 0.20 absolute on the Complexes dataset compared to the best single-agent baseline."
+}

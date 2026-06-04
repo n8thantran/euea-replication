@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Integrating a learned per-atom charge-equilibration head conditioned on total system charge together with a differentiable Ewald-summed Coulomb term into a MACE force field in the mlip library will reduce the error in the simulated static dielectric constant of solvated amino acid systems by at least 30% and halve the NVE total-energy drift (meV/atom/ns) over 1 ns compared to the same architecture using only a 5 \u00c5 short-range cutoff without explicit long-range electrostatics."
+}

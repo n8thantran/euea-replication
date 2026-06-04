@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Joint multi-modal pretraining across molecules, materials, and proteins with an equivariance-inducing regularizer will produce a single foundation model whose embeddings exhibit significantly higher CKNNA alignment across all modality pairs on both in-distribution and out-of-distribution datasets and that enable zero-shot energy/force predictions with lower MAE than the best domain-specific models."
+}

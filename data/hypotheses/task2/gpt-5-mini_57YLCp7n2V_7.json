@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Augmenting training of 3D molecular generative models with a GFN2-xTB relaxation-energy penalty will result in generated molecules with a statistically significant lower mean \u2206Erelax on the GEOM-Drugs test set and will eliminate the currently observed mean \u2206Erelax performance gap between diffusion-based and flow-matching architectures."
+}

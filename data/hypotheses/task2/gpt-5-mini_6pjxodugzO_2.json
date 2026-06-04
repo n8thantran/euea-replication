@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Pretraining chemical foundation models on paired SMILES and simulated solvation/ion-pair interaction embeddings (e.g., from MD or QM-derived solvation shells) will reduce out-of-distribution mean absolute error by at least 20% for ionic conductivity and battery capacity predictions on multi-component electrolyte formulations compared to models pretrained on SMILES alone."
+}

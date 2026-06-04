@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Introducing a probabilistic surrogate for kinetic and thermodynamic data (Ea, k0, and CALPHAD equilibria treated as distributions) and requiring the LLM to sample these uncertainties when proposing Nb\u2013O synthesis routes will increase the rate and robustness of successful synthesis plans under temperature and composition perturbations compared to the fixed-parameter baseline."
+}

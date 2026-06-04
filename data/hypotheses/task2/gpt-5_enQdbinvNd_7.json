@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating a persistent, queryable knowledge-graph memory that encodes force-field entity\u2013relation schemas, RASPA keyword semantics, and episodic setup outcomes into the multi-agent framework will reduce wrong-parameter assignments in literature extraction by at least 50% (increasing mean IoU from ~0.90 to \u22650.95) and halve simulation-setup misconfigurations (e.g., mixture vs single-adsorbate, incorrect Widom settings) on previously unseen multi-adsorbate and multi-structure tasks relative to the current prompt-only system."
+}

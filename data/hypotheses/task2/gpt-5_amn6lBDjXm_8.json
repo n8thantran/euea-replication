@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Under a fixed DFT budget, an active-learning strategy that selects candidates by maximizing disagreement between a GNN surrogate of energy-above-hull and latent-space coverage scores will achieve at least 50% more SUN-stable discoveries per DFT evaluation than random or surrogate-uncertainty-only selection on both MP- and OQMD-derived generations."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Conditioning LoQI on 3D protein pocket context (e.g., pocket atom coordinates within 6 \u00c5 of the ligand) will enable generation of bound-like ligand conformers with median heavy-atom RMSD \u2264 0.6 \u00c5 to crystal poses on the Platinum Diverse set using \u2264 10 samples per ligand."
+}

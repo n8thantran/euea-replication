@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "An agentic pipeline that uses LLM-guided structure generation together with an ensemble MLIP for epistemic uncertainty and a multi-fidelity acquisition strategy that selectively promotes candidates for DFT evaluation will discover at least 50% more novel thermodynamically stable compounds within a fixed oracle budget B on held-out ternary chemical systems in MADE than a MatterGen+diversity policy that relies solely on MLIP evaluations."
+}

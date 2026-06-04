@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "A graph-based generative model pre-trained on ChEMBL35 and fine-tuned on the 103 CTF substrates and lattice nodes will generate lattice-node candidates that pass the experts' structural and electrochemical filters at a rate at least 15 percentage points higher than SMILES/SELFIES sequence-based models (e.g., REINVENT or Mol-AIR) under equivalent transfer-learning and computational-budget conditions."
+}

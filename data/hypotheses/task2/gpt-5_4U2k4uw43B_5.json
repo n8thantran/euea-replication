@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Material-specific fine-tuning of the eSEN model on 100 ab initio strained configurations per system with a stress-weighted loss (stress terms weighted at least equal to forces) will reduce mean absolute stress error by \u226550% and cut VASP SSNEB restart iterations by \u226540% for the CsPbI3 \u03b2\u2192\u03b3 and TiO2-B\u2192anatase transitions while keeping the final DFT-computed energy barriers within 0.02 eV of VASP-only baselines."
+}

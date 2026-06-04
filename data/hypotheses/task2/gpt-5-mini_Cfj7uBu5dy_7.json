@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "A two-stage multi-fidelity agent that generates candidates with an LLM-guided generative model, pre-screens thousands with an MLIP surrogate, and uses Bayesian optimization to select a small batch for DFT evaluation will identify at least 50% more novel thermodynamically stable compounds per DFT query than a MatterGen+diversity baseline across held-out ternary and quaternary chemical systems under the same DFT query budget."
+}

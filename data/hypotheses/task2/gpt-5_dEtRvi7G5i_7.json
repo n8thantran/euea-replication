@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "In La-, Ce-, and Th-based 3D hydrogen clathrate superhydrides at 150\u2013300 GPa, introducing an ordered 12.5\u201325% vacancy pattern in one interstitial hydrogen sublattice (creating non-integer H/M ratios) will increase the electron\u2013phonon coupling constant and yield superconducting transition temperatures at least 20% higher than those of the corresponding fully occupied integer-stoichiometry phases at the same pressure."
+}

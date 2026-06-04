@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Augmenting an OMat24-trained conservative uMLIP with \u22645,000 DFT-D3 host\u2013guest configurations (CO2 and CH4 in 50 chemically diverse MOFs) will reduce its 300 K adsorption enthalpy mean absolute error by at least 50% relative to the unaugmented model while changing its bulk modulus mean absolute error on the OMat24 inorganic validation set by less than 5%."
+}

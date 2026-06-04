@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "At fixed strong-bead fractions and interaction strengths, the polymer\u2013surface binding free energy becomes most negative when the polymer\u2019s sequence periodicity (dominant Fourier wavelength) matches the surface pattern correlation length within \u00b115%, whereas mismatches \u226550% reduce |\u0394F| by at least 20% for 40-bead chains on 20\u00d720 surfaces."
+}

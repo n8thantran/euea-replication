@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Augmenting AMDEN\u2019s energy-based score model with a small auxiliary force-matching loss on \u22645% of training structures with reference forces will align the learned noise-energy gradients with physical forces enough to match HMC-denoised structural (RDFs"
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Augmenting the Research Team with a structured semantic memory of canonical force-field table schemas plus a unit-and-consistency validator will reduce the average number of incorrectly assigned force-field parameters per paper by at least 75% and increase the mean Intersection-over-Union (IoU) of extracted versus ground-truth parameters to \u22650.98 when processing papers with nonstandard table layouts."
+}

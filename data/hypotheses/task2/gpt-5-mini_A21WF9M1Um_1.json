@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable Miller-index consistency loss that explicitly penalizes mismatches between simulated and target Bragg reflections (i.e., enforcing that aligned peaks arise from the same hkl indices) during XRD-guided gradient optimization will reduce deceptive high-similarity local minima and produce higher structural match rates than optimizing only global spectral similarity metrics."
+}

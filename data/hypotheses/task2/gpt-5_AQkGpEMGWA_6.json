@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "In CR2032 Li-metal half-cells with 1 M LiPF6 in EC:DEC (1:1), Si\u2013X alloy anodes exhibiting a Li-ion migration channel radius slope |dRt/dSOC| \u2264 0.45 \u00c5 per 100% state-of-charge will undergo <8% electrode thickness change and retain \u226585% capacity after 500 C/2 cycles, whereas alloys with |dRt/dSOC| > 0.45 \u00c5 per 100% will fail to meet at least one of these metrics."
+}

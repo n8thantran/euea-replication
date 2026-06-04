@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Weighting the DPO reward by Thermo-Calc database-coverage confidence\u2014downweighting candidates whose constituent element combinations lie in low-coverage regions of the TCHEA7 database\u2014will reduce element-token KL drift during preference tuning and produce models that, across architectures (LLaMA, Gemma, OLMo), achieve higher mean Thermo-Calc/CALPHAD-validated viability and greater stability of synthesis-objective satisfaction than standard unweighted DPO."
+}

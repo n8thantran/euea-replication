@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Automatically paraphrasing tool descriptions to increase their cosine embedding similarity to the task prompt by at least 0.1, without changing tool functionality, will raise pass@5 by at least 20% on Spectra and MD environments for both ReAct and tool-calling agents using the same base models."
+}

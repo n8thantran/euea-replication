@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "A two-stage curriculum in which REINVENT is first reinforced to satisfy substrate-specific filters and then continues RL on lattice-node filters while KL-regularizing to the substrate-optimized prior will increase the percentage of generated lattice-node molecules passing all expert filters by at least 10 absolute percentage points compared with direct fine-tuning on lattice nodes under identical data and compute budgets."
+}

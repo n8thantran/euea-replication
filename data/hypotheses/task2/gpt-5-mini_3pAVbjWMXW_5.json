@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "A multimodal transformer that jointly encodes the mixture IR spectrum and the corresponding low-resolution LC\u2013MS1 spectrum (m/z vs intensity), together with molecular formula and concentration, will raise Top\u201310 accuracy for identifying a 10%-concentration target compound on the synthetic binary mixture test set from 37.8% to over 55%."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Increasing the encoder-to-decoder projection dimensionality from 512 to 2048 while keeping the LLM encoder frozen will reduce the held-out validation mean CIE76 \u0394E by at least 25% compared to the original projection, demonstrating that the projection bottleneck\u2014not encoder parameter count\u2014is the dominant limiter of generalization."
+}

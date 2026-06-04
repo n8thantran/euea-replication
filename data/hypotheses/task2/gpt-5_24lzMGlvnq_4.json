@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Using a temperature-curriculum in DPO\u2014progressively increasing the minimum temperature at which BCC/B2 coexistence and lattice mismatch are evaluated from 373 K to 1273 K\u2014will, for LLaMA-3.1-8B, increase by"
+}

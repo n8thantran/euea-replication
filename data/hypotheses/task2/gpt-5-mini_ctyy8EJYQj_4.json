@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Allowing an LLM-based synthesis agent for the Nb\u2013O system to query the simulator for local sensitivity information (partial derivatives of equilibrium phase fractions with respect to temperature and composition) during planning will increase its success rate on multi-phase, non-adjacent target problems (e.g., Challenge 3) by at least 50 percentage points compared to the same LLM that only receives final-state simulation feedback."
+}

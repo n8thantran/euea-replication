@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "A continuous, differentiable thickness parameterization with a learned mapping to manufacturable levels, together with a physics-informed robustness loss that injects thickness perturbations during training, will reduce quantization error and yield inverse designs that achieve lower average CIE76 \u2206E across representative fabrication and viewing-angle perturbations than the discrete, fixed-vocabulary CHROMA approach."
+}

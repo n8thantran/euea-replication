@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "For 40\u2011bead coarse\u2011grained polymers interacting with 20\u00d720 patterned surfaces, increasing the polymer persistence length above ~10 monomer units will reduce sequence-dependent variation in binding free energy to below 1 kBT, such that surface composition alone becomes the dominant determinant of adhesion."
+}

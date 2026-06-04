@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "A multimodal pre-training approach that jointly encodes MOFid-based textual information and differentiable 3D structural representations of MOFs through cross-modal attention will outperform text-only MOF LLMs on QMOF/hMOF property-prediction tasks and enable accurate zero-shot inverse design of MOFs with targeted adsorption properties, particularly in low-supervised-finetuning data regimes."
+}

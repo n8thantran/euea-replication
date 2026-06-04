@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "A force-uncertainty-weighted BAX acquisition that selects points with maximal predicted per-atom force variance will reduce the number of expensive energy/force simulator evaluations required for NN-BAX to meet the same NEB convergence criteria by at least 30% compared to the random-path sampling acquisition used in this paper for both the LJ38 benchmark and DFT-calculated systems of \u2265100 atoms, while maintaining predicted energy-barrier errors within 2% of ground truth."
+}

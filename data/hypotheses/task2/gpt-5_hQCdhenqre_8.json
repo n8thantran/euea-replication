@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the pre-trained MACE/NequIP/ViSNet models with a differentiable JAX-MD loss that penalizes total-energy drift over 10\u2013100 step NVE rollouts will reduce the median absolute energy drift per atom by at least 50% during 1 ns NVE simulations of 1UAO and 1ABT relative to models trained only on per-structure energy/force labels, while altering validation force MAE by less than 5%."
+}

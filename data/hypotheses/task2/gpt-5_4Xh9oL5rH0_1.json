@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Augmenting the training data of a conservative uMLIP with 0.5\u20131.0% MOF-specific out-of-equilibrium configurations that include linker torsions and transient metal\u2013ligand bond elongations will reduce the rate of structural optimization non-convergence at 10\u22123 eV/\u00c5 by at least 50% and lower the MOF bulk modulus MAE by \u226525% compared to the same architecture trained without MOF data."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Conditioning LoQI on coarse-grained protein binding-pocket information (e.g., residue distance maps and pocket electrostatic potential) will enable the model to generate ligand conformations within 1.0 \u00c5 RMSD of the crystal-bound pose for at least 70% of Platinum Diverse ligands using five or fewer sampled conformers."
+}

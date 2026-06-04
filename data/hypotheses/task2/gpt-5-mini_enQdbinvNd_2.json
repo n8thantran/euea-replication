@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Integrating a structured, persistent semantic and episodic memory module into the multi-agent framework that records past extraction mappings, templating heuristics, and correction histories will reduce incorrect numerical parameter assignments during literature-to-force-field extraction by at least 50% and lower downstream adsorption isotherm RMSE against benchmark experimental or high-level-reference data by at least 30% compared to the current prompt-and-tool-only system."
+}

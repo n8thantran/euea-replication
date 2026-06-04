@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Using an uncertainty-maximizing acquisition (selecting the image with highest predictive epistemic uncertainty along the model-predicted NEB path) in NN-BAX will reduce the number of expensive DFT energy/force evaluations required for NEB convergence by at least 30% compared to the random-path-sampling NN-BAX used in this paper for systems of 50\u2013150 atoms, while keeping predicted energy barriers within 5% of classical NEB."
+}

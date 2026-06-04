@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "There exist finite industrial heating-energy and purification-cost thresholds such that, when predictive models of heat consumption (derived from heat capacities and phase transitions) and purification expenses are incorporated into the workflow's economic metric, the higher-thermodynamic-yield synthesis routes (e.g., Ca3SiO5+Si3N4) will become more economically favorable than the currently optimal CaO+SiO2 route for producing Ca2SiO4."
+}

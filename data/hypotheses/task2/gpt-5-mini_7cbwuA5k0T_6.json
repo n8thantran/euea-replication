@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "For foundation models with insufficient domain knowledge, integrating an automated tool-synthesis module that detects task-tool embedding gaps and generates + self-validates lightweight task-specific tools will increase pass@5 on high-domain tasks (Spectra and MD) by at least 30% relative to agents using a fixed tool set."
+}

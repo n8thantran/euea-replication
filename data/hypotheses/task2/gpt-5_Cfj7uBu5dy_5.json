@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "In MADE instantiated on held-out ternary intermetallic systems with a two-fidelity oracle (MLIP cost 1, DFT cost 100), a cost-aware Bayesian optimization agent that models P(\u0394hull_DFT \u2264 0.01 eV/atom | MLIP-derived features) and allocates 15% of its queries to DFT for on-the-fly surrogate recalibration will discover at least twice as many StructureMatcher-distinct DFT-stable compounds as a MatterGen+diversity MLIP-only baseline under an equal total cost budget of 50 DFT-equivalent evaluations."
+}

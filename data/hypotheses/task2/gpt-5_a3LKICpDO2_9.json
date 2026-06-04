@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Augmenting the \u0394-learning model with quantitative ligand-field descriptors of the metal nodes (coordination number, octahedral/tetrahedral symmetry metrics, and metal\u2013ligand bond-length/angle variances) will reduce the HSE06 band-gap mean absolute error for MOFs containing Cr, Mn, Fe, Co, or Ni by at least 25% relative to the \u0394-learning model trained on ST-135, RACs"
+}

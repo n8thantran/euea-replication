@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Augmenting the multimodal contrastive objective with stereochemistry-annotated SMILES and treating mirror-reflected 3D electron densities of each molecule as explicit hard negatives will yield embeddings that remain SO(3)-rotation invariant yet enantiomer-discriminative, achieving at least 75% Top-10 enantiomer retrieval accuracy on a held-out chiral benchmark while keeping rotated-pose Accuracy@10 within 1 percentage point of the original model."
+}

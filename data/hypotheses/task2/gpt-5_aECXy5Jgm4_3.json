@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Under DAC-relevant conditions (298 K, 0.4 mbar CO2, 40% RH), branched polyamine sorbents engineered to contain 25\u201335 mol% tertiary amines randomly distributed within a predominantly secondary-amine network (total amine density 8\u201310 mmol g\u22121) will achieve at least 15% higher equilibrium CO2 uptake than otherwise identical sorbents lacking tertiary amines."
+}

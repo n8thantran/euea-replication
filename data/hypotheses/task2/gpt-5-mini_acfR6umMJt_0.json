@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "A NN-BAX implementation using posterior-sampling acquisition with an ensemble of EquiformerV2 models will require at least 30% fewer expensive DFT energy/force evaluations than the random-path-sampling acquisition used in this paper to reach the same NEB convergence criteria (fmax and energy-barrier error \u22641%) on mid-sized (30\u2013100 atom) systems."
+}

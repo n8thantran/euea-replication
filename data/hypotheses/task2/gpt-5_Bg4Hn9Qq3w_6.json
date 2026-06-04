@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Under a fixed 7200 s total reactor-time budget, a heterogeneous swarm of independently prompted LLM agents with diverse model temperatures and randomized precursor order, coordinated by a summarizing supervisor that penalizes redundant trials, will achieve greater coverage of expert-labeled UMAP reaction regimes and a higher rate of discovering self-limiting ALD/ALE cycles in configuration II without QCM-range priors than a single agent."
+}

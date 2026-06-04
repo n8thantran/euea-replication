@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "A calibrated composite metric that linearly combines Earth Mover\u2019s Distance of density, Kullback\u2013Leibler divergence of space-group frequencies, and the fraction of sub-0.5 \u00c5 interatomic-distance violations will predict a generative model\u2019s SUN score on 1,024 generated structures within \u00b15 percentage points using no more than 64 DFT relaxations for calibration, achieving at least 2\u00d7 lower mean absolute error than latent Fr\u00e9chet distance or any single-property EMD on both MP and OQMD."
+}

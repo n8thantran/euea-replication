@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Extending NaviDiv to operate on graph-based molecular representations and incorporating graph-specific diversity metrics will preserve scaffold-level and substructure diversity during reinforcement learning optimization more effectively than the current SMILES-based NaviDiv, while achieving equivalent or better target-property scores across multiple design tasks."
+}

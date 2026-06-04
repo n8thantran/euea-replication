@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Augmenting DPO with a selective per-token KL constraint that anchors element-symbol and numeric tokens to the SFT policy during preference tuning of OLMo-2-7B will increase mean Thermo-Calc reward and raise the satisfaction rates of all four synthesis objectives compared to vanilla DPO under the same \u03b2 and compute budget."
+}

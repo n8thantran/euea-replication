@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "On a benchmark of 200 diverse protein\u2013ligand complexes from PDBBind, using a single LoQI-generated low-energy conformer per ligand for rigid-receptor docking will produce a greater fraction of near\u2011native poses (RMSD \u2264 2.0 \u00c5) than using ensembles of 50 RDKit ETKDG-generated conformers per ligand when both approaches consume equal total docking computational time."
+}

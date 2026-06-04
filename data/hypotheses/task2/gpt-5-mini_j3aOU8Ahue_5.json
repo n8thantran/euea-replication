@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Pretraining an EfficientNet-B0 on a multimodal dataset (SEM + TEM + XRD) of additive-free NCM cathodes will improve downstream fine-tuned classification F1 on additive-containing target data by at least 5 percentage points relative to SEM-only pretraining, with the largest gains occurring for formation-aged and 100-cycle classes."
+}

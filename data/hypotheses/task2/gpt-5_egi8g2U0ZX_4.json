@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "In REINVENT adapted to lattice node generation with a ChEMBL35 prior, a two-stage curriculum reinforcement learning scheme that first optimizes conjugation and steric hindrance and then introduces symmetry and flatness will produce at least a twofold increase in the proportion of molecules passing all expert filters relative to a single-stage RL with a static averaged reward, given identical training steps and no seed molecules."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Adding a differentiable Force Delta\u2013based regularization term to the training objective of direct-force neural network interatomic potentials will systematically reduce the curl error (conservativeness) of the learned force field, leading to improved energy conservation, longer stable molecular dynamics, and lower out-of-distribution prediction errors compared to standard training without the regularizer."
+}

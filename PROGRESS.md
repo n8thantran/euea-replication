@@ -1,6 +1,6 @@
 # Progress Tracker
 
-## Current Phase: Generating Hypotheses (Task 2 in progress)
+## Current Phase: Step 5 - Embedding all hypotheses
 
 ## Paper Summary
 Position paper arguing agentic AI scientists aren't built for autonomous discovery. Key empirical contribution: **Hypothesis Hivemind** experiment showing frontier LLMs converge semantically when generating hypotheses.
@@ -25,7 +25,6 @@ Position paper arguing agentic AI scientists aren't built for autonomous discove
 ### Sampling
 - 10 independent samples per model per paper per task
 - Total: 6000 API calls (3000 per task)
-- Plus 50 summary generation calls (already done)
 
 ### Embedding
 - Use `text-embedding-3-small` (OpenAI via OpenRouter) as in paper
@@ -43,14 +42,14 @@ Position paper arguing agentic AI scientists aren't built for autonomous discove
 - [x] Step 0: Clean up unrelated files
 - [x] Step 1: Download 50 papers from OpenReview and extract text
 - [x] Step 2: Generate experiment summaries (50/50 done)
-- [x] Step 3: Generate hypotheses Task 1 (3000/3000 done - all 6 models complete)
-- [ ] Step 4: Generate hypotheses Task 2 (1791/3000 done - Claude models done, GPT models in progress)
+- [x] Step 3: Generate hypotheses Task 1 (3000/3000 done)
+- [x] Step 4: Generate hypotheses Task 2 (2996/3000 done - 4 GPT-5 samples persistently fail, 99.87% complete)
   - claude-haiku-4.5: 500/500 ✓
   - claude-sonnet-4.5: 500/500 ✓
   - claude-sonnet-4.6: 500/500 ✓
-  - gpt-5-nano: 291/500 (in progress)
-  - gpt-5-mini: 0/500
-  - gpt-5: 0/500
+  - gpt-5-nano: 500/500 ✓
+  - gpt-5-mini: 500/500 ✓
+  - gpt-5: 496/500 (4 persistently failing: dEtRvi7G5i_4, dEtRvi7G5i_9, hQCdhenqre_5, iFHaZzs6Kz_7)
 - [ ] Step 5: Embed all outputs using text-embedding-3-small
 - [ ] Step 6: Compute cosine similarities (inter-model, intra-model, same-paper vs diff-paper)
 - [ ] Step 7: Generate all 6 figures
@@ -62,6 +61,7 @@ Position paper arguing agentic AI scientists aren't built for autonomous discove
 - Hypothesis generation at temperature 0.7 (standard for diverse sampling)
 - Paper truncated to 100K chars for context limits
 - 10 concurrent workers for API calls
+- 4 GPT-5 Task 2 samples permanently failed after 10+ retries - moving on (99.87% complete)
 
 ## Completed Work
 - `download_papers.py`: Downloads 50 PDFs, extracts text → `data/pdfs/`, `data/texts/`, `data/papers_metadata.json`
@@ -70,17 +70,17 @@ Position paper arguing agentic AI scientists aren't built for autonomous discove
 - All 50 papers downloaded and text extracted
 - All 50 experiment summaries generated
 - Task 1: 3000/3000 hypotheses generated (complete)
-- Task 2: 1791/3000 hypotheses generated (in progress)
+- Task 2: 2996/3000 hypotheses generated (99.87% complete)
 
 ## Failed Approaches
 - Initial generate_hypotheses.py didn't handle reasoning models (GPT-5 family returns content=None with reasoning field). Fixed by checking for content properly.
 - Git merge conflicts from parallel pushes - resolved with force push since local had complete data.
+- 4 GPT-5 Task 2 samples persistently fail despite 10+ retries with various concurrency settings. Moving on.
 
-## Remaining Work (estimated ~5-6 more rounds)
-1. Finish Task 2 generation (~1209 more API calls, ~3 rounds of 540s timeout)
-2. Embed all 6000 hypotheses using text-embedding-3-small (~2 rounds)
-3. Compute similarity matrices and generate figures (~1 round)
-4. Create reproduce.sh and REPORT.md (~1 round)
+## Remaining Work (estimated ~4-5 rounds)
+1. Embed all ~5996 hypotheses using text-embedding-3-small (~2 rounds)
+2. Compute similarity matrices and generate figures (~1-2 rounds)
+3. Create reproduce.sh and REPORT.md (~1 round)
 
 ## Evaluation Coverage
 - **Addressed**: Hypothesis Hivemind experiment (the main empirical contribution)

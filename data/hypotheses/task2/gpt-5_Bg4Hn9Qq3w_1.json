@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "When the total experimental time is fixed at 7200 s in ALP configuration III, deploying four parallel LLM agents with randomized model temperatures and shuffled precursor orderings and aggregating their conclusions via a simple summarizer will increase the probability of jointly discovering and correctly distinguishing both self-limiting ALD (B\u2013C) and ALE (A\u2013C) cycles from approximately 33% for a single-agent run to at least 75% without any additional domain hints."
+}

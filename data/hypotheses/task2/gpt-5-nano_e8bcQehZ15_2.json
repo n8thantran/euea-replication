@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "A learnable, property-conditioned fusion network that replaces the simple additive combination of per-property steering vectors in CAST will achieve more accurate multi-property alignment, higher validity, and greater robustness to out-of-distribution property targets, particularly as the number of target properties grows beyond two."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "For thermoelectric materials in MatPROV that have corresponding property curves in Starrydata2, machine-learning models using structural features of PROV-DM provenance graphs (e.g., branching factor, longest path length, and frequency-weighted activity motifs) will predict peak thermoelectric figure of merit (ZT_peak) with higher cross-validated R^2 than models trained only on the extracted scalar synthesis parameters (temperature, duration, pressure, mass, concentration)."
+}

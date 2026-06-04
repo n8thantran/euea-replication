@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Pretraining X\u2011MoPA with an additional single\u2011to\u2011one latent prediction objective\u2014where during pretraining the model is randomly given only one modality and must predict a second modality in latent space\u2014will produce representations that, after fine\u2011tuning, yield lower MAE on MatBench regression tasks and higher accuracy under single\u2011modality missing or corrupted conditions (e.g., missing XRD or text) compared to the original two\u2011to\u2011one pretraining scheme."
+}

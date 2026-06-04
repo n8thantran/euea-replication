@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Integrating a stochastic surface-roughness model into CHROMA's differentiable verifier and training with a robustness objective that minimizes the expected \u2206E over perturbations in thickness and interface roughness will produce inverse-design stacks whose spectral responses stay within the JND threshold under realistic fabrication variability, thereby reducing the generalization gap to unseen structures."
+}

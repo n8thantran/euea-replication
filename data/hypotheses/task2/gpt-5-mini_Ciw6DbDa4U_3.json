@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "When deployed as the surrogate model inside an adaptive experimental-design loop (e.g., Bayesian optimization or active learning) with a non-uniformly biased initial training set across design modes, tensor completion will identify lattice structures with Young\u2019s modulus above a specified target using fewer physical experiments than a Gaussian Process surrogate under the same conditions."
+}

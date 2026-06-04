@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Introducing a diffusion-limited, temperature-dependent oxygen transport model into the Nb\u2013O physics-based simulator will cause LLM-generated synthesis plans to achieve target phase fractions at lower peak temperatures and shorter total processing times than in the CALPHAD+JMA-based simulator, demonstrating that transport kinetics dominate synthesis pathway selection for Nb-oxide systems."
+}

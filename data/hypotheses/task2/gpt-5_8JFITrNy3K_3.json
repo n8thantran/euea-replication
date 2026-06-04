@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "8JFITrNy3K",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "For thermoelectric materials with property curves in Starrydata2, a graph neural network trained on MatPROV PROV-DM synthesis DAGs with the 10 node-level condition parameters will predict the room-temperature Seebeck coefficient with lower mean absolute error than both (i) a transformer regressor trained on the corresponding synthesis text and (ii) a recurrent model trained on linearized operation sequences derived from"
+}

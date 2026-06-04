@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Incorporating an auxiliary differentiable short-rollout energy-conservation loss (computed from 50\u2013200 step JAX\u2011MD trajectories) into MLIP training will yield models that, at equal validation energy and force MAE on SPICE2, exhibit significantly lower long-term energy drift and improved MD stability compared to models trained without this loss."
+}

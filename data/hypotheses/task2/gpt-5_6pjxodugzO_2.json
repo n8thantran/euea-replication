@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Encoding separator identity with polymer-structure embeddings learned by a polymer foundation model, rather than categorical labels, will decrease the mean absolute error of electrolyte\u2013separator contact angle predictions by at least 25% on the same train/test and tail-end OOD splits used in this study."
+}

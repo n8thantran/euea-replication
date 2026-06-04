@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Incorporating explicit chiral annotations in the SMILES encoder and using enantiomeric pairs as hard negatives during contrastive pretraining will yield embeddings that achieve at least 90% accuracy on enantiomer discrimination in a held-out chiral benchmark while maintaining SO(3) pose invariance with unseen-rotation retrieval Accuracy@10 within 2 percentage points of the original SMILESDFT-CLIP model."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "If AMDEN is trained to jointly predict interatomic forces alongside the noise score and those predicted forces are used to perform a single inexpensive gradient-based relaxation step at each denoising timestep, then the standard denoising procedure (without HMC) will generate amorphous samples whose mean potential energy after local geometry optimization is statistically indistinguishable from that of the annealed training dataset."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "A multi-modal MOF model that jointly encodes MOFid-based text representations (augmented with PubChem/PMC context) and a differentiable 3D crystal graph encoder will achieve significantly lower MAE in QMOF and hMOF adsorption-property predictions than a text-only LLM, with larger gains in low-SFT-data regimes and improved generalization to MOFs with unseen topologies."
+}

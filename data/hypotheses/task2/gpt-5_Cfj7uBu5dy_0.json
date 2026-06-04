@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "On MADE configured with DFT oracles for ternary intermetallic systems, a multi-fidelity Bayesian optimization policy that models energy-above-hull using cheap MLIP labels and sparse DFT corrections and selects DFT queries by maximizing expected growth of the convex-hull stable set will discover at least twice as many DFT-stable, Materials Project\u2013novel compounds as a MatterGen plus diversity acquisition baseline under an identical DFT budget of 40 queries."
+}

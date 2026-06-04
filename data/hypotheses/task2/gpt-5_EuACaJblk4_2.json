@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Applying per-residue sequence-recovery loss weights proportional to 1\u2212relative solvent accessibility (computed from the input backbone) during E2EFOLD training will increase self-consistency (mean TM-score by \u22650.05 on RFData) while maintaining mean sequence recovery within \u00b11 percentage point on E2EData compared to uniform per-residue weighting."
+}

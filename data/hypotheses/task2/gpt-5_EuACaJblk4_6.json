@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Applying sequence recovery supervision exclusively to buried residues (relative solvent accessibility \u2264 0.2) during E2EFOLD training, while keeping structural losses unchanged, will produce higher design self-consistency (increased TM-score and decreased RMSD on RFData and E2EData) than uniform sequence recovery weighting."
+}

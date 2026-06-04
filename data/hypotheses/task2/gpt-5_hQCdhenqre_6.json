@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating total molecular charge as an explicit input and adding a jointly trained charge-equilibration head whose predicted atomic partial charges contribute a differentiable Coulombic term (e.g., Ewald-summed) to an E(3)-equivariant MLIP will, compared to the same architecture trained without charge modeling, reduce force MAE by at least 10% and halve NVE energy drift over 1 ns trajectories on the SPICE2 solvated amino acids subset."
+}

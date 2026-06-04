@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Augmenting uMLIP training with an auxiliary task that predicts local metal coordination number and coordination geometry will reduce the fraction of failed structural optimizations on diverse MOF test sets by at least 50% and lower bulk modulus mean absolute error versus DFT by at least 20% relative to otherwise identical uMLIPs trained without the auxiliary coordination supervision."
+}

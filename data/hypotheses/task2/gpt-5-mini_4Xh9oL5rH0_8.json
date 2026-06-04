@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Augmenting universal MLIP training sets with a small (\u22642% of total samples) curated set of DFT-calculated out-of-equilibrium MOF metal\u2013linker coordination environments will increase the fraction of MOFs that complete 50 ps NpT simulations without >10% volume change and reduce mean absolute errors in predicted bulk modulus and heat capacity on MOFSimBench by at least 25% relative to the same uMLIP trained without these MOF-specific samples."
+}

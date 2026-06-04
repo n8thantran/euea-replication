@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "For batch sizes 32, 64, and 128, a hybrid policy that uses dynamic batching for the first 100,000 training steps and switches to static-64 thereafter will reduce total wall-clock time to reach 2,000,000 steps by at least 5% relative to always-dynamic while producing no statistically significant difference in final test RMSE (two-sided t-test p>0.10) on QM9 and AFLOW across SchNet, MPEU, and PaiNN."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "On QM9 with the MPEU model at batch size 32 on a single NVIDIA A100, a static-64 training run preceded by a warmup that executes gradient updates on synthesized batches covering the 10 most frequent multiples-of-64 padding sizes estimated from a 1,000-graph pilot sample will reduce recompilations by at least 90% and lower the mean combined time per step over the first 100,000 steps by at least 10% relative to standard dynamic batching, without a statistically significant change in final test RMSE (p\u22650.10)."
+}

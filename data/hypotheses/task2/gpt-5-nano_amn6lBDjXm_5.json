@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "An uncertainty-aware surrogate model predicting energy above the hull for generated crystal structures, used within an active-learning loop to selectively perform DFT relaxations, will preserve SUN-based stability rankings with accuracy comparable to full DFT validation while reducing total DFT computations by at least a factor of five across both perturbative and diffusion-generated materials."
+}

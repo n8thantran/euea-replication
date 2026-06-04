@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating separator-specific polymer embeddings derived from a polymer foundation model (using repeat-unit SMILES) alongside composition-weighted electrolyte embeddings, instead of using separator ID labels, will reduce static contact-angle prediction MAE by at least 25% on the reported separator\u2013electrolyte dataset under identical model architectures and train/test splits."
+}

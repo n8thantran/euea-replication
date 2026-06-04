@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Under DAC-relevant conditions (298 K, 0.4 mbar CO2, ~30% RH), branched polyamine polymers containing 30\u201350% secondary amine units and 20\u201340% primary amine units will exhibit \u226525% higher equilibrium CO2 uptake (mmol g\u22121) than linear polyamines of equal total amine density composed solely of primary amines, due to water-mediated cooperative binding between secondary amines and CO2."
+}

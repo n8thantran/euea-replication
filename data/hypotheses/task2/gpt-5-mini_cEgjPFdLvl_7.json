@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Training AMDEN to predict both a noise energy and atomic forces by augmenting its training data with short MD relaxation trajectories sampled at multiple diffusion noise levels will enable the model, using standard denoising without HMC, to generate amorphous structures whose post-geometry-optimization potential energy distributions and radial distribution functions are statistically indistinguishable from those of the annealed training set."
+}

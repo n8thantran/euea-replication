@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Adaptive consensus coupling that scales the unlabeled loss weight per batch in proportion to the ensemble\u2019s prediction variance will, without any dataset-specific tuning, produce higher test accuracy and lower calibration error than the best fixed global coupling weight on QM9 and GNN+ molecular benchmarks."
+}

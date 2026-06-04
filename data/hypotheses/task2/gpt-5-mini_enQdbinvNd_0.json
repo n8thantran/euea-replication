@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "enQdbinvNd",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Augmenting the multi-agent framework with a persistent semantic\u2013episodic memory that records past paper-parsing mappings, corrections, and simulation outcomes will enable the system to adaptively resolve nonstandard table layouts and reduce incorrect numerical parameter assignments in force field extraction on previously unseen papers by at least 50% compared to the current prompt-based system."
+}

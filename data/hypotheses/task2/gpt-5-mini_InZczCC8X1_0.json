@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "A gas-diffusion electrode engineered with a hierarchical dual-scale pore structure (nanopores/mesopores \u224850\u2013200 nm within macropores \u224810\u201350 \u00b5m) and equivalent Ag loading will increase reactor yield by at least 30% relative to the spray-coated Ag GDEs used in this study under the paper's champion operating conditions by reducing in situ CO2 bubble size and improving i-CO2 mass transport, thereby simultaneously increasing JCO and UCO2."
+}

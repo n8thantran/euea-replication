@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Augmenting XRD-based optimization with a computed total scattering pair distribution function (PDF) term will produce a measurably smoother combined loss landscape and significantly higher StructureMatcher recovery rates under the same lattice and coordinate noise levels, enabling unconstrained gradient descent to recover ground-truth structures in many cases where XRD-only optimization fails."
+}

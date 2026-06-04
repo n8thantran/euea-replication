@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Augmenting a conservative uMLIP with a self-consistent charge-equilibration module and Ewald-summed Coulomb interactions will reduce the median cell-volume error after 0 K relaxation by at least 30% and halve the rate of unconverged optimizations for MOFs with open metal sites or framework counterions, relative to the same model without explicit electrostatics, when evaluated under the MOFSimBench protocols."
+}

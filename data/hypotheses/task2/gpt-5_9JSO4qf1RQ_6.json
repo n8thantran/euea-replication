@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "9JSO4qf1RQ",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "In a two-objective setting (minimize formation energy per atom to \u2264\u22123.8 eV/atom while targeting a band gap of 1\u20132 eV), replacing scalarized numeric rewards with natural-language Pareto-dominance feedback in MatAgent will raise the V.U.N. score by at least 0.20 and increase the number of distinct elements explored by at least 30% over 20 independent 15-iteration runs with identical initialization and compute budgets."
+}

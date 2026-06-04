@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Weighting X-MoPA\u2019s cross-modal loss so that predicting the XRD latent from (graph, text) contributes 50% of Ltotal while the other two predictions share the remaining 50% will reduce Matbench dielectric constant MAE by at least 15% compared to equal-weight training."
+}

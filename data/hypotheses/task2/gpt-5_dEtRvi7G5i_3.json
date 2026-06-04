@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "At 300 GPa, the P63/mmc-Ac4H52 superhydride will exhibit a hydrogen isotope coefficient \u03b1_H \u2264 0.25\u2014at least 0.10 lower than that of Fm-3m-AcH10 under the same conditions."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Si\u2013M alloys (M = Cu, Ni, or Co) in which M forms a percolating intermetallic scaffold occupying \u226520 at.% of lattice sites will reduce volumetric expansion during full lithiation to \u226430% and preserve Li+ migration channel radius within \u00b10.2 \u00c5 across charge/discharge cycles, resulting in >80% capacity retention after 500 cycles in standard Li-ion coin cells."
+}

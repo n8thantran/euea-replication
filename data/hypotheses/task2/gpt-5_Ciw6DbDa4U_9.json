@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "On the Gongora et al. lattice dataset, under the biased sampling settings of Figure 4/Table 1, a multi-output tensor completion model that jointly predicts E and mass m and enforces the identity \u02dcE = E/m during training will yield a higher test-set R2 on \u02dcE than both the paper\u2019s unconstrained tensor ensemble and its Gaussian Process baseline."
+}

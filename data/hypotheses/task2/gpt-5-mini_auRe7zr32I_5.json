@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "An automated feedback-driven threshold optimizer that dynamically adjusts NaviDiv diversity penalties to maintain the mean pairwise Morgan fingerprint similarity below 0.15 during generative optimization will yield a final average property score within 5% of the unconstrained baseline while preserving at least 90% of initial fragment diversity, thereby outperforming fixed combined constraints on both convergence speed and diversity retention."
+}

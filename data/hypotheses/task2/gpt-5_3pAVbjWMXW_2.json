@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Training the model with a physics-informed, differentiable non-linear mixing layer that injects concentration-dependent peak shifts and broadenings characteristic of hydrogen-bonded interactions will increase Top-10 component identification accuracy by at least 10 percentage points compared with linear-mixing training when evaluated on ATR-IR acid\u2013alcohol binary mixtures with target abundances between 10% and 50%."
+}

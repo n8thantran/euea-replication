@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Conditioning CompGen on active-site motif (atop/bridge/hollow) and the mean adsorbate\u2013first-shell metal distance will at least double, relative to the current (S,E,L)-only model, the fraction of generated HEA local compositions whose DFT-calculated adsorption energies for *O and *OH fall within \u00b10.10 eV of the target E after mapping to valid microstates under identical OC20 pretraining and LoRA fine-tuning."
+}

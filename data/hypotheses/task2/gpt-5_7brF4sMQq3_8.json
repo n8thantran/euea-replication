@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Replacing explicit PES forces in SAA with an inference-time energy-guidance term learned via contrastive energy prediction trained solely on metastable-state configurations will yield ASTRA transition-state samples whose committor distributions (median and IQR around 0.5) are statistically indistinguishable from force-based SAA (two-sample Kolmogorov\u2013Smirnov test p>0.05) on alanine dipeptide and chignolin at 300 K."
+}

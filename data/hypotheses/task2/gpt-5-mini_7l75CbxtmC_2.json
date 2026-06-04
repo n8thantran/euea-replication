@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "In the synthesis of Ca2SiO4, incorporating estimated heating energy (from reaction enthalpies and heat capacities) and purification costs into the economic-efficiency metric will render the higher-thermodynamic-yield route Ca3SiO5+Si3N4 more cost-effective than CaO+SiO2 whenever industrial electricity prices exceed 0.18 EUR/kWh and purification costs exceed 0.005 EUR/g of byproduct."
+}

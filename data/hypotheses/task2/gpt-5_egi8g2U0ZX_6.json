@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Pretraining REINVENT on a materials-focused corpus enriched with polycyclic aromatic hydrocarbons and triazine-containing motifs, instead of ChEMBL35, followed by identical fine-tuning and reinforcement learning, will yield at least a 50% relative increase in the fraction of generated lattice-node molecules passing the expert-defined filters under the same compute budget."
+}

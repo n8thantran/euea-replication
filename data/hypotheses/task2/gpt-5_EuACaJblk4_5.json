@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Adding a cycle-consistency loss that penalizes divergence between the encoder\u2019s sequence distribution for the input backbone and the re-encoded distribution obtained after decoding a sampled sequence and re-encoding its predicted structure will increase self-consistency (higher TM-score and lower RMSD) on unseen designed backbones compared to the current E2EFOLD training objective."
+}

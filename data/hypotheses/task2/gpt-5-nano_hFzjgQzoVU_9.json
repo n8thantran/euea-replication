@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "SE(3)-equivariant graph neural networks trained on the XDIP data will outperform non-equivariant GNNs in structure-to-spectrum prediction of Fe K-edge XAS (XANES and EXAFS) by explicitly leveraging 3D rotational symmetry of the iron coordination environment, leading to improved spectral fidelity and better generalization to unseen iron\u2013ligand geometries."
+}

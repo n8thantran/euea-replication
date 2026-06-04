@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Integrating a lightweight, physics-informed surrogate that predicts porosity and electrical conductivity from substrate/lattice-node representations and using its outputs as part of the reinforcement-learning reward during transfer learning will yield generated Covalent Triazine Framework candidates with higher experimentally verifiable porosity and conductivity than methods relying solely on criterion-based filters."
+}

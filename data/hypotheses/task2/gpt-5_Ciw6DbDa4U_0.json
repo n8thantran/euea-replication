@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "On the Gongora et al. lattice-structure dataset, a CPD-S tensor completion model augmented with a monotonicity constraint on the relative-density mode (increasing density implies nondecreasing E and E/m) will outperform Gaussian Process regression under uniformly random training sets comprising \u226415% of the search space by at least 0.05 absolute R^2 on the held-out test set."
+}

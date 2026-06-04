@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Replacing PCDiff\u2019s penalty-based enforcement of non-negativity and sum-to-one with per-step Euclidean projection of each reverse-diffusion iterate onto the probability simplex will increase Coverage by at least 5 absolute percentage points while maintaining 100% Validityreg on the same composite dataset and property-conditioning protocol."
+}

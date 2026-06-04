@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Adding a temperature-conditioning input to LoQI and training on multiple conformers per molecule will enable the model, when sampling at 298 K, to reproduce the AIMNet2\u2013CPCM Boltzmann population distribution over all conformers within 6 kcal/mol with a mean per-molecule KL divergence below 0.1 on a held-out test set."
+}

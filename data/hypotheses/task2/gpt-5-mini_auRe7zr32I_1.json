@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "For diffusion-model-based 3D molecular generation, integrating adaptive diversity constraints that penalize over-represented 3D conformer clusters (measured by inter-molecule RMSD clustering) and stereochemical motif frequency will preserve at least 80% of initial conformational diversity (defined as the count of unique RMSD clusters) during property-targeted optimization while reducing the rate of predicted-property improvement by no more than 10% compared to unconstrained optimization."
+}

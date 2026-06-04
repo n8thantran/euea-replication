@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating micromechanics-derived inequality constraints\u2014specifically Hashin\u2013Shtrikman bounds for thermal conductivity and Voigt\u2013Reuss\u2013Hill bounds for stiffness\u2014into the PCDiff denoising loss will increase Coverage by at least 5 percentage points over baseline PCDiff on the presented carbon composite dataset while maintaining 100% Validityreg under the same evaluation protocol."
+}

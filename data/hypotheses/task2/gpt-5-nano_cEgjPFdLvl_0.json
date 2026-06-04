@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Conditioning AMDEN on a target cooling rate as an explicit input will enable generation of low-energy, density-controlled amorphous structures whose structural descriptors and macroscopic properties (e.g., RDFs, energy distributions, Young's modulus) match those obtained from corresponding MD quenches at that rate, and the model will generalize to unseen cooling rates via interpolation."
+}

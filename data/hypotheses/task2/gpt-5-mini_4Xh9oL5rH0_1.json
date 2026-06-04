@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Incorporating an explicit long-range electrostatics module that predicts atom-centered partial charges and applies Coulomb interactions into universal ML interatomic potentials trained on current large datasets will reduce MAE in MOF bulk modulus and heat capacity predictions by at least 25% and decrease the fraction of unconverged structural optimizations in MOFs by at least 30% relative to the same uMLIPs without the electrostatics module."
+}

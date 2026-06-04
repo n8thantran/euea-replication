@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable surrogate model that predicts porosity and electrical conductivity of Covalent Triazine Framework assemblies into the reinforcement learning reward will increase the fraction of generated substrates and lattice nodes that pass material-specific constraints and exhibit higher predicted capacitance than using reward signals based only on the existing expert-defined structural criteria."
+}

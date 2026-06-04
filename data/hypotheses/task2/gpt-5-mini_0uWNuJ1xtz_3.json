@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Linearly interpolating between the unified encoder embeddings of two distinct molecules in STR-Bamba's multimodal latent space and decoding the interpolated embeddings will yield chemically valid intermediate molecules whose computed properties (e.g., logP, bandgap) vary monotonically between the values of the endpoint molecules."
+}

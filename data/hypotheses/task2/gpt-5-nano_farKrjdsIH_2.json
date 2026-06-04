@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Integrating a real-time closed-loop beam-dose control with SAM-EM that modulates the electron dose rate in response to live trajectory metrics (e.g., current MSD and tracking confidence) will maintain segmentation accuracy and reduce trajectory dropout in thick-liquid LPTEM, enabling reliable MSD analysis over longer sequences than constant-dose acquisition."
+}

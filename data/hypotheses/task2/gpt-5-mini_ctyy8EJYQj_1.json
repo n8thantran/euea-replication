@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the LLM (GPT4o) with reinforcement learning using simulator-derived reward signals will increase the average success rate across the four Nb\u2013O synthesis challenges by at least 30 percentage points and reduce the mean number of simulator calls per successful plan by at least 50% relative to the prompt-tuned ReAct LLM."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "An E(3)-equivariant graph neural network trained on the XDIP dataset that incorporates per-atom quantum-derived partial charges and explicit Fe oxidation- and spin-state labels will reduce EXAFS MAE by at least 20% relative to the reported GIN baseline (from \u22480.101 to \u22640.081) while also improving XANES MAE."
+}

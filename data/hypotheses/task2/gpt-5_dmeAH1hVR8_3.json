@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Replacing the general tokenizer with a domain-adapted tokenizer trained on MOFid and SMILES strings, while keeping the architecture and PMC+PubChem (500K) continual pre-training unchanged, will reduce QMOF test-band-gap MAE by at least 15% relative to the reported PMC+PubChem model when fine-tuned with 1\u20133K SFT samples."
+}

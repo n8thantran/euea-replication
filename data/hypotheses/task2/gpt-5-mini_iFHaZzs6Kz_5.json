@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Contrastive multimodal pretraining that aligns 3D electron-density grids with stereochemically explicit SMILES (including chiral annotations) will produce embeddings that are invariant to arbitrary SO(3) rotations while reliably discriminating enantiomeric and diastereomeric pairs, as evidenced by inter-enantiomer cosine distances significantly larger than intra-molecule distances across rotated poses."
+}

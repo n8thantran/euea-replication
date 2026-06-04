@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Implementing per-atom species-conditioned scalar gating combined with edgewise species-dependent MLPs enables MACE-family models trained with correlation order \u03bd=2 to achieve equivalent MD stability and no statistically significant difference in energy and force MAE on datasets that include alkali elements (Li, Na, K) compared to baseline \u03bd=3 models."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "The explicit inclusion of estimated heat energy costs\u2014derived from reactant and product heat capacities and phase-transition enthalpies\u2014into the workflow's economic-efficiency metric will cause the Ca3SiO5+SiO2 synthesis recipe to become more cost-effective than CaO+SiO2 for producing Ca2SiO4 at industrial batch sizes (>1000 kg) under current average market reactant prices."
+}

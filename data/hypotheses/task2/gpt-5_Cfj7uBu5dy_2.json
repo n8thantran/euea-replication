@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "In MADE extended with two-fidelity oracles (cheap MLIP and expensive DFT) on held-out ternary systems, an agent that promotes candidates to DFT only when a Bayesian convex-hull\u2013aware posterior probability of DFT stability exceeds 0.8 will achieve the same number of DFT-validated novel stable compounds as a baseline that promotes all MLIP-stable candidates while using at least 35% fewer DFT evaluations under a total budget of 200 MLIP queries and 40 DFT slots."
+}

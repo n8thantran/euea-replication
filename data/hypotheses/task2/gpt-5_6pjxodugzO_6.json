@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "6pjxodugzO",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Replacing categorical separator labels with embeddings of separator polymer chemistry derived from a polymer foundation model, concatenated with formulation embeddings, will reduce contact-angle prediction MAE by at least 25% and cut leave-one-separator-out OOD MAE by at least 30% compared to the current label-based approach."
+}

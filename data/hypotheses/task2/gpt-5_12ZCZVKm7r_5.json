@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Across scientific foundation models, the inflation of cross-model alignment observed on out-of-distribution inputs is driven by a collapse in embedding intrinsic dimensionality, such that a model\u2019s OOD\u2013ID increase in mean CKNNA to the ensemble is positively correlated with its OOD\u2013ID decrease in estimated intrinsic dimension across datasets."
+}

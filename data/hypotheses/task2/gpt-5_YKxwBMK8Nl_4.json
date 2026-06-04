@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "YKxwBMK8Nl",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Augmenting the ChemX single-agent pipeline with a fine-tuned document-layout molecule diagram localizer, DECIMER-based OCSR, and caption-linked entity resolution will increase SMILES extraction F1 to \u22650.40 on the Benzimidazoles and Oxazolidinones datasets without reducing the mean F1 of non-SMILES fields by more than 0.05."
+}

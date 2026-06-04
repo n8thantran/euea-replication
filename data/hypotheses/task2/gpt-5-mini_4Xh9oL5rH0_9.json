@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4Xh9oL5rH0",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Augmenting a uMLIP pretrained on OMat24 with 5,000 DFT-calculated out-of-equilibrium snapshots specifically sampling diverse MOF metal\u2013ligand coordination environments (covering \u226510 metal species and \u226550 linker chemistries) will reduce the mean absolute error in predicted bulk modulus on a held-out MOF test set by at least 25% and lower the fraction of MD runs exhibiting volume deviations >10% by at least 30% compared to the base uMLIP."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Augmenting CAST with discrete structural concept embeddings for scaffold identity and functional-group presence (learned via a categorical concept head with orthogonality constraints) will enable molecule generation that preserves input scaffolds at least 20% more often than the original CAST while increasing QED and LogP MAE by no more than 10% on both in-distribution and out-of-distribution benchmarks."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "amn6lBDjXm",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "An uncertainty-calibrated surrogate model for DFT formation energies trained via active learning on strategically selected perturbed/generated structures can accurately predict energy above the hull for unseen candidates, enabling SUN-based screening to match full DFT rankings while reducing computational cost by orders of magnitude."
+}

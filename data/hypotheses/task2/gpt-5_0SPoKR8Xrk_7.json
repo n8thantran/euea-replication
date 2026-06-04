@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "At fixed polymer and surface strong-bead fractions and interaction strengths, the binding free energy will exhibit a non-monotonic dependence on polymer blockiness and surface patch size, peaking when the mean contiguous run length of strong monomers matches the surface strong-site correlation length within approximately 15%."
+}

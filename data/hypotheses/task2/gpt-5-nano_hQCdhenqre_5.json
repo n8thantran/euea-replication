@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Explicitly incorporating the total system charge as an input feature (and optionally learning per-atom partial charges) into E(3)-equivariant MLIP models will significantly improve energy and force MAEs and stabilize MD trajectories for charged systems (e.g., ionic solutions and protonated biomolecules) relative to charge-agnostic baselines trained on neutral SPICE-like data, enabling accurate end-to-end simulations of charged species."
+}

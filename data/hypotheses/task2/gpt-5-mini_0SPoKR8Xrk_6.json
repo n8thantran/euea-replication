@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "The adsorption free energy of a coarse-grained polymer on a chemically patterned surface is maximized when the characteristic lateral size of the strongly interacting surface patches matches the polymer's persistence length, and falls off when the patch size is substantially smaller or larger."
+}

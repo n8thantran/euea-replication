@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Silicon clathrate-like frameworks with ~5\u201315 at.% Cu occupying guest/interstitial sites will retain continuous Li+ migration channels with channel-radius variation <0.3 \u00c5 across 0\u2013100% delithiation and exhibit <120% total volumetric expansion upon full lithiation, significantly lower than the \u2248300% expansion of crystalline pure Si."
+}

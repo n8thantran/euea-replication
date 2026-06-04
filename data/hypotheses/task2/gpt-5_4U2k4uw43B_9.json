@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the eSEN surrogate with an explicit hydrostatic-pressure input and a multi-task loss that upweights virial-stress errors by a factor of three will reduce stress MAE by at least 50% and VASP-restart SSNEB iterations by at least 30% while keeping MEP barrier deviations within 0.05 eV for CsPbI3 (\u03b1\u2194\u03b2, \u03b2\u2194\u03b3) and TiO2-B\u2192anatase transitions, compared to the unfine-tuned model."
+}

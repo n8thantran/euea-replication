@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Conditioning CompGen additionally on active-site motif and surface facet labels will reduce shell-2 Leakage on the HEA dataset by at least 20% compared to the same architecture conditioned only on adsorbate identity, target adsorption energy, and allowed element lists under identical fine-tuning data and compute budgets."
+}

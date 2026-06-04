@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "In the synthesis of Ca2SiO4, augmenting the workflow to include furnace energy consumption derived from temperature-dependent heat capacities under 60% thermal efficiency and purification costs estimated from predicted byproduct solubilities will reverse the current cost ranking such that the Ca3SiO5 + SiO2 route yields at least 20% more grams of \u226595% pure Ca2SiO4 per euro than the CaO + SiO2 route for 100\u2013500 kg batches processed at 1200\u20131400\u00b0C."
+}

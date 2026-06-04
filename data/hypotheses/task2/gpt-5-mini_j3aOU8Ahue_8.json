@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "j3aOU8Ahue",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Contrastive self-supervised pretraining of an EfficientNet-B0 backbone on a large, diverse unlabeled SEM image corpus spanning multiple cathode chemistries, cycling states, imaging conditions, and electrolyte additives, followed by fine-tuning on a small labeled additive-containing target set, will yield statistically significant (>5 percentage points) improvements in per-class F1 for domain-shifted classes compared to supervised pretraining on additive-free labeled data followed by identical fine-tuning."
+}

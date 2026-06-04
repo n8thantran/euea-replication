@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "An ensemble of LLM agents with systematically varied sampling temperatures (e.g., 0.2, 0.5, 0.8) and different per-agent experimental time budgets whose results are synthesized by a supervising aggregator agent will, for a fixed total simulated experimental time, identify a higher fraction of the true underlying ALP reaction mechanisms (higher recall) and produce a lower rate of incorrect rule attributions (lower false positive rate) than a single LLM agent using the same total experimental budget."
+}

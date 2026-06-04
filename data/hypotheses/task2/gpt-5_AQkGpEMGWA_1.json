@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "AQkGpEMGWA",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Among Si\u2013X alloy anodes with theoretical capacity >1500 mAh g\u22121, those with a total Li+ migration channel radius change \u0394Rt \u2264 0.20 \u00c5 between 0% and 100% state of charge will retain \u226585% of initial capacity after 300 cycles at C/2 in coin cells using 1 M LiPF6 in EC:DEC (1:1) with 10 wt% FEC, whereas alloys with \u0394Rt > 0.20 \u00c5 will retain <70% under identical conditions."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "57YLCp7n2V",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "When evaluated on 5,000 GEOM-Drugs-Kekulized molecules under the proposed GFN2-xTB benchmark with identical architectures and an equal number of sampling steps (500), flow-matching 3D molecule generators will exhibit a mean \u2206Erelax within 5% of diffusion-based generators."
+}

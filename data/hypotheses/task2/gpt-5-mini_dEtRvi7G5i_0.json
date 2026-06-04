@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "dEtRvi7G5i",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Metal lattices whose electron localization function (ELF) exhibits an interstitial (quasi-atom) peak value greater than 0.65 prior to hydrogen insertion will, when converted into three-dimensional hydrogen clathrate superhydrides at 150\u2013250 GPa, yield electron\u2013phonon coupling constants \u03bb > 1.0 and superconducting critical temperatures Tc > 100 K."
+}

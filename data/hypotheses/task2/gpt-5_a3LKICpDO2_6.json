@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "A hierarchical two-stage \u2206-learning pipeline that first learns the GFN1-xTB\u2192PBE correction and then the PBE\u2192HSE06 correction, trained with the same total number of HSE06 labels as a single-stage xTB\u2192HSE06 model, will reduce the HSE06 band-gap MAE for MOFs containing Cr, Mn, Fe, Co, or Ni by at least 25% relative to the single-stage approach."
+}

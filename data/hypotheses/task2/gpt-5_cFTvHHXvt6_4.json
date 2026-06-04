@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "For identical encoder/decoder sizes and training data, augmenting CHROMA\u2019s training with a differentiable sequence-level loss that directly minimizes TMM-simulated CIE76 \u0394E alongside token-level cross-entropy will reduce the held-out validation mean \u0394E by at least 25% relative to the cross-entropy-only baseline."
+}

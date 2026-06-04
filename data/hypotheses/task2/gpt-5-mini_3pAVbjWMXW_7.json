@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Pretraining the Transformer on synthetic mixture spectra augmented with physics-based ATR and solvent perturbations (including Fresnel reflection/evanescent-wave penetration effects and hydrogen-bond-induced peak shifts) will significantly increase Top\u201310 identification accuracy on experimentally measured ATR-IR binary mixtures compared to pretraining on unaugmented gas-phase simulated spectra."
+}

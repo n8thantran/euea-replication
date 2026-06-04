@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Augmenting reinforcement-learning rewards with a differentiable physics-informed surrogate that jointly predicts porosity, surface area, and electrical conductivity from substrate and lattice-node representations will yield generated materials whose predicted electrochemical performance shows a stronger correlation with experimentally measured capacitance than when using the original expert-defined filter-based rewards alone."
+}

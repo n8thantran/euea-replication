@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Implementing a time-modulated electrolysis protocol\u2014comprising high-current pulses (~330 mA cm\u22122 for 0.5 s) interleaved with low-current recovery intervals (~100 mA cm\u22122 for 1.5 s) under the champion 1.5 M KHCO3 / 0.75 M K2CO3 composition and optimized flow/temperature\u2014will increase reactor yield by \u226520% relative to the best static condition (44 mA cm\u22122) by raising the time-averaged JCO without reducing CO2 utilization below 70%."
+}

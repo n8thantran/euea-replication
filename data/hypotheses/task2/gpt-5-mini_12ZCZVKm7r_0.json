@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "The degree of representational alignment (CKNNA) between a pretrained source model and a target model on unlabeled examples from a downstream domain predicts transfer sample-efficiency, such that pairs with higher CKNNA require fewer labeled examples to fine-tune the target model to a fixed performance threshold."
+}

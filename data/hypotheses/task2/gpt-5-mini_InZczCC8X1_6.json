@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "InZczCC8X1",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Applying a pulsed current waveform (100 ms on at 498 mA cm\u22122, 100 ms off; average 249 mA cm\u22122) to a reactive carbon electrolyzer operated at the champion electrolyte composition (1.5 M KHCO3 + 0.75 M K2CO3, total 3 M K+) will increase reactor yield by \u226520% relative to continuous DC operation at 249 mA cm\u22122 by improving in situ CO2 mass transport and gas-bubble detachment, thereby raising JCO while maintaining or improving UCO2."
+}

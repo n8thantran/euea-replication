@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hQCdhenqre",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "For MLIP models trained on the SPICE2 dataset (MACE, NequIP, ViSNet), the 99th-percentile per-atom force error on a held-out validation set will correlate more strongly with long-term MD stability (measured as energy drift and fraction of unstable trajectories over 1 ns at 300 K) than the mean force MAE, making the 99th-percentile force error a superior predictor of simulation robustness."
+}

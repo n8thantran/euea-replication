@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7cbwuA5k0T",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Fine-tuning GPT-4o on the Corral framework\u2019s structured tool docstrings and example task\u2013tool interaction traces will enable the fine-tuned model, using only the original Spectra toolset, to achieve a pass@5 on the Spectra single-task benchmark that is statistically indistinguishable from the pass@5 achieved by the un-fine-tuned GPT-4o when augmented with the specialized hypothesis-generator tool."
+}

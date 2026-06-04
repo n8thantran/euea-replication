@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "0uWNuJ1xtz",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "For the ACS-AMI homopolymer glass-transition temperature prediction task, augmenting the training set by using STR-Bamba426M to generate three additional valid alternative textual representations (e.g., SMILES, SELFIES, IUPAC) per polymer and training on the expanded dataset will reduce test RMSE by at least 15% relative to training on the original textual representations alone."
+}

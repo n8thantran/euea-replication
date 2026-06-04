@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Calibrating the Force Delta by normalizing its per-atom force-disagreement residual with a locally estimated stiffness proxy from the model-predicted energy surface will produce a Calibrated Force Delta (CF\u2206) that exhibits a near-linear relationship with the true direct-force error \u03b5direct across equilibrium and adversarial (OOD) configurations, enabling data-free absolute uncertainty estimation."
+}

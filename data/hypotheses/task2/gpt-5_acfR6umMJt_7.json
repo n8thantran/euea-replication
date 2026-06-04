@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Replacing random path sampling in NN-BAX with an uncertainty-targeted acquisition that, at each iteration, queries the simulator at the predicted MEP image with maximal predictive force variance estimated from a 5-model EquiformerV2 deep ensemble will reduce the number of function evaluations required to achieve fmax,BAX = 2 fmax,classical and MAEi < 0.1 by at least"
+}

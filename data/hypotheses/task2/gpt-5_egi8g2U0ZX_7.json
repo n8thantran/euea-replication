@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "egi8g2U0ZX",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "A curriculum-based reinforcement learning scheme for REINVENT that first optimizes lattice-node candidates for 3D flatness and steric hindrance using conformer ensembles, then shifts weights to symmetry and conjugation while applying an adaptive novelty bonus, will increase the percentage of lattice-node molecules passing expert filters by at least 2\u00d7 over fine-tuning alone without reducing uniqueness below 90%."
+}

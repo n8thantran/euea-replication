@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "a3LKICpDO2",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating metal-center electronic descriptors derived from GFN1-xTB single-point calculations\u2014specifically local d-orbital population and atomic spin magnetic moment for the metal atoms\u2014into the \u2206-learning XGBoost model will reduce the HSE06 band gap prediction MAE for MOFs containing Cr, Mn, Fe, Co, or Ni by at least 30% relative to the current \u2206-learning model that uses only structural descriptors."
+}

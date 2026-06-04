@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Per-atom Force Delta, defined as U\u2206,i = ||Fnc,i(R) \u2212 Fc,i(R)|| for atom i, will correlate more strongly with the corresponding per-atom true force error \u03b5direct,i = ||Fnc,i(R) \u2212 FDFT,i(R)|| than the global Force Delta, enabling atom-centered uncertainty maps that more accurately forecast local MD instabilities and guide targeted data acquisition."
+}

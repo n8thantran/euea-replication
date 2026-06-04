@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "In the MADE benchmark on held-out ternary intermetallic systems, a multi-fidelity Bayesian optimization agent that co-kriges MLIP and DFT formation energies and selects queries by maximizing expected reduction in convex-hull misclassification will discover at least twice as many novel DFT-stable compounds beyond the Materials Project hull as a MatterGen-plus-diversity screen-then-confirm baseline under an equal 50-query budget with a 4:1 MLIP:DFT split."
+}

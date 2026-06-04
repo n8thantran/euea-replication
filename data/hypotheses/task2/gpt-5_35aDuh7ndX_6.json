@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating an anti-pharmacophore penalty term derived from ER\u03b2 ligand pharmacophore models into the RL reward will generate ER\u03b1-targeting compounds that demonstrate \u226510-fold ER\u03b1/ER\u03b2 binding selectivity in radioligand assays while maintaining \u226595% database novelty and QED \u22650.5 relative to the current framework."
+}

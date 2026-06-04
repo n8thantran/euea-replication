@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "aECXy5Jgm4",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Under DAC-relevant conditions (T = 298 K, pCO2 = 0.4 mbar, RH = 50%), branched polyamine sorbents containing >60% secondary amines and hydrophobic backbone spacers will exhibit at least 20% higher equilibrium CO2 uptake (mmol g\u22121) than linear polyamine analogues with the same overall amine density due to reduced competitive H2O adsorption."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "gifMFKvAl5",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable percolation-connectivity regularizer, learned from a surrogate percolation model conditioned on filler fractions and processing parameters, into the PCDiff diffusion framework will increase fabrication-feasible design rates and enable higher achievable thermal conductivity at a fixed yield strength compared to PCDiff without the percolation regularizer."
+}

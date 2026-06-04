@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the pretrained Transformer on as few as 50 experimentally measured ATR\u2011IR binary mixture spectra drawn from diverse chemical classes will increase Top\u201310 accuracy on held\u2011out ATR\u2011IR binary mixtures by at least 10 percentage points relative to the pretrained model without ATR fine\u2011tuning."
+}

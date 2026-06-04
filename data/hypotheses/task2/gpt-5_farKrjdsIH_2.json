@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "farKrjdsIH",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Semi-supervised fine-tuning of SAM-EM with 300 weakly labeled frames from a previously unseen LPTEM instrument will increase J & F on that instrument\u2019s held-out videos by at least 15% relative to synthetic-only SAM-EM, while reducing J & F on the original synthetic test set by no more than 2%."
+}

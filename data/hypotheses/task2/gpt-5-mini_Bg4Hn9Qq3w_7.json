@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "A hierarchical multi-agent system in which a meta-agent summarizes sub-agent experiment trajectories and adaptively reallocates remaining experimental budget to underexplored regions will discover path-dependent, slow-kinetic ALP reactions (e.g., the slow B reaction requiring \u226540 s pulses and elevated temperature) with higher probability and fewer total experiments than a single-agent given the same total experimental budget."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "auRe7zr32I",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "A meta-learning approach that adaptively tunes NaviDiv's diversity-constraint thresholds (e.g., fragment size, similarity cutoff, and SMILES 10-gram limits) online during molecular generation will yield superior preservation of multi-metric chemical diversity and equal or better property optimization across diverse tasks (e.g., singlet fission materials, drug-like libraries, and catalytic ligands) and architectures, compared to fixed per-task thresholds."
+}

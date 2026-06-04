@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Embedding uncertainty into the physics-based simulator by modeling Ea and k0 as probabilistic distributions and propagating this uncertainty through CALPHAD equilibria and JMA-like kinetics, then having the LLM optimize synthesis plans under this uncertainty, will yield more robust synthesis recipes that achieve the target phase fractions across a range of plausible temperature\u2013time trajectories compared to plans produced with deterministic, fixed-parameter kinetics."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "EuACaJblk4",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "Adding a cycle-consistency objective that re-encodes the decoder\u2019s predicted all-atom structure and minimizes cross-entropy between this re-encoded sequence distribution and the originally sampled sequence will increase designed-sequence self-consistency (higher TM-score and lower RMSD) on RFData and E2EData relative to the current E2EFOLD trained without this objective under identical architecture and compute."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Augmenting CHROMA's decoder training objective with a differentiable, sequence-level spectral loss (CIE76 \u2206E computed from TMM-simulated spectra) alongside token cross-entropy will reduce mean \u2206E on the held-out validation split by at least 30% relative to cross-entropy-only training, with the frozen encoder and decoder architecture held constant."
+}

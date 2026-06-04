@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "hFzjgQzoVU",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "An SE(3)-equivariant graph neural network that inputs full-resolution (non-interpolated) EXAFS k-space spectra together with precise 3D atomic coordinates will achieve at least a 25% lower test MAE in EXAFS spectrum prediction compared to the Graph Isomorphism Network baseline reported in XDIP."
+}

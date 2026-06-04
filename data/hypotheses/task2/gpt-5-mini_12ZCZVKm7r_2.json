@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "12ZCZVKm7r",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Fine-tuning chemical language models with an equivariance-inducing regularization that penalizes changes in token-embedding-derived molecular representations under rotations of their corresponding 3D conformers will increase their CKNNA and IDCor alignment with equivariant 3D MLIPs and produce significant, measurable improvements in zero-shot and few-shot prediction accuracy on 3D-dependent properties (e.g., DFT total energy, NMR chemical shifts), independent of model size and training-data overlap."
+}

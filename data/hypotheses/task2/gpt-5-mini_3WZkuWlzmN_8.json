@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "3WZkuWlzmN",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating an explicit reciprocal-space cross-correlation encoder that models long-range peak relationships in XRD and training it jointly within X-MoPA will reduce the mean absolute error for Bulk Modulus prediction on the MatBench benchmark by at least 20% relative to the original X-MoPA that uses only a 1D-CNN XRD encoder."
+}

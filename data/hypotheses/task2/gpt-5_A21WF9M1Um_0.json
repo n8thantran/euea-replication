@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "A21WF9M1Um",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "A continuation scheme that starts XRD-based gradient optimization from pseudo-Voigt peaks with 10\u00d7-inflated Caglioti widths (U,V,W) and exponentially anneals them to nominal values will increase StructureMatcher recovery rates by at least 50% versus fixed-width cosine-similarity optimization at \u03c3l=0.1 and by at least 25% at \u03c3c=0.05 on the MP20 subset used here."
+}

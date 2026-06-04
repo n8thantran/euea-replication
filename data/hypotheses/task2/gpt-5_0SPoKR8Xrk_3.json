@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "0SPoKR8Xrk",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Under the coarse-grained model at fixed strong-bead fractions and interaction strengths, the magnitude of the binding free energy will exhibit a maximum when the surface heterogeneity correlation length equals the average spacing of strong monomers along the polymer (Ls \u2248 Lp), with at least a 20% reduction in |\u0394F| when Ls/Lp \u2265 1.5 or \u2264 0.67."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "Augment CAST with a topology-aware concept bottleneck that includes explicit scaffold-level concepts and a scaffold-preservation loss, and hypothesize that this will enable concurrent control of continuous molecular properties while maintaining predefined scaffolds in generated molecules, yielding higher scaffold retention and similar or better property accuracy than CAST without scaffold-aware constraints on both in-distribution and out-of-distribution evaluations."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "cFTvHHXvt6",
+  "sample_idx": 0,
+  "task": "task2",
+  "hypothesis": "Under the same dataset, frozen 3B encoder, and N=8 decoder, replacing discrete thickness tokens with a continuous thickness regressor and jointly optimizing a sequence-level CIE76 loss via a differentiable TMM will reduce mean validation \u2206E by at least 30% relative to the current token-level cross-entropy baseline."
+}

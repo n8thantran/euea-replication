@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "cEgjPFdLvl",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Jointly learning a differentiable potential-energy surrogate E\u03c6(x) that is trained together with the AMDEN score network and integrated into a Boltzmann-consistent denoising objective, such that the reverse diffusion samples follow p(x) \u221d exp(\u2212E\u03c6(x)), will enable standard denoising to generate low-energy, relaxation-consistent amorphous materials across melt/quench/anneal regimes without Hamiltonian Monte Carlo refinement."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "35aDuh7ndX",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Augmenting the reward with an explicit off-target penalty that minimizes pharmacophore similarity to ER\u03b2 reference ligands, while maximizing similarity to ER\u03b1 references, will increase the median ER\u03b2/ER\u03b1 IC50 selectivity ratio of generated hits (IC50_ER\u03b1 \u2264 1 \u03bcM) to \u226510 without reducing median QED compared to the current framework."
+}

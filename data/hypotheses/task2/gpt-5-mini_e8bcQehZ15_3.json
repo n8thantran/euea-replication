@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "e8bcQehZ15",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Augmenting CAST with discrete substructure concept embeddings (e.g., Murcko scaffold indicators) and a scaffold-preservation loss during steering will reduce the scaffold-change rate of generated molecules by at least 30% compared to standard CAST while keeping QED and LogP MAE increases within 10% of standard CAST on the same test sets."
+}

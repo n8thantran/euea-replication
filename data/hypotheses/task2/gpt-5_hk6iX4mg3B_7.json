@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Under the ensemble-consensus semi-supervised scheme, training each ensemble member on independently sampled labeled mini-batches (rather than identical mini-batches) will increase prediction diversity on unlabeled data and yield statistically significant improvements in test MAE and calibration (ECE/NLL) for both individual members and the ensemble on QM9 with 10% labels."
+}

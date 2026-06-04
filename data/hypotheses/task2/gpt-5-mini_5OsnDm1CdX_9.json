@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "5OsnDm1CdX",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "For ternary and quaternary gas mixtures, augmenting the GraphSAGE mixture model with explicit edge attributes defined as the Jaccard similarity between the constituent single-gas PBM reaction/species sets will reduce the etching-rate prediction RMSE by at least 15% compared to an otherwise identical GraphSAGE using only node features."
+}

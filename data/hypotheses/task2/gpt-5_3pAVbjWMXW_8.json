@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "3pAVbjWMXW",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Incorporating a second reconstruction head that predicts the residual (non-target) spectrum and a mixture-consistency loss enforcing reconstructed target + residual = input mixture will increase Top-10 accuracy on fine-tuned ternary balanced mixtures by at least 5 absolute percentage points compared to the current single-head alignment model."
+}

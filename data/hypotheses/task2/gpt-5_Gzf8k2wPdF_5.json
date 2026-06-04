@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "For datasets with heavy-tailed graph-size distributions (excess kurtosis > 1), bucketed-by-node-count static-64 batching (sampling batches within size-homogeneous bins) will reduce JAX gradient-update recompilations by at least 80% and mean per-step training time by at least 20% relative to unsorted static-64, while yielding no statistically significant change (p > 0.10) in final test RMSE, for batch sizes 64 and 128 on AFLOW across SchNet, MPEU, and PaiNN."
+}

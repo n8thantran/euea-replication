@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "bmgU7yWBeC",
+  "sample_idx": 6,
+  "task": "task2",
+  "hypothesis": "Incorporating a differentiable Force-Delta consistency loss into the training objective of direct-force neural-network interatomic potentials will make the Force Delta not only monotonic but calibrated to provide per-structure quantitative error bounds (\u03b5direct) across both equilibrium and adversarially perturbed configurations, thereby improving MD reliability beyond post-hoc U\u2206 assessments."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Ei3eF8B8XH",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "For structure-based virtual screening on the Platinum Diverse benchmark, replacing conventional conformer ensembles with just five LoQI-generated conformers per ligand will increase the fraction of cases where docking recovers the crystallographic ligand pose within 2.0 \u00c5 RMSD by at least 20% compared to using RDKit ETKDG ensembles of 50 conformers."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "24lzMGlvnq",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "Curriculum preference tuning that first optimizes only bcc_b2_exist and bcc_forms_first and then introduces b2_room_temp and min_lattice_mismatch into the reward will yield a higher proportion of generations satisfying b2_room_temp than single-stage DPO without reducing coverage recall."
+}

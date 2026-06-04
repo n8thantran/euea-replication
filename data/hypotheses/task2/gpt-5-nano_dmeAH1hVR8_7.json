@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "A hybrid model that jointly trains a text-based MOF LLM with a lightweight 3D MOF graph encoder via cross-attention and multi-task objectives will achieve lower MAE on QMOF and hMOF benchmarks than the text-only continual-pretrained MOF LLM, with the largest gains for MOFs exhibiting unseen topologies."
+}

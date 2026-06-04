@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "ctyy8EJYQj",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "LLM-guided synthesis planning agents coupled with the paper's CALPHAD+JMA simulator will produce synthesis plans that meet the study's success criteria for the Nb\u2013O challenge problems at least twice as often as A* when the JMA activation energy Ea is perturbed by \u00b130%, demonstrating that LLM implicit priors confer robustness to kinetic-model misspecification."
+}

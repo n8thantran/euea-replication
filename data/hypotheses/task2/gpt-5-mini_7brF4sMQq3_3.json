@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7brF4sMQq3",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Composing conditional scores from three metastable states in ASTRA's Score-Based Interpolation will enable a priori identification of multi-step reaction intermediates and their sequential transition states such that, for a prototypical A\u2192I\u2192B reaction, ASTRA recovers both TS_A\u2192I and TS_I\u2192B whose sampled ensembles have mean committor within 0.05 of 0.5 and at least 80% of samples with committor in [0.4,0.6]."
+}

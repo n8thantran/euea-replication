@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "hk6iX4mg3B",
+  "sample_idx": 3,
+  "task": "task2",
+  "hypothesis": "Weighting the ensemble-consensus SSL loss by the per-sample predictive uncertainty estimated from the ensemble (e.g., variance across members) will yield higher predictive accuracy and better calibration than a fixed coupling weight, particularly when unlabeled data originate from a distribution shifted relative to the labeled data."
+}

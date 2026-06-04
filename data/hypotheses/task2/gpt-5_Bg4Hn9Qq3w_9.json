@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "In the ALP reactor simulation (configuration III), a swarm of five independently initialized LLM agents with diverse sampling temperatures"
+}

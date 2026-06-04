@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "g6Sj1OFjAu",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Conditioning CompGen additionally on the adsorption motif (atop/bridge/hollow), facet label, and the mean and variance of adsorbate\u2013first-shell distances will significantly reduce shell-2 Leakage and Fr\u00e9chet Distance and increase shell-2 Cosine Similarity on the HEA test set relative to conditioning only on adsorbate identity, target adsorption energy, and allowed elements."
+}

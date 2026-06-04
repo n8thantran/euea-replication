@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "4U2k4uw43B",
+  "sample_idx": 2,
+  "task": "task2",
+  "hypothesis": "Fine-tuning the pre-trained eSEN model with as few as 50 DFT-evaluated images per transition\u2014explicitly including stress tensor targets and using a loss that weights stress errors twice as heavily as energy errors\u2014will correct stress prediction biases enough to prevent symmetry-breaking artifacts and enable ML-only SSNEB to reproduce DFT-converged MEPs within 0.02 eV barrier error for at least 80% of tested solid-state phase transitions (including CsPbI3 and TiO2)."
+}

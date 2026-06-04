@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Cfj7uBu5dy",
+  "sample_idx": 9,
+  "task": "task2",
+  "hypothesis": "In the MADE benchmark, a multi-fidelity, uncertainty-calibrated acquisition policy that screens with an MLIP and promotes to DFT only candidates with high epistemic uncertainty and predicted \u2206hull \u2264 0.05 eV/atom will yield at least 40% more DFT-verified novel stable ternary compounds than a baseline that promotes the 30 lowest-MLIP-energy candidates under a fixed DFT budget of 30 evaluations."
+}

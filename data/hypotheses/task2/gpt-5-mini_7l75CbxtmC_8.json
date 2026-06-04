@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "7l75CbxtmC",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "When energy consumption (computed from reactant/product heat capacities and reaction enthalpies) and estimated purification costs are incorporated into the economic-efficiency metric, the higher-thermodynamic-yield Ca3SiO5+Si3N4 route will become more cost-effective than CaO+SiO2 for Ca2SiO4 production at scales above 100 kg and when energy prices exceed 0.10 \u20ac/kWh."
+}

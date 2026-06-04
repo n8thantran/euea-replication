@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "Bg4Hn9Qq3w",
+  "sample_idx": 4,
+  "task": "task2",
+  "hypothesis": "A coordinated heterogeneous swarm of eight LLM agents with varied generation temperatures and randomized initial probes, guided by a central aggregator meta-agent, will discover at least 30% more distinct true ALP reaction rules and cover at least 40% more of the experimental UMAP state-space than a single high-capacity LLM agent given the same total experimental time."
+}

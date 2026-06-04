@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Gzf8k2wPdF",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Implementing graph-size bucketing\u2014forming batches from graphs within narrow node-count bins\u2014under static-64 will reduce JAX recompilations by at least 90% and lower mean combined time per training step by at least 25% during the first 100,000 steps relative to unbucketed static-64 on QM9 and AFLOW at batch sizes 32 and 64, without a significant change in final test RMSE (p > 0.10) for SchNet, MPEU, and PaiNN."
+}

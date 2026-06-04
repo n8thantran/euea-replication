@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-mini",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Using an uncertainty-driven acquisition that selects the NEB-path image with maximal epistemic uncertainty (estimated via an EquiformerV2 ensemble) will reduce the number of expensive simulator (e.g., DFT) function evaluations required to reach the same fmax and MAEi convergence thresholds by at least 30% compared to the random-path sampling strategy used in NN-BAX for systems with \u2265100 degrees of freedom."
+}

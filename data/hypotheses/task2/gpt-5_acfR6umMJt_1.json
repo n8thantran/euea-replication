@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "acfR6umMJt",
+  "sample_idx": 1,
+  "task": "task2",
+  "hypothesis": "Replacing NN-BAX\u2019s random path-point acquisition with an ensemble-uncertainty\u2013guided policy that queries the simulator at the predicted highest-energy image with maximal predictive variance will reduce simulator evaluations by at least 50% relative to the current NN-BAX to reach identical fmax and MAEi thresholds on DFT-based surface reaction NEB tasks, without increasing energy-barrier error beyond 0.05 eV."
+}

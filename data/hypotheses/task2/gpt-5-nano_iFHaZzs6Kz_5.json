@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "iFHaZzs6Kz",
+  "sample_idx": 5,
+  "task": "task2",
+  "hypothesis": "Adding a conformer-consistency objective to the SMILESDFT framework that explicitly enforces that embeddings produced from multiple low-energy conformers of the same molecule map to the same SMILES anchor in latent space, with a penalty for embedding dispersion across conformers, will yield pose- and conformer-invariant representations and improve the accuracy of conformer-averaged property predictions relative to the baseline model without conformer-aware training."
+}

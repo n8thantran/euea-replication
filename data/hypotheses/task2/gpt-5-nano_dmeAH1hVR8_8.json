@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5-nano",
+  "paper_id": "dmeAH1hVR8",
+  "sample_idx": 8,
+  "task": "task2",
+  "hypothesis": "Continual pre-training of a MOF-property predictor that fuses a MOFid-based text encoder with a lightweight 3D MOF geometry encoder, trained with a cross-modal consistency objective, will improve extrapolative adsorption-property predictions for out-of-distribution MOFs (novel SBUs/topologies) beyond text-only MOFid models, reducing MAE on CO2 and CH4 adsorption benchmarks in QMOF/hMOF by at least 12% on a hold-out dataset of MOFs with unseen topologies."
+}

@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-5",
+  "paper_id": "Ciw6DbDa4U",
+  "sample_idx": 7,
+  "task": "task2",
+  "hypothesis": "On the Gongora et al. lattice dataset with 100 uniformly random training samples, augmenting CPD-based tensor completion with explicit monotonicity constraints along the relative density and strut thickness modes will increase test-set R^2 by at least 0.05 over unconstrained CPD-S, eliminating the observed Gaussian Process advantage."
+}
