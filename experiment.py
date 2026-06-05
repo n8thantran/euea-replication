@@ -16,6 +16,7 @@ class TimeoutError(Exception):
 
 def timeout_handler(signum, frame):
     raise TimeoutError("DR operation timed out")
+
 import warnings
 import numpy as np
 import pandas as pd
@@ -68,8 +69,9 @@ class VAE(nn.Module):
         return self.decoder(z), mu, logvar
 
 
-def apply_vae(X, n_components, epochs=50, batch_size=64, random_state=42):
-    """Train VAE, return z_mean as embedding for ALL samples."""
+def apply_vae(X, n_components, epochs=100, batch_size=64, random_state=42):
+    """Train VAE, return z_mean as embedding for ALL samples.
+    Paper: 100 epochs, batch=64, Adam, MSE+KL, 70/30 split."""
     torch.manual_seed(random_state)
     np.random.seed(random_state)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -115,11 +117,11 @@ def apply_vae(X, n_components, epochs=50, batch_size=64, random_state=42):
 # ============================================================
 
 def get_reduction_dims(n_features, k):
-    """3 reduction levels: k-1, 25%, 50% of features (min 2, max n_features)."""
+    """3 reduction levels: k-1, 25%, 50% of features (min 2, max n_features-1)."""
     return {
-        'k-1': min(n_features, max(2, k - 1)),
-        '25%': min(n_features, max(2, int(np.round(0.25 * n_features)))),
-        '50%': min(n_features, max(2, int(np.round(0.50 * n_features)))),
+        'k-1': min(n_features - 1, max(2, k - 1)),
+        '25%': min(n_features - 1, max(2, int(np.round(0.25 * n_features)))),
+        '50%': min(n_features - 1, max(2, int(np.round(0.50 * n_features)))),
     }
 
 
@@ -138,11 +140,9 @@ def apply_dr(X, method, n_components, random_state=42):
         n_neighbors = min(5, X.shape[0] - 1)
         return Isomap(n_components=n_components, n_neighbors=n_neighbors).fit_transform(X)
     elif method == 'MDS':
-        # Paper: random_state=10, n_init=50. Reduced for computational feasibility.
-        n = X.shape[0]
-        n_init = 1
-        return MDS(n_components=n_components, random_state=10, n_init=n_init,
-                   max_iter=50, normalized_stress='auto').fit_transform(X)
+        # Paper: random_state=10, n_init=50. Using n_init=4 for speed.
+        return MDS(n_components=n_components, random_state=10, n_init=4,
+                   max_iter=300, normalized_stress='auto').fit_transform(X)
     else:
         raise ValueError(f"Unknown DR method: {method}")
 
@@ -160,7 +160,7 @@ def get_all_conditions():
     return conds
 
 
-def precompute_all_dr(datasets):
+def precompute_all_dr(datasets, timeout_sec=120):
     """Precompute all DR transformations. Returns {ds_name: {condition: X_transformed}}."""
     dr_cache = {}
     total = len(datasets)
@@ -173,7 +173,7 @@ def precompute_all_dr(datasets):
         dims = get_reduction_dims(n_features, k)
 
         ds_cache = {'No Reduction': X.copy()}
-        print(f"  [{i+1}/{total}] {ds_name} (shape={X.shape}, k={k})")
+        print(f"  [{i+1}/{total}] {ds_name} (shape={X.shape}, k={k}, dims={dims})")
 
         for method in DR_METHODS:
             for level in REDUCTION_LEVELS:
@@ -181,11 +181,10 @@ def precompute_all_dr(datasets):
                 n_comp = dims[level]
                 try:
                     t0 = time.time()
-                    # Timeout: 60s per DR operation
                     signal.signal(signal.SIGALRM, timeout_handler)
-                    signal.alarm(30)
+                    signal.alarm(timeout_sec)
                     X_red = apply_dr(X, method, n_comp)
-                    signal.alarm(0)  # Cancel alarm
+                    signal.alarm(0)
                     X_red = np.nan_to_num(X_red, nan=0.0, posinf=0.0, neginf=0.0)
                     ds_cache[key] = X_red
                     dt = time.time() - t0
@@ -193,7 +192,7 @@ def precompute_all_dr(datasets):
                         print(f"    {key} ({n_comp}d) [{dt:.1f}s]")
                 except TimeoutError:
                     signal.alarm(0)
-                    print(f"    TIMEOUT {key} (>30s, skipping)")
+                    print(f"    TIMEOUT {key} (>{timeout_sec}s, skipping)")
                     ds_cache[key] = None
                 except Exception as e:
                     signal.alarm(0)
@@ -209,8 +208,8 @@ def precompute_all_dr(datasets):
 # ============================================================
 
 def cluster_kmeans(X, k, random_state=42):
-    """k-means++, n_init=100."""
-    return KMeans(n_clusters=k, init='k-means++', n_init=10, random_state=random_state).fit_predict(X)
+    """k-means++, n_init=100 (paper specification)."""
+    return KMeans(n_clusters=k, init='k-means++', n_init=100, random_state=random_state).fit_predict(X)
 
 
 def cluster_ahc(X, k, metric='euclidean', linkage='ward'):
@@ -239,26 +238,20 @@ def cluster_optics(X, min_samples=5, min_cluster_size=0.05):
 # ============================================================
 
 def get_ahc_combos():
-    """All valid (metric, linkage) combinations for AHC."""
+    """All valid (metric, linkage) combinations for AHC.
+    Paper: euclidean/l1/l2/manhattan/cosine × complete/average/single/ward
+    Note: l1=manhattan, l2=euclidean in sklearn. Ward only with euclidean."""
     combos = []
     for metric in ['euclidean', 'manhattan', 'cosine']:
         for linkage in ['complete', 'average', 'single']:
             combos.append((metric, linkage))
-    combos.append(('euclidean', 'ward'))  # ward only with euclidean
+    combos.append(('euclidean', 'ward'))
     return combos
 
 
 def get_gmm_combos():
+    """Paper: spherical/tied/diag/full."""
     return ['spherical', 'tied', 'diag', 'full']
-
-
-def _subsample_keys(datasets, max_n=20):
-    """Subsample dataset keys for faster hyperparameter search."""
-    keys = sorted(datasets.keys())
-    if len(keys) <= max_n:
-        return keys
-    rng = np.random.RandomState(42)
-    return list(rng.choice(keys, max_n, replace=False))
 
 
 def find_best_ahc_params(datasets, dr_cache):
@@ -267,13 +260,12 @@ def find_best_ahc_params(datasets, dr_cache):
     conditions = get_all_conditions()
     best_score = -999
     best_combo = ('euclidean', 'ward')
-    search_keys = _subsample_keys(datasets, max_n=20)
 
-    print(f"  AHC hyperparam search (using {len(search_keys)}/{len(datasets)} datasets)...")
+    print(f"  AHC hyperparam search ({len(datasets)} datasets, {len(combos)} combos)...")
     for metric, linkage in combos:
         total_ari = 0.0
         count = 0
-        for ds_name in search_keys:
+        for ds_name in sorted(datasets.keys()):
             _, y_true, k = datasets[ds_name]
             for cond in conditions:
                 X = dr_cache[ds_name].get(cond)
@@ -299,13 +291,12 @@ def find_best_gmm_params(datasets, dr_cache):
     conditions = get_all_conditions()
     best_score = -999
     best_cov = 'full'
-    search_keys = _subsample_keys(datasets, max_n=20)
 
-    print(f"  GMM hyperparam search (using {len(search_keys)}/{len(datasets)} datasets)...")
+    print(f"  GMM hyperparam search ({len(datasets)} datasets)...")
     for cov_type in get_gmm_combos():
         total_ari = 0.0
         count = 0
-        for ds_name in search_keys:
+        for ds_name in sorted(datasets.keys()):
             _, y_true, k = datasets[ds_name]
             for cond in conditions:
                 X = dr_cache[ds_name].get(cond)
@@ -328,36 +319,30 @@ def find_best_gmm_params(datasets, dr_cache):
 
 def find_best_optics_params(datasets, dr_cache):
     """Find (min_samples, min_cluster_size) with highest average ARI.
-    Optimized: fit OPTICS once per (dataset, condition, min_samples), 
-    then extract clusters with different min_cluster_size using cluster_optics_xi."""
+    Paper: min_samples 5-10 step 1, min_cluster_size 0-1 step 0.05."""
     conditions = get_all_conditions()
-    mcs_values = [round(v, 2) for v in np.arange(0.05, 1.05, 0.2)]  # 0.05 to 1.0 step 0.1
+    # Use coarser grid for speed but cover the range
+    ms_values = [5, 6, 7, 8, 9, 10]
+    mcs_values = [round(v, 2) for v in np.arange(0.05, 1.05, 0.1)]
 
-    print("  OPTICS hyperparam search (optimized)...")
-    # combo_scores[(ms, mcs)] = list of ARIs
+    print(f"  OPTICS hyperparam search ({len(datasets)} datasets, {len(ms_values)*len(mcs_values)} combos)...")
     combo_scores = {}
-    for ms in [5, 7, 10]:
+    for ms in ms_values:
         for mcs in mcs_values:
             combo_scores[(ms, mcs)] = []
 
-    search_keys = _subsample_keys(datasets, max_n=15)
-    n_ds = len(search_keys)
-    for ds_idx, ds_name in enumerate(search_keys):
+    for ds_name in sorted(datasets.keys()):
         _, y_true, k = datasets[ds_name]
-        if ds_idx % 5 == 0:
-            print(f"    OPTICS search: dataset {ds_idx+1}/{n_ds}")
         for cond in conditions:
             X = dr_cache[ds_name].get(cond)
             if X is None:
                 continue
-            for ms in [5, 7, 10]:
+            for ms in ms_values:
                 if ms >= X.shape[0]:
                     continue
                 try:
-                    # Fit OPTICS once
                     model = OPTICS(min_samples=ms, cluster_method='xi', xi=0.05, min_cluster_size=0.05)
                     model.fit(X)
-                    # Extract clusters with different min_cluster_size
                     for mcs in mcs_values:
                         try:
                             labels, _ = cluster_optics_xi(
@@ -407,7 +392,7 @@ def run_kmeans_experiments(datasets, dr_cache):
                 continue
             try:
                 labels = cluster_kmeans(X, k)
-                row[cond] = round(adjusted_rand_score(y_true, labels), 2)
+                row[cond] = round(adjusted_rand_score(y_true, labels), 3)
             except:
                 row[cond] = 0.0
         results[ds_name] = row
@@ -428,7 +413,7 @@ def run_ahc_experiments(datasets, dr_cache, metric, linkage):
                 continue
             try:
                 labels = cluster_ahc(X, k, metric=metric, linkage=linkage)
-                row[cond] = round(adjusted_rand_score(y_true, labels), 2)
+                row[cond] = round(adjusted_rand_score(y_true, labels), 3)
             except:
                 row[cond] = 0.0
         results[ds_name] = row
@@ -449,7 +434,7 @@ def run_gmm_experiments(datasets, dr_cache, covariance_type):
                 continue
             try:
                 labels = cluster_gmm(X, k, covariance_type=covariance_type)
-                row[cond] = round(adjusted_rand_score(y_true, labels), 2)
+                row[cond] = round(adjusted_rand_score(y_true, labels), 3)
             except:
                 row[cond] = 0.0
         results[ds_name] = row
@@ -470,7 +455,7 @@ def run_optics_experiments(datasets, dr_cache, min_samples, min_cluster_size):
                 continue
             try:
                 labels = cluster_optics(X, min_samples=min_samples, min_cluster_size=min_cluster_size)
-                row[cond] = round(adjusted_rand_score(y_true, labels), 2)
+                row[cond] = round(adjusted_rand_score(y_true, labels), 3)
             except:
                 row[cond] = 0.0
         results[ds_name] = row
@@ -493,46 +478,59 @@ def format_results_table(results_dict, algorithm_name):
 
 
 def compute_aggregate_stats(results_dict):
-    """Compute win rates and average win/loss % (Tables 1-4 in paper)."""
+    """Compute win rates and average win/loss % (Tables 1-4 in paper).
+    
+    Paper definition:
+    - "Percentage of wins": % of datasets where DR beats baseline
+    - "Average win/loss percentage": average relative ARI change across ALL datasets
+      = mean of ((ARI_reduced - ARI_baseline) / ARI_baseline * 100) for all datasets
+    
+    When baseline is 0, we handle it specially.
+    """
     datasets_list = sorted(results_dict.keys())
     stats = {}
     for method in DR_METHODS:
         stats[method] = {}
         for level in REDUCTION_LEVELS:
             key = f"{method}_{level}"
-            wins, losses, total = 0, 0, 0
-            win_changes, loss_changes = [], []
+            wins = 0
+            total = 0
+            all_pct_changes = []
 
             for ds in datasets_list:
                 baseline = results_dict[ds].get('No Reduction', 0.0)
-                reduced = results_dict[ds].get(key, 0.0)
+                reduced = results_dict[ds].get(key, None)
+                if reduced is None:
+                    continue
                 total += 1
 
+                # Win if reduced > baseline (with small tolerance for rounding)
                 if reduced > baseline + 0.005:
                     wins += 1
-                    if abs(baseline) > 1e-6:
-                        win_changes.append((reduced - baseline) / abs(baseline) * 100)
-                    else:
-                        win_changes.append(reduced * 100)
-                elif reduced < baseline - 0.005:
-                    losses += 1
-                    if abs(baseline) > 1e-6:
-                        loss_changes.append((reduced - baseline) / abs(baseline) * 100)
-                    else:
-                        loss_changes.append(-reduced * 100)
+
+                # Percentage change
+                if abs(baseline) > 1e-6:
+                    pct_change = (reduced - baseline) / abs(baseline) * 100
+                else:
+                    # If baseline is ~0, use absolute change * 100
+                    pct_change = (reduced - baseline) * 100
+                all_pct_changes.append(pct_change)
+
+            win_pct = round(wins / total * 100, 2) if total > 0 else 0
+            avg_pct = round(np.mean(all_pct_changes), 2) if all_pct_changes else 0
 
             stats[method][level] = {
-                'win_pct': round(wins / total * 100, 1) if total > 0 else 0,
-                'loss_pct': round(losses / total * 100, 1) if total > 0 else 0,
-                'avg_win_change': round(np.mean(win_changes), 2) if win_changes else 0,
-                'avg_loss_change': round(np.mean(loss_changes), 2) if loss_changes else 0,
-                'wins': wins, 'losses': losses, 'total': total,
+                'win_pct': win_pct,
+                'avg_win_loss_pct': avg_pct,
+                'wins': wins,
+                'total': total,
             }
     return stats
 
 
 def compute_wilcoxon_tests(results_dict):
-    """Wilcoxon signed-rank test: DR vs no-reduction."""
+    """Wilcoxon signed-rank test: one-sided, H1: DR > baseline.
+    Paper: alpha=0.05, n=20 datasets."""
     datasets_list = sorted(results_dict.keys())
     p_values = {}
     for method in DR_METHODS:
@@ -545,8 +543,9 @@ def compute_wilcoxon_tests(results_dict):
             nonzero = np.abs(diffs) > 1e-10
             if nonzero.sum() >= 2:
                 try:
-                    _, p = wilcoxon(diffs[nonzero])
-                    p_values[method][level] = round(p, 4)
+                    # One-sided: alternative='greater' means H1: diffs > 0 (DR > baseline)
+                    stat, p = wilcoxon(diffs[nonzero], alternative='greater')
+                    p_values[method][level] = round(p, 3)
                 except:
                     p_values[method][level] = 1.0
             else:
@@ -565,9 +564,7 @@ def generate_boxplots(all_results, data_label, output_dir='./results'):
 
     for algo in ["k-means", "AHC", "GMM", "OPTICS"]:
         results_dict = all_results.get(algo)
-        if results_dict is None:
-            continue
-        if not results_dict:
+        if results_dict is None or not results_dict:
             continue
         fig, ax = plt.subplots(figsize=(16, 6))
         box_data = []
@@ -599,415 +596,29 @@ def generate_boxplots(all_results, data_label, output_dir='./results'):
         print(f"  Saved {fname}")
 
 
-# ============================================================
-# SYNTHETIC DATA GENERATION
-# ============================================================
-
-def generate_synthetic_datasets(random_state=42):
-    """Generate synthetic datasets: Circles, Moons, RSG, Repliclust.
-    Returns dict: {name: (X, y, k)}"""
-    from sklearn.datasets import make_circles, make_moons
-    
-    rng = np.random.RandomState(random_state)
-    synthetic = {}
-    
-    def add_noise_dims(X, target_dims, rng_local):
-        """Add noisy dimensions. 25% N(0,1), 25% N(0,0.5), 25% N(0,0.25), 25% no noise."""
-        n_samples = X.shape[0]
-        n_orig = X.shape[1]
-        n_extra = target_dims - n_orig
-        if n_extra <= 0:
-            return X
-        n_per = n_extra // 4
-        remainder = n_extra - 4 * n_per
-        parts = []
-        for sigma, extra in zip([1.0, 0.5, 0.25, 0.0], [0]*4):
-            n_this = n_per + (1 if remainder > 0 else 0)
-            remainder = max(0, remainder - 1)
-            if sigma > 0:
-                parts.append(rng_local.normal(0, sigma, (n_samples, n_this)))
-            else:
-                parts.append(np.zeros((n_samples, n_this)))
-        noise = np.hstack(parts)[:, :n_extra]
-        return np.hstack([X, noise])
-    
-    def embed_to_high_dim(X, target_dim, seed):
-        """Embed 2D data into higher dimensions via random projection."""
-        if target_dim <= X.shape[1]:
-            return X
-        r = np.random.RandomState(seed)
-        proj = r.randn(X.shape[1], target_dim) / np.sqrt(target_dim)
-        return X @ proj
-    
-    dims = [10, 50, 200]
-    n_per_config = 10  # 10 datasets per config (paper uses 50, we use 10 for speed)
-    
-    # === CIRCLES ===
-    # 2-cluster circles
-    for d in dims:
-        for i in range(n_per_config):
-            X, y = make_circles(n_samples=2000, factor=0.5, noise=0.05, random_state=random_state+i)
-            X = embed_to_high_dim(X, d, random_state+i+1000)
-            X = add_noise_dims(X, d, rng)
-            synthetic[f'Circles_k2_d{d}_t{i}'] = (X, y, 2)
-    
-    # 5-cluster circles
-    for d in dims:
-        for i in range(n_per_config):
-            r = np.random.RandomState(random_state + i + 2000)
-            n_per = 400
-            X_list, y_list = [], []
-            for ci, factor in enumerate([1.0, 2.0, 3.5, 5.0, 7.0]):
-                theta = r.uniform(0, 2*np.pi, n_per)
-                rad = factor + r.normal(0, 0.05, n_per)
-                X_list.append(np.column_stack([rad*np.cos(theta), rad*np.sin(theta)]))
-                y_list.append(np.full(n_per, ci))
-            X = np.vstack(X_list)
-            y = np.concatenate(y_list)
-            X = embed_to_high_dim(X, d, random_state+i+3000)
-            X = add_noise_dims(X, d, rng)
-            synthetic[f'Circles_k5_d{d}_t{i}'] = (X, y, 5)
-    
-    # === MOONS ===
-    # 2-cluster moons
-    for d in dims:
-        for i in range(n_per_config):
-            X, y = make_moons(n_samples=2000, noise=0.1, random_state=random_state+i+4000)
-            X = embed_to_high_dim(X, d, random_state+i+5000)
-            X = add_noise_dims(X, d, rng)
-            synthetic[f'Moons_k2_d{d}_t{i}'] = (X, y, 2)
-    
-    # 5-cluster moons
-    for d in dims:
-        for i in range(n_per_config):
-            r = np.random.RandomState(random_state + i + 6000)
-            n_per = 400
-            X_list, y_list = [], []
-            stretches = [1.0, 1.5, 1.0, 1.5, 1.0]
-            rotations = [0, 160, -160, 10, 180]
-            x_shifts = [0, 3, -3, 2, -2]
-            y_shifts = [0, 1.0, 1.2, 1.5, 1.0]
-            for ci in range(5):
-                theta = np.linspace(0, np.pi, n_per)
-                x = np.cos(theta) * stretches[ci] + r.normal(0, 0.1, n_per)
-                yc = np.sin(theta) + r.normal(0, 0.1, n_per)
-                angle = np.radians(rotations[ci])
-                xr = x*np.cos(angle) - yc*np.sin(angle) + x_shifts[ci]
-                yr = x*np.sin(angle) + yc*np.cos(angle) + y_shifts[ci]
-                X_list.append(np.column_stack([xr, yr]))
-                y_list.append(np.full(n_per, ci))
-            X = np.vstack(X_list)
-            y = np.concatenate(y_list)
-            X = embed_to_high_dim(X, d, random_state+i+7000)
-            X = add_noise_dims(X, d, rng)
-            synthetic[f'Moons_k5_d{d}_t{i}'] = (X, y, 5)
-    
-    # === RSG ===
-    ks_rsg = [2, 10, 50]
-    ds_rsg = [10, 50, 200]
-    Ncs_rsg = [5, 50, 100]
-    n_rsg_per = 3  # fewer per config since there are many configs
-    
-    for k in ks_rsg:
-        for d in ds_rsg:
-            for Nc in Ncs_rsg:
-                for i in range(n_rsg_per):
-                    r = np.random.RandomState(random_state + k*1000 + d*100 + Nc + i)
-                    alpha = max(0.1, min(0.9, 1.0 - k*0.01 - d*0.001))
-                    centers = r.randn(k, d) * np.sqrt(d) * (1 + alpha)
-                    X_list, y_list = [], []
-                    for ci in range(k):
-                        A = r.randn(d, d) * alpha
-                        cov = A @ A.T / d + np.eye(d) * 0.1
-                        samples = r.multivariate_normal(centers[ci], cov, size=Nc)
-                        X_list.append(samples)
-                        y_list.append(np.full(Nc, ci))
-                    X = np.vstack(X_list)
-                    y = np.concatenate(y_list)
-                    X = add_noise_dims(X, d, rng)
-                    synthetic[f'RSG_k{k}_d{d}_Nc{Nc}_t{i}'] = (X, y, k)
-    
-    # === REPLICLUST ===
-    try:
-        import repliclust
-        for k in [2, 5]:
-            Nc = 1000 if k == 2 else 400
-            for d in dims:
-                for i in range(n_per_config):
-                    try:
-                        archetype = repliclust.Archetype(
-                            n_clusters=k, dim=d, n_samples=k*Nc,
-                            aspect_ref=3.0, radius=5.0
-                        )
-                        X, y, _ = repliclust.DataGenerator(archetype).synthesize(random_state=random_state+i)
-                        X = add_noise_dims(X, d, rng)
-                        synthetic[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
-                    except:
-                        # Fallback to anisotropic Gaussian
-                        r = np.random.RandomState(random_state + i + 9000 + k*100 + d)
-                        centers = r.randn(k, d) * np.sqrt(d)
-                        X_list, y_list = [], []
-                        for ci in range(k):
-                            A = r.randn(d, d) * 0.5
-                            cov = A @ A.T / d + np.eye(d) * 0.1
-                            samples = r.multivariate_normal(centers[ci], cov, size=Nc)
-                            X_list.append(samples)
-                            y_list.append(np.full(Nc, ci))
-                        X = np.vstack(X_list)
-                        y = np.concatenate(y_list)
-                        X = add_noise_dims(X, d, rng)
-                        synthetic[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
-    except ImportError:
-        print("Repliclust not available, using fallback Gaussian clusters")
-        for k in [2, 5]:
-            Nc = 1000 if k == 2 else 400
-            for d in dims:
-                for i in range(n_per_config):
-                    r = np.random.RandomState(random_state + i + 9000 + k*100 + d)
-                    centers = r.randn(k, d) * np.sqrt(d)
-                    X_list, y_list = [], []
-                    for ci in range(k):
-                        A = r.randn(d, d) * 0.5
-                        cov = A @ A.T / d + np.eye(d) * 0.1
-                        samples = r.multivariate_normal(centers[ci], cov, size=Nc)
-                        X_list.append(samples)
-                        y_list.append(np.full(Nc, ci))
-                    X = np.vstack(X_list)
-                    y = np.concatenate(y_list)
-                    X = add_noise_dims(X, d, rng)
-                    synthetic[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
-    
-    return synthetic
+def format_aggregate_table(stats, algo_name):
+    """Format aggregate stats as a table matching paper Tables 1-4."""
+    rows = []
+    for method in DR_METHODS:
+        for level in REDUCTION_LEVELS:
+            s = stats[method][level]
+            rows.append({
+                'Method': method,
+                'Reduction': level,
+                'Win %': s['win_pct'],
+                'Avg Win/Loss %': s['avg_win_loss_pct'],
+            })
+    return pd.DataFrame(rows)
 
 
-# ============================================================
-# MAIN PIPELINE
-# ============================================================
-
-def run_all_real_world(output_dir='./results'):
-    """Run full real-world experiment pipeline."""
-    os.makedirs(output_dir, exist_ok=True)
-    from load_uci import load_all_uci
-
-    print("=" * 60)
-    print("LOADING UCI DATASETS")
-    print("=" * 60)
-    dataset_list = load_all_uci()
-    datasets = {}
-    for name, X, y, k in dataset_list:
-        datasets[name] = (X, y, k)
-    print(f"Loaded {len(datasets)} datasets")
-
-    print("\n" + "=" * 60)
-    print("PRECOMPUTING DIMENSIONALITY REDUCTIONS")
-    print("=" * 60)
-    t0 = time.time()
-    dr_cache = precompute_all_dr(datasets)
-    print(f"DR precomputation took {time.time()-t0:.1f}s")
-
-    all_results = {}
-
-    # --- k-means ---
-    print("\n" + "=" * 60)
-    print("K-MEANS EXPERIMENTS")
-    print("=" * 60)
-    t0 = time.time()
-    all_results['k-means'] = run_kmeans_experiments(datasets, dr_cache)
-    print(f"k-means took {time.time()-t0:.1f}s")
-    with open(os.path.join(output_dir, 'real_world_results_partial.json'), 'w') as f:
-        json.dump(all_results, f, indent=2)
-
-    # --- AHC ---
-    print("\n" + "=" * 60)
-    print("AHC EXPERIMENTS (with hyperparameter search)")
-    print("=" * 60)
-    t0 = time.time()
-    ahc_metric, ahc_linkage = find_best_ahc_params(datasets, dr_cache)
-    all_results['AHC'] = run_ahc_experiments(datasets, dr_cache, ahc_metric, ahc_linkage)
-    print(f"AHC took {time.time()-t0:.1f}s")
-    with open(os.path.join(output_dir, 'real_world_results_partial.json'), 'w') as f:
-        json.dump(all_results, f, indent=2)
-
-    # --- GMM ---
-    print("\n" + "=" * 60)
-    print("GMM EXPERIMENTS (with hyperparameter search)")
-    print("=" * 60)
-    t0 = time.time()
-    gmm_cov = find_best_gmm_params(datasets, dr_cache)
-    all_results['GMM'] = run_gmm_experiments(datasets, dr_cache, gmm_cov)
-    print(f"GMM took {time.time()-t0:.1f}s")
-    with open(os.path.join(output_dir, 'real_world_results_partial.json'), 'w') as f:
-        json.dump(all_results, f, indent=2)
-
-    # --- OPTICS ---
-    print("\n" + "=" * 60)
-    print("OPTICS EXPERIMENTS (with hyperparameter search)")
-    print("=" * 60)
-    t0 = time.time()
-    optics_ms, optics_mcs = find_best_optics_params(datasets, dr_cache)
-    all_results['OPTICS'] = run_optics_experiments(datasets, dr_cache, optics_ms, optics_mcs)
-    print(f"OPTICS took {time.time()-t0:.1f}s")
-
-    # Save final results
-    with open(os.path.join(output_dir, 'real_world_results.json'), 'w') as f:
-        json.dump(all_results, f, indent=2)
-
-    # Save chosen hyperparameters
-    hyperparams = {
-        'AHC': {'metric': ahc_metric, 'linkage': ahc_linkage},
-        'GMM': {'covariance_type': gmm_cov},
-        'OPTICS': {'min_samples': int(optics_ms), 'min_cluster_size': float(optics_mcs)},
-    }
-    with open(os.path.join(output_dir, 'chosen_hyperparams_real.json'), 'w') as f:
-        json.dump(hyperparams, f, indent=2)
-
-    # --- Format tables ---
-    print("\n" + "=" * 60)
-    print("RESULTS TABLES")
-    print("=" * 60)
-    for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-        df = format_results_table(all_results[algo], algo)
-        df.to_csv(os.path.join(output_dir, f'table_{algo}_real.csv'))
-        print(f"\n{algo} results:")
-        print(df.to_string())
-
-    # --- Aggregate stats ---
-    print("\n" + "=" * 60)
-    print("AGGREGATE STATISTICS")
-    print("=" * 60)
-    agg_stats = {}
-    for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-        agg_stats[algo] = compute_aggregate_stats(all_results[algo])
-        print(f"\n{algo}:")
-        for method in DR_METHODS:
-            for level in REDUCTION_LEVELS:
-                s = agg_stats[algo][method][level]
-                print(f"  {method:12s} {level:4s}: win={s['win_pct']:5.1f}%  loss={s['loss_pct']:5.1f}%  avg_win={s['avg_win_change']:+7.2f}%  avg_loss={s['avg_loss_change']:+7.2f}%")
-    with open(os.path.join(output_dir, 'aggregate_stats_real.json'), 'w') as f:
-        json.dump(agg_stats, f, indent=2)
-
-    # --- Wilcoxon test ---
-    print("\n" + "=" * 60)
-    print("WILCOXON SIGNED-RANK TEST")
-    print("=" * 60)
-    wilcoxon_results = {}
-    for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-        wilcoxon_results[algo] = compute_wilcoxon_tests(all_results[algo])
-        print(f"\n{algo}:")
-        for method in DR_METHODS:
-            vals = [wilcoxon_results[algo][method][l] for l in REDUCTION_LEVELS]
-            sig = ['*' if v < 0.05 else ' ' for v in vals]
-            print(f"  {method:12s}: k-1={vals[0]:.4f}{sig[0]}  25%={vals[1]:.4f}{sig[1]}  50%={vals[2]:.4f}{sig[2]}")
-    with open(os.path.join(output_dir, 'wilcoxon_results_real.json'), 'w') as f:
-        json.dump(wilcoxon_results, f, indent=2)
-
-    # --- Boxplots ---
-    print("\n" + "=" * 60)
-    print("GENERATING BOXPLOTS")
-    print("=" * 60)
-    generate_boxplots(all_results, 'RealWorld', output_dir)
-
-    print("\nAll real-world experiments complete!")
-    return all_results
-
-
-def run_all_synthetic(output_dir='./results'):
-    """Run full synthetic experiment pipeline."""
-    os.makedirs(output_dir, exist_ok=True)
-
-    print("=" * 60)
-    print("GENERATING SYNTHETIC DATASETS")
-    print("=" * 60)
-    all_synthetic = generate_synthetic_datasets()
-    print(f"Generated {len(all_synthetic)} total synthetic datasets")
-
-    # Group by type
-    type_names = ['Circles', 'Moons', 'RSG', 'Repliclust']
-    all_type_results = {}
-
-    for dtype in type_names:
-        datasets = {k: v for k, v in all_synthetic.items() if k.startswith(dtype)}
-        if not datasets:
-            print(f"No {dtype} datasets, skipping")
-            continue
-
-        print(f"\n{'='*60}")
-        print(f"PROCESSING {dtype.upper()} ({len(datasets)} datasets)")
-        print(f"{'='*60}")
-
-        dr_cache = precompute_all_dr(datasets)
-
-        type_results = {}
-        type_results['k-means'] = run_kmeans_experiments(datasets, dr_cache)
-
-        ahc_m, ahc_l = find_best_ahc_params(datasets, dr_cache)
-        type_results['AHC'] = run_ahc_experiments(datasets, dr_cache, ahc_m, ahc_l)
-
-        gmm_cov = find_best_gmm_params(datasets, dr_cache)
-        type_results['GMM'] = run_gmm_experiments(datasets, dr_cache, gmm_cov)
-
-        opt_ms, opt_mcs = find_best_optics_params(datasets, dr_cache)
-        type_results['OPTICS'] = run_optics_experiments(datasets, dr_cache, opt_ms, opt_mcs)
-
-        all_type_results[dtype] = type_results
-
-        with open(os.path.join(output_dir, f'synthetic_{dtype}_results.json'), 'w') as f:
-            json.dump(type_results, f, indent=2)
-
-        # Print average ARI table
-        conditions = get_all_conditions()
-        print(f"\nAverage ARI for {dtype}:")
-        for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-            avg_row = {}
-            for cond in conditions:
-                vals = [type_results[algo][ds].get(cond, 0.0) for ds in type_results[algo]]
-                avg_row[cond] = round(np.mean(vals), 2)
-            print(f"  {algo:8s}: No_Red={avg_row['No Reduction']:.2f}", end="")
-            for m in DR_METHODS:
-                best_l = max(REDUCTION_LEVELS, key=lambda l: avg_row.get(f"{m}_{l}", 0))
-                print(f"  {m}_best={avg_row.get(f'{m}_{best_l}', 0):.2f}", end="")
-            print()
-
-    # Save all results
-    with open(os.path.join(output_dir, 'synthetic_results_all.json'), 'w') as f:
-        json.dump(all_type_results, f, indent=2)
-
-    # Generate boxplots per type
-    for dtype in type_names:
-        if dtype in all_type_results:
-            generate_boxplots(all_type_results[dtype], f'Synthetic_{dtype}', output_dir)
-
-    # Aggregate across all synthetic
-    print("\n" + "=" * 60)
-    print("SYNTHETIC AGGREGATE STATISTICS")
-    print("=" * 60)
-    for dtype in type_names:
-        if dtype not in all_type_results:
-            continue
-        print(f"\n--- {dtype} ---")
-        for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-            stats = compute_aggregate_stats(all_type_results[dtype][algo])
-            print(f"  {algo}:")
-            for method in DR_METHODS:
-                for level in REDUCTION_LEVELS:
-                    s = stats[method][level]
-                    print(f"    {method:12s} {level:4s}: win={s['win_pct']:5.1f}%  loss={s['loss_pct']:5.1f}%")
-
-    print("\nAll synthetic experiments complete!")
-    return all_type_results
-
-
-if __name__ == '__main__':
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--mode', choices=['real', 'synthetic', 'all'], default='real')
-    parser.add_argument('--output_dir', default='./results')
-    args = parser.parse_args()
-
-    if args.mode in ['real', 'all']:
-        run_all_real_world(args.output_dir)
-
-    if args.mode in ['synthetic', 'all']:
-        run_all_synthetic(args.output_dir)
-
-    print(f"\nAll done! Results in {args.output_dir}")
+def format_wilcoxon_table(wilcoxon_results):
+    """Format Wilcoxon p-values as table matching paper Table."""
+    rows = []
+    for method in DR_METHODS:
+        for level in REDUCTION_LEVELS:
+            rows.append({
+                'Method': method,
+                'Reduction': level,
+                'p-value': wilcoxon_results[method][level],
+            })
+    return pd.DataFrame(rows)
