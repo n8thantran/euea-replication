@@ -1,356 +1,641 @@
 """
-Fast synthetic experiments runner.
-Generates synthetic data, applies DR + clustering, saves results.
-Optimized for speed: fewer datasets, smaller samples, faster DR.
+Fast synthetic experiment runner - processes each type separately with aggressive timeouts.
 """
-import os
-import sys
-import json
-import time
-import warnings
+import os, sys, json, time, warnings, pickle, signal
 import numpy as np
-import pickle
 import pandas as pd
-
 warnings.filterwarnings('ignore')
 
-from experiment import (
-    precompute_all_dr, run_kmeans_experiments, 
-    run_ahc_experiments, run_gmm_experiments, run_optics_experiments,
-    find_best_ahc_params, find_best_gmm_params, find_best_optics_params,
-    format_results_table, compute_aggregate_stats, compute_wilcoxon_tests,
-    generate_boxplots, get_all_conditions, DR_METHODS, REDUCTION_LEVELS
-)
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA, KernelPCA
+from sklearn.manifold import Isomap, MDS
+from sklearn.cluster import KMeans, AgglomerativeClustering, OPTICS
+from sklearn.mixture import GaussianMixture
+from sklearn.metrics import adjusted_rand_score
+from sklearn.datasets import make_circles, make_moons
+from scipy.stats import wilcoxon
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, TensorDataset
 
 OUTPUT_DIR = './results'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+DR_METHODS = ['PCA', 'Kernel PCA', 'VAE', 'Isomap', 'MDS']
+REDUCTION_LEVELS = ['k-1', '25%', '50%']
+ALGOS = ['k-means', 'AHC', 'GMM', 'OPTICS']
+N_PER_CONFIG = 2
 
-def generate_synthetic_datasets(random_state=42):
-    """Generate synthetic datasets. 3 per config, 500 samples for speed."""
-    from sklearn.datasets import make_circles, make_moons
-    
-    rng = np.random.RandomState(random_state)
-    synthetic = {}
-    
-    def embed_to_high_dim(X, target_dim, seed):
-        """Embed 2D data into higher dimensions via random projection + noise."""
-        if target_dim <= X.shape[1]:
-            return X
-        r = np.random.RandomState(seed)
-        # Random rotation into higher dim
-        proj = r.randn(X.shape[1], target_dim) / np.sqrt(target_dim)
-        X_proj = X @ proj
-        # Add noise dimensions
-        noise = r.normal(0, 0.1, (X.shape[0], target_dim))
-        return X_proj + noise * 0.3
-    
-    dims = [10, 50, 200]
-    n_per_config = 3  # Reduced from 50
-    n_samples = 500   # Reduced from 2000
-    
-    # === CIRCLES ===
-    print("Generating Circles datasets...")
-    for k_val in [2, 5]:
-        for d in dims:
-            for i in range(n_per_config):
-                seed = random_state + i + k_val*1000 + d*10
-                if k_val == 2:
-                    X, y = make_circles(n_samples=n_samples, factor=0.5, noise=0.05, 
-                                       random_state=seed)
-                    X = embed_to_high_dim(X, d, seed+100)
-                else:
-                    r = np.random.RandomState(seed)
-                    n_per = n_samples // k_val
-                    X_list, y_list = [], []
-                    for ci, factor in enumerate([1.0, 2.0, 3.5, 5.0, 7.0]):
-                        theta = r.uniform(0, 2*np.pi, n_per)
-                        rad = factor + r.normal(0, 0.05, n_per)
-                        X_list.append(np.column_stack([rad*np.cos(theta), rad*np.sin(theta)]))
-                        y_list.append(np.full(n_per, ci))
-                    X = np.vstack(X_list)
-                    y = np.concatenate(y_list)
-                    X = embed_to_high_dim(X, d, seed+100)
-                synthetic[f'Circles_k{k_val}_d{d}_t{i}'] = (X, y, k_val)
-    
-    # === MOONS ===
-    print("Generating Moons datasets...")
-    for k_val in [2, 5]:
-        for d in dims:
-            for i in range(n_per_config):
-                seed = random_state + i + k_val*2000 + d*10
-                if k_val == 2:
-                    X, y = make_moons(n_samples=n_samples, noise=0.1, random_state=seed)
-                    X = embed_to_high_dim(X, d, seed+200)
-                else:
-                    r = np.random.RandomState(seed)
-                    n_per = n_samples // k_val
-                    X_list, y_list = [], []
-                    for ci in range(5):
-                        theta = np.linspace(0, np.pi, n_per)
-                        x = np.cos(theta) * (1 + ci*0.3) + r.normal(0, 0.1, n_per)
-                        yc = np.sin(theta) + r.normal(0, 0.1, n_per)
-                        angle = np.radians(ci * 72)
-                        xr = x*np.cos(angle) - yc*np.sin(angle) + ci*2
-                        yr = x*np.sin(angle) + yc*np.cos(angle) + ci
-                        X_list.append(np.column_stack([xr, yr]))
-                        y_list.append(np.full(n_per, ci))
-                    X = np.vstack(X_list)
-                    y = np.concatenate(y_list)
-                    X = embed_to_high_dim(X, d, seed+200)
-                synthetic[f'Moons_k{k_val}_d{d}_t{i}'] = (X, y, k_val)
-    
-    # === RSG ===
-    print("Generating RSG datasets...")
-    ks_rsg = [2, 10, 50]
-    ds_rsg = [10, 50, 200]
-    Ncs_rsg = [5, 50, 100]
-    n_rsg_per = 3
-    
-    for k in ks_rsg:
-        for d in ds_rsg:
-            for Nc in Ncs_rsg:
-                for i in range(n_rsg_per):
-                    r = np.random.RandomState(random_state + k*1000 + d*100 + Nc + i)
-                    alpha = max(0.1, min(0.9, 1.0 - k*0.01 - d*0.001))
-                    centers = r.randn(k, d) * np.sqrt(d) * (1 + alpha)
-                    X_list, y_list = [], []
-                    for ci in range(k):
-                        A = r.randn(d, d) * alpha
-                        cov = A @ A.T / d + np.eye(d) * 0.1
-                        samples = r.multivariate_normal(centers[ci], cov, size=Nc)
-                        X_list.append(samples)
-                        y_list.append(np.full(Nc, ci))
-                    X = np.vstack(X_list)
-                    y = np.concatenate(y_list)
-                    synthetic[f'RSG_k{k}_d{d}_Nc{Nc}_t{i}'] = (X, y, k)
-    
-    # === REPLICLUST ===
-    print("Generating Repliclust datasets...")
+# ============================================================
+# VAE
+# ============================================================
+class VAEModel(nn.Module):
+    def __init__(self, input_dim, latent_dim):
+        super().__init__()
+        self.encoder = nn.Sequential(
+            nn.Linear(input_dim, 64), nn.BatchNorm1d(64), nn.ReLU(), nn.Dropout(0.4),
+            nn.Linear(64, 32), nn.BatchNorm1d(32), nn.ReLU(), nn.Dropout(0.4),
+        )
+        self.fc_mu = nn.Linear(32, latent_dim)
+        self.fc_logvar = nn.Linear(32, latent_dim)
+        self.decoder = nn.Sequential(
+            nn.Linear(latent_dim, 32), nn.BatchNorm1d(32), nn.ReLU(), nn.Dropout(0.4),
+            nn.Linear(32, 64), nn.BatchNorm1d(64), nn.ReLU(), nn.Dropout(0.4),
+            nn.Linear(64, input_dim), nn.Sigmoid(),
+        )
+
+    def encode(self, x):
+        h = self.encoder(x)
+        return self.fc_mu(h), self.fc_logvar(h)
+
+    def forward(self, x):
+        mu, logvar = self.encode(x)
+        std = torch.exp(0.5 * logvar)
+        z = mu + torch.randn_like(std) * std
+        return self.decoder(z), mu, logvar
+
+
+def apply_vae(X, n_components, epochs=30, batch_size=64):
+    torch.manual_seed(42)
+    np.random.seed(42)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    input_dim = X.shape[1]
+    X_min, X_max = X.min(0), X.max(0)
+    X_range = X_max - X_min
+    X_range[X_range == 0] = 1
+    X_scaled = (X - X_min) / X_range
+    n = len(X_scaled)
+    idx = np.random.permutation(n)
+    n_train = int(0.7 * n)
+    train_data = torch.FloatTensor(X_scaled[idx[:n_train]]).to(device)
+    all_data = torch.FloatTensor(X_scaled).to(device)
+    loader = DataLoader(TensorDataset(train_data), batch_size=batch_size, shuffle=True)
+    model = VAEModel(input_dim, n_components).to(device)
+    optimizer = optim.Adam(model.parameters())
+    model.train()
+    for _ in range(epochs):
+        for (batch,) in loader:
+            recon, mu, logvar = model(batch)
+            mse = nn.functional.mse_loss(recon, batch, reduction='mean')
+            kl = -0.5 * torch.mean(1 + logvar - mu.pow(2) - logvar.exp())
+            optimizer.zero_grad()
+            (mse + kl).backward()
+            optimizer.step()
+    model.eval()
+    with torch.no_grad():
+        mu, _ = model.encode(all_data)
+    return mu.cpu().numpy()
+
+
+# ============================================================
+# DR Methods
+# ============================================================
+def get_reduction_dims(n_features, k):
+    return {
+        'k-1': min(n_features, max(2, k - 1)),
+        '25%': min(n_features, max(2, int(np.round(0.25 * n_features)))),
+        '50%': min(n_features, max(2, int(np.round(0.50 * n_features)))),
+    }
+
+
+def apply_dr(X, method, n_components):
+    if n_components >= X.shape[1]:
+        return X.copy()
     try:
-        import repliclust
-        for k in [2, 5]:
-            Nc = 250 if k == 2 else 100  # Reduced sample size
-            for d in dims:
-                for i in range(n_per_config):
-                    try:
-                        repliclust.set_seed(random_state + i + k*100 + d)
-                        archetype = repliclust.Archetype(
-                            n_clusters=k, dim=d, n_samples=k*Nc,
-                            aspect_ref=3.0, radius_maxmin=3
-                        )
-                        X, y, _ = repliclust.DataGenerator(archetype).synthesize()
-                        synthetic[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
-                    except Exception as e:
-                        print(f"  Repliclust fallback for k={k}, d={d}, i={i}: {e}")
-                        _make_gaussian_fallback(synthetic, k, d, Nc, i, random_state)
-    except ImportError:
-        print("Repliclust not available, using fallback Gaussian clusters")
+        if method == 'PCA':
+            return PCA(n_components=n_components, random_state=42).fit_transform(X)
+        elif method == 'Kernel PCA':
+            return KernelPCA(n_components=n_components, kernel='rbf', random_state=42).fit_transform(X)
+        elif method == 'VAE':
+            return apply_vae(X, n_components)
+        elif method == 'Isomap':
+            nn = min(5, X.shape[0] - 1)
+            return Isomap(n_components=n_components, n_neighbors=nn).fit_transform(X)
+        elif method == 'MDS':
+            return MDS(n_components=n_components, random_state=10, n_init=1, max_iter=100,
+                       normalized_stress='auto').fit_transform(X)
+    except:
+        return None
+
+
+def get_all_conditions():
+    conds = ['No Reduction']
+    for m in DR_METHODS:
+        for l in REDUCTION_LEVELS:
+            conds.append(f"{m}_{l}")
+    return conds
+
+
+# ============================================================
+# Clustering
+# ============================================================
+def cluster_kmeans(X, k):
+    return KMeans(n_clusters=k, init='k-means++', n_init=5, random_state=42).fit_predict(X)
+
+def cluster_ahc(X, k, metric='euclidean', linkage='ward'):
+    return AgglomerativeClustering(n_clusters=k, metric=metric, linkage=linkage).fit_predict(X)
+
+def cluster_gmm(X, k, covariance_type='full'):
+    return GaussianMixture(n_components=k, covariance_type=covariance_type, random_state=42).fit_predict(X)
+
+def cluster_optics(X, min_samples=5, min_cluster_size=0.05):
+    return OPTICS(min_samples=min_samples, cluster_method='xi', xi=0.05,
+                  min_cluster_size=min_cluster_size).fit_predict(X)
+
+
+def timed_call(func, timeout_sec=10):
+    """Run func with timeout. Returns None on timeout."""
+    def handler(signum, frame):
+        raise TimeoutError()
+    old = signal.signal(signal.SIGALRM, handler)
+    signal.alarm(timeout_sec)
+    try:
+        result = func()
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old)
+        return result
+    except:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old)
+        return None
+
+
+# ============================================================
+# Hyperparameter Search (fast)
+# ============================================================
+def find_best_ahc_params(datasets, dr_cache):
+    combos = [('euclidean','ward'),('euclidean','complete'),('euclidean','average'),
+              ('manhattan','complete'),('cosine','average')]
+    keys = sorted(datasets.keys())[:10]  # subsample
+    best_score, best_combo = -999, ('euclidean', 'ward')
+    for metric, linkage in combos:
+        total, count = 0.0, 0
+        for ds_name in keys:
+            _, y_true, k = datasets[ds_name]
+            X = dr_cache[ds_name].get('No Reduction')
+            if X is None: continue
+            try:
+                labels = cluster_ahc(X, k, metric=metric, linkage=linkage)
+                total += adjusted_rand_score(y_true, labels)
+                count += 1
+            except: pass
+        avg = total / count if count > 0 else -999
+        if avg > best_score:
+            best_score, best_combo = avg, (metric, linkage)
+    print(f"    Best AHC: {best_combo}, avg_ari={best_score:.4f}")
+    return best_combo
+
+
+def find_best_gmm_params(datasets, dr_cache):
+    keys = sorted(datasets.keys())[:10]
+    best_score, best_cov = -999, 'full'
+    for cov_type in ['spherical', 'tied', 'diag', 'full']:
+        total, count = 0.0, 0
+        for ds_name in keys:
+            _, y_true, k = datasets[ds_name]
+            X = dr_cache[ds_name].get('No Reduction')
+            if X is None: continue
+            try:
+                labels = cluster_gmm(X, k, covariance_type=cov_type)
+                total += adjusted_rand_score(y_true, labels)
+                count += 1
+            except: pass
+        avg = total / count if count > 0 else -999
+        if avg > best_score:
+            best_score, best_cov = avg, cov_type
+    print(f"    Best GMM: {best_cov}, avg_ari={best_score:.4f}")
+    return best_cov
+
+
+def find_best_optics_params(datasets, dr_cache):
+    keys = sorted(datasets.keys())[:8]
+    best_score, best_combo = -999, (5, 0.05)
+    for ms in [5, 10]:
+        for mcs in [0.05, 0.1, 0.3]:
+            total, count = 0.0, 0
+            for ds_name in keys:
+                _, y_true, k = datasets[ds_name]
+                X = dr_cache[ds_name].get('No Reduction')
+                if X is None: continue
+                if ms >= X.shape[0]: continue
+                result = timed_call(lambda: (
+                    cluster_optics(X, min_samples=ms, min_cluster_size=mcs),
+                    y_true
+                ), timeout_sec=15)
+                if result is not None:
+                    labels, yt = result
+                    total += adjusted_rand_score(yt, labels)
+                    count += 1
+            avg = total / count if count > 0 else -999
+            if avg > best_score:
+                best_score, best_combo = avg, (ms, mcs)
+    print(f"    Best OPTICS: ms={best_combo[0]}, mcs={best_combo[1]}, avg_ari={best_score:.4f}")
+    return best_combo
+
+
+# ============================================================
+# Run clustering with timeout
+# ============================================================
+def run_clustering(datasets, dr_cache, algo, **kwargs):
+    results = {}
+    conditions = get_all_conditions()
+    for ds_name in sorted(datasets.keys()):
+        _, y_true, k = datasets[ds_name]
+        row = {}
+        for cond in conditions:
+            X = dr_cache[ds_name].get(cond)
+            if X is None:
+                row[cond] = 0.0
+                continue
+            try:
+                if algo == 'k-means':
+                    labels = cluster_kmeans(X, k)
+                elif algo == 'AHC':
+                    labels = cluster_ahc(X, k, **kwargs)
+                elif algo == 'GMM':
+                    labels = cluster_gmm(X, k, **kwargs)
+                elif algo == 'OPTICS':
+                    # Use timeout for OPTICS
+                    result = timed_call(lambda: cluster_optics(X, **kwargs), timeout_sec=10)
+                    if result is None:
+                        row[cond] = 0.0
+                        continue
+                    labels = result
+                row[cond] = round(adjusted_rand_score(y_true, labels), 2)
+            except:
+                row[cond] = 0.0
+        results[ds_name] = row
+    return results
+
+
+# ============================================================
+# Synthetic Data Generation
+# ============================================================
+def inject_noise(X, rng):
+    X = StandardScaler().fit_transform(X)
+    d = X.shape[1]
+    n = X.shape[0]
+    perm = rng.permutation(d)
+    q = d // 4
+    for j in perm[:q]:
+        X[:, j] += rng.normal(0, 1.0, n)
+    for j in perm[q:2*q]:
+        X[:, j] += rng.normal(0, 0.5, n)
+    for j in perm[2*q:3*q]:
+        X[:, j] += rng.normal(0, 0.25, n)
+    return X
+
+
+def embed_high_dim(X_2d, target_dim, rng):
+    if target_dim <= X_2d.shape[1]:
+        return X_2d
+    proj = rng.randn(X_2d.shape[1], target_dim) / np.sqrt(target_dim)
+    return X_2d @ proj
+
+
+def generate_type(dtype):
+    datasets = {}
+    n_per = N_PER_CONFIG
+    dims = [10, 50, 200]
+    
+    if dtype == 'Circles':
+        # k=2
+        for d in dims:
+            for i in range(n_per):
+                rng = np.random.RandomState(42 + i + d)
+                X, y = make_circles(n_samples=500, factor=0.5, noise=0.05, random_state=42+i)
+                X = embed_high_dim(X, d, rng)
+                X = inject_noise(X, rng)
+                datasets[f'Circles_k2_d{d}_t{i}'] = (X, y, 2)
+        # k=5
+        for d in dims:
+            for i in range(n_per):
+                rng = np.random.RandomState(1000 + i + d)
+                X_list, y_list = [], []
+                for ci, factor in enumerate([1.0, 2.0, 3.5, 5.0, 7.0]):
+                    theta = rng.uniform(0, 2*np.pi, 100)
+                    rad = factor + rng.normal(0, 0.05, 100)
+                    X_list.append(np.column_stack([rad*np.cos(theta), rad*np.sin(theta)]))
+                    y_list.append(np.full(100, ci))
+                X = np.vstack(X_list); y = np.concatenate(y_list)
+                X = embed_high_dim(X, d, rng)
+                X = inject_noise(X, rng)
+                datasets[f'Circles_k5_d{d}_t{i}'] = (X, y, 5)
+    
+    elif dtype == 'Moons':
+        # k=2
+        for d in dims:
+            for i in range(n_per):
+                rng = np.random.RandomState(2000 + i + d)
+                X, y = make_moons(n_samples=500, noise=0.1, random_state=2000+i)
+                stretch = 1.0 + 0.5 * (i % 2)
+                angle = np.radians(10 * (i - n_per//2))
+                R = np.array([[np.cos(angle), -np.sin(angle)], [np.sin(angle), np.cos(angle)]])
+                X = X @ R.T; X[:, 0] *= stretch
+                X = embed_high_dim(X, d, rng)
+                X = inject_noise(X, rng)
+                datasets[f'Moons_k2_d{d}_t{i}'] = (X, y, 2)
+        # k=5
+        for d in dims:
+            for i in range(n_per):
+                rng = np.random.RandomState(3000 + i + d)
+                n_pc = 100
+                X_list, y_list = [], []
+                angles_rot = [-160, -10, 0, 10, 180]
+                x_shifts = [-4, -2, 0, 2, 4]
+                y_shifts = [1.0, 1.2, 1.5, 1.0, 1.2]
+                for ci in range(5):
+                    X_moon, _ = make_moons(n_samples=n_pc*2, noise=0.1, random_state=3000+i+ci)
+                    X_c = X_moon[:n_pc]
+                    angle = np.radians(angles_rot[ci])
+                    R = np.array([[np.cos(angle), -np.sin(angle)], [np.sin(angle), np.cos(angle)]])
+                    X_c = X_c @ R.T
+                    X_c[:, 0] += x_shifts[ci]; X_c[:, 1] += y_shifts[ci]
+                    X_list.append(X_c); y_list.append(np.full(n_pc, ci))
+                X = np.vstack(X_list); y = np.concatenate(y_list)
+                X = embed_high_dim(X, d, rng)
+                X = inject_noise(X, rng)
+                datasets[f'Moons_k5_d{d}_t{i}'] = (X, y, 5)
+    
+    elif dtype == 'RSG':
+        for k in [2, 10]:
+            for d in [10, 50, 200]:
+                for Nc in [50]:
+                    for i in range(min(n_per, 2)):
+                        rng = np.random.RandomState(4000 + k*1000 + d*100 + Nc + i)
+                        alpha = max(0.1, min(0.9, 1.0 - k*0.01 - d*0.001))
+                        centers = rng.randn(k, d) * np.sqrt(d) * (1 + alpha)
+                        X_list, y_list = [], []
+                        for ci in range(k):
+                            A = rng.randn(d, d) * alpha
+                            cov = A @ A.T / d + np.eye(d) * 0.1
+                            samples = rng.multivariate_normal(centers[ci], cov, size=Nc)
+                            X_list.append(samples); y_list.append(np.full(Nc, ci))
+                        X = np.vstack(X_list); y = np.concatenate(y_list)
+                        X = inject_noise(X, rng)
+                        datasets[f'RSG_k{k}_d{d}_Nc{Nc}_t{i}'] = (X, y, k)
+    
+    elif dtype == 'Repliclust':
         for k in [2, 5]:
             Nc = 250 if k == 2 else 100
             for d in dims:
-                for i in range(n_per_config):
-                    _make_gaussian_fallback(synthetic, k, d, Nc, i, random_state)
+                for i in range(n_per):
+                    rng = np.random.RandomState(5000 + k*100 + d + i)
+                    centers = rng.randn(k, d) * np.sqrt(d) * 2
+                    X_list, y_list = [], []
+                    for ci in range(k):
+                        A = rng.randn(d, d) * 0.5
+                        cov = A @ A.T / d + np.eye(d) * 0.1
+                        samples = rng.multivariate_normal(centers[ci], cov, size=Nc)
+                        X_list.append(samples); y_list.append(np.full(Nc, ci))
+                    X = np.vstack(X_list); y = np.concatenate(y_list)
+                    X = inject_noise(X, rng)
+                    datasets[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
     
-    return synthetic
+    return datasets
 
 
-def _make_gaussian_fallback(synthetic, k, d, Nc, i, random_state):
-    r = np.random.RandomState(random_state + i + 9000 + k*100 + d)
-    centers = r.randn(k, d) * np.sqrt(d)
-    X_list, y_list = [], []
-    for ci in range(k):
-        A = r.randn(d, d) * 0.5
-        cov = A @ A.T / d + np.eye(d) * 0.1
-        samples = r.multivariate_normal(centers[ci], cov, size=Nc)
-        X_list.append(samples)
-        y_list.append(np.full(Nc, ci))
-    X = np.vstack(X_list)
-    y = np.concatenate(y_list)
-    synthetic[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
+def precompute_dr(datasets, label=""):
+    dr_cache = {}
+    total = len(datasets)
+    for i, ds_name in enumerate(sorted(datasets.keys())):
+        X_raw, y_true, k = datasets[ds_name]
+        X = StandardScaler().fit_transform(X_raw)
+        X = np.nan_to_num(X, nan=0.0, posinf=0.0, neginf=0.0)
+        dims = get_reduction_dims(X.shape[1], k)
+        ds_cache = {'No Reduction': X.copy()}
+        
+        print(f"  DR {label} [{i+1}/{total}] {ds_name} shape={X.shape}", flush=True)
+        
+        for method in DR_METHODS:
+            for level in REDUCTION_LEVELS:
+                key = f"{method}_{level}"
+                n_comp = dims[level]
+                result = timed_call(lambda: apply_dr(X, method, n_comp), timeout_sec=20)
+                if result is not None:
+                    ds_cache[key] = np.nan_to_num(result, nan=0.0, posinf=0.0, neginf=0.0)
+                else:
+                    ds_cache[key] = None
+        dr_cache[ds_name] = ds_cache
+    return dr_cache
 
 
-def run_synthetic_type(dtype, datasets, output_dir):
-    """Run all experiments for one synthetic type."""
-    print(f"\n{'='*60}")
-    print(f"PROCESSING {dtype.upper()} ({len(datasets)} datasets)")
-    print(f"{'='*60}")
-    
-    # Check for cached results
-    result_file = os.path.join(output_dir, f'synthetic_{dtype}_results.json')
-    if os.path.exists(result_file):
-        print(f"Results already exist at {result_file}, loading...")
-        with open(result_file) as f:
-            return json.load(f)
-    
-    # Precompute DR
-    cache_file = os.path.join(output_dir, f'dr_cache_{dtype}.pkl')
-    if os.path.exists(cache_file):
-        print(f"Loading cached DR from {cache_file}")
-        with open(cache_file, 'rb') as f:
-            dr_cache = pickle.load(f)
-        missing = [k for k in datasets if k not in dr_cache]
-        if missing:
-            print(f"  {len(missing)} datasets missing from cache, recomputing")
-            missing_ds = {k: datasets[k] for k in missing}
-            missing_cache = precompute_all_dr(missing_ds)
-            dr_cache.update(missing_cache)
-            with open(cache_file, 'wb') as f:
-                pickle.dump(dr_cache, f)
-    else:
-        t0 = time.time()
-        dr_cache = precompute_all_dr(datasets)
-        print(f"DR precomputation took {time.time()-t0:.1f}s")
-        with open(cache_file, 'wb') as f:
-            pickle.dump(dr_cache, f)
-    
-    type_results = {}
-    
-    # k-means
-    print(f"\n  Running k-means on {dtype}...")
-    t0 = time.time()
-    type_results['k-means'] = run_kmeans_experiments(datasets, dr_cache)
-    print(f"  k-means took {time.time()-t0:.1f}s")
-    
-    # AHC
-    print(f"\n  Running AHC on {dtype}...")
-    t0 = time.time()
-    ahc_m, ahc_l = find_best_ahc_params(datasets, dr_cache)
-    type_results['AHC'] = run_ahc_experiments(datasets, dr_cache, ahc_m, ahc_l)
-    print(f"  AHC (metric={ahc_m}, linkage={ahc_l}) took {time.time()-t0:.1f}s")
-    
-    # GMM
-    print(f"\n  Running GMM on {dtype}...")
-    t0 = time.time()
-    gmm_cov = find_best_gmm_params(datasets, dr_cache)
-    type_results['GMM'] = run_gmm_experiments(datasets, dr_cache, gmm_cov)
-    print(f"  GMM (cov={gmm_cov}) took {time.time()-t0:.1f}s")
-    
-    # OPTICS
-    print(f"\n  Running OPTICS on {dtype}...")
-    t0 = time.time()
-    opt_ms, opt_mcs = find_best_optics_params(datasets, dr_cache)
-    type_results['OPTICS'] = run_optics_experiments(datasets, dr_cache, opt_ms, opt_mcs)
-    print(f"  OPTICS (ms={opt_ms}, mcs={opt_mcs}) took {time.time()-t0:.1f}s")
-    
-    # Save hyperparams
-    type_results['_hyperparams'] = {
-        'AHC': {'metric': ahc_m, 'linkage': ahc_l},
-        'GMM': {'covariance_type': gmm_cov},
-        'OPTICS': {'min_samples': int(opt_ms), 'min_cluster_size': float(opt_mcs)},
-    }
-    
-    # Save results
-    with open(result_file, 'w') as f:
-        json.dump(type_results, f, indent=2)
-    print(f"  Saved to {result_file}")
-    
-    return type_results
+# ============================================================
+# Analysis
+# ============================================================
+def compute_aggregate_stats(results_dict):
+    stats = {}
+    ds_names = sorted(results_dict.keys())
+    for method in DR_METHODS:
+        stats[method] = {}
+        for level in REDUCTION_LEVELS:
+            key = f"{method}_{level}"
+            wins, losses, total = 0, 0, 0
+            win_ch, loss_ch = [], []
+            for ds in ds_names:
+                b = results_dict[ds].get('No Reduction', 0.0)
+                r = results_dict[ds].get(key, 0.0)
+                total += 1
+                if r > b + 0.005:
+                    wins += 1
+                    win_ch.append((r - b) / max(abs(b), 0.01) * 100)
+                elif r < b - 0.005:
+                    losses += 1
+                    loss_ch.append((r - b) / max(abs(b), 0.01) * 100)
+            stats[method][level] = {
+                'win_pct': round(wins/total*100, 1) if total else 0,
+                'loss_pct': round(losses/total*100, 1) if total else 0,
+                'avg_win': round(np.mean(win_ch), 1) if win_ch else 0,
+                'avg_loss': round(np.mean(loss_ch), 1) if loss_ch else 0,
+            }
+    return stats
 
 
-def main():
-    print("=" * 60)
-    print("SYNTHETIC EXPERIMENTS (FAST)")
-    print("=" * 60)
-    
-    # Generate all synthetic datasets
-    t0 = time.time()
-    all_synthetic = generate_synthetic_datasets()
-    print(f"\nGenerated {len(all_synthetic)} total synthetic datasets in {time.time()-t0:.1f}s")
-    
-    # Count by type
-    type_names = ['Circles', 'Moons', 'RSG', 'Repliclust']
-    for tn in type_names:
-        count = sum(1 for k in all_synthetic if k.startswith(tn))
-        print(f"  {tn}: {count} datasets")
+def compute_wilcoxon(results_dict):
+    ds_names = sorted(results_dict.keys())
+    pvals = {}
+    for method in DR_METHODS:
+        pvals[method] = {}
+        for level in REDUCTION_LEVELS:
+            key = f"{method}_{level}"
+            b = np.array([results_dict[ds].get('No Reduction', 0.0) for ds in ds_names])
+            r = np.array([results_dict[ds].get(key, 0.0) for ds in ds_names])
+            d = r - b
+            nz = np.abs(d) > 1e-10
+            if nz.sum() >= 2:
+                try:
+                    _, p = wilcoxon(d[nz])
+                    pvals[method][level] = round(p, 4)
+                except:
+                    pvals[method][level] = 1.0
+            else:
+                pvals[method][level] = 1.0
+    return pvals
+
+
+def generate_boxplots(all_results, data_label, output_dir=OUTPUT_DIR):
+    import matplotlib; matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    conditions = get_all_conditions()
+    for algo in ALGOS:
+        res = all_results.get(algo)
+        if not res: continue
+        fig, ax = plt.subplots(figsize=(16, 6))
+        box_data, xlabels = [], []
+        for cond in conditions:
+            vals = [res[ds].get(cond, 0.0) for ds in sorted(res.keys())]
+            box_data.append(vals)
+            if cond == 'No Reduction':
+                xlabels.append('No Red.')
+            else:
+                parts = cond.rsplit('_', 1)
+                xlabels.append(f"{parts[0]}\n{parts[1]}")
+        bp = ax.boxplot(box_data, patch_artist=True)
+        colors = ['gray']+['#1f77b4']*3+['#ff7f0e']*3+['#2ca02c']*3+['#d62728']*3+['#9467bd']*3
+        for patch, c in zip(bp['boxes'], colors):
+            patch.set_facecolor(c); patch.set_alpha(0.7)
+        ax.set_xticklabels(xlabels, rotation=45, ha='right', fontsize=7)
+        ax.set_ylabel('ARI'); ax.set_title(f'{algo} — {data_label}')
+        ax.axhline(y=0, color='black', linestyle='--', alpha=0.3)
+        plt.tight_layout()
+        fname = f'boxplot_{algo}_{data_label}.pdf'
+        plt.savefig(os.path.join(output_dir, fname), dpi=150, bbox_inches='tight')
+        plt.close()
+        print(f"  Saved {fname}")
+
+
+def make_result_table(results_dict, algo, label, output_dir=OUTPUT_DIR):
+    conditions = get_all_conditions()
+    ds_names = sorted(results_dict.keys())
+    df = pd.DataFrame(
+        [[results_dict[ds].get(c, 0.0) for c in conditions] for ds in ds_names],
+        index=ds_names, columns=conditions
+    )
+    fname = f'table_{algo}_{label}.csv'
+    df.to_csv(os.path.join(output_dir, fname))
+    return df
+
+
+# ============================================================
+# Main
+# ============================================================
+if __name__ == '__main__':
+    import sys
+    types_to_run = sys.argv[1:] if len(sys.argv) > 1 else ['Circles', 'Moons', 'RSG', 'Repliclust']
     
     all_type_results = {}
     
-    for dtype in type_names:
-        datasets = {k: v for k, v in all_synthetic.items() if k.startswith(dtype)}
-        if not datasets:
-            print(f"No {dtype} datasets, skipping")
+    for dtype in types_to_run:
+        result_file = os.path.join(OUTPUT_DIR, f'synth_{dtype}_final.json')
+        if os.path.exists(result_file):
+            print(f"\n--- {dtype}: Loading cached results ---")
+            with open(result_file) as f:
+                all_type_results[dtype] = json.load(f)
             continue
-        all_type_results[dtype] = run_synthetic_type(dtype, datasets, OUTPUT_DIR)
+        
+        print(f"\n{'='*60}")
+        print(f"Processing {dtype}")
+        print(f"{'='*60}")
+        
+        t0 = time.time()
+        datasets = generate_type(dtype)
+        print(f"  Generated {len(datasets)} datasets")
+        
+        # Precompute DR
+        dr_cache = precompute_dr(datasets, label=dtype)
+        print(f"  DR took {time.time()-t0:.1f}s")
+        
+        # Run clustering
+        type_results = {}
+        
+        # k-means
+        t1 = time.time()
+        print(f"  Running k-means...")
+        type_results['k-means'] = run_clustering(datasets, dr_cache, 'k-means')
+        print(f"  k-means: {time.time()-t1:.1f}s")
+        
+        # AHC
+        t1 = time.time()
+        print(f"  Searching AHC params...")
+        ahc_m, ahc_l = find_best_ahc_params(datasets, dr_cache)
+        type_results['AHC'] = run_clustering(datasets, dr_cache, 'AHC', metric=ahc_m, linkage=ahc_l)
+        type_results['_params_ahc'] = {'metric': ahc_m, 'linkage': ahc_l}
+        print(f"  AHC: {time.time()-t1:.1f}s")
+        
+        # GMM
+        t1 = time.time()
+        print(f"  Searching GMM params...")
+        gmm_cov = find_best_gmm_params(datasets, dr_cache)
+        type_results['GMM'] = run_clustering(datasets, dr_cache, 'GMM', covariance_type=gmm_cov)
+        type_results['_params_gmm'] = {'covariance_type': gmm_cov}
+        print(f"  GMM: {time.time()-t1:.1f}s")
+        
+        # OPTICS (with aggressive timeout)
+        t1 = time.time()
+        print(f"  Searching OPTICS params...")
+        opt_ms, opt_mcs = find_best_optics_params(datasets, dr_cache)
+        type_results['OPTICS'] = run_clustering(datasets, dr_cache, 'OPTICS',
+                                                 min_samples=opt_ms, min_cluster_size=opt_mcs)
+        type_results['_params_optics'] = {'min_samples': int(opt_ms), 'min_cluster_size': float(opt_mcs)}
+        print(f"  OPTICS: {time.time()-t1:.1f}s")
+        
+        all_type_results[dtype] = type_results
+        
+        # Save immediately
+        with open(result_file, 'w') as f:
+            json.dump(type_results, f, indent=2)
+        print(f"  Saved {result_file}")
+        print(f"  Total time for {dtype}: {time.time()-t0:.1f}s")
+        
+        del dr_cache
     
-    # Save combined results
-    with open(os.path.join(OUTPUT_DIR, 'synthetic_results_all.json'), 'w') as f:
-        json.dump(all_type_results, f, indent=2)
+    # Generate summary
+    print(f"\n{'='*60}")
+    print("SUMMARY")
+    print(f"{'='*60}")
     
-    # Generate tables
-    print("\n" + "=" * 60)
-    print("SYNTHETIC AVERAGE ARI TABLES")
-    print("=" * 60)
     conditions = get_all_conditions()
-    
-    for dtype in type_names:
-        if dtype not in all_type_results:
-            continue
+    for dtype in types_to_run:
+        if dtype not in all_type_results: continue
         print(f"\n--- {dtype} ---")
-        for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-            results = all_type_results[dtype].get(algo, {})
-            if not results:
-                continue
-            avg_row = {}
-            for cond in conditions:
-                vals = [results[ds].get(cond, 0.0) for ds in results]
-                avg_row[cond] = round(np.mean(vals), 2) if vals else 0
-            
-            df = pd.DataFrame([avg_row], index=[f'{dtype}_avg'], columns=conditions)
-            csv_path = os.path.join(OUTPUT_DIR, f'table_{algo}_synthetic_{dtype}.csv')
-            df.to_csv(csv_path)
-            print(f"  {algo}: No_Red={avg_row.get('No Reduction',0):.2f} | saved to {csv_path}")
-    
-    # Generate boxplots
-    print("\n" + "=" * 60)
-    print("GENERATING BOXPLOTS")
-    print("=" * 60)
-    for dtype in type_names:
-        if dtype in all_type_results:
-            plot_data = {k: v for k, v in all_type_results[dtype].items() 
-                        if k in ['k-means', 'AHC', 'GMM', 'OPTICS']}
-            generate_boxplots(plot_data, f'Synthetic_{dtype}', OUTPUT_DIR)
+        for algo in ALGOS:
+            res = all_type_results[dtype].get(algo, {})
+            if not res: continue
+            avg_nr = np.mean([res[ds].get('No Reduction', 0.0) for ds in res])
+            print(f"  {algo}: avg No Reduction ARI = {avg_nr:.3f}")
+        
+        # Boxplots
+        generate_boxplots(all_type_results[dtype], f'Synthetic_{dtype}')
+        
+        # Summary table
+        rows = []
+        for algo in ALGOS:
+            res = all_type_results[dtype].get(algo, {})
+            if not res: continue
+            avg = {c: round(np.mean([res[ds].get(c, 0.0) for ds in res]), 3) for c in conditions}
+            r2 = {'Algorithm': algo}; r2.update(avg)
+            rows.append(r2)
+        if rows:
+            df = pd.DataFrame(rows).set_index('Algorithm')
+            df.to_csv(os.path.join(OUTPUT_DIR, f'table_synth_{dtype}.csv'))
     
     # Aggregate stats
-    print("\n" + "=" * 60)
-    print("SYNTHETIC AGGREGATE STATISTICS")
-    print("=" * 60)
     synth_agg = {}
-    for dtype in type_names:
-        if dtype not in all_type_results:
-            continue
+    synth_wilc = {}
+    for dtype in types_to_run:
+        if dtype not in all_type_results: continue
         synth_agg[dtype] = {}
-        for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-            results = all_type_results[dtype].get(algo, {})
-            if not results:
-                continue
-            stats = compute_aggregate_stats(results)
-            synth_agg[dtype][algo] = stats
+        synth_wilc[dtype] = {}
+        for algo in ALGOS:
+            res = all_type_results[dtype].get(algo, {})
+            if res:
+                synth_agg[dtype][algo] = compute_aggregate_stats(res)
+                synth_wilc[dtype][algo] = compute_wilcoxon(res)
     
-    with open(os.path.join(OUTPUT_DIR, 'aggregate_stats_synthetic.json'), 'w') as f:
+    with open(os.path.join(OUTPUT_DIR, 'aggregate_synth_final.json'), 'w') as f:
         json.dump(synth_agg, f, indent=2)
+    with open(os.path.join(OUTPUT_DIR, 'wilcoxon_synth_final.json'), 'w') as f:
+        json.dump(synth_wilc, f, indent=2)
     
-    # Wilcoxon tests
-    print("\n" + "=" * 60)
-    print("WILCOXON TESTS (SYNTHETIC)")
-    print("=" * 60)
-    synth_wilcoxon = {}
-    for dtype in type_names:
-        if dtype not in all_type_results:
-            continue
-        synth_wilcoxon[dtype] = {}
-        for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-            results = all_type_results[dtype].get(algo, {})
-            if not results:
-                continue
-            pvals = compute_wilcoxon_tests(results)
-            synth_wilcoxon[dtype][algo] = pvals
-    
-    with open(os.path.join(OUTPUT_DIR, 'wilcoxon_results_synthetic.json'), 'w') as f:
-        json.dump(synth_wilcoxon, f, indent=2)
-    
-    print("\n\nAll synthetic experiments complete!")
-
-
-if __name__ == '__main__':
-    main()
+    print("\nDone!")

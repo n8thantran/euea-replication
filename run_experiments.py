@@ -28,7 +28,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 DR_METHODS = ['PCA', 'Kernel PCA', 'VAE', 'Isomap', 'MDS']
 REDUCTION_LEVELS = ['k-1', '25%', '50%']
 ALGOS = ['k-means', 'AHC', 'GMM', 'OPTICS']
-N_PER_CONFIG = 3  # Paper uses 50 per config; we use 5 for speed
+N_PER_CONFIG = 2  # Paper uses 50 per config; we use 5 for speed
 
 # ============================================================
 # VAE
@@ -59,7 +59,7 @@ class VAEModel(nn.Module):
         return self.decoder(z), mu, logvar
 
 
-def apply_vae(X, n_components, epochs=100, batch_size=64):
+def apply_vae(X, n_components, epochs=30, batch_size=64):
     torch.manual_seed(42)
     np.random.seed(42)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -116,7 +116,7 @@ def apply_dr(X, method, n_components):
             nn = min(5, X.shape[0] - 1)
             return Isomap(n_components=n_components, n_neighbors=nn).fit_transform(X)
         elif method == 'MDS':
-            return MDS(n_components=n_components, random_state=10, n_init=2, max_iter=200,
+            return MDS(n_components=n_components, random_state=10, n_init=1, max_iter=100,
                        normalized_stress='auto').fit_transform(X)
     except:
         return None
@@ -130,7 +130,7 @@ def get_all_conditions():
     return conds
 
 
-def precompute_all_dr(datasets, timeout_sec=60, label=""):
+def precompute_all_dr(datasets, timeout_sec=30, label=""):
     """Precompute DR transformations with per-method timeout."""
     import signal
     dr_cache = {}
@@ -172,7 +172,7 @@ def precompute_all_dr(datasets, timeout_sec=60, label=""):
 # Clustering
 # ============================================================
 def cluster_kmeans(X, k):
-    return KMeans(n_clusters=k, init='k-means++', n_init=10, random_state=42).fit_predict(X)
+    return KMeans(n_clusters=k, init='k-means++', n_init=5, random_state=42).fit_predict(X)
 
 def cluster_ahc(X, k, metric='euclidean', linkage='ward'):
     return AgglomerativeClustering(n_clusters=k, metric=metric, linkage=linkage).fit_predict(X)
@@ -257,8 +257,8 @@ def find_best_optics_params(datasets, dr_cache, fast=False):
     if fast and len(keys) > 15:
         keys = list(np.random.RandomState(42).choice(keys, 15, replace=False))
     
-    ms_range = [5, 7, 10] if fast else range(5, 11)
-    mcs_vals = [0.05, 0.1, 0.2, 0.3, 0.5] if fast else [i*0.05 for i in range(1, 21)]
+    ms_range = [5, 10] if fast else range(5, 11)
+    mcs_vals = [0.05, 0.1, 0.3] if fast else [i*0.05 for i in range(1, 21)]
     
     best_score, best_combo = -999, (5, 0.05)
     for ms in ms_range:
@@ -440,8 +440,8 @@ def generate_synthetic_datasets():
     # RSG: k∈{2,10,50}, d∈{10,50,200}, Nc∈{5,50,100}
     for k in [2, 10]:
         for d in [10, 50, 200]:
-            for Nc in [50, 100]:
-                for i in range(min(n_per, 3)):  # more configs = fewer reps
+            for Nc in [50]:
+                for i in range(min(n_per, 2)):  # more configs = fewer reps
                     rng = np.random.RandomState(4000 + k*1000 + d*100 + Nc + i)
                     alpha = max(0.1, min(0.9, 1.0 - k*0.01 - d*0.001))
                     centers = rng.randn(k, d) * np.sqrt(d) * (1 + alpha)

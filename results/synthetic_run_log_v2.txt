@@ -1,0 +1,111 @@
+
+============================================================
+SYNTHETIC EXPERIMENTS
+============================================================
+  Circles: 12 datasets
+  Moons: 12 datasets
+  RSG: 12 datasets
+  Repliclust: 12 datasets
+
+--- Circles (12 datasets) ---
+  DR Circles [1/12] Circles_k2_d10_t0 shape=(500, 10)
+  DR Circles [2/12] Circles_k2_d10_t1 shape=(500, 10)
+  DR Circles [3/12] Circles_k2_d200_t0 shape=(500, 200)
+  DR Circles [4/12] Circles_k2_d200_t1 shape=(500, 200)
+  DR Circles [5/12] Circles_k2_d50_t0 shape=(500, 50)
+  DR Circles [6/12] Circles_k2_d50_t1 shape=(500, 50)
+  DR Circles [7/12] Circles_k5_d10_t0 shape=(500, 10)
+  DR Circles [8/12] Circles_k5_d10_t1 shape=(500, 10)
+  DR Circles [9/12] Circles_k5_d200_t0 shape=(500, 200)
+  DR Circles [10/12] Circles_k5_d200_t1 shape=(500, 200)
+  DR Circles [11/12] Circles_k5_d50_t0 shape=(500, 50)
+  DR Circles [12/12] Circles_k5_d50_t1 shape=(500, 50)
+  DR took 32.5s
+  Running k-means...
+  k-means: 1.4s
+  Searching AHC params...
+    Best AHC: ('euclidean', 'ward'), avg_ari=0.1280
+  AHC: 1.6s
+  Searching GMM params...
+    Best GMM: spherical, avg_ari=0.1461
+  GMM: 7.9s
+  Searching OPTICS params...
+    Best OPTICS: ms=7, mcs=0.05, avg_ari=0.0833
+  OPTICS: 128.3s
+
+--- Moons (12 datasets) ---
+  DR Moons [1/12] Moons_k2_d10_t0 shape=(500, 10)
+  DR Moons [2/12] Moons_k2_d10_t1 shape=(500, 10)
+  DR Moons [3/12] Moons_k2_d200_t0 shape=(500, 200)
+  DR Moons [4/12] Moons_k2_d200_t1 shape=(500, 200)
+  DR Moons [5/12] Moons_k2_d50_t0 shape=(500, 50)
+  DR Moons [6/12] Moons_k2_d50_t1 shape=(500, 50)
+  DR Moons [7/12] Moons_k5_d10_t0 shape=(500, 10)
+  DR Moons [8/12] Moons_k5_d10_t1 shape=(500, 10)
+  DR Moons [9/12] Moons_k5_d200_t0 shape=(500, 200)
+  DR Moons [10/12] Moons_k5_d200_t1 shape=(500, 200)
+  DR Moons [11/12] Moons_k5_d50_t0 shape=(500, 50)
+  DR Moons [12/12] Moons_k5_d50_t1 shape=(500, 50)
+  DR took 30.9s
+  Running k-means...
+  k-means: 1.3s
+  Searching AHC params...
+    Best AHC: ('cosine', 'average'), avg_ari=0.3963
+  AHC: 1.6s
+  Searching GMM params...
+    Best GMM: tied, avg_ari=0.4648
+  GMM: 16.4s
+  Searching OPTICS params...
+    Best OPTICS: ms=10, mcs=0.05, avg_ari=0.0009
+  OPTICS: 129.4s
+
+--- RSG (12 datasets) ---
+  DR RSG [1/12] RSG_k10_d10_Nc50_t0 shape=(500, 10)
+  DR RSG [2/12] RSG_k10_d10_Nc50_t1 shape=(500, 10)
+  DR RSG [3/12] RSG_k10_d200_Nc50_t0 shape=(500, 200)
+  DR RSG [4/12] RSG_k10_d200_Nc50_t1 shape=(500, 200)
+  DR RSG [5/12] RSG_k10_d50_Nc50_t0 shape=(500, 50)
+  DR RSG [6/12] RSG_k10_d50_Nc50_t1 shape=(500, 50)
+  DR RSG [7/12] RSG_k2_d10_Nc50_t0 shape=(100, 10)
+  DR RSG [8/12] RSG_k2_d10_Nc50_t1 shape=(100, 10)
+  DR RSG [9/12] RSG_k2_d200_Nc50_t0 shape=(100, 200)
+  DR RSG [10/12] RSG_k2_d200_Nc50_t1 shape=(100, 200)
+  DR RSG [11/12] RSG_k2_d50_Nc50_t0 shape=(100, 50)
+  DR RSG [12/12] RSG_k2_d50_Nc50_t1 shape=(100, 50)
+  DR took 20.3s
+  Running k-means...
+  k-means: 0.9s
+  Searching AHC params...
+    Best AHC: ('euclidean', 'ward'), avg_ari=0.9980
+  AHC: 0.9s
+  Searching GMM params...
+    Best GMM: full, avg_ari=0.9838
+  GMM: 10.4s
+  Searching OPTICS params...
+    Best OPTICS: ms=10, mcs=0.05, avg_ari=0.9878
+  OPTICS: 71.1s
+
+--- Repliclust (12 datasets) ---
+  DR Repliclust [1/12] Repliclust_k2_d10_t0 shape=(500, 10)
+  DR Repliclust [2/12] Repliclust_k2_d10_t1 shape=(500, 10)
+  DR Repliclust [3/12] Repliclust_k2_d200_t0 shape=(500, 200)
+  DR Repliclust [4/12] Repliclust_k2_d200_t1 shape=(500, 200)
+  DR Repliclust [5/12] Repliclust_k2_d50_t0 shape=(500, 50)
+  DR Repliclust [6/12] Repliclust_k2_d50_t1 shape=(500, 50)
+  DR Repliclust [7/12] Repliclust_k5_d10_t0 shape=(500, 10)
+  DR Repliclust [8/12] Repliclust_k5_d10_t1 shape=(500, 10)
+  DR Repliclust [9/12] Repliclust_k5_d200_t0 shape=(500, 200)
+  DR Repliclust [10/12] Repliclust_k5_d200_t1 shape=(500, 200)
+  DR Repliclust [11/12] Repliclust_k5_d50_t0 shape=(500, 50)
+  DR Repliclust [12/12] Repliclust_k5_d50_t1 shape=(500, 50)
+  DR took 32.2s
+  Running k-means...
+  k-means: 1.1s
+  Searching AHC params...
+    Best AHC: ('euclidean', 'ward'), avg_ari=1.0000
+  AHC: 1.5s
+  Searching GMM params...
+    Best GMM: tied, avg_ari=0.9307
+  GMM: 10.0s
+  Searching OPTICS params...
+    Best OPTICS: ms=5, mcs=0.2, avg_ari=1.0000
