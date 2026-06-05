@@ -81,8 +81,8 @@ def compute_aggregate_stats(synth_results, real_results):
                         row[f'{dtype} Avg Win/Loss %'] = np.nan
                         continue
                     
-                    wins, losses = 0, 0
-                    pct_changes = []
+                    wins, losses, n_total = 0, 0, 0
+                    ari_diffs = []
                     
                     for ds_name, ds_results in results[algo].items():
                         if ds_name.startswith('_'):
@@ -93,21 +93,20 @@ def compute_aggregate_stats(synth_results, real_results):
                         if np.isnan(base) or np.isnan(dr_val):
                             continue
                         
-                        if dr_val > base + 1e-9:
-                            wins += 1
-                        elif dr_val < base - 1e-9:
-                            losses += 1
-                        # else: tie - excluded
+                        n_total += 1
+                        diff = dr_val - base
+                        ari_diffs.append(diff)
                         
-                        # Compute pct change for non-ties
-                        if abs(dr_val - base) > 1e-9:
-                            denom = max(abs(base), 0.01)
-                            pct = (dr_val - base) / denom * 100
-                            pct_changes.append(pct)
+                        if diff > 1e-9:
+                            wins += 1
+                        elif diff < -1e-9:
+                            losses += 1
+                        # else: tie
                     
-                    total = wins + losses
-                    win_pct = (wins / total * 100) if total > 0 else 0.0
-                    avg_pct = np.mean(pct_changes) if pct_changes else 0.0
+                    total_wl = wins + losses
+                    win_pct = (wins / total_wl * 100) if total_wl > 0 else 0.0
+                    # Average win/loss %: mean ARI difference * 100 over ALL datasets
+                    avg_pct = np.mean(ari_diffs) * 100 if ari_diffs else 0.0
                     
                     row[f'{dtype} Win %'] = round(win_pct, 2)
                     row[f'{dtype} Avg Win/Loss %'] = round(avg_pct, 2)
