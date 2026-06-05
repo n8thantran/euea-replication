@@ -1,29 +1,29 @@
 # Dimensionality Reduction for Clustering - Implementation Progress
 
-## Current Phase: COMPLETE — Final deliverables ready
+## Current Phase: COMPLETE — All deliverables verified and ready
 
 ## Status Summary
 - **All experiments completed**: Real-world (20 UCI datasets) + Synthetic (Circles, Moons, RSG, Repliclust)
-- **All outputs generated**: 96 CSV tables, 36 PDF boxplots, Wilcoxon tests
+- **All outputs generated**: CSV tables, PDF boxplots, Wilcoxon tests
 - **reproduce.sh**: Tested and working (quick mode from cached results)
-- **REPORT.md**: Written with full details
+- **REPORT.md**: Written with full details and accurate file paths
 
 ## Key Scripts
 - `/workspace/main_pipeline.py`: Full experiment pipeline (runs from scratch, ~3-4 hours)
-- `/workspace/generate_all_outputs.py`: Generates all tables/plots from cached JSON results (~10 sec)
+- `/workspace/generate_all_outputs.py`: Generates all tables/plots from cached JSON results
+- `/workspace/generate_all_results.py`: Alternative output generator (used by reproduce.sh)
 - `/workspace/load_uci.py`: Loads all 20 UCI datasets
 - `/workspace/reproduce.sh`: Reproduction script (quick or full mode)
 - `/workspace/REPORT.md`: Final report
 
 ## Result Files (all in `/workspace/results/`)
 - `results_RealWorld.json`, `results_Circles.json`, `results_Moons.json`, `results_RSG.json`, `results_Repliclust.json` — Raw cached results
-- `table_aggregate_{algo}.csv` (4 files) — Paper Tables 1-4
-- `table_wilcoxon.csv` — Paper Table 5
+- `table_combined_aggregate_{algo}.csv` (4 files) — Paper Tables 1-4
+- `table_wilcoxon_RealWorld.csv` — Paper Table 5
 - `table_{algo}_RealWorld.csv` (4 files) — Per-dataset real-world ARI tables
-- `table_{algo}_{synth_type}.csv` (16 files) — Per-dataset synthetic ARI tables
+- `table_average_ARI_{type}.csv` (4 files) — Synthetic average ARI tables
 - `boxplot_{algo}_RealWorld.pdf` (4 files) — Real-world boxplots
 - `boxplot_{algo}_Synthetic_{type}.pdf` (16 files) — Synthetic boxplots
-- Additional per-type boxplots without "Synthetic_" prefix
 
 ## Paper Claims Reproduced
 - [x] VAE consistently worst DR method for clustering
@@ -53,5 +53,5 @@
 - [x] Per-dataset ARI tables
 - [x] Write reproduce.sh
 - [x] Write REPORT.md
-- [x] Verify reproduce.sh runs
+- [x] Verify reproduce.sh runs successfully
 - [x] Final commit and push

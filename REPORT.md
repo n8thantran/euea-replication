@@ -54,7 +54,7 @@ Our results qualitatively reproduce the paper's key findings:
 |---------|-------|-----------------|
 | VAE consistently underperforms | ✓ Negative avg win/loss% across all algorithms | ✓ Confirmed — VAE shows negative avg win/loss% in nearly all settings |
 | Kernel PCA strong on synthetic, weak on real (k-means) | ✓ 75% synth win, 20% real win | Partially — our synthetic win% is lower (~10-40%) due to fewer datasets |
-| Isomap competitive on real-world data | ✓ ~50-70% real win rates | ✓ Confirmed — 52-73% real win rates for k-means |
+| Isomap competitive on real-world data | ✓ ~50-70% real win rates | ✓ Confirmed — 45-60% real win rates for k-means |
 | PCA moderate, data-dependent | ✓ | ✓ Confirmed |
 | MDS inconsistent across data types | ✓ | ✓ Confirmed |
 
@@ -74,19 +74,29 @@ Our Wilcoxon test results show:
 ### Code
 - `/workspace/main_pipeline.py` — Complete experiment pipeline (authoritative, runs everything from scratch)
 - `/workspace/generate_all_outputs.py` — Generates all tables and plots from cached JSON results
+- `/workspace/generate_all_results.py` — Alternative output generator (used by reproduce.sh)
 - `/workspace/load_uci.py` — Loads all 20 UCI datasets
 - `/workspace/reproduce.sh` — Reproduction script
 
-### Results
-- `/workspace/results/table_aggregate_k-means.csv` — Table 1 (k-means aggregate)
-- `/workspace/results/table_aggregate_AHC.csv` — Table 2 (AHC aggregate)
-- `/workspace/results/table_aggregate_GMM.csv` — Table 3 (GMM aggregate)
-- `/workspace/results/table_aggregate_OPTICS.csv` — Table 4 (OPTICS aggregate)
-- `/workspace/results/table_wilcoxon.csv` — Table 5 (Wilcoxon test)
-- `/workspace/results/table_{algo}_RealWorld.csv` — Per-dataset ARI tables (real-world)
-- `/workspace/results/table_{algo}_{SynthType}.csv` — Per-dataset ARI tables (synthetic)
-- `/workspace/results/boxplot_{algo}_RealWorld.pdf` — Boxplots (real-world)
-- `/workspace/results/boxplot_{algo}_Synthetic_{type}.pdf` — Boxplots (synthetic)
+### Key Result Tables
+- `/workspace/results/table_combined_aggregate_k-means.csv` — Table 1 (k-means aggregate win/loss stats)
+- `/workspace/results/table_combined_aggregate_AHC.csv` — Table 2 (AHC aggregate)
+- `/workspace/results/table_combined_aggregate_GMM.csv` — Table 3 (GMM aggregate)
+- `/workspace/results/table_combined_aggregate_OPTICS.csv` — Table 4 (OPTICS aggregate)
+- `/workspace/results/table_wilcoxon_RealWorld.csv` — Table 5 (Wilcoxon signed-rank test)
+- `/workspace/results/table_average_ARI_Circles.csv` — Synthetic average ARI (Circles)
+- `/workspace/results/table_average_ARI_Moons.csv` — Synthetic average ARI (Moons)
+- `/workspace/results/table_average_ARI_RSG.csv` — Synthetic average ARI (RSG)
+- `/workspace/results/table_average_ARI_Repliclust.csv` — Synthetic average ARI (Repliclust)
+- `/workspace/results/table_k-means_RealWorld.csv` — Per-dataset ARI (k-means, real-world)
+- `/workspace/results/table_AHC_RealWorld.csv` — Per-dataset ARI (AHC, real-world)
+- `/workspace/results/table_GMM_RealWorld.csv` — Per-dataset ARI (GMM, real-world)
+- `/workspace/results/table_OPTICS_RealWorld.csv` — Per-dataset ARI (OPTICS, real-world)
+
+### Boxplots
+- `/workspace/results/boxplot_{algo}_RealWorld.pdf` — Real-world boxplots (4 files)
+- `/workspace/results/boxplot_{algo}_Synthetic_{type}.pdf` — Synthetic boxplots (16 files)
+- `/workspace/results/boxplot_{algo}_{type}.pdf` — Additional boxplots (16 files)
 
 ### Cached Experiment Data
 - `/workspace/results/results_RealWorld.json` — Raw results for 20 UCI datasets
