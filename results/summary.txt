@@ -1,0 +1,52 @@
+======================================================================
+SUMMARY OF RESULTS
+======================================================================
+
+REAL-WORLD DATASETS (20 UCI datasets)
+----------------------------------------
+
+k-means:
+  Baseline avg ARI: 0.234
+  Best DR: Isomap at k-1 (Win%=73.3)
+
+AHC:
+  Baseline avg ARI: 0.265
+  Best DR: PCA at k-1 (Win%=50.0)
+
+GMM:
+  Baseline avg ARI: 0.256
+  Best DR: Kernel PCA at 50% (Win%=58.8)
+
+OPTICS:
+  Baseline avg ARI: 0.099
+  Best DR: Kernel PCA at k-1 (Win%=84.6)
+
+
+SYNTHETIC DATASETS
+----------------------------------------
+
+Circles (12 datasets):
+  k-means: baseline=0.149, best=Isomap/25% (0.258)
+  AHC: baseline=0.137, best=Isomap/k-1 (0.245)
+  GMM: baseline=0.142, best=Isomap/k-1 (0.300)
+  OPTICS: baseline=0.000, best=Kernel PCA/50% (0.273)
+
+Moons (12 datasets):
+  k-means: baseline=0.359, best=Isomap/k-1 (0.471)
+  AHC: baseline=0.413, best=Isomap/k-1 (0.558)
+  GMM: baseline=0.451, best=Isomap/k-1 (0.658)
+  OPTICS: baseline=0.001, best=Isomap/25% (0.180)
+
+RSG (12 datasets):
+  k-means: baseline=0.999, best=Isomap/k-1 (1.000)
+  AHC: baseline=1.000, no improvement
+  GMM: baseline=0.989, best=PCA/k-1 (0.999)
+  OPTICS: baseline=0.987, no improvement
+
+Repliclust (12 datasets):
+  k-means: baseline=1.000, no improvement
+  AHC: baseline=1.000, no improvement
+  GMM: baseline=0.954, best=PCA/k-1 (1.000)
+  OPTICS: baseline=1.000, no improvement
+
+======================================================================
