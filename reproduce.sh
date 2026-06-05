@@ -1,160 +1,180 @@
 #!/bin/bash
-# ============================================================
-# EUEA Replication: reproduce.sh
-# Environmental Understanding Embodied Agent
-# ============================================================
-# This script reproduces all key results from the paper.
-# 
-# What it does:
-# 1. Generates evaluation data for all 8 skills
-# 2. Runs skill evaluation with mock VLM
-# 3. Runs task evaluation simulation (429 tasks, 6 types)
-# 4. Generates all tables (1-3) and figures (3-4)
-# 5. Runs SFT training demo on GPT-2
-# 6. Runs GRPO training demo on GPT-2
+# GRASPrune Replication - Reproduce Key Results
+# Paper: "GRASPrune: Structured Pruning via Gradient-based Learnable Allocation"
+# Target: LLaMA-2-7B pruning at ratios 0.8, 0.6, 0.5, 0.4
 #
-# Requirements: Python 3, PyTorch, transformers, matplotlib, tabulate
-# ============================================================
+# This script reproduces the main results from Table 1 of the paper.
+# Full run takes ~4-6 hours on a single A100 GPU.
+# Set QUICK_MODE=1 to only run ratio=0.5 (~1 hour).
 
 set -e
 
-echo "============================================================"
-echo "EUEA Replication Pipeline"
-echo "============================================================"
-echo ""
+QUICK_MODE=${QUICK_MODE:-0}
+MODEL="NousResearch/Llama-2-7b-hf"
+OUTPUT_DIR="/workspace/pruned_models"
+RESULTS_DIR="/workspace/results"
+
+mkdir -p "$OUTPUT_DIR" "$RESULTS_DIR"
+
+echo "============================================"
+echo "GRASPrune Replication"
+echo "============================================"
 
 # Install dependencies
-echo "Step 0: Installing dependencies..."
-pip install matplotlib pandas tabulate transformers torch --quiet 2>/dev/null
-echo "Dependencies installed."
+pip install -q datasets transformers accelerate safetensors lm-eval 2>/dev/null
+
+if [ "$QUICK_MODE" = "1" ]; then
+    RATIOS="0.5"
+    echo "QUICK MODE: Only running ratio=0.5"
+else
+    RATIOS="0.8 0.6 0.5 0.4"
+    echo "FULL MODE: Running ratios 0.8, 0.6, 0.5, 0.4"
+fi
+
+# Step 1: Prune and evaluate perplexity for each ratio
+for RATIO in $RATIOS; do
+    echo ""
+    echo "============================================"
+    echo "Pruning LLaMA-2-7B at ratio=$RATIO"
+    echo "============================================"
+    
+    SAVE_PATH="${OUTPUT_DIR}/Llama-2-7b-hf_ratio${RATIO}"
+    LOG_PATH="${RESULTS_DIR}/run_ratio${RATIO}.log"
+    RESULT_PATH="${RESULTS_DIR}/results_ratio${RATIO}.json"
+    
+    if [ -f "$RESULT_PATH" ]; then
+        echo "Results already exist at $RESULT_PATH, skipping pruning."
+        cat "$RESULT_PATH"
+    else
+        python graspune.py \
+            --model "$MODEL" \
+            --target_ratio "$RATIO" \
+            --save_path "$SAVE_PATH" \
+            --tau 1.5 \
+            --lr 0.01 \
+            --epochs 4 \
+            --scale_epochs 2 \
+            --n_calibration 512 \
+            --seq_len 512 \
+            --batch_size 1 \
+            2>&1 | tee "$LOG_PATH"
+    fi
+done
+
+# Step 2: Zero-shot evaluation (ratio 0.8 and 0.5)
 echo ""
+echo "============================================"
+echo "Zero-shot Evaluation"
+echo "============================================"
 
-# Create output directory
-mkdir -p /workspace/results
+for RATIO in 0.8 0.5; do
+    SAVE_PATH="${OUTPUT_DIR}/Llama-2-7b-hf_ratio${RATIO}"
+    ZEROSHOT_PATH="${RESULTS_DIR}/zeroshot_ratio${RATIO}.json"
+    
+    if [ ! -d "$SAVE_PATH" ]; then
+        echo "Pruned model not found at $SAVE_PATH, skipping zero-shot eval."
+        continue
+    fi
+    
+    if [ -f "$ZEROSHOT_PATH" ]; then
+        echo "Zero-shot results already exist at $ZEROSHOT_PATH, skipping."
+    else
+        echo "Running zero-shot eval for ratio=$RATIO..."
+        python eval_zeroshot.py \
+            --model_path "$SAVE_PATH" \
+            --tasks "arc_easy,arc_challenge,hellaswag,piqa,winogrande" \
+            --batch_size 16 \
+            --output_path "$ZEROSHOT_PATH"
+    fi
+done
 
-# ============================================================
-# Step 1: Generate evaluation data for all 8 skills
-# ============================================================
-echo "Step 1: Generating evaluation data for all 8 skills..."
-python -c "
-import sys
-sys.path.insert(0, '/workspace')
-from src.data_generator import generate_skill_samples, save_data
-
-eval_samples = generate_skill_samples(n_per_skill=50)
-for skill_name, samples in eval_samples.items():
-    save_data(samples, f'/workspace/data/eval/{skill_name}.json')
-print('Evaluation data generated for all 8 skills.')
-"
+# Step 3: Generate summary table
 echo ""
+echo "============================================"
+echo "Generating Summary Table"
+echo "============================================"
 
-# ============================================================
-# Step 2: Generate SFT training data
-# ============================================================
-echo "Step 2: Generating SFT training data..."
-python -c "
-import sys
-sys.path.insert(0, '/workspace')
-from src.data_generator import generate_sft_training_data, save_data
+python3 << 'PYEOF' > "${RESULTS_DIR}/summary_table.txt"
+import json, os
 
-train_data = generate_sft_training_data(n_samples=1000)
-save_data(train_data, '/workspace/data/train/sft_data.json')
-print('SFT training data generated (1000 samples).')
-"
-echo ""
+results_dir = os.environ.get('RESULTS_DIR', '/workspace/results')
 
-# ============================================================
-# Step 3: Run skill evaluation with mock VLM
-# ============================================================
-echo "Step 3: Running skill evaluation with MockVLM..."
-python -c "
-import sys, json
-sys.path.insert(0, '/workspace')
-from src.vlm_inference import MockVLM
-from src.skill_evaluation import run_full_skill_evaluation, format_results_table
+print('='*80)
+print('GRASPrune Replication Results Summary')
+print('='*80)
 
-mock_vlm = MockVLM()
-results = run_full_skill_evaluation(vlm=mock_vlm, data_dir='/workspace/data/eval')
+print()
+print('Table 1: Perplexity Results (LLaMA-2-7B)')
+print('-'*80)
+print(f'{"Ratio":>6} | {"Wiki (ours)":>12} | {"Wiki (paper)":>12} | {"C4 (ours)":>10} | {"C4 (paper)":>10} | {"PTB (ours)":>10} | {"PTB (paper)":>10}')
+print('-'*80)
 
-print(format_results_table(results, 'MockVLM'))
+paper_ppl = {
+    0.8: {'wiki': 6.47, 'c4': 11.44, 'ptb': 48.18},
+    0.6: {'wiki': 9.64, 'c4': 18.87, 'ptb': 70.11},
+    0.5: {'wiki': 12.18, 'c4': 27.89, 'ptb': 123.04},
+    0.4: {'wiki': 16.65, 'c4': 43.19, 'ptb': 148.41},
+}
 
-with open('/workspace/results/skill_eval_mock.json', 'w') as f:
-    json.dump(results, f, indent=2)
-print('Results saved to /workspace/results/skill_eval_mock.json')
-"
-echo ""
+for ratio in [0.8, 0.6, 0.5, 0.4]:
+    fpath = f'{results_dir}/results_ratio{ratio}.json'
+    if os.path.exists(fpath):
+        with open(fpath) as f:
+            r = json.load(f)
+        p = paper_ppl[ratio]
+        print(f'{ratio:>6.1f} | {r["wikitext2_ppl"]:>12.2f} | {p["wiki"]:>12.2f} | {r["c4_ppl"]:>10.2f} | {p["c4"]:>10.2f} | {r["ptb_ppl"]:>10.2f} | {p["ptb"]:>10.2f}')
 
-# ============================================================
-# Step 4: Run task evaluation simulation
-# ============================================================
-echo "Step 4: Running task evaluation simulation (429 tasks)..."
-python -c "
-import sys
-sys.path.insert(0, '/workspace')
-from src.task_evaluation import run_all_evaluations
-results = run_all_evaluations('/workspace/results')
-"
-echo ""
+print()
+print('Table 2: Zero-shot Accuracy (LLaMA-2-7B)')
+print('-'*80)
 
-# ============================================================
-# Step 5: Generate all tables and figures
-# ============================================================
-echo "Step 5: Generating all tables and figures..."
-python /workspace/src/generate_results.py
-echo ""
+norm_tasks = {'hellaswag', 'winogrande', 'arc_challenge'}
+paper_acc = {
+    0.8: {'arc_challenge': 0.3848, 'arc_easy': 0.6351, 'hellaswag': 0.6748, 'piqa': 0.7405, 'winogrande': 0.6346},
+    0.5: {'arc_challenge': 0.2645, 'arc_easy': 0.4646, 'hellaswag': 0.4513, 'piqa': 0.6539, 'winogrande': 0.4925},
+}
 
-# ============================================================
-# Step 6: Run SFT training demo
-# ============================================================
-echo "Step 6: Running SFT training demo (GPT-2, 50 steps)..."
-python /workspace/src/training_demo.py --mode sft --sft_steps 50
-echo ""
+for ratio in [0.8, 0.5]:
+    fpath = f'{results_dir}/zeroshot_ratio{ratio}.json'
+    if not os.path.exists(fpath):
+        continue
+    with open(fpath) as f:
+        data = json.load(f)
+    
+    # Handle different formats
+    if 'tasks' in data:
+        tasks_data = data['tasks']
+    elif 'task_results' in data:
+        tasks_data = data['task_results']
+    else:
+        continue
+    
+    print(f'\nRatio {ratio}:')
+    print(f'{"Task":>15} | {"Ours":>8} | {"Paper":>8}')
+    print('-'*40)
+    
+    accs = []
+    for task in ['arc_easy', 'arc_challenge', 'hellaswag', 'piqa', 'winogrande']:
+        r = tasks_data.get(task, {})
+        if task in norm_tasks and r.get('acc_norm') is not None:
+            v = r['acc_norm']
+        else:
+            v = r.get('acc', 0)
+        p = paper_acc[ratio].get(task, 0)
+        accs.append(v)
+        print(f'{task:>15} | {v:>8.4f} | {p:>8.4f}')
+    
+    avg = sum(accs) / len(accs)
+    pavg = sum(paper_acc[ratio].values()) / len(paper_acc[ratio])
+    print('-'*40)
+    print(f'{"Average":>15} | {avg:>8.4f} | {pavg:>8.4f}')
 
-# ============================================================
-# Step 7: Run GRPO training demo
-# ============================================================
-echo "Step 7: Running GRPO training demo (GPT-2, 20 steps)..."
-python /workspace/src/training_demo.py --mode grpo --grpo_steps 20
-echo ""
+PYEOF
 
-# ============================================================
-# Summary
-# ============================================================
-echo "============================================================"
-echo "REPRODUCTION COMPLETE"
-echo "============================================================"
+cat "${RESULTS_DIR}/summary_table.txt"
+
 echo ""
-echo "Generated Results:"
-echo "  Tables:"
-echo "    - /workspace/results/table1_task_success_rates.txt"
-echo "    - /workspace/results/table2_recovery_methods.txt"
-echo "    - /workspace/results/table3_skill_evaluation.txt"
-echo "  Figures:"
-echo "    - /workspace/results/figure3_ablation_study.png"
-echo "    - /workspace/results/figure4_backbone_comparison.png"
-echo "  Additional:"
-echo "    - /workspace/results/training_curves.png"
-echo "    - /workspace/results/skill_comparison.png"
-echo "    - /workspace/results/task_type_breakdown.png"
-echo "    - /workspace/results/summary.json"
-echo "  Training Demos:"
-echo "    - /workspace/results/sft_demo/sft_demo_results.json"
-echo "    - /workspace/results/grpo_demo/grpo_demo_results.json"
-echo ""
-echo "Key Results (from paper):"
-echo "  Table 1 - Task Success Rates:"
-echo "    BC:   74.59%"
-echo "    SFT:  83.45%"
-echo "    GRPO: 85.78%"
-echo ""
-echo "  Table 2 - Recovery Methods:"
-echo "    GRPO + Recovery: 86.48% SR, 90.48% GC"
-echo ""
-echo "  Ablation (Figure 3):"
-echo "    w/o AU:      -9.32% (most impactful)"
-echo "    w/o AG:      -4.90%"
-echo "    w/o STP:     -2.80%"
-echo "    w/o GR_Main: -2.33%"
-echo "    w/o FSC:     -1.86%"
-echo ""
-echo "See /workspace/REPORT.md for full details."
+echo "============================================"
+echo "All results saved to ${RESULTS_DIR}/"
+echo "============================================"
+echo "Done!"
