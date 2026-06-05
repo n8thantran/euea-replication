@@ -1,0 +1,90 @@
+/usr/local/lib/python3.14/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Loading model: NousResearch/Llama-2-7b-hf
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:15<00:15, 15.84s/it]Fetching 2 files: 100%|██████████| 2/2 [00:15<00:00,  7.92s/it]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   1%|▏         | 4/291 [00:00<00:08, 35.55it/s]Loading weights:  10%|▉         | 29/291 [00:00<00:01, 147.36it/s]Loading weights:  16%|█▌        | 46/291 [00:00<00:01, 155.35it/s]Loading weights:  22%|██▏       | 64/291 [00:00<00:01, 164.37it/s]Loading weights:  29%|██▉       | 85/291 [00:00<00:01, 170.85it/s]Loading weights:  35%|███▌      | 103/291 [00:00<00:01, 171.25it/s]Loading weights:  42%|████▏     | 121/291 [00:00<00:01, 168.72it/s]Loading weights:  49%|████▉     | 144/291 [00:00<00:00, 183.61it/s]Loading weights:  56%|█████▌    | 163/291 [00:00<00:00, 167.96it/s]Loading weights:  62%|██████▏   | 181/291 [00:01<00:00, 151.68it/s]Loading weights:  68%|██████▊   | 197/291 [00:01<00:00, 123.47it/s]Loading weights:  73%|███████▎  | 211/291 [00:01<00:00, 101.71it/s]Loading weights:  77%|███████▋  | 225/291 [00:01<00:00, 108.53it/s]Loading weights:  81%|████████▏ | 237/291 [00:01<00:00, 107.94it/s]Loading weights:  86%|████████▌ | 249/291 [00:01<00:00, 92.33it/s] Loading weights:  89%|████████▉ | 260/291 [00:02<00:00, 95.66it/s]Loading weights:  93%|█████████▎| 271/291 [00:02<00:00, 87.04it/s]Loading weights:  97%|█████████▋| 281/291 [00:02<00:00, 78.25it/s]Loading weights: 100%|█████████▉| 290/291 [00:02<00:00, 79.92it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 117.26it/s]
+Model config: 32 layers, 32 heads, 32 KV heads, intermediate_size=11008
+Alpha (KV head cost): 170.6667
+Loading calibration data: 512 sequences of length 512
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'Salesforce/wikitext' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Calibration data shape: torch.Size([512, 512])
+Target ratio: 0.5
+Budget: 263509.34, Total cost: 527018.69
+
+=== Gate Learning ===
+  Step 50, Loss: 6.9855, Units: 183386/353280, Cost ratio: 0.4999
+  Step 100, Loss: 5.0424, Units: 181560/353280, Cost ratio: 0.5000
+  Step 150, Loss: 5.1346, Units: 185802/353280, Cost ratio: 0.5000
+  Step 200, Loss: 3.5935, Units: 184107/353280, Cost ratio: 0.4997
+  Step 250, Loss: 3.4702, Units: 183766/353280, Cost ratio: 0.5000
+  Step 300, Loss: 4.5023, Units: 185373/353280, Cost ratio: 0.4998
+  Step 350, Loss: 3.1217, Units: 184274/353280, Cost ratio: 0.5000
+  Step 400, Loss: 3.6313, Units: 185606/353280, Cost ratio: 0.5000
+  Step 450, Loss: 3.7507, Units: 187668/353280, Cost ratio: 0.5000
+  Step 500, Loss: 4.0623, Units: 186820/353280, Cost ratio: 0.5000
+Epoch 1/4, Avg Loss: 4.6481
+  Step 550, Loss: 2.8687, Units: 188007/353280, Cost ratio: 0.5000
+  Step 600, Loss: 3.0355, Units: 188880/353280, Cost ratio: 0.4997
+  Step 650, Loss: 3.4796, Units: 190345/353280, Cost ratio: 0.4999
+  Step 700, Loss: 3.7836, Units: 189195/353280, Cost ratio: 0.5000
+  Step 750, Loss: 2.9663, Units: 188687/353280, Cost ratio: 0.4997
+  Step 800, Loss: 3.4903, Units: 188837/353280, Cost ratio: 0.5000
+  Step 850, Loss: 3.4236, Units: 190552/353280, Cost ratio: 0.5000
+  Step 900, Loss: 5.3660, Units: 188651/353280, Cost ratio: 0.4999
+  Step 950, Loss: 6.8045, Units: 191341/353280, Cost ratio: 0.4999
+  Step 1000, Loss: 3.4048, Units: 196222/353280, Cost ratio: 0.4998
+Epoch 2/4, Avg Loss: 3.5871
+  Step 1050, Loss: 4.3029, Units: 198265/353280, Cost ratio: 0.4998
+  Step 1100, Loss: 3.5770, Units: 200202/353280, Cost ratio: 0.5000
+  Step 1150, Loss: 3.3718, Units: 201072/353280, Cost ratio: 0.5000
+  Step 1200, Loss: 3.8227, Units: 202089/353280, Cost ratio: 0.5000
+  Step 1250, Loss: 3.3489, Units: 199653/353280, Cost ratio: 0.4999
+  Step 1300, Loss: 4.9653, Units: 201580/353280, Cost ratio: 0.5000
+  Step 1350, Loss: 2.7637, Units: 201116/353280, Cost ratio: 0.4998
+  Step 1400, Loss: 2.9367, Units: 199977/353280, Cost ratio: 0.4999
+  Step 1450, Loss: 3.4936, Units: 200393/353280, Cost ratio: 0.5000
+  Step 1500, Loss: 5.4962, Units: 201380/353280, Cost ratio: 0.4999
+Epoch 3/4, Avg Loss: 3.4772
+  Step 1550, Loss: 2.8733, Units: 203063/353280, Cost ratio: 0.4999
+  Step 1600, Loss: 3.2128, Units: 203108/353280, Cost ratio: 0.5000
+  Step 1650, Loss: 2.8126, Units: 204069/353280, Cost ratio: 0.4999
+  Step 1700, Loss: 3.3802, Units: 203626/353280, Cost ratio: 0.4997
+  Step 1750, Loss: 3.5804, Units: 203333/353280, Cost ratio: 0.4998
+  Step 1800, Loss: 2.7461, Units: 203916/353280, Cost ratio: 0.4999
+  Step 1850, Loss: 2.8560, Units: 203616/353280, Cost ratio: 0.5000
+  Step 1900, Loss: 3.0408, Units: 204676/353280, Cost ratio: 0.4998
+  Step 1950, Loss: 3.3361, Units: 204330/353280, Cost ratio: 0.4997
+  Step 2000, Loss: 3.2380, Units: 205483/353280, Cost ratio: 0.5000
+Epoch 4/4, Avg Loss: 3.2997
+Gate learning time: 164.0s
+  Layer 0: FFN 6494/11008, KV 12/32
+  Layer 8: FFN 8350/11008, KV 14/32
+  Layer 16: FFN 5766/11008, KV 11/32
+  Layer 24: FFN 5075/11008, KV 3/32
+  Layer 31: FFN 4484/11008, KV 1/32
+
+=== Scaling Calibration ===
+Scaling Epoch 1/2, Avg Loss: 3.0155
+Scaling Epoch 2/2, Avg Loss: 2.7750
+Scaling calibration time: 79.9s
+
+=== Materializing pruned model ===
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.79s/it]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.79s/it]
+Pruned model saved to /workspace/pruned_models/Llama-2-7b-hf_ratio0.5
+
+=== Evaluation ===
+Evaluating perplexity on WikiText-2...
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'Salesforce/wikitext' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+WikiText-2 PPL: 22.7278
+Evaluating perplexity on C4...
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'allenai/c4' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+C4 PPL: 76.0950
+Results saved to /workspace/results/results_ratio0.5.json

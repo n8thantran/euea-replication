@@ -268,16 +268,16 @@ def apply_gates_to_model_forward(
 ):
     """Run forward pass with gates applied to FFN channels and KV heads.
     
-    We use hooks to apply the gates during the forward pass.
+    FFN gating: gate applied to intermediate activation (input to down_proj).
+    KV gating: gate applied to per-head attention output (input to o_proj).
+    
+    Each gate is applied exactly once to avoid double-gating issues.
     """
     config = model.config
     num_heads = config.num_attention_heads
     num_kv_heads = getattr(config, "num_key_value_heads", num_heads)
     head_dim = config.hidden_size // num_heads
     G = num_heads // num_kv_heads  # number of query heads per kv head
-    
-    # Determine model dtype for casting gates
-    model_dtype = next(model.parameters()).dtype
     
     hooks = []
     
@@ -286,67 +286,34 @@ def apply_gates_to_model_forward(
         
         layer = model.model.layers[layer_idx]
         
-        # Hook for FFN: gate the intermediate activations
-        def make_ffn_hook(gates):
-            def hook_fn(module, input, output):
-                # output shape: [batch, seq_len, intermediate_size]
-                return output * gates.to(output.dtype).unsqueeze(0).unsqueeze(0)
+        # FFN gating: pre-hook on down_proj to gate the intermediate activation
+        # The intermediate activation is: silu(gate_proj(x)) * up_proj(x)
+        # We gate this product before it enters down_proj
+        def make_ffn_pre_hook(gates):
+            def hook_fn(module, input):
+                inp = input[0]  # [batch, seq_len, intermediate_size]
+                gated = inp * gates.to(inp.dtype).unsqueeze(0).unsqueeze(0)
+                return (gated,)
             return hook_fn
         
-        # Apply gate to gate_proj output
-        h1 = layer.mlp.gate_proj.register_forward_hook(make_ffn_hook(ffn_gates))
+        h1 = layer.mlp.down_proj.register_forward_pre_hook(make_ffn_pre_hook(ffn_gates))
         hooks.append(h1)
         
-        # Apply gate to up_proj output
-        h2 = layer.mlp.up_proj.register_forward_hook(make_ffn_hook(ffn_gates))
-        hooks.append(h2)
-        
-        # Hook for KV heads: gate the K and V projections per head group
-        def make_kv_hook(gates, n_kv_heads, h_dim):
-            def hook_fn(module, input, output):
-                # output shape: [batch, seq_len, num_kv_heads * head_dim]
-                batch, seq_len, _ = output.shape
-                output = output.view(batch, seq_len, n_kv_heads, h_dim)
-                output = output * gates.to(output.dtype).unsqueeze(0).unsqueeze(0).unsqueeze(-1)
-                return output.view(batch, seq_len, n_kv_heads * h_dim)
-            return hook_fn
-        
-        h3 = layer.self_attn.k_proj.register_forward_hook(
-            make_kv_hook(kv_gates, num_kv_heads, head_dim))
-        hooks.append(h3)
-        
-        h4 = layer.self_attn.v_proj.register_forward_hook(
-            make_kv_hook(kv_gates, num_kv_heads, head_dim))
-        hooks.append(h4)
-        
-        # Gate query heads corresponding to pruned KV groups
-        def make_q_hook(gates, n_kv_heads, g, h_dim, n_heads):
-            def hook_fn(module, input, output):
-                batch, seq_len, _ = output.shape
-                output = output.view(batch, seq_len, n_heads, h_dim)
-                q_gates = gates.repeat_interleave(g) if g > 1 else gates
-                output = output * q_gates.to(output.dtype).unsqueeze(0).unsqueeze(0).unsqueeze(-1)
-                return output.view(batch, seq_len, n_heads * h_dim)
-            return hook_fn
-        
-        h5 = layer.self_attn.q_proj.register_forward_hook(
-            make_q_hook(kv_gates, num_kv_heads, G, head_dim, num_heads))
-        hooks.append(h5)
-        
-        # Gate the input to o_proj
-        def make_o_input_hook(gates, n_kv_heads, g, h_dim, n_heads):
+        # KV gating: pre-hook on o_proj to gate per-head attention output
+        def make_attn_pre_hook(gates, n_kv_heads, g, h_dim, n_heads):
             def hook_fn(module, input):
                 inp = input[0]  # [batch, seq_len, num_heads * head_dim]
                 batch, seq_len, _ = inp.shape
                 inp = inp.view(batch, seq_len, n_heads, h_dim)
+                # Expand KV gates to per-query-head gates
                 q_gates = gates.repeat_interleave(g) if g > 1 else gates
                 inp = inp * q_gates.to(inp.dtype).unsqueeze(0).unsqueeze(0).unsqueeze(-1)
                 return (inp.view(batch, seq_len, n_heads * h_dim),)
             return hook_fn
         
-        h6 = layer.self_attn.o_proj.register_forward_pre_hook(
-            make_o_input_hook(kv_gates, num_kv_heads, G, head_dim, num_heads))
-        hooks.append(h6)
+        h2 = layer.self_attn.o_proj.register_forward_pre_hook(
+            make_attn_pre_hook(kv_gates, num_kv_heads, G, head_dim, num_heads))
+        hooks.append(h2)
     
     # Forward pass
     outputs = model(input_ids=input_ids, labels=input_ids)
@@ -494,7 +461,11 @@ def train_scaling(
 # ============================================================
 
 def materialize_pruned_model(model, gate_module, scales, save_path):
-    """Create a pruned dense model by slicing weights and folding scales."""
+    """Create a pruned dense model by slicing weights and folding scales.
+    
+    FFN scales are folded into down_proj columns (matching the pre-hook on down_proj).
+    Attention scales are folded into o_proj columns (matching the pre-hook on o_proj).
+    """
     config = model.config
     num_heads = config.num_attention_heads
     num_kv_heads = getattr(config, "num_key_value_heads", num_heads)
@@ -518,16 +489,18 @@ def materialize_pruned_model(model, gate_module, scales, save_path):
         layer = model.model.layers[layer_idx]
         
         # --- FFN ---
-        # gate_proj: [intermediate_size, hidden_size] -> select rows
+        # Gate was applied as pre-hook on down_proj: down_proj(scale * intermediate)
+        # So fold scale into down_proj columns: down_proj[:, i] *= scale_i
+        
+        # gate_proj: [intermediate_size, hidden_size] -> select rows (no scale)
         gate_w = layer.mlp.gate_proj.weight.data.cpu().float()[ffn_keep]
-        gate_w = gate_w * ffn_scale.unsqueeze(1)
         
-        # up_proj: [intermediate_size, hidden_size] -> select rows
+        # up_proj: [intermediate_size, hidden_size] -> select rows (no scale)
         up_w = layer.mlp.up_proj.weight.data.cpu().float()[ffn_keep]
-        up_w = up_w * ffn_scale.unsqueeze(1)
         
-        # down_proj: [hidden_size, intermediate_size] -> select columns
+        # down_proj: [hidden_size, intermediate_size] -> select columns, fold scale
         down_w = layer.mlp.down_proj.weight.data.cpu().float()[:, ffn_keep]
+        down_w = down_w * ffn_scale.unsqueeze(0)  # scale columns
         
         new_inter = ffn_keep.sum().item()
         layer.mlp.gate_proj = nn.Linear(config.hidden_size, new_inter, bias=False)
@@ -540,37 +513,39 @@ def materialize_pruned_model(model, gate_module, scales, save_path):
         layer.mlp.down_proj.weight = nn.Parameter(down_w.to(torch.bfloat16))
         
         # --- Attention KV heads ---
+        # Gate was applied as pre-hook on o_proj: o_proj(scale * attn_output)
+        # So fold scale into o_proj columns: o_proj[:, head_i*head_dim:(head_i+1)*head_dim] *= scale_i
+        
         q_keep = kv_keep.repeat_interleave(G)  # [num_heads]
         q_scale = kv_scale.repeat_interleave(G)  # [new_num_heads]
         
         new_kv = kv_keep.sum().item()
         new_heads = new_kv * G
         
-        # q_proj: [num_heads * head_dim, hidden_size]
+        # q_proj: [num_heads * head_dim, hidden_size] -> select rows (no scale)
         q_w = layer.self_attn.q_proj.weight.data.cpu().float()
         q_w = q_w.view(num_heads, head_dim, config.hidden_size)
         q_w = q_w[q_keep]
-        q_w = q_w * q_scale.unsqueeze(1).unsqueeze(2)
         q_w = q_w.reshape(new_heads * head_dim, config.hidden_size)
         
-        # k_proj: [num_kv_heads * head_dim, hidden_size]
+        # k_proj: [num_kv_heads * head_dim, hidden_size] -> select rows (no scale)
         k_w = layer.self_attn.k_proj.weight.data.cpu().float()
         k_w = k_w.view(num_kv_heads, head_dim, config.hidden_size)
         k_w = k_w[kv_keep]
-        k_w = k_w * kv_scale.unsqueeze(1).unsqueeze(2)
         k_w = k_w.reshape(new_kv * head_dim, config.hidden_size)
         
-        # v_proj: [num_kv_heads * head_dim, hidden_size]
+        # v_proj: [num_kv_heads * head_dim, hidden_size] -> select rows (no scale)
         v_w = layer.self_attn.v_proj.weight.data.cpu().float()
         v_w = v_w.view(num_kv_heads, head_dim, config.hidden_size)
         v_w = v_w[kv_keep]
-        v_w = v_w * kv_scale.unsqueeze(1).unsqueeze(2)
         v_w = v_w.reshape(new_kv * head_dim, config.hidden_size)
         
-        # o_proj: [hidden_size, num_heads * head_dim]
+        # o_proj: [hidden_size, num_heads * head_dim] -> select columns, fold scale
         o_w = layer.self_attn.o_proj.weight.data.cpu().float()
         o_w = o_w.view(config.hidden_size, num_heads, head_dim)
-        o_w = o_w[:, q_keep]
+        o_w = o_w[:, q_keep]  # [hidden_size, new_heads, head_dim]
+        # Fold scale: multiply each head's columns by its scale
+        o_w = o_w * q_scale.unsqueeze(0).unsqueeze(-1)
         o_w = o_w.reshape(config.hidden_size, new_heads * head_dim)
         
         # Recreate linear layers
@@ -621,6 +596,11 @@ def evaluate_perplexity(model, tokenizer, dataset_name="wikitext", dataset_confi
             if len(texts) >= 256:
                 break
         text = "\n\n".join(texts)
+    elif dataset_name == "ptb":
+        import pandas as pd
+        url = "https://huggingface.co/datasets/ptb_text_only/resolve/refs%2Fconvert%2Fparquet/penn_treebank/test/0000.parquet"
+        df = pd.read_parquet(url)
+        text = " ".join(df["sentence"].tolist())
     else:
         raise ValueError(f"Unknown dataset: {dataset_name}")
     
@@ -786,6 +766,14 @@ def main():
     wiki_ppl = evaluate_perplexity(model, tokenizer, "wikitext", "wikitext-2-raw-v1", "test")
     results["wikitext2_ppl"] = wiki_ppl
     print(f"WikiText-2 PPL: {wiki_ppl:.4f}")
+    
+    try:
+        print("Evaluating perplexity on PTB...")
+        ptb_ppl = evaluate_perplexity(model, tokenizer, "ptb")
+        results["ptb_ppl"] = ptb_ppl
+        print(f"PTB PPL: {ptb_ppl:.4f}")
+    except Exception as e:
+        print(f"PTB evaluation failed: {e}")
     
     try:
         print("Evaluating perplexity on C4...")
