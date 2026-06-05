@@ -365,7 +365,7 @@ def load_real_world_datasets():
     from load_uci import load_all_uci
     raw = load_all_uci()
     datasets = {}
-    for name, (X, y, k) in raw.items():
+    for name, X, y, k in raw:
         datasets[name] = (np.array(X, dtype=float), np.array(y), k)
     return datasets
 

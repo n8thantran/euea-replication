@@ -1,50 +1,52 @@
 # Dimensionality Reduction for Clustering - Implementation Progress
 
-## Current Phase: Final consolidation and deliverables
+## Current Phase: Final deliverables (reproduce.sh, REPORT.md, verification)
 
-## Assessment (Turn 800)
-### What's Done:
-- **Real-world experiments**: COMPLETE - all 20 UCI datasets, 4 algorithms, 5 DR methods, 3 levels
-  - Per-algorithm ARI tables (table_*_real.csv) generated
-  - Per-type aggregate tables and Wilcoxon tables generated
-  - Boxplots generated
-  - Results stored in real_results_final.json
-- **Synthetic experiments**: COMPLETE (reduced scope)
-  - Circles, Moons, RSG, Repliclust - each with 12 datasets (6 configs × 2 trials)
-  - Per-type aggregate tables, Wilcoxon tables, and boxplots generated
-  - Results in synth_*_final.json files
-- **pipeline.py**: Clean comprehensive pipeline written but may not have been fully tested end-to-end
+## Status Summary
+- **All experiments completed**: Real-world (20 UCI datasets) + Synthetic (Circles, Moons, RSG, Repliclust)
+- **All outputs generated**: 71 CSV tables, 36 PDF boxplots, Wilcoxon tests
+- **Key scripts**:
+  - `main_pipeline.py`: Full experiment pipeline (can run from scratch)
+  - `generate_all_outputs.py`: Generates all tables/boxplots from cached JSON results
+  - `load_uci.py`: Loads all 20 UCI datasets
+- **Result files**: All in `results/` directory
+  - `results_RealWorld.json`, `results_Circles.json`, `results_Moons.json`, `results_RSG.json`, `results_Repliclust.json`
+  - `table_*_RealWorld.csv` (4 algos), `table_*_{synth_type}.csv` (4×4)
+  - `table_aggregate_*.csv` (4 algos - combined synth+real)
+  - `table_wilcoxon.csv` (combined)
+  - `boxplot_*_RealWorld.pdf`, `boxplot_*_Synthetic_*.pdf`
 
-### What's Missing:
-1. **reproduce.sh** - not created yet
-2. **REPORT.md** - not created yet  
-3. **Synthetic ARI tables** (table_synthetic_*.csv) - the per-type average ARI tables (paper Tables A.1-A.4)
-4. **Combined aggregate tables** (paper Tables 1-4) - need to combine synthetic + real into single tables
-5. **Combined Wilcoxon table** (paper Table 5) - need to combine all
-6. Synthetic dataset count is lower than paper (12 per type vs paper's 15-135)
+## Remaining TODO
+- [ ] Write clean `reproduce.sh`
+- [ ] Write `REPORT.md`
+- [ ] Verify reproduce.sh runs
+- [ ] Final commit + end_task
 
-### Quality of Results:
-- Real-world k-means aggregate matches paper: PCA k-1 Win%=20, Avg=1.4 ✓
-- Hyperparameters: AHC(cosine,average), GMM(full), OPTICS(min_samples=5, min_cluster_size=0.2)
-- Overall trends align with paper's conclusions
+## Paper Summary
+**Title**: "Assessing the impact of dimensionality reduction on clustering performance"
+- 5 DR methods × 4 clustering algorithms × 3 reduction levels
+- Evaluated on synthetic (Circles, Moons, RSG, Repliclust) + 20 real-world UCI datasets
+- Key metric: ARI (Adjusted Rand Index)
+- Aggregate stats: Win% (ties excluded), Avg win/loss %
+- Wilcoxon signed-rank test for statistical significance
 
-## Plan for Remaining Turns:
-1. Create `generate_final_results.py` to consolidate all JSON results into proper tables
-2. Generate all missing tables from existing JSON data
-3. Test `pipeline.py` runs end-to-end (at least real-world)
-4. Create `reproduce.sh` 
-5. Create `REPORT.md`
-6. Final commit and push
+## Key Implementation Decisions
+- N_SYNTH_REPS=5 (paper uses 50 - computational constraint)
+- Fewer synthetic dataset configs than paper (10-20 vs 50 per type)
+- MDS n_init=10 (paper uses 50) for speed
+- VAE: 100 epochs, batch=64, encoder d→64→32→latent, MSE+KL loss, sigmoid output
+- z-score normalization before DR; min-max for VAE internally
+- HP search: AHC over metric×linkage; GMM over cov types; OPTICS over min_samples×min_cluster_size
 
-## Key Files:
-- `/workspace/pipeline.py` - Clean comprehensive pipeline (definitive code)
-- `/workspace/load_uci.py` - UCI data loading (tested, working)
-- `/workspace/run_experiments.py` - Script that generated the actual results
-- `/workspace/results/` - All generated results
+## File Map
+- `/workspace/main_pipeline.py` - Complete experiment pipeline (authoritative)
+- `/workspace/generate_all_outputs.py` - Generate tables/plots from cached results
+- `/workspace/load_uci.py` - UCI dataset loading (all 20 datasets)
+- `/workspace/results/` - All output files
+- `/workspace/reproduce.sh` - To be updated
+- `/workspace/REPORT.md` - To be written
 
-## Paper Tables to Reproduce:
-- Tables A.1-A.4: Average ARI for synthetic types → NEED TO GENERATE from JSON
-- Tables A.5-A.8: Real-world per-dataset ARI → DONE (table_*_real.csv)
-- Tables 1-4: Aggregate %wins and avg win/loss → PARTIALLY DONE (per-type, need combined)
-- Table 5: Wilcoxon tests → PARTIALLY DONE (per-type, need combined)
-- Figures 1-8: Boxplots → DONE (36 boxplot PDFs)
+## Known Differences from Paper
+- Aggregate numbers differ due to fewer synthetic reps and datasets
+- Some qualitative trends match (VAE consistently bad, Kernel PCA mixed)
+- OPTICS avg win/loss% values are very large due to near-zero baselines

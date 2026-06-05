@@ -1,0 +1,61 @@
+Algorithm,DR Method,Reduction,p_real,sig_real,dir_real,p_synth,sig_synth,dir_synth
+k-means,PCA,k-1,0.4688,,better,0.0098,✓,worse
+k-means,PCA,25%,0.7734,,better,0.0009,✓,worse
+k-means,PCA,50%,0.8125,,better,0.5469,,worse
+k-means,Kernel PCA,k-1,0.0238,✓,better,0.0195,✓,worse
+k-means,Kernel PCA,25%,0.9382,,better,0.0020,✓,worse
+k-means,Kernel PCA,50%,0.3437,,better,0.7617,,worse
+k-means,VAE,k-1,0.0413,✓,worse,0.0000,✓,worse
+k-means,VAE,25%,0.0121,✓,worse,0.0000,✓,worse
+k-means,VAE,50%,0.0086,✓,worse,0.0000,✓,worse
+k-means,Isomap,k-1,0.3055,,better,0.0322,✓,worse
+k-means,Isomap,25%,0.7581,,better,0.0003,✓,worse
+k-means,Isomap,50%,0.3082,,better,0.0322,✓,worse
+k-means,MDS,k-1,1.0000,,worse,0.0010,✓,worse
+k-means,MDS,25%,0.8228,,worse,0.0009,✓,worse
+k-means,MDS,50%,0.9004,,better,0.0381,✓,worse
+AHC,PCA,k-1,0.4699,,worse,0.5126,,better
+AHC,PCA,25%,0.0550,,worse,0.0158,✓,worse
+AHC,PCA,50%,0.9634,,better,0.9318,,better
+AHC,Kernel PCA,k-1,1.0000,,worse,0.0020,✓,better
+AHC,Kernel PCA,25%,0.0701,,worse,0.8360,,worse
+AHC,Kernel PCA,50%,0.7437,,better,0.0781,,worse
+AHC,VAE,k-1,0.0048,✓,worse,0.0000,✓,worse
+AHC,VAE,25%,0.0027,✓,worse,0.0000,✓,worse
+AHC,VAE,50%,0.0011,✓,worse,0.0000,✓,worse
+AHC,Isomap,k-1,0.3200,,worse,0.7339,,worse
+AHC,Isomap,25%,0.0776,,worse,0.0060,✓,worse
+AHC,Isomap,50%,0.2273,,worse,0.3682,,worse
+AHC,MDS,k-1,0.0380,✓,worse,0.0322,✓,worse
+AHC,MDS,25%,0.0045,✓,worse,0.0350,✓,worse
+AHC,MDS,50%,0.0735,,worse,0.0721,,worse
+GMM,PCA,k-1,0.1458,,worse,0.1093,,better
+GMM,PCA,25%,0.3318,,worse,0.1260,,worse
+GMM,PCA,50%,0.6493,,worse,0.6826,,better
+GMM,Kernel PCA,k-1,0.3065,,worse,0.0652,,better
+GMM,Kernel PCA,25%,0.1849,,worse,0.4080,,better
+GMM,Kernel PCA,50%,0.7945,,worse,0.7328,,better
+GMM,VAE,k-1,0.0090,✓,worse,0.0000,✓,worse
+GMM,VAE,25%,0.0052,✓,worse,0.0000,✓,worse
+GMM,VAE,50%,0.0031,✓,worse,0.0000,✓,worse
+GMM,Isomap,k-1,0.2012,,worse,0.5068,,worse
+GMM,Isomap,25%,0.4722,,worse,0.0137,✓,worse
+GMM,Isomap,50%,0.2144,,worse,0.5691,,worse
+GMM,MDS,k-1,0.0713,,worse,0.9873,,better
+GMM,MDS,25%,0.3835,,worse,0.7996,,better
+GMM,MDS,50%,0.5700,,worse,0.3706,,better
+OPTICS,PCA,k-1,0.4697,,better,0.1911,,better
+OPTICS,PCA,25%,0.7773,,worse,0.1248,,better
+OPTICS,PCA,50%,0.6426,,better,NA,,
+OPTICS,Kernel PCA,k-1,0.0769,,better,0.0920,,worse
+OPTICS,Kernel PCA,25%,0.1206,,better,0.4847,,better
+OPTICS,Kernel PCA,50%,0.3965,,worse,0.0498,✓,worse
+OPTICS,VAE,k-1,0.6003,,worse,0.0016,✓,worse
+OPTICS,VAE,25%,0.3650,,worse,0.0006,✓,worse
+OPTICS,VAE,50%,0.5314,,worse,0.0001,✓,worse
+OPTICS,Isomap,k-1,0.2327,,better,0.3308,,worse
+OPTICS,Isomap,25%,0.1987,,better,0.5668,,worse
+OPTICS,Isomap,50%,0.6092,,worse,0.0463,✓,worse
+OPTICS,MDS,k-1,0.9395,,worse,0.1406,,better
+OPTICS,MDS,25%,0.6084,,worse,0.6250,,better
+OPTICS,MDS,50%,0.1328,,worse,0.5000,,better
