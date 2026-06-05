@@ -280,10 +280,11 @@ def load_real_world_datasets():
     from load_uci import load_all_uci
     raw = load_all_uci()
     datasets = {}
-    for name, (X, y) in raw.items():
+    for item in raw:
+        name, X, y = item[0], item[1], item[2]
+        k = len(np.unique(y))
         scaler = StandardScaler()
         X_scaled = scaler.fit_transform(X)
-        k = len(np.unique(y))
         datasets[name] = (X_scaled, y, k)
     return datasets
 
