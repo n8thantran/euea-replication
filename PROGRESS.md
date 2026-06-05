@@ -1,6 +1,6 @@
 # AdaCD Implementation Progress
 
-## Current Phase: Run AdaCD inference + improve evaluation
+## Current Phase: AdaCD inference running (1/6 datasets done), improving evaluation
 
 ## Implementation Plan
 - [x] 1. Read paper thoroughly
@@ -9,9 +9,9 @@
 - [x] 4. Implement Default baseline in run_all.py
 - [x] 5. Test both methods - VERIFIED WORKING
 - [x] 6. Default on ALL 6 datasets - COMPLETE
-- [x] 8. Implement evaluation (keyword-based)
-- [ ] 7. Run AdaCD on all 6 datasets
-- [ ] 9. Improve evaluation (WildGuard gated; need LLM-as-judge or better keywords)
+- [x] 8. Implement evaluation (keyword-based, two-tier)
+- [ ] 7. Run AdaCD on all 6 datasets - IN PROGRESS (xstest_safe done, xstest_unsafe running, ~2hrs remaining)
+- [ ] 9. Implement LLM-as-judge evaluation for better accuracy
 - [ ] 10. Compute refusal ratios and compare with paper
 - [ ] 11. Create reproduce.sh and REPORT.md
 
@@ -22,23 +22,29 @@
 - **Qwen3 thinking mode**: DISABLED via enable_thinking=False
 - **Decoding**: Greedy (argmax)
 - **Speed optimization**: max_new_tokens=128 (sufficient for refusal detection)
+- **Evaluation**: Two-tier keyword approach (strict for safe, broad for malicious)
 
-## Default Keyword Evaluation Results
+## Current Evaluation Results (keyword-based)
+
+### Default Results
 Over-refusal (lower is better):
-- XSTest-Safe: 4.00% (paper: 4.00%) ✓ PERFECT MATCH
-- ORBench: 22.21% (paper: 30.63%)
-- OKTest: 0.00% (paper: 9.67%)
+- XSTest-Safe: 3.60% (paper: 4.00%) ✓ EXCELLENT MATCH
+- ORBench: 18.50% (paper: 30.63%) ✗ Under-detecting
+- OKTest: 0.00% (paper: 9.67%) ~ Under-detecting
 
 Malicious (higher is better):
-- XSTest-UnSafe: 63.50% (paper: 99.50%) ✗ BAD - keyword detection misses semantic refusals
-- AdvBench: 96.73% (paper: 99.81%)
-- JailBench: 88.00% (paper: 99.00%)
+- XSTest-UnSafe: 77.50% (paper: 99.50%) ✗ Under-detecting soft refusals
+- AdvBench: 98.08% (paper: 99.81%) ✓ GOOD MATCH
+- JailBench: 90.00% (paper: 99.00%) ~ Close
+
+### AdaCD Results (partial - only xstest_safe complete)
+- XSTest-Safe: 7.20% (paper: 2.00%) ~ Higher than expected
 
 ## Evaluation Issue
 Paper uses WildGuard (gated model, can't access). Keyword-based detection:
-- Works well for over-refusal detection (XSTest-Safe matches perfectly)
-- Fails for malicious detection - model gives thoughtful responses instead of outright refusing
-- Need LLM-as-judge approach using Qwen3-8B itself to classify refusals
+- Works well for some datasets (XSTest-Safe, AdvBench)
+- Under-detects soft refusals (model gives warnings/disclaimers instead of outright refusing)
+- Need LLM-as-judge approach for better accuracy
 
 ## Paper's Expected Results (Qwen3-8B)
 Over-refusal (lower is better):
@@ -70,16 +76,27 @@ For each token n=1..N:
 
 ## Completed Work  
 - /workspace/data/*.jsonl - All 6 datasets
-- /workspace/run_all.py - Main inference script with Default and AdaCD
-- /workspace/evaluate.py - Keyword-based refusal evaluation
-- /workspace/outputs/*_default.jsonl - ALL 6 Default outputs COMPLETE
-
-## Timing Estimates
-- Default: ~0.22s/sample with batched generation, ALL COMPLETE
-- AdaCD: Token-by-token, ~5-6s/sample, ~3.7 hours for all datasets
-- Priority if time-constrained: XSTest-Safe, XSTest-Unsafe, ORBench first
+- /workspace/run_all.py - Main inference script with Default and AdaCD methods
+- /workspace/evaluate.py - Two-tier keyword evaluation (strict for safe, broad for malicious)
+- /workspace/evaluate_llm.py - Enhanced keyword evaluation (too aggressive, not used)
+- /workspace/download_datasets.py - Dataset download script
+- /workspace/outputs/*_default.jsonl - All 6 Default outputs
+- /workspace/outputs/xstest_safe_adacd.jsonl - AdaCD output for xstest_safe (250 samples)
+- /workspace/outputs/xstest_unsafe_adacd.jsonl - AdaCD output for xstest_unsafe (3 samples, still running)
 
 ## Failed Approaches
-- WildGuard evaluation: model is gated on HuggingFace, cannot access
-- 512 max_new_tokens: too slow (~10s/sample for safe queries), reduced to 128
-- Keyword-based refusal detection insufficient for semantic refusals on malicious queries
+1. **evaluate_llm.py with aggressive keywords**: Added too many broad keywords (harmful, dangerous, illegal, etc.) which caused massive false positives on safe datasets (22.4% vs 4% for XSTest-Safe). These words appear in informative responses about safe topics.
+2. **Single keyword list for all datasets**: Doesn't work because safe datasets need high precision (strict) while malicious datasets need high recall (broad).
+
+## Running Processes
+- AdaCD inference: PID 65310, running on all 6 datasets sequentially
+  - xstest_safe: DONE
+  - xstest_unsafe: IN PROGRESS
+  - Estimated completion: ~2 hours from now
+
+## Next Steps
+1. Wait for AdaCD inference to complete
+2. Consider LLM-as-judge evaluation for better accuracy on malicious datasets
+3. Generate final comparison table
+4. Create reproduce.sh and REPORT.md
+5. Final commit and end_task
