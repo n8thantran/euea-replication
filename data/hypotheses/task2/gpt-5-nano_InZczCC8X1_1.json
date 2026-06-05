@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating catalyst composition and loading (e.g., Ag loading and Cu\u2013Ag alloying) as explicit optimization variables within the AdaCarbon"
-}

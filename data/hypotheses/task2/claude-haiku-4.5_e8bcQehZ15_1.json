@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "The orthogonality constraint imposed on concept embedding vectors during CAST training will fail to prevent property interference when scaling to five or more molecular properties, resulting in degraded performance on individual property control compared to scaling with fewer properties."
-}

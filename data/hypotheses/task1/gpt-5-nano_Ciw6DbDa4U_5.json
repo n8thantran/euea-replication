@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If tensor completion surrogates (CPD-S and NeAT) trained on lattice design parameters can predict Young's modulus (E) with higher R^2 scores than baseline ML methods (Gaussian Process, XGBoost, and MLP) across both uniformly sampled and exponentially biased training data, then they provide a more accurate surrogate for lattice mechanical properties because they exploit the low-rank multi-way structure of the design\u2013property tensor to improve generalization from limited or biased samples."
-}

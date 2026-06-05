@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Fine-tuning pre-trained ML interatomic potentials (such as eSEN or eqV2) specifically on stress tensor data generated along DFT-converged SSNEB pathways\u2014rather than on bulk equilibrium configurations\u2014will disproportionately reduce stress prediction errors and eliminate the symmetry-breaking artifacts currently observed during VASP restarts, thereby enabling fully ML-driven SSNEB convergence (without any DFT restart) that matches DFT accuracy to within chemical precision for energy barriers across polymorphic phase transitions in soft-lattice materials like halide perovskites."
-}

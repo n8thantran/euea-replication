@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "An ensemble of LLM agents operating with varied sampling temperatures and randomized initial probes will discover slow-kinetic, low-vapor-pressure ALP reactions (e.g., a reaction with a fourfold reduced Arrhenius prefactor and halved Antoine B) with significantly higher probability within a fixed total experimental time budget than a single-agent strategy using the same total number of experiments."
-}

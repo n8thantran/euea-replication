@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "The Force Delta uncertainty metric will show systematically degraded predictive power for out-of-distribution structures that violate local chemical bonding constraints (e.g., unphysically short interatomic distances or coordination number violations) compared to structures that preserve chemical validity, because the metric reflects model inconsistency rather than chemical implausibility."
-}

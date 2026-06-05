@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Hypothesis: LLM agents with access to multiple simulated reactor configurations in parallel will demonstrate emergent transfer learning capabilities, discovering generalizable chemical interaction principles (e.g., self-limiting reaction conditions) faster than agents operating on sequential single-system configurations, even when total experimental time is held constant."
-}

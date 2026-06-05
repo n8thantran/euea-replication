@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit solvent molecule coordination shells as conditional inputs to the LoQI diffusion model\u2014rather than relying solely on implicit CPCM solvation during training data generation\u2014will enable the model to predict conformational distributions that more accurately reflect explicit hydration effects, thereby reducing the systematic RMSD gap between generated solution-phase conformers and protein-bound crystal structures observed in the Platinum Diverse benchmark by at least 20% compared to the current implicit-solvent-trained model."
-}

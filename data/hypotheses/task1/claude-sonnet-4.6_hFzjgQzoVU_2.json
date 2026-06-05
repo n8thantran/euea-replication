@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a curated, standardized dataset of Fe K-edge X-ray absorption spectra paired with local atomic structural representations of iron-containing proteins (XDIP) is constructed through a validated semi-automated pipeline, then machine learning models trained on this dataset will demonstrate measurable predictive performance in both structure-to-spectrum and spectrum-to-property tasks, because the structured pairing of spectral and geometric features provides sufficient information to learn the physical relationships between local iron coordination environments and their corresponding XAS signatures."
-}

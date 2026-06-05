@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "An adaptive tool provisioning strategy that dynamically adds or removes tools during problem solving based on real-time task\u2013tool embedding similarity and the agent\u2019s confidence will outperform fixed tool provisioning, yielding higher pass@k and lower overhead in domains with poor initial tool\u2013task alignment and across the four Corral environments."
-}

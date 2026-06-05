@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "If the Gumbel-Softmax temperature \u03c4 during training is annealed not uniformly but conditioned on per-residue structural uncertainty (e.g., local packing density or predicted local distance difference test scores), then the encoder will learn to assign sharper, more confident sequence distributions at structurally well-defined residue positions while maintaining higher entropy at flexible or solvent-exposed positions, resulting in designed sequences with improved self-consistency specifically for structurally ordered regions without sacrificing the diversity needed to accommodate conformationally ambiguous sites."
-}

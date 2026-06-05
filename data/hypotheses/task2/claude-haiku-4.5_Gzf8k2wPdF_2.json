@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Adaptive batching algorithms that dynamically adjust their padding strategy based on real-time measurements of graph size variance within individual training epochs will achieve superior speedups and more stable learning metrics compared to fixed-strategy batching methods across heterogeneous graph datasets."
-}

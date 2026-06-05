@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If the Granite 3.3 2B model is continually pre-trained on MOF-specific literature combined with large PubChem structural datasets before supervised fine-tuning on MOFid-to-property mappings, then it will achieve lower test MAE on MOF property predictions than models without such pre-training (and than CGCNN, SOAP, and MOFormer baselines), with the performance advantage growing as supervised fine-tuning data becomes more limited, because pre-training imparts transferable chemical knowledge to text-based MOFid representations."
-}

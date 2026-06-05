@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If NEB calculations are performed using the NN-BAX workflow with iterative fine-tuning of a pre-trained EquiformerV2, then minimum energy paths for LJ7 and LJ38 transitions will be recovered with comparable accuracy to classical NEB (similar fmax and MAEi) while requiring fewer expensive simulator evaluations, because the model efficiently learns and generalizes the potential energy surface between minima."
-}

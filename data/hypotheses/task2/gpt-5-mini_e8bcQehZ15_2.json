@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Augmenting CAST's concept bottleneck with binary scaffold- and functional-group concept embeddings will enable steering that preserves a specified scaffold in at least 80% of generated molecules while keeping QED and LogP MAE within 10% of CAST's MAE when only continuous properties are used."
-}

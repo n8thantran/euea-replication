@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Metal lattices exhibiting interstitial ELF maxima between 0.60 and 0.85 at high-symmetry interstitial sites with coordination number 12 will, when hydrogen-filled to H/M ratios of 8\u201312 and compressed to 150\u2013250 GPa, produce superhydrides with electron\u2013phonon coupling constants \u03bb \u2265 1.2 and superconducting transition temperatures Tc \u2265 100 K."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating active learning strategies that iteratively select the next experimental observation to maximize information gain within the tensor completion framework will outperform both uniform random sampling and the biased sampling scenarios studied here, achieving equivalent predictive accuracy (R\u00b2) with fewer than half the training observations required by Gaussian Process under uniform random sampling."
-}

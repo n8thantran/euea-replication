@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If crystal material property prediction incorporates cross-modal learning by jointly training graph, text, and X-ray diffraction spectral representations through mutual latent-space prediction with contrastive and variance-invariance-covariance regularization, then the resulting model will achieve lower mean absolute error on benchmark crystal property prediction tasks compared to single-modality baseline models (CGCNN, CoGN, ALIGNN), because integrating complementary structural, semantic, and diffraction information captures richer material representations that individual modalities alone cannot provide."
-}

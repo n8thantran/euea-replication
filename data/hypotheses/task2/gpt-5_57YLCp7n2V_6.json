@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Augmenting 3D generative model training with an auxiliary loss that penalizes atoms whose (element, formal charge, number of aromatic bonds, non-aromatic bond order) tuples violate the refined lookup table will reduce both the atom-level valency violation rate and the mean GFN2-xTB relaxation energy compared to the same architecture trained without this constraint on the curated GEOM-Drugs split."
-}

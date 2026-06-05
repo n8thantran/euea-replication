@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Augmenting the pharmacophore-guided generative framework with target-structure-derived 3D pharmacophore maps in the RL reward will produce molecules with at least a 1 kcal/mol improvement in median docking score and a \u22653-fold improvement in median in vitro binding affinity (IC50 or Kd) against the alpha estrogen receptor, while maintaining comparable scaffold novelty (mean Tanimoto \u2264 0.4 to the reference set) relative to molecules generated using only CATS-based pharmacophore similarity."
-}

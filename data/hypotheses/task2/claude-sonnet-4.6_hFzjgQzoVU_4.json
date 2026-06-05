@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "An equivariant graph neural network trained on the XDIP dataset to predict Fe K-edge XANES spectra directly from 3D local atomic coordinates will achieve significantly lower prediction error than invariant GNN architectures (GCN, GAT, GIN) because the explicit encoding of rotational and translational symmetries of the iron coordination sphere captures geometric features\u2014such as ligand field asymmetry and bond angle distributions\u2014that are physically determinative of pre-edge and edge features in Fe K-edge spectra but are lost when only bond connectivity and scalar distances are used as inputs."
-}

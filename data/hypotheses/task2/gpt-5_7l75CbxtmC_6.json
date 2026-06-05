@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Including explicit heating energy (to 1500\u00b0C at 60% furnace efficiency using tabulated heat capacities) and purification costs (estimated from ML-predicted solubilities/volatilities of byproducts) in the workflow will reverse the Ca2SiO4 recipe ranking, such that Ca3SiO5+SiO2 becomes at least 20% more cost-effective (grams per euro) than CaO+SiO2 for batch sizes \u22651000 kg when electricity prices are \u22650.12 \u20ac/kWh."
-}

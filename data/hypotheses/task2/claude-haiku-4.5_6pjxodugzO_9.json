@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Foundation models pre-trained on SMILES representations will exhibit systematically degraded performance on electrolyte formulations containing chemical moieties with low frequency in their pre-training corpora, and this degradation can be predicted by quantifying the pre-training token frequency of constituent molecular substructures."
-}

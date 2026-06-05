@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Cross-modal prediction loss during pretraining will exhibit differential sensitivity to missing or corrupted modalities across material classes, such that materials with high structural complexity (low symmetry) will show greater performance degradation when a single modality is removed compared to highly symmetric materials, due to asymmetric information redundancy in the latent space."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Increasing the diversity constraint threshold beyond a critical point will induce a phase transition in the optimization trajectory where the model switches from local refinement of high-scoring molecular clusters to global exploration of chemically distinct scaffolds, resulting in bimodal score distributions that persist across subsequent generations."
-}

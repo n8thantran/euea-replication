@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating a negative reward proportional to CATS-based pharmacophore similarity to androgen and progesterone receptor ligand sets, alongside the current ER\u03b1 similarity and structural novelty terms, will at least double the proportion of generated molecules whose ER\u03b1 docking scores are \u22652.0 kcal/mol more favorable than both AR and PR while maintaining \u226595% novelty versus ChEMBL."
-}

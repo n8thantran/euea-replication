@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a diffusion-based generative model for composite compositions incorporates physics constraints enforcing non-negativity and sum-to-one (PCDiff), then it will produce a significantly higher proportion of physically valid and fabrication-feasible material compositions (higher Validityreg and Validityfab) than CVAE and TabDDPM, while retaining comparable fidelity and diversity as measured by density and coverage."
-}

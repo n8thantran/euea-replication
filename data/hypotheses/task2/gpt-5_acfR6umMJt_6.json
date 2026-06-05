@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "In NN-BAX, replacing random sampling along the predicted NEB path with an uncertainty-aware acquisition that selects at each iteration the image with maximal ensemble variance in the perpendicular force will reduce the number of simulator evaluations needed to achieve concurrent convergence (fmax \u2264 t and MAEi \u2264 m) by at least 50% without increasing the median energy-barrier error beyond 0.05 eV on multi-minima transitions such as LJ38 and analogous DFT reaction pathways."
-}

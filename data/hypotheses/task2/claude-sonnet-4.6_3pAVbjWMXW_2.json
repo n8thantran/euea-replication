@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Fine-tuning the transformer model on ATR-IR spectra of pure compounds\u2014without requiring any labeled mixture ATR-IR data\u2014will close the performance gap between gas-phase-trained and ATR-IR-evaluated models by more than 15 percentage points in Top-10 accuracy, because the dominant source of cross-instrument error resides in systematic baseline and refractive-index distortions that are equally present in pure-compound and mixture ATR-IR spectra and can therefore be corrected by domain adaptation on readily available single-component measurements."
-}

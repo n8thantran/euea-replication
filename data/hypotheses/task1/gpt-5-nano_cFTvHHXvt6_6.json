@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If increasing the encoder size (1B to 8B) and decoder depth (2 to 8 layers) reduces the CIE76 \u0394E between target colors and colors predicted by transfer-matrix simulations for both training-paraphrase and validation prompts across viewing angles, then higher model capacity improves linguistic-to-physical design accuracy in CHROMA because it enhances generalization to paraphrased prompts and novel optical targets."
-}

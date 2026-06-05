@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating a learned non-linear spectral mixing component that models inter-molecular interactions (e.g., hydrogen bonding and dipole\u2013dipole coupling) into the mixture representation will significantly improve the ability of Transformer-based models to identify individual components from IR spectra of mixtures, especially in ternary systems and low-abundance components, and will yield higher Top-1/Top-10 accuracies on real ATR-IR data than the current linear-additivity baseline."
-}

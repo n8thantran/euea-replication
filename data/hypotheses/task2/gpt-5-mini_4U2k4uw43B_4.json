@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Fine-tuning the pre-trained eSEN model on ~100 DFT-evaluated images sampled along linear interpolations between initial and final solids while using a loss that weights stress predictions twice as strongly as forces and energies will reduce the model's stress RMSE by >50% and decrease the number of DFT SSNEB restart iterations required to converge to the VASP MEP by >30% relative to the untuned eSEN."
-}

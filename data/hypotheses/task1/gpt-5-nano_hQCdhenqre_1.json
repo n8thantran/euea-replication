@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If gating mechanisms and species-dependent edge features are incorporated into the MACE architecture, then the resulting model will exhibit higher inference speed while preserving predictive accuracy for atomic energies and forces compared with the original MACE across SPICE2 training data and MD benchmarks."
-}

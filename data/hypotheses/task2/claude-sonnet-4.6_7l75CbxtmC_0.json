@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "If real-time commodity price feeds and geopolitical supply-chain risk indices were integrated as dynamic input variables into the analysis module, then the workflow would predict temporal inversions in the economic efficiency rankings of competing synthesis routes (e.g., CaO+SiO2 versus Ca3SiO5+Si3N4) with measurable lead times ahead of actual market shifts, such that machine learning models trained on historical price volatility data for the identified reagents could forecast these ranking crossover events with greater than 80% accuracy at a 30-day prediction horizon."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Dataset composition and splitting strategy significantly affect single-step retrosynthesis model performance, with models generalizing better to novel products with known reaction templates than to novel disconnections with unseen templates."
-}

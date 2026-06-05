@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nTransfer learning from multimodal SEM data across different battery chemistries (e.g., LFP to NCM) will outperform single-chemistry transfer learning when fine-tuned on mixed additive conditions, because cross-chemistry pretraining forces the model to learn composition-invariant degradation features (particle cracking, boundary dissolution) that generalize better to novel additive-induced morphological changes than chemistry-specific features learned from NCM-only pretraining."
-}

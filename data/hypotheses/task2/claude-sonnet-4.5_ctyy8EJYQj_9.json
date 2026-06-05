@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating explicit phase diagram topology information as a learned heuristic function in classical search algorithms will enable A* to match or exceed LLM performance on multi-phase synthesis challenges while reducing computational cost by at least two orders of magnitude compared to unaided A* search."
-}

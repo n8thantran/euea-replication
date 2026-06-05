@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Integrating a dedicated molecular image detection and segmentation module (e.g., fine-tuned DECIMER) directly into the single-agent preprocessing pipeline\u2014so that chemical structure images are automatically localized, segmented, and converted to SMILES before the extraction LLM receives the document\u2014will yield statistically significant improvements in SMILES extraction F1 scores across both the nanomaterials and small molecule datasets in ChemX compared to the current pipeline that relies solely on LLM-generated image descriptions, with the improvement being larger for small molecule datasets where SMILES is the primary structural descriptor."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Larger frozen language model encoders combined with deeper trainable transformer decoders will produce multilayer thin-film designs with lower CIE76 \u0394E color differences from target specifications described in natural language prompts."
-}

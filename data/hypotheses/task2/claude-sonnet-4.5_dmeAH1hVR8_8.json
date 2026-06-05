@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Integrating topology-aware positional encodings derived from RCSR database structural motifs into the LLM embedding layer will improve MOF property prediction accuracy by 15-25% compared to MOFid-only representations, particularly for properties dependent on long-range structural ordering such as mechanical stability and framework flexibility."
-}

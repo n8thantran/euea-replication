@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If distorted crystal structures are optimized via gradient descent to minimize differentiable powder XRD pattern-similarity losses (with or without symmetry constraints), then they will frequently fail to recover the ground-truth structures (low match rate) because the XRD loss landscape is highly rugged with numerous local minima that trap the optimizer."
-}

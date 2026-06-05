@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Introducing a differentiable continuous thickness space coupled with a physics-informed, tolerance-aware loss that accounts for fabrication-induced thickness variations (via a stochastic perturbation model within the transfer-matrix verifier) will enable CHROMA to generalize to unseen target spectra with lower average color error (\u2206E) under realistic manufacturing variability, achieving a mean \u2206E < 15 on held-out structures at 0\u00b0, 30\u00b0, and 60\u00b0 incidence."
-}

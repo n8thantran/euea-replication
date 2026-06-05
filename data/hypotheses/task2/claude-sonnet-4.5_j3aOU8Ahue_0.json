@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nTransfer learning from multi-modal pre-training (combining SEM images with electrochemical impedance spectroscopy data) will enable accurate prediction of lithium-ion battery degradation mechanisms in previously unseen cathode chemistries beyond NCM compositions, achieving comparable performance to single-modality models trained on large labeled datasets of those specific chemistries."
-}

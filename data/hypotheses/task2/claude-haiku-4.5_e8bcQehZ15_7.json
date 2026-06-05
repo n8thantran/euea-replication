@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "The orthogonality constraint imposed on concept embedding vectors during CAST training will induce a hierarchical property interaction structure where steering vectors for correlated molecular properties (e.g., QED and LogP) develop complementary rather than independent directional bases, enabling more efficient multi-property control with reduced steering strength requirements compared to properties with low correlation."
-}

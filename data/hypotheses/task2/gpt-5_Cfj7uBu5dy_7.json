@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "In MADE extended with both MLIP and DFT oracles, an agent that uses a calibrated multi-fidelity Gaussian process to model cross-fidelity correlations and selects queries by maximizing the expected number of new convex-hull phases will produce a higher yield of novel DFT-stable compounds per DFT evaluation than a single-fidelity MLIP-only BO baseline with diversity filtering, with the advantage increasing from ternary to quaternary chemical systems."
-}

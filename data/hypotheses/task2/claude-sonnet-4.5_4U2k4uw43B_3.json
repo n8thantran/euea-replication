@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Fine-tuning ML models on stress tensor predictions from intermediate SSNEB images will disproportionately improve convergence efficiency for phase transitions involving large volume changes compared to those dominated by octahedral tilting alone."
-}

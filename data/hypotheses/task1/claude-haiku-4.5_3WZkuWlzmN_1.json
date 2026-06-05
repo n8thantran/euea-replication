@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Cross-modal prediction loss that enforces agreement between graph, text, and spectral representations of crystal structures will improve material property prediction accuracy compared to single-modality approaches because multi-modal learning captures complementary structural information."
-}

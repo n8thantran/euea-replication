@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit active-site geometric descriptors (adsorption motif, facet type, and local coordination distances around the central adsorbate) as additional conditioning inputs to the CompGen diffusion model will improve the accuracy and transferability of two-shell compositions for targeted adsorption energies, reducing leakage and increasing correlation with DFT-calculated energies on both OC20 and HEA datasets."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Machine learning-based generative design conditioned on electrochemical and structural properties can discover silicon-based anode materials with stable lithium-ion migration channels and capacities exceeding 1500 mAh/g that are not present in existing materials databases."
-}

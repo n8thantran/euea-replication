@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIn multi-component alloy systems undergoing phase separation or order-disorder transitions, the spatial gradient of the Force Delta metric (\u2207U\u2206) will exhibit characteristic divergence patterns at emerging phase boundaries before they are detectable by conventional structural order parameters, enabling early prediction of microstructural evolution pathways in molecular dynamics simulations."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Augmenting SAM-EM with a motion-constrained association module that enforces LEONARDO-predicted displacement priors will reduce identity switches by at least 50% and increase J&F by \u22650.05 on synthetic LPTEM sequences with >30% frame overlaps compared to the current fine-tuned model."
-}

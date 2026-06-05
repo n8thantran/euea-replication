@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Generating shell-wise compositions under fixed cutoff radii (2.5 \u00c5 and 5.0 \u00c5) will produce catalytically suboptimal surface designs for adsorbates with significantly different van der Waals radii or binding geometries, and incorporating adsorbate-dependent dynamic shell definitions into the conditional diffusion model will improve predicted adsorption energy accuracy by at least 15% compared to fixed-radius shells."
-}

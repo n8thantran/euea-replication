@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "In the REINVENT4 singlet fission task, replacing fixed diversity thresholds with a proportional\u2013integral controller that adjusts similarity-, fragment-, and n-gram-penalty weights each step to keep the batch mean pairwise Tanimoto similarity in [0.11, 0.13] will preserve \u226595% fragment uniqueness and achieve a final average property score \u226595% of the baseline (no-constraint) run, thereby eliminating the optimization slowdown observed with fixed combined constraints."
-}

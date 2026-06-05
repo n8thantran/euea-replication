@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating symmetry-constrained perturbations during diffusion model training will produce structures with lower RMSD values and higher SUN scores compared to unconstrained diffusion models, particularly for high-symmetry crystal systems, because symmetry preservation reduces the conformational search space and naturally guides generation toward thermodynamically favorable configurations."
-}

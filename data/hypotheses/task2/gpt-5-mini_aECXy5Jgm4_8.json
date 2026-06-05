@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "There exists an optimal intermediate branching degree\u2014approximately 30\u201350% of monomer units acting as branch points\u2014in amine-based polymer sorbents such that, under DAC-relevant conditions (298 K, CO2 partial pressure 0.4 mbar) and humid environments (2\u20133 wt% H2O), polymers with this branching degree achieve \u226515% higher equilibrium CO2 uptake (measured by long-timescale MD-relaxed GCMC) than otherwise identical linear or highly crosslinked polymers."
-}

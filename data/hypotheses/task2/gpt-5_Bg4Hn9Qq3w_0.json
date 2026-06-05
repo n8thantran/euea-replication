@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "In the ALP reactor simulation (configuration II) with 7200 s experimental time and no QCM-range prior, a coordinated swarm of five LLM agents that are assigned disjoint regions of (B bubbler temperature, B pulse duration) by a simple central allocator will discover and correctly characterize self-limiting A/B saturation\u2014operationally defined as a plateau in per-cycle QCM gain when increasing B pulse beyond 40 s at T_B \u2265 550 K\u2014in at least 60% of runs, compared to \u226420% for an otherwise identical single-agent baseline."
-}

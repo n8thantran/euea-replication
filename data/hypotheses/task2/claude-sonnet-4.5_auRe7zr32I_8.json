@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating a dynamic multi-objective optimization framework that adaptively weights different diversity metrics (representation distance-based, string-based, fragment-based, and scaffold-based) based on their rate of decline during reinforcement learning will achieve superior property optimization performance compared to fixed-threshold combined constraints while maintaining equivalent or higher chemical diversity across all metrics."
-}

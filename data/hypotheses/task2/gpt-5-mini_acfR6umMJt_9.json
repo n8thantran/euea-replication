@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Fine-tuning EquiformerV2 via NN-BAX on a single NEB transition between two local minima will reduce the number of expensive energy/force (e.g., DFT) function evaluations needed to converge NEB for other distinct transitions within the same LJ38 potential-energy basin by at least 50% compared to initiating NEB from the original pre-trained EquiformerV2."
-}

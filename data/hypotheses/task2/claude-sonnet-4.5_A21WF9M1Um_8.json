@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating learned symmetry-breaking penalties into XRD-conditioned generative models\u2014where the penalty magnitude is dynamically adjusted based on predicted confidence in the space group classification\u2014will produce crystal structures that exhibit both higher XRD pattern fidelity and improved structural accuracy compared to models using either hard symmetry constraints or no symmetry bias, particularly for structures near phase boundaries or with partial disorder."
-}

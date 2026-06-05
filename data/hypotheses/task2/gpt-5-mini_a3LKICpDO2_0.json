@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Augmenting the \u2206-learning XGBoost model with GFN1-xTB-derived local electronic descriptors (per-site Mulliken/Loewdin charges and spin densities, metal-centered d-orbital population metrics, and local coordination/ligand-field proxies) will reduce the HSE06 band gap prediction MAE for MOFs containing 3d transition metals (Cr, Mn, Fe, Co, Ni) by at least 30% relative to the current \u2206-learning model that uses only structural, stoichiometric and radial/graph descriptors."
-}

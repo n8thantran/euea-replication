@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating lattice parameter prediction as an auxiliary objective during DPO training will improve the model's ability to satisfy the minimum lattice mismatch criterion without requiring explicit temperature-dependent reward weighting, thereby addressing the current challenge of optimizing B2 room-temperature stability."
-}

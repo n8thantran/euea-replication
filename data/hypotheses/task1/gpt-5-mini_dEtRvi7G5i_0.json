@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a metal lattice exhibits strong interstitial electron localization and favorable engineered features\u2014especially 3D electronic connectivity, high hydrogen content, and large hydrogen contribution to the electronic DOS at the Fermi level\u2014then the template-structured machine-learning workflow will predict it to be thermodynamically stable and subsequent DFT electron-phonon calculations will validate it as a stable, phonon-mediated superconducting metal superhydride with a significant Tc."
-}

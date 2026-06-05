@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a 2B language model is continually pre-trained on MOF-focused literature and large chemical structural corpora and then fine-tuned on MOFid-to-property datasets, then it will achieve lower MAE than structure-based baselines for MOF band gap and gas adsorption prediction\u2014especially with limited fine-tuning data\u2014because domain-specific pre-training transfers chemical priors to text-only MOF representations."
-}

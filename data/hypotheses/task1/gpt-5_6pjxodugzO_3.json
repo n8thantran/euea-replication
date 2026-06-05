@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If battery molecules, formulations, and device inputs are featurized using embeddings from SMILES-pretrained chemical foundation models and aggregated by composition, then supervised models will achieve lower error and stronger out-of-distribution generalization across molecular, formulation, interfacial, and device performance tasks than models using Morgan fingerprints or non-pretrained features because FM pretraining encodes transferable chemical structure\u2013property relationships across scales."
-}

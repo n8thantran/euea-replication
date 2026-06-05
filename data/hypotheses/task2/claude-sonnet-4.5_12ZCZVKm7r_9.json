@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating explicit physical constraints (such as energy conservation, rotational covariance, or thermodynamic consistency) during the pretraining of non-equivariant foundation models will induce emergent cross-architecture representational alignment comparable to architecturally equivariant models, even when evaluated on out-of-distribution molecular systems beyond the training distribution."
-}

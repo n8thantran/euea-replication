@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Adaptive batching algorithms that dynamically adjust padding targets during training based on the evolving distribution of graph sizes encountered in successive training epochs will reduce recompilation overhead and achieve speedups exceeding 2.7x compared to static batching methods while maintaining or improving model convergence rates across heterogeneous graph datasets."
-}

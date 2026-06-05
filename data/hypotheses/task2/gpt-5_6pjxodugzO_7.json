@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Encoding separator chemistry with polymer foundation model embeddings instead of categorical labels in the electrolyte\u2013separator contact-angle predictor will reduce test-set MAE by at least 20% on the 119-formulation dataset under identical five-fold train\u2013test splits."
-}

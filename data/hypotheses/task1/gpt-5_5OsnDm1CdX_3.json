@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a GraphSAGE model uses frozen, pre-trained single-gas FNN embeddings combined with gas fractions as node features to model Ar/O2 mixtures, then it will predict 10-point radial etching rates with lower weighted MSE (higher R\u00b2) than FNN, GCN, or GAT baselines on both Testgrid and Testthresh splits because transferring single-gas representations enables accurate composition-dependent interaction modeling and extrapolation across unseen power/pressure and composition regimes."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Neural network Bayesian Algorithm Execution (NN-BAX) with iterative fine-tuning of a pre-trained foundation model can efficiently approximate nudged elastic band calculations by requiring fewer expensive simulator evaluations than classical methods while maintaining comparable accuracy in identifying minimum energy pathways."
-}

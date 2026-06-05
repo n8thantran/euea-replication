@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Si\u2013X silicon alloy anodes that exhibit a computed slope of Li-ion migration channel radius versus state of charge \u22640.45 \u00c5 per 100% lithiation (from CHGNet-relaxed delithiation pathways) will display <20% electrode thickness change and \u226585% capacity retention after 500 cycles at 0.5C in LiPF6/EC:DEC with 10% FEC, whereas alloys with slopes >0.45 \u00c5 per 100% will fail at least one of these benchmarks."
-}

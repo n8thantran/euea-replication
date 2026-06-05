@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If the integrated Computational Workflow accurately combines thermodynamic optimization, React-CA reaction-network simulation, and market-based pricing to identify Ca2SiO4 synthesis recipes in the 800\u20131600\u00b0C range, then the resulting top-ranked recipes will exhibit higher economic efficiency than lower-ranked or baseline recipes."
-}

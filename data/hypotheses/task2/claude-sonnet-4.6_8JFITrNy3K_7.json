@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a domain-specific language model on the MatPROV PROV-JSONLD graphs\u2014using synthesis procedure graphs as training examples paired with their source text\u2014will achieve higher structural-level F1-scores than the best-performing prompted general-purpose LLM (o4-mini with one-shot prompting, F1 \u2248 0.835) specifically for complex multi-branch synthesis procedures (those with >15 nodes), because fine-tuning will internalize the PROV-DM graph topology constraints and materials-domain terminology in a way that in-context prompting cannot, and this improvement will be measurable by comparing structural F1-scores stratified by graph node count across both approaches on a held-out test set annotated by multiple domain experts."
-}

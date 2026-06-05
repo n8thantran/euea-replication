@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If AMDEN is conditioned on a target Young\u2019s modulus via classifier-free guidance during denoising, then the generated multi-element glass structures will exhibit computed Young\u2019s moduli that closely match and monotonically correlate with the target values because the guidance steers sampling toward configurations associated with the conditioned property in the training data."
-}

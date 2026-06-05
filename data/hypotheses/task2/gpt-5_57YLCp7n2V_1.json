@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "In 3D molecule generation on GEOM-Drugs, adding a training regularizer that penalizes atom-level deviations from the refined aromaticity-aware valency tuples (element, formal charge, narom, vother) will reduce both the mean GFN2-xTB relaxation energy and average torsion-angle deviation of generated structures compared to an otherwise identical model trained without this term."
-}

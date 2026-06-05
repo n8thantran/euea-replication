@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If lattice-structure design\u2013performance data are modeled as a low-rank tensor and surrogate models are trained via tensor completion (CPD-S/NeAT and their ensemble), then they will achieve higher R\u00b2 prediction accuracy than Gaussian Processes, XGBoost, and MLPs under both uniform and biased subsampling, because tensor completion exploits multiway correlations and robustness to missing/biased entries."
-}

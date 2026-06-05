@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a materials-synthesis paper is parsed by the o4-mini model using one-shot prompting with a complex in-context example, then the collection rate and structural and parametric F1 for PROV-DM-compliant graph extraction will be higher than those achieved by GPT-4.1, GPT-4.1 mini, zero-shot prompting, or simpler one-shot examples because the complex demonstration better guides the model to map narrative steps to correct nodes, edges, and attributes."
-}

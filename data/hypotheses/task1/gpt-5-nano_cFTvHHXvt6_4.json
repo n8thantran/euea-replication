@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If increasing CHROMA's encoder size (1B/3B/8B) and decoder depth (2/4/8 layers) leads to lower CIE76 \u0394E between target colors and transfer-matrix simulations for both training-paraphrase and novel optical-target prompts, then CHROMA's color-target accuracy scales with model capacity because larger models better capture the language-to-design mapping and constraint satisfaction."
-}

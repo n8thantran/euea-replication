@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a MACE model is augmented with gating mechanisms and species-dependent edge features and implemented in JAX, then it will match standard MACE\u2019s energy/force accuracy on SPICE2 while achieving faster inference and 1 ns MD simulation runtimes on H100 GPUs than Torch+ASE and unmodified MACE, because the architectural changes and XLA-optimized execution reduce per-step computational cost without diminishing expressivity."
-}

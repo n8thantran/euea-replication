@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If we steer a frozen molecular LLM by adding CBM-learned, approximately orthogonal property vectors to its intermediate activations during generation, then it will more accurately match specified single and multi-property targets (lower MAE/Best100MAE) while preserving validity, novelty, and synthesizability and outperform vanilla, ActAdd, and fine-tuned baselines across in- and out-of-distribution settings because these vectors disentangle and linearly control property-relevant directions in the model\u2019s representation space."
-}

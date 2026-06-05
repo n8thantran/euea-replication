@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Adding non-negativity and sum-to-one regularizations on component proportions in a diffusion-based generative model for carbon-fiber/epoxy composites will increase the physical validity and fabrication feasibility of generated samples and improve their ability to meet target yield strength and thermal conductivity compared with CVAE and TabDDPM."
-}

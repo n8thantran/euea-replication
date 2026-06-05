@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Diffusion models with equivariant graph neural networks can generate physically realistic amorphous material structures by denoising with energy-based scoring and Hamiltonian Monte Carlo refinement."
-}

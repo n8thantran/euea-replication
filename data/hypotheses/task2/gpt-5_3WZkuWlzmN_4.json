@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "In X-MoPA, incorporating stochastic modality dropout and a masked-modality consistency loss during pretraining will yield statistically significantly smaller MAE degradation on Matbench band gap, bulk modulus, shear modulus, and perovskite formation energy tasks when any single modality is withheld at inference compared to the baseline X-MoPA without these mechanisms."
-}

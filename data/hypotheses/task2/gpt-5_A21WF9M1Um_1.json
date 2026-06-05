@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "A continuation-based refinement that optimizes against a differentiable XRD simulator with initially large pseudo-Voigt peak widths (e.g., Gaussian/Lorentzian FWHM \u22731.0\u00b0) that are exponentially annealed to instrument-accurate Caglioti parameters will reduce spurious local minima and, without symmetry constraints, increase StructureMatcher match rates by at least 20 percentage points over fixed-width optimization at \u03c3l=0.1 and \u03c3c=0.05."
-}

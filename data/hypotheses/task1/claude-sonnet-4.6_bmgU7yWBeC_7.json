@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "The root-mean-square difference between conservative and non-conservative force predictions within a single dual-output neural network potential (Force Delta) serves as a reliable, data-free proxy for true force prediction error, such that structures with higher Force Delta will exhibit higher deviation from ground-truth DFT forces across diverse chemical systems and out-of-distribution configurations."
-}

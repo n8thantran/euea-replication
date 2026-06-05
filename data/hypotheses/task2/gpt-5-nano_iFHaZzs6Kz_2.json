@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "A conformer-aware extension to multimodal contrastive pretraining that jointly aligns SMILES with 3D electron-density grids across multiple low-energy conformers of the same molecule will yield representations that are invariant to both rotation and conformational changes, and will improve accuracy in predicting conformer-energy differences (\u0394E_conf) and conformer-dependent properties compared to single-conformer, rotation-only training."
-}

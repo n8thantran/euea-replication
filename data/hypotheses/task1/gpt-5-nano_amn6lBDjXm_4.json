@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Diffusion-model-generated crystal structures trained on Materials Project and OQMD data will, after DFT relaxation, exhibit small RMSD from the initial geometries, pass stability/novelty and validity criteria (SUN stability, low energy above hull, and minimum interatomic distances >0.5 \u00c5), and have density and formation-energy distributions comparable to the reference data, indicating they are physically plausible and energetically realistic."
-}

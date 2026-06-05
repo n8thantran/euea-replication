@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a closed-loop Gaussian process\u2013based Bayesian optimization platform is used to autonomously tune bicarbonate temperature and concentration, catholyte/anolyte flow rates, KOH concentration, and current density in a reactive carbon electrolyzer, then it will discover operating conditions that significantly maximize reactor yield (and JCO) within a small number of experiments and that generalize to mixed bicarbonate\u2013carbonate capture electrolytes, because the surrogate model efficiently identifies and exploits the most influential parameters in a high-dimensional, noisy system."
-}

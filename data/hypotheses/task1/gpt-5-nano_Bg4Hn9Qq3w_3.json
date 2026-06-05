@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If LLM agents are provided with interrogation-driven, tool-enabled experimental control and data retrieval in both a symbolic rule-discovery game and a physics-based ALP reactor simulation, then they will autonomously uncover the hidden rule that items containing the letters 'p' or 'm' are rejected in Alien Market and infer reactor-operating conditions that reproduce expert-labeled reference states, as evidenced by manual scoring and UMAP alignment."
-}

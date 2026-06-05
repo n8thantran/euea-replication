@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "A Transformer encoder-decoder with 150 cm\u207b\u00b9 patch-based spectrum embedding and a jointly trained spectral reconstruction alignment network, pretrained on large simulated MD-generated IR spectra and fine-tuned on NIST gas-phase IR data, can accurately identify molecular components in binary and ternary mixture IR spectra (including experimental ATR-IR measurements), achieving higher Top-k accuracy and Tanimoto similarity than models lacking the reconstruction alignment or patch embedding."
-}

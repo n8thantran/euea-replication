@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "The generalization performance of the GraphSAGE architecture to unseen gas mixtures will degrade monotonically as the chemical interaction complexity between constituent gases increases, measured by the ratio of mixture-specific reaction pathways to the sum of single-gas reaction pathways."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If a ReAct-based GPT-4o agent is coupled to a CALPHAD/JMA Nb\u2013O simulator for synthesis planning, then across the four benchmark tasks it will achieve a higher (or equal) success rate at matching target phase fractions while visiting fewer simulator states than a discretized A* baseline, because language-guided reasoning focuses exploration on promising operation sequences."
-}

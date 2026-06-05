@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "A single-agent system using structured text extraction and multimodal processing achieves higher precision, recall, and F1 scores in automated chemical information extraction compared to general-purpose and domain-specific multi-agent systems."
-}

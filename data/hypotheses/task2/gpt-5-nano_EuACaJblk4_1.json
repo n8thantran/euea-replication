@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Jointly training E2EFOLD with a differentiable thermodynamic stability predictor that estimates the stability of the designed sequence-backbone pair and optimizing a stability loss together with the existing losses will yield higher design self-consistency and more accurate structure predictions for designed sequences than the baseline E2EFOLD without explicit stability supervision."
-}

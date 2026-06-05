@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Branched and cross-linked polyamine networks designed via de novo assembly will exhibit higher CO2 uptake per gram and improved selectivity over water under humid direct-air capture conditions than linear polyamines, and a multi-fidelity Bayesian optimization framework that fuses fast MD-GCMC with higher-fidelity simulations will reliably identify such networks within a fixed computational budget."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "A cooperative multi-agent swarm of LLMs with a persistent shared memory that partitions the ALP reactor input space into subspaces will discover a broader and faster set of surface reaction regimes (including ALD, ALE, ASD, and CVD-like growth) than a single agent, due to increased exploration diversity and cross-subspace knowledge transfer, and this advantage will persist across varying prompts and noisy sensor data."
-}

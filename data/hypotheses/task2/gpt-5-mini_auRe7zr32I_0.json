@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "For conformation-dependent molecular design objectives, integrating adaptive diversity constraints derived from 3D conformation-aware representations (e.g., 3D fingerprints or graph-conformer ensembles) into generative optimization will yield higher functional diversity\u2014measured as greater variance in predicted target property and a larger number of unique scaffolds\u2014than using string- or 2D-fingerprint-based constraints, while producing a final mean property score that is not significantly lower (p < 0.05) than that obtained with combined 2D/string constraints."
-}

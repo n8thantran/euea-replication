@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Conditioning LoQI on the target solvent dielectric constant \u03b5 during training and sampling will yield solvent-specific conformer ensembles such that, for Platinum Diverse ligands with TPSA \u2265 60 \u00c5\u00b2, the median RMSD to crystal-bound conformers decreases by at least 0.05 \u00c5 and the mean absolute error of bound\u2013unbound energy differences decreases by at least 0.5 kcal/mol relative to the current unconditioned model trained only at \u03b5 \u2248 80 (water) CPCM."
-}

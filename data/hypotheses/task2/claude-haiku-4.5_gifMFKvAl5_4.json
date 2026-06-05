@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "The regularization weights \u03b11 and \u03b12 in the physics-constrained diffusion model exhibit a non-monotonic relationship with generated sample validity and coverage, such that intermediate weight values produce superior composite designs compared to both zero-constraint and maximum-constraint regimes due to an optimal balance between physical feasibility and exploration of the composition space."
-}

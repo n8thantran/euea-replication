@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating a LEONARDO-derived stochastic diffusion motion prior as a probabilistic constraint in SAM-EM\u2019s inter-frame association will reduce identity-switch events and increase J&F scores during severe particle overlap and temporary occlusions in high-thickness (\u2265150 nm) LPTEM videos relative to the current SAM-EM pipeline."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "In the Corral benchmark, restricting the agent\u2019s available tools at inference to the top-3 by task\u2013tool embedding similarity will increase pass@5 by at least 20 percentage points in MD and Spectra tasks relative to exposing all tools, while not reducing pass@5 in ML or OpenCatalyst by more than 5 percentage points."
-}

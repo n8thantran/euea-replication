@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Pretraining X-MoPA via cross-modal latent prediction will produce joint embeddings such that, when one modality (text, graph, or XRD) is missing during finetuning, downstream property predictors will retain at least 90% of their full-modal MAE performance (i.e., MAE increase \u226410%), whereas equivalent models pretrained with simple concatenation or contrastive-only objectives will exhibit >25% MAE degradation under the same missing-modality condition."
-}

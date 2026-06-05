@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If generative models are retrained on chemically accurate Kekulized GEOM-Drugs data with corrected valency calculations, then the generated molecules will exhibit geometries that are closer to GFN2-xTB-optimized references (smaller \u0394r, \u0394\u03b8, \u0394\u03c6, and lower \u0394E_relax) than models trained on the original data, because chemically accurate valency handling reduces structure-generation errors."
-}

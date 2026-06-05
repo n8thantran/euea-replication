@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Transfer learning efficacy for SEM-based battery classification will degrade significantly when the source domain (additive-free samples) and target domain (additive-containing samples) exhibit fundamentally different degradation mechanisms across distinct nickel compositions, such that pretraining on NCM333 additive-free data will not effectively transfer to NCM811 additive-containing data despite both sharing the same cycling state."
-}

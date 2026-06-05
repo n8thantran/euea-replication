@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If an EGNN-based diffusion model (AMDEN) with VE/VP noise schedules, ghost-atom density control, and an energy-based denoiser with HMC refinement is trained on amorphous datasets, then it will generate structures whose RDFs, bond-angle distributions, structure factors, and potential energy distributions match MD references across thermal histories and, when conditioned on Young\u2019s modulus, achieve target moduli."
-}

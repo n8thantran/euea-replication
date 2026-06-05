@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating non-equilibrium phonon dynamics into the chemical template-guided ML framework will reveal metastable superhydride phases with Tc > 200 K that are kinetically accessible through ultrafast compression pathways but excluded from conventional thermodynamic convex hull analysis."
-}

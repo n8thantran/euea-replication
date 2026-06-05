@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If the integrated workflow (thermodynamic screening via SISSO, React-CA simulation of reaction pathways, and pricing/feasibility analysis via ChemSpace and CrabNet) is effective, then Ca2SiO4 synthesis within the 800\u20131600\u00b0C Ca\u2013Si\u2013O\u2013C\u2013N\u2013H\u2013Al\u2013B space using 36 commercially available reactants will achieve thermodynamic favorability for Ca2SiO4 formation and lower average reactant cost compared with non-optimized recipes."
-}

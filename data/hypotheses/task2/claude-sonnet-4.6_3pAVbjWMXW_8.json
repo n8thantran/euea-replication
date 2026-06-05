@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating a learnable spectral subtraction module between the encoder and decoder\u2014trained to iteratively remove the reconstructed pure-component spectrum of one identified constituent from the mixture representation before predicting the next\u2014will enable the model to identify all components of a mixture simultaneously without requiring molecular formula prompts, thereby achieving higher Top-10 accuracy on ternary and higher-order mixtures than the current prompt-conditioned architecture while remaining testable by comparing component identification accuracy against the existing formula-conditioned baseline on held-out ternary NIST mixtures."
-}

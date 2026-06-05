@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "In a multi-fidelity MADE setting with MLIP pre-evaluation and a DFT oracle, an agent that models cross-fidelity uncertainty via Gaussian-process co-kriging and selects candidates by maximizing expected convex-hull improvement at the DFT level will discover at least 50% more DFT-confirmed, Materials Project\u2013novel stable compounds than a MatterGen-plus-diversity baseline within 50 DFT evaluations on held-out ternary systems."
-}

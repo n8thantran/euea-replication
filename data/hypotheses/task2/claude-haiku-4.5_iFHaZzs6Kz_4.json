@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Contrastive multimodal pretraining with SMILES anchors will induce emergent SO(3) invariance in 3D molecular encodings only when the symbolic modality is inherently invariant to the transformation; consequently, training on conformer-variant SMILES representations (e.g., 3D coordinate-dependent SMILES variants or augmented SMILES with stereochemical descriptors) will degrade rotational invariance in the learned 3D embeddings proportionally to the variance introduced in the symbolic modality."
-}

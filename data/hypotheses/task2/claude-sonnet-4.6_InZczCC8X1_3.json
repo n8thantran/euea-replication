@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Extending the single-objective reactor yield optimization to multi-product systems, incorporating catalyst composition (e.g., silver-copper alloy ratio) as an additional Bayesian optimization parameter alongside the six electrolyzer operating parameters will reveal synergistic optima where the bicarbonate-to-carbonate ratio simultaneously tunes in situ CO2 partial pressure to favor C\u2013C coupling, enabling a reactor yield metric defined as the joint product of C2+ partial current density and CO2 utilization to exceed the sum of individually optimized single-product reactor yields by at least 30% within fewer than 60 automated experiments."
-}

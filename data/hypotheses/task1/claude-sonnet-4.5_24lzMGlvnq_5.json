@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Language models fine-tuned with direct preference optimization using physics-based thermodynamic feedback will generate BCC/B2 superalloy compositions with higher phase coexistence rewards and improved synthesis feasibility compared to supervised fine-tuning alone."
-}

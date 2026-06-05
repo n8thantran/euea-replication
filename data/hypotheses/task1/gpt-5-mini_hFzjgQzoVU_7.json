@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If local atomic environments around iron are encoded as graph representations in the XDIP dataset, then graph neural networks (GCN, GAT, GIN) will accurately predict 100-point Fe K-edge XAS spectra and, conversely, ML models (MLP, Random Forest) will accurately recover coordination number and mean nearest-neighbor distance from those spectra, because XAS features systematically encode local structural information."
-}

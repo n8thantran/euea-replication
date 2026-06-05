@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Embedding a differentiable percolation-threshold constraint for conductive fillers (CNTs+Graphene), estimated from training data via effective-medium theory, into the PCDiff denoising loss at every timestep will increase, under a fixed sampling budget, the fraction of generated composites whose thermal conductivity lies within 5% of the user-specified target compared to the current PCDiff without this constraint."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If end-to-end chemical information extraction is performed on nanozyme and chelate-complex articles using domain-specific multi-agent systems or the novel single-agent pipeline, then the resulting extractions will achieve higher precision, recall, and F1 scores per dataset feature than baseline GPT-5, GPT-5 Thinking, and ChatGPT Agent configurations."
-}

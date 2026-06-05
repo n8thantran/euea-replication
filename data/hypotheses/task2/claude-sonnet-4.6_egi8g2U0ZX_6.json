@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating a hierarchical reward function in reinforcement learning that sequentially gates material-specific criteria\u2014first enforcing necessary structural prerequisites (conjugation and cyclization patterns) before optimizing secondary properties (symmetry, flatness, and steric hindrance)\u2014will reduce policy collapse frequency and increase the percentage of generated CTF candidate molecules passing all expert filters by at least 20 percentage points compared to the averaged single-objective reward function used in this study, because the current flat reward averaging allows molecules satisfying only easy criteria to receive misleadingly high scores that misdirect the policy away from the constrained chemical subspace required for functional porous carbon frameworks."
-}

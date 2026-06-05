@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Graph neural networks can predict Fe K-edge X-ray absorption spectra from local atomic structure of iron-containing proteins because the spectroscopic signatures are determined by the geometric and chemical properties of the iron coordination environment."
-}

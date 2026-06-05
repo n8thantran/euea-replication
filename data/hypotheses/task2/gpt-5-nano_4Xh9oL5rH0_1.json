@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Augmenting universal MLIPs with a physics-informed loss that enforces energy\u2013virial consistency during MD and training on explicitly non-equilibrium MOF configurations sampled over a broad temperature\u2013pressure range will improve zero-shot generalization to unseen MOFs and operating conditions, yielding more stable MD trajectories and accurate bulk modulus predictions."
-}

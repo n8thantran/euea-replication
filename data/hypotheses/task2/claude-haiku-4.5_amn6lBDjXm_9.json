@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Generative models trained on larger, more chemically diverse databases (such as OQMD) will exhibit improved transferability to out-of-distribution chemical compositions when evaluated using DFT-based metrics, but this improvement will plateau or reverse when the compositional distance from the training set exceeds a critical threshold that scales inversely with the model's latent dimensionality."
-}

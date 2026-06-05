@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "If the Force Delta metric captures genuine physical inconsistency in the learned potential energy surface, then incorporating it as a regularization term during fine-tuning of pre-trained direct-force NNIPs on domain-specific data will reduce the divergence between conservative and non-conservative force predictions, and this reduction will correlate with improved transferability to chemically similar out-of-distribution structures as measured by lower DFT force errors, compared to fine-tuning with standard loss functions alone."
-}

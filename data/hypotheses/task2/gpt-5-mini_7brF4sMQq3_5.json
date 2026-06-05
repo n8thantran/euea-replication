@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "The mean L2 norm of the combined score scomb_\u03b8(x, Tpause) computed on ASTRA-sampled dividing-surface configurations for a given A\u2192B pathway is positively correlated with the true activation free energy \u0394G\u2021 of that pathway, enabling ASTRA samples alone to rank competing transition channels by barrier height."
-}

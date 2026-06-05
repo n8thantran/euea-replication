@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "LLM agents equipped with ReACT-based tooling to propose and run experiments can infer hidden selection rules in the Alien Market and underlying reaction mechanisms in the simulated ALP reactor from limited pressure and QCM sensor feedback, with success rates that increase with model capability, experimental budget (number/duration of experiments), and richer sensor/data availability (e.g., QCM reference values)."
-}

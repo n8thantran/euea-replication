@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating an InfoNCE-style cross-representation contrastive objective during Phase 1 such that embeddings of SMILES, SELFIES, InChI, and IUPAC for the same molecule are explicitly pulled together will increase scaffold-split ROC-AUC on BBBP and HIV by at least 2.0 percentage points relative to the current masked-LM-only STR-Bamba426M pretraining."
-}

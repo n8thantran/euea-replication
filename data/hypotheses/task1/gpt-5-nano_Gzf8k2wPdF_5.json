@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Dynamic batching will reduce both batching time and gradient-update time compared with static batching (constant, 2N, and 64 padding) across QM9 and AFLOW datasets for SchNet, PaiNN, and MPEU models at batch sizes 16, 32, 64, and 128, because it adaptively estimates padding targets from data and incrementally adds graphs to minimize padding waste and recompilation overhead."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If local iron coordination environments are encoded as graph representations and processed by graph neural networks, then the models can accurately predict the 100-point Fe K-edge XAS spectrum and, from the spectra, classify coordination number and regress the mean nearest-neighbor distance."
-}

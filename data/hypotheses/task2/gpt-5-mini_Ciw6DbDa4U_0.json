@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "On the Gongora et al. lattice-structure dataset with an initially biased training set, an active-learning loop that uses an ensemble of tensor-completion surrogates (NeAT + CPD-S) to estimate uncertainty and select new experiments will require at least 30% fewer physical evaluations to identify a design whose Young\u2019s modulus is within 5% of the true optimum than an active-learning loop using a Gaussian Process surrogate with the same acquisition strategy."
-}

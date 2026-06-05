@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Integrating a differentiable long-range electrostatics component into the mlip framework\u2014where per-atom partial charges are predicted by a lightweight neural network and used in a stable Ewald-like correction\u2014will markedly improve energy and force predictions for charged solvated systems (e.g., SPICE2 charged subsets) by at least 15% MAE reduction and maintain competitive inference speed relative to purely local MLIP models."
-}

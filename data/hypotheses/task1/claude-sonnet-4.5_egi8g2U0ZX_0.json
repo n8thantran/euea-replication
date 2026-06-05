@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Transfer learning strategies combining pre-training on large chemical databases, fine-tuning on domain-specific porous carbon structures, and reinforcement learning with expert-defined reward functions will improve the generation of valid, novel covalent triazine frameworks compared to models without such knowledge transfer."
-}

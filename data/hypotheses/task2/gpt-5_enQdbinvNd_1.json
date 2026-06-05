@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating a structured, persistent semantic memory of domain heuristics and an episodic memory of past runs into the presented multi-agent framework will increase force-field extraction IoU for non-standard parameter tables (e.g., EPM2) from 0.67 to \u22650.90 and raise simulation setup success for three-adsorbate HOA and isotherm tasks to \u226595% without reducing execution rates, when evaluated on the same benchmark suite."
-}

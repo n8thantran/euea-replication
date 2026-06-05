@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Appending lightweight, computable local-geometry descriptors to MOFid\u2014specifically SBU coordination number, linker torsional-strain estimate, and unit-cell pore volume\u2014during continual pre-training and supervised fine-tuning will reduce QMOF band-gap prediction MAE by at least 10% relative to an otherwise-identical LLM trained on MOFid-only inputs."
-}

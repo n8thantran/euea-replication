@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If machine learning interatomic potentials (EquiformerV2 and eSEN) are used to pre-converge solid-state nudged elastic band pathways before DFT refinement, then the hybrid ML-SSNEB framework will require significantly fewer DFT iterations and less total computational time than pure DFT-based SSNEB while accurately reproducing the minimum energy pathways and transition states for metastable phase transformations in CsPbI3 and TiO2, because the ML models provide sufficiently accurate initial pathway geometries that place the DFT calculation near convergence from the outset."
-}

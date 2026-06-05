@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If combining sequential knowledge transfer strategies (pre-training on large chemical databases followed by domain-specific fine-tuning and reinforcement learning with expert-defined reward functions) is applied to generative molecular models, then the resulting configurations will produce novel, valid, and chemically diverse porous carbon framework candidates that satisfy expert-defined structural criteria at higher rates than models using fewer or no transfer learning steps, because each successive knowledge transfer stage progressively biases the model's chemical space toward the target domain while retaining generalization capacity from broader chemical pre-training."
-}

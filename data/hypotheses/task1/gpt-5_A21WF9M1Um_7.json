@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If distorted MP20 crystal structures are optimized by gradient descent to match target powder XRD patterns (across multiple loss functions and with or without symmetry constraints), then recovery match rates will be low and significantly worse than energy-based relaxation (CHGNet) because the XRD-similarity loss landscape is rough, with many sharp local minima and flat plateaus that trap the optimizer."
-}

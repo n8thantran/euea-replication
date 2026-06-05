@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIntroducing a hierarchical diffusion process that sequentially generates shell 1 composition conditioned on target properties, followed by shell 2 composition conditioned on both shell 1 and target properties, will improve compositional consistency and reduce element leakage compared to the current joint two-shell generation approach, particularly for complex high-entropy alloy systems where ensemble and ligand effects exhibit strong shell-to-shell dependencies."
-}

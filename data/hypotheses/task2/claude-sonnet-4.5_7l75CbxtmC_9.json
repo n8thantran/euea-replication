@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating real-time kinetic rate constants derived from machine learning predictions of activation energies into the cellular automaton framework will enable identification of synthesis routes that are both economically optimal and temporally feasible, revealing cases where thermodynamically favorable low-cost pathways are kinetically prohibitive at industrially practical timescales."
-}

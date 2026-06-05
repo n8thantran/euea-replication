@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Cross-modal predictive learning that leverages complementary information from graph, text, and spectral representations of crystal structures will predict material properties more accurately than single-modality approaches because multi-modal fusion captures diverse structural and compositional information through different feature spaces."
-}

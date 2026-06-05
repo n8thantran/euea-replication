@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If catalytic surface compositions are generated in a chemically informed latent space (via a periodic-table autoencoder) and sampled by a conditional diffusion model given adsorbate identity, target adsorption energy, and allowed elements, then the resulting two-shell compositions will achieve lower Fr\u00e9chet distance, lower leakage, and higher cosine similarity than a chemically agnostic baseline across data scales because the chemically structured latent space and conditioning capture and enforce relevant physico-chemical correlations."
-}

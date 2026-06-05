@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating multi-scale SEM imaging data (e.g., combining 500\u00d7, 2000\u00d7, and 5000\u00d7 magnification images of the same cathode sample) as multi-resolution input channels within the two-stage transfer learning framework will yield higher classification accuracy and more physically meaningful Grad-CAM attention maps for intermediate aging states (formation and 100-cycle) than single-magnification inputs, because particle-level cracking features visible at low magnification and surface-film microstructural changes induced by electrolyte additives visible only at high magnification provide complementary, non-redundant discriminative signals that a single-scale CNN cannot simultaneously capture."
-}

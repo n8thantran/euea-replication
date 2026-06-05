@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Extending AMDEN to jointly denoise the unit-cell vectors C while conditioning on zero external pressure will, without HMC, produce MEG samples whose post-optimization Young\u2019s moduli match their specified targets with a median absolute percent error \u22645% and whose modulus distribution is statistically indistinguishable from the training data."
-}

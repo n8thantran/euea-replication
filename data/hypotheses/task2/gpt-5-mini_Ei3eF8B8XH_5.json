@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Fine-tuning LoQI with paired protein pocket descriptors (e.g., local 3D electrostatic and steric grids) using ~1,000 protein\u2013ligand complexes will enable the model to generate ligand bound-state conformations that match experimental crystal structures with a median heavy-atom RMSD \u2264 0.6 \u00c5 using \u226410 sampled conformers per ligand on the Platinum Diverse test set, thereby outperforming unconditioned LoQI and RDKit ETKDG."
-}

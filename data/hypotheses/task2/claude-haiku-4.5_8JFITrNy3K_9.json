@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Synthesis procedures extracted as PROV-DM graphs will demonstrate predictive power for material properties when the topological complexity of the provenance graph (measured by metrics such as branching factor, path length, and node connectivity) is integrated as features into machine learning models, independent of the explicit synthesis parameters encoded in the graph."
-}

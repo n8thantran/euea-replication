@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Language models pretrained on large-scale simulated infrared spectra and fine-tuned with a spectral alignment reconstruction mechanism can accurately predict the molecular composition of unknown mixtures from their combined infrared spectra."
-}

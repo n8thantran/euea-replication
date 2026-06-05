@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Transfer learning performance for SEM-based battery classification will degrade when the additive type or chemistry composition in the target domain differs substantially from the source domain, requiring domain-specific adapter modules to maintain generalization across structurally dissimilar cathode materials beyond the NCM family."
-}

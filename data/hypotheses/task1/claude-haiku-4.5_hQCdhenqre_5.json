@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Machine learning interatomic potentials trained on large curated datasets with optimized hyperparameters and architectural modifications can achieve computational efficiency comparable to or exceeding traditional force field implementations while maintaining accuracy for molecular dynamics simulations of protein systems."
-}

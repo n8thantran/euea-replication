@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating reaction pathway and synthesis condition data from chemical literature into the continual pre-training corpus will enable LLMs to predict not only MOF physicochemical properties but also synthesizability scores, such that models pre-trained on synthesis-augmented corpora will achieve lower mean absolute error on property prediction tasks compared to models pre-trained solely on structural and abstract data, because synthesis context encodes implicit chemical compatibility constraints between metal nodes and organic linkers that are absent from MOFid string representations alone."
-}

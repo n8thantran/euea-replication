@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Using sequence-mean pooled hidden activations instead of the last-token representation to compute CAST\u2019s concept values and applying the resulting steering vector to all token positions will reduce out-of-distribution LogP Best100MAE without lowering validity relative to the original single-position CAST."
-}

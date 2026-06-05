@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Conditioning the E2EFOLD decoder on both the sampled one-hot sequence and the encoder\u2019s per-residue amino acid probability vectors (at \u03c4=1) will increase mean self-consistency TM-score on RFData by at least 0.05 and reduce mean backbone RMSD on E2EData by at least 0.5 \u00c5 relative to the current one-hot\u2013only baseline."
-}

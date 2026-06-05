@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating an aromaticity-aware valency constraint into the training objective of 3D equivariant generative models\u2014explicitly conditioning generation on (number of aromatic bonds, non-aromatic bond-order) tuples\u2014will produce models whose generated molecules have higher molecular stability under the arom-dependent valency metric and a lower mean GFN2-xTB relaxation energy (\u2206Erelax) than otherwise-identical models trained without this constraint."
-}

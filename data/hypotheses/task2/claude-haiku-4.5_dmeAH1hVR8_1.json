@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "LLM pre-training on domain-specific corpora will show diminishing returns for MOF property prediction beyond an optimal corpus composition ratio, and this ratio will be inversely correlated with the size of the downstream supervised fine-tuning dataset."
-}

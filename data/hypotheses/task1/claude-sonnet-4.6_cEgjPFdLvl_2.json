@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a diffusion model framework combining an equivariant graph neural network backbone with energy-based scoring and Hamiltonian Monte Carlo refinement is applied to amorphous material generation, then it will produce structurally valid amorphous configurations\u2014as measured by radial distribution functions, bond angle distributions, structure factors, and potential energy distributions\u2014that more closely match reference molecular dynamics simulations compared to standard denoising approaches, because incorporating physical energy gradients and stochastic sampling during the reverse diffusion process better enforces the local geometric constraints characteristic of amorphous materials."
-}

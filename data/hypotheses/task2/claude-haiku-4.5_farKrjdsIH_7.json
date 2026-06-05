@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Fine-tuning SAM-EM on multi-lab experimental LPTEM data with varying microscope conditions and sample chemistries will reveal that domain-specific variations in electron scattering patterns and nanoparticle contrast require adaptive normalization layers rather than full model retraining to maintain segmentation performance across different experimental setups."
-}

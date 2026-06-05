@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nCoupling ensemble members through unlabeled data consensus will induce a form of implicit curriculum learning, where the ensemble naturally learns simpler molecular features first before converging on more complex property relationships, leading to improved sample efficiency that scales superlinearly with the diversity of the unlabeled molecular dataset's chemical space coverage."
-}

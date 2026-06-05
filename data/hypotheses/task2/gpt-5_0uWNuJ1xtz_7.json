@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "In STR-Bamba, the mean pairwise cosine distance among a molecule\u2019s encoder embeddings derived from its different textual representations (SMILES, SELFIES, InChI, IUPAC, and formula) will be positively correlated with that molecule\u2019s absolute error in downstream property predictions across datasets."
-}

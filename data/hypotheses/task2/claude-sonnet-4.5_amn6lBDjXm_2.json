@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating explicit chemical bonding constraints derived from Pauling's rules into the latent space architecture of diffusion models will reduce the RMSD of generated structures by at least 30% while maintaining comparable SUN scores, thereby enabling more efficient DFT screening with fewer relaxation cycles required per structure."
-}

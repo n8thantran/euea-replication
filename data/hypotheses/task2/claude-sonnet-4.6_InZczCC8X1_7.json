@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating a dynamic, real-time adjustment of the bicarbonate-to-carbonate ratio during electrolysis\u2014guided by an online surrogate model trained on instantaneous mass spectrometry feedback\u2014will enable the reactive carbon electrolyzer to maintain operation at the optimal reactor yield point even as catalyst degradation progressively shifts the JCO\u2013UCO2 trade-off curve over extended operation, thereby sustaining reactor yields above 40 mA cm\u207b\u00b2 for durations exceeding 100 hours, a performance that static optimal conditions identified by the closed-loop Bayesian optimization cannot achieve due to their inability to compensate for time-dependent catalyst deactivation."
-}

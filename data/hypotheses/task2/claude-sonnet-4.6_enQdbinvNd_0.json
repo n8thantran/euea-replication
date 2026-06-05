@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating episodic memory of past simulation failures and parameter extraction errors into the multi-agent framework\u2014specifically by maintaining a structured database of documented failure modes (e.g., incorrect cutoff selections, misassigned interaction parameters from non-standard table layouts, mixture versus individual adsorbate simulation errors) that agents query before executing each task\u2014will measurably reduce error rates in simulation setup and force field extraction compared to the current prompt-only architecture, with the greatest improvement observed for structurally unconventional parameter tables similar to the EPM2 case where IoU dropped to 0.67."
-}

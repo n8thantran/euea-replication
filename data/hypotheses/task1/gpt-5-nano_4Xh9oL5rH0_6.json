@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If universal machine learning interatomic potentials trained on diverse MOF-related data accurately capture the interatomic potential energy surface, then they will reproduce DFT-level structural optimization convergence and volume deviations, MD stability under NpT conditions at 300 K and 1 bar, bulk moduli from \u00b14% strain fits, and 300 K heat capacities for MOFs and related nanoporous materials, because their learned representations generalize across this chemical space."
-}

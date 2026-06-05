@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Introducing ensemble-based predictive uncertainty into NN-BAX (via an ensemble of EquiformerV2 models) will reduce both the number of NEB iterations and total energy/force evaluations required to recover the ground-truth MEP for LJ7 and LJ38, while preserving barrier accuracy, compared to the single-model NN-BAX baseline."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If MACE, NequIP, and ViSNet are implemented in a JAX-based MLIP library integrated with JAX-MD and use a gated, species-dependent MACE variant, then protein-scale MD simulations on H100 GPUs will run faster than Torch+ASE baselines while maintaining comparable energy/force accuracy on SPICE2 because XLA compilation and species-aware gating reduce per-step inference overhead without sacrificing model expressivity."
-}

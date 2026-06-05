@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "A normalized linear combination of per-structure Force Delta and ensemble force-variance yields higher Spearman and Pearson correlations with true DFT force error than either metric alone for both Orb and EquiformerV2 models on equilibrium and adversarial out-of-distribution structures."
-}

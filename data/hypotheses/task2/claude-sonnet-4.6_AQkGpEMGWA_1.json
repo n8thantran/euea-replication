@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Among the Si\u2013X alloy candidates identified by the AI framework as exhibiting invariant Li\u207a migration channel dimensions across lithiation states, those in which the stabilizing element X has an atomic radius that closely matches the void space of the Si sublattice framework will demonstrate a quantifiable threshold effect: alloys where this geometric compatibility falls within a specific tolerance window (predicted to be \u00b10.3 \u00c5 between X atomic radius and mean channel void radius) will exhibit volumetric expansion below 50% during full lithiation, whereas alloys outside this window will revert to expansion rates approaching that of pure Si regardless of their channel stability scores, a relationship testable by systematic DFT-relaxed molecular dynamics simulations across a curated set of binary Si\u2013X compounds spanning a range of X atomic radii."
-}

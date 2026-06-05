@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Training AMDEN with an auxiliary loss that supervises predicted forces (gradients of potential energy) computed from a classical interatomic potential will enable the standard denoising procedure (without HMC) to generate annealed-like relaxed amorphous structures whose post-optimization potential energy distributions are statistically indistinguishable from those of the annealed training set (two-sample KS test, p > 0.05)."
-}

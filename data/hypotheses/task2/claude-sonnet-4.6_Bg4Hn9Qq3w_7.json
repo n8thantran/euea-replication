@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Deploying a swarm of LLM agents with systematically varied model temperatures to explore the same ALP reactor simulation in parallel, with a meta-agent that synthesizes their divergent experimental trajectories in real time, will discover a significantly greater fraction of the total chemical interaction space\u2014including rare effects requiring extended persistence\u2014compared to sequential single-agent runs, because higher-temperature agents will escape local minima that trap lower-temperature agents while lower-temperature agents efficiently exploit promising signals detected by their higher-temperature counterparts."
-}

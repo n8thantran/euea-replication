@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nMulti-fidelity active learning agents that explicitly model the correlation structure between MLIP, DFT, and experimental oracles will discover stable materials 2-3\u00d7 more sample-efficiently than single-fidelity agents by strategically querying cheaper oracles to reduce uncertainty before committing expensive DFT or experimental evaluations."
-}

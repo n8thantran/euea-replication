@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Under an equal total experimental time budget, a swarm of independently seeded LLM agents coordinated by a supervisor that shares only deduplicated summaries of explored conditions will achieve at least 40% higher coverage of the ALP reactor state space (measured by UMAP overlap with expert-labeled regions) and at least a twofold higher rate of correct discovery of ALE and ASD passivation than a single agent."
-}

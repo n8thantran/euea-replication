@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If NN-BAX trains EquiformerV2 on initial/final states plus acquired intermediate points and performs NEB on the surrogate model rather than the full simulator, then the resulting minimum energy paths for LJ7 and LJ38 will converge to the ground-truth NEB MEPs (as judged by MAEi and fmax criteria) with comparable accuracy but reduced computational cost, because the surrogate learns the energy landscape along the path and the acquisition focuses evaluations where the model uncertainty is greatest."
-}

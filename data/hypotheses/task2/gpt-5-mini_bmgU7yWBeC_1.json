@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating the Force Delta as a differentiable regularization term during training of direct-force NNIPs will reduce the RMS true force error on adversarial out-of-distribution test structures by at least 20% compared to identical models trained without this regularizer."
-}

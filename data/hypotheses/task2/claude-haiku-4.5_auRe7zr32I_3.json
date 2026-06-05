@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Adaptive threshold optimization for diversity constraints will demonstrate superior performance compared to fixed thresholds when applied across structurally diverse molecular design tasks, such that constraint parameters automatically calibrated to maintain a target diversity-property Pareto frontier will achieve faster convergence to high-quality solutions while preserving greater chemical space exploration than manually-tuned constraints."
-}

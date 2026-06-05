@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "When an agent's iterative discovery history within MADE is used as a structured context (encoding the sequence of proposed compositions, their energies above the hull, and resulting convex hull updates), a large language model fine-tuned on this sequential feedback will develop an implicit surrogate model of the chemical landscape that enables it to outperform both random and diversity-based acquisition functions in sample efficiency\u2014measured as novel stable compounds discovered per oracle query\u2014specifically because the autoregressive reasoning over ordered failure-and-success trajectories encodes transferable chemical heuristics (e.g., valence balance, electronegativity matching) that generalize across chemical systems unseen during fine-tuning, a prediction that is falsifiable by comparing per-query discovery rates across held-out ternary and quaternary systems against non-sequential baselines that receive the same information in randomized order."
-}

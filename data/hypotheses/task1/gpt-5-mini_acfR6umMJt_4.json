@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If NEB calculations are executed using the NN-BAX approach with an iteratively fine-tuned EquiformerV2, then the method will reproduce ground-truth minimum energy paths for LJ7 and LJ38 transitions\u2014meeting the fmax convergence criterion and low MAEi\u2014while requiring fewer expensive simulator evaluations than classical NEB."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit electronegativity difference tensors between first-shell and second-shell elements as an additional conditioning signal in the latent diffusion model will improve adsorption energy prediction accuracy and generation fidelity for multi-component catalytic surfaces beyond what is achievable with composition vectors alone, because electronegativity gradients across shells encode charge-transfer-driven ligand effects that are not captured by elemental fractions but directly modulate adsorbate binding strength."
-}

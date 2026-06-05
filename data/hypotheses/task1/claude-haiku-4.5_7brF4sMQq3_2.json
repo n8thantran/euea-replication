@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Combining score-based diffusion models trained only on metastable state data with guided sampling and force projection refinement can identify transition states with committor values near 0.5 without requiring direct access to transition state configurations during training."
-}

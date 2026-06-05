@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "The approximation of the reaction coordinate using score differences (rSAA = sB_\u03b8(x,t) - sA_\u03b8(x,t)) will become progressively less accurate for systems with more than two metastable states or intermediate basins, such that the Score-Aligned Ascent mechanism will fail to distinguish between competing transition states that connect different pairs of basins in a multi-state reaction network."
-}

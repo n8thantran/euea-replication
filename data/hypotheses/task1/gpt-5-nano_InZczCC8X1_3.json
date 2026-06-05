@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If the six operating parameters (bicarbonate temperature 25\u201380\u00b0C, bicarbonate concentration 0.5\u20133.05 M, cathode-side flow rate 30\u2013200 mL/min, KOH concentration 0.05\u20133 M, anode-side flow rate 6\u201330 mL/min, and total applied current density 50\u2013350 mA/cm\u00b2) are optimized using closed-loop Bayesian optimization with Gaussian process regression, then the resulting reactor yield in reactive carbon electrolyzers will exceed the yield obtained from a random experimental design."
-}

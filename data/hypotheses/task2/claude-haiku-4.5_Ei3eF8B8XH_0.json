@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "The generalization performance of LoQI to out-of-distribution molecular scaffolds will degrade significantly when applied to molecules containing metal coordination centers or non-organic functional groups not represented in the ChEMBL3D training set, despite the model's success on drug-like organic molecules."
-}

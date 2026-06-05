@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Applying CAST\u2014adding steering vectors formed from CBM-learned property embeddings to the frozen hidden activations of an LLM\u2014will enable conditional molecular generation that achieves lower property MAE and higher generative efficiency than vanilla, ActAdd, and fine-tuning baselines while preserving validity, uniqueness, novelty, and synthetic accessibility, including for out-of-distribution property targets."
-}

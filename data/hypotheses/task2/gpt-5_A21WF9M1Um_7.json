@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Optimizing crystal structures from powder XRD by minimizing the 1D Wasserstein (earth mover\u2019s) distance between normalized intensity distributions in momentum-transfer q, instead of cosine, MSE, or entropy similarity in 2\u03b8, produces a loss landscape with fewer spurious local minima and yields higher StructureMatcher recovery rates under both lattice and coordinate noise without symmetry constraints."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "The root-mean-square disagreement between conservative (energy-gradient-derived) and non-conservative (directly predicted) forces within a single dual-output neural network potential serves as a reliable, data-free proxy for true prediction error, such that structures with higher Force Delta values will exhibit higher actual force errors relative to DFT ground truth, enabling effective uncertainty quantification without requiring an ensemble of models or reference data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Contrastive multimodal pretraining between SMILES and electron density grids will exhibit degraded pose-invariance for molecules with stereochemically distinct conformers (e.g., those with rotatable bonds or chiral centers in non-equivalent conformations), because the SMILES anchor lacks conformational specificity and thus cannot enforce alignment across energetically disparate 3D poses that correspond to the same canonical SMILES string."
-}

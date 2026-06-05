@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nAdaptive hybrid batching that dynamically switches between static-64 and dynamic algorithms based on real-time monitoring of graph size variance within training epochs will achieve superior training efficiency compared to any single fixed batching strategy, with the optimal switching threshold being predictable from the coefficient of variation of the graph size distribution and the cumulative number of gradient updates already performed."
-}

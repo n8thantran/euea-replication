@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating learned, data-driven symmetry priors from XRD patterns into generative models will yield smoother optimization landscapes than physics-based XRD similarity metrics alone, enabling gradient-based structure refinement to converge reliably even under high lattice distortions (\u03c3l > 0.1) without requiring explicit crystal family constraints."
-}

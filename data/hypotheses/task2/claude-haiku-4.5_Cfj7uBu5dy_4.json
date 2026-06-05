@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Agents employing uncertainty quantification over the MLIP energy landscape will discover thermodynamically stable compounds at significantly higher efficiency than deterministic acquisition strategies, but only when the MLIP's predictive uncertainty correlates with actual errors relative to higher-fidelity DFT evaluations in unexplored chemical regions."
-}

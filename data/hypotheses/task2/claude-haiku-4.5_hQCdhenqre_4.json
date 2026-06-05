@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Models trained on curated datasets with force-based filtering will exhibit systematically worse generalization to out-of-distribution molecular geometries with genuine high-force configurations (such as transition states or strained conformers) compared to models trained on unfiltered datasets, despite showing superior validation metrics on in-distribution data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If catalytic surface composition is represented as two concentric shell-wise composition vectors and modeled via a chemically informed autoencoder whose latent space is used by a conditional diffusion model conditioned on adsorbate identity, target adsorption energy, and allowed elements, then the generated compositions will achieve lower Fr\u00e9chet distance and leakage and higher cosine similarity than a chemically agnostic baseline, including under reduced training data and cross-dataset fine-tuning, because the PTR-based latent prior encodes elemental relationships and local structural context."
-}

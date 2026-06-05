@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The predictive accuracy of structure-to-spectrum models for iron-containing proteins will significantly improve when trained on multi-element XAS datasets that include copper and manganese metalloprotein spectra, as the shared coordination geometries across different transition metals will enable transfer learning of generalizable structure-spectrum relationships that are currently element-specific."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If generative models (REINVENT, MolMIM, Mol-AIR) are pre-trained on large chemical databases, fine-tuned on a small CTF-specific dataset, and optimized via reinforcement learning with expert-crafted structural rewards, then they will produce a higher fraction of valid, novel, and internally diverse CTF candidates that pass expert filters and achieve improved FCD compared to models without this staged transfer, because transfer learning and reward shaping encode and enforce domain-specific structural priors."
-}

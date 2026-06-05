@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If STR-Bamba is trained as a multimodal encoder\u2013decoder on multiple molecular representations with cross-attention, then its latent representations will be modality-agnostic and cluster cohesively across representations, and it will yield superior downstream property prediction performance and molecular representation translation quality compared with single-representation baselines."
-}

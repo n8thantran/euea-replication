@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "A hybrid batching schedule that uses dynamic batching for the first 100,000 training steps and switches to static-64 thereafter will reduce end-to-end wall-clock training time by at least 12% relative to static-64 alone, without a statistically significant change in final test RMSE (p > 0.10), for the PaiNN model on both AFLOW and QM9 at batch size 64 on a single A100 GPU with JAX."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If concept-based steering vectors derived from a CBM are added to the frozen LLM's hidden activations during conditional molecular generation, then the resulting molecules will show lower MAE for target properties (QED and LogP) and higher validity, novelty, and synthetic accessibility compared to vanilla LLM and baseline approaches, especially in out-of-distribution target settings."
-}

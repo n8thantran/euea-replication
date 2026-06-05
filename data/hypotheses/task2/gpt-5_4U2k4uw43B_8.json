@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "For solid-state transitions with significant lattice rearrangement (e.g., CsPbI3 \u03b2\u2192\u03b3), fine-tuning the eSEN surrogate on fewer than 200 DFT-labeled SSNEB images with a loss assigning at least 50% weight to stress errors will reduce VASP-restart SSNEB iterations by at least 30% and cut symmetry-breaking along the pathway (quantified by space-group changes) by 50% or more compared to energy/force-only fine-tuning."
-}

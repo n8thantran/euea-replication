@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Equipping MLIP architectures with a dynamic, environment-conditioned per-atom partial charge predictor integrated into the graph features and updated during MD will improve energy/force prediction accuracy and MD stability for charged/ionic systems (e.g., solvated salts and protonation states) relative to charge-neutral MLIP baselines, without incurring prohibitive speed penalties."
-}

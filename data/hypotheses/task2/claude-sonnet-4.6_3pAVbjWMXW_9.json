@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating uncertainty-aware concentration estimation directly into the transformer decoder\u2014replacing the fixed scalar concentration input with a learned probabilistic distribution over concentration ranges\u2014will yield greater robustness to imprecise LC-MS concentration measurements and improve Top-10 accuracy for minority-component identification (\u226430% concentration) by at least 10 percentage points compared to the current deterministic concentration-conditioned architecture."
-}

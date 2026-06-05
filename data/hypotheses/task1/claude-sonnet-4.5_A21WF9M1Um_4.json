@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Gradient descent optimization using XRD pattern matching loss functions will fail to recover crystal structures from distorted initial configurations due to a rough, non-convex loss landscape with numerous local minima that trap the optimization process."
-}

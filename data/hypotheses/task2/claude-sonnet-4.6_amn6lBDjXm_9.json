@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Computationally efficient EMD metrics calculated over DFT-derived band gaps will exhibit stronger correlation with simulation-based stability metrics (RMSD and SUN) than EMD metrics calculated over ML-predicted formation energies, because band gaps are more sensitive to subtle changes in atomic coordination and electronic structure that accompany structural instability, making them a more physically discriminative distributional descriptor for evaluating generative model performance without requiring full DFT relaxation."
-}

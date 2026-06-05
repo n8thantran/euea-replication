@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "For three- or four-component Ar/O2/other-gas mixtures in the same ICP reactor, augmenting the inductive GraphSAGE model with edge features computed as pairwise chemical-interaction scores (e.g., Jaccard similarity of reaction sets or normalized differences in key ionization/adsorption rates derived from single-gas PBMs) will improve mixture etching-rate prediction R2 by at least 0.05 versus the identical GraphSAGE architecture using an unweighted complete graph when trained and evaluated on the same mixture PBM dataset."
-}

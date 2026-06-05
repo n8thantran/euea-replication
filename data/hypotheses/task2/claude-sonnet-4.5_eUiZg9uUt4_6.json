@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Augmenting retrosynthesis training datasets with synthetically generated reactions from underrepresented template classes (frequency <100) will improve model generalization to rare reaction types without sacrificing accuracy on common templates, provided the synthetic reactions are generated using mechanistically-informed rules rather than random perturbations."
-}

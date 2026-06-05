@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating learned symmetry-aware diffraction fingerprints as auxiliary constraints in XRD-conditioned generative models will enable gradient-based refinement to escape local minima by creating convex basins around symmetrically equivalent structures, thereby improving structure recovery rates by more than 40% compared to unconstrained optimization even under lattice distortions exceeding 0.1 strain."
-}

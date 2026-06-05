@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "The hybrid deep learning model combining 2D CNN surface encoding, GRU-based polymer sequence encoding, and multi-head attention will accurately predict polymer-surface binding free energies from surface and polymer features and will outperform baseline models, with performance enhanced by symmetry-based data augmentation."
-}

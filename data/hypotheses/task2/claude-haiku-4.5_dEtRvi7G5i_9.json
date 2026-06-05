@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Metal superhydrides with non-integer stoichiometries containing transition metals from the d-block (rather than s-d border metals) will exhibit higher critical temperatures than their s-d border analogs due to enhanced electron-phonon coupling from d-orbital contributions to the density of states at the Fermi level."
-}

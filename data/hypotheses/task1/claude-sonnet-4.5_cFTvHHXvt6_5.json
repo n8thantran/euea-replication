@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "A frozen large language model encoder combined with a trainable Transformer decoder can learn to map natural language descriptions of colors to discrete multilayer thin-film designs that reproduce those colors through structural interference, with performance improving as encoder size and decoder depth increase."
-}

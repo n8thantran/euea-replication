@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If we compute CKNNA, IDCor, and Information Imbalance between last-layer embeddings of diverse scientific foundation models on shared molecule, material, and protein datasets, then we will observe significant cross-model alignment indicative of a common low-dimensional manifold\u2014strongest for equivariant geometry-based models and in-distribution data and weaker on out-of-distribution inputs\u2014because these models learn shared physico-chemical constraints of matter despite differing modalities and architectures."
-}

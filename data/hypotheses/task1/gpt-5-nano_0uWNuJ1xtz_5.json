@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If STR-Bamba is pretrained multimodally across seven molecular representations with cross-representation alignment, then the latent representations of the same molecule will cluster together across modalities and downstream task performance (property prediction and cross-representation translation) will exceed that of models trained on a single representation."
-}

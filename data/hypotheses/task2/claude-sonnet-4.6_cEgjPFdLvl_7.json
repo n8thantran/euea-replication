@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "The computational cost of HMC denoising in AMDEN scales prohibitively with system size because HMC steps require repeated gradient evaluations through the full denoiser network; therefore, replacing HMC with a learned surrogate energy landscape\u2014trained on the noise energies predicted by AMDEN across diffusion trajectories\u2014to propose Monte Carlo moves during the denoising process will reduce inference cost by at least an order of magnitude while maintaining equivalent structural accuracy and property prediction fidelity compared to full HMC denoising, as measured by radial distribution function agreement and Young's modulus prediction error on the MEG dataset."
-}

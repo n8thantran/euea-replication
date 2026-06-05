@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "A symmetry-aware, Wyckoff-prior-conditioned generative model for crystal structures, paired with energy-based relaxation guided by XRD, will more robustly recover the ground-truth structure from heavily distorted XRD patterns than symmetry-free gradient-descent methods or symmetry-based projections alone."
-}

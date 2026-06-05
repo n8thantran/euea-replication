@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "A multi-agent large language model framework can autonomously and reproducibly configure molecular simulation input files and extract force field parameters from scientific literature with sufficient accuracy to execute valid RASPA simulations, because decomposing complex simulation setup tasks into specialized cooperative agents with access to domain-specific tools and shared memory reduces the complexity burden on any single model component."
-}

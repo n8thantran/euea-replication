@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Joint end-to-end training of protein structure prediction and inverse folding in a discrete stochastic autoencoder framework will improve both sequence recovery and structure prediction accuracy compared to models trained separately for each task."
-}

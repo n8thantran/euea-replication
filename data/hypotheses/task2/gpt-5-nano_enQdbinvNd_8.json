@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Integrating a Bayesian, experimental-data-driven calibration loop into the autonomous force-field extraction framework will improve cross-topology transferability by reducing the mean absolute error of predicted adsorption isotherms for unseen zeolite\u2013adsorbate combinations by at least 15% compared to literature-derived parameter extraction alone, and will provide uncertainty estimates to guide adaptive simulation planning."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a 3D molecular encoder is trained contrastively against a pose-invariant SMILES representation, then the resulting 3D embeddings will exhibit emergent invariance to molecular rotations without explicit equivariance constraints, because the SMILES modality provides a rotation-free supervisory signal that forces the 3D encoder to discard pose-specific information and encode only chemically meaningful structure."
-}

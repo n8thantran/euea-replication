@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Transfer learning from SEM images of additive-free cathodes will show diminishing performance gains when applied to battery cathodes with chemically distinct electrolyte additives that induce morphological changes fundamentally different from aging-induced degradation patterns, requiring domain-specific pretraining rather than additive-free pretraining to maintain classification accuracy above 0.95 F1 score."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "The diffusion model's learned score function encodes information about the curvature of the free energy landscape orthogonal to the reaction coordinate, such that the magnitude of the score difference vector ||s^A_\u03b8(x,t) - s^B_\u03b8(x,t)|| correlates with proximity to the transition state ensemble independent of the interpolation weight \u03ba, enabling unsupervised transition state identification in systems with unknown or poorly defined metastable states."
-}

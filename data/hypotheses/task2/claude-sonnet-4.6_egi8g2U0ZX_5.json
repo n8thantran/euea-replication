@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Combining the paper's finding that material-specific filter passage negatively correlates with internal diversity, and that standard chemical pre-training datasets are misaligned with CTF chemical space, a hierarchical curriculum reinforcement learning strategy\u2014where the reward function progressively introduces material-specific constraints in order of their chemical generality (conjugation first, then flatness, then symmetry, then patterns) rather than averaging them simultaneously\u2014will achieve higher percentages of molecules passing all expert filters simultaneously compared to the averaged multi-objective reward used in this study, while maintaining greater molecular diversity by preventing premature convergence to narrow chemical subspaces."
-}

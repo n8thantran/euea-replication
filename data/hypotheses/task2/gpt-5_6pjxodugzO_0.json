@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Replacing the composition-weighted sum of molecular embeddings with a trainable interaction-aware aggregator that includes pairwise element-wise products and attention over constituents will reduce the MAE of log ionic conductivity on the 18,000-point dataset by at least 15% and lower tail-end out-of-distribution MAE by at least 10% relative to the best baseline reported here."
-}

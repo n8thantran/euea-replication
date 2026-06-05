@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Chemical template-guided machine learning models can predict thermodynamically stable metal superhydride structures by first identifying metal lattices with strong electron localization at interstitial sites, enabling more efficient discovery than traditional crystal structure prediction methods."
-}

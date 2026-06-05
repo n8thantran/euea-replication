@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating a learned polymer-surface contact map as an auxiliary prediction task alongside PMF profiles will enable the hybrid CNN-GRU-Transformer model to identify sequence-specific \"hotspot\" motifs that disproportionately govern binding free energy, thereby reducing the number of required training simulations by at least 30% while maintaining prediction accuracy above R\u00b2 = 0.98."
-}

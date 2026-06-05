@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a single-agent pipeline that preserves document structure with marker-pdf SDK and incorporates GPT-4o image captioning followed by GPT-4.1/GPT-5/GPT-OSS-20b extraction is used, then it will achieve higher precision, recall, and F1 and better end-to-end schema compliance on ChemX nanozyme and chelate datasets than baseline GPT models, a general ChatGPT Agent, and existing domain-specific multi-agent systems because structured text extraction and integrated multimodal processing reduce information loss and improve adherence to the target extraction schema."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "JAX-based machine learning interatomic potential models can achieve faster molecular dynamics simulation times compared to PyTorch-based implementations while maintaining equivalent prediction accuracy on molecular systems."
-}

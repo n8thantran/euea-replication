@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Si-based alloy anodes with invariant Li+ migration channel sizes will exhibit superior cycling stability only if the alloying elements form electrochemically inactive sublattices that remain structurally rigid during lithiation, whereas alloys with channel-stabilizing elements that participate in reversible redox reactions will show accelerated degradation due to charge-transfer-induced lattice distortions that progressively collapse the migration pathways."
-}

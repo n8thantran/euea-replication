@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Integrating 3D MOF structural information as an additional modality, via a cross-modal transformer that jointly attends to MOFid-based text and 3D graph representations, will yield statistically significant reductions in MAE on QMOF and hMOF predictions compared to the PMC+PubChem text-only pre-trained MOF LLM, with larger benefits in low-SFT-data regimes and for MOFs with complex topologies."
-}

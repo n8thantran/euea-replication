@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Polymer-surface binding free energy predictions trained on coarse-grained models with uniform interaction strengths will fail to generalize to systems with spatially heterogeneous polymer-surface interaction strength gradients, requiring a modified attention mechanism that explicitly encodes interaction strength anisotropy to maintain prediction accuracy."
-}

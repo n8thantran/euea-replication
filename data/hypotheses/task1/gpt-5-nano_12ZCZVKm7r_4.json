@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "There exists a universal, architecture- and modality-agnostic latent representation learned by diverse scientific foundation models that aligns across molecules, materials, and proteins, as evidenced by high cross-model alignment (CKNNA, IDCor), comparable intrinsic dimensionalities, and consistent cross-domain phylogenetic structures for both in-distribution and out-of-distribution data."
-}

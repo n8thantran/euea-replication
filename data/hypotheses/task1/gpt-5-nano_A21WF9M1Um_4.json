@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Symmetry-constrained (projected) gradient-descent optimization of XRD patterns will yield a higher ground-truth recovery rate from noise-distorted structures than unconstrained gradient-descent optimization, indicating that enforcing the correct crystal family mitigates the roughness of the loss landscape."
-}

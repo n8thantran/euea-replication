@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a conditional variational autoencoder trained on Li\u2013Si\u2013X crystal graphs is conditioned on >1500 mAh/g capacity and large, charge-state-invariant Li+ migration channels and its outputs are structurally relaxed with a machine-learned interatomic potential, then the resulting materials will be energetically stable silicon-based anode candidates that maintain large continuous Li+ diffusion pathways between charged and discharged states because the learned latent space encodes transferable structure\u2013property relationships linking topology to capacity and channel robustness."
-}

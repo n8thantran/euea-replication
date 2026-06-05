@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating dynamically weighted modality fusion based on property-specific mutual information scores will enable X-MoPA to outperform fixed cross-modal prediction on properties where modalities contribute asymmetrically to predictive power, such as band gap (where XRD and graph contribute more) versus formation energy (where text and graph dominate)."
-}

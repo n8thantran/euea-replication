@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating dynamically weighted modality-specific attention coefficients during cross-modal prediction will enable X-MoPA to adaptively prioritize information-rich modalities on a per-sample basis, leading to improved property prediction accuracy for materials with incomplete or noisy modality data compared to the current fixed two-modality-to-one prediction scheme."
-}

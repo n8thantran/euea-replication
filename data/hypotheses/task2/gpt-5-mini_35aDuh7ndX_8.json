@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Integrating ensemble 3D pharmacophore descriptors derived from multiple ligand conformers and protein pocket conformations into the reward function of the FREED++ generative framework will produce de novo molecules that achieve on average at least 1 kcal/mol better docking scores (more negative) against the alpha-estrogen receptor while maintaining structural novelty (mean Tanimoto similarity to the reference set < 0.4) compared to molecules generated using only 2D CATS-based pharmacophore guidance."
-}

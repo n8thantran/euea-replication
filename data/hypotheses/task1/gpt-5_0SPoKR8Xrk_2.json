@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If polymer sequences and surface lattices are jointly encoded by a 2D-CNN/GRU hybrid model with cross-attention and symmetry-aware augmentation and trained on MD-derived PMFs, then the model will predict polymer\u2013surface binding free energies more accurately than baseline architectures because cross-attention captures sequence\u2013surface interaction motifs while augmentation enforces rotational and flip invariances."
-}

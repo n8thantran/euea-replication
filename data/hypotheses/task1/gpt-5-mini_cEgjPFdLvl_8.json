@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "AMDEN, an EGNN-based diffusion model using VE noise for positions and VP noise for element embeddings (with optional energy-based scoring and HMC refinement), can generate amorphous materials\u2014both single-element silicon across varied thermal histories and multi-element glasses\u2014whose radial distribution functions, bond angle distributions, structure factors, and potential energy distributions closely match those of reference MD-generated samples after local geometry optimization, and conditioning with classifier-free guidance on Young's modulus enables controllable inverse design of mechanical properties."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating low-resolution LC\u2013MS1 spectra as an additional input modality to the transformer model alongside the IR mixture spectrum will increase Top\u201310 identification accuracy for target components present at 10% concentration by at least 25 percentage points compared to the IR-only model presented in this work."
-}

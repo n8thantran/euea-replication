@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Agents using the pretrained MatterGen structure generator with a diversity-based acquisition function and initialization from all known stable structures will discover more novel stable compounds within 20 queries (\u03b5=0.01 eV/atom) across the tested Na\u2013O and Co\u2013Nb\u2013Sn systems than agents using a random structure generator with random acquisition and elemental end-member initialization."
-}

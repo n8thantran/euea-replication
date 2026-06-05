@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If the hybrid neural network combining a 2D CNN surface encoder, a GRU polymer encoder, and multi-head attention is trained on the MD-derived PMF dataset, then it will accurately predict polymer\u2013surface binding free energies across diverse surfaces and sequences with lower MAE than baseline models, because it effectively encodes surface and sequence interactions."
-}

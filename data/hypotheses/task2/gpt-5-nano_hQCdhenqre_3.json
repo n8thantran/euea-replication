@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Integrating predictive uncertainty estimation into MLIP models (e.g., via ensembles or Bayesian neural networks) and coupling it with active-learning retraining triggered by high uncertainty will produce MLIPs that maintain accurate energies and forces and deliver stable MD trajectories for charged and ionic systems not represented in training data, with fewer extrapolation errors than uncertainty-free counterparts."
-}

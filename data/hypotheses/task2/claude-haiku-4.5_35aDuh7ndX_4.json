@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Pharmacophore similarity to reference compounds will show diminishing returns in predicting experimental binding affinity when the structural novelty of generated molecules exceeds a critical threshold, suggesting that excessive scaffold divergence decouples pharmacophoric patterns from their functional relevance in target binding."
-}

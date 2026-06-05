@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Applying NN-BAX acquisition sampling strategies that prioritize images near the predicted transition state region\u2014rather than uniform random sampling along the NEB path\u2014will further reduce the number of DFT function evaluations required for convergence by at least an additional order of magnitude, because the energy barrier and transition state geometry are disproportionately sensitive to accurate force/energy predictions in the high-curvature saddle-point neighborhood, and targeted sampling there will accelerate model refinement precisely where it matters most for the convergence criteria."
-}

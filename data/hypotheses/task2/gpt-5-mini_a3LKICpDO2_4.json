@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Augmenting the \u2206-learning XGBoost model with metal-center electronic features computed from GFN1\u2011xTB \u2014 specifically Mulliken spin population, the d\u2011orbital projected density-of-states centroid (d\u2011band center), and local magnetic moment \u2014 will reduce the HSE06 band gap MAE for Cr/Mn/Fe/Co/Ni-containing MOFs by at least 30% relative to the \u2206-learning model trained only on ST\u2011135, RACs and APRDF descriptors."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating real-time optical coherence tomography feedback into the AdaCarbon closed-loop optimization will enable dynamic adjustment of flow rates in response to in-situ CO\u2082 bubble formation patterns, thereby achieving reactor yields exceeding 60 mA cm\u207b\u00b2 by mitigating transient mass transport limitations that current steady-state parameter optimization cannot address."
-}

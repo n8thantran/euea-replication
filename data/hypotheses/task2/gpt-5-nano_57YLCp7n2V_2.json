@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating an aromaticity-aware valency regularizer derived from Narom\u2013Vother bonding environments into 3D molecular generators will reduce chemically invalid and fractured outputs across diverse chemical spaces and improve agreement between generated conformers and GFN2-xTB-optimized geometries compared to models trained with standard valency constraints alone."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "A symmetry-conditioned XRD-to-structure diffusion model that restricts generation to the ground-truth crystal family during sampling, followed by a short energy-based relaxation, will achieve higher structure-recovery match rates and fewer spurious minima from distorted XRD patterns than both unconstrained XRD optimization and energy relaxation alone."
-}

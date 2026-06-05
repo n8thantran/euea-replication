@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "For reaction networks containing three or more metastable states, a hierarchical extension of ASTRA that applies Score-Based Interpolation and Score-Aligned Ascent pairwise to adjacent state pairs will locate the elementary transition state ensembles for each step such that the sampled configurations exhibit median committor values within 0.1 of 0.5 and geometric RMSD to benchmark transition states below 1.5 \u00c5, despite being trained only on metastable-state data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Augmenting the pharmacophore-guided reinforcement-learning reward with explicit 3D pharmacophore constraints derived from ensemble conformers of the reference estrogen receptor modulators will yield de novo molecules that, compared to the CATS-only method, exhibit significantly improved in vitro binding potency to ER\u03b1 (median IC50 reduced by \u22652-fold, p<0.05) while preserving high structural novelty (\u226580% of molecules with Tanimoto \u22640.4 to references) and comparable drug-likeness (mean QED within \u00b10.1)."
-}

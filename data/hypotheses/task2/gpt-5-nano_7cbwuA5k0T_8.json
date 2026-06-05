@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Equipping LLM-based scientific agents with a dynamic tool synthesis mechanism that composes and parameterizes new task-specific tools from the existing toolset during problem solving will reduce the effective tool\u2013task embedding distance and yield higher pass@5 scores in high-distance domains (e.g., Spectra and MD) compared to static tool provisioning."
-}

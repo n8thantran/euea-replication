@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Integrating differentiable surrogate models predicting DFT-derived electronic conductivity and pore-forming propensity into the reinforcement learning reward will increase the fraction of generated substrates that both pass expert structural filters and exceed surrogate-predicted conductivity and porosity thresholds by at least 30% compared to RL using only expert heuristic filters, while preventing policy collapse and preserving uniqueness above 50%."
-}

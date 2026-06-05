@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "A unified multimodal molecular encoder-decoder model trained on multiple molecular representations will learn a shared latent space that enables accurate translation between representations and improves molecular property prediction compared to single-modality approaches."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Larger pre-trained language model encoders combined with deeper transformer decoders will produce multilayer thin-film designs with lower CIE76 \u0394E color differences from target specifications because increased model capacity enables better mapping between natural language color descriptions and the discrete optical material-thickness vocabulary."
-}

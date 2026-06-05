@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If metal superhydride discovery is structured around chemical concepts of electron localization at interstitial quasi-atom sites in metal lattices, then a machine learning workflow trained on these chemically meaningful structural features will more efficiently identify thermodynamically stable and superconducting superhydrides than unguided high-throughput searches, because constraining the search space to physically motivated metal lattice configurations reduces combinatorial complexity while preserving the key structural determinants of stability and high-temperature superconductivity."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "A coordinated heterogeneous ensemble of LLM agents\u2014differing in sampling temperature and initial seeds and each given disjoint experimental budgets and overseen by a supervisor that aggregates summaries and redirects experiments toward under-sampled regions\u2014will, under a fixed total experimental time budget, discover a higher fraction of the ground-truth reaction rules and achieve greater coverage of the reactor experimental state space (measured by UMAP occupancy area and unique labeled-state visits) than any single-agent baseline using the same total budget."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If the LoQI stereochemistry-aware diffusion model (DiT+EGNN with chirality/E/Z augmentation) is trained on the ChEMBL3D near-DFT conformer dataset, then it will generate in 25 steps stereochemically correct molecular conformers whose energies are as low as or lower than reference structures and close to DFT across diverse, flexible drug-like molecules because it learns quantum-accurate energy landscapes while enforcing stereochemical constraints."
-}

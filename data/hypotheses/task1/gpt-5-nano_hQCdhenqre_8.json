@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If the modified MACE architecture with gating mechanisms and species-dependent edge features is used, then MD inference speed will increase without sacrificing energy/force prediction accuracy relative to the original MACE model, because gating reduces computation and species-aware edges capture interactions more efficiently without degrading performance."
-}

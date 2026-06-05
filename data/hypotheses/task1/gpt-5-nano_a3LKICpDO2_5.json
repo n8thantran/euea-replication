@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If \u2206-learning XGBoost models trained on MOF descriptors (ST-135, RACs, APRDFs) to predict the GFN1-xTB\u2013DFT band-gap difference can predict DFT band gaps of MOFs more accurately than direct XGBoost models and outperform fine-tuned deep learning baselines (MOFTransformer and CGCNN)."
-}

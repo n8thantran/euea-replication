@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "If the embedding similarity between task descriptions and tool descriptions (task-tool alignment score) is used as a dynamic selection criterion to automatically curate or rank available tools presented to an agent at inference time\u2014rather than providing a fixed, complete toolset\u2014then agent performance on low-alignment scientific tasks such as spectroscopy will improve significantly compared to providing the full toolset, because reducing irrelevant tool distraction will compensate for the overhead introduced by misaligned tool provisioning without requiring the design of new domain-specific tools."
-}

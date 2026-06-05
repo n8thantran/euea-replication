@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Active-learning fine-tuning of a pre-trained eSEN model using \u2264100 variable-cell DFT-labeled SSNEB images with a stress-amplified loss will yield ML-only SSNEB pathways for CsPbI3 \u03b2\u2192\u03b3 and TiO2-B\u2192anatase whose energy barriers differ from VASP-only results by <0.05 eV while halving the required SSNEB iterations relative to the current ML-only baseline."
-}

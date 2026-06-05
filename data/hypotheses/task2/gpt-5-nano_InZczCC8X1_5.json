@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "A cathode catalyst layer engineered to provide surface Br\u00f8nsted acid sites that accelerate in situ bicarbonate-to-CO2 conversion at the cathode\u2013electrolyte interface will increase the local CO2 availability, thereby increasing both FECO and CO2 utilization and resulting in a higher maximum reactor yield than achievable with the Ag GDEs under realistic carbonate/bicarbonate capture electrolytes."
-}

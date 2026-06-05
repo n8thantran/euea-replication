@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Given that semantic alignment between tools and tasks (measured through embedding similarity) is a strong predictor of agent performance, and that domain knowledge in base models can make agentic frameworks add unnecessary overhead, I hypothesize:\n\n**Dynamically pruning the tool set presented to an agent based on real-time embedding similarity between the current task state and available tools will improve performance more than providing the complete tool set, particularly in domains where the base model has moderate (but incomplete) domain knowledge.**"
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Fine-tuning the pre-trained eSEN model with an active-learning loop that adds \u2264200 DFT-labeled images sampled from early ML-SSNEB trajectories and uses a loss reweighted to prioritize stress components will reduce the model's stress mean absolute error by >50% and enable ML-only SSNEB to predict MEP energy barriers within 0.05 eV of full DFT SSNEB for both CsPbI3 and TiO2, obviating the need for DFT restarts."
-}

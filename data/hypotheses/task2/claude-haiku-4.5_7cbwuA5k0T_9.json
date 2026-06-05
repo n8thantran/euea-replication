@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Embedding-based task-tool alignment will show diminishing returns as task complexity increases beyond a certain threshold, such that models with lower domain knowledge will require not just semantically aligned tools but also explicit metacognitive scaffolding that teaches the model when and why alignment failures occur during execution."
-}

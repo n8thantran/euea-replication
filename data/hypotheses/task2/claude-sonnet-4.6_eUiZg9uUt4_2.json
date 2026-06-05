@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Applying class-balancing strategies during training\u2014specifically oversampling rare reaction templates to equalize their representation with frequent ones\u2014will disproportionately improve out-of-distribution (OOD) top-10 accuracy on unseen templates for template-free models (MEGAN and RootAligned) compared to template-based models (LocalRetro), because template-free architectures implicitly learn generalizable chemical transformation patterns that are currently suppressed by majority-class dominance, whereas LocalRetro's explicit template library constrains it to predefined disconnections regardless of training balance."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If polymer sequences and surfaces are encoded with a symmetry-aware hybrid network that couples a 2D CNN (for surfaces) and a GRU (for polymers) via attention, then MD-derived polymer\u2013surface binding free energies will be predicted for unseen pairs with lower mean absolute error than baseline architectures, because this model captures spatial\u2013sequential interaction motifs while enforcing rotational and flip invariances."
-}

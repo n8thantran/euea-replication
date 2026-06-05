@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "When jointly optimizing for more negative formation energy and larger band gap, augmenting MatAgent with a Pareto-front memory tool that stores and retrieves non-dominated compositions each iteration will yield a higher dominated hypervolume after 15 iterations than a baseline MatAgent using scalarized objectives under identical predictors and initialization."
-}

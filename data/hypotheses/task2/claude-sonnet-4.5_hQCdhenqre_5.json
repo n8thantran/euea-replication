@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating learned attention mechanisms over the neighbor list padding buffer will reduce the frequency of neighbor list reallocation events during JAX-MD simulations, thereby decreasing compilation overhead and improving overall simulation throughput by at least 15% for systems with highly dynamic conformational changes compared to the current fixed padding strategy."
-}

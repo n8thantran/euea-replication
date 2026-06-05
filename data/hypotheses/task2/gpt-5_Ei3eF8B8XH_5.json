@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Training LoQI on ChEMBL3D without enantiomer deduplication\u2014i.e., including both mirror-image enantiomers for each chiral molecule\u2014will raise its R/S stereochemistry preservation accuracy on an unseen chiral test set by at least 2 percentage points compared to the current model."
-}

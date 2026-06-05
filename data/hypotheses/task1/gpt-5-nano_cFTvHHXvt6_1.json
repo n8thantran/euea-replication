@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Increasing CHROMA's encoder size and decoder depth will reduce the CIE76 \u0394E color difference between target colors and those produced by the simulated multilayer designs, demonstrating improved linguistic-to-optical fidelity and generalization to paraphrased prompts and novel optical targets across multiple viewing angles."
-}

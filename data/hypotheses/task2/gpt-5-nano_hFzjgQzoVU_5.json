@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Accounting for conformational dynamics by using an ensemble of locally sampled iron-centered structures (generated from MD simulations, clustered into representative states, and weighted by their Boltzmann populations) to train a structure-to-spectrum graph neural network will improve the accuracy of Fe K-edge XAS predictions (XANES and EXAFS) for iron-containing proteins compared to using a single static structure."
-}

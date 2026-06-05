@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating a lightweight force-matching auxiliary loss on 5% of training batches\u2014using short (\u22645 ps) MD-derived forces at the same thermodynamic conditions\u2014will calibrate AMDEN\u2019s learned noise energy so that standard denoising (without HMC) reproduces anneal Si post-relaxation energy and structural distributions (RDF peak positions within 0.02 \u00c5 and bond-angle means within 1\u00b0 of the training data) and achieves MEG Young\u2019s modulus conditioning with mean absolute"
-}

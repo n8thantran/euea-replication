@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Machine learning models trained on chemical template-derived features can accurately predict thermodynamic stability of metal superhydride structures, enabling efficient discovery of stable metal lattice configurations that would require prohibitively expensive high-throughput computational screening."
-}

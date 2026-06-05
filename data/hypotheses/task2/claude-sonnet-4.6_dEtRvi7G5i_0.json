@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating ternary metal sublattices (two distinct metal species) into the chemical template framework will yield superhydrides with synergistically tuned electron localization at interstitial sites, such that the geometric and electronic complementarity between the two metals produces 3D hydrogen clathrate structures with Tc exceeding 200 K at pressures below 150 GPa\u2014a regime inaccessible to binary superhydrides predicted by the current binary-metal workflow."
-}

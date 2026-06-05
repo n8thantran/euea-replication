@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating topology-aware pre-training by augmenting the chemical corpora with synthetic MOFid sequences generated through systematic permutation of RCSR topology codes with known stable SBU-linker combinations will improve prediction accuracy for MOFs with rare or underrepresented topologies compared to models pre-trained solely on naturally occurring chemical text and structure databases."
-}

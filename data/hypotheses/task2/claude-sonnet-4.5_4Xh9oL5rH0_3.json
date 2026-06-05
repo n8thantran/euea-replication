@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nFine-tuning universal machine learning interatomic potentials on diverse non-equilibrium MOF configurations generated through adversarial sampling of unstable coordination geometries will eliminate the remaining outlier failures in structural optimization without requiring additional DFT-labeled equilibrium structures."
-}

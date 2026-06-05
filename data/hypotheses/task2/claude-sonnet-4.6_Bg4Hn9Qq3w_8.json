@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Deploying a swarm of LLM agents with systematically varied model temperatures to explore the same atomic layer processing reactor simulation in parallel, with a meta-agent that dynamically weights and synthesizes their findings based on experimental novelty scores, will discover a significantly greater fraction of the total available chemical interaction space within equivalent total experimental time compared to any single-agent configuration, because higher-temperature agents will escape local minima and sample rare reaction pathways while lower-temperature agents reliably characterize well-signaled effects, and this hypothesis is falsifiable by comparing UMAP coverage metrics against single-agent baselines across multiple reactor configurations."
-}

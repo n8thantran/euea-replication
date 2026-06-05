@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit chemical bonding constraints into the noise energy function \u00ca\u03b8(x) will enable diffusion models to generate charge-balanced amorphous materials without requiring multiple sampling rounds, while maintaining the structural and energetic quality achieved through HMC refinement."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating a learned symmetry-aware regularization term that penalizes deviations from the nearest plausible space group during XRD-conditioned structure generation will reduce the basin of attraction for spurious local minima more effectively than post-hoc projection-based constraints, enabling gradient-based refinement to recover correct crystal structures even under high lattice noise (\u03c3_l > 0.1) without requiring prior knowledge of the exact crystal family."
-}

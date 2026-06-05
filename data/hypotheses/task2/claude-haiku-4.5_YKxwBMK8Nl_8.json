@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating domain-specific chemical ontology constraints during the preprocessing stage will improve agentic extraction performance on high-complexity chemical datasets by reducing hallucination rates and improving precision on multi-value linked fields more substantially than document structure conversion alone."
-}

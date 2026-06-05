@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Fine-tuning SAM 2 on synthetic LPTEM videos will produce a model (SAM-EM) that achieves higher Jaccard index, F1-score, and composite J&F scores than the U-Net baseline across test scenarios with varying particle counts, resolutions, and SNRs, and whose predicted centroids on real LPTEM frames closely match manual annotations to enable accurate particle tracking and downstream motion analyses."
-}

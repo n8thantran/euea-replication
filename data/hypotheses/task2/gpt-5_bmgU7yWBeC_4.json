@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating a Force Delta consistency regularizer during fine-tuning of pre-trained direct-force NNIPs\u2014minimizing the mean squared difference between the directly predicted forces and the negative energy gradient\u2014will reduce out-of-distribution (adversarial) force RMSE by at least 25% at"
-}

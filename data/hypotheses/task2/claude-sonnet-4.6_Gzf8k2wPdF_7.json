@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "For datasets with heavy-tailed graph size distributions (such as AFLOW), a hybrid batching algorithm that dynamically switches between static-64 and dynamic batching based on an online estimate of the current batch's coefficient of variation in node/edge counts will achieve lower mean training time per step than either algorithm alone, because it exploits static-64's faster batching overhead during epochs where sampled graphs cluster near the mean while avoiding costly recompilations during epochs where outlier graphs are encountered."
-}

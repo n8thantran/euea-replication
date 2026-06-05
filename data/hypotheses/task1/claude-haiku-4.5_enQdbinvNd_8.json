@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Multi-agent LLM systems with specialized roles and access to external tools can autonomously complete end-to-end molecular simulation workflows\u2014from force field extraction to simulation setup\u2014with reproducible results comparable to manual expert execution."
-}

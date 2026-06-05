@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If a diffusion-based generative model incorporates non-negativity and sum-to-one regularization (PCDiff), then it will produce a higher proportion of physically valid and fabricable composite material compositions (higher Validityreg and Validityfab) while maintaining comparable fidelity and diversity (Density/Coverage) than CVAE and TabDDPM."
-}

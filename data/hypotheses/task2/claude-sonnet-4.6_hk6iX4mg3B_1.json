@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating ensemble diversity regularization through architectural heterogeneity\u2014by combining structurally distinct GNN architectures (e.g., message-passing networks with different aggregation schemes) within the coupled ensemble rather than using identically-initialized homogeneous models\u2014will amplify the knowledge distillation effect observed in this paper, such that individual members of a heterogeneous coupled ensemble will achieve lower prediction error on molecular property tasks than individual members of a homogeneous coupled ensemble of equivalent total parameter count, because increased inter-member functional diversity will produce higher-quality consensus targets that encode complementary inductive biases about molecular structure."
-}

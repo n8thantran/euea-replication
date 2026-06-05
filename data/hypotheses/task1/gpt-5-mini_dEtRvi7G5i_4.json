@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If metal lattices display strong electron localization at interstitial quasi-atoms, three-dimensional electronic connectivity, high hydrogen content, and significant hydrogen-derived density of states at the Fermi level, then they will form thermodynamically stable superhydrides with strong electron-phonon coupling and high superconducting transition temperatures, and a stacked AutoGluon machine-learning model trained on lattice-derived features can accurately identify these candidates prior to DFT validation."
-}

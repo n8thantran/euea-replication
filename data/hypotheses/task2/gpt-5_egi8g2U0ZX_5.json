@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "For lattice-node generation, replacing REINVENT\u2019s scalar-averaged reward with a Pareto-front multi-objective RL (non-dominated sorting over CSM symmetry, flatness RMSE, conjugation, and steric hindrance) will raise the percentage of molecules passing expert filters by at least 15 absolute points relative to the best fine-tuning-only baseline on a ChEMBL35-pretrained prior, while maintaining uniqueness of at least 80% across 10 independent runs of 10,000 samples."
-}

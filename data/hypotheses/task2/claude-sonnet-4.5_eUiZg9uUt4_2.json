@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Given that reaction template frequency in the training set strongly correlates with model performance across all architectures, and that rare templates (<10 occurrences) show dramatically reduced accuracy despite potentially representing chemically valid transformations:\n\n**Hypothesis:** Augmenting the training set with synthetically generated reactions for rare templates (frequency 1-10) using rule-based chemistry engines or quantum chemical calculations will disproportionately improve top-k accuracy for underrepresented reaction classes without requiring additional experimental data collection, thereby mitigating class imbalance effects more efficiently than random oversampling or class reweighting strategies."
-}

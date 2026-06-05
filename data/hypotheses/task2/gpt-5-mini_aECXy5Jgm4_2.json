@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Block copolymers consisting of amine-rich polyamine blocks separated by hydrophobic spacers of at least six methylene units will exhibit at least 20% greater CO2 uptake at 298 K, 0.4 mbar CO2 and 40% relative humidity than linear polyamines with equal total amine density, due to suppressed competitive H2O adsorption and increased accessible free volume in amine-rich domains."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Imposing a cycle-consistency loss that enforces translating a molecule from any supported representation A to representation B and back to A yields the original sequence will produce a more representation-invariant latent space in STR-Bamba426M, leading to higher cross-representation translation accuracy and better downstream property prediction across modalities, with particularly pronounced gains for underrepresented formats like InChI and IUPAC."
-}

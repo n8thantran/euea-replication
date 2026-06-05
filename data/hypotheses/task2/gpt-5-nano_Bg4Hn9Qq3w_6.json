@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "A cooperative swarm of LLM agents, each assigned to explore different subspaces of the ALP reactor configuration and constrained by synchronized communication to share high-level summaries, will yield a higher rate of novel, generalizable reaction-transport rules and more diverse deposition/etching regimes than a single agent under the same total experimental time."
-}

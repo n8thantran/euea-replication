@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Dynamic batching will yield lower per-step training time than static padding strategies (static-constant, static-2N, static-64) across batch sizes (16, 32, 64, 128) and datasets (QM9 and AFLOW) for SchNet, PaiNN, and MPEU, because it adapts the padding target from data and incrementally adds graphs to minimize wasted padding."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Including second-coordination-shell atoms (all neighbors within 5 \u00c5 of Fe) in the structural graph, instead of only first-shell ligands (\u22642.5 \u00c5), will reduce test-set EXAFS spectrum prediction MAE by at least 20% relative to the best first-shell-only GIN baseline trained on the same XDIP splits."
-}

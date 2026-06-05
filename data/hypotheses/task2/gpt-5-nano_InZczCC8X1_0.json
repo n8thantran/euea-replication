@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "A bifunctional catalyst layer that locally converts bicarbonate to i-CO2 at the catalyst\u2013electrolyte interface while simultaneously promoting CO2 reduction will raise the maximal reactor yield beyond 44 mA cm\u22122 by enabling a higher CO production rate without sacrificing CO2 utilization in realistic capture electrolytes"
-}

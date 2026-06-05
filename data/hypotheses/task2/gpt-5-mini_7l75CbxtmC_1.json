@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "When the workflow is extended to include modeled energy consumption for heating/cooling using standard industrial thermal profiles to 1400\u00b0C and predicted purification costs based on byproduct solubility and separation steps, the Ca3SiO5+SiO2 synthesis route will become more economically favorable than the CaO+SiO2 route for Ca2SiO4 in over 30% of realistic market-price scenarios with \u00b130% reactant price volatility."
-}

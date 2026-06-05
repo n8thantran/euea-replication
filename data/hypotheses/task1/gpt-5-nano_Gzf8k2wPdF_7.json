@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If dynamic batching is used, then the training time per gradient-update will be lower than with static padding strategies across batch sizes 16, 32, 64, and 128, because dynamic batching tailors padding to actual graph sizes, reducing padding waste and unnecessary computations."
-}

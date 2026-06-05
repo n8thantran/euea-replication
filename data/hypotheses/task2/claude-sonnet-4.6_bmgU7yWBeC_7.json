@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "If the Force Delta metric is incorporated as a physics-informed regularization term during fine-tuning of direct-force NNIPs\u2014penalizing the magnitude of U\u2206alongside the standard energy and force loss\u2014then the resulting models will exhibit not only reduced Force Delta values but also improved generalization to out-of-distribution structures, as measured by lower true DFT force errors on held-out test systems, because explicitly enforcing internal conservative consistency during training will constrain the model to learn a more physically faithful representation of the potential energy surface."
-}

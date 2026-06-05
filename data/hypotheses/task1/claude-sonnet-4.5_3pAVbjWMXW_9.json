@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "A Transformer-based encoder-decoder architecture with spectral alignment mechanisms and pretraining on simulated spectra can accurately predict molecular structures of individual components from infrared spectra of chemical mixtures."
-}

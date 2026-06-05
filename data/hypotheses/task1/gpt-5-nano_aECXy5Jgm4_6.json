@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Bayesian optimization guided by pre-trained polymer representations and surrogate models will efficiently identify fragment-generated polyamine polymers with higher CO2 adsorption capacity at 0.4 mbar and 298 K than those found by non-BO search."
-}

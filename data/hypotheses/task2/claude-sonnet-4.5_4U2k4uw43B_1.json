@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit stress tensor weighting into the pre-trained model loss function during active learning will reduce symmetry-breaking artifacts during VASP restarts and enable sub-linear scaling of computational cost with system size for multi-phase transition mapping in high-pressure polymorphic materials."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "The loss landscape of XRD-based crystal structure optimization contains numerous local minima and discontinuities that prevent gradient descent methods from reliably recovering ground-truth structures from distorted starting points, making the landscape too rough for gradient-based optimization to succeed except for very small perturbations from the true structure."
-}

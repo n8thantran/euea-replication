@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Novel Hypothesis:\n\nIncorporating physics-informed constraints from Density Functional Theory (DFT) calculations as auxiliary reward signals during reinforcement learning will resolve the negative correlation between internal diversity and filter-passing rates, enabling simultaneous exploration of diverse chemical space and exploitation of material-specific property constraints in CTF generation."
-}

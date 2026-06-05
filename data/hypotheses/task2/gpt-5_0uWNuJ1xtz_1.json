@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Adding an InfoNCE-style cross-representation contrastive alignment loss between encoder embeddings of SMILES, SELFIES, InChI, IUPAC, molecular formula, and SPG during phase-1 pretraining will increase the zero-shot validity rate of molecular-formula-to-SMILES translation by at least 15 percentage points on a held-out set of 3000 molecules compared to the current STR-Bamba426M training regime."
-}

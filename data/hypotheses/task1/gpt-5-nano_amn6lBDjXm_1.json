@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If diffusion-model generated inorganic structures trained on Materials Project and OQMD data, after DFT relaxation, exhibit energy above hull \u2264 0.1 eV/atom and RMSD below a defined threshold relative to their starting geometries, then the generative framework reliably yields thermodynamically stable and geometrically valid materials."
-}

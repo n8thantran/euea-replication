@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If large language model agents are given ReACT-style tools to iteratively design experiments and observe feedback, then they will discover latent governing rules in both the Alien Market and simulated ALP reactor at above-chance, expert-approaching accuracy that increases with model capability, experimental budget/duration, and availability of reference sensor data, because they can plan informative interventions and update hypotheses from limited observations."
-}

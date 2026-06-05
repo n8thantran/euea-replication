@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Multi-agent systems augmented with persistent episodic memory of failed simulation attempts will demonstrate superior generalization to novel material-adsorbate combinations compared to systems relying solely on procedural prompt-based knowledge, as measured by reduction in task-specific errors across out-of-distribution zeolite structures and force field types."
-}

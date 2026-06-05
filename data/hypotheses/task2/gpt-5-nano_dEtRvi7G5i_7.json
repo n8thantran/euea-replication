@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Accounting for nuclear quantum effects through path-integral calculations will qualitatively change the predicted thermodynamic stability order and quantitatively alter Tc values of non-integer MHx metal superhydrides under high pressure, causing a re-ranking of the most stable phases and shifting Tc by more than 20 K for a substantial fraction of the predicted structures compared to harmonic-phonon-based predictions."
-}

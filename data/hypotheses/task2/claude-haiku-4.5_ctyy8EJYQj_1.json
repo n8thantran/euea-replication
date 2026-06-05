@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "LLMs augmented with iterative access to physics-based simulators will demonstrate improved synthesis planning performance on multi-phase inorganic materials when the simulator provides explicit feedback on thermodynamic feasibility violations, compared to LLMs that receive only final state outcomes without intermediate constraint satisfaction signals."
-}

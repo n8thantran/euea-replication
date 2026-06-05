@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If solid-state NEB calculations are initialized and guided by pretrained equivariant ML surrogates (eqV2 or eSEN) for energies, forces, and stresses, then subsequent DFT-restarted SSNEB will converge to the same minimum-energy pathways and transition states as VASP-only runs with significantly fewer iterations and reduced compute time because the ML models place images near the true DFT pathway."
-}

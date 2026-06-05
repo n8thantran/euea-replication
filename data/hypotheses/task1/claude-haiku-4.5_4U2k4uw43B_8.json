@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Machine learning surrogates pre-trained on large structural datasets can accelerate the discovery of minimum energy pathways and metastable states in solid-state systems by reducing the number of expensive DFT calculations required while maintaining chemical accuracy comparable to direct DFT-based nudged elastic band methods."
-}

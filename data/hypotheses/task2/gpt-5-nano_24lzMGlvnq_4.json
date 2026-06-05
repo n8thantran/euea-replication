@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Integrating an uncertainty-aware, multi-database physics feedback into Direct Preference Optimization (DPO) by computing per-candidate confidence from an ensemble of CALPHAD databases and penalizing high-uncertainty predictions in the reward will stabilize DPO training for small LMs (e.g., OLMo), reduce out-of-distribution drift, and simultaneously improve BCC/B2 space coverage and novelty while maintaining compositional validity."
-}

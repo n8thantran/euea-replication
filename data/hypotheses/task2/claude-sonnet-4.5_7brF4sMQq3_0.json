@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "The conditional score difference vector (s^B_\u03b8 - s^A_\u03b8) approximates the reaction coordinate sufficiently well for Score-Aligned Ascent in systems with well-separated metastable states, but will fail to identify correct transition states in systems with multiple intermediate states or flat energy landscapes where the probability density gradient between states does not align with the minimum energy pathway."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a smaller, domain-specialized language model on the MatPROV dataset's PROV-JSONLD synthesis graphs will achieve higher structural-level F1-scores than the best-performing general-purpose LLM (o4-mini with one-shot prompting) when evaluated on synthesis procedures from material classes underrepresented in the training corpus (e.g., MOFs or gold nanorods), because explicit exposure to the graph-theoretic provenance schema during fine-tuning will generalize the structural reasoning required for branching and converging synthesis topologies more robustly than in-context prompting alone."
-}

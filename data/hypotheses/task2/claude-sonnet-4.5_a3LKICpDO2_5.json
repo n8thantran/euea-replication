@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating explicit d-electron occupancy descriptors derived from ligand field theory into the \u2206-learning framework will enable accurate band gap predictions for MOFs containing 3d transition metals (Cr, Mn, Fe, Co, Ni) without requiring computationally expensive hybrid DFT calculations for the training set."
-}

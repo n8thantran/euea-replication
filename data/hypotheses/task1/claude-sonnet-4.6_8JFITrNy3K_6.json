@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If large language models are prompted with domain-specific in-context examples and constrained to a formal provenance schema (PROV-DM), then they can accurately extract structured synthesis provenance graphs from scientific literature at a quality sufficient to construct a large-scale, reusable dataset, because structured prompting guides the model to identify and organize entities, activities, and relationships consistent with expert annotations."
-}

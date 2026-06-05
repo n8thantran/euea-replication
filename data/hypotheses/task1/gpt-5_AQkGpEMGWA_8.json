@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If Li\u2013Si\u2013X compounds possess large Li+ migration channels whose radius changes negligibly between charged and discharged states, then they will function as structurally stable silicon-based anodes with theoretical capacities above 1500 mAh/g because persistent diffusion pathways maintain framework integrity during (de)lithiation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Universal machine learning interatomic potentials trained on larger and more diverse datasets will exhibit systematic transferability failures for MOF structures containing rare earth metal centers or unusual coordination geometries that are underrepresented in their training data, despite their strong performance on common MOF chemistries, and this failure mode can be predicted by analyzing the local chemical environment similarity between test structures and training data distributions."
-}

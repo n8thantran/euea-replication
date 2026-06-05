@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a large language model is continually pre-trained on domain-specific chemical and MOF-related literature before supervised fine-tuning on MOF property datasets, then it will predict MOF properties (such as band gap and gas adsorption) with lower mean absolute error than models lacking such domain-specific pre-training and competitive with or superior to graph-based and descriptor-based baselines, because exposure to specialized chemical knowledge during pre-training enables the model to learn meaningful structure-property relationships from text-based MOF representations even in low-resource fine-tuning scenarios."
-}

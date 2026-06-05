@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Machine learning-guided discovery of silicon-based compounds with stable lithium-ion migration channels will identify anode materials with capacities exceeding 1500 mAh/g that maintain structural integrity during lithium insertion and extraction cycles."
-}

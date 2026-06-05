@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nContrastive multimodal pretraining between rotation-invariant SMILES and 3D electron density grids induces implicit pose invariance by forcing the 3D encoder to learn features that are maximally informative about molecular identity while being minimally sensitive to spatial orientation; therefore, systematically ablating the pooling operations in the 3D encoder will disproportionately degrade rotational robustness compared to canonical retrieval accuracy, revealing that global spatial aggregation\u2014not just symbolic anchoring\u2014is necessary for emergent SO(3) invariance."
-}

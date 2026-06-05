@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "In MADE configured for quaternary systems with a mixed-fidelity oracle where one DFT evaluation costs 10 MLIP evaluations, an agent that selects queries by maximizing expected convex-hull improvement per unit cost using an MLIP ensemble for uncertainty will discover at least 40% more DFT-verified novel stable compounds than diversity-based or plain uncertainty-sampling agents within a total evaluation cost budget of 200."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "When predicting etching rates for three-or-more component gas mixtures, a GraphSAGE architecture whose edge features are initialized with pairwise chemical interaction energies (derived from known reaction rate constants between gas species) will achieve higher predictive accuracy than one using unweighted complete graphs, because encoding prior physicochemical knowledge into the graph topology will allow the GNN to more accurately capture synergistic and antagonistic etching mechanisms that emerge only in higher-order mixtures and cannot be inferred from binary interaction data alone."
-}

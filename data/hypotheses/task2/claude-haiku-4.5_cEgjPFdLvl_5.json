@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "The energy-based score function trained on Boltzmann-distributed amorphous structures can be repurposed to predict material stability by learning an implicit potential energy landscape that correlates with formation energy, enabling inverse design of thermodynamically stable amorphous compositions without explicit access to ground-state reference structures during training."
-}

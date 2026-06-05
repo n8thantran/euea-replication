@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nTraining materials foundation models on adversarially-selected out-of-distribution structures that maximize representational divergence between architectures will accelerate convergence toward a universal representation of matter more efficiently than training on uniformly sampled diverse datasets."
-}

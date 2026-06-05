@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating explicit coordination geometry descriptors (e.g., bond angles between adsorbate-surface atoms and local site symmetry indices) as additional conditioning variables in CompGen will enable more precise control over the electronic structure of generated catalytic surfaces, resulting in improved prediction accuracy for adsorption energies compared to composition-only conditioning, particularly for undercoordinated or defect-rich active sites where geometric effects dominate ligand interactions."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a diffusion model with explicit stereochemical graph encodings (LoQI) is trained on the AIMNet2-relaxed ChEMBL3D dataset, then it will scalably generate topologically correct, stereochemically accurate conformers that are lower in energy and closer to DFT minima than standard conformer generators across diverse drug-like molecules because the stereochemical constraints and equivariant architecture guide sampling onto the physically valid low-energy manifold."
-}

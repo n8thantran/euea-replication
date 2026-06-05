@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If universal machine learning interatomic potentials are applied to metal-organic frameworks without domain-specific training, then their accuracy in predicting structural, mechanical, and thermodynamic properties will vary substantially across architectures and training datasets, with models incorporating dispersion corrections and trained on larger, more diverse datasets achieving closer agreement with DFT reference values, because the sparse, long-range interactions and chemical diversity characteristic of MOFs require both adequate coverage in training data and explicit treatment of van der Waals forces for reliable molecular modeling."
-}

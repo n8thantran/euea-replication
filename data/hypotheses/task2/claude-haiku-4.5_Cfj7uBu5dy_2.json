@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Agents that learn to dynamically adjust their exploration-exploitation trade-off by explicitly modeling the uncertainty landscape of the MLIP oracle will discover significantly more novel stable compounds than agents using fixed acquisition strategies, particularly when transitioning from low-fidelity (MLIP) to high-fidelity (DFT) oracles with distribution shift."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "The accuracy of ML-accelerated SSNEB pathways will degrade systematically as a function of the magnitude of lattice strain required during the transition, such that transitions involving >5% volumetric change will show >0.1 eV deviations in predicted energy barriers compared to DFT unless the ML model is fine-tuned on high-strain configurations from the specific material class."
-}

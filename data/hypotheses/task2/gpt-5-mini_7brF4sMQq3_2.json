@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "The score-difference vector rSAA(x,t) = sB\u03b8(x,t) \u2212 sA\u03b8(x,t) computed from a diffusion model trained exclusively on metastable-state configurations constitutes a globally valid one-dimensional reaction coordinate such that using its projection as the sole collective variable in enhanced-sampling simulations (e.g., metadynamics) reproduces the committor distribution (mean and variance) and transition rate within 20% of values obtained from long unbiased MD while requiring at least an order-of-magnitude less simulation effort."
-}

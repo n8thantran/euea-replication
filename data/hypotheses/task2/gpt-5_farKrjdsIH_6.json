@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Adding a physics-informed temporal consistency regularizer based on LEONARDO-predicted motion priors during SAM-EM fine-tuning will reduce identity-switch events by at least 50% (measured as switches per particle per minute) in high-density (\u22655 particles in a 256\u00d7256 nm field) low-SNR LPTEM videos at \u2265150 nm liquid thickness compared to the current SAM-EM."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "On the AFLOW dataset, training PaiNN for two million steps with nominal batch size 64 using SGD without momentum (with learning rate tuned by cross-validation) will produce a statistically lower final test RMSE (p<0.05 across 10 random seeds) under dynamic batching than under static-64 batching."
-}

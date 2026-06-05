@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "The divergence in DPO performance across model architectures (LLaMA and Gemma improving while OLMo degraded) can be mitigated by dynamically adjusting the \u03b2 parameter during DPO training based on real-time monitoring of KL divergence on domain-critical tokens, enabling consistent multi-objective reward optimization across heterogeneous model architectures."
-}

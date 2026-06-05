@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If pretrained ML surrogates (eqV2 or eSEN) are used to obtain ML-only minimum energy pathways and DFT SSNEB is restarted from those ML-converged images, then the ML-SSNEB workflow will substantially reduce the number of DFT iterations and total computational time compared to VASP-only SSNEB while producing converged MEPs and transition states (energies, forces, and geometries) that agree with VASP-only results under the same convergence criterion (forces < 0.01 eV/\u00c5) for CsPbI3 and TiO2."
-}

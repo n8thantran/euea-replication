@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Fine-tuning SAM 2 on synthetic LPTEM video data with box-prompt conditioning produces a model (SAM-EM) that achieves higher segmentation accuracy (IoU, F1, composite J&F), improved centroid agreement for particle tracking, and better generalization to real LPTEM videos across varying SNR and resolutions than a U-Net baseline."
-}

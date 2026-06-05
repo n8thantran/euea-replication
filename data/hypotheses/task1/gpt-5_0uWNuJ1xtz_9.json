@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If a hybrid Transformer\u2013Mamba encoder\u2013decoder is pretrained to align seven textual molecular representations (e.g., SMILES, SELFIES, InChI, IUPAC, formula, polymer SPG, electrolytes), then it will learn a representation-invariant latent space that clusters by chemical similarity, achieve higher accuracy on diverse molecular/polymer/electrolyte property prediction than single-representation models, and translate accurately between representations (high validity and structural fidelity) because multimodal alignment forces capture of shared, representation-agnostic chemical semantics."
-}

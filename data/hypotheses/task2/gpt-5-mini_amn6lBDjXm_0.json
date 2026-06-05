@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "A two-stage evaluation workflow in which an ML formation-energy predictor selects the 10% of generated structures with highest prediction uncertainty for full DFT relaxation and convex-hull analysis will reproduce the full-DTF-derived SUN score within \u00b10.02 absolute for at least 90% of tested generative-model runs on Materials Project and OQMD subsets while reducing the number of required DFT calculations by \u226580%."
-}

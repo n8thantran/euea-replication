@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Applying the chemical template-guided machine learning workflow to ternary metal superhydrides (M\u2081-M\u2082-H systems) where M\u2081 and M\u2082 occupy distinct sublattice sites will reveal stable compounds with Tc exceeding 200 K through synergistic electron localization effects that cannot be achieved in binary systems."
-}

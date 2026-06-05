@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If neural network Bayesian Algorithm Execution (NN-BAX) is applied to nudged elastic band calculations by iteratively fine-tuning a pre-trained equivariant neural network potential (EquiformerV2) using strategically acquired points along the minimum energy path, then it will converge to accurate transition pathways with significantly fewer energy and force evaluations from the ground-truth simulator compared to running classical NEB directly on the simulator, because the surrogate model learns to approximate the potential energy surface along the reaction path from minimal data while the BAX framework guides acquisition toward the most informative configurations."
-}

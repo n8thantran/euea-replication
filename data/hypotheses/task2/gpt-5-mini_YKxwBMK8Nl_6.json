@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Augmenting the single-agent preprocessing pipeline with a document-layout-aware molecular-image detector that localizes and segments chemical structure images and feeds them to an optical-chemical-structure-recognition model (e.g., DECIMER) will increase SMILES extraction recall on the ChemX small-molecule datasets from near-zero levels to at least 50%, producing a statistically significant improvement in overall small-molecule extraction F1."
-}

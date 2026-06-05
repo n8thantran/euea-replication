@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating a Force-Delta consistency penalty \u03bb||Fnc + \u2207E||^2 into fine-tuning of pre-trained direct-force NNIPs on a small (\u22641% of original) task-specific DFT set will produce a near-linear calibration between U\u0394 and \u03b5direct (R^2 \u2265 0.8) on adversarial OOD structures and reduce MD instability events by at least 50% relative to fine-tuning without the penalty at matched data and compute budgets."
-}

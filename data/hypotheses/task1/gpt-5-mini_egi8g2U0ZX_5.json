@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If generative models are pre-trained on large chemical databases (ChEMBL/ZINC), fine-tuned on the 103 curated CTF structures, and further optimized with reinforcement learning using expert-defined reward functions (flatness, symmetry, conjugation, steric, and pattern-matching), then they will produce a higher percentage of valid, novel, internally diverse, and expert-filter-passing Covalent Triazine Framework candidates with lower Fr\u00e9chet ChemNet Distance than models trained only on pre-training or without the expert reward-based transfer learning."
-}

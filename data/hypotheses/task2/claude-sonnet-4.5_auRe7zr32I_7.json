@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Implementing temporally adaptive diversity constraint thresholds that dynamically adjust based on the rate of change in multiple diversity metrics will maintain superior property optimization performance compared to static thresholds while preventing model collapse across different molecular design tasks."
-}

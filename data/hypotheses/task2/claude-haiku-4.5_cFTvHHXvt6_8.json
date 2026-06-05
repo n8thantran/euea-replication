@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating continuous thickness parameterization with physics-informed spectral-distance loss functions will reduce the generalization gap between training-paraphrase and validation performance by at least 50% compared to the current discrete quantization and token-level cross-entropy approach."
-}

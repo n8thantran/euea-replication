@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a hybrid neural network that encodes surface patterns with a 2D CNN and polymer sequences with a GRU, augmented by multi-head attention and symmetry-based data augmentation, is trained on high-throughput MD-derived binding free energies, then it will predict polymer\u2013surface binding free energies more accurately than baseline encoders because it explicitly models surface\u2013polymer interactions and invariant rotational/flip symmetries."
-}

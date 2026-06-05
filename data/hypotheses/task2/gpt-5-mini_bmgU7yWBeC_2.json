@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating a regularization term proportional to the Force Delta into the training loss of direct-force NNIPs will, compared to identical models trained without this term, produce models with lower RMS force error on adversarially generated out-of-distribution structures and a significantly improved calibration (higher Spearman rank correlation) between U\u2206 and true force error."
-}

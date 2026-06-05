@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "NN\u2011BAX, extended to multi\u2011component molecular systems and paired with an ensemble-based, uncertainty\u2011aware acquisition that adaptively adjusts the NEB image count, will achieve barrier height accuracy comparable to classical NEB while reducing the number of expensive DFT energy/force evaluations by at least an order of magnitude compared to the random-path acquisition variant used in the LJ benchmarks."
-}

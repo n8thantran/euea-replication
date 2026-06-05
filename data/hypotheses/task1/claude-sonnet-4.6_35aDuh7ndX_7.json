@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a reinforcement learning molecular generation framework incorporates a dual-objective reward function that simultaneously maximizes pharmacophoric similarity (via CATS descriptors) to known estrogen receptor antagonists/degraders while minimizing structural similarity (via MACCS keys), then it will generate novel drug-like molecules with superior docking scores and drug-likeness compared to a baseline docking-only approach, because encoding pharmacophoric patterns rather than atom-level structural features allows the model to explore chemically diverse scaffolds that preserve the essential binding interactions required for estrogen receptor activity."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "A cooperative swarm of multiple independent LLM agents with diverse initial prompts and per-agent budgets, coordinated by a supervising meta-agent that aggregates results, will achieve broader coverage of the ALP reactor\u2019s reaction space and enable discovery of rare deposition/etching pathways (e.g., ALD/ALE/CVD transitions) at lower cumulative experimental time than a single agent given the same total time and resources."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If metal superhydride discovery is structured around chemical concepts (specifically, identifying metal lattices with strong interstitial electron localization as quasi-atoms prior to hydrogen placement), then combining this chemical template theory with machine learning screening will more efficiently identify thermodynamically stable and superconducting metal superhydrides than unguided high-throughput structural searches, because the chemical framework constrains the search space to physically meaningful configurations that are more likely to yield stable high-hydrogen-content compounds with favorable electronic properties for superconductivity."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "An uncertainty-aware, physics-informed surrogate model trained on a small DFT-labeled subset of generated materials can accurately predict DFT-derived stability metrics (energy above hull) and RMSD for unseen candidates, enabling an active-learning screening loop that identifies the same SUN-stable materials as full DFT screening within a fixed computational budget."
-}

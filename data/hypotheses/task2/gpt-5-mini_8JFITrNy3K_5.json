@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "For thermoelectric materials in MatPROV, machine-learning models trained on PROV-DM provenance graph representations that include node-level synthesis parameters will predict room-temperature Seebeck coefficient with a statistically significant lower mean absolute error (p < 0.05, 5-fold cross-validation) than comparable models trained on linear sequence representations containing the same synthesis steps and parameters."
-}

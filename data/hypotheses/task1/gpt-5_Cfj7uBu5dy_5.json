@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If autonomous discovery agents use a pretrained structure generator (MatterGen) with diversity-based acquisition in MADE, then they will discover significantly more novel stable compounds within 20 oracle queries than agents using random generation with random acquisition, independent of initialization mode, because chemically informed priors and diversity maximization more efficiently explore productive regions of composition\u2013structure space."
-}

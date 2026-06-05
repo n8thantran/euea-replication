@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating stereochemically-aware contrastive learning\u2014where diastereomers and enantiomers of the same molecule are explicitly treated as distinct negative pairs during multimodal pretraining\u2014will enable the model to learn chirality-sensitive molecular representations that maintain pose-invariance while distinguishing stereoisomers, thereby improving performance on stereoselective reaction prediction and drug-target binding affinity tasks where stereochemistry is functionally critical."
-}

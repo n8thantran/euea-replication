@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a diversity-based acquisition strategy is used within the MADE dynamic benchmark, then the number of novel stable compounds discovered within a fixed 20-query budget will exceed that obtained with random acquisition for the Na\u2013O and Co\u2013Nb\u2013Sn chemical systems, across the two structure generators."
-}

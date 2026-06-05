@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If graph neural network training uses dynamic batching that estimates padding targets from a data subset, then the mean gradient-update step time will be lower than with static-constant, static-2N, or static-64 padding across QM9 and AFLOW and across SchNet, PaiNN, and MPEU at batch sizes 16\u2013128, because dynamic batching reduces over-padding without incurring significant recompilation overhead."
-}

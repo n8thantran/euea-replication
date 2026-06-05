@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "A multimodal molecular foundation model trained on diverse molecular representations and incorporating both Transformer and Mamba-2 layers will learn unified latent representations that enable effective transfer learning across property prediction tasks and accurate translation between molecular representation formats."
-}

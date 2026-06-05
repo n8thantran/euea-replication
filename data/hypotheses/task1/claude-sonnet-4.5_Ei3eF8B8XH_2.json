@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "A stereochemistry-aware diffusion model trained on quantum mechanically optimized conformers can generate low-energy molecular conformations with near-DFT accuracy more efficiently than traditional conformer search methods while preserving correct stereochemistry."
-}

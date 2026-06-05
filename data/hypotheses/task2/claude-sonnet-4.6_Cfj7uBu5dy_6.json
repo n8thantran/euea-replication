@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating uncertainty quantification over the convex hull itself\u2014rather than treating it as a deterministic object computed from point-energy estimates\u2014into the acquisition function will yield significantly greater sample efficiency in the MADE framework, because the probabilistic stability boundary will guide agents to query candidates in compositional regions where hull uncertainty is highest, thereby resolving ambiguity about true stable phases with fewer oracle evaluations than diversity- or random-based acquisition strategies, and this advantage will become more pronounced as oracle fidelity increases from MLIPs to DFT due to the greater cost of each evaluation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating a differentiable percolation-connectivity constraint on the combined volume fraction of CNT/Graphene/Cu/Ni into the PCDiff denoising objective will increase Coverage by at least 5 percentage points for samples conditioned on thermal conductivity targets \u22651.0 W/mK without reducing Density compared with the current non-negativity/sum-to-one\u2013only PCDiff."
-}

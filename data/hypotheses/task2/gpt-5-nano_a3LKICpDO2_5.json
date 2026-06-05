@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "For MOFs containing 3d transition metals, a \u0394-learning framework that integrates spin-state descriptors and a cheap spin-polarized DFT+U baseline with GFN1-xTB as the low-fidelity source will yield lower prediction errors for high-fidelity HSE06 band gaps than \u0394-learning using GFN1-xTB alone."
-}

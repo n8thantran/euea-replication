@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If LLMs guided by physics-based simulation tools are used for inorganic synthesis planning, then they will achieve comparable solution quality to systematic search algorithms (A*) while exploring significantly fewer states, because language models can leverage domain-relevant heuristics and contextual reasoning to navigate the synthesis space more efficiently than exhaustive search."
-}

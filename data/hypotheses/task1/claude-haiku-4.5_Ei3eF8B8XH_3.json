@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "A diffusion model trained on large-scale neural network-optimized molecular conformers can generate low-energy, stereochemically-accurate 3D molecular structures comparable to quantum mechanical methods while scaling to millions of drug-like compounds."
-}

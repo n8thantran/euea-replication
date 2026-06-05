@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating confidence estimates from Thermo-Calc predictions into the DPO reward function will improve model alignment for architectures prone to distribution shift (like OLMo) by preventing preference optimization from amplifying signals in low-confidence regions of the composition space."
-}

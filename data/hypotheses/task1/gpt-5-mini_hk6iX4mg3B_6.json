@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If multi-member model ensembles are trained with a supervised loss plus an ensemble-consensus consistency loss that minimizes each model's distance to the ensemble mean on unlabeled data (with gradient detachment and coupling weight \u03b3), then the semi-supervised ensemble will yield lower test error and improved calibration compared to purely supervised training and existing SSL baselines (mean-teacher, PSEUDO\u03c3) across molecular graph and image benchmarks, with performance improving as ensemble size increases and remaining robust across choices of \u03b3, label type, loss norm, and scheduling strategies."
-}

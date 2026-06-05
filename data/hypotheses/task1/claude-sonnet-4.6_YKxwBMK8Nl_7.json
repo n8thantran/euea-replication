@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a single-agent pipeline combining structured text extraction (via marker-pdf SDK) with multimodal image processing and a powerful language model backbone is applied to automated chemical information extraction, then it will achieve competitive or superior precision, recall, and F1 scores compared to more complex multi-agent domain-specific systems, because streamlined end-to-end document processing with standardized prompting reduces error propagation across agent handoffs while retaining sufficient domain coverage through the language model's parametric knowledge."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If LLM agents are allowed to design and run iterative experiments in the simulated ALP reactor with only pressure and QCM sensor feedback, then they will infer the underlying chemical reaction and process rules (e.g., identify ALD, ALE, passivation, and CVD behaviors) with accuracy that improves as model capacity, experimental time/budget, and available sensor information (e.g., QCM reference values) increase, because iterative hypothesis-driven experimentation constrains the space of kinetic and transport models enough for the agents to learn the true reaction mechanisms."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating protein flexibility through ensemble pharmacophore models derived from multiple receptor conformations (e.g., molecular dynamics snapshots of the alpha estrogen receptor) as the reference set for CATS descriptor generation will yield generated molecules with superior experimental binding affinities compared to pharmacophore models derived from a single static crystal structure, because ensemble-based pharmacophores capture the dynamic interaction landscape that governs true biological recognition rather than a single frozen snapshot."
-}

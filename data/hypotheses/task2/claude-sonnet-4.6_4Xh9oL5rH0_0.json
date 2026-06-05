@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit many-body dispersion interactions (beyond pairwise DFT-D3 corrections) into the training data generation pipeline for uMLIPs\u2014specifically by computing reference energies and forces at the PBE+MBD level rather than PBE+D3(BJ)\u2014will disproportionately improve uMLIP accuracy for MOF properties that depend on long-range collective polarization effects (such as guest-free heat capacity and bulk modulus of large-pore, low-density frameworks), while providing negligible benefit for dense, high-metal-node-density MOFs where pairwise dispersion already captures the dominant interactions."
-}

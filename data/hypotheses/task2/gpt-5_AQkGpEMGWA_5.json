@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "In silicon\u2013X alloy anodes, preservation of Li-ion migration network topology\u2014quantified by unchanged percolating cluster fraction and first Betti number between 0% and 100% lithiation in relaxed structures\u2014will predict \u226585% capacity retention after 300 C/2 cycles with ROC-AUC \u22650.80 and exceed the predictive accuracy of mean channel-radius invariance by \u0394AUC \u22650.10."
-}

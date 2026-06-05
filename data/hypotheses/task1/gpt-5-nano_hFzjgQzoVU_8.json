@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a graph neural network is trained to map local iron-environment graphs to 100-point Fe K-edge XAS spectra, then the predicted spectra will closely match ground-truth spectra (low MSE) for iron-containing proteins because the Fe K-edge XAS features are determined primarily by local coordination geometry captured in the graph representation."
-}

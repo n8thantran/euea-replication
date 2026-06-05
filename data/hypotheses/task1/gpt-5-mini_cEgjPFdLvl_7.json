@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "AMDEN, a diffusion model with an EGNN backbone (VE for positions and VP for element embeddings) and optional energy-based score refinement with HMC, can generate amorphous materials whose structural and energetic properties (radial distribution functions, bond-angle distributions, structure factors, and potential energy distributions, before and after local optimization) closely match those of MD-generated reference datasets across different thermal histories, and incorporating energy-based HMC refinement and classifier-free guidance conditioning on Young's modulus further improves structural fidelity and enables targeted inverse design."
-}

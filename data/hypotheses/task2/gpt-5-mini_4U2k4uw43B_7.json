@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a pretrained eSEN model using DFT-evaluated energies, forces, and stresses from a curated set of 50 images sampled along an initial ML-predicted MEP for a given material will reduce the number of VASP SSNEB restart iterations by at least 50% and yield MEP energy barriers within 0.05 eV of DFT-only SSNEB results."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating multi-modal representations of MOF structural information (combining MOFid text with learned embeddings from low-resolution voxelized 3D structures) during continual pre-training will improve LLM performance on MOF property prediction tasks more efficiently than scaling the PubChem corpus, particularly when fine-tuning datasets contain fewer than 5,000 samples."
-}

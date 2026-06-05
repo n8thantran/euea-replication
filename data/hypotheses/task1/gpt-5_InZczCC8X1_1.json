@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a closed-loop, Gaussian process\u2013based Bayesian optimization is used to tune bicarbonate temperature, concentration, and flow rate, KOH concentration and flow rate, and applied current density in a reactive carbon electrolyzer, then reactor yield will surpass that from randomly or space-filling\u2013selected conditions because the surrogate model efficiently learns and exploits nonlinear interactions among these variables to prioritize high-yield experiments."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating a Thermo-Calc\u2013derived confidence weight into the DPO reward (downweighting rewards for compositions with low database coverage) will reduce token-level DKL between the DPO and SFT policies for OLMo and increase OLMo's mean reward and the fraction of generated alloys satisfying the four synthesis objectives compared to standard DPO."
-}

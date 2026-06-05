@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Contrastive multimodal alignment with conformationally diverse SMILES representations (e.g., non-canonical isomeric forms or augmented SMILES tokens) will induce SE(3)-equivariance rather than merely SO(3)-invariance in the 3D encoder, enabling the model to generalize to unseen translations and reflections without requiring explicit architectural symmetry priors."
-}

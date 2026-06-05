@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "A MoCo-style self-supervised pretraining on unlabeled SEM images spanning additive-free and multiple additive-containing cathodes, followed by fine-tuning with at most 10 labeled images per class, will improve macro-F1 by at least 10 percentage points over the paper\u2019s two-stage supervised transfer learning when evaluated on classes containing an unseen additive type at test time."
-}

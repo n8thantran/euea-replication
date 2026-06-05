@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "For coarse-grained polymers adsorbing onto chemically patterned surfaces there exists a critical chain length Lc beyond which further increases in polymer length change the binding free energy by less than 1 kBT, and Lc decreases monotonically as the characteristic lateral size of the surface's strong-interaction domains increases."
-}

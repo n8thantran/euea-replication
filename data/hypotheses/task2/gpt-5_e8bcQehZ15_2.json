@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Augmenting CAST with explicit structural concepts\u2014such as aromatic ring count, longest aliphatic chain length, and heteroatom fraction\u2014as additional bottleneck targets and steering vectors will produce significantly lower out-of-distribution LogP Best100MAE and equal or higher generative efficiency than the original two-concept CAST on the TDC OOD benchmarks without reducing validity."
-}

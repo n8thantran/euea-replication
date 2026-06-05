@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Better alignment between task requirements and available tools, as measured by semantic similarity and task-specific tool augmentation, leads to improved performance in scientific LLM agents regardless of the underlying framework or model choice."
-}

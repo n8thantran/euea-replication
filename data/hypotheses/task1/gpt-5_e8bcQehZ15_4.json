@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If CBM-learned, orthogonal property steering vectors are added to the hidden activations of a frozen molecular LLM during generation, then the model will more accurately match specified single- and multi-property targets (including out-of-distribution) while preserving validity, novelty, and synthesizability compared to vanilla, ActAdd, and fine-tuning baselines because these vectors align with disentangled property directions in the model\u2019s latent space."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Augmenting XRD-based gradient optimization with an auxiliary, differentiable Miller-index consistency loss from a symmetry-aware peak-indexing network will reduce the prevalence of deceptive local minima and significantly increase StructureMatcher recovery rates for lattice-noise levels \u03c3l \u2265 0.05 compared to optimization using only cosine-similarity loss."
-}

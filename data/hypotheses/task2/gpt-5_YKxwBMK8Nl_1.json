@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Integrating a layout-aware molecular-figure detector fine-tuned on ChemX-style PDFs with DECIMER-based OCSR and a cross-mention InChIKey consistency filter will increase SMILES extraction F1 to \u22650.40 on the ChemX Complexes dataset while keeping the F1 of all non-SMILES fields within \u00b10.02 of the single-agent GPT-5 baseline."
-}

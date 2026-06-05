@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Generative models trained on DFT-relaxed structures from large databases will exhibit systematically lower RMSD values to their DFT-relaxed counterparts compared to models trained on unrelaxed or partially-relaxed structures, because training data relaxation state creates an implicit bias toward generating structures closer to local energy minima rather than exploring the broader chemical space needed for genuine materials discovery."
-}

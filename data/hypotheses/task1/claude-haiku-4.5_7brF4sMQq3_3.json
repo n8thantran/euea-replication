@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "A diffusion model trained with Classifier-Free Guidance on metastable state trajectories alone can identify transition states through score-guided interpolation and energy-maximizing ascent along the reaction coordinate without requiring explicit transition state data."
-}

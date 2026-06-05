@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If property-specific embedding vectors learned by a Concept Bottleneck Model are added as weighted steering vectors to intermediate activations of a frozen molecular LLM (CAST), then the model will generate molecules whose target properties (e.g., QED, LogP) are more accurately matched (lower MAE and Best100MAE) while maintaining or improving generative efficiency, validity, uniqueness, novelty, and synthetic accessibility compared to vanilla LLMs, ActAdd steering, and fine-tuning baselines, including in out-of-distribution settings."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a neural network interatomic potential has a large Force Delta\u2014the RMS discrepancy between its conservative (-\u2207\u00ca) and directly predicted forces\u2014then its force error relative to DFT will be large across equilibrium and adversarially perturbed OOD structures, outperforming ensemble-variance baselines, because intra-model force disagreement reveals epistemic uncertainty without extra data."
-}

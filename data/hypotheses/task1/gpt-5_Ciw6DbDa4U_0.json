@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If the lattice design\u2013property tensor is sampled sparsely (uniformly or with experimentalist-biased non-uniformity), then tensor-completion surrogates (CPD-S/NeAT and their ensemble) will achieve higher R\u00b2 in predicting Young\u2019s modulus and mass-normalized modulus than Gaussian processes, XGBoost, and MLPs at the same training size\u2014especially under biased sampling\u2014because they exploit the data\u2019s low-rank structure across design modes."
-}

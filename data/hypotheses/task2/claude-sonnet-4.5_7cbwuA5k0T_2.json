@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nEmbedding-based tool-task alignment scores can predict agent performance more accurately than static framework complexity metrics, but only when the base model's domain knowledge falls within a critical \"alignment-responsive zone\" between complete ignorance and expert-level proficiency, suggesting that optimal tool provisioning strategies must dynamically adapt to the base model's knowledge state rather than relying on universal tool sets."
-}

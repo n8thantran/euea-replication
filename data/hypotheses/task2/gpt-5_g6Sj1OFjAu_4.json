@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Conditioning CompGen on the active-site motif (atop/bridge/hollow"
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a CVAE trained on Li\u2013Si\u2013X crystal graphs and conditioned on the presence of Si and Li, target capacity >1500 mAh/g, and large Li-channel radius is used to generate candidate materials, then it will produce novel silicon-based anodes whose CHGNet-relaxed structures retain large continuous Li+ migration channels and capacities >1500 mAh/g with Rt nearly unchanged between charged and discharged states and mean energy per atom variation below 4%."
-}

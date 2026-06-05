@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Inverse design of polymer sequences using the trained CNN-GRU-Transformer model as a surrogate will reveal that optimal adhesion to a target surface is achieved not by maximizing the fraction of strongly interacting monomers, but by encoding a specific spatial periodicity in the polymer sequence that is commensurate with the dominant wavelength of the surface heterogeneity pattern, such that polymers with matched sequence periodicity exhibit binding free energies at least 20% greater than compositionally equivalent but aperiodic sequences on the same surface."
-}

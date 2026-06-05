@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a multi-agent LLM-based framework autonomously configures zeolite adsorption simulations across varying adsorbates, structures, and simulation types and reliably extracts force-field parameters from literature, then its outputs will be reproducible across repeated trials and will match ground-truth results from RASPA and the original publications, because the tasks include five-run reproducibility checks and direct validation against established references."
-}

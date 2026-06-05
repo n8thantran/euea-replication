@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Hybrid deep learning models combining 2D convolutional encoding of polymer surfaces with attention-based cross-modal fusion can predict polymer-surface binding free energies more accurately than baseline neural networks or single-modality encoders."
-}

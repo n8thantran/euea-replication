@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "In environments with poor task\u2013tool alignment, restricting tool exposure to the top 3 tools ranked by embedding similarity to the task prompt will increase pass@5 by at least 0.10 absolute in Spectra and MD without decreasing pass@5 in ML or OpenCatalyst, independent of whether the agent uses ReAct or tool-calling."
-}

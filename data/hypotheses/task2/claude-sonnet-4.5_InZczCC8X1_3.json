@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Integrating real-time spectroscopic monitoring of local pH gradients at the cathode-electrolyte interface with the closed-loop Bayesian optimization framework will reveal that dynamic adjustment of bicarbonate:carbonate ratio during electrolysis can achieve reactor yields exceeding 60 mA cm\u207b\u00b2 by actively compensating for pH drift-induced changes in i-CO\u2082 availability."
-}

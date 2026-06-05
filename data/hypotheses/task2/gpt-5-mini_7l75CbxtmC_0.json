@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Including estimated heating energy (derived from reactant and product heat capacities), kinetic activation barriers, and downstream purification costs into the workflow's economic-efficiency metric will make the Ca3SiO5+SiO2 route more cost-effective than the CaO+SiO2 route for Ca2SiO4 synthesis whenever the market price of CaO rises by more than 150% above the paper's reported average or when process energy cost exceeds 0.05 \u20ac/MJ."
-}

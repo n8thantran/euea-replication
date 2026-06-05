@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If an EGNN-based diffusion model (AMDEN) with energy-based denoising, VE/VP noise schedules, ghost-atom density control, and HMC refinement is trained on amorphous MD data and optionally conditioned on Young\u2019s modulus, then it will generate equilibrated, density-controlled amorphous structures whose RDFs, bond-angle distributions, structure factors, and energy distributions match those of MD-quenched references and whose moduli follow the conditioning, because energy-aware scores and physics-based refinement preserve realistic local environments while classifier-free guidance steers global mechanical response."
-}

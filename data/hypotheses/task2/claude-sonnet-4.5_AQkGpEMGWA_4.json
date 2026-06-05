@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating transition metal dopants (e.g., Ti, V, Cr) into the Si\u2013X alloy framework will create localized electronic states that facilitate Li+ hopping between migration channels, thereby enhancing ionic conductivity without compromising the structural invariance of channel dimensions during cycling."
-}

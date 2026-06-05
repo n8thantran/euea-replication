@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Cross-modal prediction performance in X-MoPA will degrade non-uniformly across material classes when one modality contains missing or corrupted information, with the degradation magnitude depending on whether the missing modality is the one being predicted versus used as input, thereby revealing hierarchical dependencies in how different modalities encode material information."
-}

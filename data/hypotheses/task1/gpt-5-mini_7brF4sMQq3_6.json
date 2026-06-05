@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If a single score-based diffusion model trained solely on metastable-state trajectories is sampled using classifier-free guidance with interpolated conditional scores and the outputs are refined by Score-Aligned Ascent along the reaction coordinate r_SAA = s^B - s^A, then ASTRA will generate accurate transition-state configurations (as judged by committor distributions and successful transition rates) without any transition-state training data and will outperform linear and geodesic interpolation baselines on 2D potentials, alanine dipeptide, chignolin, and a chemical reaction."
-}

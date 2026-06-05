@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating electron beam dose rate as a dynamic conditioning variable during SAM-EM fine-tuning\u2014by generating synthetic training videos that explicitly pair spatially varying radiolysis-induced contrast artifacts with their corresponding dose rate metadata\u2014will enable the model to disentangle beam-induced particle motion from intrinsic diffusive dynamics, thereby allowing closed-loop LPTEM workflows to automatically adjust dose rate in real time to maintain segmentation fidelity above a target J&F threshold without sacrificing temporal resolution."
-}

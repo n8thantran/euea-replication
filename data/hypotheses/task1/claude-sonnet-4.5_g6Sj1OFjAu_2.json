@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Incorporating chemical domain knowledge through a chemically informed autoencoder and pretraining on large-scale adsorption databases will enable a conditional diffusion model to generate valid catalytic surface compositions that satisfy specified adsorption energy targets and elemental constraints more accurately than chemically-agnostic baseline approaches."
-}

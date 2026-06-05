@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIntroducing a multi-dataset contrastive alignment objective during pre-training will cause scientific foundation models to converge toward a more universal representation of matter that exhibits stronger cross-distribution alignment (i.e., higher CKNNA and IDCor on OOD data) than current models trained on single datasets, thereby reducing the dataset-governance effect observed in this study."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating SEM images from intermediate cycling stages (e.g., 25, 50, and 75 cycles) as an auxiliary pretraining domain between the additive-free source domain and the additive-containing target domain will create a morphological feature continuum that enables the transfer learning framework to disentangle additive-induced surface changes from aging-induced structural changes, thereby improving per-class F1 scores for formation-aged and 100-cycle additive-containing classes by at least 0.05 compared to the current two-stage framework that lacks this intermediate representation."
-}

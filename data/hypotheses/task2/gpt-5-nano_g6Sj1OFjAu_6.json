@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Augmenting CompGen with explicit local geometric descriptors of the adsorption motif (adsorbate center\u2013first-shell distances, surface facet label, and a local strain proxy) in the conditioning signals and applying modest symmetry-aware constraints during diffusion will improve cross-domain transferability and adsorption-energy fidelity, yielding two-shell compositions that map to physically realizable 3D adsorption geometries with closer DFT energies on OC20 and HEA datasets than a composition-only baseline."
-}

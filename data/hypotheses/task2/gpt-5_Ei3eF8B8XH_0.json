@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Conditioning LoQI on a coarse-grained protein-pocket field (3D electrostatic and steric grids from the holo structure with the ligand removed) will reduce the median heavy-atom RMSD to crystallographic bound ligand conformations on the Platinum Diverse dataset by at least 0.10 \u00c5 compared to unconditioned LoQI when generating 10 conformers per ligand."
-}

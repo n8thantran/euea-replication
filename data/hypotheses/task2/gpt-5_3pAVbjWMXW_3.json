@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Augmenting training with 20% synthetic mixtures that include concentration-dependent non-linear interactions\u2014implemented as 5\u201340 cm-1 peak shifts plus band broadening and intensity redistribution\u2014will increase Top-10 accuracy by at least 10 percentage points on experimentally measured ATR-IR binary acid\u2013alcohol mixtures compared to an otherwise identical model trained only on linear-combination spectra."
-}

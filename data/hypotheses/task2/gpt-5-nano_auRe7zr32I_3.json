@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating 3D conformational diversity metrics into NaviDiv's adaptive diversity constraints will more effectively preserve conformational space coverage and improve multi-objective optimization performance across diverse molecular generators (string-, graph-, and diffusion-based) than using only 2D fingerprints and SMILES-based metrics."
-}

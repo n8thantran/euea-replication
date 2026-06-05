@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "End-to-end joint training of protein sequence design and structure prediction models will improve both the accuracy of designed sequences (measured by self-consistency) and structure prediction performance compared to models trained independently for each task."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If physics-constrained diffusion (PCDiff) with non-negativity and sum-to-one regularizations is used to generate carbon-composite compositions, then the generated samples will achieve higher Validityreg and Validityfab scores than those produced by CVAE and TabDDPM, demonstrating improved physical plausibility and manufacturability without sacrificing density/coverage."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If E2EFOLD is trained end-to-end with the composite loss (FAPE, C\u03b1-FAPE, torsion, distogram, and sequence-recovery) and uses discrete sequence design via Gumbel-Softmax, then the designed sequences will achieve high sequence recovery and the predicted all-atom structures will closely match reference structures (high TM-score and low RMSD) on held-out datasets, outperforming Boltz-2 and standard baselines because joint optimization couples sequence design with accurate structure reconstruction."
-}

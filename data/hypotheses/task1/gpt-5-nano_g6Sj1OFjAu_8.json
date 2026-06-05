@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a conditional diffusion model operating in the CIAE latent space and conditioned on adsorbate identity, adsorption energy, and allowed element lists is used to sample shell-wise catalytic surface compositions, then the generated samples will achieve lower Fr\u00e9chet Distance to real configurations, lower leakage, and higher cosine similarity to ground-truth compositions than a chemically-agnostic baseline, because conditioning provides chemical specificity that guides sampling toward physically plausible, constraint-compliant configurations."
-}

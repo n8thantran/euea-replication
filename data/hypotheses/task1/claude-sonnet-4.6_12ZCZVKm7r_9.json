@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If scientific foundation models are trained on sufficiently large and diverse datasets of physical matter (molecules, materials, and proteins), then their internal representations will converge toward a universal latent geometry of matter that is largely independent of model architecture, training modality, or input representation format, because the underlying physical and chemical relationships constrain the structure of any sufficiently expressive learned embedding space."
-}

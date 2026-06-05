@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Embedding-based tool-task alignment metrics will exhibit diminishing predictive power for agent performance as the number of available tools exceeds a domain-specific threshold, beyond which tool selection complexity rather than tool-task semantic distance becomes the primary performance bottleneck."
-}

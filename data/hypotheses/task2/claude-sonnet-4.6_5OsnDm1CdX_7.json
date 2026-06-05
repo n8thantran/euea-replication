@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "When extending the GraphSAGE framework to three-or-more component gas mixtures, edge features explicitly encoding pairwise chemical interaction energies or reaction rate constants between gas species will yield significantly greater predictive accuracy improvements over the baseline than node features alone, because the dominant source of prediction error in multi-component mixtures arises from synergistic inter-species plasma chemistry that cannot be captured by aggregating single-gas hidden-layer representations without explicit relational information on the graph edges."
-}

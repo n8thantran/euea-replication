@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If the cross-modal predictive architecture using graph (CGCNN), text (MatSciBERT), and XRD (1D-CNN) modalities to predict the third modality in latent space with MLPs and regularization losses is trained on crystal property tasks, then it will achieve lower mean absolute error on Band Gap, Shear Modulus, Bulk Modulus, Dielectric, and Perovskites formation energy than single-modality baselines (CGCNN, CoGN, ALIGNN), because integrating complementary modalities provides richer representations and improves generalization."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If local iron coordination environments in proteins are encoded as graphs and paired with uniformly digitized Fe K-edge XAS spectra, then supervised models (GNNs for structure-to-spectrum and MLP/RF for spectrum-to-property) will achieve significantly lower prediction error and higher accuracy than naive baselines because Fe K-edge spectral features are determined by the local atomic geometry."
-}

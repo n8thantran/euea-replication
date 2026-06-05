@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Integrating real-time operando spectroscopic feedback (e.g., Raman or FTIR) into the closed-loop AdaCarbon platform will enable dynamic optimization of catalyst surface chemistry during electrolysis, thereby revealing transient active site structures that correlate with peak reactor yield but are undetectable in post-mortem analysis."
-}

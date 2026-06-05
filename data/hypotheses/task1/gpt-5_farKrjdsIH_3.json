@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If the Segment Anything Model 2 is fine-tuned on physics-informed synthetic LPTEM videos spanning realistic liquid thickness/SNR variability with box prompts, then it will segment and track nanoparticles in LPTEM videos in real time with higher IoU/F1 (J&F) than a U-Net baseline across particle counts, overlaps, and resolutions, and yield centroid trajectories that agree with manual annotations on real data because foundation-model priors combined with diverse, physically realistic training confer robustness to low-SNR conditions."
-}

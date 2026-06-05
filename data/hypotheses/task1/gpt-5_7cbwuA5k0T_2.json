@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If the semantic alignment between scientific tasks and available tools is increased (e.g., via higher task\u2013tool embedding similarity achieved through comprehensive tool descriptions, task decomposition, or a hypothesis generator), then LLM agents will achieve larger gains in pass rates and scores than from switching agent frameworks or base models, because improved alignment reduces reasoning and tool-selection errors."
-}

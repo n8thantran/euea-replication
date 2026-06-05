@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Conditioning AMDEN on a continuous cooling-rate variable, in addition to target properties, will enable generated amorphous structures to show energy, RDF, and bond-angle statistics that systematically vary with cooling rate in agreement with melt-quench simulations, allowing accurate interpolation to unseen cooling rates."
-}

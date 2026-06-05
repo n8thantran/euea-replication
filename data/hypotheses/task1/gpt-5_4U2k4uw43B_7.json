@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If solid-state NEB calculations for CsPbI3 phase transitions and the TiO2-B\u2192anatase transformation are first optimized with pretrained equivariant ML surrogates (EquiformerV2 or eSEN) and then restarted in DFT, then they will recover the same DFT transition pathways, barriers, and metastable intermediates as VASP-only NEB while requiring significantly fewer iterations and computing time because the ML models provide sufficiently accurate energies, forces, and stresses to initialize images near the true minimum energy pathway."
-}

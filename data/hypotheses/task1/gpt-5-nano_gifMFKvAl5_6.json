@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If the physics-constrained diffusion model (PCDiff) enforces non-negativity and sum-to-one constraints on material component proportions during diffusion, then it will generate compositions that satisfy physical feasibility (non-negativity and unit-sum) and practical fabrication limits at higher rates than CVAE and TabDDPM, demonstrating superior Validityreg and Validityfab without compromising fidelity and diversity."
-}

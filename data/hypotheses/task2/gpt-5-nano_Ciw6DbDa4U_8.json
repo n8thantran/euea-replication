@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Imposing lattice-symmetry aware constraints on the CPD-S tensor completion model\u2014by constraining the design-mode factors to transform according to the symmetry group of each lattice class (Gyroid, Schwarz, Diamond, Lidinoid)\u2014will improve predictive accuracy and bias-robustness for unseen unit-cell geometries in biased sampling scenarios, compared to unconstrained CPD-S and NeAT."
-}

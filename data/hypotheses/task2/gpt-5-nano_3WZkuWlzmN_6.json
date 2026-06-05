@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating an uncertainty quantification head into X-MoPA to output calibrated predictive intervals for each property will enable reliable out-of-distribution detection and, when combined with an uncertainty-guided active learning loop, will reduce generalization error on unseen material families more than a fixed-data baseline."
-}

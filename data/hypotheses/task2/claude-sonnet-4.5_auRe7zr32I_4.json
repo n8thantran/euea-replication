@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating conformational flexibility metrics into NaviDiv's diversity constraints during reinforcement learning will reveal that molecules optimized for singlet fission properties exhibit distinct conformational diversity patterns compared to structural diversity, and that explicit conformational diversity constraints will maintain property optimization performance while generating candidates with superior photophysical stability under operational conditions."
-}

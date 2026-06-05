@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Integrating explicit reaction kinetics and energy consumption into the economic efficiency metric will shift the ranking of Ca2SiO4 synthesis recipes away from CaO+SiO2 toward routes with lower energy demand and faster reaction rates, such that CaO+SiO2 ceases to be the most cost-effective option under elevated industrial heating costs."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If the AMDEN diffusion model with an EGNN backbone is trained on amorphous silicon datasets with different thermal histories and on a multi-element glass (MEG) dataset, and the MEG model is conditioned on Young's modulus via classifier-free guidance, then the generated amorphous structures will reproduce the reference RDFs, bond-angle distributions, structure factors, and potential energy distributions, and MEG structures will be steerable to the target modulus, because the denoising SDE framework, optional energy-based refinement with HMC, and density-control mechanisms encode and realize the physical structure\u2013property relationships present in the training data."
-}

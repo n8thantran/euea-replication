@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If lattice-structure design\u2013property data possess low-rank multilinear structure and training samples are limited or convenience-biased, then tensor-completion surrogate models (CPD-S, NeAT, and their ensembles) will achieve higher predictive accuracy (e.g., R\u00b2) for E and \u1ebc than GP, XGBoost, or MLP baselines because they exploit cross-mode correlations to reconstruct unobserved entries."
-}

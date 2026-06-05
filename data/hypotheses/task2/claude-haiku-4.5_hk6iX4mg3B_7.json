@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Ensemble consensus-based semi-supervised learning will maintain its performance advantage over supervised baselines even when the unlabeled data is drawn from a substantially different chemical space than the labeled data, whereas augmentation-free consistency methods will show degraded performance due to distribution shift between the ensemble consensus targets and the true label distribution of out-of-distribution unlabeled samples."
-}

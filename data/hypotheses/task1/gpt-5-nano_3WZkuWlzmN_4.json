@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If a cross-modal predictive framework trains two modalities (graph CGCNN features, RoboCrystallographer text, and XRD spectra) to predict the third in latent space, then it will reduce the mean absolute error of predicting material properties (Band Gap, Shear Modulus, Bulk Modulus, Dielectric, and Perovskites formation energy) on Matbench/AFLOW compared to single-modality baselines, because leveraging complementary information from all three modalities yields richer latent representations."
-}

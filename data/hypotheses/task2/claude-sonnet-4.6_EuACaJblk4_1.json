@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "If the Gumbel-Softmax temperature \u03c4 during training is annealed according to a curriculum that is conditioned on the current structural self-consistency loss rather than on a fixed schedule, then the encoder will learn sequence distributions that more effectively encode structural constraints, resulting in measurably improved self-consistency TM-scores compared to the fixed annealing schedule used in E2EFOLD, because adaptive temperature control would maintain sufficient stochasticity during periods of poor structural recovery while sharpening toward discrete sequences only once the decoder has learned to reliably fold them."
-}

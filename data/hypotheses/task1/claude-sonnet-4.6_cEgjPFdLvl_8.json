@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a diffusion model framework combining an equivariant graph neural network backbone with an energy-based denoising approach and Hamiltonian Monte Carlo refinement is applied to amorphous material generation, then it will produce structurally and energetically valid amorphous configurations that accurately reproduce experimentally and computationally derived structural descriptors (radial distribution functions, bond angle distributions, structure factors) and enable property-conditioned inverse design, because the equivariant architecture preserves physical symmetries while the energy-based score matching and HMC refinement enforce thermodynamically consistent local geometries during the generative process."
-}

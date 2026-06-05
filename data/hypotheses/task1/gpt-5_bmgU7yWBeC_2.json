@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a configuration evaluated by a direct-force pre-trained neural network interatomic potential has a larger Force Delta (RMS discrepancy between energy-gradient and directly predicted forces), then it will have a larger true DFT force error\u2014across equilibrium and adversarial OOD structures\u2014and this correlation will exceed that of ensemble variance, because disagreement between conservative and non-conservative forces reveals internal inconsistency indicative of extrapolation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "In MADE experiments on held-out ternary chemical systems with a 20-query budget, an agent that uses an LLM-guided generative proposer, an ensemble-MLIP to estimate epistemic uncertainty, and a two-stage multi-fidelity evaluation pipeline (MLIP screening followed by selective DFT on high-uncertainty/high-promise candidates) will discover at least twice as many novel thermodynamically stable compounds (per convex-hull criterion) as a baseline MatterGen+diversity acquisition agent using MLIP-only oracles."
-}

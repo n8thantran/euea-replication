@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "In LPTEM sequences acquired at 100\u2013160 nm liquid thickness, a closed-loop controller that modulates electron dose rate in real time to maintain SAM-EM\u2019s per-frame segmentation uncertainty below a preset threshold will reduce cumulative dose by at least 30% while keeping tracking accuracy (centroid RMSE and identity F1) within 5% of a constant high-dose baseline over 600 frames."
-}

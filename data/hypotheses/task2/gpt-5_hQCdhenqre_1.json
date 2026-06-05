@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating a differentiable, charge-conserving partial-charge head coupled to an Ewald-summed long-range Coulomb term into the MACE model will reduce NVE energy drift by \u226550% and force MAE by \u226515% on solvated ionic biomolecular systems (~1000 atoms, 0.15 M NaCl) relative to the current short-range models, while increasing JAX-MD per-step runtime by \u226425%."
-}

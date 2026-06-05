@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "The score difference approximation to the reaction coordinate (r_SAA = s^B_\u03b8(x,t) - s^A_\u03b8(x,t)) will systematically fail to identify transition states in systems where the reaction coordinate is orthogonal to the probability density gradient between metastable states, such as in enzymatic reactions where conformational changes occur along collective variables that are decorrelated from the reactant-product structural differences."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If amorphous structures are generated using AMDEN\u2014an EGNN-based diffusion model with VE/VP SDEs, energy-guided scoring, and HMC refinement\u2014then their RDFs, bond-angle distributions, structure factors, and potential energy distributions will match those of MD-generated amorphous silicon across different thermal histories and, when conditioned on Young\u2019s modulus, the model will produce multi-element glasses achieving the specified modulus because the equivariant score and energy guidance learn and sample from the joint distribution of atomic positions and compositions while favoring equilibrated configurations."
-}

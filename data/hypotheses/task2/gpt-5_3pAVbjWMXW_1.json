@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Training with synthetic mixtures that include concentration-dependent hydrogen-bond\u2013induced peak shifts (1\u201320 cm\u22121) and broadenings applied to O\u2013H and C=O bands will improve Top-10 identification accuracy by at least 5 percentage points for 10% minority components in ATR-IR alcohol\u2013carboxylic acid binary mixtures compared to an otherwise identical model trained with purely linear mixture synthesis."
-}

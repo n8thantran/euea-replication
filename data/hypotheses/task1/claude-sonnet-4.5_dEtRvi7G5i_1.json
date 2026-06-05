@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Integrating chemical template theory with machine learning to identify metal lattice configurations with strong electron localization at interstitial sites will enable efficient discovery of thermodynamically stable metal superhydrides with high superconducting transition temperatures."
-}

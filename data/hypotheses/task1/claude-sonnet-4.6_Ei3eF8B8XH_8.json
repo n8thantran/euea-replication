@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a stereochemistry-aware diffusion model (LoQI) is trained on a large-scale dataset of neural-network-potential-optimized molecular conformers (ChEMBL3D), then it will generate low-energy molecular conformers with near-quantum-mechanical accuracy, correct stereochemistry, and competitive structural similarity to experimental crystal structures compared to existing conformer generation methods, because exposure to diverse, high-quality conformational data combined with explicit stereochemical graph augmentation enables the model to learn the energy landscape and geometric constraints governing drug-like molecular conformations."
-}

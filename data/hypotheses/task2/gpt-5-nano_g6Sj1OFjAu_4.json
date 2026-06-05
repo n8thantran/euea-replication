@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit adsorption-site motif and facet orientation as additional conditioning signals in CompGen will enable more accurate and facet-transferable inverse shell composition design, reducing composition leakage and increasing alignment with target adsorption energies across diverse surfaces."
-}

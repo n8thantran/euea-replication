@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nThe magnitude of the Force Delta (U\u2206) can be used as a physics-informed regularization term during NNIP training to systematically improve the consistency between conservative and non-conservative force predictions, thereby enhancing both model accuracy and out-of-distribution generalization without requiring ensemble training or additional ground-truth data."
-}

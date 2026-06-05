@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Augmenting a top-performing conservative uMLIP\u2019s training set with \u22641,000 DFT host\u2013guest snapshots (CO2-loaded configurations at 300 K) across 10 representative flexible MOFs will reduce the mean absolute error of adsorption-induced volumetric strain at 1 bar by at least 40% relative to the"
-}

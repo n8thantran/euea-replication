@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Dynamic benchmarking with diverse structure generators and intelligent acquisition functions enables autonomous materials discovery agents to discover more novel stable compounds than random exploration strategies within fixed computational budgets."
-}

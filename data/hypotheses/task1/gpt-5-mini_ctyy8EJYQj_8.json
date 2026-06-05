@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "When coupled with the CALPHAD/JMA simulator and prompt-tuned via DSPy's LabeledFewShot strategy, a ReAct-based GPT-4o agent will, on average across the four Nb\u2013O synthesis tasks, achieve equal or higher success rates and visit fewer states than the discretized-state A* algorithm because the LLM can leverage learned heuristics and tool access to navigate the continuous thermokinetic search space more efficiently."
-}

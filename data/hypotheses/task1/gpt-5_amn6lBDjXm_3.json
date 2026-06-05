@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If the magnitude of controlled distortions applied to known crystal structures increases from small to large, then DFT-relaxed RMSD will increase and the fraction of SUN-stable structures (energy above hull \u2264 0.1 eV/atom) will decrease across MP and OQMD because the chemically grounded metrics track deviation from equilibrium configurations."
-}

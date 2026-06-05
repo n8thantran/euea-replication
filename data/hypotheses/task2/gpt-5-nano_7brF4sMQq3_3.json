@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "ASTRA-generated transition state ensembles can be used to predict temperature-dependent reaction rate constants for unseen systems by estimating the activated complex partition function from the TS energies and normal-mode frequencies sampled by ASTRA and applying the Eyring equation, with the resulting rate constants matching reference rates from long-timescale MD or experiments within a predefined tolerance across diverse reactions."
-}

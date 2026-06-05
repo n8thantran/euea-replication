@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Graph neural networks with pre-trained single-gas feature extraction can generalize to predict etching rates in gas mixtures beyond the composition ranges seen during training because the frozen pre-trained features capture the underlying physics of individual gas contributions."
-}

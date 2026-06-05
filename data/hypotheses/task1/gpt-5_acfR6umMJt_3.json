@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If NEB is run using NN-BAX with an iteratively fine-tuned EquiformerV2 on acquired path points for LJ7 and LJ38 transitions, then it will achieve the same fmax convergence and low MAEi as classical NEB while requiring substantially fewer simulator evaluations because Bayesian acquisition concentrates training on the most informative segments of the minimum-energy path."
-}

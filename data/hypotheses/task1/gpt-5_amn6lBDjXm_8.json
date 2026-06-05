@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If perturbed reference crystals and generative-model samples are evaluated with a DFT-anchored framework that combines relaxation-based RMSD and convex-hull SUN with property/latent metrics, then scores will decrease monotonically with increasing perturbation and will correctly rank models by the DFT stability (energy above hull) and relaxability of their outputs because first-principles simulations provide chemically faithful ground truth that heuristic metrics lack."
-}

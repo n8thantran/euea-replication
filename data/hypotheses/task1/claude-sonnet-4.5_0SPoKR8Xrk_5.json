@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Integrating sequential polymer structure information with spatial surface topology through attention mechanisms enables more accurate prediction of polymer-surface binding free energies than models treating these features independently."
-}

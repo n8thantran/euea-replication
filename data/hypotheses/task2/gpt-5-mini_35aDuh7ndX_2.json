@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating 3D protein-pocket-derived pharmacophore constraints into the current pharmacophore-guided generative reward (augmenting CATS descriptors with pocket interaction fingerprints) will yield generated compounds that, upon synthesis, exhibit at least a twofold improvement in ER\u03b1 binding affinity (Kd or IC50) versus compounds produced by the original docking-independent method while maintaining \u226580% novelty (absent from ChEMBL/ZINC/PubChem) and synthetic accessibility scores within \u00b10.5 of the original method."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Hybrid XRD-energy loss landscapes that combine XRD similarity metrics with machine-learned energy penalties weighted by structural stability margins will exhibit reduced non-convexity along symmetry axes compared to XRD-only optimization, enabling gradient descent to recover correct structures from larger distortions without requiring a priori knowledge of crystal symmetry."
-}

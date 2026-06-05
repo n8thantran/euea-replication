@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Foundation models pre-trained on SMILES representations will exhibit systematically degraded performance when predicting electrolyte properties in multi-component systems where non-covalent intermolecular interactions (hydrogen bonding, \u03c0-\u03c0 stacking, ion pairing) dominate over covalent structural features, because their molecular-level embeddings lack explicit encoding of three-dimensional spatial arrangements and dynamic solvation shell geometries that emerge only at the formulation scale."
-}

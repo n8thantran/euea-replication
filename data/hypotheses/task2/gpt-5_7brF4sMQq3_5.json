@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "For two-state systems, at late diffusion times the difference between the conditional scores, rSAA(x,t;\u03b3)=sB(x,t;\u03b3)\u2212sA(x,t;\u03b3), is proportional to the true committor gradient \u2207q(x), and the cosine similarity between rSAA and \u2207q(x) increases monotonically with the classifier-free guidance scale \u03b3."
-}

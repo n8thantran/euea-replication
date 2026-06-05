@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Diffusion models trained only on metastable state data can generate transition state ensembles when guided by interpolated conditional scores and refined via force projection along the gradient difference between endpoint states."
-}

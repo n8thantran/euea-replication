@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating 3D pharmacophore descriptors that encode inter-feature distances and orientations into the reinforcement-learning reward (replacing the CATS-based term) will produce generated compounds that have significantly improved docking scores against ER\u03b1 (PDB 8AWG) while maintaining \u226580% novelty (absence from ChEMBL/ZINC/PubChem) and no greater than a 10% increase in mean MAP4 similarity to the reference set compared with the original CATS-based setup."
-}

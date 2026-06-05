@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If AMDEN\u2014an EGNN-backboned diffusion model trained on MD-generated amorphous structures\u2014uses energy-based noise prediction with HMC refinement during reverse denoising, then it will produce amorphous materials whose radial distribution functions, bond-angle distributions, structure factors, and potential energy distributions match MD reference ensembles more closely (before and after local geometry optimization) than those produced by standard denoising, because energy-based scores plus HMC equilibration enforce more physically plausible local geometries."
-}

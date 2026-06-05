@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Adding a differentiable 10-step NVE energy-conservation regularizer during MLIP training (implemented via JAX-MD unrolled velocity-Verlet) will reduce the median absolute total-energy drift over 1 ns 300 K NVE simulations by at least 50% for 1UAO and 1ABT at a 2 fs timestep while increasing SPICE2 validation force MAE by no more than 2% relative to an identically parameterized model trained without the regularizer."
-}

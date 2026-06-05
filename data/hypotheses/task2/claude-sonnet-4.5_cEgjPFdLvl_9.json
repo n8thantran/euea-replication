@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit structural relaxation pathways learned from multi-temperature molecular dynamics trajectories into the diffusion model's training objective will enable direct generation of low-energy amorphous structures without requiring computationally expensive Hamiltonian Monte Carlo refinement during inference."
-}

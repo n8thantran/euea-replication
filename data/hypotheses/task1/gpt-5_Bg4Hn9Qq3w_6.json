@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If LLM agents using ReACT are given closed-loop control of experimental variables and only sparse outcome data, then they will correctly infer the latent governing rules (e.g., Alien Market rejection criterion and ALD/ALE/CVD reaction pathways), with accuracy increasing as model capacity and experimental budget/time increase, because they can iteratively generate, test, and refine hypotheses from observations."
-}

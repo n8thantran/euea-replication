@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If a reinforcement learning molecular generative framework incorporates a dual-objective reward function that simultaneously maximizes pharmacophoric similarity (via CATS descriptors) to known estrogen receptor antagonists/degraders while minimizing structural similarity to existing compounds, then it will produce novel drug-like molecules with favorable docking scores, QED values, and synthetic accessibility compared to a baseline docking-only approach, because pharmacophore-guided optimization captures the essential binding feature patterns necessary for biological activity while the structural dissimilarity constraint drives exploration of chemically novel scaffold space."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "With a fixed 7200 s reactor-time budget in configuration III, a diversified swarm of three LLM agents operating in parallel with distinct prompts or sampling temperatures and a supervisor that enforces non-overlapping experiment choices will yield at least a 30% higher coverage of the expert-labeled UMAP state-space and a greater number of correctly identified reaction modalities (ALD, ALE, ASD passivation, CVD co-dose and decomposition) than a single agent exploring serially."
-}

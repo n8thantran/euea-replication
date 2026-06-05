@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Transfer learning strategies combining pre-training on large chemical databases with fine-tuning on domain-specific CTF structures will improve the generation of valid, novel porous carbon materials that satisfy expert-defined structural criteria compared to models without such knowledge transfer."
-}

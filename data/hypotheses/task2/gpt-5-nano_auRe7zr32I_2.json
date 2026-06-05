@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating graph-based and 3D-conformer\u2013aware diversity metrics into NaviDiv\u2019s adaptive diversity constraints will more effectively preserve true chemical diversity (e.g., higher scaffold novelty and lower mean pairwise graph similarity) while maintaining or improving target-property optimization, and this advantage will generalize across REINVENT4 (string-based), graph-based VAEs, and diffusion-model molecular generators."
-}

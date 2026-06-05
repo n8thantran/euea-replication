@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If open-source molecular generative models are pre-trained on large chemical datasets, fine-tuned on a curated CTF dataset, and subsequently optimized via reinforcement learning with expert-designed reward functions, then they will yield a higher fraction of valid, unique, diverse, and expert-filter\u2013passing CTF candidates than models using pre-training alone or fine-tuning without RL because combined transfer learning and reward shaping align the models\u2019 latent space with domain-specific structural constraints and objectives."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating protein flexibility information through ensemble pharmacophore models derived from multiple receptor conformations will generate molecules with superior binding affinity and selectivity compared to pharmacophores derived from a single reference conformation, because the ensemble approach captures the dynamic pharmacophoric space accessible to the receptor and thus produces compounds that can exploit induced-fit interactions not represented by static crystal structures."
-}

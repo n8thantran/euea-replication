@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If a single hybrid Transformer\u2013Mamba encoder\u2013decoder is pre-trained with a unified tokenizer and alignment/reconstruction objectives across seven molecular textual representations, then it will learn a modality-invariant latent space that yields better clustering (lower DBI, higher ARI/V-Measure/FMS), superior accuracy on 99 property prediction tasks across molecules, polymers, and electrolytes, and high-validity, high-similarity translation between representations compared with single-representation models because multimodal pretraining fuses complementary structural information."
-}

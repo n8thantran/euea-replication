@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "For scientific tasks where the mean minimum cosine distance between task and available tool embeddings exceeds 0.6, automatically synthesizing and adding an intermediate \"hypothesis-generator\" tool that reduces that mean-min distance by at least 0.1 will increase pass@5 of domain-weak base models (e.g., GPT-4o) by at least 30 percentage points relative to the same agent configuration without the synthesized tool, irrespective of whether a ReAct or tool-calling framework is used."
-}

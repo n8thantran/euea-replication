@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If catalytic surface compositions are represented as two-shell periodic-table vectors and encoded with a chemically informed autoencoder, then a conditional latent diffusion model conditioned on adsorbate identity, target adsorption energy, and allowed element lists will generate shell-wise compositions that better match real distributions and satisfy constraints (lower Fr\u00e9chet distance, higher cosine similarity, and lower leakage) than a chemically agnostic baseline, even with reduced training data, because the latent space captures periodic chemical priors and the conditioning guides sampling toward feasible solutions."
-}

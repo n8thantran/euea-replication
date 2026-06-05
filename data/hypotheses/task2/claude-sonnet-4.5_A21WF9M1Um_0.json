@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating a learned symmetry-aware projection operator that dynamically adjusts constraint strength based on local landscape curvature will enable gradient-based XRD structure optimization to escape shallow local minima along symmetry axes while maintaining convergence to the correct phase, thereby improving match rates for coordinate-perturbed structures beyond what fixed energy relaxation or fixed symmetry constraints achieve individually."
-}

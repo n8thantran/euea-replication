@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The integration of dynamic structural information from molecular dynamics simulations with static XAS spectra will enable more accurate prediction of protein conformational states and catalytic intermediates than models trained solely on crystallographic structures, particularly for iron-containing enzymes with flexible active sites."
-}

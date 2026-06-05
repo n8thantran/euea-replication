@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "\u0394-learning XGBoost models that predict the correction between GFN1-xTB and DFT band gaps using the 1167 descriptors will yield lower RMSE in predicting DFT band gaps for the MOF dataset than direct XGBoost models trained to predict DFT band gaps, because the approach leverages the baseline GFN1-xTB estimates to compensate for systematic errors."
-}

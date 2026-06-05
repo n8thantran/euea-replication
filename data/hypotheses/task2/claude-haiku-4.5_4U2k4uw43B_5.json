@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "The accuracy of ML-predicted minimum energy pathways in SSNEB calculations will systematically degrade as a function of distance from the training distribution of the pre-trained models, such that materials with crystal structures or chemical compositions significantly underrepresented in the OMAT dataset will exhibit larger discrepancies between ML-only and DFT-converged transition pathways than materials within the training distribution."
-}

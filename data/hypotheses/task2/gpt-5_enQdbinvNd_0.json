@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Augmenting the literature-extraction agents with a persistent, structured memory of canonical force-field schema templates and previously verified parameter mappings will raise the Intersection-over-Union of parameters extracted from non-standard-format tables (e.g., EPM2-style row-wise layouts) to \u22650.90 on a held-out benchmark of at least 20 papers, relative to the current stateless system."
-}

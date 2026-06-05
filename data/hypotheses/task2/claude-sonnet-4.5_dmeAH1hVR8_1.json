@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Integrating topological invariants (e.g., persistent homology descriptors) as auxiliary pre-training signals alongside MOFid and SMILES representations will enable LLMs to predict MOF properties with higher accuracy than text-only pre-training, particularly for properties strongly governed by pore geometry and connectivity that are not fully captured by linear string encodings."
-}

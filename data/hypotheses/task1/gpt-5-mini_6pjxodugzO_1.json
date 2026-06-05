@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If molecular embeddings produced by chemical foundation models (SMI-TED, MolT5, Galactica, GraphMVP) are used as inputs to neural networks for predicting battery-relevant properties across molecular, formulation, surface, and device scales, then these models will achieve higher predictive accuracy, better out-of-distribution (tail) generalization, and stronger, more reliable moiety\u2013outcome correlations than models using Morgan fingerprints, because FM pretraining on large SMILES corpora captures richer chemical representations."
-}

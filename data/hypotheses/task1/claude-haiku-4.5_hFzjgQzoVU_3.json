@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Machine learning models can accurately predict iron K-edge X-ray absorption spectra from local atomic structure around iron centers and conversely predict iron coordination chemistry properties from X-ray absorption spectra because systematic curation of experimental data with validated annotations enables training of neural network and classical models on structure-spectrum relationships."
-}

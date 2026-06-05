@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a concept bottleneck model is trained to learn orthogonal, property-specific embeddings and their weighted sum is added as a steering vector to intermediate activations of a frozen chemistry LLM during generation, then the model will produce molecules whose properties (e.g., QED, LogP) more accurately match specified targets with lower MAE/Best100MAE and higher generative efficiency while maintaining validity, uniqueness, novelty, and synthesizability\u2014even on out-of-distribution targets\u2014than vanilla, ActAdd, LoRA, or full fine-tuning baselines because the learned embeddings disentangle and linearly control property-relevant directions in the model\u2019s representation space."
-}

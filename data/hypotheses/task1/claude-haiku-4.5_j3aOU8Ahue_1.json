@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Transfer learning with a two-stage pretraining and fine-tuning approach using weighted cross-entropy loss will achieve higher classification accuracy on small target datasets of lithium-ion battery cathode SEM images than standard fine-tuning or single-stage training approaches."
-}

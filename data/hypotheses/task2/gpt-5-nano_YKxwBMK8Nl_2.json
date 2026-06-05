@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Integrating an automated molecular-structure localization and image-to-SMILES module into the ChemX single-agent pipeline, with a verification loop that cross-validates image-derived SMILES against text-derived descriptors, will increase small-molecule SMILES extraction precision and recall by at least 20 percentage points and reduce SMILES_type misclassification by at least 40% on the Benzimidazoles and Oxazolidinones datasets, compared to the best-performing single-agent pipeline without image-to-structure integration."
-}

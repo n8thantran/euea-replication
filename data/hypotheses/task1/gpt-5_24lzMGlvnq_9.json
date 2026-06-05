@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If language models trained on alloy composition data are further optimized via Direct Preference Optimization using Thermo-Calc-derived, hierarchical physics-based feedback, then they will generate BCC/B2 superalloy compositions that more frequently satisfy the target phase constraints and achieve higher mean reward, validity, coverage, novelty, and unique-pair rates than SFT-only and prompting baselines because physics-based preference learning aligns generation with thermodynamically favorable regions while limiting distribution shift."
-}

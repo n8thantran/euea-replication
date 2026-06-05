@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "A conditional latent diffusion model trained on composition vectors of catalytic surface shells can generate chemically valid and thermodynamically feasible surface compositions for specified adsorbates and target adsorption energies."
-}

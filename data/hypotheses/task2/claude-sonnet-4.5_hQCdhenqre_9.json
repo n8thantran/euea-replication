@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating explicit solvent-solute interaction terms learned through contrastive pre-training on paired vacuum and solvated conformations will reduce force prediction errors in the solvated PubChem subset by at least 20% compared to the current MACE-large model without requiring additional DFT calculations."
-}

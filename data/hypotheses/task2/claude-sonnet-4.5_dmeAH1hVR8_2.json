@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating topology-aware positional embeddings that encode RCSR topological codes alongside MOFid string representations will improve LLM prediction accuracy for MOF properties more effectively than chemical composition information alone, particularly for properties strongly dependent on structural connectivity such as gas selectivity ratios."
-}

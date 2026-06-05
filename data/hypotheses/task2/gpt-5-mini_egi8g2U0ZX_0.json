@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Integrating a rapid physics-based electronic-conductivity proxy (e.g., on-the-fly semi-empirical/tight-binding estimates) into the reinforcement-learning reward during transfer learning will produce a statistically significant increase in the fraction of generated covalent triazine framework substrates whose full DFT-calculated electronic conductivity exceeds a materials-relevant threshold compared to agents trained with heuristic chemical filters alone."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Extending the surrogate tensor with an additional fidelity mode that couples low-cost finite element simulation outputs with high-fidelity experimental measurements and fitting a shared low-rank NeAT model will reduce high-fidelity test MAE for Young\u2019s modulus predictions by at least 20% relative to single-fidelity tensor completion at equal numbers of high-fidelity labels under biased sampling."
-}

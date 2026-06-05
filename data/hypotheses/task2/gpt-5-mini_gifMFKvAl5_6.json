@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating a differentiable micromechanics surrogate that predicts coupled effective stiffness and thermal conductivity (accounting for filler aspect ratio and interfacial resistance) as an additional regularizer during the PCDiff denoising process will produce generated composite compositions that, when conditioned on high target yield strength, achieve a mean thermal conductivity at least 10% greater than PCDiff using only non-negativity and sum-to-one constraints while maintaining \u226595% validityreg."
-}

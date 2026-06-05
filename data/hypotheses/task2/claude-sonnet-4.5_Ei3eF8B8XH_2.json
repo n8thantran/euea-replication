@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Stereochemical graph augmentation combined with diffusion models can be extended to predict conformational ensembles that capture the Boltzmann-weighted distribution of bioactive conformations in explicit protein binding pockets, enabling direct prediction of bound-state geometries without requiring prior knowledge of the unbound minimum-energy structure."
-}

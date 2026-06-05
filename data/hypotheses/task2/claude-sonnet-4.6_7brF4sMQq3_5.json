@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "The quality of ASTRA's transition state sampling will systematically degrade as the number of intermediate metastable states along a reaction pathway increases beyond two, because the Score-Based Interpolation framework assumes a direct binary partition of configuration space, and this degradation can be overcome by replacing the pairwise score composition with a sequential chained interpolation scheme that conditions each interpolation step on the preceding intermediate state's learned score, thereby enabling accurate a priori transition state identification across multi-step reaction networks with three or more distinct minima."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Extending the paper's finding that SMILES anchoring induces emergent SO(3) invariance, a hypothesis addressing the identified limitation of stereochemical sensitivity:\n\nContrastive alignment between stereochemistry-aware molecular representations (e.g., isomeric SMILES encoding R/S and E/Z configurations) and 3D electron density grids will induce chirality-discriminative latent spaces in which enantiomeric pairs are reliably separated\u2014quantifiable by a pairwise cosine similarity gap exceeding 0.3 between enantiomers versus their corresponding achiral analogues\u2014whereas canonical SMILES anchoring, which erases stereochemical information, will produce embeddings that collapse enantiomers into indistinguishable regions of the latent space despite their distinct 3D electron density distributions."
-}

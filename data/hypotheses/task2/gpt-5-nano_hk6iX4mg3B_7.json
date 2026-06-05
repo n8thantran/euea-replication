@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "When unlabeled molecular data originate from a distribution shift relative to the labeled data, incorporating a domain-similarity weighting into the ensemble-consensus SSL loss\u2014where each unlabeled example's contribution is scaled by its estimated similarity to the labeled distribution\u2014will improve both in-domain predictive accuracy and out-of-domain generalization compared with the uniform-consensus objective."
-}

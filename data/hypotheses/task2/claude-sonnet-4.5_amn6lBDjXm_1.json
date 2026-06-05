@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating symmetry-aware perturbations during training will improve generative models' ability to produce thermodynamically stable structures, as measured by a reduction in energy-above-hull values by at least 30% compared to models trained without explicit symmetry constraints, while maintaining comparable coverage and novelty metrics."
-}

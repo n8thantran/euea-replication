@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If open-weight language models are first supervised on alloy compositions and then optimized with Direct Preference Optimization using Thermo-Calc\u2013derived hierarchical preference feedback, then they will generate BCC/B2 superalloy compositions that more reliably satisfy coexistence/formation/room-temperature/phase-purity constraints with lower lattice mismatch and higher validity/novelty than SFT-only and non-preference baselines because physics-based preference learning aligns the model\u2019s distribution with thermodynamic feasibility."
-}

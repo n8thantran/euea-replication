@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a chemically grounded evaluation framework combining DFT-based simulation metrics (RMSD and SUN) with property-based and latent-space metrics is applied to generative materials models, then it will reveal systematic discrepancies between purely ML-based metrics and physically meaningful stability assessments, because ML metrics alone lack the chemical grounding necessary to distinguish truly stable, novel crystal structures from physically unrealistic ones."
-}

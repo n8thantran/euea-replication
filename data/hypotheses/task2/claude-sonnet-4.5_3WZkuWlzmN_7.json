@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating dynamically weighted modality selection during cross-modal prediction\u2014where the model learns to prioritize modality pairs based on their task-specific information content rather than random sampling\u2014will further reduce prediction error for properties with anisotropic structural dependencies (e.g., elastic anisotropy, piezoelectric coefficients) by 15-30% compared to X-MoPA's uniform random selection strategy."
-}

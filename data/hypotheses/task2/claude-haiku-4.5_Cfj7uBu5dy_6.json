@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Agents employing uncertainty-guided acquisition functions that dynamically weight exploration versus exploitation based on the estimated distance of proposed structures from the training distribution of the generative model will discover thermodynamically stable compounds more efficiently than fixed-strategy agents, particularly in chemical systems where the MLIP oracle exhibits higher prediction uncertainty far from its training data."
-}

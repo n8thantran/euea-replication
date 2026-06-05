@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If SMILES-based chemical foundation model embeddings are used as input features for transfer-learned neural networks, then they will outperform traditional Morgan fingerprints in accuracy and out-of-distribution robustness for predicting battery-relevant molecular, formulation, surface, and device properties, while preserving interpretable correlations with known chemical moieties."
-}

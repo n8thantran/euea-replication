@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a GraphSAGE model uses frozen embeddings from pre-trained single-gas FNNs (for Ar and O2) as node features along with gas fractions, then it will predict radial etching rates for Ar/O2 mixtures more accurately and generalize to unseen power/pressure regimes and composition thresholds than monolithic FNNs or generic GNNs because the single-gas embeddings encode transferable plasma-chemistry dependencies."
-}

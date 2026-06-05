@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Molecules with multiple competing low-energy conformational basins separated by high activation barriers will show degraded LoQI performance compared to molecules with single dominant energy minima, because the diffusion model's training on AIMNet2-optimized structures biases it toward the most thermodynamically stable basin rather than capturing kinetically accessible alternative conformations."
-}

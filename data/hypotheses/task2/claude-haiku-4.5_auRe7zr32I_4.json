@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Adaptive threshold optimization for diversity constraints will be more effective than fixed thresholds in maintaining chemical diversity while preserving optimization performance across diverse molecular design tasks, because dynamically adjusting constraint thresholds based on real-time diversity metric divergence can prevent premature convergence without unnecessarily slowing property optimization."
-}

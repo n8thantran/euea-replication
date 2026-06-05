@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "At 250 GPa, the P63/mmc M4H52 (M = La, Ce) superhydrides will exhibit an electron\u2013phonon coupling constant at least 20% larger and a superconducting Tc at least 30 K higher than the most stable MH10 polymorphs of the same metal due to inter-motif coupling between H24 clusters and 2D hydrogen sheets."
-}

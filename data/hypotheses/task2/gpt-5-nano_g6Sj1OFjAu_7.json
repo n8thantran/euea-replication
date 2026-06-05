@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating a thermodynamic stability constraint derived from a learned surrogate of alloy formation enthalpy and phase stability for the two-shell compositions into the CompGen conditioning objective will increase the fraction of generated shell configurations that achieve the target adsorption energy while remaining thermodynamically stable under synthesis and operating-temperature conditions."
-}

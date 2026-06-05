@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If generative models are pre-trained on large chemical databases (ChEMBL v35 and ZINC-15), fine-tuned on a curated set of 103 covalent triazine framework structures, and further optimized with reinforcement learning using expert-defined reward functions, then they will produce porous carbon (CTF) candidates with a significantly higher percentage passing expert structural filters and improved generation metrics (validity, uniqueness, internal diversity, lower Fr\u00e9chet ChemNet Distance, and higher novelty) than models that do not combine these transfer learning and reward-shaping strategies."
-}

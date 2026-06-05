@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Models trained with class-balancing techniques that artificially equalize template frequency distributions will exhibit improved generalization to rare and unseen reaction templates without sacrificing top-k accuracy on common templates, compared to models trained on naturally imbalanced datasets."
-}

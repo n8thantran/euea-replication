@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating structural diversity among ensemble members through heterogeneous GNN architectures (e.g., combining PaiNN, SchNet, and DimeNet within a single coupled ensemble) will produce higher-quality consensus targets on unlabeled molecular data than homogeneous ensembles of identical architecture, yielding greater improvements in both predictive accuracy and calibration of the distilled individual models, because architectural diversity generates complementary inductive biases that increase prediction variance without sacrificing consensus accuracy."
-}

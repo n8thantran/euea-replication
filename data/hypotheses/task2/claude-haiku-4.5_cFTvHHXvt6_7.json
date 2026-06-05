@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating a physics-informed loss function that directly penalizes spectral mismatches rather than token-level cross-entropy will reduce the generalization gap between training-paraphrase and validation performance by more than 50% while maintaining or improving sub-JND accuracy on seen structures."
-}

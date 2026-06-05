@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If aromatic valency is computed correctly (treating aromatic bonds as 1.5 or via Kekulization) and models are evaluated with GFN2-xTB instead of MMFF94, then 3D molecule generators retrained on the revised GEOM-Drugs will show significantly higher chemical validity and near-zero mean \u0394E_relax with reduced \u0394r/\u0394\u03b8/\u0394\u03c6 compared to the original protocol, because accurate valency constraints and QM-consistent evaluation better reflect true molecular structure."
-}

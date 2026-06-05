@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Conformational strain energies computed by evaluating LoQI-generated solution-phase minima against experimentally observed bound ligand geometries (using AIMNet2) will exhibit an inverse Spearman correlation with measured binding affinities (pKi/pKD) that is at least 0.15 higher than the inverse Spearman correlation obtained using strain energies computed from RDKit ETKDG-generated minima."
-}

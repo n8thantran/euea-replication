@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If a chemically informed autoencoder latent space is used to condition a diffusion model on adsorption energy targets and elemental constraints, then it will generate shell-wise surface compositions that more accurately satisfy inverse design specifications (target adsorption energies and allowed element lists) compared to a chemically-agnostic baseline, because encoding periodic table relationships into the latent space captures the chemical similarity structure necessary for meaningful interpolation and conditional generation of catalytic surface compositions."
-}

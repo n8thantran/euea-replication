@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "A SMILES-based foundation model pretrained on synthetic electrolyte mixture sequences that explicitly encode constituent identities, composition ratios, and pairwise moiety co-occurrence will achieve at least a 15% lower MAE than Morgan Fingerprints on the 18,000-sample log ionic conductivity dataset and a lower MAE on its tail-end out-of-distribution splits."
-}

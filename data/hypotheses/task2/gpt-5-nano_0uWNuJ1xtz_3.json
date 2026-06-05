@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Adding a lightweight 3D geometric descriptor channel to the STR-Bamba426M multimodal latent space will improve cross-representation translation fidelity and out-of-distribution property prediction for conformation-sensitive properties (e.g., polymer Tg, gas permeability, molecular dipole moment) when predicting novel molecules beyond the training distribution, compared to the text-only multimodal model."
-}

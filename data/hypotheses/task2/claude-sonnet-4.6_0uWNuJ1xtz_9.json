@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating three-dimensional conformational information\u2014such as atomic coordinates or distance matrices derived from low-energy conformers\u2014as an additional eighth modality within the STR-Bamba unified vocabulary will further improve cross-representational alignment in the latent space and yield statistically significant performance gains on quantum mechanical property prediction tasks (QM9, QM8) compared to the current seven-modality model, because 3D geometry encodes electronic structure information orthogonal to all existing string-based representations and will occupy a distinct yet bridging cluster in the latent space that reduces the prediction error specifically for properties sensitive to molecular conformation such as dipole moment and electronic gap."
-}

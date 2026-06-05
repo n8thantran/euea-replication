@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If pre-trained machine learning interatomic potentials (eqV2 and eSEN) are used to generate approximate minimum energy pathways before DFT-based solid-state nudged elastic band refinement, then the total computational cost will be significantly reduced compared to pure DFT-based SSNEB calculations because the ML models can rapidly converge the initial pathway geometry, thereby substantially decreasing the number of expensive DFT SSNEB iterations required to reach the convergence threshold."
-}

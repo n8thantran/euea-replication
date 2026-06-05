@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Jointly training an SE(3)-equivariant 3D electron-density encoder with a SMILES transformer under the multimodal contrastive objective will produce embeddings that simultaneously exceed (a) the unseen SO(3) retrieval Accuracy@10 and pose-diversity of the non-equivariant SMILESDFT-CLIP model and (b) the HOMO-aligned clustering (lower Davies\u2013Bouldin index) and QM9 linear-probe MAE of the Pos-EGNN baseline."
-}

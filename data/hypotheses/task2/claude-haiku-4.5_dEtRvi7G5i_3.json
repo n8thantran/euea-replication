@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "The chemical template effect that enables metal lattice screening for superhydride discovery is transferable to other hydrogen-rich intermetallic systems with non-integer stoichiometries, such as metal borohydrides and metal carbohydrides, where machine learning models trained on metal sublattice features can similarly predict thermodynamic stability with comparable accuracy to the MHx systems studied here."
-}

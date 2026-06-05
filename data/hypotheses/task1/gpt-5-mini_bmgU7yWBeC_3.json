@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "For direct-force pretrained neural network interatomic potentials, the root-mean-square difference between conservative and non-conservative force predictions (Force Delta, U\u2206) is significantly positively correlated with the true force prediction error (\u03b5direct) across equilibrium and adversarially perturbed out-of-distribution structures and provides a more accurate uncertainty ranking than within-family ensemble variance."
-}

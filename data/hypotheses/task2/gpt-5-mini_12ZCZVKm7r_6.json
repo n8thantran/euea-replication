@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Applying equivariance-inducing regularization (e.g., equigrad) to string- and language-based chemical models during multimodal joint pretraining will cause their embeddings to converge onto the same low-dimensional equivariant manifold as high-performing equivariant MLIPs, producing significantly higher CKNNA and IDCor with equivariant MLIPs on both in-distribution (OMat24) and out-of-distribution (OMol25) evaluation sets than identical models trained without such regularization."
-}

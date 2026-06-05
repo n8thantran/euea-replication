@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If solid-state NEB searches for CsPbI3 and TiO2 phase transformations are initialized using pretrained equivariant ML surrogates (EquiformerV2 or eSEN) and then refined with DFT, then they will recover DFT-consistent transition pathways and activation barriers with fewer iterations and reduced computational time because the ML surrogates provide sufficiently accurate energies, forces, and stresses to place images near the true DFT minimum-energy path."
-}

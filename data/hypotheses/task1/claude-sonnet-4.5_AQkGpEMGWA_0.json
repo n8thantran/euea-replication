@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Silicon-containing lithium compounds with large, stable lithium-ion migration channels maintained across charged and discharged states will exhibit high specific capacities (>1500 mAh/g) suitable for lithium-ion battery anodes."
-}

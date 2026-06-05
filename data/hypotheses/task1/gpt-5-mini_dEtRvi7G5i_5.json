@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If metal lattice candidates are screened using a chemical-template-informed machine learning model that prioritizes strong electron localization at interstitial quasi-atom sites, then the selected candidates will be thermodynamically stable metal superhydrides and those with 3D electronic connectivity, high hydrogen content, and large hydrogen-derived density of states at the Fermi level will exhibit strong electron-phonon coupling and high superconducting transition temperatures as validated by DFT."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "LLM agents equipped with iterative planning, external tool integration, and property feedback will discover inorganic materials with target formation energies more efficiently and with higher success rates than LLMs without tool access or diffusion-based baselines."
-}

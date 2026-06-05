@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Replacing the CATS-based pharmacophore term in the RL reward with conformer-ensemble USRCAT 3D pharmacophore similarity, while keeping structural dissimilarity penalties and weights unchanged, will yield at least a twofold increase in the proportion of generated ER\u03b1 antagonists achieving IC50 \u2264 1 \u03bcM in vitro compared with the current pipeline at matched novelty (Tanimoto \u2264 0.35) and synthetic accessibility (SA \u2264 5) thresholds."
-}

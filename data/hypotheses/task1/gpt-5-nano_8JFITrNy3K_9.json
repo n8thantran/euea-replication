@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If one-shot prompting with the most complex in-context example using the o4-mini model is applied to extract synthesis procedures into PROV-DM graphs, then the collection rate and structural and parametric F1-scores will exceed those achieved with zero-shot prompting or simpler in-context prompts, demonstrating that complex in-context examples improve LLM-based provenance extraction."
-}

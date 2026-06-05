@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating 3D protein-pocket-derived pharmacophore constraints into the FREED++ reward combined with MAP4-based novelty penalties will produce generated molecules whose mean docking score against the alpha-estrogen receptor is at least 1.0 kcal/mol more favorable (more negative) than the MAP4+Cosine setup while maintaining a mean Tanimoto structural similarity \u2264 0.36 and mean QED \u2265 0.5."
-}

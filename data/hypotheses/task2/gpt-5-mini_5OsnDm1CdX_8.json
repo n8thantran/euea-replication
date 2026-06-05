@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "In mixtures of three or more reactive gases, augmenting the GraphSAGE graph with explicit edge features representing normalized pairwise reaction propensities computed from single-gas PBM outputs (at the same operating conditions) will improve mixture etch-rate prediction such that the test-set R2 increases by at least 0.05 relative to the node-only GraphSAGE model and also outperforms a baseline mixture FNN."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If an EGNN-based SDE diffusion model for atomic positions and element embeddings is trained on amorphous materials and augmented with energy-based scoring plus HMC refinement (AMDEN), then it will generate amorphous silicon and multicomponent glass structures whose RDFs, bond-angle distributions, structure factors, and energy distributions match MD references and, when conditioned on Young\u2019s modulus, achieve target moduli because equivariant score matching with physics-guided refinement captures the underlying energy landscape and property\u2013structure relationships."
-}

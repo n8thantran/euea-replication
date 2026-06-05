@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Replacing NN-BAX\u2019s random on-path sampling with an ensemble-uncertainty acquisition that queries, at each iteration, the model-predicted path image with maximal predictive variance in the perpendicular force will reduce the number of true simulator evaluations needed to achieve the same fmax convergence threshold and \u22641% error in the transition-state energy barrier by at least 40% on LJ38 and comparably high-dimensional DFT pathways."
-}

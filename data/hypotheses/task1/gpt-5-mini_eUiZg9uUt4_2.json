@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Models trained on USPTO-retro will achieve high top-k accuracy on reactions that reuse frequent, seen templates but will show substantially lower accuracy on Pistachio OOD reactions with unseen templates, with template-free architectures generalizing better than template-based ones and model performance correlating positively with template frequency and product structural similarity to training examples."
-}

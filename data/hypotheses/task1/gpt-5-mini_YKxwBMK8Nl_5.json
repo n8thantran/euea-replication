@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "On the ChemX nanozyme and chelate datasets, a single-agent pipeline that uses marker-pdf for structured text extraction and GPT\u20114o image captioning feeding downstream LLMs (GPT\u20114.1/GPT\u20115/GPT\u2011OSS\u201120b) will achieve significantly higher per-column F1 scores (precision and recall) for end-to-end chemical information extraction than baseline GPT\u20115/GPT\u20115 Thinking, the ChatGPT Agent, and existing domain-specific multi-agent systems because preserving document structure and integrating multimodal descriptions improves extraction accuracy."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Fine-tuning or reinforcement learning of LLM agents using trajectories generated within high tool-task alignment environments will produce greater performance gains on low tool-task alignment tasks than equivalent training on low-alignment environments, because the agent learns generalizable tool-selection reasoning strategies rather than memorizing domain-specific action sequences\u2014and this transfer effect will be quantitatively predictable from the embedding similarity metric introduced in this paper."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "A generative model trained to predict crystal structures from XRD patterns that jointly embeds both symmetry-equivariant representations and a differentiable energy prior as a regularization term during training\u2014rather than applying energy relaxation as a separate post-hoc step\u2014will produce candidate structures that simultaneously occupy lower-energy basins and exhibit higher XRD match rates than models using sequential symmetry-constrained XRD optimization followed by independent energy relaxation, because the coupled loss landscape formed by the joint objective will be smoother and more convex near the ground-truth structure than either the XRD similarity landscape or the energy landscape alone."
-}

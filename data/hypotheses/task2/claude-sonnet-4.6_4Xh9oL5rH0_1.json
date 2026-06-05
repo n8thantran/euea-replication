@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit many-body dispersion (MBD) corrections into uMLIP training data for MOFs\u2014rather than the pairwise DFT-D3(BJ) scheme used as the DFT reference throughout MOFSimBench\u2014will yield a disproportionately larger improvement in bulk modulus prediction accuracy compared to heat capacity prediction accuracy, because the collective long-range polarization interactions captured by MBD predominantly govern the mechanical stiffness of the porous framework rather than its vibrational density of states at 300 K."
-}

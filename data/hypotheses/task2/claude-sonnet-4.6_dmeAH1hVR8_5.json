@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating MOF-specific topology descriptors from the RCSR database as structured pre-training data\u2014distinct from and complementary to SMILES representations\u2014will disproportionately improve LLM performance on electronic property prediction tasks (such as band gap in QMOF) compared to adsorption property tasks (such as in hMOF), because electronic properties are more strongly governed by long-range periodic topology than by local chemical composition, and this topological signal is currently absent from MOFid-based text representations used in supervised fine-tuning."
-}

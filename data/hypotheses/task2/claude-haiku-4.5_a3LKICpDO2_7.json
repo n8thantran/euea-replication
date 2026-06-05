@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "The systematic underestimation of band gaps by GFN1-xTB for transition metal-containing MOFs due to inadequate treatment of d-electron correlation can be corrected through a metal-specific \u0394-learning model that uses chemically-informed features encoding d-orbital occupancy and spin state, thereby enabling accurate band gap prediction for this previously problematic MOF subset without requiring hybrid DFT training data."
-}

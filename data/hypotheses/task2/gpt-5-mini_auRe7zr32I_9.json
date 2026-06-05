@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Augmenting NaviDiv with a 3D-conformer-aware adaptive constraint\u2014penalizing generated molecules whose lowest-energy conformer pairwise RMSD to recent generations is <1.5 \u00c5 or whose 3D-pharmacophore fingerprint Tanimoto to recent generations is >0.75\u2014will, in REINVENT4 singlet-fission design with the FORMED+GEOM3D prior (1000 RL iterations, 100 molecules/step), preserve scaffold and fragment diversity at levels comparable to the Combined 1D/2D constraints while producing a statistically significantly higher mean singlet-fission score after 1000 iterations (p < 0.05), thus reducing the observed diversity\u2013optimization speed trade-off."
-}

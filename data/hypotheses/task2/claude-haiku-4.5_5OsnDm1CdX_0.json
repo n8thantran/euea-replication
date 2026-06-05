@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "The inductive generalization capability of GraphSAGE to unseen gas mixtures will degrade monotonically as the number of constituent gases increases beyond two, due to the exponential growth of potential interaction patterns that the fixed neighborhood aggregation function cannot adequately learn from pre-trained single-element predictors alone."
-}

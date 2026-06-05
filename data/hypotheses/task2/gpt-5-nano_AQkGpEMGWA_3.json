@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Silicon\u2013X alloys that keep the largest continuous Li+ diffusion channel radius nearly constant across the full lithiation\u2013delithiation range (\u0394Rt \u2264 0.25 \u00c5) will exhibit substantially improved cycle life in practical full-cell configurations, retaining \u226560% of their initial capacity after 500 cycles at 1C, compared with high-capacity Si\u2013X alloys having larger channel-size variation (\u0394Rt > 0.25 \u00c5)."
-}

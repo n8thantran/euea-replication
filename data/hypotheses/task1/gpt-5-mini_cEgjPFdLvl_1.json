@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If AMDEN, implemented with an EGNN backbone and VE/VP SDE noise schedules (using ghost atoms for density control) and trained on MD-generated amorphous datasets, then it will generate structures whose RDFs, bond-angle distributions, structure factors, and potential energy distributions closely match those of the corresponding MD reference datasets across different thermal histories and compositions, with the energy-based denoiser plus HMC refinement producing significantly better agreement after local geometry optimization than standard Euler\u2013Maruyama denoising, and classifier-free guidance conditioned on Young\u2019s modulus enabling generated MEG samples to achieve the targeted mechanical properties."
-}

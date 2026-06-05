@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating a predictive energy-cost component for heating, cooling, and purification into the workflow will re-rank synthesis recipes so that energy-minimizing routes are favored over strictly thermodynamically optimal but energy-intensive ones, and this energy-driven re-ranking will be reproducible across Ca- and Si-based silicates (e.g., Ca2SiO4, Ca3SiO5, ZrSiO4) when benchmarked against measured energy data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If molecular embeddings derived from SMILES-based foundation models, fused with composition-weighted formulation representations and device descriptors, are used to train neural networks to predict battery-material properties across molecular to device scales, then they will outperform Morgan fingerprint baselines in predictive accuracy and generalization because the embeddings encode richer chemical structure and cross-scale context through transfer learning."
-}

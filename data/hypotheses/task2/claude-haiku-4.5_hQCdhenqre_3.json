@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Models trained with explicit charge information as input and optimized for charge-dependent properties will demonstrate superior transferability to out-of-distribution charged molecular systems compared to models fine-tuned on neutral-only datasets, despite the current library's exclusion of charged structures during training."
-}

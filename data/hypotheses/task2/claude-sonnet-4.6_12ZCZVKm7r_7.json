@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "If equivariance-inducing training regularization (such as equigrad) causes non-equivariant architectures to converge toward the same representational manifold as architecturally equivariant models, then systematically interpolating the strength of this regularization during training will produce a monotonic increase in cross-architecture representational alignment that plateaus at a value indistinguishable from fully equivariant models, and this alignment plateau will be reached at a lower regularization strength for in-distribution data than for out-of-distribution data, providing a quantitative criterion for determining the minimum equivariance-inducing regularization needed to achieve foundation-level generality without the computational cost of full architectural equivariance."
-}

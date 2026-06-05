@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Quantitative task-tool embedding similarity thresholds exist that predict whether adding domain-specific tools will yield meaningful performance improvements for a given LLM agent, such that environments with mean minimum cosine distances below a learnable critical value will show statistically significant gains from targeted tool augmentation while those above it will not, and these thresholds will differ systematically between base models as a function of their pre-training domain knowledge density."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Replacing the static CrystalNN fingerprint used in coverage metrics with a DFT-derived local structure descriptor\u2014specifically one encoding the local electronic charge density around each atomic site obtained from static DFT calculations\u2014will produce precision and recall scores that correlate significantly more strongly with SUN stability outcomes than the current geometry-only fingerprints, thereby enabling latent-based metrics to serve as reliable proxies for thermodynamic feasibility without requiring full DFT relaxation."
-}

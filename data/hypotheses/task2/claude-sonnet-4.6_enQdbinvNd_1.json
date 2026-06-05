@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating episodic memory of past force field extraction errors\u2014specifically cases where unconventional table layouts caused parameter misassignment (as observed with EPM2)\u2014into a dedicated error-pattern database accessible to the Paper Extraction Agent will measurably reduce the rate of wrong parameter assignments (improving IoU toward 1.0) compared to agents operating without such structured error memory, because prior failure cases can be used to trigger layout-aware parsing strategies before extraction begins."
-}

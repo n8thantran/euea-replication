@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "The orthogonality constraint imposed on concept embedding vectors during CAST training will become less effective at disentangling property representations as the number of target molecular properties increases beyond four, leading to degraded performance on high-dimensional property control tasks due to geometric constraints in the activation space."
-}

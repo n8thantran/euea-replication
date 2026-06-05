@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "An ensemble formation-energy predictor trained on a combined dataset of relaxed DFT structures, their corresponding unrelaxed/perturbed variants, and diffusion-model-generated structures will predict energy-above-hull with mean absolute error \u2264 0.08 eV/atom and yield energy-distribution EMD scores whose Pearson correlation (absolute value) with DFT-based SUN scores (stability within 0.1 eV/atom) is \u2265 0.9 on both MP- and OQMD-derived test sets."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating uncertainty quantification over the convex hull itself\u2014rather than treating it as a fixed ground truth\u2014into the acquisition function will yield significantly greater sample efficiency in the MADE benchmark, because regions of composition space where the hull position is most uncertain (due to sparse prior evaluations) represent the highest-value targets for discovery, and an agent that explicitly models and reduces hull uncertainty will outperform diversity- or random-based acquisition strategies by discovering a greater number of novel stable compounds within the same oracle query budget, particularly in ternary and higher-order chemical systems where the hull geometry is underdetermined by available reference data."
-}

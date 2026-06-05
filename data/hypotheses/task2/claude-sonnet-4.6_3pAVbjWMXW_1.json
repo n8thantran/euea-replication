@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Fine-tuning the transformer model on a small set of experimentally measured ATR-IR mixture spectra augmented with concentration-dependent non-linear interaction terms\u2014derived from systematically characterized hydrogen-bonding and dipole-dipole interacting compound pairs\u2014will yield greater cross-domain accuracy improvements than fine-tuning on an equivalently sized set of randomly selected ATR-IR mixture spectra, because the spectral alignment network's reconstruction loss will more effectively learn to suppress intermolecular interaction artifacts when trained on examples where non-linear deviations from the linear combination approximation are explicitly represented and labeled by interaction type."
-}

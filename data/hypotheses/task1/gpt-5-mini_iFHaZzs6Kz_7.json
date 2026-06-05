@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Training a multimodal contrastive model that aligns SMILES strings with 3D electron density grids produces pose-invariant molecular embeddings that enable rotation-robust retrieval (high Accuracy@10/Recall@10 and multi-pose retrieval) and superior electronic-structure-aware clustering and linear-probe property prediction compared to unimodal or non-equivariant baselines."
-}

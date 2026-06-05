@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Pretraining STR-Bamba426M with an additional conformer-serialized textual modality encoding interatomic distances and angles (e.g., atom-pair distance-ordered token sequences) will reduce the QM9 average MAE for HOMO and LUMO predictions by at least 20% compared to the current fine-tuned STR-Bamba426M trained only on 2D textual modalities."
-}

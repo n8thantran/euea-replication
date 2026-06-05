@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Training the energy-based AMDEN with auxiliary losses on true potential energies and forces for no more than 5% of training samples will obviate HMC refinement by enabling standard denoising to generate amorphous Si and MEG structures whose post-optimization energy and RDF distributions are statistically indistinguishable from annealed references (two-sample KS test p>0.05)."
-}

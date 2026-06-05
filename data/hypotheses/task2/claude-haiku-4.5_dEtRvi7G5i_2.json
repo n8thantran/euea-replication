@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Metal superhydrides with non-integer stoichiometries exhibiting Tc > 100 K will demonstrate superior pressure stability and resistance to hydrogen loss compared to their integer-stoichiometry counterparts, due to enhanced configurational entropy in the hydrogen sublattice that stabilizes competing structural phases at lower pressures."
-}

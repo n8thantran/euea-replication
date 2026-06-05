@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "If the Force Delta metric captures genuine physical inconsistency in the learned potential energy surface, then incorporating it as a differentiable regularization term during fine-tuning of pre-trained direct-force models will simultaneously reduce the Force Delta magnitude and improve generalization to out-of-distribution structures, with the degree of improvement correlating inversely with the size and chemical diversity of the fine-tuning dataset\u2014such that regularization provides the greatest benefit when only sparse domain-specific data is available."
-}

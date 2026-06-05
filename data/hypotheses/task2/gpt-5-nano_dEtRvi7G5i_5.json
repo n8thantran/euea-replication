@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "For a given metal M and pressure, there exists an optimal non-integer hydrogen stoichiometry x* in MHx that maximizes Tc, and x* arises from a topology transition of the hydrogen sublattice from discrete motifs to a continuous 3D network, with the Tc at x* being predictable by an ML model augmented with hydrogen-network topology descriptors trained on non-integer stoichiometries."
-}

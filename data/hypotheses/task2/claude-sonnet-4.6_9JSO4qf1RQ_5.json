@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "The LLM's tool-selection strategy in MatAgent's Planning stage will exhibit measurable transferability across target properties such that a policy trained (via reinforcement learning on tool-selection sequences) to optimize formation energy will, without retraining, accelerate convergence toward distinct target properties\u2014such as band gap or bulk modulus\u2014more rapidly than the default prompted tool-selection behavior, because the temporal patterns of tool switching (e.g., knowledge base early, long-term memory late) encode generalizable meta-strategies for navigating compositional space that are property-agnostic rather than specific to formation energy optimization."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Agents trained with reinforcement learning on the MADE benchmark using multi-fidelity oracles will discover thermodynamically stable compounds with significantly higher efficiency than supervised or unsupervised baselines because they can learn to adaptively balance exploration-exploitation trade-offs while accounting for the cost-accuracy relationships between low-fidelity MLIPs and high-fidelity DFT evaluations."
-}

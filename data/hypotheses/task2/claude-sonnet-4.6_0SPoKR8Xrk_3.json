@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "If the CNN-GRU-Attention architecture is extended into a tandem inverse design framework where the predicted binding free energy serves as a differentiable objective function, then gradient-based optimization through the frozen forward model will identify non-intuitive polymer sequences with non-monotonic strong-bead distributions (i.e., sequences where clustering of strongly interacting beads at specific positions rather than uniform distribution maximizes adhesion selectivity) that outperform sequences designed by simple compositional rules, thereby revealing that spatial autocorrelation length of the polymer sequence\u2014rather than overall strong-bead fraction\u2014is the dominant design principle governing binding free energy for surfaces with intermediate heterogeneity (0.3 \u2264 fs \u2264 0.7)."
-}

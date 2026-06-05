@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If molecular generation is guided by concept-based activation steering vectors derived from a frozen LLM's hidden representations via a Concept Bottleneck Model, then the resulting molecules will more accurately satisfy target physicochemical property constraints compared to vanilla LLMs and alternative steering methods, because the orthogonally-constrained property-specific embedding vectors enable precise, disentangled control over the LLM's generative process without requiring full parameter fine-tuning."
-}

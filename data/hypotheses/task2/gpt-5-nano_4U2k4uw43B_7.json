@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "A physics-informed, pressure-conditioned ML surrogate that explicitly encodes cell-volume changes and enforces stress\u2013strain consistency will enable ML-SSNEB to predict accurate minimum energy pathways for pressure-induced phase transitions across diverse solids, achieving DFT-like energy barriers (within ~0.1\u20130.2 eV) and correct lattice distortions without material-specific fine-tuning."
-}

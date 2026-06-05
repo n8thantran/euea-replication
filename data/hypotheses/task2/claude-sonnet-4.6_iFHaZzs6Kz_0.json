@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Contrastive multimodal pretraining between SMILES and electron density grids will induce emergent enantiomer discrimination\u2014distinguishing R from S stereoisomers\u2014when the symbolic anchor is replaced with stereo-aware SMILES (encoding explicit chirality tags) paired with high-fidelity electron density grids computed at a correlated level of theory (e.g., DFT/B3LYP), such that the latent space will exhibit measurable chiral cluster separation (quantified by inter-enantiomer cosine dissimilarity exceeding that of constitutional isomers) without any architectural modification or explicit chirality-sensitive loss, thereby extending emergent symmetry learning from SO(3) rotational invariance to the fundamentally distinct case of discrete point-group symmetry breaking."
-}

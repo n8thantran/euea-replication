@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Fine-tuning SAM-EM on multi-modal training data that includes both synthetic LPTEM frames and correlated energy-dispersive X-ray spectroscopy (EDS) elemental maps will enable simultaneous segmentation and chemical species classification of nanoparticles in heterogeneous colloidal systems, thereby distinguishing particles with identical morphology but different compositions during real-time tracking experiments."
-}

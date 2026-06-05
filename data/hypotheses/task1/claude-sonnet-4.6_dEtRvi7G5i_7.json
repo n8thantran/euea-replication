@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If metal superhydride discovery is guided by chemical template theory that prioritizes metal lattices exhibiting strong electron localization at interstitial quasi-atomic sites, then a machine learning workflow trained on known structural prototypes can accurately predict thermodynamically stable novel superhydrides with high-temperature superconducting properties, because the quasi-atom concept captures the fundamental electronic structural requirements that govern both thermodynamic stability and superconductivity in hydrogen-rich compounds."
-}

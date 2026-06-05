@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "LLM agents with access to multi-modal sensor feedback (combining pressure, mass change, and temperature gradients) will discover novel reaction pathways in atomic layer processing that are orthogonal to those discovered with single-modality sensors, because the richer signal space reduces local minima trapping and enables agents to recognize previously invisible correlations between reaction parameters."
-}

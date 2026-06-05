@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If diverse scientific foundation models trained on molecules, materials, and proteins converge to a universal latent representation of matter, then embeddings from different architectures and modalities will show high cross-model alignment (as measured by CKNN and IDCor) and comparable intrinsic dimensionality for in-distribution datasets (QM9, sAlex, OMat24), but reduced alignment for out-of-distribution data (OMol25), because the latent structure of matter imposes a common representation across models."
-}

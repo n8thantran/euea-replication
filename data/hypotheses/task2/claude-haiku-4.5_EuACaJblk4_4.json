@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating uncertainty quantification through ensemble sampling of discrete sequences from the encoder's predicted distribution will improve the calibration and reliability of structure predictions for designed sequences compared to single-point estimates from argmax decoding."
-}

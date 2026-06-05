@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Pretraining EfficientNet-B0 on additive-free SEM images and fine-tuning it on the small additive-induced SEM target dataset with targeted oversampling will produce higher class-wise accuracy and F1 scores for simultaneous classification of NCM composition and aging state than models fine-tuned without source pretraining, fine-tuned using weighted loss, or trained from scratch because the transferred morphological features generalize across the two domains."
-}

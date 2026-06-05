@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating real-time supply chain volatility indices and geopolitical risk factors as dynamic constraints into the workflow's economic efficiency calculations will identify synthesis routes that remain cost-optimal across a wider range of future market scenarios than routes optimized using static average market prices alone."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a hybrid Transformer\u2013Mamba encoder\u2013decoder is pre-trained with shared tokenization to align seven molecular textual representations, then it will learn modality-invariant embeddings that cluster by chemical similarity, improve accuracy on diverse small-molecule, polymer, and electrolyte property prediction tasks relative to single-representation baselines, and enable accurate inter-representation translation, because cross-representation co-training captures shared chemical semantics and structure."
-}

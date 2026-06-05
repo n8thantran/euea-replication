@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If catalytic surface composition design is reformulated as a conditional 2D shell-wise generation task using a chemically informed latent diffusion model pretrained on large-scale data and fine-tuned on high-entropy alloy configurations, then it will generate compositionally valid and chemically diverse surface compositions that accurately satisfy target adsorption energy constraints and element restrictions, outperforming chemically-agnostic baselines, because encoding chemical periodicity into the latent space enables the model to learn transferable structure-property relationships that generalize to complex multi-element surfaces with limited fine-tuning data."
-}

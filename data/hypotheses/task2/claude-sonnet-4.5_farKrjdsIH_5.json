@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Fine-tuning SAM-EM on experimental LPTEM videos containing deliberately induced beam-driven chemical reactions will enable real-time detection of transient intermediate species and phase transformations that are currently undetectable by post-hoc analysis, thereby allowing closed-loop modulation of electron dose rate to selectively stabilize or suppress specific reaction pathways during in situ synthesis."
-}

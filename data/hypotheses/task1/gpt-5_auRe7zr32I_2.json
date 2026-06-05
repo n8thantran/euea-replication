@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If adaptive diversity constraints informed by NaviDiv\u2019s multi-level metrics are applied during reinforcement learning for singlet-fission molecule generation, then the resulting libraries will show significantly higher chemical diversity (e.g., lower mean Tanimoto similarity, more clusters, higher unique fragment/scaffold percentages) without decreasing the hit rate for the \u0394E_SF criterion, because dynamic penalties on overrepresented structures mitigate mode collapse while preserving optimization of the target property."
-}

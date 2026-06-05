@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Extending ASTRA to explicit solvent by conditioning the diffusion model on solvent descriptors from the first solvation shell and local solvent fluctuations will enable a priori sampling of transition-state ensembles for reactions in aqueous environments that more accurately reproduce solvent-influenced activation barriers and kinetic isotope effects than the solvent-implicit version."
-}

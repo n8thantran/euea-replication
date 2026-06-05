@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "On QM9 with 10% labels and an unlabeled pool augmented with 50% out-of-domain ZINC molecules, weighting each unlabeled sample\u2019s consistency loss by the inverse ensemble prediction variance during consensus-based training will yield lower test MAE and ECE than uniform-weight training that uses all unlabeled data."
-}

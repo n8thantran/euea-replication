@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "The integrated computational workflow will identify at least one synthesis recipe using commercially available reactants that yields Ca2SiO4 with thermodynamically favorable formation across 800\u20131600\u00b0C and a lower estimated reactant cost per mole than the average of the 261 evaluated recipes."
-}

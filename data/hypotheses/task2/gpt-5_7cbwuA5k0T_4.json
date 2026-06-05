@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "In the Spectra and MD environments of Corral, dynamically restricting the agent\u2019s visible tools at each step to the k (3\u2264k\u22645) highest cosine-similarity matches to the current (sub)task description will raise pass@5 by at least 15% and reduce failed tool calls by at least 25% compared to the same model and scaffold given the full tool set under identical token budgets and tool descriptions."
-}

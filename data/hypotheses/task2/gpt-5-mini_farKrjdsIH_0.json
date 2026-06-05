@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating a motion-consistency loss based on the LEONARDO physics-informed diffusion model into SAM-EM fine-tuning will reduce particle identity-switching events by at least 50% (measured as switches per 1,000 frames) on high-density LPTEM videos (>6 particles per 1024\u00d71024 frame) at 150 nm liquid thickness compared to SAM-EM fine-tuned without this loss."
-}

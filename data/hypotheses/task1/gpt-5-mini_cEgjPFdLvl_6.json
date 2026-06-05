@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "The AMDEN diffusion framework using an EGNN backbone can generate amorphous-material atomic structures that reproduce the structural (RDFs, bond-angle distributions, structure factors) and energetic (potential energy) statistics of MD reference datasets across different thermal histories and multielement compositions, and an energy-based variant with HMC refinement further improves energetic stability and structural fidelity while classifier-free guidance conditioned on Young's modulus enables targeted inverse design."
-}

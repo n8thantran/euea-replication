@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Extending LoQI to generate Boltzmann-weighted conformer ensembles at a specified temperature by training with Boltzmann-consistent losses on energy-annotated conformers (and, if needed, explicit solvent terms) will yield population distributions that match experimental conformer populations across diverse chemistries better than single-minimum conformer generation."
-}

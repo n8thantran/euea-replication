@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a Transformer encoder-decoder with 150 cm\u207b\u00b9 patch embeddings is pretrained on simulated IR spectra and fine-tuned on NIST while jointly optimizing a spectral reconstruction alignment loss across mixture ratios, then it will accurately identify the constituent molecules (SMILES) of binary and ternary IR mixture spectra\u2014including experimentally measured ATR-IR mixtures\u2014with higher Top-k accuracy and Tanimoto similarity than models trained without the reconstruction alignment because the joint objective disentangles pure-component features from mixed spectra."
-}

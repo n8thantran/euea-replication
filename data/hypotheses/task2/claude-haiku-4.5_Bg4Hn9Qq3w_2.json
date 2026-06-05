@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "LLM agents with access to multi-modal sensor feedback (combining pressure, mass change, and temperature gradients) will discover novel reaction pathways in atomic layer processing systems that violate the self-limiting assumptions of current chemical models, because simultaneous sensing of orthogonal physical dimensions reduces path-dependent exploration bias and enables agents to identify non-obvious correlations between previously unexplored parameter combinations."
-}

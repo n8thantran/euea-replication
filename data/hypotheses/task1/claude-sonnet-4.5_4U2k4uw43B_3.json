@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Machine learning models pre-trained on materials data can serve as accurate energy surrogates to accelerate solid-state nudged elastic band calculations by providing approximate minimum energy pathways that reduce the number of expensive DFT iterations required for convergence."
-}

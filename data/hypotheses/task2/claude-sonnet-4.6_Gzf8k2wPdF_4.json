@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "A hybrid adaptive batching algorithm that dynamically switches between static-64 and dynamic batching strategies based on a real-time estimate of the current graph-size variance in the training buffer will achieve greater training speedup than either algorithm alone across datasets with non-stationary or curriculum-ordered graph-size distributions, because it minimizes recompilation overhead during early training while exploiting the lower per-step memory footprint of dynamic batching once the compilation cache stabilizes."
-}

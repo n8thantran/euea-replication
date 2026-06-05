@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Transfer learning with multi-task reward functions that simultaneously optimize for material-specific properties and chemical diversity will reduce the negative correlation between exploitation (filter passing) and exploration (diversity) observed in single-objective reinforcement learning for CTF generation."
-}

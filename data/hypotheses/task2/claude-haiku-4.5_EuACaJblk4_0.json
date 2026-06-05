@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "The end-to-end learning of sequence design and structure prediction will transfer to improved generalization on natural protein sequences when the model is jointly trained on both designed and native sequence distributions, thereby bridging the sequence-structure degeneracy gap that currently limits inverse folding methods."
-}

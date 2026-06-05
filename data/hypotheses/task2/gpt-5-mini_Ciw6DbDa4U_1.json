@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "On the Gongora et al. lattice-structure dataset, an iterative active-design strategy that selects each new experiment to maximally reduce ensemble tensor-completion reconstruction uncertainty will achieve the same test R2 for predicting Young's modulus and E/m with at least 50% fewer measured samples than passive biased-random sampling."
-}

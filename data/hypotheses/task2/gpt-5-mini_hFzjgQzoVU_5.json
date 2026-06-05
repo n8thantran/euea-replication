@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Augmenting graph-based structural inputs with DFT-derived electronic descriptors of the iron site (formal oxidation state, spin multiplicity, and first two moments of the site-projected density of states) will reduce EXAFS prediction MAE by at least 15% relative to a geometric-only GIN baseline on the XDIP test set."
-}

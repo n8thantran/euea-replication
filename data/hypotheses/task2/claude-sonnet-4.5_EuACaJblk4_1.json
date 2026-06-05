@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating a learned uncertainty quantification module into E2EFOLD's encoder that explicitly models sequence-structure degeneracy will enable the model to generate multiple diverse sequences for a given backbone that maintain structural fidelity while achieving higher functional diversity than sequences sampled from a single categorical distribution."
-}

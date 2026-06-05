@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating differentiable microstructure descriptors (e.g., filler dispersion, orientation, and clustering) as additional conditioning variables within the physics-constrained diffusion model will improve the fidelity of target-property attainment and increase validity, density, and coverage of generated lightweight composite designs compared to composition-only conditioning."
-}

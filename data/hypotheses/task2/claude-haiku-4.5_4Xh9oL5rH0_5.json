@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Universal machine learning interatomic potentials trained on non-equilibrium structures will exhibit systematically lower prediction errors for MOF properties under dynamic conditions (e.g., temperature-dependent elastic moduli or anharmonic heat capacity contributions) compared to their performance on static properties, due to improved sampling of the potential energy surface away from equilibrium configurations."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "When evaluated under a matched numerical integration scheme (identical solver and 500 function evaluations), flow-matching 3D molecular generative models will achieve a mean GFN2-xTB relaxation energy (\u2206Erelax) within 10% of diffusion-based models on the corrected GEOM-Drugs benchmark, indicating that the previously observed performance gap is primarily due to discretization rather than an intrinsic modeling advantage."
-}

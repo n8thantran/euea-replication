@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Silicon-based alloy anodes whose CHGNet-relaxed structures show less than 0.3 \u00c5 variation in the largest continuous Li+ migration channel radius between fully lithiated and delithiated states will exhibit Li diffusion coefficients that change by no more than \u00b120% (measured by 300 K DFT-MD) and retain >80% of initial specific capacity after 200 galvanostatic lithiation/delithiation cycles in half-cell experiments."
-}

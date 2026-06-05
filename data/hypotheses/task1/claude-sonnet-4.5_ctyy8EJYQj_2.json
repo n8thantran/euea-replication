@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Large language models equipped with tool access to physics-based simulators can generate valid synthesis plans for inorganic materials with fewer state evaluations than traditional search algorithms while maintaining comparable success rates."
-}

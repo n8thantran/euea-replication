@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "On both MP and OQMD evaluation sets, ranking generative models by the Earth Mover\u2019s Distance between static-DFT formation energy distributions computed from a stratified 10% subsample of their outputs will agree with the ranking by full-set SUN with Kendall\u2019s tau \u2265 0.7."
-}

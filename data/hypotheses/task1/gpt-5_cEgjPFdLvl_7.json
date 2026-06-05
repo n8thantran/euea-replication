@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If AMDEN uses an energy-based denoising variant with HMC refinement instead of standard Euler\u2013Maruyama denoising, then the generated amorphous structures will better match MD reference RDFs, bond-angle distributions, structure factors, and potential energy distributions before local relaxation because energy-informed score estimation and on-the-fly equilibration bias sampling toward physically consistent low-energy configurations."
-}

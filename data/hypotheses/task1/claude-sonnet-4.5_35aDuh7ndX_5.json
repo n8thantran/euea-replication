@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Optimizing molecular generation with a dual-objective reward function that maximizes pharmacophoric similarity while minimizing structural similarity will produce novel drug-like molecules that retain the functional binding properties of known estrogen receptor antagonists while exhibiting distinct chemical structures."
-}

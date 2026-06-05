@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Integrating a layout-aware vision module for chemical-figure detection and table parsing, an OCSR engine for structure images, and a schema-constrained verifier into a modality-routed multi-agent pipeline will raise SMILES extraction recall to \u22650.60 and increase overall F1 by \u22650.15 absolute on ChemX small-molecule datasets relative to the best single-agent baseline, without reducing precision by more than 0.05."
-}

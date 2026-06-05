@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "The orthogonality constraint imposed on concept embedding vectors during CAST training will fail to generalize to molecular properties with inherent statistical correlations in real chemical space, resulting in degraded property control fidelity when steering toward property combinations that violate the learned disentangled representations."
-}

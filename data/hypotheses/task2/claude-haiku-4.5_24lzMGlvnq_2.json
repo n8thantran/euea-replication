@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating uncertainty quantification from Thermo-Calc predictions into the DPO reward function will enable language models to generate BCC/B2 superalloy compositions with improved synthesizeability in underexplored compositional regions where thermodynamic simulation confidence is low."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a 426M-parameter hybrid Transformer\u2013Mamba-2 encoder\u2013decoder pretrained with a multimodal BPE tokenizer on diverse molecular representations is used, then it will learn aligned, modality-invariant latent embeddings that yield better clustering (lower Davies\u2013Bouldin and higher ARI/V\u2011Measure/Fowlkes\u2013Mallows), more accurate inter-representation translation (higher validity, Tanimoto, BLEU, and Jaccard), and improved property-prediction performance across small molecules, polymers, and electrolytes than baselines because joint pretraining and cross-attention teach shared chemical semantics."
-}

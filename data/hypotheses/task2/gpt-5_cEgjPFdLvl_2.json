@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Enabling AMDEN to update the unit cell during denoising via gradients of a learned noise enthalpy (\u2207C(E\u0302\u03b8 + P\u00b7V)) with intermittent HMC moves in cell space will reduce the mean absolute error between target and generated Young\u2019s moduli on the MEG dataset by at least 30% compared to the current fixed-cell HMC procedure under the same number of model evaluations."
-}

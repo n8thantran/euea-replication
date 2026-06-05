@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nThe correlation between latent-based metrics (Fr\u00e9chet Distance, precision/recall) and simulation-based stability metrics (SUN) will strengthen significantly when the latent space encoder is pre-trained on DFT-relaxed structures with explicit energy-above-hull labels, enabling a computationally efficient surrogate metric that maintains >90% agreement with DFT-validated stability assessments."
-}

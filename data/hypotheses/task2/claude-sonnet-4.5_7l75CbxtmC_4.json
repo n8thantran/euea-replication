@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating dynamic Bayesian networks to model the temporal evolution of reactant price volatility and supply chain disruptions will enable real-time re-optimization of synthesis routes, yielding economically superior strategies compared to static cost-based selection in volatile geopolitical markets."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a stereochemistry-aware diffusion model (LoQI) is trained on the large ChEMBL3D dataset of AIMNet2-optimized conformers, then it will generate low-energy, stereochemically correct molecular conformers whose energies and geometries are comparable to DFT-optimized structures and superior to existing conformer generators across drug-like molecules including those with up to 25 rotatable bonds and macrocycles."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Introducing a physics-informed, differentiable robustness objective that explicitly models fabrication tolerances (thickness perturbations) and interfacial roughness during CHROMA training will produce multilayer stacks whose spectral responses\u2014and resulting \u0394E to the target color\u2014are more robust (lower mean and variance) to real-world manufacturing variations across typical viewing angles than stacks designed without such a robustness objective."
-}

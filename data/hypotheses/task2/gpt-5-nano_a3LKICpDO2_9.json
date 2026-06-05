@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating transition-metal\u2013centered descriptors (e.g., oxidation state, d-electron count, and spin state) as additional features in the \u2206-learning model will substantially improve HSE06 band-gap predictions for MOFs containing 3d transition metals (Cr, Mn, Fe, Co, Ni) compared to the current \u2206-learning model that uses RACs, APRDFs, and ST-135 alone, thereby reducing the MAE and increasing predictive reliability for open-shell systems."
-}

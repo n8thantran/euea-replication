@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a transformer LLM on a dataset of CALPHAD-computed equilibrium phase trajectories together with JMA-simulated kinetic evolutions for the Nb\u2013O system will increase the LLM agent\u2019s success rate on multi-phase synthesis challenges (CP2 and CP3) by at least 50% and reduce the average number of simulator calls per successful plan by an order of magnitude compared to the prompt-tuned GPT4o baseline."
-}

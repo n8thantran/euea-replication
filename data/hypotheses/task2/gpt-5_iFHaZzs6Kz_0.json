@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "In SMILES\u2013electron-density contrastive pretraining, incorporating mirror-reflected electron-density grids of chiral molecules as explicit hard negatives will produce embeddings that are SO(3)-invariant but reflection-sensitive, increasing Top-1 accuracy on an enantiomer-disambiguation retrieval benchmark by at least 15 percentage points relative to the current model while reducing functional-group Recall@10 by no more than 1 percentage point."
-}

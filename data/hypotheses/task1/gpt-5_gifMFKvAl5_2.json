@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If non-negativity and sum-to-one physics constraints are added to the diffusion loss during training, then the resulting model will generate composite compositions with higher physical-validity (Validityreg) and fabrication-validity (Validityfab) and equal or better fidelity/diversity (Density/Coverage) than CVAE and TabDDPM, because the constraints confine sampling to the physically feasible composition simplex."
-}

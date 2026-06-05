@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If tensor completion methods (CPD-S, NeAT, and their ensemble) are used as surrogate models for lattice structure design, then they will yield higher predictive accuracy (R\u00b2) and greater robustness to sparse or biased (non-uniform) training sampling for Young's modulus and mass-normalized Young's modulus than baseline ML methods (Gaussian Process, XGBoost, MLP) because tensor completion leverages the multi-way structure of the design parameter tensor to better generalize from limited and biased observations."
-}

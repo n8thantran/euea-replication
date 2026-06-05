@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating a 3D conformer-based textual representation as an additional modality into STR-Bamba426M will improve stereochemistry-aware property prediction and cross-representation translation, enabling higher accuracy in distinguishing enantiomers and conformers than the 2D-only multimodal model."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Continual pre-training of large language models on domain-specific chemical corpora (MOF literature and molecular structure datasets) improves their ability to predict MOF properties from text-based representations compared to models without such pre-training, especially in low-resource fine-tuning scenarios."
-}

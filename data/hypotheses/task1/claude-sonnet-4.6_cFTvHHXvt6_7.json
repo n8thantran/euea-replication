@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If natural language descriptions of target optical properties are used as conditioning inputs to a frozen large language model encoder coupled with a trainable autoregressive decoder operating over a discrete vocabulary of material-thickness tokens, then the resulting system will accurately translate free-text color specifications into physically realizable multilayer thin-film designs with low CIE76 \u0394E color error, because the language model's semantic representations encode sufficient perceptual and descriptive information to guide inverse design of structural coloration through the discrete combinatorial space of optical multilayer stacks."
-}

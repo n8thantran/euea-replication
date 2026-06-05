@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nThe magnitude of the Force Delta (U\u2206) can be used as a differentiable regularization term during neural network interatomic potential training to simultaneously improve both energy-force consistency and out-of-distribution generalization, with the optimal regularization strength being inversely proportional to training set diversity as measured by structural descriptor variance."
-}

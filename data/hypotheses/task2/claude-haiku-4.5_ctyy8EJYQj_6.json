@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "LLM-guided synthesis planning performance will improve significantly when the physics-based simulator provides explicit feedback on intermediate thermodynamic feasibility (e.g., whether proposed compositions lie within the phase diagram at given temperatures) compared to LLMs operating without such real-time thermodynamic constraints."
-}

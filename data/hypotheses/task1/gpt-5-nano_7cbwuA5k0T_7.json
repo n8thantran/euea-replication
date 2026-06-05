@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If task-tool alignment is enhanced through better task-to-tool matching and richer tool descriptions, then scientific LLM agents will achieve higher performance than differences between frameworks (ReAct versus tool-calling), demonstrating that task alignment outweighs framework choice."
-}

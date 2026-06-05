@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Synthesis procedures with higher graph connectivity (measured by edge-to-node ratio) will exhibit stronger correlations with material performance metrics than procedures with linear or weakly connected structures, particularly for thermoelectric materials where multi-step processing pathways enable hierarchical phonon scattering."
-}

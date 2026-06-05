@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Hypothesis: LLM agents equipped with multi-modal sensory inputs (e.g., simultaneous optical emission spectroscopy and in-situ mass spectrometry) will discover synergistic reaction pathways in ALP systems faster than agents with single-modality probes, even when the total information content is normalized, due to emergent pattern recognition across complementary measurement spaces."
-}

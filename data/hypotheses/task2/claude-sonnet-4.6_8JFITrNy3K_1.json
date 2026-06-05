@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a domain-specific language model on MatPROV's PROV-DM graph representations will yield higher structural-level F1-scores than the best-performing prompted general-purpose model (o4-mini with one-shot prompting, F1 = 0.835) when evaluated on synthesis procedures from material classes underrepresented in the training corpus (e.g., MOFs or gold nanorods), because exposure to the standardized graph schema during fine-tuning will enable the model to generalize the provenance graph structure across material domains even without domain-specific in-context examples, whereas prompted general-purpose models rely on schema comprehension that degrades with unfamiliar synthesis terminology."
-}

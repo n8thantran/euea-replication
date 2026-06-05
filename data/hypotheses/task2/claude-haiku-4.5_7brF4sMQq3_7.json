@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "The diffusion model's learned score function contains implicit information about higher-order saddle points and reaction intermediates that could be extracted through hierarchical score interpolation at multiple intermediate \u03ba values, enabling discovery of multi-step reaction mechanisms without requiring explicit training data on intermediate states."
-}

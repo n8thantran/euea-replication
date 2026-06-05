@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If the RMS discrepancy between a NNIP\u2019s energy-gradient forces and its directly predicted forces (Force Delta) is high for a structure, then the NNIP\u2019s force error relative to DFT will be high\u2014across equilibrium and adversarial OOD configurations and model families\u2014because internal disagreement between conservative and non-conservative forces captures epistemic uncertainty more reliably than ensemble variance."
-}

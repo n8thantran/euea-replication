@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating a differentiable Force Delta regularization term that minimizes the mismatch between conservative forces (from the energy head) and directly predicted forces during NNIP training will improve out-of-distribution generalization and energy conservation, reducing both \u03b5direct on OOD configurations and MD energy drift compared to models trained without this regularization."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The integration of SAM-EM with real-time electron beam dose modulation will enable closed-loop control of nanoparticle assembly pathways, wherein automated adjustment of beam intensity based on detected particle trajectory anomalies (quantified by deviations from expected MSD scaling exponents) will systematically alter nucleation rates and superlattice symmetry in a predictable manner."
-}

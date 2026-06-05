@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Integrating thermodynamic databases, cellular automata simulation, and commercial availability/pricing data can identify economically optimal synthesis routes for inorganic materials that balance thermodynamic favorability with reactant cost and accessibility."
-}

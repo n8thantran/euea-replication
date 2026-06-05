@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Incorporating energy-based scoring with Hamiltonian Monte Carlo refinement during the reverse diffusion process will generate amorphous silicon structures with more accurate local geometry and lower potential energies compared to standard score-based denoising alone."
-}

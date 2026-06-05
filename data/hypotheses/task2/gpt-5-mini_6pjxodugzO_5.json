@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Pretraining a chemical foundation model on synthetic formulation sequences that concatenate component SMILES with standardized composition and device-variable tokens will produce embeddings that, when used in downstream predictors, reduce out-of-distribution mean absolute error for battery formulation-to-device performance tasks by at least 20% compared to embeddings from models pretrained only on single-molecule SMILES."
-}

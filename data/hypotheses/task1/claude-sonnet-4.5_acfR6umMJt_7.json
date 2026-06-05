@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Neural network Bayesian Algorithm Execution (NN-BAX) can achieve converged minimum energy paths for atomic transitions using fewer expensive ground-truth energy and force evaluations compared to classical nudged elastic band calculations by iteratively training a neural network surrogate model and strategically acquiring training data from model-predicted pathways."
-}

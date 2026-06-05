@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Maximizing pharmacophoric similarity to known estrogen receptor modulators while simultaneously minimizing structural similarity will generate novel drug-like molecules that retain target binding affinity but exhibit chemical scaffolds distinct from existing compounds."
-}

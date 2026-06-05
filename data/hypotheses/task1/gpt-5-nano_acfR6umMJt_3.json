@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If NN-BAX-guided NEB using a fine-tuned EquiformerV2 can reproduce the ground-truth minimum-energy paths for LJ7 and LJ38\u2014producing MAEi and fmax comparable to those from classical NEB\u2014then NN-BAX is a more computationally efficient alternative because it replaces expensive simulations with learned predictions during path optimization."
-}

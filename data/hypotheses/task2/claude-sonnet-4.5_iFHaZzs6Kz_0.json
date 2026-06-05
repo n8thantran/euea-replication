@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nContrastive multimodal pretraining between SMILES and 3D electron densities will induce emergent chirality-awareness in molecular embeddings, enabling the model to distinguish enantiomers without explicit stereochemical labels, when trained on a dataset where SMILES strings encode stereochemistry (e.g., using R/S or @/@@ notation) but 3D conformers are presented in randomly mirrored orientations."
-}

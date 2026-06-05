@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Integrating ensemble-based uncertainty estimation into the ML-SSNEB workflow to adaptively balance ML and DFT evaluations will reproduce full-DFT SSNEB minimum energy pathways within 0.05 eV per formula unit across CsPbI3, TiO2, and at least one additional polymorphic solid under varied pressure\u2013temperature conditions, while achieving at least a 2x reduction in total DFT calls."
-}

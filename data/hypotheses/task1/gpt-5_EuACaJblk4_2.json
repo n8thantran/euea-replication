@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If protein sequence and structure are optimized jointly in a single end-to-end discrete stochastic autoencoder using straight-through Gumbel-Softmax and composite structural losses, then the model will achieve higher sequence recovery and lower RMSD/higher TM-scores (better self-consistency) than non\u2013end-to-end baselines on CATH 4.2, E2EData, and RFData because shared representations align sequence and geometric objectives during training."
-}

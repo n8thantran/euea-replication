@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating compositional disorder at the metal sublattice sites in non-integer stoichiometry superhydrides (e.g., mixed La/Ce or Sr/Ca occupancy) will systematically enhance electron-phonon coupling strength and elevate Tc beyond values achievable in single-metal analogues by modulating the local electronic density of states at the Fermi level without disrupting the 3D hydrogen clathrate framework."
-}

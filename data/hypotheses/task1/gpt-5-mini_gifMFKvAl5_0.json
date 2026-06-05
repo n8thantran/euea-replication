@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a diffusion model for composite material design incorporates non-negativity and sum-to-one regularization terms, then it will generate compositions with significantly higher physical validity (Validityreg) and fabrication feasibility (Validityfab) while maintaining comparable or improved fidelity (Density) and diversity (Coverage) compared to CVAE and TabDDPM."
-}

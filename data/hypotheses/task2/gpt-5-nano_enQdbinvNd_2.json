@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Integrating joint semantic and episodic memory into the autonomous multi-agent system will enhance generalization to unseen porous materials and adsorbates, yielding higher IoU in force-field parameter extraction and higher simulation success, with closer agreement to experimental adsorption data, than a memoryless baseline."
-}

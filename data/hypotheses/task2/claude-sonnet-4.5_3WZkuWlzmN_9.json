@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating dynamically weighted modality-specific attention coefficients\u2014learned during cross-modal prediction based on the inherent uncertainty or noise level of each input modality\u2014will improve X-MoPA's generalization to out-of-distribution materials datasets where one or more modalities are systematically degraded or contain higher measurement error."
-}

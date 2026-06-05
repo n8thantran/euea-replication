@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit topological descriptors (e.g., persistent homology features of void distributions or ring statistics) as additional conditioning variables in AMDEN will enable generation of amorphous structures with controlled medium-range order that exhibit superior mechanical toughness compared to structures conditioned on bulk properties alone."
-}

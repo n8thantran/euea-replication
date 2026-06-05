@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Extending CAST to handle both continuous and discrete molecular properties by incorporating a discrete concept bottleneck head (and corresponding steering vectors) for scaffold-related constraints will enable simultaneous high-precision control of property values and scaffold presence/absence, leading to higher scaffold fidelity and maintained property accuracy and validity across in-distribution and out-of-distribution generation without model fine-tuning."
-}

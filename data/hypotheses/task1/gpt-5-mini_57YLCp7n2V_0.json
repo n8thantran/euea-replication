@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Correcting the aromatic valency bug and using chemically accurate valency representations (including a Kekulized dataset) when training 3D molecular generative models produces generated molecules with more chemically valid and geometrically accurate structures\u2014exhibiting lower bond, angle, and torsion deviations and lower GFN2-xTB relaxation energies\u2014than models trained on the original flawed dataset, and GFN2-xTB-based evaluation more reliably reflects true geometry quality than MMFF94 which yields artificially large relaxation energies."
-}

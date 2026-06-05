@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Modifying the DPO reward to require BCC\u2013B2 coexistence with \u226410% other phases and nonzero B2 fraction at all temperatures \u22651473 K, and weighting lattice mismatch only over that range, will cause a temperature-conditioned LLaMA\u20113.1\u20118B to generate \u226525% of candidates whose coexistence window lies entirely above 1473 K while maintaining coverage recall \u22650.95 and Unique pairs @100 \u22650.90, whereas the unconditioned DPO model will yield \u22645% such candidates."
-}

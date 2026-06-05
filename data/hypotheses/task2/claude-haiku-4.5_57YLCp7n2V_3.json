@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Generative models trained on Kekulized molecular representations will exhibit improved transferability to out-of-distribution molecules containing complex polycyclic aromatic systems compared to models trained on aromaticity-explicit representations, due to reduced ambiguity in valency constraints during training."
-}

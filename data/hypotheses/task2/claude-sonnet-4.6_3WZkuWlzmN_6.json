@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "When one modality is systematically corrupted or absent during fine-tuning (e.g., XRD patterns unavailable for amorphous materials), the quality of X-MoPA's cross-modal latent predictions for the missing modality\u2014quantified by the held-out L2 reconstruction error from the remaining two modalities\u2014will serve as a calibrated uncertainty estimator for downstream property prediction error, such that materials with higher cross-modal prediction discrepancy will exhibit proportionally larger fine-tuning MAE, enabling modality-absence-aware confidence scoring without requiring additional uncertainty quantification modules."
-}

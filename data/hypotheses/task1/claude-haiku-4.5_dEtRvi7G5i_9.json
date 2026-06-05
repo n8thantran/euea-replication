@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Integrating chemical template theory with machine learning feature engineering enables accurate prediction of thermodynamic stability in metal superhydrides, thereby efficiently identifying superconducting candidates that would otherwise require computationally expensive high-throughput screening."
-}

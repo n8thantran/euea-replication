@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If CHROMA's frozen Llama encoder size is increased (1B\u21923B\u21928B) and the Transformer decoder depth is increased (2\u21924\u21928 layers), then the mean CIE76 \u0394E between simulated RGB of generated multilayer designs and target colors will decrease on both the training-paraphrase and held-out validation splits, and increasing the number of physical layers in the designs will further reduce \u0394E across viewing angles (0\u00b0, 30\u00b0, 60\u00b0)."
-}

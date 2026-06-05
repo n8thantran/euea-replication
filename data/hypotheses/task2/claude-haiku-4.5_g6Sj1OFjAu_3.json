@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Conditional generation of catalytic surface compositions under adsorption energy constraints will exhibit systematic bias toward thermodynamically favorable but kinetically inaccessible metastable phases when the diffusion model is trained exclusively on equilibrium structures from computational databases, and this bias can be mitigated by incorporating kinetic barriers derived from transition state theory into the conditioning mechanism."
-}

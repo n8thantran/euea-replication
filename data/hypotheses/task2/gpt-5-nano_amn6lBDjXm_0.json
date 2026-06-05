@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "A physics-informed, uncertainty-aware surrogate model trained on a small subset of DFT-relaxed structures can reliably predict energy above hull and formation energy for new diffusion-generated materials across MP and OQMD, reproducing SUN-based stability rankings with close-to-DFT accuracy at a fraction of the computational cost, enabling scalable pre-screening without full DFT."
-}

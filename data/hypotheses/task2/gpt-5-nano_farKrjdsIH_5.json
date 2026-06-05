@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Real-time closed-loop LPTEM experiments that use SAM-EM\u2013derived trajectory statistics (MSD and velocity autocorrelation) to continuously adjust the electron beam dose rate will yield faster formation of long-range ordered nanoparticle superlattices and lower defect densities than fixed-dose imaging, as quantified by higher bond-orientational order and reduced defect density in the assembled structures."
-}

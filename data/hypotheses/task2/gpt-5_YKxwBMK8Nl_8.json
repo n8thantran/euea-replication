@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "An agentic pipeline that combines deterministic PDF layout reconstruction with rule-based molecular image localization, DECIMER-based optical chemical structure recognition, and an LLM step that maps recognized structures to in-text compound identifiers will increase the SMILES column F1 to at least 0.40 (precision \u2265 0.60) on the ChemX Complexes dataset under the paper\u2019s evaluation protocol."
-}

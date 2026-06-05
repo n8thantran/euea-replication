@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating episodic memory from failed simulation attempts will enable LLM-based agents to autonomously refine force field selection heuristics across chemically diverse adsorbate families, reducing parameter extraction errors below 5% IoU loss without manual intervention."
-}

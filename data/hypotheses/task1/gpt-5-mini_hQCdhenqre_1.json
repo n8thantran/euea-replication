@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If MLIP models (MACE, NequIP, ViSNet) are implemented in JAX and MACE is modified with gating and species-dependent edge features, then training and inference\u2014particularly MD simulations using JAX+JAX\u2011MD on H100 GPUs\u2014will run faster than standard Torch+ASE implementations while maintaining comparable force and energy prediction accuracy to the original architectures."
-}

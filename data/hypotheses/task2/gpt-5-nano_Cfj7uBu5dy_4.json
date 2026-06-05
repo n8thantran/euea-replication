@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "In MADE-like closed-loop materials discovery campaigns, a Bayesian multi-fidelity active-learning policy that explicitly maximizes the expected information gain about the convex hull of stability (allocating queries adaptively across cheap MLIP evaluations, higher-fidelity DFT calculations, and experimental validations) will discover more novel thermodynamically stable compounds within a fixed oracle budget than policies that optimize only immediate stability or rely on a single fidelity."
-}

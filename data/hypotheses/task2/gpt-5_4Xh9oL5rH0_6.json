@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating a learned, self-consistent charge-equilibration with Ewald-summed long-range electrostatics into a conservative uMLIP will reduce the median cell-volume deviation and bulk-modulus MAE by at least 30% for MOFs with open metal sites and polar linkers, relative to the same architecture without explicit electrostatics, on MOFSimBench."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Tensor completion performance on biased sampling will degrade when the bias pattern itself varies across different design dimensions (e.g., when experimental convenience clusters samples non-uniformly in some dimensions but uniformly in others), requiring adaptive rank selection strategies that differ from uniform-rank tensor decomposition methods."
-}

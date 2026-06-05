@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating DFT-derived band gap values as the basis for an EMD variant metric will yield stronger correlation with simulation-based stability metrics (RMSD and SUN) than EMD computed over ML-predicted formation energies, because band gap is a collective electronic property sensitive to both atomic arrangement and thermodynamic stability, such that generative models ranked highly by band-gap EMD will show statistically significantly higher SUN scores than those ranked highly by ML-energy EMD when evaluated across CDVAE, GemsDiff, and DiffCSP on the OQMD dataset."
-}

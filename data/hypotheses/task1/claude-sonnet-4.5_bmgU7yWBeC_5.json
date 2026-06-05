@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "The root-mean-square difference between conservative forces (derived from energy gradients) and non-conservative forces (directly predicted) from a single neural network potential correlates with the true prediction error and can serve as a data-free uncertainty metric for identifying out-of-distribution atomic configurations."
-}

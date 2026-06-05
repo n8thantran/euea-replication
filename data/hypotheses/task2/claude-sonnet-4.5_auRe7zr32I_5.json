@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating multi-objective diversity constraints that dynamically weight representation distance-based, string-based, fragment-based, and scaffold-based penalties according to the rate of chemical space exploration collapse will maintain higher property optimization performance than static combined constraints while achieving equivalent diversity preservation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Multimodal contrastive learning jointly aligning SMILES strings and 3D electron density grids will induce SE(3)-invariance in the learned 3D molecular representations without explicit equivariance constraints, enabling accurate retrieval of molecules despite arbitrary rotations of their 3D structures."
-}

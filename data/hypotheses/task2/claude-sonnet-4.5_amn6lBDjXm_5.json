@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating a differentiable approximation of energy-above-hull calculations into the training loss of diffusion models will produce structures with higher SUN scores without degrading latent-space diversity metrics, thereby decoupling thermodynamic stability from distributional coverage."
-}

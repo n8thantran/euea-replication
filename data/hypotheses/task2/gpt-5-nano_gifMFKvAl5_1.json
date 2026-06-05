@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating differentiable percolation- and manufacturability-aware regularizers into PCDiff, enforcing that filler volume fractions meet a percolation threshold when beneficial and that component proportions stay within fabrication-tolerant bounds, will yield generated lightweight composites with higher manufacturability validity (validityfab) and robustness to process variability while preserving non-negativity, sum-to-one constraints, and target properties."
-}

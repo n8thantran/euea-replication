@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Automated threshold optimization using machine learning models trained on task-specific property-diversity Pareto frontiers will enable domain-agnostic selection of diversity constraint parameters without manual tuning, thereby reducing the computational overhead of threshold exploration while maintaining near-optimal trade-offs across diverse molecular design objectives."
-}

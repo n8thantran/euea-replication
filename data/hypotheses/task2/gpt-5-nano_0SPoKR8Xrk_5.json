@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "An end-to-end inverse-design extension of the hybrid CNN\u2013GRU\u2013Transformer framework can reliably output polymer sequences and surface patterns that realize a user-specified PMF profile (or target BFEs) within a predefined MAE tolerance, as validated by independent umbrella sampling MD simulations."
-}

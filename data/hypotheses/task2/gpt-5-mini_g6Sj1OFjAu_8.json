@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating active-site motif (e.g., atop/bridge/hollow) and the mean first-shell adsorbate\u2013metal distance as additional conditioning inputs into CompGen will increase the fraction of generated HEA two-shell compositions whose DFT-relaxed adsorption energies fall within \u00b10.1 eV of the target energy by at least 30% relative to the current model conditioned only on adsorbate identity, adsorption energy, and element list."
-}

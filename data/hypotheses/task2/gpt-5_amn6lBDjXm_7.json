@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Applying a fast geometry pre-relaxation with a universal graph deep-learning interatomic potential (e.g., M3GNet) to generated structures prior to static DFT will increase the SUN stability rate by at least 30% (relative) at equal DFT compute budget compared to evaluating raw generator outputs, across both MP- and OQMD-derived test sets."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "The relative weighting of the non-negativity and sum-to-one regularization terms (\u03b1\u2081 and \u03b1\u2082) dynamically modulates the trade-off between compositional validity and property prediction accuracy, such that adaptive scheduling of these weights during the diffusion timesteps will generate composites with superior Pareto optimality between physical feasibility and target property achievement compared to fixed-weight regularization."
-}

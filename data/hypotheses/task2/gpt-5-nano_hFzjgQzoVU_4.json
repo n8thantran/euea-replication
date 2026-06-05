@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "In iron-containing proteins, incorporating thermally sampled ensembles of the local Fe-centered structure (instead of a single static structure) as input to graph neural network models will improve the accuracy of predicted EXAFS spectra (and to a lesser extent XANES) by better capturing bond-length distributions around the iron center."
-}

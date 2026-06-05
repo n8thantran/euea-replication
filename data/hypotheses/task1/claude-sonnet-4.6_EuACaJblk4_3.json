@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If protein structure prediction and structure-based sequence design are trained jointly in an end-to-end discrete stochastic autoencoder framework, then the model will produce designed sequences with higher self-consistency and structural accuracy compared to independent pipeline approaches, because the structural reconstruction loss directly constrains the sequence design to generate sequences that fold back to the target backbone geometry."
-}

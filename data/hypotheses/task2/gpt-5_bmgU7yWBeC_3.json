@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Self-supervised fine-tuning of a pre-trained direct-force NNIP on unlabeled target-system configurations by minimizing the Force Delta (without any DFT labels) will reduce the DFT-validated RMS force error on adversarial OOD structures by at least 15% relative to the un-tuned model while keeping the in-distribution error within \u00b15% of baseline across both Orb and EquiformerV2 architectures."
-}

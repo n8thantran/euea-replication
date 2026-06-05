@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating molecular charge as a continuous input feature to MLIP models trained on the curated SPICE2 dataset\u2014rather than simply excluding non-neutral structures\u2014will enable accurate force and energy predictions across a range of ionic and zwitterionic species (including protonated/deprotonated drug-like molecules and charged amino acid residues) without degrading MD simulation stability on neutral systems, as measured by force MAE, energy MAE, and simulation drift metrics compared to the charge-agnostic baseline models presented here."
-}

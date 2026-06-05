@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating temporal degradation dynamics into foundation model training by pre-training on time-series electrolyte cycling data alongside SMILES representations will enable FM-based predictors to directly forecast capacity fade trajectories rather than single-point device performance metrics, with the chemical similarity-based OOD error estimation framework demonstrating a stronger inverse correlation (steeper slope m in MAE = m\u00b7Similarity + c) for cycle-life predictions than for static capacity measurements due to the compounding sensitivity of degradation pathways to subtle chemical moiety differences that accumulate over repeated charge-discharge cycles."
-}

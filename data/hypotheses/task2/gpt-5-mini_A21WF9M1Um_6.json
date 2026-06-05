@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "A two-stage optimization that first performs MLIP-driven energy relaxation (e.g., CHGNet) to bring distorted candidates into the nearest chemically plausible energy basin and then applies symmetry-constrained XRD similarity refinement will produce significantly higher StructureMatcher recovery rates\u2014specifically at least a 20 percentage-point improvement over symmetry-constrained XRD-only gradient descent\u2014for lattice distortions up to \u03c3l = 0.1 and coordinate noise up to \u03c3c = 0.02."
-}

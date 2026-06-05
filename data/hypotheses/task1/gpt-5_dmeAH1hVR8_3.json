@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a small language model is continually pre-trained on MOF-focused literature and broad chemical corpora and then fine-tuned to map MOFid text representations to properties, then it will predict MOF band gaps and gas adsorption with lower MAE than CGCNN/SOAP/MOFormer and maintain superior accuracy in low-data regimes, because the pre-training embeds transferable chemical structure\u2013property knowledge that compensates for the absence of 3D structural inputs."
-}

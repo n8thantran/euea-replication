@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Augmenting CAST with concurrently steered binary substructure concepts (e.g., long aliphatic chain presence and aromatic ring count) trained via a joint loss will reduce Best100MAE for the OOD high-LogP target (LogP=8.1940) by at least 20% relative to vanilla CAST on Chemlactica-1.3B, without reducing validity."
-}

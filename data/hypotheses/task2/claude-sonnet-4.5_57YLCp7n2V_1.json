@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Retraining 3D molecular generative models on a dataset where all molecules are represented with explicit tautomeric states (rather than arbitrary canonical forms) will reduce geometric relaxation energies by at least 20% compared to models trained on canonicalized structures, as tautomeric ambiguity in training data forces models to learn averaged rather than physically consistent conformational preferences."
-}

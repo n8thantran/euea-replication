@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Including explicit non-equilibrium MOF configurations\u2014such as those generated during guest molecule adsorption, framework breathing transitions, and linker rotation events\u2014in universal MLIP training datasets will improve accuracy on MOF-specific tasks more substantially than equivalent increases in the number of equilibrium inorganic crystal structures, because the primary failure mode of current uMLIPs on MOFs is inadequate coverage of the potential energy surface along soft vibrational modes and coordination-bond distortions that are absent from existing training corpora."
-}

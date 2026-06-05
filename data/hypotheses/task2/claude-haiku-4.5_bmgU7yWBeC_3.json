@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "The Force Delta uncertainty metric will exhibit systematic degradation in its predictive power for systems undergoing phase transitions or with multiple competing local minima on the potential energy surface, because the internal disagreement between conservative and non-conservative forces may not correlate with true error when the model encounters regions where multiple physically plausible force field configurations are simultaneously valid."
-}

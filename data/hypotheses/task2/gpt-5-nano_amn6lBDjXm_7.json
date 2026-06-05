@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Uncertainty-guided active learning that uses cheap structure descriptors to train a surrogate predictor of DFT-based stability will, under the same computational budget, reduce the number of DFT relaxations required to identify stable or near-stable generated materials by a substantial margin compared with random sampling, while maintaining comparable recall of true stable structures."
-}

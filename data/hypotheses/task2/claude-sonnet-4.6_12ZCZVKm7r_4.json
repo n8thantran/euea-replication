@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "If equivariance-inducing training regularization (such as equigrad) causes non-equivariant architectures to converge toward the same representational manifold as architecturally equivariant models, then systematically interpolating the strength of this regularization during training will reveal a quantitative threshold\u2014measurable via CKNNA alignment with equivariant reference models\u2014above which downstream task performance plateaus, thereby establishing representation alignment as a sufficient proxy for architectural symmetry constraints and enabling the design of cheaper models that achieve equivariant-level generalization without equivariant architectures."
-}

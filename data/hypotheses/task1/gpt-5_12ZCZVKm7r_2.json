@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If we compare last-layer embeddings for the same molecules, materials, and proteins across diverse scientific foundation models (including geometric, graph, sequence, and language encoders), then their local neighborhoods and global manifolds will strongly align and exhibit similar intrinsic dimensions\u2014more so in-distribution than out-of-distribution\u2014because these models converge to a shared, low-dimensional representation of matter that is largely modality- and architecture-agnostic."
-}

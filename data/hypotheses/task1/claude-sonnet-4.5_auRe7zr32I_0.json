@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Implementing adaptive diversity constraints during reinforcement learning-based molecular generation will maintain greater chemical diversity (measured by clustering, fragment distribution, and structural similarity metrics) compared to unconstrained generation while still identifying molecules with favorable singlet fission properties."
-}

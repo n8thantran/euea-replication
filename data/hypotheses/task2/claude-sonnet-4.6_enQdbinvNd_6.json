@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating episodic memory of past simulation failures and parameter extraction errors into the multi-agent framework will enable agents to autonomously identify and avoid systematic error patterns\u2014such as misassignment of force field parameters from unconventionally formatted tables\u2014thereby measurably improving force field extraction accuracy (IoU) for previously problematic literature sources without requiring additional human intervention or prompt engineering."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "An E(3)-equivariant graph neural network that enforces three-dimensional rotational and permutation symmetry on the iron-centered local structures will outperform non-equivariant GNNs in both structure-to-spectrum prediction and spectrum-to-property inference on the XDIP dataset, with the most pronounced gains in EXAFS-based predictions that depend on precise 3D geometry."
-}

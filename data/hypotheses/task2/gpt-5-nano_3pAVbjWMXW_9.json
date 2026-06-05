@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "A mixture-IR decoding model augmented with a learned non-linear interaction module that accounts for pairwise inter-molecular spectral interference will outperform the current linear-additive baseline in identifying and predicting the correct molecules in multi-component mixtures (\u22653 components) with strong intercomponent interactions\u2014especially under imbalanced compositions\u2014across both simulated and ATR-IR experimental data, as evidenced by statistically significant gains in Top\u20111/Top\u201110 accuracy and Tanimoto similarity."
-}

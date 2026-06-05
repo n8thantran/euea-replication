@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "When trained solely on all pairwise Ar/O2, Ar/N2, and O2/N2 PBM datasets and using frozen single-gas networks as node encoders, a single GraphSAGE model will, without retraining, predict wafer-resolved etching-rate profiles for previously unseen ternary Ar/O2/N2 mixtures across 10\u201370 mTorr and 50\u20132000 W with R2 \u2265 0.90, exceeding a composition-augmented FNN baseline by \u22650.05 R2."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Explicitly incorporating a conformer-consistency objective into multimodal SMILES\u20133D electron density pretraining\u2014minimizing the distance between embeddings of different conformers of the same molecule across both modalities\u2014will yield pose- and conformation-invariant molecular representations, improving cross-conformer retrieval and downstream property prediction for flexible molecules."
-}

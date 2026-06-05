@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Representations learned by diverse scientific foundation models\u2014spanning architectures (equivariant vs non\u2011equivariant), input modalities (atomic/graph/SMILES/text), and domains (molecules, materials, proteins)\u2014converge onto a shared low\u2011dimensional manifold that encodes the underlying physical and chemical structure of matter, producing high CKNNA and IDCor alignment for in\u2011distribution datasets and measurably reduced alignment for out\u2011of\u2011distribution samples."
-}

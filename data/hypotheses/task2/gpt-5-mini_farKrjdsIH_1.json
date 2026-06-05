@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Integrating SAM-EM into a closed-loop LPTEM system that adaptively lowers electron beam dose whenever SAM-EM detects local particle clustering (two or more particles within 20 nm) will reduce the incidence of beam-induced irreversible nanoparticle aggregation by at least 30% compared to constant-dose imaging while preserving the mean-squared-displacement statistics of non-clustering particles."
-}

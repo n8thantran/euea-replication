@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If local iron environments in proteins are encoded as graph representations, then graph neural networks can accurately predict 100-point Fe K-edge X-ray absorption (XANES/EXAFS) spectra with low mean squared error, and conversely learned spectral features can reliably predict coordination number and mean nearest-neighbor distance from measured spectra above chance."
-}

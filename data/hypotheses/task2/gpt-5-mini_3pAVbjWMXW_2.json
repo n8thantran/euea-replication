@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Augmenting training data with simulated non-linear intermolecular spectral perturbations (systematic peak shifts and intensity modulations parameterized from DFT/MD) will enable the transformer model to identify components in ATR\u2011IR spectra of strongly interacting binary mixtures with Top\u201310 accuracy within five percentage points of its performance on linear synthetic binary mixtures."
-}

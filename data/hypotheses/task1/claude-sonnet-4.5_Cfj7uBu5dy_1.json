@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Combining a generative structure model (MatterGen) with a diversity-based acquisition function will discover more novel stable compounds than random sampling approaches because it efficiently explores chemically relevant regions of the composition-structure space while avoiding redundant queries."
-}

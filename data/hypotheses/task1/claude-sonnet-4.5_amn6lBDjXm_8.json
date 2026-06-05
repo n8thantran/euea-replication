@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Generative models that produce materials structures with lower root-mean-square displacement after DFT relaxation and higher stability-uniqueness-novelty scores will demonstrate superior performance in discovering chemically valid and thermodynamically stable materials compared to models evaluated solely on distribution-matching metrics."
-}

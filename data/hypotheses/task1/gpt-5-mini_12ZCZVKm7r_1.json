@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Representations learned by diverse scientific foundation models across modalities and architectures converge onto a common low-dimensional manifold that preserves underlying physicochemical and structural information, producing high mutual alignment (CKNNA and IDCor) across models for in-distribution materials and molecules and reduced alignment for out-of-distribution examples."
-}

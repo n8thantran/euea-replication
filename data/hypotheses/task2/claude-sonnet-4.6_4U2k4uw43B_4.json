@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Fine-tuning pre-trained ML interatomic potentials (such as eSEN or eqV2) specifically on stress tensor data generated from DFT calculations along converged SSNEB pathways\u2014using an active learning loop that selectively queries DFT only for images where stress prediction uncertainty exceeds a defined threshold\u2014will reduce the systematic stress prediction errors identified in this work and eliminate the symmetry-breaking artifacts that currently force VASP restarts to use reduced-symmetry settings (ISYM=0), thereby achieving greater than 5-fold computational speedup over pure DFT-SSNEB while maintaining energy barrier accuracy within 0.05 eV across chemically diverse polymorphic systems."
-}

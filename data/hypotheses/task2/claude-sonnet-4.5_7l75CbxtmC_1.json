@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The integration of real-time commodity price forecasting models with the thermodynamic-commercial workflow will enable dynamic recipe switching during multi-batch production campaigns, resulting in at least 15% cost reduction compared to static recipe selection when reactant price volatility exceeds 20% over a quarterly period."
-}

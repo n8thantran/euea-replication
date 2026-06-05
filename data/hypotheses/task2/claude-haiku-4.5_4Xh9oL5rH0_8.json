@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Universal machine learning interatomic potentials trained on expanded datasets containing flexible MOF conformations and ligand-rotation trajectories will exhibit superior performance on predicting guest-molecule adsorption properties and diffusion coefficients in MOFs compared to models trained solely on rigid equilibrium structures."
-}

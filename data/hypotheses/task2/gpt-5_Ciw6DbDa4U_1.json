@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Under biased sampling where training counts per unit-cell geometry slice are exponentially concentrated, an active-learning policy that selects new lattice designs by maximizing mode-wise tensor leverage scores from a CPD-S model will reach test R2 \u2265 0.90 on Young\u2019s modulus with at least 30% fewer labeled samples than Gaussian Process expected-improvement sampling on the same dataset and initial bias."
-}

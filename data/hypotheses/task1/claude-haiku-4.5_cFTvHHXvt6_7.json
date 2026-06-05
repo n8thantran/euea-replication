@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Large language models with frozen encoders and trainable decoders can learn to translate natural language descriptions into physically realizable multilayer thin-film designs that produce target structural colors, with performance improving as encoder size and decoder depth increase."
-}

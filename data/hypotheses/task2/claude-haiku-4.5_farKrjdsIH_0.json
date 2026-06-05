@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Fine-tuning SAM-EM on multi-modal training data incorporating both synthetic LPTEM videos and real experimental data with varying microscope parameters (e.g., accelerating voltage, sample holder geometry, electron dose rates from different instruments) will improve generalization across diverse experimental setups and reduce the performance degradation currently observed when the model encounters microscope conditions not represented in the synthetic training distribution."
-}

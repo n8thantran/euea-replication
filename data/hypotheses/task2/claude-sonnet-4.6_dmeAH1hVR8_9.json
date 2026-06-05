@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating MOF-specific tokenization\u2014where SMILES substructures, metal node identifiers, and topology codes from MOFid are treated as atomic vocabulary units rather than decomposed into general subword tokens\u2014will yield greater performance improvements in low-data regimes than continual pre-training on additional chemical corpora, because the primary bottleneck for LLM-based MOF property prediction is representational fragmentation of structural identifiers rather than insufficient domain knowledge."
-}

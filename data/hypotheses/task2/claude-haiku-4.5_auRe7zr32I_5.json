@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Adaptive diversity constraint thresholds that are dynamically calibrated based on real-time monitoring of the property-diversity Pareto frontier will outperform fixed-threshold constraints in achieving superior balance between optimization performance and chemical space exploration across diverse molecular design tasks."
-}

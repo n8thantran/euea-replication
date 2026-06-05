@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating machine-learned Hessian (vibrational curvature) information for lattice degrees of freedom into the ML-SSNEB framework will enable accurate, DFT-consistent prediction of temperature-dependent transition-state theory rate constants for solid-state phase transitions directly from the ML surrogate, matching DFT-derived rates at substantially reduced computational cost."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Training template-free retrosynthesis models with per-template class-balanced mini-batch sampling will increase top-10 accuracy on rare templates (training frequency \u226410) and on Pistachio OOD, without decreasing top-10 accuracy on Pistachio ID relative to standard sampling."
-}

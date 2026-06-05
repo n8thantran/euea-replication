@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Si\u2013X alloy anodes whose Li+ migration-channel radius changes by \u22640.45 \u00c5 per 100% state-of-charge (|dRt/dSOC|, computed on relaxed structures) will, when fabricated as 70:20:10 active:carbon:binder composite electrodes from 1\u20133 \u00b5m particles, exhibit \u226585% capacity retention after 500 cycles at 1C and \u226415% electrode thickness swelling in 1 M LiPF6 EC/EMC (3:7) with 10% FEC."
-}

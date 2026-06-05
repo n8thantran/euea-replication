@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "A diffusion model with an equivariant graph neural network backbone can generate realistic amorphous material structures with physically accurate local coordination geometries and macroscopic properties by jointly denoising atomic positions and element types through energy-informed score estimation."
-}

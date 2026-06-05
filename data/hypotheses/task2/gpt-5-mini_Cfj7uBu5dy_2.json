@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Agents that combine an LLM-conditioned structure generator fine-tuned on past failed proposals, an uncertainty-calibrated MLIP surrogate, and a multi-fidelity Bayesian acquisition function will discover at least 30% more DFT-validated novel stable compounds (distinct by StructureMatcher) within a fixed budget of B = 100 oracle queries on held-out ternary and quaternary chemical systems than a MatterGen+diversity baseline (two-sided test, p < 0.05)."
-}

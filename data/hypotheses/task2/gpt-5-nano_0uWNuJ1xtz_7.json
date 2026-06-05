@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Integrating a 3D conformer-based modality as an additional input representation in the STR-Bamba426M unified multimodal vocabulary will yield statistically significant improvements in stereochemistry-sensitive property prediction and higher fidelity in cross-representation translations for chiral molecules, compared to the text-only multimodal STR-Bamba426M."
-}

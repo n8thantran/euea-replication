@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Integrating a structured semantic memory module that stores canonical parameter-table parsing templates and domain-specific heuristics into the multi-agent framework will reduce the rate of incorrectly assigned force field parameters in literature-extraction tasks for papers with nonstandard table layouts by at least 50% and raise the average Intersection-over-Union (IoU) of extracted parameters to \u22650.9 compared to the current system without such memory."
-}

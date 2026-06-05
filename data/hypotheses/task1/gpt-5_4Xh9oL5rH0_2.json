@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If universal machine-learning interatomic potentials trained on diverse materials datasets are applied with standard dispersion corrections to MOFs without MOF-specific training, then they will reproduce DFT-level structures, MD stability, bulk moduli, and 300 K heat capacities, because learned interatomic force representations are transferable to porous framework chemistries."
-}

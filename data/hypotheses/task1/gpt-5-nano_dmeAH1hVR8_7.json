@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Continual pre-training of a large language model on MOF-related literature and PubChem data, followed by supervised fine-tuning using MOFid text representations on MOF property prediction tasks (band gap and gas adsorption), will yield lower mean absolute error on held-out test sets than traditional graph-based baselines (CGCNN, SOAP, MOFormer), and this advantage will be amplified under low-resource fine-tuning data regimes (1K, 3K, 10K samples)."
-}

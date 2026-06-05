@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit electronic configuration descriptors for d-electron occupancy and spin states in transition metal centers will enable \u2206-learning models to accurately predict HSE06 band gaps for Cr, Mn, Fe, Co, and Ni-containing MOFs, eliminating the systematic underestimation observed with GFN1-xTB baseline data."
-}

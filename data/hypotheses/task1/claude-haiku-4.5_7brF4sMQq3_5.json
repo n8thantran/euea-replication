@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Guided diffusion models trained on metastable state molecular dynamics data can accurately sample transition states by combining score-based interpolation between conditional scores with force-projection refinement along the interpolated reaction coordinate."
-}

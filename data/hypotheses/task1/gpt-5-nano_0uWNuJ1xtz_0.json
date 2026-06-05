@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a hybrid encoder\u2013decoder model is pre-trained on multiple molecular representations (SMILES, SELFIES, InChI, IUPAC name, molecular formula, SPG, electrolyte formulations), then it will achieve improved property prediction performance across small molecules, polymers, and electrolytes and achieve higher fidelity in translating between representations than single-representation models, because joint multimodal pre-training integrates complementary information from all modalities into a shared latent space."
-}

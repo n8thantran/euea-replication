@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If a single score-based diffusion model trained only on metastable-state trajectories is guided at inference by score-based interpolation and then refined with score-aligned ascent, it will produce transition-state structures with committor values near 0.5 and recover correct transition pathways across 2D potentials, peptides, and chemical reactions more accurately than linear or geodesic interpolation or methods without SAA."
-}

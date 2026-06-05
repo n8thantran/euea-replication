@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Fine-tuning SAM-EM on real experimental LPTEM videos from multiple microscope systems and liquid cell designs will reveal that domain-specific variations in electron scattering patterns and detector noise characteristics require separate model adaptations, and that transfer learning between microscope platforms will be significantly impaired unless the training data explicitly includes cross-platform variability."
-}

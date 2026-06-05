@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "On ogbg-molhiv with 10% labeled data and an unlabeled pool drawn from ZINC (out-of-domain), scaling each unlabeled sample"
-}

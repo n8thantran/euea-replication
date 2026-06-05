@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Language models augmented with physics-based simulation and in-context learning can achieve comparable or superior performance to classical search algorithms in solving inorganic material synthesis planning problems while requiring fewer computational resources."
-}

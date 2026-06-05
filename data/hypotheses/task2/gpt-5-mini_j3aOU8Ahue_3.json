@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Self-supervised contrastive pretraining on a large unlabeled corpus of SEM images across magnifications and chemistries will produce representations that, after fine-tuning, require at most half the number of labeled additive-containing target samples to achieve 0.95 F1 on the nine-class NCM composition-and-state SEM classification task compared with models pretrained in a supervised manner on additive-free SEM images."
-}

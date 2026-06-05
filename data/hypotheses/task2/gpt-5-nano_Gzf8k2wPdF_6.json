@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "An adaptive batching strategy that starts with dynamic batching and switches to static-64 batching once the gradient-update recompilation rate falls below a dataset- and model-specific threshold will reduce total training time to reach a target RMSE while preserving or improving final predictive accuracy compared with any fixed batching strategy."
-}

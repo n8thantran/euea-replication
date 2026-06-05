@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating a temporal contrastive identity-preservation loss during SAM-EM fine-tuning that attracts embeddings of the same nanoparticle across frames and repels embeddings of overlapping particles will reduce identity-switch events during severe overlaps in real LPTEM videos by at least 40% relative to the current pipeline while keeping mean J&F within 2% of baseline under thin-liquid, high-SNR conditions."
-}

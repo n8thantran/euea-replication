@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Training direct-force NNIPs with an added Force Delta regularization term (\u03bb > 0) will both increase the Spearman rank correlation between U\u2206 and true DFT force error on adversarial out-of-distribution test sets and reduce the OOD RMS force error (\u03b5direct) relative to otherwise identical models trained without the Force Delta penalty."
-}

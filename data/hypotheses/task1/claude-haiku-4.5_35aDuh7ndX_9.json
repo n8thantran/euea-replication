@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Reinforcement learning-guided generation of molecules using pharmacophore-based similarity metrics and structural dissimilarity constraints will produce novel drug-like compounds with improved binding affinity to estrogen receptor and synthetic accessibility compared to conventional docking-based molecular design approaches."
-}

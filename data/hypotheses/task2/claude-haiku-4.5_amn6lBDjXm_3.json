@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Generative models trained on larger, more chemically diverse datasets (such as OQMD) will exhibit improved stability prediction accuracy for out-of-distribution chemical compositions when evaluated using DFT-based metrics, even without explicit stability constraints in the loss function, because exposure to a wider range of metastable structures during training implicitly encodes thermodynamic feasibility patterns."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If diffusion-based generative models (CDVAE, GemsDiff, DiffCSP) are trained on preprocessed MP and OQMD datasets, then they will generate novel crystal structures that are chemically valid and thermodynamically stable because DFT-grounded evaluation will show low post-relaxation RMSD, energy above hull \u22640.1 eV/atom (SUN stability), minimum interatomic distances >0.5 \u00c5, and property distributions (density and formation energy) closely matching the training data as measured by EMD, precision/recall, and Fr\u00e9chet distance."
-}

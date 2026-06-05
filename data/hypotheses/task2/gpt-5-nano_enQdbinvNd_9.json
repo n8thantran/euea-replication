@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Integrating a persistent semantic and episodic memory module into the experiment setup and research teams will enable robust zero-shot generalization to unseen zeolite structures and adsorbates, such that, on 10 novel structure\u2013adsorbate tasks, the memory-augmented system achieves at least 95% correctness in generating RASPA input files and at least 90% reproducibility of HOA and adsorption isotherm predictions, versus \u226480% correctness and \u226475% reproducibility in the memoryless baseline."
-}

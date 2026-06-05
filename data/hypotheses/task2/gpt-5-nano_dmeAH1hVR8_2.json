@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "A multimodal MOF model that jointly encodes MOFid textual prompts, SMILES/linker information, and a lightweight 3D structural graph during continual pre-training will achieve at least a 10% relative reduction in MAE on QMOF and hMOF test sets when fine-tuned with \u22645K SFT samples, compared to the best text-only continual pre-trained MOF LLM."
-}

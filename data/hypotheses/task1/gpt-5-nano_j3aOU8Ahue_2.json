@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Two-stage transfer learning\u2014pretraining EfficientNet-B0 on additive-free SEM images of NCM cathodes followed by fine-tuning on additive-induced samples\u2014will improve class-wise accuracy and F1 on the target nine-class dataset compared to training from scratch, and oversampling during fine-tuning will outperform a weighted cross-entropy loss in this transfer setting."
-}

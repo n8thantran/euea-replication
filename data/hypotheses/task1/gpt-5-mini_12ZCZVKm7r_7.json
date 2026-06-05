@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If diverse scientific foundation models trained on atomic or structural data (including equivariant and non-equivariant MLIPs, UMA, Geom2Vec, and structure-based protein models) converge to a common representation of matter, then their last-layer structure-wide embeddings will show high pairwise CKNNA and IDCor alignment and low information imbalance\u2014indicative of a shared low-dimensional manifold across molecules, materials, and proteins\u2014while string-based models and out-of-distribution models will exhibit significantly weaker alignment."
-}

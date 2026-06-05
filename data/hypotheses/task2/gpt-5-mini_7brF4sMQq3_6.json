@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Extending ASTRA to simultaneously interpolate score-based diffusion models conditioned on three or more metastable states by solving for interpolation weights that equalize their time-marginal densities will enable direct a priori sampling of intermediate (index-1) and higher-index saddle points in multi-step reaction networks, producing sampled configurations with committor distributions centered near 0.5 and recovering known intermediates at a higher rate than pairwise (two-state) ASTRA."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Transition states can be accurately sampled a priori by combining score-based diffusion models trained only on metastable state data with guided interpolation and force projection refinement, without requiring explicit transition state trajectories in the training data."
-}

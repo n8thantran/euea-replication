@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Adding a persistent, domain-specific semantic-episodic memory module to the multi-agent system, including calibrated uncertainty estimates for force-field parameters and adsorption predictions, will enhance generalization to unseen porous materials and adsorbates and improve reproducibility and accuracy of automated RASPA setups relative to the memoryless baseline."
-}

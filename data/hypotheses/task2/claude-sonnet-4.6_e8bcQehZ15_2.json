@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "The disentangled property-specific embedding vectors learned by CAST's concept bottleneck module encode geometrically separable directions in the LLM's activation space that correspond to chemically interpretable molecular substructures, such that interpolating between two property-conditioned steering vectors will produce molecules with intermediate physicochemical properties in a predictable, monotonic fashion, enabling continuous navigation of chemical space along multiple property axes simultaneously without additional training."
-}

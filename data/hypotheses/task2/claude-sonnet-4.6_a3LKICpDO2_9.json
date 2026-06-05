@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating DFT+U corrections specifically parameterized for the 3d transition metals (Cr, Mn, Fe, Co, Ni) identified as problematic into the low-fidelity baseline\u2014replacing GFN1-xTB values with PBE+U values for MOFs containing these metals while retaining GFN1-xTB for all others\u2014will yield a metal-type-conditional \u2206-learning model that reduces the mean absolute error for the transition-metal subset by more than 50% relative to the uniform GFN1-xTB-based \u2206-learning model, without significantly increasing computational cost for the remainder of the dataset."
-}

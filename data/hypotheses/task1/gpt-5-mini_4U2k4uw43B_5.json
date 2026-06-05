@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Integrating pretrained eqV2 or eSEN ML models into an ML-SSNEB workflow that obtains ML-only MEPs and then restarts DFT-SSNEB will reduce the number of DFT SSNEB iterations and overall wall-clock computational time by at least 50% relative to VASP-only SSNEB while reproducing DFT-converged minimum energy pathways and transition-state energies for CsPbI3 and TiO2 within 0.05 eV per formula unit."
-}

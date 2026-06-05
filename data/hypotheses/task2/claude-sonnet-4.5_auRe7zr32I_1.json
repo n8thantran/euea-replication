@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Integrating NaviDiv's fragment-based diversity constraints with multi-objective Bayesian optimization will enable simultaneous optimization of molecular properties and chemical diversity, resulting in Pareto-optimal molecular libraries that outperform sequential constraint-then-optimize approaches in both property performance and structural novelty."
-}

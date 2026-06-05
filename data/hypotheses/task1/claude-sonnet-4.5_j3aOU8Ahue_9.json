@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Transfer learning from a data-rich additive-free domain to a data-poor additive-induced domain improves classification accuracy of lithium-ion battery cathode microstructures compared to training only on the limited target domain data."
-}

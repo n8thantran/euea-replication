@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "A hybrid deep learning architecture that explicitly encodes spatial surface patterns via 2D CNN, polymer sequence information via recurrent networks, and their interactions via attention mechanisms will predict polymer-surface binding free energies more accurately than baseline models without these specialized architectural components."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Replacing the composition-weighted additive aggregation of constituent molecular embeddings with an attention-based set encoder that explicitly models pairwise salt\u2013solvent interactions will reduce test MAE by at least 20% and tail-end out-of-distribution MAE by at least 15% for ionic conductivity on the 18,000-sample dataset used in this study relative to the current SMI-TED additive baseline."
-}

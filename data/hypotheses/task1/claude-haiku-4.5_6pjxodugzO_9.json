@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Foundation models pre-trained on large molecular datasets can predict battery material properties across multiple scales (from molecular to device level) more accurately than traditional molecular fingerprints, because learned chemical representations capture complex structure-property relationships that transfer across diverse prediction tasks."
-}

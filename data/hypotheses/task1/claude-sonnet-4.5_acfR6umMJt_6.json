@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Neural network Bayesian Algorithm Execution (NN-BAX) with iterative fine-tuning of a foundation model reduces the number of expensive energy and force evaluations required to converge nudged elastic band calculations compared to classical NEB methods."
-}

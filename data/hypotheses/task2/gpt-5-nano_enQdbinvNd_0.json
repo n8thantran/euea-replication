@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Introducing explicit probabilistic uncertainty quantification for force-field parameters and predictions, combined with an active-learning loop that selectively queries for additional data or refits when uncertainty is high, will improve the accuracy and reproducibility of adsorption isotherm predictions on unseen zeolite/topology combinations by at least 20% over the baseline deterministic, non-uncertainty-aware multi-agent workflow."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating physics-informed constraints derived from lattice structure symmetry groups into tensor completion factor matrices will enable more accurate extrapolation of mechanical properties beyond the experimentally sampled design space compared to unconstrained tensor decomposition methods, particularly for predicting performance of hybrid lattice topologies not present in the training data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If CHROMA uses larger frozen Llama encoders (1B\u21923B\u21928B) and deeper trainable decoders (2\u21924\u21928 layers), then it will produce multilayer thin-film designs with lower CIE76 \u0394E to target colors and better generalization to held-out optical targets and paraphrased prompts across viewing angles and layer counts, because greater encoder and decoder capacity improves the mapping from natural language to material-thickness sequences."
-}

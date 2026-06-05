@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating episodic memory of failed simulation setups will enable agents to autonomously detect and correct force field incompatibilities that arise from combining parameters extracted from different publications with inconsistent modeling assumptions."
-}

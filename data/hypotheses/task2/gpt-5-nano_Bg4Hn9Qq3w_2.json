@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "An explicit memory-augmented LLM agent architecture that preserves episodic experiment histories and semantic rule representations, together with an information-gain driven planning module, will reduce path-dependence and increase the diversity and novelty of ALP reactor chemistries discovered under fixed experimental time, compared to a memoryless agent."
-}

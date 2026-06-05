@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If a LixSiyXz crystal has a large continuous Li+ migration channel whose radius remains nearly constant between fully lithiated and delithiated states, then after structural relaxation it will be energetically stable while maintaining >1500 mAh/g capacity because preserved percolating Li pathways minimize structural rearrangement during (de)lithiation."
-}

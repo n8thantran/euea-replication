@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Si\u2013X alloys in which the non-Li sublattice contains \u22655 at% of an element X whose single-crystal bulk modulus is \u226570 GPa and whose atomic radius is within \u00b112% of Si will exhibit <15% variation in Li+ migration channel radius between fully lithiated and fully delithiated states and demonstrate <150% volumetric expansion upon full lithiation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "In LPTEM of monodisperse 20 nm spherical Au nanoparticles in water with liquid thicknesses of 50\u2013150 nm, a real-time PI controller that modulates electron beam dose rate using SAM-EM\u2019s on-the-fly MSD slope estimates will maintain the effective 2D diffusion coefficient within \u00b110% of a preset target for at least 90% of frames, whereas open-loop operation will exhibit deviations exceeding 25%."
-}

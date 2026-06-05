@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "A Transformer-based encoder-decoder trained with a joint spectrum reconstruction (spectral-alignment) loss across multiple concentration ratios can accurately identify the constituent molecules and reconstruct their pure-component infrared spectra from mixture spectra."
-}

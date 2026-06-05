@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Introducing a third, outer shell (C3) with its own composition vector and conditioning the diffusion process on C3 in addition to the existing shells, combined with an explicit surface strain descriptor, will improve the accuracy and transferability of adsorption-energy predictions and reduce compositional leakage on high-entropy alloy surfaces for unseen adsorbates compared to the two-shell CompGen design."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Assigning 50% of the total cross-modal prediction loss to predicting the XRD latent from graph and text (and 25% each to the other two targets) during X-MoPA pretraining will yield at least a 10% relative MAE reduction on Matbench dielectric constant and bulk modulus tasks compared to uniform target weighting, by mitigating the model\u2019s short-range bias through stronger long-range structural alignment."
-}

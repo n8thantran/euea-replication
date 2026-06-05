@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If crystal materials are represented with a cross-modal predictive model that aligns graph (CGCNN), text (MatSciBERT RoboCrystallographer), and simulated XRD embeddings by training pairs of modalities to predict the third with contrastive/VIC regularization, then the mean absolute error for property prediction on Matbench (band gap, shear modulus, bulk modulus, dielectric, perovskite formation energy) and AFLOW band gap will be lower than CGCNN, CoGN, and ALIGNN baselines because the shared latent space captures complementary information across modalities."
-}

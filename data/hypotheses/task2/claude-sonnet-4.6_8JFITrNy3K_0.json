@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a domain-specific language model on MatPROV's PROV-DM graph representations will enable more accurate cross-material-class transfer of synthesis procedure extraction than few-shot prompting of general-purpose LLMs, such that a model fine-tuned exclusively on thermoelectric material synthesis graphs will achieve structural-level F1-scores on magnetic material synthesis extraction that exceed those of zero-shot o4-mini by at least 10 percentage points, due to the shared graph-structural primitives (branching, convergence, intermediate product generation) learned during fine-tuning being more transferable than domain-specific chemical knowledge."
-}

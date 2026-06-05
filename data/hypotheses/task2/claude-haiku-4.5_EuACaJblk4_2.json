@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "The stochastic sampling of discrete sequences through Gumbel-Softmax during training creates an implicit regularization effect that enables the encoder to learn sequence distributions robust to out-of-distribution backbone geometries, such that E2EFOLD's sequence design performance will improve when evaluated on de novo designed proteins with non-native geometric features compared to methods trained with deterministic sequence prediction."
-}

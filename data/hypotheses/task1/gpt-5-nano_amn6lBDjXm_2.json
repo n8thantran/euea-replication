@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If diffusion-model generated crystal structures trained on Materials Project and OQMD data, when relaxed via DFT, exhibit lower energy above hull, smaller RMSD, higher validity (min interatomic distances > 0.5 \u00c5), and closer alignment to real-material distributions across SUN, EMD, Fr\u00e9chet distance, and CrystalNN precision/recall than structures produced by perturbing existing materials, then diffusion models provide a more effective framework for stable and realistic materials discovery."
-}

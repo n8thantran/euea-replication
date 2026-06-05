@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "A diffusion model framework using equivariant graph neural networks with energy-based denoising and Hamiltonian Monte Carlo refinement can generate physically realistic amorphous materials with controllable properties that match experimental structural signatures better than standard denoising approaches."
-}

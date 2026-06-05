@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Conditioning LoQI on a 3D grid of receptor steric and electrostatic potentials for the target binding pocket will reduce the median heavy-atom RMSD to crystal-bound ligand conformations on the Platinum Diverse dataset by at least 0.15 \u00c5 compared to the unconditioned LoQI when both sample 50 conformers per ligand."
-}

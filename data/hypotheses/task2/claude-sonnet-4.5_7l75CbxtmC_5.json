@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Integrating real-time kinetic modeling with the existing thermodynamic cellular automata framework will reveal that reaction pathways with intermediate metastable phases\u2014currently discarded by equilibrium-based selection\u2014can achieve superior economic efficiency through reduced heating times and lower energy consumption, despite producing lower theoretical thermodynamic yields."
-}

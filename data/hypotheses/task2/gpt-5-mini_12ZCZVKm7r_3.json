@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Cross-model representational alignment is primarily driven by shared encoding of low-order physical invariants (e.g., atomic composition and pairwise distance statistics), such that training models on datasets where these invariants are decorrelated from target properties will substantially reduce CKNNA and IDCor alignment across modalities."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Augmenting SAM-EM fine-tuning with a temporal re-identification loss trained on synthetic high-overlap events will reduce particle identity-switch rates by at least 50% on high-density LPTEM test videos (\u22656 particles/frame) compared to the current SAM-EM fine-tuned without this loss."
-}

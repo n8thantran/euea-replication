@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Embedding physics-informed priors that encode lattice symmetry across unit-cell geometries (Gyroid, Schwarz, Diamond, Lidinoid) and a monotonic mass\u2013stiffness relation into tensor completion will improve extrapolation to unseen design regions and reduce required training samples under biased sampling, compared to unconstrained tensor completion."
-}

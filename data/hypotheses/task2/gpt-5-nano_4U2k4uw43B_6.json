@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "By integrating explicit uncertainty quantification into the ML surrogates used in ML-SSNEB and coupling it with an active-learning loop that prioritizes high-uncertainty images for DFT refinement, the framework will deliver transferable, quantitatively reliable minimum energy pathways and transition barriers for unseen solid-state systems and extreme pressure\u2013temperature conditions, while reducing the number of expensive DFT evaluations required."
-}

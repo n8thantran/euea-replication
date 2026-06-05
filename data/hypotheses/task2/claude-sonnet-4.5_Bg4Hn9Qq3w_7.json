@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "If LLM agents are given access to multiple parallel simulated reactor systems with systematically varied physical parameters (e.g., different reactor geometries, pressure regimes, or temperature ranges), they will discover generalizable scaling laws governing self-limiting surface reactions that are not discoverable from single-system interrogation, even when individual agents fail to fully characterize their assigned system."
-}

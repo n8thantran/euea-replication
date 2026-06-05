@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Concept-based activation steering using interpretable property embeddings enables more precise control over molecular generation in large language models compared to direct activation addition or fine-tuning methods because it disentangles property-specific directions in the model's latent space."
-}

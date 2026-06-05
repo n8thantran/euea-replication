@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a modular, dynamic benchmark environment (MADE) is used to evaluate autonomous materials discovery agents across varied chemical systems, generators, and acquisition strategies, then systematic performance differences will emerge between agent configurations (e.g., learned generators like MatterGen outperforming random structure generation, and diversity-based acquisition outperforming random selection), because structured exploration of composition and structure space more efficiently identifies novel stable compounds within a limited query budget."
-}

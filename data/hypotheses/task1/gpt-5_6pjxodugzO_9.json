@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If battery-property predictors use composition-weighted embeddings from large SMILES-pretrained chemical foundation models instead of hand-crafted fingerprints, then they will achieve higher accuracy, stronger out-of-distribution (tail) generalization, and better recovery of true moiety\u2013property correlations across molecular-to-device tasks because pretraining on massive chemical corpora encodes transferable structure\u2013property knowledge."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "\u2206-learning XGBoost models that predict the difference between GFN1-xTB and DFT band gaps using the ST-135, RAC, and APRDF descriptors (top 400 features) will produce significantly lower prediction error for DFT band gaps than direct XGBoost models trained to predict DFT band gaps from descriptors alone."
-}

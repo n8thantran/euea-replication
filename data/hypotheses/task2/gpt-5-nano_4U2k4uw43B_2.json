@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating an adaptive active-learning loop with a stress-aware, multi-task ML surrogate (predicting energies, forces, and lattice stresses) within SSNEB will yield DFT-parity minimum energy pathways and transition-state barriers across a diverse set of solid-state systems under high pressure at comparable computational cost."
-}

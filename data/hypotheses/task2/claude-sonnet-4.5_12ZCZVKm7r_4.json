@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nTraining scientific foundation models with an explicit regularization term that minimizes representation divergence across multiple architectures on shared data will accelerate convergence toward a universal representation of matter while simultaneously improving out-of-distribution generalization performance compared to models trained with traditional loss functions alone."
-}

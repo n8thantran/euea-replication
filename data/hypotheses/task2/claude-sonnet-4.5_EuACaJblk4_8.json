@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating a learned, sequence-aware temperature schedule for the Gumbel-Softmax quantizer\u2014where \u03c4 is dynamically adjusted per residue based on local structural complexity rather than globally annealed\u2014will reduce the trade-off between sequence recovery and self-consistency by allowing flexible discretization in structurally constrained versus permissive regions."
-}

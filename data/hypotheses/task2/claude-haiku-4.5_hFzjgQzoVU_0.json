@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Machine learning models trained on Fe K-edge XAS spectra will exhibit significantly improved generalization to unseen iron-containing proteins if augmented with physics-informed constraints that enforce the known relationships between local coordination geometry and characteristic spectral features (such as pre-edge peak intensity correlating with centrosymmetry or EXAFS oscillation frequency correlating with nearest-neighbor distance), compared to unconstrained baseline architectures trained on identical data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Dynamic, task-adaptive tool provisioning\u2014where the agent learns to add, prune, and reorder available tools in real time based on evolving tool\u2013task embedding similarity and historical success\u2014will outperform static tool provisioning by increasing pass@5 and reducing tool usage, especially for tasks with large tool\u2013task embedding distances and when base models have limited domain knowledge."
-}

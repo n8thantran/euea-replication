@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "An active-learning-augmented ML-SSNEB workflow that selectively queries DFT evaluations for images with high surrogate uncertainty and retrains the model online will enable reliable, material-general convergence to DFT-level MEPs across diverse solid-state transitions (e.g., CsPbI3 and TiO2 under varying P\u2013T) with barrier predictions within 5% of full DFT values while achieving at least a 2\u00d7 reduction in total computational time compared to non-adaptive ML surrogates."
-}

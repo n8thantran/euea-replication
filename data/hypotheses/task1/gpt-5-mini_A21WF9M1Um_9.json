@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Gradient descent on differentiable XRD-similarity loss functions (negative cosine similarity, MSE, negative entropy) cannot reliably recover ground-truth crystal structures from realistic lattice strain (\u03c3l) and coordinate noise (\u03c3c) perturbations\u2014even when enforcing symmetry via projected gradients\u2014because the XRD loss landscape is highly non-convex and rugged, yielding low Match Rates compared to energy-based CHGNet relaxation."
-}

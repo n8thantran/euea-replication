@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating multi-modal phase diagram representations (visual + textual) into the LLM prompt will significantly improve synthesis planning success rates for multi-phase target states (challenges 2 and 3) by enabling the model to better infer non-obvious intermediate phase transitions that are difficult to express through text-based thermodynamic descriptions alone."
-}

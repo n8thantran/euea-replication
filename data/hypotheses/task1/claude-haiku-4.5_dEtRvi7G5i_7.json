@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Metal lattices with strong electron localization at interstitial sites can be effectively identified through machine learning models trained on chemical template theory, enabling discovery of thermodynamically stable metal superhydrides with high superconducting transition temperatures."
-}

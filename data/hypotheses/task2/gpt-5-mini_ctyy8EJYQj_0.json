@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Providing the LLM agent with local thermodynamic and kinetic sensitivity information from the simulator\u2014specifically per-action gradients of equilibrium phase fractions with respect to temperature and composition plus short-time kinetic derivatives of phase fraction evolution\u2014will increase its success rate on multi-phase synthesis targets (e.g., Challenge 3) by at least 50% and reduce the number of simulator calls needed to find a solution by at least 30% relative to the same LLM using only final-state simulator outputs."
-}

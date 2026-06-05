@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If LLM agents using a ReACT planning loop are allowed to design and run iterative experiments with limited sensor feedback, then they will infer hidden governing rules (e.g., the Alien Market rejection rule) and identify ALD/ALE/CVD/passivation regimes in a physics-based ALP reactor, with success increasing with model size, experimental budget/time, and favorable kinetics, because they can plan informative interventions and update causal hypotheses from observations."
-}

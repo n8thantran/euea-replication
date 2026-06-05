@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "A machine-learning workflow that combines s\u2013d border metal template substitutions and lattice features\u2014especially measures of electron localization at interstitial quasi-atoms\u2014can accurately predict which hypothetical metal superhydride lattices are thermodynamically stable (low Ehull) and possess electronic and compositional descriptors that correlate with superconducting behavior, such that DFT calculations validate the predicted stable superconducting candidates."
-}

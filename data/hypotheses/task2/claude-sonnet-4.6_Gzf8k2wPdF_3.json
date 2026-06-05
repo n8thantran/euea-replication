@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "For datasets with heavy-tailed graph size distributions (such as AFLOW), dynamically adjusting the padding budget during training based on the running statistics of recently encountered graph sizes\u2014rather than estimating it once from a fixed random subset at initialization\u2014will reduce the frequency of budget violations and decrease mean combined training time per step by at least 20% compared to the static budget dynamic algorithm, while simultaneously reducing the variance in effective batch sizes and thereby improving final model test RMSE on long-tailed datasets like AFLOW."
-}

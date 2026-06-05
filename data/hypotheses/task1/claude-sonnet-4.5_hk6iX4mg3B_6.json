@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Enforcing consensus among an ensemble of neural networks on unlabeled molecular graph data improves prediction accuracy and calibration in low-data regimes because the consistency constraint regularizes individual models toward a shared representation that captures robust structural features."
-}

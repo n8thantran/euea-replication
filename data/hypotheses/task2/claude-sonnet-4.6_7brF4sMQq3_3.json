@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "The interpolation weight \u03ba in Score-Based Interpolation, currently optimized to find the equal-density isosurface between two metastable states, could be systematically varied beyond the \u03ba=0.5 isodensity condition to trace entire minimum energy paths and characterize intermediate metastable states in multi-step reactions, such that a continuous sweep of \u03ba from 0 to 1 during inference would generate ordered ensembles corresponding to distinct points along the reaction coordinate, enabling ASTRA to reconstruct full reaction pathways and identify previously unknown intermediates in systems where the assumption of a single barrier between reactants and products breaks down."
-}

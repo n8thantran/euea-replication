@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Correcting valency calculation bugs and using chemically accurate bond representations (Kekulized datasets) will improve the geometric accuracy of generated molecules as measured by reduced deviations in bond lengths, angles, and torsion angles compared to GFN2-xTB optimized structures."
-}

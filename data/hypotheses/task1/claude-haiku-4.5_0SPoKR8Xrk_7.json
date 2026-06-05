@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Hybrid deep learning models combining convolutional surface encoding, recurrent polymer sequence encoding, and multi-head attention mechanisms will predict polymer-surface binding free energies with significantly higher accuracy than baseline deep neural networks or alternative sequence encoders."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If implemented and trained as described, the JAX-based MLIP library (including a modified gated, species-dependent MACE architecture) will produce interatomic potentials with energy and force prediction accuracy comparable to standard implementations while enabling faster molecular dynamics inference on NVIDIA H100 GPUs, with the modified MACE yielding the largest inference speedup relative to Torch+ASE."
-}

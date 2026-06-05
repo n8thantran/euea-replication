@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The incorporation of dynamic structural fluctuations captured through time-resolved XAS spectra will enable machine learning models to predict enzymatic reaction intermediates and transition states in iron-containing proteins with higher accuracy than models trained solely on static ground-state structures."
-}

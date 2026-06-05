@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating graph neural networks trained on MatPROV's provenance graph structures will enable prediction of material properties directly from synthesis procedure graphs with higher accuracy than models trained on compositional features alone, particularly for properties sensitive to processing conditions such as grain size and defect concentration."
-}

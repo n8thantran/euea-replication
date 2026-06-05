@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The integration of real-time commodity futures data into the economic efficiency module will enable predictive identification of synthesis routes that remain cost-optimal under future price volatility scenarios, thereby reducing the sensitivity of manufacturing decisions to geopolitical supply chain disruptions by at least 40% compared to static price-based optimization."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Within the MADE benchmark, under a compute budget where one DFT relaxation is counted as the cost of 500 MLIP relaxations, a multi-fidelity agent that uses MLIP for initial screening and adaptively promotes approximately 20% of candidates to DFT using a one-step value-of-information criterion will discover at least 50% more novel thermodynamically stable compounds than either MLIP-only or DFT-only agents across three held-out ternary systems."
-}

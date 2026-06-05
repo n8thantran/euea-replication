@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "The loss landscape of XRD pattern-based structure optimization contains numerous local minima and discontinuities that make it too rough for gradient descent methods to reliably recover crystal structures from distorted starting configurations, unlike smoother energy-based landscapes used in interatomic potential relaxation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Replacing ChEMBL35 with a large, materials-specific pretraining corpus enriched in nitrogen-rich aromatic heterocycles and triazine polymerizable motifs will increase REINVENT\u2019s lattice-node percentage of molecules passing the expert filters under the same FT+RL protocol to at least 25% while maintaining uniqueness \u226580%."
-}

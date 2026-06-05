@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Enforcing non-negativity and sum-to-one constraints in the diffusion-based generation of composite material compositions will increase the proportion of generated samples that satisfy physical composition constraints (Validityreg) and fabrication limits (Validityfab) compared with CVAE and TabDDPM, without sacrificing fidelity and diversity as measured by Density/Coverage."
-}

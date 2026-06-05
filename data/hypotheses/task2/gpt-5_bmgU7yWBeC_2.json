@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "In NVE molecular dynamics driven by direct-force outputs, the per-atom energy drift rate is proportional to the trajectory-averaged squared Force Delta (U\u0394^2), yielding R^2 \u2265 0.8 across materials and NNIP architectures at fixed timestep and temperature."
-}

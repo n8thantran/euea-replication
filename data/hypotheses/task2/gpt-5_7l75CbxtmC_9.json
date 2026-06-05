@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit energy consumption (computed by integrating reactant/product heat capacities over the furnace schedule assuming 40% furnace efficiency) and purification-cost proxies (estimated from ML-predicted byproduct solubility and volatility) into the workflow\u2019s economic metric"
-}

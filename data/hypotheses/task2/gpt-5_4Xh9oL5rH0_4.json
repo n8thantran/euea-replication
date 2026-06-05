@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Augmenting MACE-OMAT-0 with 5,000 MOF-specific out-of-equilibrium fragments sampling linker torsions and metal\u2013ligand coordination distortions will increase the fraction of MOFSimBench structures converging within 1,000 optimization steps by at least 20% and reduce the fraction of 50 ps NpT simulations with |\u0394V|>10% by at least 25% relative to augmenting with 5,000 non-MOF inorganic fragments."
-}

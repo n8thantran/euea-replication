@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a 426M-parameter hybrid Transformer\u2013Mamba encoder\u2013decoder is pre-trained with a shared tokenizer across multiple molecular textual modalities using masked language modeling for alignment and decoder reconstruction, then it will learn a unified, chemically meaningful latent space that yields better clustering, higher property-prediction accuracy across small molecules, polymers, and electrolytes, and more valid/faithful inter-representation translation than unimodal or non-hybrid baselines because multimodal objectives capture modality-invariant chemical structure."
-}

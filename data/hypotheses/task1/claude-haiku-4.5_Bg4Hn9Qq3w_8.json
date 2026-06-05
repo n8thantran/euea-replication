@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Large language model agents can discover unknown chemical reaction rules and process parameters through systematic experimentation and sensor feedback without explicit instruction, with discovery success increasing as computational resources and experimental time constraints allow for more iterative hypothesis testing."
-}

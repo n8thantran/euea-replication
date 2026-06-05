@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "A domain-specific single-agent system using structured document preprocessing and large language models will achieve higher precision and recall in automated chemical information extraction compared to general-purpose chatbot agents and baseline language models because it combines specialized document parsing with task-specific prompting."
-}

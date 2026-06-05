@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If single-step retrosynthesis models are trained and evaluated on splits that preserve template frequency and product structural similarity, then their top-k and round-trip accuracies will be substantially higher than when evaluated on narrow splits or Pistachio OOD with unseen templates, because the models overfit to frequent templates and similar molecules, with template-free architectures exhibiting greater robustness than template-based ones."
-}

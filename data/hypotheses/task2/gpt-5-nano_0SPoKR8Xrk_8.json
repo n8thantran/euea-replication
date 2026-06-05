@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Under varying ionic strength, a Debye-length dependent crossover in polymer\u2013surface adhesion emerges, whereby polymer motifs that maximize strong-bead\u2013surface contacts promote adsorption at low salt but become less favorable at higher salt due to electrostatic screening; a Debye-length\u2013augmented CNN\u2013GRU\u2013Transformer model trained on salt-diverse coarse-grained simulations will generalize to predict this crossover for unseen surface patterns."
-}

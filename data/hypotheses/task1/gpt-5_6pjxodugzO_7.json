@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If battery property predictors use composition-weighted embeddings from SMILES-pretrained chemical foundation models, then they will outperform Morgan fingerprints and graph-based baselines on both in-distribution and out-of-distribution prediction of molecular, formulation, interfacial, and device-level metrics because large-scale pretraining encodes generalizable, compositional chemical features that transfer across scales."
-}

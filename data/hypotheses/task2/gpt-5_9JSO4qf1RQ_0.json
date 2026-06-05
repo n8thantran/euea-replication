@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Imposing a reasoning scaffold that requires the Proposition-stage LLM to explicitly balance oxidation states and justify substitutions using quantified electronegativity differences will, under identical iteration counts and evaluator settings, increase both the success rate and the V.U.N. score by at least 20% (relative) for the \u22123.8 eV/atom target compared to the original MatAgent prompts."
-}

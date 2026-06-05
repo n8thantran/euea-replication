@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Information-theoretic BAX acquisition (InfoBAX) applied to an ensemble-fine-tuned EquiformerV2 surrogate will reduce the number of expensive DFT energy/force evaluations needed to converge NEB by at least 50% compared to the heuristic NN-BAX sampling strategy while producing energy barrier estimates within 0.05 eV of classical DFT NEB for benchmark surface-catalyzed reactions such as O2 dissociation on Pt(111)."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "The trade-off between CO partial current density and CO2 utilization that limits reactor yield in alkaline bicarbonate electrolyzers can be overcome by dynamically modulating the local pH at the catalyst-electrolyte interface through pulsed electrochemical waveforms, which would shift the optimal bicarbonate-to-carbonate ratio by altering in situ CO2 generation kinetics without requiring changes to bulk electrolyte composition."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "A multi-fidelity delta-learning framework that combines both GFN1-xTB and SCC-DFTB band gaps as input features to predict high-fidelity HSE06 band gaps will achieve lower MAE for MOFs containing 3d transition metals (Cr, Mn, Fe, Co, Ni) than a delta-learning model using only GFN1-xTB."
-}

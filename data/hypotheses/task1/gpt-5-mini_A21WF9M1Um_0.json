@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If crystal structures are recovered from powder XRD patterns by minimizing similarity-based losses with gradient descent (with or without symmetry constraints), then recovery will fail for moderately distorted initial structures because the XRD-similarity loss landscape is highly nonconvex and contains many local minima, yielding low Match Rates compared to energy-based CHGNet relaxation."
-}

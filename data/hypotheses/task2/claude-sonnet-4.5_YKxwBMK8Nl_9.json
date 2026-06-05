@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Based on the identified gap that domain-specific multi-agent systems (SLM-Matrix, FutureHouse) performed poorly on chemical extraction tasks while single-agent approaches with controlled preprocessing outperformed them, I propose:\n\n**Hypothesis:** Multi-agent systems for chemical information extraction underperform single-agent approaches because inter-agent communication overhead and task decomposition strategies are misaligned with the hierarchical, context-dependent structure of chemical literature, and a hybrid architecture that uses a single preprocessing agent to generate structured intermediate representations followed by specialized extraction modules will achieve superior precision and recall compared to both current multi-agent orchestration frameworks and monolithic single-agent systems."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Domain-adaptive pretraining of a generative model on a curated corpus of 3D geometry\u2013rich Covalent Triazine Framework fragments, followed by fine-tuning, will yield a higher fraction of lattice-node candidates that pass material-specific filters and exhibit improved predicted capacitance than pretraining on 2D SMILES data alone."
-}

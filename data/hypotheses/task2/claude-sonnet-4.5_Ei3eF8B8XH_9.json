@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The graph augmentation strategy for stereochemistry encoding in LoQI will enable accurate prediction of atropisomer conformational preferences by extending the directed cycle representation to encode axial chirality around hindered single bonds with restricted rotation barriers above 20 kcal/mol."
-}

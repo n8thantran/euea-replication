@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Transfer learning strategies combining pre-training on diverse chemical databases with fine-tuning on curated CTF structures and reinforcement learning with expert-defined rewards will improve the generation of valid, novel, and chemically diverse porous carbon materials compared to models without such knowledge transfer approaches."
-}

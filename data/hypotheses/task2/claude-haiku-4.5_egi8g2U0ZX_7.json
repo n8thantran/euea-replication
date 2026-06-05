@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Transfer learning efficacy for materials discovery will exhibit a non-monotonic relationship with fine-tuning dataset size, where an intermediate-sized curated dataset (approximately 50-150 CTF examples) produces superior filter-passing rates compared to both minimal datasets and the complete expert-curated set due to optimal balance between constraint learning and overfitting to domain-specific biases."
-}

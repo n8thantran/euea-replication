@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "A multi-fidelity Bayesian optimization strategy that augments polymer-specific pre-trained embeddings with explicit architectural descriptors (branching index and crosslink density) and allocates five high-fidelity long-timescale MD simulations within a 30-simulation budget will identify at least one polymer whose long-timescale-MD-validated CO2 uptake lies in the top 5% of a 1000-sample pool with at least twice the probability of a single-fidelity BO using only linear-polymer embeddings and fast MD+GCMC labels."
-}

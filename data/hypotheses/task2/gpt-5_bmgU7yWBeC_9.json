@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating a Force-Delta penalty term \u03bb\u2016Fnc + \u2207E\u2016\u00b2 during fine-tuning of direct-force NNIPs will"
-}

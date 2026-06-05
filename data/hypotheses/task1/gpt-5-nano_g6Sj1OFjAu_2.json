@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Conditioning a latent diffusion model on adsorbate identity, adsorption energy, and allowed element lists will enable generation of shell-wise catalytic surface compositions that more closely approximate the true composition distributions (lower Fr\u00e9chet Distance), satisfy chemical constraints (lower leakage), and align more closely with ground-truth configurations (higher Cosine Similarity) than a chemically-agnostic baseline, with performance improving as training data increases."
-}

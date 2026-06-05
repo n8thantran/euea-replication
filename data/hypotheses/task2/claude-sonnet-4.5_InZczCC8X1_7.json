@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Bicarbonate-to-carbonate ratio optimization in reactive carbon capture electrolyzers could be dynamically adjusted in real-time based on fluctuating renewable energy input, such that high-energy periods favor higher bicarbonate concentrations to maximize JCO while low-energy periods favor carbonate-enriched feeds to maximize UCO2, thereby maintaining optimal reactor yield across variable power availability."
-}

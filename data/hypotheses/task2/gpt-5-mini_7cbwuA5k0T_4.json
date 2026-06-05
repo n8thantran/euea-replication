@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Allowing agents to autonomously generate and register lightweight, task-specific \"micro-tools\" (short scripts or template functions) within the Corral workflow will reduce the mean minimum task-tool embedding cosine distance and increase GPT-4o's pass@5 in the Spectra environment by at least 0.20 absolute compared to using only static expert-curated tools."
-}

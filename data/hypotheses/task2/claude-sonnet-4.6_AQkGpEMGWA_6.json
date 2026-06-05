@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "If the invariance of Li\u207a migration channel size across lithiation states is a reliable predictor of structural resilience in Si\u2013X binary alloys, then extending this descriptor to ternary Si\u2013X\u2013Y systems where X provides electronic stabilization (e.g., a transition metal) and Y provides geometric channel-pinning (e.g., a large-radius metalloid), will yield compounds exhibiting simultaneously lower channel-size variation slopes than any binary Si\u2013X end-member, quantifiably demonstrating that synergistic multi-element sublattice engineering produces a non-additive improvement in channel stability that cannot be predicted by linear interpolation between the binary component descriptors."
-}

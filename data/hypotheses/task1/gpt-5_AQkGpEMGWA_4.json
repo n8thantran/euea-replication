@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If Li\u2013Si\u2013X compounds are selected or generated to have >1500 mAh/g capacity and a large Li+ migration channel radius that remains nearly constant between charged and discharged states, then they will be thermodynamically stable high-performance anode materials because invariance of Li+ channel geometry across (de)lithiation predicts structural robustness and sustained ion transport."
-}

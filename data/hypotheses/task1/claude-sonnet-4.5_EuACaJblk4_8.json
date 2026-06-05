@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "End-to-end training of a model that jointly learns protein structure prediction and structure-based sequence design will produce designed sequences that fold back into structures more consistent with the input backbone than sequences designed by models trained only for sequence design."
-}

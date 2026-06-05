@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating episodic memory of simulation failures and force field mismatches into LLM-based agents will enable autonomous refinement of force field selection strategies, leading to improved accuracy in predicting adsorption isotherms for novel metal-organic frameworks without requiring additional literature retrieval."
-}

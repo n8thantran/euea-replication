@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Including non-linear spectral mixing terms that capture intermolecular interactions in the synthetic training data (beyond simple linear superposition) will significantly increase the Top-1 and Top-10 accuracy of mixture component identification for multi-component IR spectra compared to models trained solely on linearly mixed spectra."
-}

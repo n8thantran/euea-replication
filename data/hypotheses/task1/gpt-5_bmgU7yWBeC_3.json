@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If the Force Delta U\u2206 (the RMS disagreement between \u2212\u2207E conservative forces and directly predicted forces) for a configuration is larger, then its true force error to DFT will be larger\u2014across equilibrium and adversarial OOD structures and for multiple NNIP architectures\u2014because internal inconsistency between two force pathways provides a data-free proxy for epistemic uncertainty that outperforms ensemble variance."
-}

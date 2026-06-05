@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating real-time supply chain volatility indices and geopolitical risk assessments into the economic efficiency module will enable the workflow to identify synthesis recipes that remain cost-optimal across a broader range of market perturbations than recipes selected using static price data alone."
-}

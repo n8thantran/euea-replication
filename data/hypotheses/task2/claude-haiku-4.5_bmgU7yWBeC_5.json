@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "The Force Delta metric's predictive power for true error will degrade systematically as the dimensionality of the configuration space increases, such that its Spearman correlation with true force error will decrease monotonically with the number of atoms in the system, suggesting that the internal disagreement signal becomes diluted in high-dimensional atomic configurations where multiple independent sources of error can partially compensate within the RMS averaging."
-}

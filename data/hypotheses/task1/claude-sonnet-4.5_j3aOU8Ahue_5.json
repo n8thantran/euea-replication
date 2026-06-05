@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Transfer learning from a data-rich additive-free SEM image dataset to a data-poor additive-induced dataset improves classification accuracy of NCM cathode compositions and aging states compared to training without pretraining or pretraining alone."
-}

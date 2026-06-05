@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating electron beam dose rate as a dynamic conditioning variable during SAM-EM fine-tuning\u2014by generating synthetic training data that explicitly pairs time-varying dose rate sequences with their corresponding SNR degradation patterns\u2014will enable the model to predict segmentation confidence as a function of instantaneous beam dose, thereby providing a real-time signal that can autonomously trigger closed-loop adjustments to dose rate during LPTEM acquisition to maintain optimal tracking fidelity without user intervention."
-}

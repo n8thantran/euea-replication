@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "The Force Delta uncertainty metric will exhibit systematic degradation in predictive power for materials systems where the training data distribution fundamentally lacks energetic diversity (e.g., systems sampled only near equilibrium), because the conservative and non-conservative force pathways will both learn similarly incomplete representations of the potential energy surface rather than diverging in physically informative ways."
-}

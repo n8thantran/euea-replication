@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If ML surrogates (eqV2 and eSEN) are used to generate an approximate minimum-energy pathway and SSNEB is restarted from ML-converged images, then the total number of SSNEB iterations and the computational time to converge the MEP and locate transition states will be lower while preserving the accuracy of the pathway compared with a VASP-only SSNEB workflow."
-}

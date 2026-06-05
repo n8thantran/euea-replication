@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Augmenting training data with synthetically generated non-linear mixture spectra that model concentration-dependent vibrational band shifts and intensity changes derived from computed intermolecular hydrogen\u2011bond interaction energies will increase the model's Top\u201310 accuracy on experimentally measured ATR\u2011IR spectra of hydrogen\u2011bonding binary mixtures by at least 10 percentage points compared to a model trained only on linear spectral combinations."
-}

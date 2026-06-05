@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If adaptive diversity constraints are applied during reinforcement learning-based molecular generation, then the resulting chemical space will exhibit greater structural diversity (as measured by multiple complementary metrics including pairwise similarity, cluster count, unique fragment percentage, and n-gram frequency) compared to unconstrained generation, because reinforcement learning without explicit diversity penalties tends to exploit high-scoring but structurally similar molecular motifs, leading to mode collapse in chemical space."
-}

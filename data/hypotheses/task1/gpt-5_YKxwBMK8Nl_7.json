@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a single-agent pipeline that converts PDFs to structured markdown with marker-pdf and integrates GPT-4o image captioning is used for end-to-end chemical information extraction, then it will achieve higher per-column F1 scores and better output-format compliance than baseline LLMs, a general-purpose agent, and domain-specific multi-agent systems on the ChemX nanozyme and chelate datasets because preserving document structure and minimizing orchestration complexity improves precision and recall."
-}

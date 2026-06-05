@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If ensemble-consensus semi-supervised learning, implemented by a distance-to-ensemble-mean loss with a coupling weight gamma applied to molecular graph property prediction using limited labeled data, is used, then it will improve predictive accuracy and calibration compared with supervised baselines and prior SSL methods, and the improvement will scale with larger ensemble sizes."
-}

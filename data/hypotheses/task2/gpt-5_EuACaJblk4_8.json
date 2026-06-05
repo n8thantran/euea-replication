@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "In E2EFOLD, adding a cycle-consistency loss that feeds the decoder\u2019s predicted all-atom structure for a sampled sequence back into the encoder and penalizes deviations from that sampled sequence will improve self-consistency (higher TM-score and lower RMSD) on both RFData and E2EData test sets relative to the current training objective without this loss."
-}

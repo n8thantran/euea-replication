@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If the spectral alignment reconstruction loss is jointly trained with the decoder (i.e., L = L_S2S + \u03bb L_reconstruction with \u03bb > 0), then the model will achieve higher Top-1 accuracy and greater Tanimoto similarity for identifying constituent molecules from IR spectra of binary and ternary mixtures, including experimentally measured ATR-IR spectra, compared to a model trained without the reconstruction loss."
-}

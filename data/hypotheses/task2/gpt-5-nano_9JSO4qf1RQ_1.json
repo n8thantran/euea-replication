@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Integrating a differentiable synthesizability proxy into MatAgent to enable true multi-objective optimization of formation energy per atom and synthesizability likelihood will increase the share of generated compositions that are both near-target energy and practically synthesizable, while preserving or improving compositional diversity, compared to the single-objective energy-focused MatAgent."
-}

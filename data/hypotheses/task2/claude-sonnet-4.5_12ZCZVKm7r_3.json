@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating explicit physics-based inductive biases (e.g., energy conservation constraints, symmetry-preserving regularization) during pre-training on diverse multi-domain datasets will reduce the dataset-dependence of learned representations and increase out-of-distribution alignment scores to match or exceed in-distribution alignment, thereby enabling truly foundational cross-domain transferability in scientific machine learning models."
-}

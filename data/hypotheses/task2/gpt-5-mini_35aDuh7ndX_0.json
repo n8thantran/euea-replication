@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Augmenting the pharmacophore-guided reinforcement learning reward with a fast machine-learning surrogate trained on a modest (~5k) docked ligand set for the target will produce generated molecules whose mean docking score improves by \u22651.0 kcal/mol compared to pharmacophore-only training while preserving scaffold novelty (mean MAP4 Tanimoto to reference \u22640.40)."
-}

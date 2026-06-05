@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating dynamic protein conformational ensembles alongside static crystal structures into the XDIP dataset will improve machine learning model accuracy in predicting transient catalytic intermediates from XAS spectra, as the spectral features of iron centers are sensitive to conformational fluctuations that are not captured by single static structures."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "The NN-BAX method's efficiency gains will degrade non-linearly as system complexity increases beyond the LJ38 system, such that the speedup factor relative to classical NEB will decrease by more than 50% when applied to realistic DFT-based catalytic systems with more than 100 atoms and complex chemical bonding patterns, due to the foundation model's reduced ability to generalize force predictions in regions of chemical space far from the OMat24 training distribution."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating angle-dependent spectral losses during training will reduce the generalization gap between training-paraphrase and validation performance by enabling the decoder to learn physically-consistent layer sequences that maintain color fidelity across viewing angles rather than optimizing only for token-level cross-entropy."
-}

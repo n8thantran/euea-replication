@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "An adaptive proportional\u2013integral controller that updates similarity-, fragment-, and n-gram penalty thresholds at each RL step to maintain setpoints of mean Tanimoto similarity \u22640.14 and unique-fragment ratio \u22650.95 of their initial values will produce a final average singlet\u2011fission score within 2% of the baseline (no-constraint) REINVENT4 run after 1000 steps while preventing diversity collapse across all NaviDiv metrics."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating a dynamic, real-time adjustment of the bicarbonate-to-carbonate ratio during electrolysis\u2014guided by an online surrogate model that continuously updates based on instantaneous JCO and UCO2 measurements\u2014will maintain reactor yield above 40 mA cm\u207b\u00b2 across varying inlet capture solution compositions, whereas the static optimal ratio of 1.5 M KHCO\u2083 to 0.75 M K\u2082CO\u2083 identified here will yield performance degradation exceeding 20% when the inlet bicarbonate fraction deviates by more than \u00b10.5 M from this optimum."
-}

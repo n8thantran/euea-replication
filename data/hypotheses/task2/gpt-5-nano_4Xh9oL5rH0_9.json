@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Augmenting universal MLIPs with an explicit, jointly learned long-range electrostatics term derived from per-atom partial charges predicted by a dedicated charge module will reduce out-of-distribution failures and improve the accuracy of MD stability, bulk moduli, and heat capacities for MOFs with diverse metal nodes and open coordination environments, relative to baseline uMLIPs that rely solely on short-range interactions."
-}

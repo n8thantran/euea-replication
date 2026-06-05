@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Using a chemistry-aware tokenizer jointly trained on MOFid and SMILES for both continual pre-training and SFT will reverse the QMOF performance decline seen when scaling PubChem from 500K to 2M compounds, yielding a statistically significantly lower band-gap MAE than the PMC+PubChem(500K) baseline under matched compute and training protocols."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If crystal structures are jointly encoded as graphs, RoboCrystallographer text, and simulated XRD spectra and trained with cross\u2011modal prediction (pairs predicting the third) using VIC and contrastive losses, then downstream predictors will achieve lower mean absolute error on band gap, shear modulus, bulk modulus, dielectric constant, and perovskite formation energy than unimodal baselines (CGCNN, CoGN, ALIGNN) because aligning complementary modalities in a shared latent space yields richer, more generalizable representations."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating an explicit confidence estimation head into E2EFOLD's decoder\u2014trained to predict per-residue prediction error (pLDDT-like scores) conditioned on the encoder's sequence uncertainty (entropy of the predicted amino acid distribution)\u2014will reveal that residues with high sequence design uncertainty are systematically associated with higher structural prediction error, and jointly optimizing this uncertainty-aware confidence signal as an additional loss term will improve both sequence design self-consistency and structure prediction accuracy beyond what is achieved by the current structure recovery objective alone."
-}

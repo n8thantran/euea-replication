@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "LLM-guided synthesis planning performance will improve more substantially when the kinetic parameters (activation energy and pre-exponential factor) are jointly optimized through inverse modeling on experimental synthesis datasets rather than fixed from literature values, because the LLM can better align its implicit priors with the actual kinetic regime governing the material system."
-}

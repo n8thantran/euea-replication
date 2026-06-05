@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If tensor completion methods (CPD-S, NeAT, and their ensemble) are used as surrogate models, they will achieve higher predictive accuracy (mean R\u00b2) than Gaussian Process, XGBoost, and MLP baselines for predicting Young's modulus (E) and mass-normalized Young's modulus (\u1ebc), particularly when training data are limited or non-uniformly sampled, because tensor completion exploits the multi-way low-rank structure of the design parameter tensor."
-}

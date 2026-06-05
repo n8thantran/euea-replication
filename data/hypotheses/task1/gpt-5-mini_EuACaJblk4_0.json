@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If protein sequence design and structure prediction are trained end-to-end in a discrete stochastic autoencoder (E2EFOLD), then the model will produce discrete sequences that recover input sequences and fold back to the original structures with higher self-consistency (higher TM-score and lower RMSD) and improved sequence recovery compared to decoupled baselines, because joint training enforces mutual consistency between sequence and structure representations."
-}

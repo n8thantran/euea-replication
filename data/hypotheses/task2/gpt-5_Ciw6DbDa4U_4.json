@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "On the Gongora et al. lattice dataset, augmenting NeAT with inverse-propensity weighting in the MAE loss\u2014using propensities estimated from empirical observation frequencies for each value in every design-variable mode\u2014will increase test-set R2 by at least 5 percentage points under the biased sampling protocols of Section 3.2 while reducing uniform-sampling R2 by no more than 1 point."
-}

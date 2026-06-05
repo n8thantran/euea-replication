@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit uncertainty quantification into the physics-based synthesis simulator (treating CALPHAD equilibria and kinetic parameters as probability distributions) and pairing it with an uncertainty-aware prompting strategy for the LLM will yield more robust, data-sparse multi-component oxide synthesis plans with higher success rates and lower plan variance than a deterministic LLM planner, as demonstrated on Nb\u2013O\u2013Fe or Nb\u2013O\u2013Sb ternary systems."
-}

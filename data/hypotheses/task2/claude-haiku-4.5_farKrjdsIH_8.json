@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Fine-tuning SAM-EM on multi-lab experimental LPTEM data with varying microscope conditions, sample chemistries, and electron beam parameters will reveal that domain generalization performance degrades non-uniformly across these factors, with electron beam dose rate having a stronger negative impact on model robustness than liquid thickness alone."
-}

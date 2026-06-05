@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating temporal attention mechanisms that explicitly model electron beam-induced particle drift will enable SAM-EM to maintain accurate segmentation and tracking at electron dose rates exceeding 100 e\u207b/\u00c5\u00b2\u00b7s, where beam-driven hydrodynamic flows introduce systematic non-Brownian motion components that current memory-based architectures fail to distinguish from stochastic diffusion."
-}

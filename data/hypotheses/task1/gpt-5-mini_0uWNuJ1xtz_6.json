@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If a hybrid Transformer\u2013Mamba-2 encoder-decoder model (STR-Bamba426M) is pre-trained on diverse molecular representations using a custom BPE tokenizer, then it will learn aligned multimodal latent embeddings that yield superior clustering consistency, improved downstream property prediction across small molecules, polymers, and electrolytes, and accurate inter-representation translation because multimodal pretraining captures complementary structural and semantic information across representations."
-}

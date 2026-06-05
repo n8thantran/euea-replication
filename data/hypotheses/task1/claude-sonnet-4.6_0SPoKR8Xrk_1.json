@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a hybrid deep learning architecture combining a 2D CNN for surface encoding with a GRU-based sequence encoder and a cross-attention mechanism is used to model polymer-surface interactions, then it will more accurately predict binding free energies than single-encoder baseline models (DNN or alternative sequence encoders alone), because the attention mechanism explicitly captures the asymmetric, position-dependent complementarity between polymer sequence features and heterogeneous surface patch distributions that governs adsorption affinity."
-}

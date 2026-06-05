@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Adaptive dynamic batching that adjusts its padding budget estimate online during training\u2014by continuously updating the node/edge distribution statistics using an exponential moving average of observed batch sizes rather than a fixed one-time random sample\u2014will reduce the frequency of budget-exceeded terminations on datasets with non-stationary or heavy-tailed graph size distributions (such as AFLOW) while simultaneously achieving faster convergence per wall-clock time compared to standard dynamic batching, because the adaptive budget will more accurately reflect the true graph size distribution encountered during training and thereby reduce wasted padding without requiring manual restarts."
-}

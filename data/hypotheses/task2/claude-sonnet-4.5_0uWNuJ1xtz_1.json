@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nCross-representational molecular embeddings from the STR-Bamba426M encoder can be leveraged to predict synthesizability and retrosynthetic pathways by training a decoder to generate reaction SMILES, where molecules with higher embedding similarity across modalities (SMILES, SELFIES, InChI) will demonstrate greater synthetic accessibility than those with divergent cross-modal representations."
-}

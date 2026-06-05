@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Foundation models pre-trained exclusively on SMILES representations will demonstrate systematically degraded performance when predicting device-level battery performance metrics for electrolyte formulations containing novel salt-solvent combinations that preserve chemical similarity to training data but introduce unprecedented inter-molecular coordination geometries not encodable in linear SMILES strings."
-}

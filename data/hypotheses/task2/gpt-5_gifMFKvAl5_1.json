@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Augmenting PCDiff with a percolation-aware regularizer that penalizes compositions with combined CNT+Graphene volume fraction below pc=0.08 when conditioning on high thermal conductivity will, for 10,000 conditional samples per target, at least double the proportion of fabrication-valid composites meeting Thermal Conductivity \u2265 1.2 W/mK and Yield Strength \u2265 3500 MPa"
-}

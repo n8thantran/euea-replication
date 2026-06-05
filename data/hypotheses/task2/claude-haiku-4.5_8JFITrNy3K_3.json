@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Synthesis procedures with branching and converging graph structures (multi-route pathways) will exhibit significantly lower inter-annotator agreement and higher LLM extraction error rates compared to linear synthesis procedures, suggesting that the structural complexity of real-world syntheses poses fundamental challenges to reliable automated extraction that cannot be fully resolved through prompt engineering alone."
-}

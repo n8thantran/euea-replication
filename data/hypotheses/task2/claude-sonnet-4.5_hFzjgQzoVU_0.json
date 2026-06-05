@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The incorporation of dynamic structural flexibility parameters\u2014such as bond length variance and coordination geometry distortion indices derived from molecular dynamics simulations\u2014into the local structure representation will significantly improve XAS spectrum prediction accuracy compared to static crystallographic structures alone, particularly for EXAFS features that are sensitive to thermal disorder and conformational heterogeneity in iron-containing proteins."
-}

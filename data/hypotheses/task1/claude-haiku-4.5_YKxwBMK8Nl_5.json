@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "A novel single-agent approach using structured text extraction and image processing will achieve higher precision, recall, and F1 scores for automated chemical information extraction compared to existing baseline models and multi-agent systems."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Systematic biases in the valency errors introduced by the aromatic bond rounding bug (contributing 1 to valency instead of 1.5) will be non-uniformly distributed across chemical scaffolds\u2014specifically, models trained and evaluated with the flawed metric will have learned to over-generate polycyclic aromatic and heteroaromatic ring systems relative to aliphatic and non-aromatic structures, because the bug selectively relaxed valency constraints for aromatic atoms and thus artificially rewarded aromatic scaffold diversity during training; consequently, retraining these models on the corrected Kekulized dataset will produce a measurable and statistically significant shift in the distribution of generated scaffold classes toward a higher proportion of non-aromatic and aliphatic ring systems compared to models trained on the original flawed dataset."
-}

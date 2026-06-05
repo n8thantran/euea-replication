@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Polymer-surface binding free energy predictions trained on coarse-grained models with uniform interaction strengths will fail to generalize to systems with spatially heterogeneous interaction potentials that vary continuously across the surface, requiring a hierarchical attention mechanism that explicitly models multi-scale interaction gradients."
-}

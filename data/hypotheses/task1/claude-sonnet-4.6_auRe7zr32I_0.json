@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If adaptive diversity constraints targeting overrepresented molecular fragments, scaffolds, and string patterns are integrated into reinforcement learning-based generative molecular design, then the resulting chemical space exploration will maintain greater structural diversity across independent runs without sacrificing the optimization of target properties, because dynamic penalization of overrepresented structures prevents mode collapse and encourages the generative model to sample a broader range of chemically distinct solutions."
-}

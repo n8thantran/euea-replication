@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Augmenting the DPO reward with a high-temperature B2 stability constraint\u2014requiring \u226525% B2 volume fraction at T \u2265 1373 K\u2014will increase, by at least 20% relative to the original DPO setup, the fraction of LLaMA-3.1-8B generations that satisfy room-temperature (373 K) B2 presence, while maintaining coverage recall \u22650.98 and unique pairs @100 \u22650.95."
-}

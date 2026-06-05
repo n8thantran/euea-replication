@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating explicit hydrogen bonding descriptors derived from DFT calculations into polymer embeddings will improve Bayesian optimization performance for CO2 adsorption capacity prediction by 30% compared to pre-trained molecular representations alone, particularly under low initial data quality (\u03b3 < 0.3), because such descriptors directly encode the amine-CO2 and amine-H2O interaction strengths that govern adsorption but are underrepresented in general chemical language models."
-}

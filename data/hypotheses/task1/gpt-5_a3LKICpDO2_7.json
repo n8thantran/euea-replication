@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If MOF band gaps are predicted by \u2206-learning that corrects GFN1-xTB values using XGBoost on selected RAC/ST-135/APRDF descriptors, then the corrected predictions will achieve lower error against PBE and HSE06 DFT band gaps than both direct-learning XGBoost and deep-learning baselines (MOFTransformer, CGCNN) because the systematic, structure-dependent errors of GFN1-xTB are learnable from these descriptors."
-}

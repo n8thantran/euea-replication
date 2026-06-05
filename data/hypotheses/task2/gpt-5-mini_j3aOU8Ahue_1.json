@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Contrastive self-supervised pretraining on a large unlabeled SEM image corpus that spans multiple additives, compositions, and imaging settings will, after fine-tuning with one-tenth the labeled target data used in this study, achieve equal or higher per-class F1 scores on additive-containing test sets than the supervised two-stage (additive-free pretrain + fine-tune) approach presented in the paper."
-}

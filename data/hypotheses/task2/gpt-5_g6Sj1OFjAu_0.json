@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Conditioning CompGen on the first-shell coordination number and the mean adsorbate\u2013first-shell distance, in addition to S, E, and L, will lower the HEA shell-2 Fr\u00e9chet Distance by at least 20% relative to the current model while keeping shell-1 Cosine Similarity within 0.01 of baseline and Leakage unchanged or lower."
-}

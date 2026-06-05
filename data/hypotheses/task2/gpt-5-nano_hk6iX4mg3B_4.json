@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating a diversity-promoting regularization term into the ensemble-consensus SSL objective that explicitly minimizes pairwise prediction similarity (e.g., Pearson correlation) among ensemble members on unlabeled molecules will improve out-of-domain generalization and calibration for both the ensemble and the distilled single model beyond the current ensemble-consensus method."
-}

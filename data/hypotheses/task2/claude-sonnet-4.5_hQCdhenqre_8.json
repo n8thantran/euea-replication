@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating dynamic edge pruning strategies that adaptively adjust the neighbor list cutoff radius during JAX-MD simulations based on local force variance will reduce computational cost by 20-40% while maintaining energy conservation to within 0.1 kcal/mol over nanosecond-scale trajectories, thereby enabling MLIP-based molecular dynamics simulations of systems exceeding 10,000 atoms on single GPU architectures."
-}

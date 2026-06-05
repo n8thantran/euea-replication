@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Models trained on binary mixture spectra with synthetic linear combinations will fail to generalize to ternary or higher-order mixtures exhibiting non-linear spectral interactions (e.g., hydrogen bonding, charge-transfer complexes), even when provided with complete molecular formula and concentration information for all components."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If tensor completion surrogates (CPD-S and NeAT) are used to predict Young's modulus (E) and mass-normalized Young's modulus (E\u0303) from lattice design parameters, then they will achieve higher R\u00b2 scores than Gaussian Process, XGBoost, and MLP baselines across both uniformly random and biased sampling scenarios, indicating superior predictive performance with limited training data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Multi-agent systems equipped with episodic memory that tracks force field performance outcomes across past simulations will demonstrate significantly improved force field selection accuracy for novel material-adsorbate combinations compared to systems without such memory, by enabling agents to recognize systematic deviations between predicted and experimental results and adaptively weight force field recommendations accordingly."
-}

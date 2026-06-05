@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If the GraphSAGE-based model with frozen single-gas feature extractors and gas-fraction inputs predicts the ten radial etching rates for Ar/O2 mixtures with higher accuracy on unseen operating conditions than a baseline FNN or other GNNs, then the approach generalizes better for mixture etching-rate prediction because it leverages transferred single-gas representations and mixture context."
-}

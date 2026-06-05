@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "For chemistry and materials tasks, the CKNNA alignment between two models' embeddings is inversely correlated with the number of labeled examples required to fine-tune a linear predictor to reach a fixed downstream performance, such that higher CKNNA predicts greater transfer sample efficiency."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "If tool embeddings are updated online during an agent\u2019s run to minimize the embedding distance between the current task and available tools via a lightweight contrastive learning objective, then the agent will achieve higher pass@5 on high-alignment-gap environments (e.g., Spectra and MD) than with a static, precomputed tool-embedding scheme."
-}

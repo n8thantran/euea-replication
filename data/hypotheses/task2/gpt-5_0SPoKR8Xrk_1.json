@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "At fixed overall polymer and surface compositions and interaction strengths, the binding free energy is maximized when the polymer\u2019s strong-monomer spacing (from the first peak of its 1D autocorrelation) matches the surface\u2019s strong-site correlation length (from the first peak of its 2D structure factor) within 10%, and decreases as the mismatch increases."
-}

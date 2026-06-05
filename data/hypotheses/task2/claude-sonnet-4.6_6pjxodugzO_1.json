@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating temporal degradation dynamics into foundation model representations\u2014by pre-training on sequential SMILES trajectories that encode electrochemical reaction intermediates and decomposition products rather than static molecular structures\u2014will enable prediction of battery cycle life and capacity fade as emergent multi-scale properties, with models trained on such dynamic representations outperforming static SMILES-based foundation models specifically in out-of-distribution generalization to novel electrolyte chemistries where long-term stability diverges substantially from initial performance metrics."
-}

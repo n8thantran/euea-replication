@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If molecular generation is steered by adding concept-based activation vectors\u2014derived from a Concept Bottleneck Model trained to disentangle property-specific directions in a frozen LLM's latent space\u2014to the model's hidden activations during inference, then the resulting molecules will more accurately satisfy specified physicochemical property targets (e.g., QED and LogP) compared to vanilla generation and other steering or fine-tuning baselines, because the orthogonal, interpretable concept embeddings enable precise, property-specific control over the generative process without altering the underlying model parameters."
-}

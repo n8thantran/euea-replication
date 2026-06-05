@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If a material property predictor is pretrained with cross-modal predictive learning that integrates graph (CGCNN-based), RoboCrystallographer text (MatSciBERT) and simulated XRD encoders, then it will achieve lower mean absolute error on crystal property prediction tasks (Band Gap, Shear Modulus, Bulk Modulus, Dielectric, Perovskite formation energy) and better generalization to the AFLOW dataset than single-modality and state-of-the-art graph baselines (CGCNN, CoGN, ALIGNN), even when only 0.6% of parameters are finetuned, because complementary multimodal information and cross-modal prediction improve latent representations."
-}

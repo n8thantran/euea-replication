@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Introducing an energy-guided AMDEN by integrating a differentiable surrogate potential energy surface into the reverse diffusion objective to bias the denoising trajectory toward low-energy configurations will enable generation of relaxed, low-energy amorphous materials across multi-element systems without Hamiltonian Monte Carlo refinement, and this will be falsifiable if generated samples under energy-guided diffusion fail to exhibit lower potential energy or poorer agreement with MD-derived structural metrics compared with HMC-denoised baselines."
-}

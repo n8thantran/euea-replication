@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "When fine-tuned on low-data downstream molecular property prediction tasks, a multimodal pretrained STR-Bamba426M will require at most half the number of labeled examples to achieve the same test performance as an otherwise identical model pretrained on a single molecular representation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "A meta-learning-based transfer framework trained on SEM images from diverse cathode chemistries, aging states, and additives will enable one-shot adaptation to unseen additive chemistries and nickel contents, achieving higher cross-domain accuracy than conventional two-stage transfer learning with minimal target-domain labeled data."
-}

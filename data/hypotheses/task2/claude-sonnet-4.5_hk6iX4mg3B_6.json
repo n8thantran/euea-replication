@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nCoupling ensemble members through consensus-based semi-supervised learning will exhibit a non-monotonic relationship with molecular structural diversity in the unlabeled dataset, where intermediate levels of structural diversity maximize the knowledge distillation effect, but excessive diversity degrades individual model performance by introducing conflicting gradient signals that prevent convergence to a stable consensus representation."
-}

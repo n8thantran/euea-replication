@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Introducing hydrophobic alkyl spacers of 3\u20135 methylene units between neighboring amine groups in linear or branched polyamines with the same overall amine density will reduce competitive amine\u2013water binding and thereby increase equilibrium CO2 uptake under humid DAC conditions (298 K, ~30% RH, pCO2 = 0.4 mbar) by at least 15% relative to analogous polymers without such spacers when validated by long-timescale MD/GCMC simulations and experimental adsorption measurements."
-}

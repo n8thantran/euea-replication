@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "An adaptive dynamic batching algorithm that updates node/edge padding targets online using an exponential moving maximum of observed graph sizes will reduce JAX gradient-update recompilations by at least 50% and lower mean combined training time per step by at least 20% while producing final test RMSE indistinguishable (p>0.10) from the original dynamic and static-64 algorithms on SchNet, MPEU, and PaiNN trained on QM9 and AFLOW."
-}

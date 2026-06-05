@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Chemical foundation models pre-trained on large-scale SMILES representations can generate transferable molecular embeddings that, when combined with composition-weighted aggregation and device-level contextual variables, enable accurate prediction of battery material properties across multiple scales\u2014from molecular electrochemical properties to device-level performance\u2014outperforming traditional Morgan fingerprint baselines, particularly for out-of-distribution chemical spaces, because their pre-training encodes generalizable physicochemical knowledge that captures structure-property relationships relevant to battery applications."
-}

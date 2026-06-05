@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Metastable phase discovery in multi-component systems can be accelerated by training ensemble ML models with weighted stress tensor objectives that prioritize lattice-stress accuracy over atomic force accuracy during SSNEB convergence, enabling direct identification of pressure-stabilized polymorphs without DFT restart refinement."
-}

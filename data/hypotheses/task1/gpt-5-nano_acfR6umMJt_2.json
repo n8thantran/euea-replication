@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If NN-BAX, which trains EquiformerV2 on initial and final states plus acquired intermediate points to drive NEB calculations for LJ7 and LJ38, can reproduce the ground-truth minimum energy paths and barrier heights obtained by classical NEB with FIRE, as measured by comparable fmax convergence and low MAEi, then NN-BAX is an accurate surrogate for NEB pathfinding."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating lattice parameter prediction as an intermediate auxiliary objective during DPO training will improve model generalization across diverse BCC/B2 alloy systems by preventing distribution collapse on domain-critical composition tokens, particularly for smaller models like OLMo."
-}

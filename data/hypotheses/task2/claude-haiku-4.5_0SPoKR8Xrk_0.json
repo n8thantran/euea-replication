@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Polymer-surface binding free energies predicted by the hybrid CNN-GRU-Transformer model will exhibit non-monotonic dependence on spatial pattern disorder when surface composition is held constant, such that moderately disordered patterns (generated at intermediate Ising Monte Carlo temperatures) produce stronger adhesion than either highly ordered or completely random surface arrangements."
-}

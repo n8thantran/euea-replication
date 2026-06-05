@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "When the convex hull is updated dynamically after each oracle query within MADE, the stability classification of previously evaluated structures can change retroactively, meaning that an agent capable of explicitly modeling and exploiting this non-stationary reward signal\u2014by strategically targeting compositions predicted to destabilize existing hull facets rather than simply lying below the current hull\u2014will discover significantly more novel stable compounds per unit budget than agents using static acquisition functions that treat the convex hull as fixed, and this advantage will scale superlinearly with the dimensionality of the chemical system (i.e., binary < ternary < quaternary)."
-}

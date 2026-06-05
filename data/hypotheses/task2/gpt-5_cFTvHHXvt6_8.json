@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "For prompts with fixed layer counts, replacing CHROMA\u2019s discrete material\u2013thickness pair tokenization with a factorized decoder that predicts a discrete material and a continuous thickness per layer and is trained end-to-end with a differentiable TMM-derived sequence-level CIE76 loss will reduce the mean held-out \u2206E by at least 30% compared to the current token-level cross-entropy baseline at equal encoder and decoder sizes."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Correcting the valency calculation bug by accounting for aromatic bonds as 1.5 instead of 1.0 and using chemically accurate valency lookup tables will improve the validity percentage and structural quality metrics of generated molecules in 3D molecular generation models."
-}

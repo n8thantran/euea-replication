@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating electron beam dose rate as a dynamic conditioning variable during SAM-EM fine-tuning\u2014by generating synthetic training data that explicitly couples beam-induced radiolytic artifact patterns (e.g., bubble formation, contrast drift) with corresponding dose rate metadata fed as an auxiliary input channel\u2014will enable the model to disentangle beam-driven particle motion artifacts from true diffusive dynamics, yielding statistically distinguishable MSD curves that allow quantitative separation of beam-induced anomalous diffusion from intrinsic nanoparticle behavior across experimentally relevant dose rates."
-}

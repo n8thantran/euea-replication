@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating three-dimensional conformational information\u2014such as atomic coordinates or distance matrices derived from low-energy conformers\u2014as an additional textual modality (e.g., serialized as a structured coordinate string with a dedicated special token) into the STR-Bamba unified vocabulary will produce a latent space cluster distinct from the seven existing textual representations and will yield statistically significant improvements in predicting quantum mechanical properties that are inherently conformation-dependent (such as QM9 dipole moment and polarizability) compared to the best-performing text-only multimodal combination, because the Mamba-2 recurrent layers' ability to handle extended sequence lengths without quadratic scaling will allow the model to process the substantially longer conformational strings without degrading performance on shorter molecular representations already in the vocabulary."
-}

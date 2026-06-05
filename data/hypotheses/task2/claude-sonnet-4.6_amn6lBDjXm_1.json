@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Computationally efficient EMD computed over DFT-derived band gap distributions will correlate more strongly with SUN stability scores across diverse chemical compositions than EMD computed over ML-predicted formation energies, because band gap values\u2014being sensitive to both electronic structure and atomic geometry\u2014capture a broader range of physically meaningful deviations from stable configurations, making band gap\u2013based EMD a superior lightweight proxy metric for identifying chemically feasible generated structures without requiring full DFT relaxation."
-}

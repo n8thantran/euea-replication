@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Transfer learning with pretraining on data-rich additive-free SEM images followed by fine-tuning with weighted cross-entropy loss will achieve higher classification accuracy on smaller datasets of additive-induced lithium-ion battery cathodes across multiple compositions and aging states compared to training without pretraining or using standard oversampling approaches."
-}

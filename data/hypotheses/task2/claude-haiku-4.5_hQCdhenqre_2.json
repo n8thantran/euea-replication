@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Models trained on curated datasets with force-filtering (as in SPICE2) will exhibit degraded generalization to out-of-distribution molecular systems with high-force configurations compared to models trained on unfiltered datasets, despite improved in-distribution validation metrics."
-}

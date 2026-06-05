@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "When the GraphSAGE framework is extended to three-or-more-component gas mixtures (e.g., Ar/O\u2082/CF\u2084), using higher-order intermediate layer representations\u2014specifically those from the penultimate hidden layer of each pre-trained single-element network as node features\u2014will yield significantly better predictive accuracy than using either output-layer features or first-layer features, because the penultimate layer encodes chemistry-specific nonlinear interactions at an abstraction level that scales more favorably with the combinatorial complexity introduced by additional mixture components, and this advantage will be measurable as a statistically significant improvement in R\u00b2 relative to a direct feedforward baseline trained on mixture data of equivalent size."
-}

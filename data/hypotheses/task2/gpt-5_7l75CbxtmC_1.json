@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit heating energy (via temperature-dependent heat capacities and furnace efficiency) and product isolation costs (via ML-predicted solubilities/volatilities of byproducts) into the analysis module will reverse the current economic ranking for Ca2SiO4, making the Ca3SiO5+SiO2 route more cost-effective than CaO+SiO2 for industrial batches \u2265100 kg at electricity prices \u22650.15 \u20ac/kWh."
-}

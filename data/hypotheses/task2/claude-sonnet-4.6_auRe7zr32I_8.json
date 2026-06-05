@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating stereochemical diversity constraints\u2014specifically penalizing over-representation of particular chiral configurations and geometric isomers during reinforcement learning optimization\u2014will preserve a broader distribution of three-dimensional molecular shapes than fragment-based or fingerprint-based constraints alone, as measured by a significant increase in the variance of principal moment of inertia ratios across generated molecules, without a corresponding reduction in property optimization performance relative to combined two-dimensional constraints."
-}

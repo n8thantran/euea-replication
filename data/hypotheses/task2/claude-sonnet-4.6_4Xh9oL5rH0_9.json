@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit many-body dispersion interactions (beyond pairwise DFT-D3 corrections) into uMLIP training datasets for MOFs will disproportionately improve prediction accuracy for flexible and large-pore MOFs\u2014where guest-free long-range van der Waals interactions dominate structural stability\u2014compared to rigid or small-pore frameworks, such that models trained on many-body dispersion-corrected reference data will reduce bulk modulus mean absolute error by at least 30% specifically for frameworks with largest pore diameters exceeding 15 \u00c5 while showing negligible improvement for frameworks below 8 \u00c5 pore diameter."
-}

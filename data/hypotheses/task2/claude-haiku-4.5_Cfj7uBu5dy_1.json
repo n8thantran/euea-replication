@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Agents trained via reinforcement learning on the MADE environment using uncertainty-aware acquisition functions will discover thermodynamically stable compounds more efficiently than supervised generative models when evaluated on held-out chemical systems not present in the training data, due to their ability to adaptively balance exploration-exploitation under distributional shift."
-}

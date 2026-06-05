@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If molecular graph neural networks are trained semi-supervised by minimizing each model\u2019s distance to the gradient-detached ensemble mean prediction on unlabeled data alongside the supervised loss, then with scarce labels they will achieve higher predictive accuracy and better calibration than supervised-only, mean-teacher, and pseudo-labeling baselines because the ensemble consensus provides more reliable soft targets that reduce overfitting to noisy unlabeled signals."
-}

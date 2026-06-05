@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Integrating real-time synthesizability scoring derived from reaction pathway databases with MatAgent's feedback loop would enable the framework to autonomously converge toward thermodynamically stable materials that are also experimentally accessible, thereby reducing the gap between computationally predicted candidates and laboratory-realizable compounds."
-}

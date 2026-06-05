@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Conditioning the end-to-end E2EFOLD model on explicit, differentiable design constraints (e.g., predefined motif geometry or residue identities at selected positions) and incorporating a constraint-violation penalty into training will enable conditional sequence design that reliably enforces the constraints while preserving backbone-to-all-atom structure prediction accuracy, and this can be falsified if constraint adherence does not improve relative to the unconstrained design baseline."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Transfer learning with weighted cross-entropy loss enables accurate classification of lithium-ion battery cathode microstructures across different compositions and aging states despite limited target domain data because it preserves learned morphological features while adapting to class imbalance without requiring data augmentation."
-}

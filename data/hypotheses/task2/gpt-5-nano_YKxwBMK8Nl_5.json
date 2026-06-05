@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Integrating an explicit image localization module for identifying molecular structures in figures, followed by a domain-tuned image-to-SMILES decoder and an ontology-guided verifier within a cohesive agentic loop, will improve small-molecule SMILES extraction F1 by at least 0.15 on ChemX and reduce hallucinations compared to current end-to-end agentic pipelines."
-}

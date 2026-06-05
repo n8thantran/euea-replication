@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Combining the reward function design with multi-objective Pareto optimization during reinforcement learning\u2014rather than averaging material-specific criteria into a single scalar reward\u2014will reduce policy collapse frequency and simultaneously increase both the percentage of molecules passing all individual expert filters and the internal diversity of generated candidates, because scalar averaging allows high scores on easy criteria (e.g., conjugation) to mask failures on hard criteria (e.g., symmetry), whereas Pareto-front exploration maintains pressure across all constraints without collapsing to a narrow high-reward subspace."
-}

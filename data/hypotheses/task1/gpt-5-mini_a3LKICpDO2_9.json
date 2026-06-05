@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If XGBoost models are trained to predict the difference between GFN1-xTB and DFT (PBE/HSE06) band gaps using the top 400 features from the ST-135, RACs, and APRDF descriptor sets, then they will outperform direct XGBoost models predicting DFT band gaps and achieve accuracy comparable to fine-tuned MOFTransformer and CGCNN models because \u2206-learning corrects systematic errors in the semi-empirical GFN1-xTB baseline."
-}

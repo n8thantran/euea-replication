@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Active sampling of unlabeled molecular graphs based on the highest ensemble disagreement for the consistency loss in ensemble-consensus SSL will yield greater improvements in both predictive accuracy and calibration than random unlabeled sampling across QM9, GNN+ benchmarks, and multiple graph neural network architectures."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If a 3D electron-density encoder is trained via contrastive alignment to a SMILES encoder on paired molecules, then the learned 3D representations will become invariant to arbitrary rigid rotations and outperform unimodal and SE(3)-equivariant baselines on cross-pose retrieval and property-structured clustering/prediction, because the orientation-agnostic SMILES anchor forces the 3D encoder to discard pose-specific features and capture identity- and property-relevant information."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Correcting the aromatic bond valency rounding bug and training generative models on chemically accurate (aromatic-dependent or Kekulized) valency datasets will reduce valency violations and produce generated molecules with lower GFN2-xTB geometry and relaxation energy deviations (\u0394r, \u0394\u03b8, \u0394\u03c6, \u0394E_relax) than models trained on the original flawed dataset, while MMFF94-based evaluation will systematically overestimate relaxation energies relative to GFN2-xTB."
-}

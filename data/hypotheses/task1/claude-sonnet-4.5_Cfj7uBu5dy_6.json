@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If autonomous materials discovery agents use learned structure generators (MatterGen) combined with diversity-based acquisition functions rather than random sampling, then they will discover more novel stable compounds within a fixed query budget because the learned generator produces chemically plausible structures and diversity-based selection efficiently explores the compositional space."
-}

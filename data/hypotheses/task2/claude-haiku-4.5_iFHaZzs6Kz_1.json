@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Contrastive multimodal pretraining will induce emergent SO(3) invariance in 3D molecular representations even when the symbolic modality is replaced with non-invariant spatial descriptors (e.g., atomic coordinates or distance matrices), provided that the symbolic modality's invariance is compensated by explicit geometric augmentation of the 3D modality during training."
-}

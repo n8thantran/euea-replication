@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nThe magnitude of the Force Delta (U\u2206) can be used as a physics-informed regularization term during neural network training to simultaneously improve both the accuracy and calibration of direct-force predictions, such that models trained with U\u2206-based regularization will exhibit a more linear (rather than merely monotonic) relationship between U\u2206 and true error \u03b5direct, enabling direct quantitative error estimation rather than only qualitative uncertainty ranking."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Contrastive multimodal learning between rotation-variant 3D electron density grids and rotation-invariant SMILES strings induces emergent pose-invariance in the 3D molecular encoder without explicit equivariance constraints."
-}

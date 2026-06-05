@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "An SE(3)-equivariant graph neural network trained on the XDIP dataset using the original (non-interpolated) XANES and EXAFS spectra paired with the 3D local-structure graphs will reduce EXAFS prediction MAE by at least 15% relative to the GIN baseline reported in the paper and enable classification of iron oxidation state with at least 90% accuracy on a held-out test set."
-}

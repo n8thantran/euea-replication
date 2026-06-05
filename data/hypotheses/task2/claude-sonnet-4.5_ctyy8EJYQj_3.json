@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating dynamic activation energy values that vary as a function of local phase composition during Johnson-Mehl-Avrami kinetic simulations will enable LLMs to successfully generate synthesis routes for multi-phase target states (challenges 2 and 3) where both classical search and current constant-activation-energy models fail."
-}

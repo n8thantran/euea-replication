@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating a differentiable perceptual color loss (e.g., CIEDE2000 or CAM16-UCS) directly into the decoder's training objective, rather than relying solely on token-level cross-entropy, will reduce the validation-set generalization gap by aligning the optimization target with the physics-based evaluation metric."
-}

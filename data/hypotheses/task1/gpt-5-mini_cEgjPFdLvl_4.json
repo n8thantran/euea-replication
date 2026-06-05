@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If AMDEN, an EGNN-based diffusion framework using VE SDEs for positions and VP SDEs for element embeddings (with an optional energy-based variant employing HMC refinement), is trained on MD-generated amorphous datasets, then it will generate amorphous structures whose radial distribution functions, bond angle distributions, structure factors, and potential energy distributions are statistically indistinguishable from MD ground truth across different thermal histories and compositions, and the energy-based HMC refinement will further improve this agreement."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Continual pre-training of a language model on MOF corpora in which each MOFid is augmented with computed 3D-derived scalar descriptors (pore volume, surface area, and largest cavity diameter) will reduce MAE on the QMOF band-gap prediction task by at least 15% compared to a model pre-trained on PMC+PubChem text alone when both are fine-tuned with \u22645,000 supervised examples."
-}

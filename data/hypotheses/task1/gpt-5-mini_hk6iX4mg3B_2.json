@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Using an ensemble-consensus semi-supervised loss where ensemble members minimize distance to the detached ensemble mean will yield higher predictive performance and improved calibration than supervised learning and prior SSL methods on molecular graph and image datasets with limited labeled data, with gains increasing as ensemble size grows and remaining robust across coupling weights and loss-function choices."
-}

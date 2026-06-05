@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Training 3D molecular generative models with an explicit aromatic-aware valency encoding (narom, vother) and Kekulized training representations will improve cross-dataset generalization, yielding higher chemically valid valency fractions and smaller GFN2-xTB relaxation energy differences on unseen benchmark datasets beyond GEOM-Drugs."
-}

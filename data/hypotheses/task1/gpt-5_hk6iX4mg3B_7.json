@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If, in semi-supervised learning on molecular graphs, each model in an ensemble minimizes its supervised loss plus a gradient-detached consistency loss to the ensemble mean on unlabeled data, then test accuracy/regression error and calibration will surpass supervised, mean-teacher, and PSEUDO\u03c3 baselines and improve with larger ensemble size across QM9 and GNN+ benchmarks, because consensus targets reduce variance and confirmation bias in pseudo-labels."
-}

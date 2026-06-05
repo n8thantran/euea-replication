@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "If real-time commodity price feeds and geopolitical supply-chain risk indices were integrated into the analysis module as dynamic input variables, then the workflow would predict periodic reversals in the economic efficiency ranking of synthesis recipes (e.g., CaO+SiO2 versus Ca3SiO5+Si3N4) that correlate with specific threshold price ratios of calcium-to-silicon precursors, and these crossover points could be identified in advance with sufficient lead time to allow industrial manufacturers to pre-emptively switch synthesis routes and achieve measurably lower production costs compared to static recipe selection strategies."
-}

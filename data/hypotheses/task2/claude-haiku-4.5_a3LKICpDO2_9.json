@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "The \u2206-learning model's superior performance for MOFs without transition metals suggests that incorporating explicit corrections for strong correlation effects through a multi-fidelity approach using DFT+U-computed band gaps as an intermediate fidelity level would further improve predictions for transition metal-containing MOFs beyond the current \u2206-learning framework."
-}

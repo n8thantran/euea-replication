@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "End-to-end joint training of protein structure prediction and sequence design in a unified discrete stochastic autoencoder will enable more accurate structure-based protein design than sequential approaches, because the coupled optimization allows the decoder to learn structure reconstruction that is compatible with the encoder's learned sequence distributions."
-}

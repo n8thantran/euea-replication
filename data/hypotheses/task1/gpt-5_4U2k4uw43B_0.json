@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If DFT-based solid-state NEB calculations are initialized from ML-converged paths produced by pretrained equivariant surrogates (EquiformerV2 or eSEN), then they will recover DFT transition states and energy barriers within standard numerical tolerances while requiring fewer iterations and less compute time than VASP-only NEB because the ML surrogates provide an initial path close to the true DFT minimum-energy pathway."
-}

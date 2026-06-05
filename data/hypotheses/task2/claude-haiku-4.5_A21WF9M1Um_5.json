@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating a multi-scale hierarchical loss function that combines XRD pattern similarity at multiple reciprocal-space resolutions with a differentiable symmetry-violation penalty will enable gradient-based optimization to escape spurious local minima corresponding to distinct crystal structures with deceptively similar XRD patterns."
-}

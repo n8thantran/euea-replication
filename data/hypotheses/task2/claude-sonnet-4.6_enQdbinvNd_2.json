@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating episodic memory of past simulation failures and parameter extraction errors into the multi-agent framework\u2014where agents retrieve and condition their behavior on structured records of previously encountered mistakes (e.g., unconventional table layouts causing parameter misassignment, as observed with EPM2)\u2014will significantly reduce error rates on novel force field extraction tasks compared to agents operating without such memory, as measured by IoU scores across a held-out benchmark of structurally diverse force field publications."
-}

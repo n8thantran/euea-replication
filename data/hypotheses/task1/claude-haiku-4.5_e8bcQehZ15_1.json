@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Steering large language models through concept-based activation vectors derived from a frozen concept bottleneck model will enable precise control over molecular properties during generation while maintaining validity and novelty without requiring full model fine-tuning."
-}

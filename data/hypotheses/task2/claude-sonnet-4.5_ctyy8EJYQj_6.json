@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating explicit thermodynamic constraint verification as an intermediate reasoning step in LLM synthesis planning will reduce the frequency of physically invalid proposals (such as incorrect final temperatures) by at least 40% compared to purely reactive reasoning approaches, particularly for multi-constraint problems requiring simultaneous phase and temperature targets."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Polymer-specific pre-trained embeddings will maintain their discovery acceleration advantage over general chemical space models when applied to branched and cross-linked polyamine architectures, due to their learned representation of amine-group spatial relationships and connectivity patterns that generalize across topological variations."
-}

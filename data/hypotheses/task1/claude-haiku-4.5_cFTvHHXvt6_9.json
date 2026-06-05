@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Increasing the size of the frozen language encoder and the depth of the trainable decoder will improve the accuracy of natural language-to-multilayer optical design translation, as measured by lower CIE76 color difference between simulated and target colors."
-}

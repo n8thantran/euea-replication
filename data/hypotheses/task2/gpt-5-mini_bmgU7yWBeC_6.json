@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating the Force Delta as a differentiable regularization term during training of direct-force NNIPs (i.e., adding \u03bb\u00b7U\u0394(R)^2 to the training loss, with \u03bb selected on a validation set) will produce models whose RMS force error on adversarially generated out-of-distribution structures is at least 20% lower and whose Spearman rank correlation between U\u0394 and \u03b5direct on those OOD structures increases by at least 0.05 relative to otherwise-identical models trained without the regularizer."
-}

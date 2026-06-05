@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a ReAct-based GPT-4o agent is coupled to a CALPHAD/JMA simulator for Nb\u2013O synthesis planning, then it will achieve higher success rates while visiting fewer states than a discretized A* search baseline because simulation feedback combined with LLM priors efficiently guides exploration toward productive operation sequences."
-}

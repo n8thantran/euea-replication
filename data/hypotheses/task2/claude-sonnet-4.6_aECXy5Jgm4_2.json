@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Multi-fidelity Bayesian optimization that combines the fast MD/GCMC simulation pipeline with long-timescale MD validation will exhibit a qualitatively different sensitivity to molecular representation choice than single-fidelity optimization, specifically such that polymer-specific pretrained embeddings (PolyNC, polyBERT) will provide a larger relative advantage over general chemical space embeddings at the low-fidelity query stage but become less discriminative at the high-fidelity stage, because the structural features captured by polymer language models are more predictive of approximate packing and void space geometry than of the precise chemisorption energetics that dominate high-confidence CO2 uptake."
-}

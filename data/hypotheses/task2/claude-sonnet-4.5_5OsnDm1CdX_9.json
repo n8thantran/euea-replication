@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating reaction mechanism graphs\u2014where nodes represent chemical species and edges encode reaction pathways with learnable kinetic rate constants\u2014as auxiliary inputs to the GraphSAGE architecture will improve mixture etching rate prediction accuracy beyond the current model, especially for mixtures with more than two gases where complex reaction intermediates dominate the etching mechanism."
-}

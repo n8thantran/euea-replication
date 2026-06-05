@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Embeddings from diverse scientific foundation models trained on molecules, materials, and proteins converge onto a shared low-dimensional representation of matter that preserves local neighborhood and global manifold structure across architectures and modalities, with significant pairwise alignment (high CKNNA and IDCor and low information imbalance) that persists even for out-of-distribution samples."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If adaptive, multi-metric diversity constraints from NaviDiv that penalize overrepresented structures are applied during REINVENT4 singlet-fission optimization, then the generated molecules will exhibit significantly higher chemical diversity (e.g., lower mean pairwise similarity, more clusters, and higher unique fragment/scaffold percentages) without a decrease in \u0394E_SF scoring performance, because dynamic penalties steer the policy away from mode collapse while preserving property-driven reward optimization."
-}

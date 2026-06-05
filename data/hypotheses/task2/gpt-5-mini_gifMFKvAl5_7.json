@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Using a simplex-preserving diffusion parameterization (e.g., Dirichlet diffusion or diffusion on logits with softmax) instead of additive non-negativity and sum-to-one regularizers in PCDiff will produce generated composite compositions with significantly higher density and coverage metrics while maintaining 100% validityfab on the same carbon composite dataset."
-}

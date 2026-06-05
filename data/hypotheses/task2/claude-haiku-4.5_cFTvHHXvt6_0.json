@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating a physics-informed loss function that directly optimizes for spectral fidelity (rather than token-level cross-entropy) will reduce the generalization gap between training-paraphrase and validation performance by at least 50%, because it will align the training objective with the downstream optical evaluation metric and reduce the mismatch between discrete token sequences and continuous spectral outcomes."
-}

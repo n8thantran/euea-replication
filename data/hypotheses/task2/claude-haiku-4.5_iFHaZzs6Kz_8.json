@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Contrastive multimodal alignment with stereochemically-aware symbolic descriptors (e.g., SMILES augmented with stereochemical annotations or 3D-aware molecular fingerprints) will induce emergent SO(3) invariance while simultaneously learning to distinguish between enantiomers and diastereomers, thereby resolving the current limitation where the model cannot differentiate molecules that differ only in stereochemical configuration."
-}

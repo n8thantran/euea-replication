@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating intermediate phase stability constraints into the LLM prompt framework will enable the model to identify synthesis pathways that avoid thermodynamically unstable or kinetically trapped intermediate states, thereby increasing success rates on multi-phase synthesis challenges (e.g., Challenge 3) by at least 50% compared to unconstrained LLM planning."
-}

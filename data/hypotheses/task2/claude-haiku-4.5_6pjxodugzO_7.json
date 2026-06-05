@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Foundation models pre-trained on SMILES representations will demonstrate superior predictive performance for battery device-level properties when fine-tuned jointly on both molecular properties and formulation performance tasks using multi-task learning, compared to sequential transfer learning approaches, because shared learned representations of chemical moieties at intermediate scales will enable better extraction of hierarchical chemical features relevant to macroscale phenomena."
-}

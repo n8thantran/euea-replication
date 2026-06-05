@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Incorporating chemical knowledge through a pretrained autoencoder that respects periodic table structure and conditioning a diffusion model on adsorbate identity, adsorption energy, and elemental constraints will generate more chemically valid and property-targeted catalytic surface compositions than chemically-agnostic generative approaches."
-}

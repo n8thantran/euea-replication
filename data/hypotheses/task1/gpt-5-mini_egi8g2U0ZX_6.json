@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Pre-training generative models on large chemical datasets followed by fine-tuning on the curated 103 CTF structures and reinforcement learning with expert-defined structural reward functions will produce porous carbon candidates that pass a higher percentage of expert filters and show greater validity, novelty, and internal diversity (and lower Fr\u00e9chet ChemNet Distance) than models that use pre-training alone or omit domain-specific fine-tuning and reward optimization."
-}

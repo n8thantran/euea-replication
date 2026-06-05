@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a pre-trained universal MLIP with a small (\u2264500) chemically diverse set of MOF DFT structures will reduce its heat-capacity MAE at 300 K by at least 25% and decrease the fraction of unconverged structural optimizations under LBFGS by at least 40% compared to the same pre-trained model without MOF-specific fine-tuning."
-}

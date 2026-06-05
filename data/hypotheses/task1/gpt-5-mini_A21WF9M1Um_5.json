@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Gradient-descent optimization of crystal structures using differentiable XRD-similarity losses (negative cosine similarity, MSE, negative entropy) cannot reliably recover ground-truth structures from realistically distorted lattices and fractional coordinates (nontrivial \u03c3l and \u03c3c) because the XRD-based loss landscape is highly nonconvex with many local minima, whereas symmetry-constrained optimization or energy-based relaxation with CHGNet substantially improves recovery."
-}

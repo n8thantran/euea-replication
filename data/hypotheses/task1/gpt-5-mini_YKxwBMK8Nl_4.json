@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If articles are converted into structured markdown that preserves document layout and includes GPT-4o-generated image captions and then processed by a single-agent pipeline using GPT-4.1/GPT-5/GPT-OSS-20b, then this approach will achieve higher per-column precision, recall, and F1 on end-to-end chemical information extraction for the nanozyme and chelate datasets than baseline GPT-5, ChatGPT Agent, and existing multi-agent systems, because the preserved structure and multimodal annotations provide clearer, domain-relevant context for extraction."
-}

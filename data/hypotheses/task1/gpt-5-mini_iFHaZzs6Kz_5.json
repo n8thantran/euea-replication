@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Joint contrastive alignment of SMILES strings and 3D electron density grids produces pose-invariant molecular embeddings that enable accurate retrieval across unseen rotations and improved clustering and linear-probe prediction of electronic properties (e.g., HOMO energies and QM9 targets) compared to unimodal or non-contrastive baselines."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Augmenting contrastive pretraining with chirality-encoded SMILES and mirror-reflected electron-density hard negatives will produce 3D embeddings that are invariant to SO(3) rotations but sensitive to reflections, yielding \u226590% accuracy on held-out enantiomer discrimination while reducing rotated retrieval Accuracy@10 by <2% relative to the original model."
-}

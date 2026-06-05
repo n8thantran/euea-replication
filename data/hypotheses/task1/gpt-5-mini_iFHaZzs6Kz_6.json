@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "A multimodal contrastive model that jointly aligns SMILES strings with 3D electron density voxel grids will produce embeddings that are invariant to arbitrary 3D rotations of the density (emergent pose-invariance) and consequently yield higher rotation-robust retrieval accuracy, greater multi-pose retrieval rates, and improved structure\u2013property clustering and linear-probe property prediction compared to unimodal 3D encoders and SE(3)-equivariant baselines."
-}

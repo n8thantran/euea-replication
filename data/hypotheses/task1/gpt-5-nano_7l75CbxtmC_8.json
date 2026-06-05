@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If the computational workflow correctly integrates thermodynamic optimization with commercial supplier cost data to evaluate Ca2SiO4 synthesis in the Ca\u2013Si\u2013O\u2013C\u2013N\u2013H\u2013Al\u2013B space at 800\u20131600\u00b0C, then the top-ranked synthesis recipes will be thermodynamically favorable and economically cost-efficient, using commercially available reactants at \u226595% purity."
-}

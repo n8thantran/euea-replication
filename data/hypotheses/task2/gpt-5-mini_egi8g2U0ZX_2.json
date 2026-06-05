@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating a fast ML surrogate for DFT-calculated lattice-node formation energy into the reinforcement learning reward (combined with the expert-defined structural and electronic filters) will increase by at least 25 percentage points the fraction of generated candidates whose true DFT-calculated formation energies are below \u22120.2 eV/atom, compared to an RL agent trained using only the expert filters."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating molecular charge as a model input feature\u2014identified in the roadmap as a planned extension\u2014will disproportionately improve MD simulation stability and force prediction accuracy for the subset of drug-like molecules containing titratable groups (e.g., amines, carboxylic acids) compared to neutral organic scaffolds, such that a charge-conditioned MACE model trained on a dataset spanning pH-relevant protonation states will reduce per-atom force MAE by at least 30% on solvated charged species relative to the current neutral-only pre-trained models, while producing no statistically significant improvement on strictly neutral, non-titratable molecules."
-}

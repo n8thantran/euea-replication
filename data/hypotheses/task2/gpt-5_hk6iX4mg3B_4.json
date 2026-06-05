@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "In the coupled-ensemble SSL framework, training ensemble members on disjoint supervised mini-batches (while sharing the same unlabeled batches for the consensus loss) will yield lower test error for both individual members and the ensemble than using identical supervised mini-batches across members under the same labeled-data budget."
-}

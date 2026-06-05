@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Relaxing and scoring generated crystal structures using a state-of-the-art graph neural network interatomic potential to estimate formation energies and perform geometric relaxations will reproduce DFT-based SUN and RMSD rankings of generative models with a Spearman correlation of at least 0.8 on MP- and OQMD-derived benchmarks of \u22651,000 structures, enabling reliable low-cost screening."
-}

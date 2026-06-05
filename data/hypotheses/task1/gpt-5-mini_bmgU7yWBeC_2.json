@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If the root-mean-square difference between conservative forces (\u2212\u2207\u0112) and directly predicted forces (\u0124Fnc) (U\u0394) is used as an uncertainty metric for direct-force NNIPs, then U\u0394 will correlate strongly with the true force error (\u03b5direct) on both equilibrium and adversarially perturbed out-of-distribution structures across Orb and EquiformerV2 models and will provide better identification of high-error predictions than ad-hoc within-family ensemble variance."
-}

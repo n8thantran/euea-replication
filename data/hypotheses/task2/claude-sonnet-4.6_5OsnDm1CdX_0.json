@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "When the GraphSAGE framework is extended to three-or-more component gas mixtures (e.g., Ar/O\u2082/CF\u2084), the predictive accuracy of mixture etching rates will degrade more slowly with increasing mixture complexity when node features are drawn from intermediate hidden layers of the pre-trained single-gas networks rather than from their output layers, because intermediate representations encode transferable plasma-chemistry embeddings that capture synergistic inter-species interactions more completely than scalar etching-rate outputs, and this advantage will be measurable as a statistically significant difference in R\u00b2 between the two feature-extraction strategies across mixtures of three versus two components."
-}

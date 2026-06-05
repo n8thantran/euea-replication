@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If retrosynthesis models are evaluated on external test sets with greater template diversity and lower structural similarity to training data, then their performance will drop significantly compared to standard random splits, because current benchmark datasets contain systematic biases that inflate model accuracy metrics by overrepresenting frequently occurring reaction templates and structurally similar molecules between training and test sets."
-}

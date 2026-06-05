@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Pharmacophore-guided generative models trained on selective estrogen receptor modulators (SERMs) will produce molecules with improved tissue-selective activity profiles when the reward function incorporates tissue-specific pharmacophore descriptors derived from compounds with known differential agonist/antagonist activity in bone versus breast tissue."
-}

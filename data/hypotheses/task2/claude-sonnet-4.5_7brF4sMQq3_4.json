@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The Score-Aligned Ascent mechanism can be extended to identify higher-order saddle points (second-order, third-order) on potential energy surfaces by iteratively decomposing the score difference vector into orthogonal subspaces and selectively inverting gradient components along multiple reaction coordinates simultaneously, enabling the discovery of multi-step reaction mechanisms without prior knowledge of intermediate states."
-}

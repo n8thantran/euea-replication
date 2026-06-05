@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a cross-modal predictive model trained to have two modalities predict the third in latent space (using L2 loss, VIC regularization, and contrastive loss) is evaluated on Matbench crystal-property tasks and AFLOW Band Gap prediction, then it will achieve lower MAE than single-modality CGCNN, CoGN, or ALIGNN baselines because integrating graph structure, textual descriptions, and XRD spectra provides more informative representations than any single modality."
-}

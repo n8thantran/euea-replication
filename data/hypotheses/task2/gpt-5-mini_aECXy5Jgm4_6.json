@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Under atmospheric CO2 partial pressure (~0.4 mbar) and moderate humidity (1\u20133% water vapor at 298 K), linear polyamine polymers whose repeat units comprise >60% secondary amines will exhibit \u226515% higher equilibrium CO2 uptake (mmol g\u22121) in long-timescale MD+GCMC simulations than structurally similar polymers dominated (>60%) by primary or tertiary amines, whereas under dry conditions (<0.1% water vapor) this advantage will shrink to <5%."
-}

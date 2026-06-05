@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If we train an XGBoost \u2206-learning model to predict the difference between GFN1-xTB and DFT (PBE/HSE06) band gaps of MOFs using ST-135, RAC, and APRDF descriptors, then its cross-validated MAE on DFT band gaps will be lower than that of direct-prediction models (including MOFTransformer and CGCNN) because the xTB baseline captures most electronic structure trends and the model only learns systematic residuals."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating an active learning loop into the tensor completion framework\u2014where the surrogate model iteratively selects the next most informative lattice structure to experimentally validate based on uncertainty estimates derived from the tensor factor matrices\u2014will reduce the number of required experiments to achieve a target R\u00b2 threshold by at least 30% compared to passive biased sampling, because the low-rank structure of the tensor explicitly encodes inter-mode correlations that can identify maximally informative unobserved entries across the design space."
-}

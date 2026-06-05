@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "A symmetry-aware generative model that explicitly enforces Wyckoff-space-group constraints and is conditioned on XRD patterns, followed by differentiable energy relaxation, will yield higher ground-truth structure recovery (greater match rates to the true structure under lattice and coordinate noise) than symmetry-projection gradient-descent optimization alone across a diverse set of crystal families."
-}

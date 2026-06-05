@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "The committor value distribution sharpness and transition state ensemble size will scale inversely with the dimensionality and complexity of the molecular system, such that ASTRA's precision in locating transition states degrades predictably as a function of the ratio between the effective reaction coordinate dimensionality and the total configurational space dimensionality."
-}

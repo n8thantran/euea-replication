@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Generative models trained on materials databases produce structures that maintain chemical and crystallographic validity comparable to perturbed known materials, as measured by DFT-validated metrics of stability, uniqueness, and structural fidelity."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Replacing the current composition-weighted sum aggregation of molecular embeddings with a learned permutation-invariant attention-based set encoder that explicitly models pairwise component interactions will reduce MAE by at least 15% on CE and LiI capacity prediction tasks and decrease the magnitude of the OOD similarity\u2013error slope m by at least 25% relative to the baseline across identical train/test splits."
-}

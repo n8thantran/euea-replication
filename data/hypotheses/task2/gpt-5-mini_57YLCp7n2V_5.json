@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Training equivariant 3D molecular generative models with per-atom GFN2-xTB partial charges as an auxiliary supervision signal will produce generated conformers with statistically significantly lower mean GFN2-xTB relaxation energies (\u2206Erelax) and smaller average bond-length, bond-angle, and torsion deviations after GFN2-xTB optimization than identical models trained without charge supervision."
-}

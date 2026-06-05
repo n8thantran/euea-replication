@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "A JAX-based MLIP library implementing MACE, NequIP, and ViSNet and integrated with JAX-MD will produce faster molecular dynamics inference/runtime on H100 GPUs than equivalent PyTorch+ASE implementations while maintaining comparable energy and force prediction accuracy, and a modified MACE architecture with gating and species-dependent edge features will retain the original MACE's accuracy while reducing inference time."
-}

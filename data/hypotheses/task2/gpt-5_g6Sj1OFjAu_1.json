@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Conditioning CompGen on explicit surface facet labels and active-site motifs (atop/bridge/hollow) in addition to S, E, and L will increase shell-2 composition cosine similarity on the HEA test set by at least 0.06 and reduce leakage by at least 0.05 relative to the same architecture trained without these geometric conditions."
-}

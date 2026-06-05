@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Tensor completion performance will degrade monotonically as the dimensionality of the design space increases beyond the current five-dimensional lattice parameter space, unless the underlying material property manifold exhibits sufficient low-rank structure that scales sub-linearly with design space dimensionality."
-}

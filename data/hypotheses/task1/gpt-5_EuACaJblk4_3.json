@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If protein sequence design and structure prediction are learned jointly in a single end-to-end discrete stochastic autoencoder with Gumbel-Softmax quantization and composite structural losses, then the model will achieve higher sequence recovery and more self-consistent structure reconstruction (higher TM-scores/lower RMSDs) than separately trained baselines, because joint optimization aligns sequence distributions with structural reconstructions and enforces mutual consistency."
-}

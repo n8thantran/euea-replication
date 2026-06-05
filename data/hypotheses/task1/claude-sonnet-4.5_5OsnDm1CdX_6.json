@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Graph neural networks that incorporate frozen pre-trained single-gas models as node feature extractors will generalize better to unseen mixture compositions and operating conditions than standard feedforward neural networks because they explicitly encode the compositional structure of gas mixtures."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Conditioning LoQI on a 3D representation of protein binding-pocket electrostatic and steric fields during sampling will yield, within ten samples per ligand, a conformer within 0.5 \u00c5 heavy-atom RMSD of the crystallographic bound pose for at least 60% of ligands in the Platinum Diverse dataset."
-}

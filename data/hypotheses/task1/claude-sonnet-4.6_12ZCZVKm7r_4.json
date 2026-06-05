@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Despite being trained on different data modalities, with different architectures, and for different tasks, scientific foundation models for matter (molecules, materials, and proteins) converge toward shared latent representations of chemical and structural space, such that embedding spaces across diverse model families exhibit high mutual alignment that exceeds what would be expected by chance and reflects underlying physical and chemical relationships rather than training-specific artifacts."
-}

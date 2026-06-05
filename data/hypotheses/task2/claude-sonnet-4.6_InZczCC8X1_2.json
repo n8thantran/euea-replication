@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Extending the single-objective reactor yield metric to multi-product systems, applying the same closed-loop Bayesian optimization framework to a reactive carbon electrolyzer operating with copper-based catalysts and a mixed bicarbonate-carbonate electrolyte will reveal that a composite reactor yield metric simultaneously weighting CO, C\u2082H\u2084, and C\u2082H\u2085OH partial current densities against CO\u2082 utilization converges to an optimum at intermediate bicarbonate-to-carbonate ratios distinct from those optimizing any single product's partial current density, demonstrating that the trade-off landscape governing multi-carbon selectivity and CO\u2082 utilization is fundamentally non-separable and cannot be predicted from single-product optimization campaigns alone."
-}

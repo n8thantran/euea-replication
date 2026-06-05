@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Augmenting training with parametric nonlinear mixing effects that emulate hydrogen-bond-induced peak shifts, broadenings, and intensity redistributions will increase Top-10 identification accuracy by at least 10 percentage points on experimentally measured ATR-IR binary mixtures of acids\u2013alcohols and amines\u2013carbonyls compared to an otherwise identical model trained only on linear-combination synthetic mixtures."
-}

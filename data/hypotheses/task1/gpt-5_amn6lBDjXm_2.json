@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If crystal structures from generative models and controlled perturbations are assessed with a DFT-relaxation and convex-hull\u2013based framework, then RMSD and energy above hull will increase monotonically with perturbation magnitude and the framework will consistently rank diffusion models by thermodynamic stability and structural fidelity across datasets because first-principles energetics ground the metrics in chemical realism."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Metal superhydrides with non-integer stoichiometries exhibiting Tc > 100 K will demonstrate enhanced superconducting stability under decompression compared to their integer-stoichiometry counterparts due to greater structural flexibility in hydrogen cage distortion compensating for pressure-induced lattice contraction."
-}

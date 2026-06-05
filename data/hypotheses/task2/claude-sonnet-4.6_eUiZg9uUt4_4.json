@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Applying class-balancing strategies during training\u2014specifically oversampling rare reaction templates or undersampling frequent ones to create a more uniform template frequency distribution\u2014will disproportionately improve top-k accuracy for rare templates (frequency 1\u201310) without substantially degrading accuracy for common templates (frequency >10,001), thereby reducing the performance disparity between rare and frequent templates observed across all three architectures while simultaneously improving out-of-distribution generalization to unseen templates in the Pistachio OOD test set."
-}

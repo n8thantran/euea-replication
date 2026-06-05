@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Integrating replica-exchange Hamiltonian Monte Carlo across three auxiliary temperatures (\u03b2 = 1.0, 0.5, 0.25) during AMDEN denoising for t \u2208 [0, 0.6] will reproduce the annealed-Si structural/energy distributions and yield target-aligned Young\u2019s moduli on MEG (regression slope \u2248 1, R\u00b2 \u2265 0.95) with at least 40% fewer HMC integration steps than the current single-temperature scheme."
-}

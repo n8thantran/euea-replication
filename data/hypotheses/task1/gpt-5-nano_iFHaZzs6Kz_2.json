@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a multimodal contrastive model is trained to jointly align SMILES strings and 3D electron-density grids of molecules, then the learned embeddings will be invariant to rigid-body rotations of the molecules, leading to high rotation-robust retrieval performance and stable downstream property predictions, because cross-modal alignment encourages a pose-agnostic encoding of molecular structure."
-}

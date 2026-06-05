@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Introducing a differentiable, continuous thickness parameterization for each layer and training with a physics-informed robustness objective that penalizes color error under thickness perturbations will produce inverse designs that maintain target colors with lower \u2206E under manufacturing variability and across viewing angles than the current discrete-token CHROMA designs."
-}

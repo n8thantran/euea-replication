@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If an EGNN-based diffusion model with VE/VP noise schedules, ghost-atom density control, and an energy-based denoiser with HMC refinement (AMDEN) is trained on amorphous-material datasets and optionally conditioned on Young\u2019s modulus, then it will generate density-correct amorphous structures whose RDFs, bond-angle distributions, structure factors, and energy distributions match MD references for the specified thermal histories and can be steered to a target Young\u2019s modulus, because physics-informed equivariant denoising captures the configurational and property manifolds of amorphous solids."
-}

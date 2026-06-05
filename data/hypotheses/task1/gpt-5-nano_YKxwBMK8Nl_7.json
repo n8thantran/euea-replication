@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If the novel single-agent extraction pipeline (marker-pdf-based structured extraction with markdown conversion and multimodal image processing) is applied to the nanozymes and chelate complexes datasets, then it will achieve higher end-to-end precision, recall, and F1 scores for the dataset-specific structured schemas than the baseline GPT models and domain-specific multi-agent systems, because standardized prompts and preserved document structure reduce information loss and improve multimodal integration."
-}

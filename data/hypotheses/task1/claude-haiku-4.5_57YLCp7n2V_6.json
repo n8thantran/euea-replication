@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Correcting chemical validity errors in valency calculation and dataset preparation will significantly improve the accuracy of 3D molecule generation models as measured by geometric metrics such as bond lengths, angles, and torsion angles compared to quantum-mechanically optimized structures."
-}

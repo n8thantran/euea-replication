@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Agents that perform a short interactive tool-discovery phase\u2014issuing standardized diagnostic probes to each available tool and updating a learned tool-task similarity map before attempting the task\u2014will achieve significantly higher pass@k scores in high task-tool embedding-distance environments than identical agents that do not perform such probing."
-}

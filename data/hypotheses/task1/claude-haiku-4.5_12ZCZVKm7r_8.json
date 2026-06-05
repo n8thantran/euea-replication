@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Scientific foundation models trained on different modalities and architectures for representing matter converge toward universal, low-dimensional representations of physical and chemical structure that can be detected through alignment metrics independent of the model's training objective or input format."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Scientific foundation models trained on different molecular and materials domains with different architectures, modalities, and training objectives will converge toward similar internal representations of matter, such that pairwise alignment between their hidden-state embeddings will be significantly higher than chance across diverse chemical and biological datasets, reflecting the emergence of a universal latent structure dictated by the underlying physics and chemistry of atomic systems rather than by model-specific design choices."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "The computational cost of HMC refinement scales unfavorably with system size, but because the noise energy landscape \u02c6E\u03b8 learned by AMDEN implicitly encodes local structural relaxation pathways, a surrogate machine-learning interatomic potential trained directly on the gradient information generated during HMC denoising trajectories will reproduce the structural and energetic quality of HMC-refined amorphous structures at inference time without requiring iterative HMC steps, thereby reducing generation cost by at least an order of magnitude while maintaining property prediction accuracy."
-}

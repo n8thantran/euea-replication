@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If LLM agents using the ReACT architecture and recipe/measurement tools can iteratively propose experiments and receive only pressure and QCM feedback, then they will be able to infer hidden process rules\u2014such as letter-rejection criteria in the Alien Market and underlying chemical reaction/ALP mechanisms in the simulated reactor\u2014within a limited number of trials, with success rates that increase with model capability, experiment budget, sensor fidelity (e.g., QCM reference), and available experimental time relative to reaction timescales."
-}

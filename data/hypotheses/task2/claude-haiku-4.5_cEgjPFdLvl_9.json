@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "The noise energy function \u00ca_\u03b8(x) learned by AMDEN's energy-based variant will exhibit transferability across different amorphous material compositions and cooling rates when trained on a diverse multi-element dataset, enabling zero-shot generation of relaxed structures for untrained material systems without retraining the energy function."
-}

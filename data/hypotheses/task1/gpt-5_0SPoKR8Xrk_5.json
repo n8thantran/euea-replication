@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If polymer and surface features are encoded with a hybrid CNN\u2013GRU model using cross-attention and symmetry-aware augmentation, then MD-derived polymer\u2013surface binding free energies will be predicted with significantly lower MAE than baseline architectures because the model captures spatial surface patterns, polymer sequence context, and their interfacial interactions."
-}

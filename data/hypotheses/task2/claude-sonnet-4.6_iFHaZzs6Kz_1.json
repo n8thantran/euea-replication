@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Extending the finding that SMILES anchoring induces emergent SO(3) invariance, contrastive alignment of 3D electron density grids with stereochemically explicit molecular representations\u2014such as InChI strings or chiral SMILES that encode enantiomeric information\u2014will break the rotational invariance observed with canonical SMILES and instead induce chirality-sensitive latent spaces where enantiomers are systematically separated, thereby demonstrating that the specific invariance properties emergent in the 3D encoder are directly controlled by the symmetry class of the symbolic anchor modality rather than by any property of the volumetric representation itself."
-}

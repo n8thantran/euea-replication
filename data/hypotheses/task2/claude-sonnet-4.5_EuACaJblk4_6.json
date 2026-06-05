@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Increasing the relative weight of the structure recovery loss term during training will improve self-consistency on native protein backbones (non-designed sequences) while maintaining sequence recovery performance, demonstrating that the end-to-end framework can generalize beyond de novo designed sequences to natural protein redesign tasks."
-}

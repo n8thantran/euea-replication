@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating an adversarial discriminator trained to distinguish between native and designed sequence-structure pairs will further reduce the degeneracy gap in structure-based sequence design by penalizing sequences that are structurally plausible but biophysically implausible, leading to improved experimental folding success rates beyond what sequence recovery or self-consistency metrics alone can predict."
-}

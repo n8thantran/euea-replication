@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "In systems with three metastable basins A, B, and C, extending ASTRA to guide sampling onto the manifold where the conditional densities are equal for all three states (p(x|A)=p(x|B)=p(x|C)) will concentrate generated configurations at branch-point transition states characterized by a near-uniform three-state committor (qA\u2248qB\u2248qC\u22481/3)."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a Transformer-based encoder-decoder with patch-based spectrum embedding and a jointly trained spectral reconstruction module is trained on synthetic and experimental IR spectra of mixtures, then it will accurately identify all constituent molecular components in binary and ternary mixtures across varying concentration ratios, outperforming ablations without reconstruction or patching."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating a template-frequency-aware loss function that inversely weights training examples by their template frequency will reduce the performance disparity between rare and common reaction templates without compromising overall top-10 accuracy on diverse test sets."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a frozen large language model encoder is combined with a trainable Transformer decoder operating over a discrete vocabulary of material-thickness tokens, then the resulting system (CHROMA) can accurately translate natural language color descriptions into physically realizable multilayer thin-film designs with low CIE76 \u0394E error, because the LLM encoder captures sufficient semantic representations of optical targets to guide autoregressive inverse design of structural coloration."
-}

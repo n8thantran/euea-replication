@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating stereochemical and conformational information through 3D-aware molecular representations (such as InChI stereo layers or SMILES with explicit stereochemistry annotations) as an additional modality in the STR-Bamba framework will create distinct stereoisomer-resolved clusters in the multimodal latent space and significantly improve property prediction performance on tasks where stereochemistry is pharmacologically critical (e.g., chiral drug bioactivity datasets), compared to the current model which treats stereoisomers as effectively equivalent due to its reliance on flat 2D string representations."
-}

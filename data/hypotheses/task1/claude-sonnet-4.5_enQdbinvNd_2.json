@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Large language model agents organized in a multi-agent framework with specialized roles and shared memory can autonomously set up molecular simulations and extract force field parameters from scientific literature with high accuracy and reproducibility."
-}

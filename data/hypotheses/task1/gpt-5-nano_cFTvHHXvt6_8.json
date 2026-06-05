@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If CHROMA is scaled to larger encoder sizes (1B, 3B, 8B) and deeper decoders (2, 4, 8 layers), then the resulting designs will exhibit lower CIE76 \u0394E color differences to the target colors across training-paraphrase and validation prompts and multiple viewing angles, compared with smaller configurations, because increased model capacity better captures the mapping from natural language to discrete material-thickness choices."
-}

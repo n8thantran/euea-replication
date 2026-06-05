@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Integrating a stochastic fabrication-variability model (thickness perturbations, surface roughness, and interfacial diffusion) into CHROMA\u2019s differentiable verifier and training the decoder with a variability-aware loss will produce inverse-designed stacks whose perceptual color fidelity (\u2206E) remains below the JND threshold across a realistic range of manufacturing tolerances and viewing angles, outperforming designs optimized for nominal geometry."
-}

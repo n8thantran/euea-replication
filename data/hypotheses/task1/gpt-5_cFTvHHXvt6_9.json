@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If natural-language structural-color prompts are encoded by a frozen LLM and decoded by a small transformer over a discrete material\u2013thickness vocabulary trained on simulated spectra, then the generated multilayer thin-film stacks will match target colors with low CIE76 \u0394E (including for paraphrases and unseen targets) and accuracy will improve with larger encoders/decoders because pretrained language features combined with physics-constrained tokens restrict decoding to feasible optical solutions."
-}

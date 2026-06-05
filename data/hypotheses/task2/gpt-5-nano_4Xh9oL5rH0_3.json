@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Training a universal MLIP on a multi-fidelity MOF dataset that jointly includes DFT energies/forces from PBE-D3, SCAN-D3, and a subset of hybrid-functional (PBE0-D3) calculations will improve zero-shot transfer to unseen MOFs, yielding at least 15% lower MAE in bulk modulus and heat capacity predictions and fewer MD instability events compared to a model trained solely on PBE-D3 data."
-}

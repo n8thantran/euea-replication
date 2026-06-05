@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Cross-representation alignment in the STR-Bamba latent space will exhibit task-specific heterogeneity, such that molecular representations converge more tightly for property prediction tasks involving local chemical features (e.g., toxicity) than for tasks requiring global structural information (e.g., polymer glass transition temperature), resulting in predictable performance trade-offs when selecting single versus combined modality inputs for downstream applications."
-}

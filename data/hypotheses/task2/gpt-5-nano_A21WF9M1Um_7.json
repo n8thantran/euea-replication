@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Conditioning a symmetry-equivariant diffusion model on XRD patterns to generate a distribution of candidate crystal structures in Wyckoff space will yield higher ground-truth match rates and more robust convergence under lattice and coordinate noise than symmetry-projected gradient-descent optimization using XRD similarity alone."
-}

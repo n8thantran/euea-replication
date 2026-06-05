@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "In predicting etching rates of unseen ternary plasma mixtures, augmenting the proposed GraphSAGE model with physically informed edge attributes that encode pairwise gas interaction propensities (e.g., differences in first ionization potential and electron affinity) will produce statistically significant accuracy improvements over an otherwise identical model with untyped edges."
-}

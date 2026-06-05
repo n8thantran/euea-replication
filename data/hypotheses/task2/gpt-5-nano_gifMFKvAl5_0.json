@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Extending the PCDiff framework to jointly generate composition vectors and mesoscale microstructure descriptors (e.g., fiber orientation, filler dispersion, and percolation pathways) under physics-informed constraints (non-negativity, sum-to-one, manufacturability, and percolation feasibility) will yield a diffusion model that achieves higher predictive accuracy for multi-objective properties (yield strength and thermal conductivity) and greater design-space validity and coverage under realistic fabrication variability than composition-only diffusion."
-}

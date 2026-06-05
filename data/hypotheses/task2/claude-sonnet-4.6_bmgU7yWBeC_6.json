@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "If the Force Delta metric captures genuine physical inconsistency in the learned potential energy surface, then incorporating it as a regularization term during fine-tuning of direct-force pre-trained models\u2014penalizing the magnitude of U\u2206across training configurations\u2014will simultaneously improve force prediction accuracy on out-of-distribution structures and reduce the non-conservativity of the force field, as measured by the curl of the predicted force, without requiring additional DFT reference data beyond what was used in the original pre-training."
-}

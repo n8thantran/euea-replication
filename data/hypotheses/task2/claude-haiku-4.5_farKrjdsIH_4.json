@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Fine-tuning SAM-EM on multi-modal training data that incorporates electron beam-induced chemical artifacts (such as radiolysis products and beam-induced nanoparticle aggregation) will improve segmentation robustness and tracking fidelity under realistic experimental conditions where beam damage significantly alters particle morphology and contrast during acquisition."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If SSNEB calculations are pre-converged using pretrained equivariant ML surrogates (EquiformerV2 or eSEN) and then refined with DFT, then for CsPbI3 phase transitions and the TiO2-B\u2192anatase transformation they will reproduce VASP-only barriers within 0.1 eV while reducing DFT NEB iterations and wall time by at least a factor of two, because the ML models provide sufficiently accurate energies, forces, and stresses to place images near the true MEP."
-}

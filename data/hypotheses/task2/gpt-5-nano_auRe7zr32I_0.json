@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Integrating 3D conformer-aware diversity metrics and stereochemistry-sensitive graph representations into NaviDiv's adaptive diversity constraints will more effectively preserve conformational and stereochemical diversity during reinforcement learning and improve 3D-dependent property predictions (e.g., S1\u2013T1 energy gaps for singlet fission materials) than the original NaviDiv framework that relies solely on 2D fingerprints and SMILES-based metrics."
-}

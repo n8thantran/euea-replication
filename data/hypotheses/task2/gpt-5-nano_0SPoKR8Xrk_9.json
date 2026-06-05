@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "The attention-based hybrid model trained on 40-bead polymer sequences encodes transferable sequence motifs that enable accurate PMF predictions for longer polymers (e.g., 60\u201380 beads) without retraining, indicating length-extrapolation capability beyond the training data."
-}

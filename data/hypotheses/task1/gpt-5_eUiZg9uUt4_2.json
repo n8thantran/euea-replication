@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If single-step retrosynthesis models are trained on randomly split USPTO-retro data enriched in high-frequency templates and structurally similar products, then their top-k and round-trip accuracies will be inflated and correlate with template frequency and similarity yet drop sharply on Pistachio OOD\u2014more so for the template-based model than for template-free models\u2014because random splits induce dataset bias that favors template memorization over transferable chemical reasoning."
-}

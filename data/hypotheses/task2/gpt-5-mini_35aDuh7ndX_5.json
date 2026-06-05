@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Integrating 3D pharmacophore descriptors that explicitly encode inter-feature distances and angles into the reinforcement-learning reward will increase the proportion of generated compounds achieving in vitro ER\u03b1 inhibitory IC50 \u2264 1 \u03bcM by at least two-fold compared to generation using only 2D CATS-based pharmacophore rewards, while preserving a mean structural Tanimoto similarity to the reference set below 0.4."
-}

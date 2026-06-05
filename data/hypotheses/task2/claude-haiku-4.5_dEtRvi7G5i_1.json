@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Metal superhydrides with non-integer stoichiometries exhibiting Tc > 100 K will demonstrate pressure-dependent superconducting dome behavior where electron-phonon coupling strength inversely correlates with hydrogen cage distortion, such that minimal cage distortion at intermediate pressures (150-250 GPa) produces maximum Tc values distinct from the equilibrium pressures predicted by the chemical template model."
-}

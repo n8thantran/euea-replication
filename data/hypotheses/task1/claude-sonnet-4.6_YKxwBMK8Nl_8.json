@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a single-agent pipeline combining structured PDF-to-markdown conversion with multimodal image processing and a capable language model is used for automated chemical information extraction, then it will achieve competitive or superior precision, recall, and F1 scores compared to complex multi-agent domain-specific systems, because the structured preservation of document content and standardized prompting reduces information loss and coordination overhead that typically limit multi-agent architectures."
-}

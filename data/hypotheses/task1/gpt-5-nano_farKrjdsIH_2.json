@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If SAM-EM is fine-tuned on synthetic, physics-informed LPTEM videos with box-prompt conditioning, then it will achieve higher segmentation accuracy (IoU, F1, and J&F) and more accurate centroid tracking on diverse test scenarios and real LPTEM data than a U-Net baseline, because exposure to varied thickness/SNR and particle interactions during training improves generalization to real experimental imagery."
-}

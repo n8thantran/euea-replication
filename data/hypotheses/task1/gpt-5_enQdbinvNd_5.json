@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a specialized, tool-augmented multi-agent LLM framework with shared memory is used to extract literature force fields and configure RASPA simulations for zeolite adsorption, then it will consistently produce accurate, executable, and reproducible inputs that replicate published isotherms and heats of adsorption at expert-comparable accuracy because role specialization, retrieval, and iterative verification reduce extraction and setup errors."
-}

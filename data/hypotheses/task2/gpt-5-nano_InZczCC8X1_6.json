@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "A time\u2011varying pulsed-current operation of the reactive carbon electrolyzer, synchronized with bicarbonate flow cycling, will yield a higher maximum reactor yield than steady-state operation by alleviating mass-transport limitations and surface carbonate buildup that limit i-CO2 formation at high current densities."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a frozen molecular LLM\u2019s hidden states are perturbed during generation by linear combinations of property-specific embeddings learned via a concept bottleneck (CAST), then it will more accurately satisfy single- and multi-property targets (lower MAE/Best100MAE) across in- and out-of-distribution settings without degrading validity, generative efficiency, novelty, or synthetic accessibility relative to vanilla, ActAdd, full fine-tuning, and LoRA, because the bottleneck learns disentangled, approximately orthogonal directions that compose linearly in the model\u2019s activation space."
-}

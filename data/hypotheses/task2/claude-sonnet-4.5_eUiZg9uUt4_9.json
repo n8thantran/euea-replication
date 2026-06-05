@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Template-free retrosynthesis models trained with contrastive learning objectives that explicitly penalize predictions matching high-frequency training templates will achieve higher top-10 accuracy on rare templates (frequency <10) without sacrificing overall performance, thereby mitigating the class imbalance problem identified in this study."
-}

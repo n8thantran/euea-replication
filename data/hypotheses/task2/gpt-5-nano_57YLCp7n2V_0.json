@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Introducing a differentiable aromaticity-aware valence regularizer that enforces chemically valid (narom, vother, formal charge) bonding environments at the atom level during training will increase the fraction of generated atoms with correct valencies, improve molecular stability and connectedness on GEOM-Drugs, and yield smaller \u0394Erelax and bond/angle/dihedral distributions closer to GFN2-xTB optimizations, compared with models trained without this regularizer or with Kekulized-only preprocessing."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "A multi-modal LLM continually pre-trained on MOF literature plus aligned textualized 3D structural encodings (e.g., SOAP descriptors or coordination-number tokens) will achieve a lower mean absolute error on QMOF band-gap prediction than both the PMC+PubChem pre-trained text-only LLM and CGCNN when fine-tuned with \u22645,000 supervised examples."
-}

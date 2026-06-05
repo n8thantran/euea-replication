@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Fine-tuning the Segment Anything Model 2 on synthetic liquid phase transmission electron microscopy video data will enable real-time segmentation of nanoparticles with comparable or superior accuracy to specialized baseline models while maintaining computational efficiency for automated analysis."
-}

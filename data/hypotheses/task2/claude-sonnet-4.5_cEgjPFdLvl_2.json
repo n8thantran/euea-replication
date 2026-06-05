@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit graph-theoretic topological constraints during the diffusion denoising process will enable AMDEN to generate amorphous materials with controlled medium-range order, thereby achieving targeted properties that depend on structural motifs beyond nearest-neighbor coordination, without requiring additional HMC refinement steps."
-}

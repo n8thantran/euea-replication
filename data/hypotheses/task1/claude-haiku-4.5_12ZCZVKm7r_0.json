@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Scientific foundation models across diverse architectures and modalities converge toward universal, alignment-invariant representations of matter structure that capture shared underlying physical principles, such that embeddings from disparate models show statistically significant similarity in local neighborhoods and global manifold structure despite differences in training data, model design, and input modality."
-}

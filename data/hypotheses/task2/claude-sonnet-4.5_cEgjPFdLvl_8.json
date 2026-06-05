@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit structural motif constraints (e.g., coordination polyhedra preferences, bond angle distributions) as additional differentiable guidance terms in the energy-based score function would enable AMDEN to generate chemically realistic amorphous structures with lower computational cost than HMC refinement while maintaining accurate property prediction."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If scientific LLM agents have access to tools that are semantically aligned with task requirements (as measured by embedding similarity), then their performance will improve more substantially than improvements from changing the underlying agent framework or scaffolding approach."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Generated inorganic crystal structures with high crystallographic symmetry (space-group operation count \u2265 24) will be at least twice as likely to be DFT-stable (energy above hull \u2264 0.1 eV/atom after relaxation) as composition- and size-matched low-symmetry counterparts (operation count < 24)."
-}

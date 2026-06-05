@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Fine-tuning pre-trained ML interatomic potentials (such as eSEN or eqV2) specifically on stress tensor data generated from DFT calculations along ML-converged SSNEB pathways\u2014rather than on bulk equilibrium structures\u2014will disproportionately reduce stress prediction errors and thereby eliminate the symmetry-breaking artifacts currently observed during VASP restart steps, enabling fully ML-converged SSNEB pathways to achieve energy barrier accuracy within 1% of pure DFT results without any DFT restart."
-}

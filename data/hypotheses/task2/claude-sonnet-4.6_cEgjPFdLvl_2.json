@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "The computational cost of HMC denoising in AMDEN scales prohibitively with system size because the noise energy landscape must be fully re-evaluated at each Monte Carlo step; therefore, training a lightweight surrogate model\u2014specifically a graph neural network interatomic potential fine-tuned on noise-energy evaluations sampled during HMC trajectories\u2014to replace the expensive denoiser network during the HMC equilibration steps will reduce inference cost by at least an order of magnitude while preserving the structural accuracy and energy distributions of the generated relaxed amorphous configurations."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Pretraining the multimodal contrastive model with multiple DFT-derived low-energy conformers per SMILES (all contrasted to the same symbolic anchor) will induce embeddings that are invariant to both SO(3) rotations and conformational variation\u2014manifested by significantly higher Accuracy@10 in retrieval of unseen conformers versus single-conformer pretraining and by at least a 50% reduction in intra-molecular embedding variance across conformers."
-}

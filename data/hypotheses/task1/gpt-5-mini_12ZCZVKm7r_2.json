@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Representations learned by diverse scientific foundation models converge onto a common low-dimensional manifold, such that pairwise CKNNA and IDCor between models across different architectures and input modalities are significantly positive and intrinsic dimensionality is conserved across in-distribution (OMat24, sAlex) and out-of-distribution (OMol25) datasets."
-}

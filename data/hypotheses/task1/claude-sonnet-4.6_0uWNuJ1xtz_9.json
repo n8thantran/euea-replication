@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "A unified multimodal foundation model pre-trained jointly on multiple molecular representation formats (SMILES, SELFIES, InChI, IUPAC name, molecular formula, polymer and electrolyte notations) will produce a shared latent space that aligns chemically equivalent molecules across modalities, thereby improving molecular property prediction, representation translation, and cross-modal retrieval compared to models trained on single molecular representations alone."
-}

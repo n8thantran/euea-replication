@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Loqi-generated conformer ensembles trained on implicit-solvent optimized structures will exhibit systematically different relative energy rankings for ligand-protein binding poses compared to explicit-solvent molecular dynamics simulations, with this discrepancy correlating to the magnitude of hydration shell reorganization required upon binding."
-}

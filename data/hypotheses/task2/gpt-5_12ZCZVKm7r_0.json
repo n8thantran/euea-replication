@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Residualizing each model\u2019s embeddings against simple compositional statistics (bag-of-atoms element counts and total atom count) will eliminate the observed increase in out-of-distribution (OMol25) alignment and cause OOD CKNNA and IDCor to fall below their in-distribution (OMat24/sAlex) values, indicating that the apparent OOD convergence is primarily driven by shared trivial composition/size features rather than a universal representation of matter."
-}

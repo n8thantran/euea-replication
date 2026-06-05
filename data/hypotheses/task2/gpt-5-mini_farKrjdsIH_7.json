@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Augmenting SAM-EM training with an auxiliary temporal-consistency loss that penalizes deviations from physics-informed motion priors (e.g., LEONARDO-predicted frame-to-frame displacement distributions) will reduce particle identity-switching rates by at least 50% on high-density (at least 8 particles) LPTEM videos with liquid thickness \u2265100 nm compared to the current SAM-EM trained without such a loss."
-}

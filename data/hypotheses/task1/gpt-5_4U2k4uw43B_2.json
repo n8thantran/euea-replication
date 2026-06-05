@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If solid-state NEB pathways for phase transformations in CsPbI3 and TiO2 are initialized and preoptimized with pretrained equivariant ML surrogates (EquiformerV2 or eSEN) before DFT-based refinement, then the resulting transition states and energy barriers will match pure-DFT NEB results while requiring fewer iterations and less compute time because the ML models provide sufficiently accurate energies, forces, and stresses to generate near-converged pathway images."
-}

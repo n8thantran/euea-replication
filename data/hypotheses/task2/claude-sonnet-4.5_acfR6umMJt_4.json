@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Hypothesis: For multi-step chemical reactions involving sequential transition states, NN-BAX trained on a single reaction pathway will transfer learned potential energy surface features to accelerate convergence on subsequent, chemically related pathways with >50% reduction in function evaluations compared to independent NN-BAX optimization of each pathway."
-}

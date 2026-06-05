@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Models trained with explicit multi-task objectives combining energy prediction with force prediction and molecular property regression will exhibit higher representational alignment with out-of-distribution data than single-task models, because the diversity of training signals forces convergence toward a more generalizable solution manifold that is less dependent on dataset-specific statistical artifacts."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "The inductive generalization capability of GraphSAGE will enable accurate prediction of etching rates in ternary and higher-order gas mixtures without retraining, provided that the pre-trained single-element predictors for all constituent gases are available, even when the mixture composition space differs substantially from the binary Ar/O2 training distribution."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating a learnable spectral subtraction module between encoder layers\u2014trained to iteratively remove the reconstructed pure-component spectrum of a known constituent from the mixture representation before predicting the next component\u2014will enable the transformer architecture to extend to mixtures of four or more components without requiring explicit concentration prompts, achieving higher Top-10 accuracy on ternary and quaternary mixtures than the current prompt-conditioned approach that relies on externally provided molecular formula and concentration information."
-}

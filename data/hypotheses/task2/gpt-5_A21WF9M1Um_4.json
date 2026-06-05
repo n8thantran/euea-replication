@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "A homotopy-based refinement that performs unconstrained gradient descent while annealing simulated peak widths (e.g., multiplying Caglioti FWHM parameters by a factor s(t) decreasing from \u22654 to 1) will smooth the XRD loss landscape and produce at least a 50% relative increase in StructureMatcher match rate over fixed-width optimization at lattice-noise \u03c3l=0.10 on the MP20 subset used here."
-}

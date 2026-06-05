@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If end-to-end extraction of ChemX nanozyme and chelate complex articles is performed with domain-specific multi-agent systems or a novel single-agent pipeline, then per-column F1 scores across dataset features will be higher than those achieved by baseline models (GPT-5, GPT-5 Thinking, and ChatGPT Agent) due to improved structured-text extraction, strict output schemas, and multimodal processing."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Transfer learning-induced optimization for substrate generation will paradoxically reduce the generative model's ability to discover novel lattice node structures that satisfy material constraints because the reward functions are optimized specifically for substrate-level properties rather than the emergent structural properties that only manifest at the lattice node scale."
-}

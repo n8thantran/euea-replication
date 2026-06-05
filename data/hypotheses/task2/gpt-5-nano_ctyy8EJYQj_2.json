@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit oxygen partial pressure (pO2) as a controllable variable in both the physics-based Nb\u2013O synthesis simulator and the LLM prompting (e.g., actions to set and vary pO2) will enable the LLM to generate synthesis routes whose target Nb\u2013O phase fractions are robust to ambient pressure fluctuations, yielding higher success rates and lower phase-fraction error under randomized pO2 conditions than plans that do not account for pO2."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Guiding a diffusion model with interpolated conditional scores from metastable states, followed by score-aligned ascent refinement, enables accurate sampling of transition state ensembles without requiring any transition state training data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Single-step retrosynthesis models exhibit dataset bias where performance on test reactions is primarily determined by template frequency in the training set rather than true generalization to novel chemical disconnections, with models performing well on reactions with seen templates but failing on reactions with unseen templates."
-}

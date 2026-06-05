@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "An online adaptive batching policy that dynamically tunes the padding budget and chooses among static-2N, static-64, and dynamic batching per iteration based on real-time estimates of gradient variance and recompilation overhead will achieve faster convergence and equal or better final RMSE than any fixed batching strategy across heterogeneous graph datasets."
-}

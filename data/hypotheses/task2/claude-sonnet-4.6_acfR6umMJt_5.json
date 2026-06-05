@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Applying NN-BAX to systems governed by density functional theory potentials will reveal that the optimal BAX sampling strategy should be non-uniform along the NEB path\u2014specifically, concentrating acquisitions near predicted transition state regions rather than sampling randomly\u2014because the energy barrier accuracy is disproportionately sensitive to the accuracy of the potential energy surface near saddle points, and this targeted sampling strategy will reduce the number of DFT evaluations required for convergence by an additional order of magnitude compared to the uniform random sampling demonstrated in this paper."
-}

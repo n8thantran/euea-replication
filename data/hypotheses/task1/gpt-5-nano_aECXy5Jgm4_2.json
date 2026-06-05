@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If Bayesian optimization guided by the specified polymer representations (PolyNC, polyBERT, MoLFormer, MolGen-large, MiniMol) and surrogate models (Gaussian Process with Mat\u00e9rn-5/2, GP with deep kernel, Bayesian neural network) is used to select fragment-generated polyamines for GCMC evaluation under a fixed computational budget, then the top-performing polymers will exhibit higher CO2 adsorption capacity than those chosen by random sampling, because BO efficiently prioritizes high-adsorption candidates in the surrogate landscape."
-}

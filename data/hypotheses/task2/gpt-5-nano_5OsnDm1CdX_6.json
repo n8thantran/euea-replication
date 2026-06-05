@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating physics-informed, multi-relational edge weights that reflect PBM-derived inter-gas reaction-strength into the inductive GraphSAGE mixture model will significantly improve predictive accuracy and generalization for three- and higher-gas plasma mixtures across varied reactor conditions and substrates, compared to the baseline two-node, unweighted complete-graph approach."
-}

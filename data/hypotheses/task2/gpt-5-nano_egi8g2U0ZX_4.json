@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating a lightweight surrogate model that predicts porosity and electrical conductivity (and thus potential capacitance) of Covalent Triazine Frameworks into the reinforcement learning reward during transfer learning will bias the generative models toward substrates and lattice nodes with higher predicted device performance, leading to stronger correlation with experimental capacitance and maintained diversity compared to RL using only the existing material-specific filters."
-}

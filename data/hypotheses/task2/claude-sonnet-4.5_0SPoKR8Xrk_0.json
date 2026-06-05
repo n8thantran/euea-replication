@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Introducing dynamic surface reconfiguration during polymer adsorption\u2014where surface bead identities switch stochastically between strong (A) and weak (B) interaction states at timescales comparable to polymer conformational relaxation\u2014will produce binding free energy landscapes that cannot be predicted by static hybrid CNN-GRU models trained on fixed surface patterns, necessitating recurrent temporal encoders that explicitly model time-dependent surface heterogeneity."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "A differentiable long-range electrostatics term, learned jointly with the local MLIP by predicting per-atom partial charges and computing a screened Coulomb energy coupled to the short-range MLIP, will improve MD accuracy and stability for charged and solvated systems (e.g., salts, ionic liquids, and biomolecules) compared with purely short-range MLIPs."
-}

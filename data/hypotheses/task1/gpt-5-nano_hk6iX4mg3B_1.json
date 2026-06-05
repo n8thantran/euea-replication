@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Ensemble-consensus semi-supervised learning that minimizes the distance between each model and the ensemble mean with a tunable coupling weight \u03b3 yields higher predictive accuracy and better calibration than supervised learning and existing SSL baselines across diverse molecular-graph datasets and CIFAR-10, and this advantage is robust to changes in architecture, ensemble size, and labeling ratio."
-}

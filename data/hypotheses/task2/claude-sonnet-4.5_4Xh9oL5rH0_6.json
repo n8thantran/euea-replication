@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nFine-tuning universal machine learning interatomic potentials on synthetically generated high-temperature molecular dynamics trajectories of MOFs will eliminate the performance gap in heat capacity predictions compared to models trained on OMat24, while requiring orders of magnitude less DFT reference data."
-}

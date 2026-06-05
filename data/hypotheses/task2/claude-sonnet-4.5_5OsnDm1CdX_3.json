@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Pre-training single-element plasma etching predictors on a broader range of substrate materials beyond PMMA will enable the GraphSAGE-based mixture predictor to generalize across both gas composition and substrate type simultaneously, reducing the need for substrate-specific physics-based model simulations when predicting etching rates for novel material-gas combinations."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Agents employing multi-fidelity hierarchical decision-making that dynamically adjust their exploration-exploitation trade-off based on estimated uncertainty in lower-fidelity oracle predictions will discover thermodynamically stable compounds more efficiently than fixed-strategy agents, particularly when the gap between MLIP and DFT energy rankings is largest."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating uncertainty estimates from Thermo-Calc predictions into the DPO reward function\u2014rather than treating simulation outputs as deterministic\u2014would prevent reward hacking and improve model robustness, particularly for OLMo-class architectures that exhibit distributional collapse when trained on hierarchical multi-objective rewards."
-}

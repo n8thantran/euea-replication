@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating an explicit energy-based regularization term derived from physics-based force fields into E2EFOLD's structure recovery loss will improve the thermodynamic stability of designed sequences while maintaining self-consistency, as measured by reduced \u0394\u0394G values upon in silico mutation scanning compared to sequences designed without energy-based constraints."
-}

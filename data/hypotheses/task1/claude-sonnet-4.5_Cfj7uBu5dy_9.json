@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Autonomous materials discovery agents that combine generative models with diversity-based acquisition functions will discover more novel stable compounds than random baseline approaches when evaluated in a standardized benchmark environment."
-}

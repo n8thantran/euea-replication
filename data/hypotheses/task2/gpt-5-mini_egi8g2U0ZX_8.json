@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Augmenting reinforcement-learning reward functions with surrogate predictors trained on a small (\u2264200) DFT-labeled dataset for porosity-related surface area and electronic conductivity will, compared with RL using only expert-rule rewards, increase the fraction of generated substrate molecules that pass the expert structural filters by at least 20 percentage points while maintaining uniqueness above 50%."
-}

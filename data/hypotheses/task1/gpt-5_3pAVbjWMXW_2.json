@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a Transformer with patch-based embeddings is pretrained on large simulated IR spectra and fine-tuned on limited experimental spectra while jointly learning a spectral-alignment reconstruction task across concentration ratios, then it will accurately identify the molecular constituents of binary and ternary IR mixture spectra (including experimental ATR-IR data) because the alignment objective enforces additive compositional representations that generalize from simulation to experiment."
-}

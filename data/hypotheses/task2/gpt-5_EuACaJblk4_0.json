@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Adding a differentiable cycle-consistency objective that re-encodes the decoder\u2019s predicted structure from a sampled sequence and penalizes divergence from the originally sampled sequence will increase design self-consistency (TM-score on RFData) by at least 0.04 relative to baseline E2EFOLD training while reducing sequence recovery on E2EData by no more than 2 percentage points."
-}

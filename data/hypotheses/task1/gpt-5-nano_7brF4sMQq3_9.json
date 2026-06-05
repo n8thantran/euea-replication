@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If SBI-guided interpolation of conditional scores followed by SAA refinement can generate transition states and pathways from metastable-state data alone, then these samples will more accurately reproduce the true transition-state ensembles and committor distributions across 2D potentials, alanine dipeptide, chignolin folding, and a chemical reaction than linear or geodesic interpolation baselines, because the method leverages learned conditional scores and a force projection along an approximate reaction coordinate to align samples with the underlying reaction mechanism."
-}

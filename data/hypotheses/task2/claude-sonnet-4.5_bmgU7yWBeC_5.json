@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nThe Force Delta metric can be decomposed into directional components that differentially predict failure modes in molecular dynamics simulations, where high curl magnitude in specific vibrational modes correlates with imminent bond-breaking events or phase transitions before they occur in the trajectory."
-}

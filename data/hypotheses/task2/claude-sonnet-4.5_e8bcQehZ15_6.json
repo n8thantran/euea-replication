@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Concept-based activation steering vectors computed at intermediate layers of large language models encode orthogonal subspaces that correspond to distinct molecular scaffold classes, such that projecting generated molecules onto these learned concept embeddings will reveal quantifiable relationships between activation geometry and structural motifs independent of the target property values."
-}

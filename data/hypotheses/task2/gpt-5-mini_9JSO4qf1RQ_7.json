@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Integrating a differentiable synthesizability predictor trained on experimental synthesis-success labels into MatAgent\u2019s Property Evaluation stage and optimizing formation energy and synthesizability jointly will increase the fraction of generated compositions that simultaneously lie within \u00b10.25 eV/atom of the target formation energy and have a synthesizability score \u22650.7, while reducing the median number of iterations needed to produce such candidates by at least 30% compared to the original single-objective MatAgent."
-}

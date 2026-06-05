@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating dynamic coordination number constraints as a fourth conditioning variable in CompGen will enable the generation of catalytic surfaces with tunable active site geometries that exhibit superior oxygen reduction reaction (ORR) activity compared to fixed-shell composition generation, by explicitly controlling the number of surface atoms directly coordinating with the adsorbate during the diffusion sampling process."
-}

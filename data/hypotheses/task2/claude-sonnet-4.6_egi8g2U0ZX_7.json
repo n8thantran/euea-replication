@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating a hierarchical reward function in reinforcement learning that sequentially gates material-specific criteria\u2014first requiring conjugation and pattern satisfaction before evaluating symmetry and flatness\u2014will reduce policy collapse frequency and increase the percentage of generated CTF candidates passing all expert filters by at least 20 percentage points compared to the averaged single-objective reward function used in this study, because staged reward shaping provides denser learning signals in the early training phases when the agent must navigate a sparse, high-dimensional constraint space."
-}

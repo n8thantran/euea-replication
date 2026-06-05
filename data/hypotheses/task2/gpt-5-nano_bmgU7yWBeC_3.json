@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating a differentiable physics-consistency regularization term during training that penalizes the mismatch between the directly predicted forces and the energy-gradient forces (i.e., minimizing ||Fnc(R) + \u2207R \u00caN(R)||^2 across configurations) will yield more physically coherent NNIPs, reduce out-of-distribution prediction errors (\u03b5direct), improve MD stability on adversarial configurations, and calibrate the Force Delta uncertainty metric for more reliable UQ."
-}

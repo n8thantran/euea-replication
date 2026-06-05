@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If task\u2013tool alignment is high (as measured by cosine similarity between task descriptors and tool embeddings, including the effect of a hypothesis generator that matches tasks to tools), then the agent's performance (pass@5, average score, and success rate) will exceed the gains observed from changing framework scaffolds (ReAct versus tool-calling) or model choice, because better alignment enables more effective tool usage and reasoning."
-}

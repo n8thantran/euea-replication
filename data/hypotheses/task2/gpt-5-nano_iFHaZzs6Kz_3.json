@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Adding a conformer-aware contrastive objective that explicitly aligns SMILES embeddings with electron density grids from multiple energetically plausible conformers of the same molecule will produce pose- and conformer-invariant representations that improve cross-conformer retrieval and conformer-dependent property prediction relative to single-conformer multimodal pretraining."
-}

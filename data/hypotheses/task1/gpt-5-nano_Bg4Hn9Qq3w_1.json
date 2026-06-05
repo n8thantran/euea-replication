@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If LLM agents are provided with iterative interrogation and autonomous experiment design in both a rule-discovery Alien Market task and a simulated ALP reactor with limited pressure and QCM data, then they will (i) deduce the hidden rejection rule (items containing 'p' or 'm'), and (ii) identify the governing chemical processing regime(s) and generate process recipes that reproduce target reactor states, as validated by expert labeling and UMAP-based state alignment."
-}

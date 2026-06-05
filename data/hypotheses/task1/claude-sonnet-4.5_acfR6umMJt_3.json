@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Neural network Bayesian Algorithm Execution (NN-BAX) with iterative fine-tuning of a foundation model can efficiently approximate minimum energy pathways in atomic systems with fewer expensive energy and force evaluations compared to classical nudged elastic band methods."
-}

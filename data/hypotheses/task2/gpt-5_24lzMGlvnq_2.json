@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "When the DPO reward is modified to enforce BCC\u2013B2 coexistence with \u226520% B2 at 1473 K, a LLaMA\u20113.1\u20118B model fine-tuned under the same protocol will generate at least 2\u00d7 more alloys satisfying this high\u2011temperature criterion than the current DPO LLaMA, while maintaining coverage recall \u22650.98 and pair uniqueness (unique pairs @100) \u22650.95."
-}

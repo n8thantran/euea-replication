@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Transfer learning with two-stage pretraining on data-rich additive-free SEM images followed by fine-tuning with weighted cross-entropy loss enables accurate classification of lithium-ion battery cathode composition and aging state in data-poor domains without requiring class oversampling."
-}

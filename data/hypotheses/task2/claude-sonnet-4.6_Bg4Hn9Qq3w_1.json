@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Deploying a swarm of parallel LLM agents with systematically varied model temperatures exploring the same ALP reactor simulation simultaneously, with a meta-agent that dynamically reallocates experimental time budgets toward agents that have detected novel signals, will achieve broader coverage of the full experimental space in fewer total reactor-time units than any single-agent strategy, because stochastic path diversity combined with adaptive resource allocation will reduce the probability that the entire swarm converges on the same local minimum that trapped individual agents in configurations IIa and IIb."
-}

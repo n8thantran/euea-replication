@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating a learned, spectrum-aware symmetry classifier into the generative model's latent space will reduce the XRD-to-structure reconstruction error by at least 30% compared to post-hoc symmetry projection, because it will enable the model to navigate the non-convex XRD loss landscape along symmetry-consistent manifolds during generation rather than relying on gradient descent through local minima."
-}

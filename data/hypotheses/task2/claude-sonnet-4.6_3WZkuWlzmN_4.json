@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Selectively corrupting or masking a single modality during X-MoPA's cross-modal prediction pretraining\u2014rather than always providing two complete modalities to predict the third\u2014will force the model to learn more robust, modality-agnostic latent representations that exhibit superior generalization to materials property prediction tasks where only a single modality (e.g., only a crystal graph without XRD or text) is available at inference time, measurably outperforming the standard X-MoPA fine-tuned under the same single-modality constraint."
-}

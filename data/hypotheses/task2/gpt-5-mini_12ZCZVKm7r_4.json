@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Fine-tuning diverse pre-trained molecular and materials foundation models on a shared calibration set of \u22641,000 representative OMol25 out-of-distribution structures will reduce their average pairwise CKNNA on a held-out OMol25 test set and increase the correlation between alignment and OOD energy-prediction accuracy, indicating decreased spurious OOD convergence and improved task-specific representational specificity."
-}

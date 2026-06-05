@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Guided diffusion models trained only on metastable state data can generate accurate transition state configurations by interpolating conditional scores to guide sampling toward low-probability barrier regions, followed by score-aligned energy maximization along the reaction coordinate."
-}

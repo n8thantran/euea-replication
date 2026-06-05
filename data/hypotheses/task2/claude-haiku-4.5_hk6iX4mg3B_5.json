@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "The ensemble consensus semi-supervised learning effect on individual model calibration will be substantially diminished when ensemble members are trained on non-overlapping subsets of unlabeled data rather than identical mini-batches, due to reduced consensus stability and increased diversity-induced uncertainty in the consistency targets."
-}

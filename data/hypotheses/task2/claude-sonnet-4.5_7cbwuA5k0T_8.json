@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The semantic alignment between tools and tasks, as measured by embedding similarity, will exhibit a non-linear threshold effect where agent performance remains near-baseline until alignment exceeds a critical similarity value (approximately 0.65-0.70 cosine similarity), after which performance improvement accelerates sharply, suggesting that partial tool-task alignment provides negligible benefit compared to high alignment in scientific domains requiring multi-step reasoning."
-}

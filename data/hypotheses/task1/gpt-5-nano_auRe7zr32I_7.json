@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Combined adaptive diversity constraints applied during NaviDiv's reinforcement learning-based molecular generation produce greater chemical diversity\u2014measured by lower mean pairwise similarity, more clusters, and higher unique fragment percentages\u2014without reducing the fraction of molecules that meet the singlet fission energy criterion (\u0394E_SF within the defined threshold) compared to baseline unconstrained generation."
-}

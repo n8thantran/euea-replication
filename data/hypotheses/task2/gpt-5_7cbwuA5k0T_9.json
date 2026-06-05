@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "In complex scientific environments with high baseline task\u2013tool embedding cosine distance (e.g., Spectra, MD), automatically paraphrasing tool descriptions at inference time to reduce the task\u2013tool minimum cosine distance by at least 0.10 will yield an absolute pass@5 increase of \u22650.20 over unmodified descriptions, holding tools and agent scaffold constant."
-}

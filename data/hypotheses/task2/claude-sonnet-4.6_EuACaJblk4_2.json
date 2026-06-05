@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating a confidence estimation signal into E2EFOLD's Gumbel-Softmax sampling temperature\u2014specifically by dynamically conditioning \u03c4 on the per-residue entropy of the encoder's predicted sequence distribution during inference\u2014will further improve self-consistency for structurally ambiguous regions (high-entropy residues) by reducing stochastic sampling variance precisely where sequence-structure degeneracy is greatest, while preserving sequence diversity in well-defined structural contexts."
-}

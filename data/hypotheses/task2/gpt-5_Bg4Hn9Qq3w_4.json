@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "In the ALP reactor simulation with four precursors (configuration III), augmenting the LLM agent with an intrinsic novelty feedback computed as the minimum UMAP-distance between the current 560-dimensional reactor-state vector and its previously visited states will increase by at least 2\u00d7, under a fixed 7200 s experimental budget and without extra domain hints, the fraction of runs in which the agent discovers and correctly differentiates all five regimes (ALD B\u2013C, ALE A\u2013C, ASD passivation by D, CVD co-dose, and CVD decomposition) compared to an otherwise identical agent without this feedback."
-}

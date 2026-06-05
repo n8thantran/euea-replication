@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Tensor completion methods can achieve superior predictive performance for mechanical properties of lattice structures compared to standard machine learning approaches, particularly under biased sampling conditions that reflect real experimental constraints."
-}

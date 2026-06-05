@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Replacing the SMILES text decoder with a formula- and valence-constrained graph decoder that enforces the provided atom counts during generation will raise Top-10 accuracy on experimentally measured ATR-IR binary mixtures by at least 8 percentage points relative to the paper\u2019s multitask model with post hoc rejection sampling, while reducing invalid outputs to below 1%, without any additional ATR-specific fine-tuning."
-}

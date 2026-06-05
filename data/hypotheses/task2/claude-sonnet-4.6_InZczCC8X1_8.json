@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Extending the closed-loop optimization framework to a multi-objective Bayesian optimization targeting reactor yield, long-term electrode stability, and membrane durability simultaneously will reveal that the operating conditions maximizing instantaneous reactor yield (1.5 M KHCO\u2083, 0.75 M K\u2082CO\u2083) systematically accelerate bipolar membrane degradation through localized pH gradients, such that the true optimum for time-integrated CO production per unit electrode area occurs at a lower bicarbonate concentration (approximately 0.8\u20131.0 M KHCO\u2083) where the trade-off between per-cycle reactor yield and component lifetime favors sustained performance over hundreds of operating hours."
-}

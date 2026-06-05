@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Correcting the aromatic bond valency calculation bug and using chemically accurate valency lookup tables will improve the molecular validity and geometric accuracy of 3D molecule generation models as measured by bond length, angle, and torsion deviations from GFN2-xTB-optimized structures."
-}

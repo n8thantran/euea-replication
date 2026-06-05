@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "For direct-force NNIPs, adding a training regularizer that minimizes the per-structure squared Force Delta will reduce long-time energy drift in fixed-timestep NVE molecular dynamics by at least 50% and increase the U\u0394\u2013\u03b5direct Spearman correlation on adversarial OOD structures by at least 0.1 compared to the same architecture trained without this term."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Fine-tuning SAM-2 on synthetic LPTEM videos with box-prompt conditioning will yield real-time, accurate segmentation of nanoparticles and robust particle tracking across frames, achieving higher IoU and F1 scores than a U-Net baseline and centroid estimates that agree with manual annotations on real LPTEM data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "The cross-modal predictive framework will exhibit systematically degraded performance on out-of-distribution materials whose crystal symmetries or compositional spaces were underrepresented in the pretraining dataset, because the learned latent manifold is biased toward the geometric and chemical properties of the training distribution rather than achieving true invariance to symmetry-preserving transformations."
-}

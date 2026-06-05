@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If the GraphSAGE-based model that uses features from pre-trained single-gas networks concatenated with Ar fraction as node attributes can capture inter-gas interactions in Ar/O2 mixtures, then it will achieve lower weighted MSE in predicting the 10 radial etch rates than a baseline feedforward neural network."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Adaptive regularization weights that dynamically adjust \u03b1\u2081 and \u03b1\u2082 during the diffusion process based on the magnitude of constraint violations at each timestep will generate composite materials with superior fabrication validity and property-performance trade-offs compared to fixed-weight regularization schemes."
-}

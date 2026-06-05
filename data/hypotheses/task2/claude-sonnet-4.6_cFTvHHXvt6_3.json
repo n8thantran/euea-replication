@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Replacing the template-based natural language prompt generation with prompts authored by domain experts or elicited through active learning\u2014selecting prompts that maximally cover underrepresented regions of the optical response space\u2014will reduce the generalization gap (\u0394E on held-out structures) by at least 40% compared to the current template-paraphrase approach, because the persistent train-to-validation performance gap is primarily caused by distributional mismatch between templated linguistic patterns and the combinatorial diversity of physically distinct multilayer stacks rather than by insufficient decoder capacity."
-}

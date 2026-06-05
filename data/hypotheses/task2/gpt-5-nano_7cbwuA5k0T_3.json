@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "An automated tool-extension mechanism that allows an LLM agent to synthesize and integrate new tool wrappers in response to high task\u2013tool embedding distance will increase pass@k in spectroscopic and molecular-dynamics\u2013driven tasks beyond the performance obtained with a fixed, static toolkit."
-}

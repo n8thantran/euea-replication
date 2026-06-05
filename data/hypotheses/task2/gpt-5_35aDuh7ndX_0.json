@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "When applied to ER\u03b1, replacing the CATS-based pharmacophore reward with a multi-conformer 3D pharmacophore overlap augmented by ligand shape Tanimoto, while retaining the MAP4-based novelty penalty, will double the proportion of experimentally confirmed antagonists with IC50 \u2264 1 \u03bcM among the top 100 generated molecules compared to the current framework."
-}

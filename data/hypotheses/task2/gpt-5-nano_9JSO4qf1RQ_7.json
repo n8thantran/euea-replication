@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Introducing a multi-objective MatAgent that jointly optimizes formation energy per atom, predicted synthesizability probability, and environmental/toxicity risk using uncertainty-aware Pareto-guided planning will yield compositions that are more synthesizable, chemically valid, unique, and novel and meet all objectives at a higher rate than the current single-objective (formation energy) optimization."
-}

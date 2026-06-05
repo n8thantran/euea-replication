@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating metal-centered electronic descriptors (explicit d\u2011electron count, estimated oxidation state, and a GFN1\u2011xTB-derived local magnetic moment) into the \u2206-learning XGBoost model will reduce the HSE06 band gap prediction MAE for MOFs containing Cr, Mn, Fe, Co, or Ni by at least 20% relative to the current \u2206-learning model using only ST\u2011135/RAC/APRDF descriptors."
-}

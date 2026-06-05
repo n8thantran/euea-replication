@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If universal machine-learning interatomic potentials (including equivariant GNNs and graph transformers) are applied to a diverse set of MOFs and nanoporous materials with appropriate dispersion corrections, then they will reproduce DFT-calculated optimized structures, NpT MD stability, bulk moduli, and heat capacities to within DFT-level accuracy because their training on diverse datasets captures the relevant interatomic interactions governing these properties."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "For the lattice-structure dataset of Gongora et al. [6] and biased initial training regimes like those in Section 3.2, an active-learning strategy that selects new experiments to maximize expected reduction in tensor-completion reconstruction error will identify designs in the top 1% of Young\u2019s modulus using fewer experimental evaluations than a Gaussian Process\u2013based Bayesian optimization employing expected improvement."
-}

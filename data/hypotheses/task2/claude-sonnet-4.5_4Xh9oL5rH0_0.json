@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating explicit many-body dispersion (MBD) corrections beyond pairwise D3 terms into universal machine learning interatomic potential training will enable accurate prediction of guest molecule adsorption energetics and diffusion barriers in metal-organic frameworks without fine-tuning, addressing the current limitation that uMLIPs trained on bulk crystal data systematically underestimate host-guest interactions in nanoporous materials."
-}

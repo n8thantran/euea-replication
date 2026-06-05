@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Large language models pre-trained on chemical corpora and fine-tuned on MOF property datasets will predict metal-organic framework properties with lower mean absolute error than traditional graph neural network and descriptor-based baselines, particularly in low-data regimes."
-}

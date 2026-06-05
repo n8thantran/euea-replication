@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Applying a low-frequency pulsed current (0.1\u20135 Hz) with a 20\u201380% duty cycle at the same average current density as steady-state operation will increase reactor yield in reactive carbon electrolyzers relative to constant current by simultaneously enhancing JCO and UCO2 through improved in situ CO2 mass transport and bubble detachment."
-}

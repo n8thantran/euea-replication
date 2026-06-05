@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit many-body dispersion interactions (beyond the pairwise DFT-D3 correction applied at inference time) directly into the uMLIP training objective for MOF-relevant chemical environments will yield greater accuracy improvements in bulk modulus and heat capacity predictions than further scaling of training dataset size alone, because the systematic underestimation of long-range collective polarization effects in highly porous, low-density frameworks represents a fundamental limitation of the current pairwise dispersion correction scheme that cannot be compensated by additional non-equilibrium training configurations."
-}

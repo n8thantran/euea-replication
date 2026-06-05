@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Pharmacophore similarity to reference compounds will exhibit a non-monotonic relationship with experimental binding affinity across structurally diverse scaffolds, such that molecules with moderate (rather than maximal) pharmacophore overlap to known actives will demonstrate superior in vitro potency due to reduced entropic penalties and improved ligand efficiency in novel binding modes."
-}

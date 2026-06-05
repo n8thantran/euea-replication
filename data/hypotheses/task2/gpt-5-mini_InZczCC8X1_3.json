@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Applying pulsed galvanostatic operation (10 Hz, 50% duty cycle) with peak current density equal to the champion steady-state value (\u2248249 mA cm\u22122) and the same time-averaged current will increase reactor yield by \u226520% relative to steady-state operation under identical electrolyte and flow conditions by improving i-CO2 mass transport and bubble detachment, thereby simultaneously raising JCO and UCO2."
-}

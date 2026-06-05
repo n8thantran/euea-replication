@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Force Delta (U\u2206) positively correlates with the true non-conservative force error \u03b5direct across diverse equilibrium and adversarially perturbed structures, validating it as a reliable, data-free uncertainty estimate for NNIP predictions that outperforms ensemble-variance baselines."
-}

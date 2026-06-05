@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating a confidence estimation signal into E2EFOLD's Gumbel-Softmax sampling temperature\u2014dynamically increasing \u03c4 for residue positions where the encoder's predicted amino acid distribution is highly uncertain (high entropy) and decreasing \u03c4 where it is confident (low entropy)\u2014will improve both sequence design self-consistency and structure prediction accuracy compared to a globally annealed temperature schedule, because position-specific uncertainty-aware discretization will reduce error propagation from ambiguous residues through the decoder while preserving the structural constraints encoded by high-confidence positions."
-}

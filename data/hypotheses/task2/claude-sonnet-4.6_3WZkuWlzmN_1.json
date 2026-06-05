@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "When one modality is systematically absent or corrupted during inference (e.g., XRD patterns unavailable for amorphous materials), X-MoPA's cross-modal predictive training will produce latent representations for the missing modality that are more accurate predictors of downstream properties than representations from single-modality baselines trained exclusively on the available modalities, because the joint embedding space encodes inter-modal redundancy that allows reconstruction of missing modality information with sufficient fidelity to preserve property-relevant structure."
-}

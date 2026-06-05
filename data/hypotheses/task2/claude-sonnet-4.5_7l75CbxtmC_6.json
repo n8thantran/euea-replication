@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating real-time kinetic rate constants derived from temperature-dependent Arrhenius parameters into the React-CA cellular automaton framework will reveal that thermodynamically favorable synthesis routes with slower reaction kinetics can become economically superior to faster routes when energy costs for extended heating cycles exceed the price differential of alternative reactants."
-}

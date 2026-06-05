@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating conformer diversity during multimodal contrastive pretraining\u2014by aligning multiple low-energy conformers of the same molecule to a single SMILES anchor\u2014will induce both SO(3) pose-invariance and conformational invariance simultaneously, enabling the model to retrieve structurally identical molecules across both rigid rotations and flexible torsional changes without explicit conformer augmentation or energy-based supervision."
-}

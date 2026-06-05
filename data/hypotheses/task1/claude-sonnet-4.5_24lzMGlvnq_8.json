@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Language models fine-tuned with preference learning from physics-based thermodynamic simulations will generate BCC/B2 superalloy compositions with higher synthesis feasibility and phase stability than models trained with supervised learning alone or baseline generation methods."
-}

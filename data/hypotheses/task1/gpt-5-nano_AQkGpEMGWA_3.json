@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If AI-generated Li\u2013Si\u2013X materials satisfy a theoretical capacity above 1500 mAh/g and maintain a large, stable Li-channel radius that remains nearly constant when moving from charged to discharged states (as verified by CHGNet relaxations with mean energy per atom variation <4%), then these materials will be viable high-capacity silicon-based Li-ion battery anode candidates with robust Li diffusion."
-}

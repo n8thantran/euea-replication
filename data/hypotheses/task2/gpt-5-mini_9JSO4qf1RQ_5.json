@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Integrating an automated synthesizability predictor into MatAgent\u2019s Property Evaluation stage and using a multi-objective feedback signal that jointly optimizes formation energy per atom and synthesizability will increase the fraction of proposed candidates with predicted synthesizability \u2265 0.7 while maintaining or improving the original \u00b10.25 eV/atom target success rate."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Optimizing crystal structures against XRD via a homotopy that begins with intentionally over-broadened peaks (increased Caglioti U,V,W) and gradually anneals them to instrument values will reduce spurious minima and produce at least 2\u00d7 higher StructureMatcher match rates than fixed-width objectives at \u03c3l=0.1 and \u03c3c=0.02 without using symmetry constraints."
-}

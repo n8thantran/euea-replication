@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "If the \u03b2 parameter in DPO controls the degree of distributional shift from the SFT reference policy, then dynamically scheduling \u03b2 as a function of per-token uncertainty on domain-critical chemistry tokens (element symbols and stoichiometric numerals) during DPO training\u2014increasing \u03b2 when gradient updates target high-KL chemistry tokens and decreasing it otherwise\u2014will prevent reward-model overoptimization in architecturally sensitive models like OLMo while preserving or improving reward gains in more robust models like LLaMA and Gemma, thereby enabling consistent multi-objective alignment across heterogeneous model architectures without requiring architecture-specific hyperparameter searches."
-}

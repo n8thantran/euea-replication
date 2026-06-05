@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Graph neural networks trained on graph representations of local iron coordination environments can accurately predict the Fe K-edge X-ray absorption spectra (XANES and EXAFS) of iron-containing proteins."
-}

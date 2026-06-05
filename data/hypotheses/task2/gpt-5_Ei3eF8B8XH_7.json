@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Augmenting LoQI with coarse-grained protein-pocket conditioning (3D shape and electrostatic grids around the binding site) will enable single-shot generation of ligand conformers within 1.0 \u00c5 heavy-atom RMSD of the crystallographic bound pose for at least 60% of ligands in the Platinum Diverse set using no more than five samples per ligand, outperforming RDKit ETKDG and unconditioned LoQI under the same sampling budget."
-}

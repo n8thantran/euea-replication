@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If the novel single-agent extraction pipeline is used for end-to-end extraction from ChemX nanozymes and chelate complexes articles, then it will yield higher F1 (and precision/recall) than baseline GPT-5, GPT-5 Thinking, ChatGPT Agent, and the domain-specific multi-agent systems, because it preserves document structure via marker-pdf, handles multimodal content effectively, and enforces dataset schemas."
-}

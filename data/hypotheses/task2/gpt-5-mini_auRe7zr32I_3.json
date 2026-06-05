@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "An online meta-optimization controller that dynamically adjusts NaviDiv diversity-constraint thresholds during reinforcement-learning molecular generation will enable achieving average property scores within 5% of unconstrained RL while preserving structural diversity (mean pairwise Morgan-Tanimoto similarity no more than 10% above initial) and fragment diversity (percentage of unique fragments within 5% of initial) across 1000 RL iterations."
-}

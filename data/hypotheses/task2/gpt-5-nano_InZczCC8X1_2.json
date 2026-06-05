@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Real-time model-predictive control that continuously tunes total current density and bicarbonate flow rate based on in-line measurements of CO production rate and CO2 utilization will achieve a higher maximum reactor yield than the best stationary Bayesian-optimized operating point under the same capture electrolyte."
-}

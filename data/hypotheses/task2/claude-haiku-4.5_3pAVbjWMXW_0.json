@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "The spectral reconstruction alignment mechanism will demonstrate superior cross-domain transferability to liquid-phase and solid-state IR measurements compared to models trained without alignment, because the reconstruction loss forces the encoder to learn component-specific spectral features that are invariant to measurement modality differences."
-}

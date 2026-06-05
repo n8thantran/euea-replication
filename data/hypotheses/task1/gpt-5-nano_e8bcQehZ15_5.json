@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If CAST steering is applied by adding a weighted combination of concept-specific embeddings (steering vectors) derived from a Concept Bottleneck Model to the frozen LLM's hidden activations during molecular generation, then the generated molecules will exhibit improved property-target accuracy (lower MAE/Best100MAE) and enhanced novelty, validity, and synthesizability scores compared with vanilla LLMs and baseline steering methods across in-distribution and out-of-distribution targets, because the steering vectors inject disentangled property concepts into generation."
-}

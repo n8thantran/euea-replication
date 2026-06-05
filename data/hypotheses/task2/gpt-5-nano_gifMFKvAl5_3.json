@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Extending PCDiff to jointly model composition and processing parameters (e.g., curing temperature and time) with a differentiable percolation/conductivity constraint will enable generation of composites that meet target yield strength and minimum thermal conductivity with greater validity and robustness to fabrication variability than composition-only diffusion."
-}

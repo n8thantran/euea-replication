@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If diffusion-based generative models (CDVAE, GemsDiff, DiffCSP) trained on preprocessed MP and OQMD data generate crystal structures, then after DFT relaxation those structures will be chemically valid and thermodynamically competitive with training data\u2014exhibiting low RMSD, low energy above hull (<0.1 eV/atom), property distributions (density, formation energy) close to the originals, and higher latent precision/recall than controlled perturbative distortions\u2014because the learned generative priors capture true crystal chemistry better than random or systematic perturbations."
-}

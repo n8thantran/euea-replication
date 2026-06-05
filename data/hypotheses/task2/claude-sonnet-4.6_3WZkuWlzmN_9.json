@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "When one modality is systematically absent or corrupted during inference (e.g., XRD patterns are unavailable for novel synthesized materials), X-MoPA's cross-modal predictive training will enable it to reconstruct a high-fidelity surrogate latent representation of the missing modality from the remaining two, such that property prediction accuracy degrades by less than 10% compared to the full three-modality setting, because the joint latent space has been explicitly trained to encode each modality as a deterministic function of the other two, making the framework inherently robust to real-world modality dropout in a way that simple concatenation-based multimodal models are not."
-}

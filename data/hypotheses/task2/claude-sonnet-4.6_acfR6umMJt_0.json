@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Applying NN-BAX to systems governed by density functional theory rather than Lennard-Jones potentials will reveal that the optimal BAX sampling strategy should be non-uniform along the NEB path\u2014specifically, concentrating query points near predicted transition states rather than sampling uniformly\u2014because the energy/force landscape curvature is highest in these regions, and a curvature-weighted acquisition function will reduce the number of DFT evaluations required for convergence by an additional order of magnitude compared to the uniform random sampling demonstrated in this work."
-}

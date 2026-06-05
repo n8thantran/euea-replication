@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating learnable temperature parameters (kB and T) into the energy-based score function during training will enable AMDEN to automatically adapt its relaxation dynamics to different material systems and cooling rates, thereby reducing the computational cost of HMC refinement while maintaining or improving the structural and property accuracy of generated amorphous materials."
-}

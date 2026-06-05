@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "In REINVENT4 singlet fission optimization, using a PID controller to adapt NaviDiv similarity-, fragment-, and n-gram-penalty weights to maintain mean pairwise Morgan Tanimoto similarity at 0.12\u00b10.01 will produce \u226530% more unique Bemis-Murcko scaffolds with predicted \u2206ESF in [\u22120.10, 0.00] eV than fixed combined-constraint settings, while keeping the average molecular score within 5% of the fixed-baseline."
-}

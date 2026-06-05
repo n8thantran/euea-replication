@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Pharmacophore similarity computed from CATS descriptors will exhibit differential predictive power for biological activity across distinct protein families, such that compounds optimized for pharmacophoric fidelity to estrogen receptor ligands will show significantly reduced binding affinity when tested against structurally unrelated targets like kinases or GPCRs, even when maintaining equivalent drug-likeness and synthetic accessibility metrics."
-}

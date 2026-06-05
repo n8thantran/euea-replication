@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Diffusion-based conformer generation models trained on implicit-solvent optimized structures will exhibit systematically degraded performance on molecules with strong intramolecular hydrogen bonding networks compared to flexible molecules lacking such interactions, due to the model's inability to learn the competing energetic landscape between solvent-shielded and intramolecularly-stabilized conformational states."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Using pretrained equivariant ML surrogates (eqV2 or eSEN) to pre-converge NEB images and then restarting DFT SSNEB will reduce total computational time and number of NEB iterations compared to VASP-only calculations while producing final minimum energy pathways and transition-state structures/energies for CsPbI3 phase transitions and the TiO2-B\u2192anatase transformation that agree with pure-DFT results within the 0.01 eV/\u00c5 convergence criterion."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If pre-trained SMILES-based foundation model embeddings, transferred and aggregated for formulations and concatenated with device variables, are used to train neural networks to predict molecular properties, formulation manufacturability, formulation performance, surface contact characteristics, and device performance across scales, then the predictive models will outperform Morgan fingerprints and generalize better to out-of-distribution data because the embeddings capture underlying chemical structure and formulation context."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a Transformer encoder-decoder with patch-based spectrum embeddings is pretrained on simulated IR spectra and fine-tuned on real spectra while jointly optimizing a spectral reconstruction loss, then it will accurately identify the molecular constituents of binary and ternary IR mixture spectra across concentration ratios and generalize to experimental ATR-IR data because the alignment loss encourages disentanglement of pure-component features from mixed spectra."
-}

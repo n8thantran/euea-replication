@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "The alignment of distinct molecular representations in the shared latent space depends on the chemical complexity and structural ambiguity of molecules, such that molecules with multiple valid isomeric forms will exhibit weaker cross-representation convergence than molecules with unambiguous structures."
-}

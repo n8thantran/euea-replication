@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Increasing the DPO KL-penalty parameter \u03b2 from 0.5 to 1.5 while reducing LoRA adapter rank from 8 to 2 during preference-tuning of OLMo will reduce token-level KL divergence on element/composition tokens and produce a statistically significant increase in mean Thermo-Calc-derived reward and satisfaction rates for the four synthesis objectives compared to the original OLMo-DPO configuration."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "LLM agents equipped with a persistent, structured memory module that carries forward summarized reactor states and discovered rules across sessions will discover multi-step, path-dependent ALP reaction sequences (e.g., ALD followed by ALE with selective ASD passivation) in unseen reactor configurations with a higher discovery rate and accuracy than memoryless agents under equivalent time constraints."
-}

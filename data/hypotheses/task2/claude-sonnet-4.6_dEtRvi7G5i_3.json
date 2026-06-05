@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "The chemical template effect strength of a metal lattice, as quantified by the degree of electron localization at interstitial quasi-atom sites, will exhibit a systematic and transferable correlation with superconducting transition temperature across ternary metal superhydrides (M\u2081M\u2082H\u2093), such that ML models trained exclusively on binary superhydride metal lattice features can predict stable ternary superhydride compositions with Tc > 150 K at pressures below 200 GPa\u2014a regime currently inaccessible to binary systems alone."
-}

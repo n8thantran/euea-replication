@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "LoQI will generate conformers for drug-like molecules that have lower relative energies and higher stereochemical accuracy (R/S and E/Z) than the reference conformers, approaching near-DFT-quality geometries across diverse benchmark datasets."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Machine learning models trained on thermodynamic stability features of known metal hydride prototypes can accurately predict stable metal superhydride configurations, enabling efficient discovery of new superconducting materials without exhaustive computational screening."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating a differentiable tolerance-aware verifier that simulates manufacturing thickness perturbations (\u00b1\u0394t) and interfacial roughness as stochastic perturbations, and training CHROMA to minimize the expected color error \u2206E over these perturbations, will yield multilayer stacks whose color remains within the perceptual JND (\u2206E \u2264 2) across a wider range of thickness variations and viewing angles than designs produced without variability modeling."
-}

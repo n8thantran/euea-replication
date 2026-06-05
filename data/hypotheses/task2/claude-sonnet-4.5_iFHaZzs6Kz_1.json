@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating explicit stereochemical descriptors (e.g., R/S chirality labels or E/Z isomerism tags) into the SMILES encoder during multimodal contrastive pretraining will induce emergence of local SO(3) sensitivity in the 3D encoder's latent space, enabling the model to distinguish enantiomers and diastereomers without architectural equivariance while maintaining global pose invariance for achiral molecules."
-}

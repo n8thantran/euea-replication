@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a coordinated multi-agent LLM framework with specialized roles, shared memory, and tool access is applied to molecular simulation setup and literature force-field extraction, then it will reproducibly generate correct parameters and executable RASPA inputs that run successfully and yield appropriate adsorption results across increasingly complex zeolite tasks because agent specialization and tool-augmented reasoning enable accurate retrieval, parsing, and configuration."
-}

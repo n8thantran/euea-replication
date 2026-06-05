@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating enantiomeric pairs as explicit hard negatives during SMILES\u2013electron-density contrastive pretraining will yield embeddings that remain SO(3)-invariant to rigid rotations while becoming chirality-sensitive, demonstrable by unchanged rotated-instance Accuracy@10 and a statistically significant increase in enantiomer discrimination ROC-AUC relative to the baseline model without hard-negative enantiomers."
-}

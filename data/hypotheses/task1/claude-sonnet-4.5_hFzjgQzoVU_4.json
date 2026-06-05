@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Graph neural networks trained on local iron coordination structures can predict X-ray absorption spectra with quantifiable accuracy, demonstrating that structural features encoded in atomic connectivity and geometry are sufficient to capture spectroscopic signatures."
-}

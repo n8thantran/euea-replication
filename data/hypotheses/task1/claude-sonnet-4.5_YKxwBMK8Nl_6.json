@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Domain-specific multi-agent systems will achieve higher precision and recall in automated chemical information extraction compared to general-purpose language models because specialized agents can leverage structured extraction pipelines and domain knowledge tailored to chemical data schemas."
-}

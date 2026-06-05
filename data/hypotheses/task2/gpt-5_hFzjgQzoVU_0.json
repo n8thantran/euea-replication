@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "A shared-encoder multi-task model that jointly predicts XANES and EXAFS from the same local Fe coordination graph will reduce the held-out EXAFS MAE by at least 15% compared to a single-task GIN trained only on EXAFS in the XDIP dataset."
-}

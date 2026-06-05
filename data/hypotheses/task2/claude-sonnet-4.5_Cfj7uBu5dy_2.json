@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating multi-fidelity Bayesian optimization with structure-aware kernels that encode crystallographic symmetry constraints will achieve superior sample efficiency in discovering novel stable materials compared to LLM-based agents or single-fidelity approaches, particularly in high-dimensional chemical spaces where the ratio of oracle queries to discovered stable phases scales sublinearly with system complexity."
-}

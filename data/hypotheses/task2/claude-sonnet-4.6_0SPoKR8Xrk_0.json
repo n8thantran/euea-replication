@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "If the CNN-GRU-Attention model's learned latent representations encode physically meaningful polymer-surface interaction features, then training an inverse design network that maps desired binding free energies back to polymer sequence space will reveal that optimal adhesion is achieved not by maximizing the fraction of strongly-interacting monomers alone, but by specific periodic or block-like spatial arrangements of strong monomers whose characteristic length scale matches the dominant spatial correlation length of the surface heterogeneity pattern, such that sequence-surface commensurability produces synergistic binding enhancements exceeding the additive contributions of individual strong monomer-surface contacts."
-}

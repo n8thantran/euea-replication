@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Polymer sequences with spatially clustered strong-interaction beads will exhibit non-monotonic binding free energy landscapes with respect to surface composition, such that intermediate surface compositions (f=0.4-0.6) produce stronger adhesion than either homogeneous or maximally heterogeneous surfaces, due to optimal matching of polymer cluster size to surface domain dimensions."
-}

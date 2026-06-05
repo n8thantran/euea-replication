@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If distorted crystal structures are optimized via gradient descent on differentiable powder XRD similarity losses (with or without symmetry constraints), then they will rarely recover the ground-truth structures while energy-based relaxation will succeed more often because the XRD loss landscape is intrinsically rough and dominated by peak-matching discontinuities that trap gradients in local minima."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Contrastive multimodal pretraining between SMILES and electron density grids will induce emergent enantiomer discrimination\u2014distinguishing R from S stereoisomers\u2014when the symbolic anchor is replaced with stereochemically explicit SMILES (e.g., using @/@ chirality notation), because the contrastive loss will force the 3D encoder to encode handedness-sensitive features of the electron density that differentiate mirror-image configurations sharing identical constitutional connectivity, a capability that canonical SMILES anchoring systematically suppresses by treating enantiomers as identical symbolic strings."
-}

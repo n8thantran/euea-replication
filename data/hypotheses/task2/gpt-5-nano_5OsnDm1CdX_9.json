@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Augmenting the inductive GraphSAGE mixture predictor with learned edge features that encode PBM-derived pairwise gas interaction kinetics will enable accurate etching-rate predictions for ternary and higher-order gas mixtures (beyond Ar/O2) across a wider operating space, outperforming the baseline two-node, pairwise-agnostic architecture."
-}

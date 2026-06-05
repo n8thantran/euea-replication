@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating a learned hybrid loss function that combines XRD pattern similarity with local energy curvature information from universal machine learning interatomic potentials will enable gradient-based optimization to escape local minima in the XRD landscape by biasing the search toward thermodynamically stable basins, thereby improving structure recovery rates by >30% compared to XRD similarity metrics alone, even without explicit symmetry constraints."
-}

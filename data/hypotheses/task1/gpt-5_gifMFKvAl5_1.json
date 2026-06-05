@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a diffusion model for composite material design is trained with non-negativity and sum-to-one physics regularizers (PCDiff), then on the carbon composite dataset it will yield higher Validityreg and Validityfab and at least comparable Density/Coverage to CVAE and TabDDPM because the constraints enforce sampling within the feasible composition simplex."
-}

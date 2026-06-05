@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a 3D electron-density encoder is contrastively aligned with a SMILES encoder on paired molecules, then its learned embeddings will be pose-invariant and outperform unimodal and SE(3)-equivariant baselines on unseen-rotation retrieval and property-consistent clustering, because the cross-modal objective forces the 3D branch to discard rotational degrees of freedom not predictive of the SMILES representation."
-}

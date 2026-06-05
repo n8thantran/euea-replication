@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If generative models for covalent triazine frameworks are pre-trained on large general chemical datasets, then fine-tuned on a small curated CTF set and optimized via reinforcement learning with expert-designed rewards, they will yield a higher fraction of valid, unique, internally diverse, and expert-filter\u2013passing candidates than configurations omitting one or more of these steps because combined knowledge transfer and reward shaping align sampling with domain-specific constraints."
-}

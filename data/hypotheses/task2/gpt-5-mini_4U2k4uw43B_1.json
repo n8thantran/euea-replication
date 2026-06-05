@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Fine-tuning the pre-trained eSEN potential in an on-the-fly active-learning SSNEB loop that selectively adds DFT labels for images with the largest stress errors and optimizes a stress-weighted loss will reduce the number of VASP-restart SSNEB iterations by at least 50% and yield energy barriers within 0.05 eV of VASP-only results for polymorphic transitions in CsPbI3, MAPbI3, and FAPbI3."
-}

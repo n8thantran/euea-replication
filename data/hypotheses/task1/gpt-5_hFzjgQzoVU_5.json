@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If Fe K-edge XAS spectra and corresponding local iron environments are curated via the proposed semi-automated, expert-validated pipeline (XDIP), then the resulting dataset will both reproduce spectra with low error and high inter-expert agreement and enable ML models to predict spectra from structure and infer coordination number and mean nearest-neighbor distance from spectra, because the curation preserves accurate and consistent structure\u2013spectrum mappings."
-}

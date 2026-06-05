@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Within NN-BAX, selecting as the next simulator query the NEB image with the highest ensemble-predicted variance in forces perpendicular to the path, instead of uniformly sampling along the path, will reduce the number of expensive function evaluations required to achieve \u22641% energy-barrier error by at least 30% on reaction paths with two or more intermediate minima."
-}

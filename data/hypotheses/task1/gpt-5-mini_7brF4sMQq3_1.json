@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a single classifier-free score-based diffusion model is trained only on metastable-state molecular dynamics data and used with score-based interpolation during reverse diffusion followed by Score-Aligned Ascent refinement, then the ASTRA workflow will generate high-committor, saddle-point transition-state configurations across toy potentials, peptide conformational changes, protein folding, and chemical reactions without transition-state training examples, because the interpolated conditional scores approximate the reaction coordinate and SAA projects forces to maximize energy along that coordinate while minimizing orthogonal motion."
-}

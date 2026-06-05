@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If given interactive control of experiments and limited pressure/QCM sensor feedback, capable LLM agents (e.g., gpt-5-class) will discover hidden experimental rules and correctly infer underlying chemical reaction mechanisms and process classifications (ALD, ALE, passivation, CVD) within the allotted experimental budget because they can design and interpret targeted perturbations that reveal kinetics and surface interactions."
-}

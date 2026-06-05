@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If material synthesis procedures are extracted from papers using the o4-mini model with one-shot prompting that includes a complex in-context example, then collection rate and structural/parametric F1 will exceed those of GPT-4.1, GPT-4.1 mini, and zero-shot prompting because richer demonstrations better ground PROV-DM node/edge structures and attributes."
-}

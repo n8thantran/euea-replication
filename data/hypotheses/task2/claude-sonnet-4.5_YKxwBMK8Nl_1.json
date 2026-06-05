@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating domain-specific ontology graphs as intermediate reasoning structures between document preprocessing and LLM extraction will improve F1 scores by at least 20% for hierarchical nanomaterial property extraction tasks, as graph-based representations will enable agents to explicitly model the compositional dependencies (e.g., metal \u2192 oxide \u2192 morphology \u2192 catalytic activity) that current single-pass text-to-JSON approaches systematically fail to capture."
-}

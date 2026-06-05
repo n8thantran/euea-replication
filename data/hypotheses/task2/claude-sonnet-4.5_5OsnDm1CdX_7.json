@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating graph-level geometric and topological features derived from the reactor configuration (e.g., chamber aspect ratio, electrode spacing, gas flow patterns) as additional graph attributes will improve etching rate predictions for multi-gas mixtures beyond three components, where purely chemistry-based node features become insufficient to capture spatially-dependent plasma transport effects."
-}

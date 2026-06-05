@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating multi-scale microstructural constraints (e.g., fiber orientation distributions, interfacial bonding characteristics, and spatial clustering patterns of fillers) as physics-informed priors in the diffusion process will enable PCDiff to generate composite designs that simultaneously optimize mechanical anisotropy and interfacial load transfer efficiency, thereby reducing the gap between computationally designed and experimentally fabricated composite performance by at least 30%."
-}

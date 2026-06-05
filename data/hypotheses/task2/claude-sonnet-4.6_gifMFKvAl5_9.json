@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating a Dirichlet-process-based noise schedule into the forward diffusion process\u2014replacing the standard Gaussian noise with Dirichlet-distributed perturbations that inherently respect the simplex geometry of compositional data\u2014will simultaneously eliminate the need for explicit non-negativity and sum-to-one regularization terms while producing generated composite compositions with higher validity and coverage than PCDiff's penalty-based approach, because the intrinsic support of the Dirichlet distribution is the probability simplex, making physical constraint violations structurally impossible rather than merely discouraged."
-}

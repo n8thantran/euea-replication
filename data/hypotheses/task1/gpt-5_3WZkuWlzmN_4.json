@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If a material property predictor jointly encodes crystal graphs, RoboCrystallographer text, and simulated XRD spectra and is trained to predict each modality from the others with VIC and contrastive losses, then it will achieve lower MAE on Matbench (band gap, shear modulus, bulk modulus, dielectric, perovskite formation energy) and AFLOW band gap than unimodal graph baselines (CGCNN, CoGN, ALIGNN) because cross-modal supervision leverages complementary structural information to learn more informative representations."
-}

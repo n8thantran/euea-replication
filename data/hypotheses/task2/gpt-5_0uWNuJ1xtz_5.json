@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Training STR-Bamba with an adversarial modality discriminator to enforce encoder invariance across SMILES, SELFIES, InChI, IUPAC, and molecular formula will"
-}

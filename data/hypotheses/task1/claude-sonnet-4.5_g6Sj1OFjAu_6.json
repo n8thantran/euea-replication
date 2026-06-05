@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Incorporating chemical domain knowledge through pretrained periodic table representations and element-aware encoding into a conditional diffusion model will generate more chemically valid and property-targeted catalytic surface compositions than chemically-agnostic generative approaches."
-}

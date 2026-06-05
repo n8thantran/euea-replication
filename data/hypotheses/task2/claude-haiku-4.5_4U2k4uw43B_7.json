@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Machine learning models fine-tuned on transition-state geometries and force distributions from active-learning loops will exhibit systematically lower stress prediction errors during SSNEB convergence compared to untuned pre-trained models, thereby reducing the number of required DFT restart iterations by more than 50% while maintaining energy barrier accuracy within 0.05 eV of pure DFT calculations."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Equipping the multi-agent framework with a persistent structured memory that encodes domain heuristics and episodic records of prior runs will, on a held-out benchmark of zeolite adsorption tasks and papers with unconventional parameter tables, raise multi-adsorbate heat-of-adsorption setup success to at least 95% and increase force-field extraction IoU to 0.95 or higher relative to the same system without memory."
-}

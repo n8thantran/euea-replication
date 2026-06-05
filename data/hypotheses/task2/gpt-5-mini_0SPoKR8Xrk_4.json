@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Allowing lateral mobility of surface interaction sites (e.g., mobile ligands on a SAM) will increase the sequence-dependence of polymer adhesion such that the variance in binding free energy (\u2206F) across different polymer sequences at fixed overall surface composition increases by at least 30% compared to equivalent immobile surfaces."
-}

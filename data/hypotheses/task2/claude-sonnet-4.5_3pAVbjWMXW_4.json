@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating a contrastive learning objective that explicitly penalizes encoder representations of mixture spectra for similarity to non-target component spectra will improve minority component detection accuracy by at least 15% for target compounds comprising \u226420% of binary mixtures compared to the current reconstruction-based alignment approach."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Augmenting CompGen with explicit geometric descriptors of the adsorption site\u2014surface facet type, adsorption motif (atop/bridge/hollow), and mean first-shell metal\u2013adsorbate distance\u2014as additional conditioning signals will improve the fidelity and transferability of shell-wise compositions to unseen HEA surfaces, evidenced by lower Fr\u00e9chet distance and leakage and higher cosine similarity on held-out tasks."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating explicit protein binding site information during LoQI's diffusion process will enable direct generation of bioactive conformers that better match experimentally observed bound states, reducing the median RMSD to crystal structures below 0.30 \u00c5 while maintaining stereochemical accuracy above 0.95."
-}

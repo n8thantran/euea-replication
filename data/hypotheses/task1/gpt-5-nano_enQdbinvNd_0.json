@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If the multi-agent LLM-based framework is used to both extract force-field parameters from published literature and configure adsorption isotherm simulations across diverse zeolites and adsorbates, then the extracted parameters and simulation inputs will be correct and reproducible across independent runs and the resulting adsorption isotherms and heats of adsorption will agree with manual baselines and published data, because the agents have access to force-field libraries, example input files, and mechanisms for cross-checking against original publications."
-}

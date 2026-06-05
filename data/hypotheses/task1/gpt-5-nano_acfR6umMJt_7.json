@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "NN-BAX NEB using a fine-tuned EquiformerV2 to guide NEB calculations for LJ7 and LJ38 will produce minimum energy paths that closely match ground-truth MEPs obtained by classical NEB (as measured by MAEi and fmax within predefined tolerances) while reducing computational cost relative to running the expensive simulator."
-}

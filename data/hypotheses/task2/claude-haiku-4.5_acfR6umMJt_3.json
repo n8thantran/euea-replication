@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "The NN-BAX method will exhibit diminishing returns in speedup efficiency as the chemical complexity and dimensionality of systems increases beyond Lennard-Jones clusters, because the pre-trained EquiformerV2 foundation model's capacity to generalize from OMat24 materials data to increasingly dissimilar potential energy landscapes will degrade faster than the active learning component can compensate through targeted fine-tuning iterations."
-}

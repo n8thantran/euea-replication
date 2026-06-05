@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If the multimodal contrastive model trained to align SMILES strings with 3D electron-density grids learns pose-invariant representations, then retrieval accuracy for rotated molecules will equal that for unrotated molecules, demonstrating rotation-invariance of the learned embedding space."
-}

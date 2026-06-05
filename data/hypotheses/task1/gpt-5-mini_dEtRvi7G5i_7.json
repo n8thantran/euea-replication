@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Metal lattices selected by a machine-learning model trained on template-substituted prototypes\u2014using features including strong interstitial electron localization\u2014will yield thermodynamically stable metal superhydrides upon DFT validation, and those lattices that also exhibit three-dimensional electronic connectivity, high hydrogen content, and substantial hydrogen-derived density of states at the Fermi level will display strong electron-phonon coupling and high superconducting transition temperatures under high pressure."
-}

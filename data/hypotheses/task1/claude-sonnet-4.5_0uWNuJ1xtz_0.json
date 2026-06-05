@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "A hybrid encoder-decoder architecture combining Transformer and Mamba-2 layers trained on multiple molecular representations will produce a unified latent space that enables accurate cross-modal translation and improves molecular property prediction compared to single-representation approaches."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Novel Hypothesis:\n\nThe negative correlation between internal diversity and filter-passing rate in CTF generation can be exploited by implementing a two-stage reinforcement learning strategy where an initial exploration phase maximizes diversity to map the viable chemical space, followed by an exploitation phase that uses the discovered high-reward regions as dynamic seed sets, resulting in higher filter-passing rates than single-stage RL while maintaining sufficient structural novelty for materials discovery."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Models trained with explicit multi-modal contrastive objectives that align representations across molecular, materials, and protein domains during training will exhibit significantly higher cross-domain alignment and improved out-of-distribution generalization compared to single-modality models, even when controlling for model capacity and dataset diversity."
-}

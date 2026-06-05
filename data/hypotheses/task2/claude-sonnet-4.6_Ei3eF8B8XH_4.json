@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit solvent molecule interactions through a hybrid implicit-explicit solvation scheme during ChEMBL3D dataset construction\u2014where a small shell of discrete water molecules is included around hydrogen-bond donor/acceptor sites prior to AIMNet2 optimization\u2014will yield conformer ensembles that better predict bioactive bound conformations in protein-ligand crystal structures, reducing median RMSD on the Platinum Diverse benchmark below 0.35 \u00c5 at ensemble size N=250 compared to the current 0.45 \u00c5 achieved with pure implicit CPCM solvation."
-}

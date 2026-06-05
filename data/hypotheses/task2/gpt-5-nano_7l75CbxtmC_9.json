@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit energy consumption and purification-cost models into the economic-efficiency metric will produce a threshold energy-price at which the CaO+SiO2 synthesis route ceases to be cost-effective and alternative, higher-energy pathways (e.g., Ca3SiO5+SiO2 or Ca3SiO5+Si3N4) become the optimal synthesis choices for Ca2SiO4."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a pre-trained eSEN model with a small targeted DFT dataset of \u2264100 NEB-pathway images that includes explicit stress tensors and employs a loss function weighting stress twice as heavily as energy will reduce the RMSE of predicted stress components by \u226550% and decrease the number of VASP-restart SSNEB iterations to convergence by \u226530% for both CsPbI3 and TiO2 transition pathways."
-}

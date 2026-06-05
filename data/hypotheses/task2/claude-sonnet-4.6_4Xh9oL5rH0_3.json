@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "The systematic softening of potential energy surfaces in uMLIPs trained predominantly on near-equilibrium configurations causes underestimation of phonon frequencies at zone boundaries in MOFs with flexible hinged linkers, and therefore models trained on OMat24's non-equilibrium data will show disproportionately greater improvement in predicting dynamic mechanical properties (such as negative thermal expansion coefficients and framework breathing transitions) compared to static bulk moduli, because these phenomena depend critically on accurate curvature of the PES in directions orthogonal to equilibrium configurations that are sampled only by out-of-equilibrium training data."
-}

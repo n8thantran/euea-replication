@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating a multi-fidelity NN-BAX framework that jointly uses a fast low-fidelity classical force-field surrogate and a high-fidelity DFT surrogate to guide NEB sampling will achieve at least an order of magnitude reduction in high-fidelity energy/force evaluations while preserving the accuracy of the minimum energy path and barrier predictions across Lennard-Jones and real chemical systems."
-}

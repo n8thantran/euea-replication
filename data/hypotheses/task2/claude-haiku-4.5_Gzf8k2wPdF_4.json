@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Adaptive batching algorithms that dynamically select between static and dynamic strategies based on real-time measurements of graph size distribution variance within each epoch will achieve superior training speedups compared to fixed batching strategies across diverse datasets and model architectures."
-}

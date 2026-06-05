@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Bayesian optimization using Thompson sampling with the five polymer representations and three surrogate models will identify BRICS/RECAP-generated polyamines that achieve CO2 adsorption capacity approaching the maximum observed (ymax) within 30 simulation evaluations, starting from 10 labeled samples, even when initial samples are constrained to \u03b3\u00d7ymax with \u03b3 in {0.5, 0.3}."
-}

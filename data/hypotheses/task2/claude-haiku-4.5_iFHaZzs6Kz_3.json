@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Contrastive multimodal alignment with SMILES will induce emergent invariance to conformational changes (non-rigid deformations of molecular geometry) in electron density representations, enabling pose-invariant retrieval across different low-energy conformers of the same molecule without explicit conformer-augmentation during pretraining."
-}

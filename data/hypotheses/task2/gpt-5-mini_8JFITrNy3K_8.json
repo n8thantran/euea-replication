@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "A graph-based model (e.g., a GNN) trained on MatPROV's PROV-DM provenance graphs will predict next experimental operations and their temperature/duration parameters for held-out synthesis procedures with at least a 10% higher F1-score than a state-of-the-art sequence-based model trained on the same procedures linearly serialized."
-}

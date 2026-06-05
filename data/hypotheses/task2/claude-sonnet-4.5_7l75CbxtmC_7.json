@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating real-time kinetic barriers estimated from machine learning models trained on experimental activation energy data will reveal that recipes currently ranked as thermodynamically optimal but economically suboptimal become preferred when synthesis time costs are factored into the economic efficiency metric, particularly for reactions requiring extended high-temperature holds above 1400\u00b0C."
-}

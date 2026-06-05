@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a graph neural network that concatenates frozen features from pre-trained single-gas etch-rate models with gas fractions is used to predict Ar/O2 mixture radial etching rates, then it will generalize with lower error to withheld high power/pressure conditions and to low-Ar-fraction regimes (xAr \u2264 0.2) than monolithic feedforward networks and standard GCN/GAT baselines because the single-gas feature embeddings encode transferable species-specific physics that enables compositional extrapolation."
-}

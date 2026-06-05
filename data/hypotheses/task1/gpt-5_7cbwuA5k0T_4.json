@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If we increase task\u2013tool alignment in scientific LLM agents\u2014by raising task\u2013tool embedding similarity, providing more comprehensive tool/workflow descriptions, or adding a hypothesis generator\u2014then their pass@k, success rate, and average score will improve more than they would from switching the agent scaffold (ReAct vs tool-calling) or base LLM (Claude-3.5 vs GPT-4o), because alignment enables more accurate tool selection and planning."
-}

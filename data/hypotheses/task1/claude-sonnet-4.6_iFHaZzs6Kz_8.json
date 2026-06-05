@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a molecular representation model is trained to align 3D electron density grids with SMILES strings via multimodal contrastive learning, then the resulting 3D embeddings will exhibit emergent pose-invariance to arbitrary molecular rotations without explicit equivariance constraints, because the SMILES modality encodes rotation-free chemical identity and the contrastive objective forces the 3D encoder to learn representations that capture chemically meaningful features rather than orientation-specific spatial information."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Generative models trained on Kekulized molecular representations will exhibit improved transfer performance and generalization to out-of-distribution molecules compared to models trained on aromatic representations, because explicit single/double bond patterns reduce the ambiguity in valency constraints that models must learn."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating explicit conformational entropy descriptors derived from MD-sampled polymer chain configurations into the molecular embeddings will improve Bayesian optimization performance for branched polyamine discovery by 30% compared to sequence-based embeddings alone, particularly when initial labeled data contains structurally diverse but low-performing samples (\u03b3 < 0.3)."
-}

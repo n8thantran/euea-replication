@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Augmenting PCDiff with a differentiable micromechanics surrogate trained on FEA simulations as an explicit physics loss during the reverse diffusion process will produce generated composite compositions that increase fabrication-validity (Validityfab) and reduce FEA-evaluated property error to target values compared to the original PCDiff that enforces only non-negativity and sum-to-one constraints."
-}

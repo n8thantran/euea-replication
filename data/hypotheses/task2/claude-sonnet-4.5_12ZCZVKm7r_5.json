@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nThe degree of representational alignment between scientific foundation models trained on small molecules versus materials will predict their transferability for modeling intermediate chemical systems (e.g., metal-organic frameworks, coordination complexes, or surface-adsorbed molecules), with alignment scores above a critical threshold (CKNNA > 0.65) indicating successful cross-domain transfer without additional fine-tuning."
-}

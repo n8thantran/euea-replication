@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating dynamically weighted cross-modal prediction objectives based on modality-specific information content will improve X-MoPA's performance on properties with asymmetric modality relevance (e.g., magnetic properties more dependent on local coordination than XRD patterns), as measured by a reduction in MAE exceeding 10% compared to the uniform prediction loss weighting used in the current architecture."
-}

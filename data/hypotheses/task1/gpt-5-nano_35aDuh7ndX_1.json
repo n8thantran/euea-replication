@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If FREED++ optimizes a dual-objective reward that maximizes pharmacophoric similarity to a reference set of 53 estrogen receptor antagonists/degraders and minimizes structural similarity to known compounds, then the generated molecules will achieve high pharmacophore alignment with ER antagonists/degraders while remaining novel relative to ChEMBL, ZINC, and PubChem, and will exhibit favorable docking scores, QED, and synthetic accessibility."
-}

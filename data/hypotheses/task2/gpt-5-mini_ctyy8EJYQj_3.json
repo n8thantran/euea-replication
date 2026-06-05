@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Augmenting the LLM-guided synthesis planner with a neural surrogate trained to predict CALPHAD equilibrium phase fractions and JMA kinetic evolution will enable the agent to solve multi-phase Nb\u2013O synthesis challenges (e.g., Challenge 2 and Challenge 3) with \u226580% success over 10 trials while reducing the number of full physics-simulator calls by \u226550% relative to the original LLM agent."
-}

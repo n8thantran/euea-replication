@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If the hidden-state embeddings from diverse scientific foundation models for molecules, materials, and proteins converge to a universal latent representation, then cross-model similarity measured by CKNNA and IDCor will be high across architectures and modalities and will be stronger for in-distribution data (QM9, sAlex, OMat24) than for out-of-distribution data (OMol25), indicating a shared, architecture- and modality-agnostic representation of matter."
-}

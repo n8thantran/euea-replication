@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Machine learning models trained on curated Fe K-edge XAS spectra paired with local atomic structure information can accurately predict both iron coordination environments from spectra and XAS spectra from structural features because systematic digitization and annotation of literature data provides sufficient training examples with validated ground truth."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Applying the ensemble-consensus semi-supervised objective only to external unlabeled molecules whose ensemble prediction variance falls below a tuned threshold will yield higher downstream test accuracy and improved calibration on the target molecular dataset than (a) applying the consensus loss to all external unlabeled examples or (b) training on labeled data only."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If protein sequence design and structure prediction are trained jointly end-to-end in a discrete stochastic autoencoder with structural reconstruction losses, then the model will generate sequences that recover native residues and fold back to target backbones with higher TM-scores/lower RMSDs\u2014and predict structures more accurately\u2014than decoupled baselines like ProteinMPNN+Boltz-2, because joint optimization enforces sequence\u2013structure self-consistency."
-}

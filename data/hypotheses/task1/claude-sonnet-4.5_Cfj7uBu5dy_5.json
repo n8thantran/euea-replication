@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Combining a generative structure model (MatterGen) with diversity-based acquisition will discover more novel stable materials than random structure generation with random acquisition because the generative model produces chemically plausible candidates and diversity-based selection efficiently explores the composition space."
-}

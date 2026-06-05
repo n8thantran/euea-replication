@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Pre-trained MLIP models trained on neutral organic molecules will exhibit systematic degradation in force prediction accuracy when applied to biomolecular systems containing transient non-covalent interactions (hydrogen bonds, salt bridges) that are underrepresented in the SPICE2 training distribution, leading to accumulated trajectory errors that scale non-linearly with simulation length."
-}

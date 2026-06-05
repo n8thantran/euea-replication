@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Multi-agent systems equipped with persistent episodic memory that tracks force field selection outcomes and simulation accuracy across diverse material-adsorbate combinations will demonstrate superior generalization to novel porous material systems compared to agents without memory, as measured by reduced parameter extraction errors and improved prediction of simulation convergence requirements."
-}

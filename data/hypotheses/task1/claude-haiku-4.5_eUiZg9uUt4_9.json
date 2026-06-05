@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Single-step retrosynthesis models exhibit significant performance degradation on reactions with unseen templates compared to reactions with seen templates, and this degradation is caused by dataset bias rather than fundamental limitations in model architecture."
-}

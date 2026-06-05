@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If pre-training on large chemical datasets (ChEMBL or ZINC-15) and fine-tuning on a curated Covalent Triazine Framework dataset, coupled with reinforcement learning guided by expert-defined rewards for molecular flatness, symmetry, conjugation, steric hindrance, and pattern matching, then the generated CTF candidates will show higher validity, uniqueness, internal diversity, and novelty, and a higher percentage of candidates passing expert filters (with a lower Fr\u00e9chet ChemNet Distance) than configurations without such transfer learning and reward shaping, because transfer of broad chemical knowledge plus domain-specific objective guidance biases generation toward chemically plausible, desirable CTF structures."
-}

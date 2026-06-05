@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "High task-tool alignment yields greater improvements in scientific LLM agent performance (pass@5, average score, and success rate) across tasks and environments than changes in the agent framework (ReAct vs tool-calling) or the language model (Claude-3.5 Sonnet vs GPT-4o)."
-}

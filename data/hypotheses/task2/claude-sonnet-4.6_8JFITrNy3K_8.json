@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a domain-specific language model on MatPROV's PROV-DM graph representations will yield higher structural-level F1-scores for synthesis procedure extraction than the best-performing prompted general-purpose model (o4-mini with one-shot prompting, F1 \u2248 0.835), and this performance gain will be disproportionately larger for complex procedures containing branching or converging subgraphs (\u226515 nodes) compared to linear procedures (<10 nodes), because exposure to diverse graph topologies during fine-tuning specifically improves the model's ability to resolve non-sequential causal dependencies that prompt engineering alone cannot adequately convey."
-}

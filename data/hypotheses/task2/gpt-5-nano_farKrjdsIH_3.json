@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Real-time SAM-EM\u2013driven closed-loop control of electron dose rate and/or ionic strength in LPTEM, guided by instantaneous trajectory statistics (e.g., MSD and velocity autocorrelation), will yield higher crystalline order and fewer defects in nanoparticle self-assemblies within the same acquisition time than equivalent open-loop experiments with fixed parameters."
-}

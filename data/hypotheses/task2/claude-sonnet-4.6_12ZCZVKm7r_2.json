@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "If equivariance-inducing training regularization (such as equigrad) causes non-equivariant models to converge toward the same representational manifold as architecturally equivariant models, then systematically interpolating the strength of this regularization during training will produce a monotonic increase in cross-architecture representational alignment that saturates at a level indistinguishable from fully equivariant models, with the saturation point occurring at lower regularization strength for larger, more data-diverse training sets\u2014a relationship that can be tested by training a series of Orb-style models with varying equigrad coefficients across multiple dataset scales and measuring their CKNNA alignment with MACE-class models."
-}

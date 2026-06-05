@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating a confidence-weighted reward signal derived from Thermo-Calc's phase prediction uncertainty\u2014estimated via ensemble perturbation of input compositions near the boundaries of the TCHEA7 database coverage\u2014into the DPO preference pairs will reduce reward hacking and improve generalization to experimentally validated BCC/B2 compositions compared to using unweighted scalar rewards, particularly for multi-element alloys in sparsely characterized compositional regions where CALPHAD predictions are least reliable."
-}

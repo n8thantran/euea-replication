@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If the chemically grounded evaluation framework is valid, then it will reliably distinguish high-quality generated crystal structures from perturbed or low-quality ones by showing that structures produced by diffusion models trained on MP/OQMD exhibit significantly lower DFT-relaxed RMSD, lower energy-above-hull (SUN \u2264 0.1 eV/atom), closer property-distribution matches (low EMD for density and formation energy) and higher latent precision/recall than perturbed controls, with all metric scores degrading monotonically as perturbation scale increases."
-}

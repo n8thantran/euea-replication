@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating molecular charge as an input feature into the MLIP framework\u2014as noted in the roadmap\u2014will disproportionately improve MD simulation stability for charged organic systems compared to its effect on static energy and force prediction accuracy, such that models trained on neutral systems but augmented with a charge-conditioning mechanism will exhibit measurably lower trajectory divergence rates on charged drug-like molecules than models retrained from scratch on charge-inclusive datasets of equivalent size."
-}

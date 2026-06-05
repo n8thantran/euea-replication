@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Machine learning models can predict iron K-edge X-ray absorption spectra from local atomic structure around iron centers in proteins, and conversely predict local structural properties from experimental XAS spectra."
-}

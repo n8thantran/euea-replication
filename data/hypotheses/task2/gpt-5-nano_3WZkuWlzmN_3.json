@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Adding a latent-space cross-modal imputation objective that reconstructs a missing modality\u2019s latent representation from the remaining two modalities during training will improve downstream property prediction accuracy when one modality is absent at inference, with the improvement scaling with the rate of missing modalities."
-}

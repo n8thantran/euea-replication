@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating multi-state conformational ensembles during training of the E2EFOLD decoder will improve both the accuracy of structure prediction for designed sequences and the self-consistency of sequence design, as the model will learn to account for backbone flexibility rather than assuming a single rigid structure per sequence."
-}

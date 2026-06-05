@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating physics-informed regularization terms derived from Langevin dynamics into the SAM-EM fine-tuning loss function will improve segmentation accuracy under extreme low-SNR conditions (liquid thickness >160 nm) by constraining predicted particle trajectories to physically plausible diffusion pathways, thereby reducing false positive detections and identity switching events during multi-particle tracking."
-}

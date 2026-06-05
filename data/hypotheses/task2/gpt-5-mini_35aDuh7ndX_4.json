@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "In de novo design targeting the alpha estrogen receptor, augmenting the FREED++ reward with an ensemble-derived protein 3D-pharmacophore consensus map combined with ligand-based CATS descriptors will produce molecules whose mean docking score across multiple receptor conformations is at least 1 kcal/mol more favorable and whose in vitro binding hit-rate (fraction with KD < 1 \u03bcM) is higher than that of molecules generated using ligand-only CATS-guided rewards."
-}

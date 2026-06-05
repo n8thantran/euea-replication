@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating a temperature-dependent weighting scheme into the DPO reward function\u2014where thermodynamic viability at higher operational temperatures (>1500K) is prioritized over room-temperature stability\u2014will shift the learned distribution toward BCC/B2 alloys with enhanced high-temperature mechanical performance while maintaining comparable design space coverage to uniform temperature weighting."
-}

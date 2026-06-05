@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Larger language model encoders combined with deeper decoder architectures will enable more accurate translation of natural language descriptions into optical multilayer designs that achieve lower color reproduction error across both linguistic and optical variations."
-}

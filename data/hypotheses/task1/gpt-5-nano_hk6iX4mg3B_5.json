@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If an ensemble-consistency semi-supervised objective with a tuned coupling weight gamma is used to train an ensemble of graph neural networks on molecular datasets, then it will achieve lower prediction error and better calibration than supervised baselines and mean-teacher methods, with larger benefits observed as the ensemble size increases, because enforcing agreement with the ensemble mean reduces variance from limited labels and stabilizes predictions."
-}

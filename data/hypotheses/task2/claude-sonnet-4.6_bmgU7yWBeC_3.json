@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "If the Force Delta (U\u2206) reflects genuine physical inconsistency in the learned potential energy surface rather than merely statistical noise, then incorporating U\u2206as a differentiable regularization term during fine-tuning of direct-force pre-trained models on domain-specific data will simultaneously reduce the Force Delta magnitude and improve out-of-distribution generalization accuracy relative to standard fine-tuning, because penalizing internal force disagreement during training will constrain the model to learn more physically consistent representations of the potential energy surface in the target chemical domain."
-}

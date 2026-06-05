@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating stereochemical and conformational information through 3D-aware molecular representations\u2014such as encoding torsion angles, chirality descriptors, or conformer-derived fingerprints as an additional textual modality alongside the existing seven representations\u2014will further improve cross-representation alignment in the shared latent space and yield statistically significant performance gains specifically on stereochemistry-sensitive property prediction tasks (e.g., chiral drug bioactivity, enantioselective reaction outcomes) where the current STR-Bamba426M model, trained exclusively on 2D topological notations, is hypothesized to exhibit systematic performance degradation relative to graph-based 3D models such as Uni-Mol."
-}

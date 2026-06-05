@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Closed-loop LPTEM experiments that adjust the electron beam dose rate in real time based on SAM-EM\u2013derived trajectory indicators (e.g., imminent particle overlap inferred from MSD and velocity autocorrelation over a short horizon) will reduce tracking identity switches and beam-induced nanoparticle aggregation, yielding longer uninterrupted trajectories and more accurate MSD estimates than a static-dose protocol."
-}

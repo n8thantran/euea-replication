@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "The performance of LLM agents on scientific tasks is more strongly determined by the semantic alignment between task requirements and available tool descriptions than by the choice of agent framework architecture."
-}

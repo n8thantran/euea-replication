@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating a physics-informed auxiliary loss that penalizes violations of optical reciprocity and energy conservation during training will reduce the generalization gap between training-paraphrase and held-out validation structures by enabling the decoder to learn physically consistent design principles rather than memorizing structure-to-spectrum mappings."
-}

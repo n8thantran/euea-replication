@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Systematic differences in GFN2-xTB relaxation energy between flow-matching and diffusion-based generative models arise primarily from inadequate sampling of torsional degrees of freedom rather than local bond geometry errors, such that increasing the number of inference steps in flow-matching models beyond 100 will selectively reduce torsion angle deviations and close the performance gap with diffusion-based models without proportionally improving bond length or bond angle accuracy."
-}

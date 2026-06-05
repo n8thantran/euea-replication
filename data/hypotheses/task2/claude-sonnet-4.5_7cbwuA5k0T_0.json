@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "The semantic alignment between tools and tasks, as measured by embedding similarity, will predict agent performance more accurately when the task requires multi-step reasoning with interdependent tool sequences than when it requires independent, parallel tool executions."
-}

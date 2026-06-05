@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Pretraining X\u2011MoPA with an auxiliary self\u2011supervised task that requires predicting the full\u2011range XRD latent embedding from only the crystal\u2011graph embedding will force learning of long\u2011range structural correlations and, when transferred to downstream tasks, reduce MAE for dielectric constant and bulk modulus predictions by at least 10% relative to the original X\u2011MoPA."
-}

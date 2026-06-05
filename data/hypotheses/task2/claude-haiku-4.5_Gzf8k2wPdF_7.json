@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Adaptive batching algorithms that dynamically adjust their padding strategy based on real-time monitoring of graph size distribution variance during training will achieve superior speedups compared to static or fixed-budget dynamic batching by reducing unnecessary recompilations while maintaining consistent batch composition for datasets with non-stationary graph size distributions."
-}

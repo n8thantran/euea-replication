@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "LLM agents can autonomously discover unknown process rules and optimal chemical reaction conditions through iterative experimentation when given only sensor feedback and control over experimental parameters."
-}

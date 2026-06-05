@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "LLM agents equipped with uncertainty quantification mechanisms will discover novel chemical processes more efficiently than those without such mechanisms, because explicit representation of confidence levels will reduce path-dependent exploration of low-probability reaction regimes and redirect experimental resources toward high-uncertainty, high-impact regions of the chemical space."
-}

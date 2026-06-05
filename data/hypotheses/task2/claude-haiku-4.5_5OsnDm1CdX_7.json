@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "The inductive generalization capability of GraphSAGE to unseen gas mixtures will degrade predictably as a function of the chemical dissimilarity between training mixtures and test mixtures, measurable by the Tanimoto distance of reaction mechanism overlap between the constituent gases."
-}

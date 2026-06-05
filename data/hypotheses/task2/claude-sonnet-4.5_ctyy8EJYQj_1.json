@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating real-time feedback from intermediate phase detection during LLM-guided synthesis planning will reduce the computational cost of achieving multi-phase target materials by enabling the model to dynamically adjust its strategy when unintended intermediate phases are detected, thereby outperforming both static LLM prompting and classical search methods on challenges requiring traversal through compositionally non-adjacent phases."
-}

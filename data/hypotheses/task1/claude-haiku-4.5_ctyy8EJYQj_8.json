@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Language models augmented with physics-based simulation access can solve inorganic material synthesis planning problems comparably to or better than classical search algorithms despite their stochastic nature."
-}

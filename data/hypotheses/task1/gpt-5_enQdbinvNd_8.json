@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If zeolite adsorption studies are conducted using a specialized, tool-augmented multi-agent LLM framework, then it will reproducibly generate correct, executable RASPA inputs and accurately extract complete literature force-field parameters across increasing task complexity because agent specialization, shared memory, and ReAct-guided tool use enable reliable retrieval, parsing, and configuration."
-}

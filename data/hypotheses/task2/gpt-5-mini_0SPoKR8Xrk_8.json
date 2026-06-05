@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Pretraining the hybrid CNN\u2013GRU\u2013attention model on the coarse-grained polymer\u2013surface dataset presented here and fine-tuning it with no more than 10% of the atomistic MD PMF simulations for realistic polymer\u2013SAM systems will predict atomistic binding free energies with a mean absolute error \u22641 kBT, thereby reducing the number of required atomistic simulations by at least 90% compared to training an equivalent model from scratch."
-}

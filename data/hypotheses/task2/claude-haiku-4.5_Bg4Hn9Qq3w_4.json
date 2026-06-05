@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "LLM agents with access to multi-modal sensor feedback (combining pressure, mass change, and temperature gradients) will discover chemically distinct reaction pathways faster and with higher fidelity than agents relying solely on pressure and mass measurements, because the additional thermal information reduces ambiguity in distinguishing between surface-mediated versus gas-phase decomposition mechanisms."
-}

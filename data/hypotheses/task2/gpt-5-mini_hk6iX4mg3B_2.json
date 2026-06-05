@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Training a coupled ensemble consensus composed of heterogeneous GNN architectures (e.g., PaiNN, GIN, and GatedGCN) will produce individual deployed models that, under a fixed total parameter and compute budget, achieve higher out-of-distribution test accuracy and better calibration (lower NLL and ECE) on an external unlabeled-to-labeled molecular dataset than (i) homogeneous coupled ensembles of identical architecture and (ii) standard decoupled ensembles."
-}

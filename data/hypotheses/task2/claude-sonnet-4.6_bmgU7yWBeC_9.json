@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "If the Force Delta metric (U\u2206) is incorporated as a physics-informed regularization term during fine-tuning of direct-force neural network potentials\u2014penalizing the magnitude of disagreement between conservative and non-conservative force predictions\u2014then the resulting models will exhibit not only reduced Force Delta values but also improved generalization accuracy on out-of-distribution structures compared to models fine-tuned without this regularization, because minimizing internal physical inconsistency during training directly constrains the model to learn a more self-consistent representation of the potential energy surface."
-}

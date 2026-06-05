@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a diffusion model trained only on metastable-state MD data, guided by SBI-based interpolated conditional scores during the reverse SDE and refined by SAA along an approximate reaction coordinate, can sample transition-state configurations and produce committor-like distributions that closely match true transition states, then the ASTRA workflow validates that transition-state sampling is possible without explicit transition-state data and outperforms linear and geodesic interpolation baselines."
-}

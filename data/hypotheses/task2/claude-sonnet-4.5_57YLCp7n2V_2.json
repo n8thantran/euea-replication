@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Valency constraints derived from GFN2-xTB-optimized geometries systematically underestimate the structural diversity of stable molecular conformations accessible at room temperature, leading generative models to produce overly rigid structures that fail to capture the entropic contributions to drug-like molecular behavior."
-}

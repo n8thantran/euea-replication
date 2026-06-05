@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a prompt-tuned ReAct-based LLM agent with tool access to the physics-based Nb\u2013O simulator is used to plan three-step synthesis sequences, then it will achieve higher success rates and visit fewer states (greater computational efficiency) across the four designed synthesis challenges than a discretized A* search using Euclidean heuristics."
-}

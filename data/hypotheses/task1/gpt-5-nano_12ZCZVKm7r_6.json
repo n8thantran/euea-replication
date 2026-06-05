@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If last-layer embeddings from ~50 diverse scientific foundation models trained on molecules, materials, and proteins exhibit high cross-model alignment (CKNNA) and similar intrinsic dimensionality for in-distribution datasets (e.g., OMat24 and sAlex) but show reduced alignment and divergent intrinsic dimensionality for out-of-distribution datasets (OMol25), then universal, architecture-agnostic representations of matter exist."
-}

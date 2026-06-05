@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a specialized, tool-augmented multi-agent LLM framework is applied to molecular simulation setup and literature force-field extraction, then it will autonomously produce accurate, complete, and reproducible RASPA inputs and parameters\u2014and successfully execute end-to-end adsorption simulations using the extracted force fields\u2014because agent specialization, ReAct-based tool use, and shared memory enable reliable parsing, parameter mapping, and configuration across increasing task complexity."
-}

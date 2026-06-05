@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "An ML formation-energy predictor trained on a dataset augmented with DFT-relaxed perturbed structures (including medium and large perturbations) will predict formation energies of generative-model outputs with mean absolute error \u2264 0.08 eV/atom, such that an energy-based Earth Mover\u2019s Distance computed from these surrogate predictions correlates with DFT-based SUN scores at Pearson r \u2265 0.8 across both MP- and OQMD-like chemical domains."
-}

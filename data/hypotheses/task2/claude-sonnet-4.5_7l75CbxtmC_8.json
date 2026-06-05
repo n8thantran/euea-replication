@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating real-time kinetic rate constants derived from temperature-dependent molecular dynamics simulations into the cellular automaton framework will enable prediction of synthesis pathways that minimize both cost and total reaction time, revealing cases where thermodynamically suboptimal routes become economically superior due to significantly faster kinetics at lower processing temperatures."
-}

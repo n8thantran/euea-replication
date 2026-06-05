@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating convolutional 3D charge-density and ELF-derived features of metal lattices into the machine-learning workflow will allow accurate prediction of electron\u2013phonon coupling constants (\u03bb) and superconducting transition temperatures (Tc) for metal superhydrides, achieving mean absolute errors \u22640.15 for \u03bb and \u226420 K for Tc on unseen high-pressure hydride structures and outperforming models built only on atomic, lattice, and compositional descriptors."
-}

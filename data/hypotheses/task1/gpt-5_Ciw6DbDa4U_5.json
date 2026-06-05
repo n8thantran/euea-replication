@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If lattice design\u2013property data are observed sparsely under either uniform or convenience-biased sampling, then low-rank tensor completion surrogate models (e.g., CPD-S/NeAT) will achieve higher R\u00b2 in predicting Young\u2019s modulus and mass-normalized modulus than Gaussian Processes, XGBoost, or MLPs because they exploit the underlying low-rank structure of the design\u2013property tensor."
-}

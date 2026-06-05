@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Using no more than 30 DFT-labeled configurations per system to fit an isotonic regression that maps Force Delta values to direct-force errors will yield calibrated error magnitude predictions with R^2 \u2265 0.8 and mean absolute percentage error \u2264 20% on held-out equilibrium and adversarial structures across both Orb and EquiformerV2 models."
-}

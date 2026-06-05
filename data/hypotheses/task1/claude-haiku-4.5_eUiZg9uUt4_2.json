@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Models trained on datasets with greater template diversity (broad split strategy) will demonstrate superior generalization to out-of-distribution reactions with unseen templates compared to models trained on datasets with limited template coverage (narrow split strategy), because exposure to diverse reaction patterns reduces overfitting to frequent templates."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating a Dirichlet-process-based noise schedule into PCDiff's forward diffusion process\u2014replacing the standard Gaussian noise with noise drawn from a Dirichlet distribution parameterized to respect the simplex geometry of composite compositions\u2014will simultaneously eliminate the need for post-hoc regularization penalties and improve Coverage and Density metrics by at least 15% compared to the current penalty-based PCDiff, because maintaining the sum-to-one constraint as an intrinsic geometric property of the diffusion trajectory rather than an extrinsic soft constraint will prevent constraint violations from accumulating across denoising timesteps and allow the reverse process to explore a richer, more uniform portion of the physically feasible composition space."
-}

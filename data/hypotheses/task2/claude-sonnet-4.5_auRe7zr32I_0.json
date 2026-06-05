@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating multi-objective diversity constraints that dynamically adjust their relative weights based on real-time Pareto front density analysis will enable generative models to maintain uniform exploration across undersampled property-diversity trade-off regions, thereby discovering high-performing molecules in chemical space areas that fixed-threshold diversity constraints systematically neglect."
-}

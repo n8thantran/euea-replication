@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If catalytic surface compositions are generated via a conditional latent diffusion model in a chemically informed autoencoder latent space conditioned on adsorbate identity, target adsorption energy, and allowed elements, then the resulting 2D shell-wise compositions will better match ground-truth distributions and instances (lower Fr\u00e9chet distance, higher cosine similarity) with fewer constraint violations (lower leakage) than a chemically-agnostic baseline, including under limited data, because the chemical prior and conditioning embed physically relevant constraints that guide inverse design."
-}

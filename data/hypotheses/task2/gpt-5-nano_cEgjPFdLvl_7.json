@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Joint diffusion of the simulation cell vectors and atomic coordinates together with an integrated differentiable barostat that targets a specified density will enable AMDEN to generate relaxed, low-energy amorphous structures directly from diffusion with reduced or eliminated need for post-hoc HMC refinement, while maintaining property conditioning across multi-element glasses."
-}

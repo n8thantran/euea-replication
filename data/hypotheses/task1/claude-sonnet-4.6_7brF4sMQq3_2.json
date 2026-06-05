@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a diffusion model trained exclusively on metastable state data is guided during inference by interpolated conditional scores (SBI) and refined via force projection along the approximate reaction coordinate (SAA), then it will generate chemically accurate transition state structures without requiring any transition state training data, because the interpolated score functions implicitly encode the reaction pathway geometry and the ascent procedure drives configurations toward the true saddle point region."
-}

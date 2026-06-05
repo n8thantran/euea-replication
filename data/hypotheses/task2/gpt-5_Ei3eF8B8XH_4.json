@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Adding protein-pocket conditioning via a 3D grid of steric and electrostatic fields to LoQI will reduce the median heavy-atom RMSD to crystallographic bound ligand conformations on the Platinum Diverse dataset by at least 20% relative to the unconditioned model when generating 250 conformers per ligand."
-}

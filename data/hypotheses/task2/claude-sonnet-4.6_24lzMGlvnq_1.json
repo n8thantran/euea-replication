@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "If the \u03b2 parameter in DPO is dynamically adjusted per training example based on the Thermo-Calc confidence or database coverage for the specific alloy composition being evaluated\u2014rather than fixed uniformly at 0.5\u2014then preference tuning will produce greater reward improvement across all model architectures, including OLMo, by preventing over-steering on domain-critical tokens in low-coverage compositional regions while allowing stronger updates in well-characterized regions of the alloy design space."
-}

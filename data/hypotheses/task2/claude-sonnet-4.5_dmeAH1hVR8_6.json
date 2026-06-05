@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating topology-aware positional encodings that explicitly encode RCSR topology codes from MOFid representations will enhance LLM prediction accuracy for MOF properties more effectively than relying solely on SMILES-based ligand and node embeddings, particularly for properties sensitive to framework connectivity such as mechanical stability and anisotropic gas diffusion."
-}

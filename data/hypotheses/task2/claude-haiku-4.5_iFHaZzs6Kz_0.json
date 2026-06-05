@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Contrastive multimodal alignment with conformationally flexible symbolic descriptors (e.g., non-canonical SMILES or IUPAC names representing multiple valid tautomeric or stereoisomeric forms) will degrade emergent SO(3) invariance more severely than alignment with rigid symbolic anchors, revealing that the invariance mechanism depends critically on the stability of the semantic anchor rather than the intrinsic properties of the 3D encoder."
-}

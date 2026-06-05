@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating time-dependent constraint relaxation into the physics-constrained diffusion process\u2014where non-negativity and sum-to-one penalties are gradually weakened during early diffusion timesteps and progressively strengthened toward the final generation step\u2014will enable discovery of novel composite compositions in previously unexplored regions of the design space while maintaining physical validity, thereby increasing both the diversity (Coverage) and novelty of generated lightweight composites beyond the 19.6% Coverage achieved by the current fixed-weight regularization approach."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Pre-training large language models on chemical corpora derived from MOF-related literature and PubChem structural data will improve prediction accuracy of material properties for metal-organic frameworks compared to models trained only on task-specific data, particularly in low-resource fine-tuning scenarios."
-}

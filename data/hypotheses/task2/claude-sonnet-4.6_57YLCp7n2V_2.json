@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Systematic differences in GFN2-xTB relaxation energy (\u2206Erelax) between flow-matching and diffusion-based generative models reflect fundamentally different learned geometric priors\u2014specifically, that flow-matching models generate structures with systematically larger torsion angle deviations but smaller bond length errors compared to diffusion models\u2014and retraining flow-matching models with a torsion-angle-aware loss term derived from the GFN2-xTB energy surface will close the observed performance gap without sacrificing the sampling efficiency advantage of flow-matching approaches."
-}

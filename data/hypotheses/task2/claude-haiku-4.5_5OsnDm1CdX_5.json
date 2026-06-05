@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "The inductive generalization capability of GraphSAGE will degrade predictably as a function of compositional distance from the training mixture space, such that prediction accuracy for ternary or higher-order mixtures will correlate with the Euclidean distance of their composition vectors from the convex hull of binary mixture training compositions."
-}

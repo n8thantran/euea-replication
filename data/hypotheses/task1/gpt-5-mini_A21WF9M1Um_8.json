@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If crystal structures are perturbed by realistic lattice (\u03c3l) and coordinate (\u03c3c) noise, then gradient-descent optimization of XRD-similarity losses (negative cosine similarity, MSE, negative entropy) will fail to reliably recover the ground-truth structures (low Match Rate), even when enforcing space-group symmetry via projected gradient descent, because the XRD loss landscape is highly nonconvex and populated with many local minima that trap gradient-based optimizers."
-}

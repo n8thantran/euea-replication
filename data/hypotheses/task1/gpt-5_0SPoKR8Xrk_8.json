@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a hybrid model that encodes surfaces with a 2D CNN and polymers with a GRU and integrates multi-head attention is trained on high-throughput MD-derived binding data with symmetry-aware augmentation, then it will predict binding free energies for unseen polymer\u2013surface pairs with lower mean absolute error than baseline architectures because the attention-linked, symmetry-consistent representations better capture the spatial\u2013sequence interactions governing adhesion."
-}

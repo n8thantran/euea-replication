@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Machine learning-guided closed-loop optimization can systematically identify optimal operating conditions that maximize reactor yield (product formation rate normalized by total current) in reactive carbon electrolyzers more efficiently than traditional experimental approaches."
-}

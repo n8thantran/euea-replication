@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If chemical articles are processed with a single-agent pipeline that converts PDFs to structure-preserving markdown and captions figures, then end-to-end extraction F1 on ChemX nanozyme and chelate-complex datasets will exceed that of GPT-5/GPT-5 Thinking, the ChatGPT Agent, and domain-specific multi-agent systems because preserving document structure and avoiding cross-agent handoffs reduces parsing errors and improves schema compliance."
-}

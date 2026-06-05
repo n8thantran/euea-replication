@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating explicit electronic structure descriptors (d-band center, local density of states) as additional conditioning variables in CompGen's latent diffusion model will enable inverse design of catalytic surfaces with sub-0.1 eV precision in target adsorption energies, outperforming composition-only conditioning by reducing the degeneracy between distinct local atomic arrangements that yield similar ensemble compositions but different electronic properties."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Silicon-based anode materials with invariant Li+ migration channel dimensions across lithiation cycles will exhibit superior electrochemical performance only if the alloying elements simultaneously stabilize the host framework against amorphization during repeated delithiation, such that channel invariance correlates with crystallographic order retention rather than serving as an independent predictor of cycle life."
-}

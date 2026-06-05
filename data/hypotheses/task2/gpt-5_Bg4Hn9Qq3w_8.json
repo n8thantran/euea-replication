@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "In the ALP reactor simulation (configuration III), coordinating three independent LLM agents with distinct decoding"
-}

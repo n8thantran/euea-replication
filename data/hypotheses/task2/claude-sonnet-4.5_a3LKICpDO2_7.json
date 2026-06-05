@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "\u0394-learning models trained on the difference between GFN1-xTB and hybrid DFT (HSE06) band gaps will exhibit improved transferability to predict band gaps in hypothetical MOFs containing f-block lanthanide metals, which were underrepresented in the training dataset, compared to direct prediction models trained solely on HSE06 data."
-}

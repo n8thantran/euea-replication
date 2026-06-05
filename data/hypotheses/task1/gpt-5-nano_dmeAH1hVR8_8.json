@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a large language model is pre-trained on MOF-related articles and PubChem structural data and subsequently fine-tuned on MOF property tasks using MOFid-based text representations, then it will achieve lower MAE on band-gap and gas-adsorption predictions than baseline models, with larger gains in low-resource (1K\u201310K samples) fine-tuning scenarios."
-}

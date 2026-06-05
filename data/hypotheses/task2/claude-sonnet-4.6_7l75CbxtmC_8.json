@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating real-time commodity price feeds and geopolitical supply-chain risk indices as dynamic input variables into the analysis module will reveal that the economically optimal synthesis route for Ca2SiO4 shifts from CaO+SiO2 to Ca3SiO5-based recipes at a predictable CaO price threshold, and that training a time-series forecasting model on historical reagent price data will allow the workflow to anticipate these crossover points at least 90 days in advance with sufficient accuracy to provide actionable procurement recommendations."
-}

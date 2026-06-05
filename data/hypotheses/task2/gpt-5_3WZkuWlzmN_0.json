@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating stochastic modality dropout during X-MoPA pretraining together with a subset-invariance consistency loss will reduce the relative MAE increase caused by ablating any one modality at inference to no more than 5% on the Matbench band gap and bulk modulus"
-}

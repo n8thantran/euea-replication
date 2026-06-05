@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "LLMs pre-trained on domain-specific chemical corpora will demonstrate superior transfer learning performance to out-of-distribution MOF properties (e.g., thermal stability, mechanical strength, water stability) not represented in the QMOF or hMOF training datasets, compared to models pre-trained only on general chemical data."
-}

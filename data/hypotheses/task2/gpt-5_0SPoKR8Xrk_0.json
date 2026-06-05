@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "For coarse-grained polymers and patterned surfaces at fixed composition and monomer\u2013surface interaction strengths, the adhesive binding free energy reaches a maximum when the polymer sequence correlation length equals the surface pattern correlation length (\u03bepoly/\u03besurf \u2248 1) and declines as this ratio deviates from unity."
-}

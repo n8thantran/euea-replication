@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "In tri-gas ICP etching of PMMA with Ar/O2/N2, augmenting the frozen single-gas\u2013encoder GraphSAGE with physically informed pairwise edge features (e.g., differences in electron affinity and estimated dominant reaction rate constants) will increase out-of-distribution etch-rate prediction accuracy by \u22650.05 absolute R2 compared to a composition-only GraphSAGE on a Testgrid-style split when trained on \u226410% of the available mixture PBM data."
-}

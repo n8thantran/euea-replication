@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If ML-based evaluation metrics (property-based and latent-space metrics) are used alone to assess generative materials models, then they will fail to accurately capture true physicochemical stability and validity compared to DFT-grounded simulation metrics (RMSD and SUN), because ML proxies lack the quantum mechanical rigor necessary to distinguish structurally plausible but energetically unstable materials from genuinely stable novel structures."
-}

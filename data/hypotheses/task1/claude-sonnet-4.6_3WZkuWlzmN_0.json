@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If crystal material property prediction integrates complementary information from graph-structural, text-descriptive, and X-ray diffraction spectral modalities through cross-modal predictive learning in a shared latent space, then the resulting multimodal model will achieve lower mean absolute error on benchmark crystal property prediction tasks than unimodal baselines such as CGCNN and ALIGNN, because each modality captures distinct physicochemical features that together provide a more complete representation of the material's structure-property relationships."
-}

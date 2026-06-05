@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Polymers with the same total amine density that incorporate a moderate branching density (25\u201340% of monomer units as branch points), increase tertiary-amine fraction to 20\u201335%, and include hydrophobic spacers of 2\u20134 methylene units between amine sites will exhibit at least 20% higher equilibrium CO2 uptake at 298 K and 0.4 mbar under 50% relative humidity than equivalent linear polymers lacking these features due to reduced competitive H2O binding."
-}

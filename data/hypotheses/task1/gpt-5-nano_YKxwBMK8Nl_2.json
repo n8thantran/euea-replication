@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If the novel single-agent extraction pipeline is used, then the end-to-end extraction F1 score across all dataset features for nanozymes and chelate complexes will be higher than those achieved by baseline GPT-5, GPT-5 Thinking, ChatGPT Agent, and domain-specific multi-agent systems, because the pipeline enforces structured markdown output and integrates multimodal image captioning to improve schema compliance and reduce information loss."
-}

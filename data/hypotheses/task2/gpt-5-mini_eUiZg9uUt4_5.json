@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Training template-free retrosynthesis models with loss re-weighting inversely proportional to reaction-template frequency will increase their top-10 accuracy on out-of-distribution (unseen-template) test sets (e.g., Pistachio OOD) by at least threefold compared to identical models trained without re-weighting, while reducing top-1 round-trip accuracy by no more than 5%."
-}

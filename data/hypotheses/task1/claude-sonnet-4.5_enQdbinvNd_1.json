@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Large language model-based multi-agent systems can autonomously perform complex molecular simulation workflows by decomposing tasks into specialized agents that coordinate to set up simulation inputs and extract force field parameters from scientific literature."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Flow-matching-based molecular generative models exhibit systematically larger geometric deviations from GFN2-xTB-optimized structures than diffusion-based models because flow-matching's deterministic ordinary differential equation trajectories are more sensitive to errors in learned force fields during intermediate timesteps, whereas diffusion models' stochastic differential equation formulation provides implicit regularization through noise injection that dampens propagation of geometric distortions."
-}

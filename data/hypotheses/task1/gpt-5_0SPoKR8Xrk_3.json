@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If polymer surface lattices and polymer sequences are encoded with a 2D-CNN and a GRU and fused via multi-head attention and trained on MD-derived PMF labels with symmetry-based augmentation, then the model will predict polymer\u2013surface binding free energies with significantly lower MAE than baseline DNNs and alternative polymer encoders because attention-based fusion and invariance enforcement capture the spatial and sequential interaction patterns that govern adhesion."
-}

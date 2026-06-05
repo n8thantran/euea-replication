@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit solvent molecule interactions through a hybrid implicit-explicit solvation scheme during ChEMBL3D dataset generation\u2014where the first solvation shell is modeled with discrete water molecules while bulk solvent remains implicit\u2014will enable LoQI to predict bioactive conformers of protein-bound ligands with median RMSD below 0.35 \u00c5 at ensemble sizes of N=250, because the current CPCM-only training distribution systematically underrepresents the partially desolvated, electrostatically constrained geometries that ligands adopt upon binding, and this gap can be quantifiably closed by training on conformers that capture the energetic cost of partial desolvation at near-QM accuracy."
-}

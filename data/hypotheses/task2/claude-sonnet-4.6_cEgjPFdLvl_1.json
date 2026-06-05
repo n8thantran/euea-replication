@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "The computational cost of HMC refinement in AMDEN scales prohibitively with system size, but because the noise energy landscape \u02c6E\u03b8 learned by the energy-based score function implicitly encodes the rugged, funnel-free potential energy landscape characteristic of amorphous materials, a surrogate-accelerated variant that trains a lightweight auxiliary graph neural network to predict HMC acceptance probabilities from pre-HMC structural descriptors will reduce the number of full model evaluations required per denoising step by at least 50% without statistically significant degradation in the structural fidelity or property accuracy of generated multi-element glass structures."
-}

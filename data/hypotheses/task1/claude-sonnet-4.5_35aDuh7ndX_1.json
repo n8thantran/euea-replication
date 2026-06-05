@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Simultaneously maximizing pharmacophoric similarity to known estrogen receptor antagonists while minimizing structural similarity will generate novel drug-like molecules that retain target binding activity but possess distinct chemical scaffolds."
-}

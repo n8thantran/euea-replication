@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "The Force Delta uncertainty metric will exhibit systematically degraded predictive power for neural network potentials trained with hybrid loss functions that explicitly enforce energy-force consistency (e.g., combined energy and force prediction heads with shared intermediate representations), compared to models with decoupled energy and force prediction pathways, because reduced internal disagreement between conservative and non-conservative forces will compress the dynamic range of the uncertainty signal."
-}

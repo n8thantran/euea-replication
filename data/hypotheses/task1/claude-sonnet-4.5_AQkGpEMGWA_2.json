@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Materials with silicon-based lithium intercalation structures that maintain large, stable lithium-ion migration channels (constant radius between charged and discharged states) and have theoretical capacities exceeding 1500 mAh/g can be systematically discovered and designed using a combined database mining, machine learning relaxation, and conditional generative AI approach."
-}

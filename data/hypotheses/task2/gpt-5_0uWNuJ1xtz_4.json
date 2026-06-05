@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "When fine-tuned on MoleculeNet classification tasks, STR-Bamba trained with stochastic modality dropout (independently dropping each available representation with probability 0.5 per sample) will match its clean-input ROC-AUC but reduce the ROC-AUC loss under single-modality corruption at test time by at least 20% relative to the same model fine-tuned without modality dropout."
-}

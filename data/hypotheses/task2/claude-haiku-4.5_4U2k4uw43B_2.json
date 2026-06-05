@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "ML-SSNEB pathways initialized with models fine-tuned on active-learning datasets specific to high-pressure regimes will converge to transition states with systematically lower energy barriers than those obtained from untuned pre-trained models, due to improved stress tensor predictions in non-ambient conditions where the training distribution of foundation models is sparse."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Given that the workflow successfully identified 31 stable metal superhydrides by screening metal lattices with strong template effects, and that 19 of these exhibit Tc > 100 K primarily in La, Ce, and Th systems, a novel hypothesis extending this work would be:\n\n**Hypothesis:** Ternary metal superhydrides formed by co-doping alkaline earth and rare earth metals into the same lattice framework will exhibit higher superconducting transition temperatures (Tc > 200 K) than their binary counterparts at equivalent pressures, due to synergistic enhancement of both electron-phonon coupling strength and three-dimensional hydrogen network connectivity arising from differential metal-hydrogen template interactions."
-}

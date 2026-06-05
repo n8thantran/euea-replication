@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If battery-relevant molecules and formulations are represented using composition-weighted embeddings from large SMILES-pretrained chemical foundation models, then predictive models will outperform conventional fingerprint-based baselines in accuracy and out-of-distribution robustness across molecular-to-device battery tasks because FM pretraining captures transferable, moiety-level chemical knowledge."
-}

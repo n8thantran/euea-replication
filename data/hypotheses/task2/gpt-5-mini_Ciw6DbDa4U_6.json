@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "A tensor-completion-based active acquisition strategy that selects new experiments to maximally reduce tensor reconstruction error will identify a lattice structure within the top 5% by Young\u2019s modulus using fewer than half the experimental evaluations required by Gaussian Process\u2013based Bayesian optimization when the initial training data are biased toward a subregion of the design space."
-}

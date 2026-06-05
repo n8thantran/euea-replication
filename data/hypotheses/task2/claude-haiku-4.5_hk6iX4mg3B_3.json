@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Ensemble consensus-based semi-supervised learning will demonstrate superior performance gains when applied to out-of-distribution molecular datasets compared to in-distribution datasets, because the moving ensemble targets provide implicit regularization that better constrains model predictions in the absence of labeled examples from the target distribution."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "In the MADE benchmark for ternary and quaternary chemical systems with an oracle query budget of 20, a multi-fidelity agent that uses MLIP screening, calibrated epistemic uncertainty estimates, and a Bayesian-optimization acquisition function with occasional high-fidelity (DFT) validation will discover a statistically significant greater number of novel thermodynamically stable compounds than a MatterGen generative model coupled with diversity-based acquisition."
-}

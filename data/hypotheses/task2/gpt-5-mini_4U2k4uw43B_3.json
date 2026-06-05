@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Fine-tuning the eSEN model with a small, targeted DFT-labeled dataset of ~50 ML-converged SSNEB images from the CsPbI3 \u03b2\u2192\u03b3 pathway using a loss function that weights stress components twice as strongly as energies and forces will reduce the number of VASP SSNEB restart iterations required for convergence by at least 50% and eliminate symmetry-breaking lattice distortions observed in VASP restarts compared to the pre-trained eSEN without fine-tuning."
-}

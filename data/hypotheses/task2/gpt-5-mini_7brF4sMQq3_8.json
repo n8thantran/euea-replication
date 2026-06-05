@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "In molecular systems with three or more metastable basins, iteratively applying ASTRA between neighboring basins (A\u2192I1, I1\u2192I2, \u2026, In\u2192B) will reliably locate the first-order saddle points for each elementary step\u2014yielding sampled configurations whose committor values from short unbiased dynamics are centered at 0.5\u2014whereas applying ASTRA directly between nonadjacent basins will not produce committor-centered TS ensembles."
-}

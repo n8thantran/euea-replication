@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Pharmacophore similarity derived from CATS descriptors will demonstrate superior transfer learning performance across structurally distinct protein targets compared to docking-based reward functions, enabling single reference sets to guide generation of bioactive molecules for multiple therapeutic indications without target-specific retraining."
-}

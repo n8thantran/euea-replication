@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "A cross-domain representation alignment objective that enforces embeddings from molecular, material, and protein foundation models to collapse onto a shared dataset-agnostic core latent space will enable accurate cross-domain property prediction with simple linear probes and yield a stable, domain-invariant intrinsic dimension of that core across ID and OOD data, indicating a universal representation of matter."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Pretraining X-MoPA to predict computed electronic density-of-states (DOS) embeddings from the crystal graph and text modalities, in addition to the existing XRD/text/graph predictions, will produce a statistically significant reduction in band-gap MAE on Matbench and AFLOW compared to the original three-modality X-MoPA, indicating that DOS contributes non-redundant electronic-structure information not captured by graphs, XRD, or textual descriptions."
-}

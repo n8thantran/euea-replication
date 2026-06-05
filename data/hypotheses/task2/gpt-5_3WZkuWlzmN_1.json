@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Restricting X-MoPA pretraining to predict only the XRD latent embedding from graph and text embeddings (omitting prediction of text and graph) will reduce mean absolute error on bulk and shear modulus prediction by at least 15% relative to the symmetric three-way prediction objective."
-}

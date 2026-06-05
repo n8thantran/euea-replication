@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If catalytic surface compositions are generated using the CompGen framework \u2014 a Chemically Informed Autoencoder (CIAE) latent space plus a conditional latent diffusion model pretrained on OC20 and fine-tuned on HEA \u2014 then the generated 2D shell-wise compositions will more closely match the real composition distributions (lower Fr\u00e9chet Distance), better satisfy allowed-element constraints (lower Leakage), and achieve higher point-wise similarity (higher Cosine Similarity) than compositions produced by a chemically-agnostic baseline or unpretrained models, and will retain superior performance under reduced training-data regimes, because the PTR-informed CIAE latent space encodes chemical priors that enable more accurate conditioned sampling."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If sequence design and structure prediction are learned end-to-end via a discrete stochastic autoencoder (E2EFOLD), then the model will produce designed sequences whose predicted structures are more self-consistent with reference backbones (higher TM-score and lower RMSD) and achieve comparable or improved sequence recovery and structure prediction accuracy relative to decoupled baselines (ProteinMPNN + Boltz-2), whereas ablating structural loss terms will reduce structure reconstruction accuracy."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a hybrid Transformer-Mamba encoder-decoder foundation model is pre-trained on multiple molecular representation modalities simultaneously using aligned multimodal objectives, then it will learn a unified latent space that captures cross-modal molecular semantics, enabling superior performance on molecular property prediction, representation translation, and clustering tasks compared to single-modality or unimodal approaches, because joint training across diverse molecular languages forces the model to encode chemically meaningful features invariant to representational format."
-}

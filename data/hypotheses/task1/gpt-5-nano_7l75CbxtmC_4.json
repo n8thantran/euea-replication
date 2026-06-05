@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If the integrated workflow is applied to Ca2SiO4 synthesis within the Ca\u2013Si\u2013O\u2013C\u2013N\u2013H\u2013Al\u2013B space at 800\u20131600\u00b0C using 36 commercially available reactants and 95% purity pricing, then it will identify at least one synthesis recipe that is thermodynamically favorable for Ca2SiO4 formation and economically optimal by maximizing combined thermodynamic performance while minimizing reactant cost, outperforming non-optimized baseline approaches."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Online augmentation of MatAgent\u2019s knowledge base with successful agent-generated composition\u2013property transitions will reduce the median iterations to achieve a composition within \u00b10.25 eV/atom of a \u22123.8 eV/atom target by at least 30% compared to the static-knowledge-base setup, without a decrease in V.U.N. score greater than 0.05."
-}

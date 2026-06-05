@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If the Bayesian optimization workflow, employing the five pretrained representations and GP/deep kernel/Laplace surrogates with Thompson sampling, is used to search the 1,000 fragment-generated polyamines, then the top predicted polymers will exhibit higher CO2 adsorption capacity at 298 K and 0.4 mbar than those selected by unguided search, because Bayesian optimization efficiently balances exploration and exploitation and exploits informative molecular representations."
-}

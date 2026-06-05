@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Integrating a layout-aware molecular-figure detector with an optical chemical structure recognition module and a name-to-structure cross-check into the agentic pipeline will increase SMILES extraction F1 on ChemX small-molecule datasets from below 0.05 to at least 0.40 without reducing the F1 of non-SMILES fields by more than 0.05."
-}

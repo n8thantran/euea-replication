@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a closed-loop Bayesian optimization platform autonomously navigates the multi-dimensional parameter space of reactive carbon electrolyzers, then it will identify operating conditions that achieve higher reactor yields more efficiently than manual experimentation because Gaussian process regression can model complex, nonlinear interactions among electrochemical and fluidic parameters to guide sequential experiment selection toward global optima."
-}

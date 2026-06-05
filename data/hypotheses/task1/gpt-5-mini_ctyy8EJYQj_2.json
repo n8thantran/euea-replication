@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "A ReAct-based, prompt-tuned LLM agent coupled to a physics-based simulator will achieve comparable success rates to an A* search planner on the Nb\u2013O synthesis tasks but will visit more states (i.e., be less computationally efficient)."
-}

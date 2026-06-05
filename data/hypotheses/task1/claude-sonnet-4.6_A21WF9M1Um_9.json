@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "The loss landscape defined by the discrepancy between simulated and ground-truth powder XRD patterns contains numerous local minima and sharp discontinuities that make it too non-convex and rugged for gradient descent to reliably recover crystal structures from distorted starting configurations, unlike smoother energy landscapes used in interatomic potential-based relaxation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Including a differentiable regularization term proportional to the Force Delta (U\u2206) in the training loss of direct-force NNIPs will produce models that exhibit a statistically significant (p < 0.05) reduction in RMS force error against DFT on adversarially generated out-of-distribution structures compared to otherwise-identical models trained without this regularization."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating a 3D conformation-aware pharmacophore overlap term (computed from aligned low-energy conformers) into the RL reward will at least double the hit rate (IC50 \u2264 1 \u00b5M in ER\u03b1 binding assays) among the top 100 generated molecules relative to the current CATS-based reward, while preserving novelty (median Tanimoto to any reference \u2264 0.35; median MAP4 \u2264 0.04) and drug-likeness (median QED \u2265 0.5)."
-}

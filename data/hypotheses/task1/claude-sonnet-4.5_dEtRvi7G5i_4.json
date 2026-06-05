@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If metal lattice configurations with strong electron localization at interstitial sites (quasi-atoms) are identified using machine learning and used as templates for hydrogen incorporation, then thermodynamically stable metal superhydrides with high superconducting transition temperatures can be efficiently discovered because the quasi-atom framework predetermines favorable sites for hydrogen insertion and strong electron-phonon coupling."
-}

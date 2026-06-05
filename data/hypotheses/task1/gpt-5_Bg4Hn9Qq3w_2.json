@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If large language model agents using a ReACT-style closed-loop can iteratively design experiments and observe sparse outcomes, then they will reliably infer latent governing rules in both abstract games and simulated ALP reactors within a limited number of trials\u2014with success improving with model capability, experimental budget, and sensor priors\u2014because they can plan informative interventions and update hypotheses from feedback."
-}

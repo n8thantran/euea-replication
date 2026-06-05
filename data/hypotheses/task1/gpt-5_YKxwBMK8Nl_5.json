@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If scientific PDFs from nanozyme and chelate complex articles are converted to structure-preserving markdown with marker-pdf and enriched with GPT-4o image captions, then a single-agent LLM extractor will achieve higher per-column precision/recall/F1 and better JSON format compliance than baseline LLMs, a general-purpose agent, and domain-specific multi-agent systems because structured multimodal preprocessing reduces parsing errors and information ambiguity."
-}

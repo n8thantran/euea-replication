@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Conditioning the diffusion model on explicit geometric descriptors (such as nearest-neighbor distances and coordination geometry) in addition to composition will improve the fidelity of generated catalytic surfaces by enabling the model to implicitly reconstruct three-dimensional structural feasibility without explicit coordinate prediction."
-}

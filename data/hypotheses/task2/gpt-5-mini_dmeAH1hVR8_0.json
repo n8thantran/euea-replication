@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Continual pre-training of a language model on a multimodal corpus that pairs MOFid strings with three computed 3D geometric descriptors (BET surface area, pore volume, and largest cavity diameter) will reduce the mean absolute error on QMOF band gap prediction by at least 10% compared to equivalent text-only continual pre-training when supervised fine-tuning datasets contain \u22645,000 samples."
-}

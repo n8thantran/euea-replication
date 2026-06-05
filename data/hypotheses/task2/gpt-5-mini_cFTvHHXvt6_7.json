@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Jointly training CHROMA\u2019s decoder with a sequence-level differentiable spectral loss (minimizing CIE76 \u2206E via the TMM) while fine-tuning the encoder-projection layer (keeping the base LLM frozen) will reduce mean validation \u2206E on held-out structures by at least 40% compared to the token-level cross-entropy trained model with an 8-layer decoder."
-}

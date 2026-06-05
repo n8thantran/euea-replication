@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "A diffusion model trained exclusively on metastable state molecular dynamics data can identify transition states through guided score interpolation and force projection along the score difference vector, without requiring any transition state training data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "A cross-modal predictive architecture that jointly trains graph, text, and XRD modalities with cross-modal prediction, VIC regularization, and contrastive loss will achieve lower mean absolute error on crystal property prediction tasks (Matbench and AFLOW band gap) than graph-only baselines (CGCNN, CoGN, ALIGNN) while requiring only minimal parameter finetuning."
-}

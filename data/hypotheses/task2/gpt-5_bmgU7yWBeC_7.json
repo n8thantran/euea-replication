@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a direct-force pre-trained NNIP by adding an unsupervised consistency regularizer that minimizes the squared Force Delta on unlabeled, Force Delta\u2013guided adversarially sampled configurations will reduce the median out-of-distribution force RMSE by at least 25% and at 300 K will increase the median NVE MD time-to-0.5% energy drift by at least 2\u00d7 compared to fine-tuning without this regularizer on the same unlabeled data and with no additional DFT labels."
-}

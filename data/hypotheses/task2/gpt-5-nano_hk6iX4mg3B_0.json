@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "An adaptive coupling strategy that learns a per-sample weight \u03b3(u) for the ensemble-consensus loss from the unlabeled sample\u2019s predictive uncertainty and ensemble disagreement will yield higher predictive accuracy and better calibration than a fixed coupling weight across QM9 and GNN+ benchmarks, especially when labeled data are scarce."
-}

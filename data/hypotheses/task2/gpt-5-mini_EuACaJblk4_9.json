@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Training E2EFOLD end-to-end with an added learned per-residue structural confidence head in the decoder whose predicted confidences are used as an auxiliary loss to the encoder will increase sequence design self-consistency, producing designed sequences that fold to structures with higher TM-scores and lower RMSD compared to the same model trained without the confidence head."
-}

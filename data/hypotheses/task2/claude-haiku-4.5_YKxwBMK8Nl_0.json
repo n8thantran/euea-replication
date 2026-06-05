@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Integrating multi-modal retrieval-augmented generation (RAG) with specialized vision-language models trained on chemical structure recognition will enable agentic systems to achieve substantially higher extraction accuracy for molecular SMILES and complex tabular data compared to current end-to-end approaches, by decomposing the extraction task into modality-specific sub-agents that operate on semantically-aligned document representations rather than raw PDFs."
-}

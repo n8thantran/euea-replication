@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If crystal structures perturbed by realistic lattice and coordinate noise are optimized via (projected) gradient descent on differentiable XRD-pattern losses, then they will rarely recover the ground-truth structures regardless of loss metric or symmetry constraints because the XRD loss landscape over lattice and fractional coordinates is highly rugged and dominated by spurious local minima."
-}

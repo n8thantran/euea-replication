@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Training ensembles in semi-supervised molecular graph learning with gradients allowed through the consensus target combined with an explicit representation-diversity regularizer (e.g., orthogonality penalty on penultimate-layer activations) will produce individual models with lower test MAE on held-out molecular property benchmarks (e.g., QM9, ZINC) and higher ensemble ambiguity than detached-consensus training, whereas allowing gradients through the consensus without the diversity regularizer will induce learner collusion, reduce ambiguity, and worsen test performance."
-}

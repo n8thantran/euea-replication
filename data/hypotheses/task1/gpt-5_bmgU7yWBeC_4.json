@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If, for a pretrained neural network interatomic potential, the Force Delta (U\u2206)\u2014the RMS disagreement between energy-gradient (conservative) and directly predicted (non-conservative) forces\u2014is larger for a structure, then the true force error relative to DFT is larger because internal inconsistency between these two force estimates reflects epistemic uncertainty, leading to stronger error correlation and better OOD detection than ensemble variance across diverse systems."
-}

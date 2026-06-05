@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating temperature-dependent molecular conformational dynamics into foundation model pre-training\u2014by augmenting SMILES corpora with paired thermodynamic state annotations derived from molecular dynamics trajectories\u2014will enable chemical foundation models to predict ionic conductivity and Coulombic efficiency across electrolyte formulations with substantially lower out-of-distribution error at extreme temperatures (below \u221220\u00b0C and above 60\u00b0C) compared to models pre-trained on static structural representations alone, because macroscale electrochemical performance under thermal stress is governed by solvation shell reorganization dynamics that are invisible to ground-state SMILES encodings but become learnable when the embedding space encodes temperature-structure co-variation."
-}

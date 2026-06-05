@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "End-to-end joint training of protein structure prediction and sequence design in a discrete stochastic autoencoder will produce sequences that fold into structures more similar to the target structure than sequences designed by separate, non-joint models."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "A coordinated multi-agent protocol in ALP configuration III consisting of eight LLM agents initialized with systematically varied model temperatures and distinct prompt priors and overseen by a summarizing meta-agent that assigns unexplored regions will, using the same cumulative experimental time as a single-agent baseline, produce at least 30% greater coverage of the UMAP-projected experimental state space and reliably identify all four target reaction modes (ALD, ALE, ASD passivation, and CVD decomposition/co-dose) within fewer experimental iterations than the single-agent approach."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "A Bayesian-optimization surrogate that concatenates polymer-specific language-model embeddings (e.g., polyBERT) with fast-MD-derived structural descriptors (accessible surface area, free volume fraction, and mean pore diameter) will identify at least one polymer in the top 1% of CO2 adsorption capacity from a 1,000-sample linear polyamine library using at least 40% fewer GCMC simulations (\u226418 acquisitions vs. 30) than surrogates using only the embeddings or only the structural descriptors when initialized with N0=10 low-quality samples (y < 0.3*ymax)."
-}

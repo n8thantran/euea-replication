@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "A single-agent approach using structured text extraction with multimodal processing achieves comparable or superior performance to multi-agent and general-purpose systems for automated chemical information extraction from scientific literature."
-}

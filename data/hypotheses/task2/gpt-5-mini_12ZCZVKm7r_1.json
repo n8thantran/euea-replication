@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "The CKNNA alignment between two scientific foundation models computed on a shared set of input structures predicts the accuracy of transferring a linear probe trained on one model\u2019s embeddings to the other\u2019s embeddings for downstream property prediction\u2014such that higher CKNNA corresponds to a smaller drop in transfer performance across molecules, materials, and proteins."
-}

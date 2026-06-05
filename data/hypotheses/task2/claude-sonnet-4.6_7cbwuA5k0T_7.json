@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Quantitative task-tool embedding similarity thresholds exist that predict whether fine-tuning a domain-specific foundation model will outperform tool augmentation of a general-purpose model, such that when the mean minimum cosine distance between task embeddings and available tool embeddings exceeds a learnable critical value (estimated around 0.65 based on the Spectra environment results), investing in domain-specific model training will yield greater performance gains per unit of development cost than designing additional aligned tools."
-}

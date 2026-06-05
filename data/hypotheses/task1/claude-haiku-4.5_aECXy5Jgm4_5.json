@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Bayesian optimization with deep kernel learning surrogates and polymer-specific molecular representations will identify high-performance polyamines for solid-state CO2 capture more efficiently than traditional force field-based screening or standard Gaussian process models."
-}

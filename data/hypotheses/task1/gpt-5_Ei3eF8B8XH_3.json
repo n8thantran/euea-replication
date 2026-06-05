@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a stereochemistry-aware DiT+EGNN diffusion model is trained on AIMNet2-relaxed ChEMBL3D conformers with explicit chirality/E\u2013Z graph augmentation, then it will efficiently generate diverse, topology- and stereochemistry-preserving molecular conformers with near-DFT energies that outperform classical conformer generators across drug-like (including macrocyclic) molecules, because the equivariant architecture and stereochemical constraints guide sampling toward physically realistic low-energy minima."
-}

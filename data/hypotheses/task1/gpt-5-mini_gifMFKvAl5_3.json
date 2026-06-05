@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a diffusion model for composite design incorporates non-negativity and sum-to-one regularization (PCDiff) during training, then it will generate a higher proportion of physically valid samples (higher Validityreg and Validityfab) while achieving equal or better fidelity and diversity (density and coverage) for target yield strength and thermal conductivity than an unconstrained CVAE and TabDDPM, because the physics constraints steer sampling toward compositionally and fabrication-feasible regions."
-}

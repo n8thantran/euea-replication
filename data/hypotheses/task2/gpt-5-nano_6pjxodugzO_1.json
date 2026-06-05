@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "A physics-informed, time-aware foundation model that jointly learns SMILES-based molecular representations, formulation compositions, and time-resolved device performance data will provide more accurate and reliable forecasts of battery cycle life for unseen electrolyte formulations than static SMILES-based models, particularly in low-data regimes."
-}

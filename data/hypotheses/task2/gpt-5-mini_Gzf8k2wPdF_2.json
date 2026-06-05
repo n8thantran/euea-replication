@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "When the coefficient of variation (standard deviation divided by mean) of nodes per graph in a dataset exceeds 0.5, dynamic batching yields at least a 25% reduction in mean combined training time per step compared to static-64 batching on a single-GPU setup for batch sizes of 32 or larger."
-}

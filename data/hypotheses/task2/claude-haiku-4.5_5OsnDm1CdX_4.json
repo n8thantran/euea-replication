@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "The inductive generalization capability of GraphSAGE to unseen gas mixtures will degrade non-monotonically as the chemical dissimilarity between new mixture components and the pre-trained single-gas networks increases, with a critical dissimilarity threshold beyond which performance drops sharply due to insufficient neighborhood information in the learned embedding space."
-}

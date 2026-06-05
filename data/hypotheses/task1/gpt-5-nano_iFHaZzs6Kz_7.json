@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If SMILES and 3D electron density grids are learned jointly via multimodal contrastive learning, then the resulting molecular embeddings will be invariant to rigid-body rotations, leading to robust cross-rotation retrieval performance and stable linear-property predictions, because the joint SMILES\u20133D alignment enforces orientation-insensitive representations."
-}

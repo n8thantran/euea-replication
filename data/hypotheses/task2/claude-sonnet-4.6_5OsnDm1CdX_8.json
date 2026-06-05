@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "When the GraphSAGE framework is extended to three-or-more-component gas mixtures (e.g., Ar/O\u2082/CF\u2084), using higher-order intermediate layer representations from pre-trained single-element networks as node features will yield disproportionately greater accuracy gains relative to the two-component case, because the combinatorial interaction complexity grows super-linearly with the number of mixture components, making the richer chemistry-specific information encoded in hidden layers increasingly critical for the graph aggregation mechanism to correctly model multi-body gas-phase and surface interaction effects."
-}

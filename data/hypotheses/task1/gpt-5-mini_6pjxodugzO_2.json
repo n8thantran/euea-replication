@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If molecular embeddings derived from SMILES-based foundation models (SMI-TED, MolT5, Galactica, GraphMVP), aggregated composition-weighted for formulations and concatenated with device variables, are used to train neural networks, then these models will predict molecular, formulation, surface-contact, and device-scale battery properties more accurately and with better out-of-distribution generalization than equivalent models using Morgan fingerprints, because the foundation model embeddings capture chemically meaningful features and moiety-level correlations."
-}

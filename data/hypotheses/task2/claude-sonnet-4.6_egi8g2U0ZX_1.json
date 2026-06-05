@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating a hierarchical reward function in reinforcement learning that explicitly penalizes structural similarity between generated molecules and the pre-training corpus (e.g., drug-like molecules from ChEMBL) while simultaneously rewarding material-specific criteria will produce a greater proportion of CTF candidates passing expert filters than the additive reward averaging currently employed, because directly repelling the model from the drug-like chemical subspace will accelerate navigation toward the sparse, high-reward region of the materials chemical space and reduce the exploitation of drug-like scaffolds that satisfy individual sub-criteria but fail holistic material constraints."
-}

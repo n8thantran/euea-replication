@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "An adaptive hybrid batching algorithm that begins training with dynamic batching and switches to static-64 once the gradient-update recompilation frequency falls below one per 100,000 steps will reduce mean combined training time by at least 20% relative to static-64 alone on heavy-tailed graph-size datasets (e.g., AFLOW) for models with >1M parameters at batch sizes \u226564 while producing no statistically significant difference in final test RMSE (p>0.1)."
-}

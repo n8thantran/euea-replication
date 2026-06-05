@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit heating energy (from temperature\u2011dependent heat capacities and reaction enthalpies) and purification costs (from ML\u2011predicted solubility/volatility of byproducts) into the workflow\u2019s economic efficiency metric will invert the current Ca2SiO4 recipe ranking such that, at synthesis temperatures \u22651300\u00b0C and median 2025 market prices, Ca3SiO5+SiO2 yields at least 20% more grams per euro than CaO+SiO2."
-}

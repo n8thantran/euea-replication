@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating dynamic temporal evolution of shell compositions during catalytic reactions\u2014by training CompGen on sequential snapshots of reaction intermediates rather than static adsorption configurations\u2014will enable the framework to generate time-dependent compositional pathways that predict and optimize catalyst restructuring under operando conditions, thereby revealing previously inaccessible design principles for self-healing or adaptive catalytic surfaces."
-}

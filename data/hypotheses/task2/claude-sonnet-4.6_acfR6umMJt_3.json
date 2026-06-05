@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Replacing the uniform random sampling strategy along the NEB path with an uncertainty-weighted sampling scheme\u2014where candidate points are selected with probability proportional to the model's predicted epistemic uncertainty at each image position\u2014will further reduce the number of function evaluations required for NN-BAX convergence by at least an additional order of magnitude compared to uniform sampling, particularly for complex multi-minimum pathways where uncertainty is heterogeneously distributed along the reaction coordinate."
-}

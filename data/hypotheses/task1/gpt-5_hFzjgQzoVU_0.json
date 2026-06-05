@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If Fe K-edge XAS spectra of iron-containing proteins are accurately digitized from the literature and paired with curated local structural graphs, then the resulting standardized dataset will both reproduce ground-truth spectra with low error and high inter-expert agreement and enable machine-learning models to predict spectra from structure and coordination number/nearest-neighbor distance from spectra significantly better than random baselines, because XANES/EXAFS features encode local bonding geometry and the curation pipeline preserves this information."
-}

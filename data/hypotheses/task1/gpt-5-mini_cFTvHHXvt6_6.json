@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If CHROMA uses a frozen Llama encoder coupled with a trainable Transformer decoder over a discrete material-thickness vocabulary, then it will translate natural-language color prompts into multilayer thin-film designs that reproduce target colors with low CIE76 \u0394E on held-out optical targets and paraphrased prompts, and its accuracy will improve as encoder size and decoder depth increase."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating uncertainty quantification over the convex hull itself\u2014rather than treating it as a fixed ground truth after each oracle query\u2014into the acquisition function of a closed-loop materials discovery agent will yield significantly greater sample efficiency (measured as novel stable compounds discovered per oracle query) compared to agents that use point-estimate convex hulls, because probabilistic hull estimates will better direct exploration toward compositional regions where stability classifications are most uncertain and thus most informative, an effect that will be especially pronounced in sparse, high-dimensional chemical systems such as quaternary intermetallics where early-stage hull estimates are most unreliable."
-}

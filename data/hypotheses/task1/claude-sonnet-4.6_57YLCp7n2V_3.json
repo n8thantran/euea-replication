@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If the valency calculation bug (treating aromatic bonds as integer 1 instead of 1.5) is corrected and chemically accurate valency lookup tables are used alongside a quantum mechanical geometry evaluation protocol (GFN2-xTB) rather than classical force fields (MMFF94), then current 3D molecule generation models will show substantially different validity scores and geometry quality assessments than previously reported, because the original benchmarks systematically underestimated valency violations and used a reference method inappropriate for the chemical diversity of drug-like molecules."
-}

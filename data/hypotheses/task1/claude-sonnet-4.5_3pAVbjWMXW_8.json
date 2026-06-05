@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "A Transformer-based encoder-decoder architecture with spectral alignment through joint reconstruction loss will enable accurate prediction of molecular structures from IR spectra of mixtures by learning to decompose mixture signals into pure component representations."
-}

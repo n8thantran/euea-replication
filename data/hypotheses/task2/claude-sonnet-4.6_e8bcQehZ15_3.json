@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Extending the concept bottleneck steering vectors from continuous scalar molecular properties to graph-structured substructural constraints\u2014specifically, by training the CBM to predict the presence or absence of pharmacophoric features (e.g., hydrogen bond donors/acceptors, aromatic rings, specific functional groups) encoded as binary concept vectors, and deriving orthogonal steering directions for each substructural concept\u2014will enable CAST to simultaneously control both physicochemical properties and scaffold-level structural motifs, achieving lower scaffold diversity loss and higher hit rates in virtual screening benchmarks compared to property-only steering, because the LLM's intermediate representations encode separable subspace directions corresponding to discrete chemical substructures that can be independently modulated without disrupting the validity of the generated SMILES."
-}

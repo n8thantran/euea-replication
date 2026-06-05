@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "We hypothesize that augmenting SAM-EM with an explicit temporal coherence module (e.g., optical-flow-informed memory or a lightweight temporal transformer) that enforces trajectory-consistent masks across frames will reduce particle identity switches by at least 40% and increase the J&F score by at least 12 percentage points on thick-liquid (\u2265100 nm) LPTEM sequences with frequent particle overlaps, compared to SAM-EM without the temporal module, while preserving near-real-time inference (\u226520 fps) on a standard GPU."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The integration of dynamic structural fluctuations captured through time-resolved XAS measurements with machine learning models will enable prediction of protein catalytic turnover rates directly from spectral features, bypassing the need for static crystallographic structures."
-}

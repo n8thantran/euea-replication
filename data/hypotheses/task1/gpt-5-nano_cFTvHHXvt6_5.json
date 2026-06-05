@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If CHROMA's encoder size and decoder depth are increased, then the predicted colors of the designed multilayer stacks will more closely match the target colors (lower CIE76 \u0394E) for both training-paraphrase and validation prompts, indicating improved linguistic-to-physical design fidelity and generalization."
-}

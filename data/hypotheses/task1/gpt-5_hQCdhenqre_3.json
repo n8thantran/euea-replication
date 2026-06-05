@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If machine-learning interatomic potentials are implemented in JAX and augmented with a modified MACE architecture that includes gating and species-dependent edge features, then they will match the energy/force accuracy of standard architectures on the SPICE2 dataset while delivering faster inference and higher GPU molecular dynamics throughput than Torch+ASE baselines because XLA compilation and the architectural changes reduce computational overhead."
-}

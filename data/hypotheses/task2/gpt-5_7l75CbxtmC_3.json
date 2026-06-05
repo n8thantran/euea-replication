@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating temperature-dependent heating energy (via reactant/product heat capacities) and purification costs estimated from predicted byproduct solubilities into the workflow\u2019s economic metric will reverse the current ranking for Ca2SiO4 synthesis, with Ca3SiO5+SiO2 achieving at least 20% higher grams-per-euro than CaO+SiO2 for 1\u20135 ton batches sintered at 1300\u20131500\u00b0C."
-}

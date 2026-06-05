@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Synthesis procedures with higher graph complexity (more nodes and edges) will exhibit lower extraction accuracy by LLMs due to increased difficulty in maintaining consistency across causal relationships, and this accuracy degradation will be non-linear, with a critical complexity threshold beyond which parametric-level extraction becomes substantially more error-prone than structural-level extraction."
-}

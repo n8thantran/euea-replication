@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Including enthalpy-of-heating energy from 25\u00b0C to 1400\u00b0C (using JANAF heat capacities) and an"
-}

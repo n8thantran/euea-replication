@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating a fast surrogate model that predicts porosity, surface area, and electrical conductivity from substrate and lattice-node graphs into the reinforcement-learning reward during transfer learning will increase the share of generated Covalent Triazine Framework candidates that pass expert material filters and have higher predicted device performance, compared with RL using only the expert filters, for both substrate and lattice-node representations."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "If the \u03b2 parameter in DPO controls the degree of distributional shift from the SFT policy, then dynamically scheduling \u03b2 across training\u2014starting high (conservative, near-SFT) and annealing it downward as the model's reward improves\u2014will simultaneously prevent the reward-hacking collapse observed in OLMo and achieve higher mean reward than fixed-\u03b2 DPO in LLaMA and Gemma, because early-stage conservatism preserves the chemistry grammar learned during SFT while late-stage permissiveness allows greater exploitation of high-reward compositional regions."
-}

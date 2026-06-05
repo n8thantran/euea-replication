@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If valency calculations in 3D molecule generation models are corrected to properly account for aromatic bonds (1.5 instead of 1.0) and molecules are evaluated using quantum mechanical methods (GFN2-xTB) instead of classical force fields (MMFF94), then the generated molecular structures will show improved chemical accuracy as measured by reduced bond length, angle, and torsion deviations and lower relaxation energies compared to baseline conformers."
-}

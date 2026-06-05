@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "When applied to expensive DFT-based NEB calculations, using an information-theoretic BAX acquisition (InfoBAX) with an EquiformerV2 surrogate will reduce the number of DFT energy/force evaluations required to converge minimum energy pathways by at least 30% compared to the heuristic random-sampling NN-BAX acquisition used in this paper."
-}

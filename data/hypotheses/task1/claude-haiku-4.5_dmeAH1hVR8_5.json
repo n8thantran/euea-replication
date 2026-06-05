@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Continual pre-training of large language models on domain-specific chemical corpora will improve their predictive performance on metal-organic framework properties compared to models without domain-specific pre-training, particularly in low-resource fine-tuning scenarios."
-}

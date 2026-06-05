@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "If the Force Delta metric quantifies the degree to which a neural network potential violates energy conservation locally, then incorporating the Force Delta as an explicit physics-informed regularization term during fine-tuning of pre-trained direct-force models will simultaneously reduce the magnitude of the Force Delta and improve generalization accuracy on out-of-distribution structures, with the improvement in generalization being proportional to the reduction in Force Delta achieved during training."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "In REINVENT4-driven singlet fission optimization, weighting NaviDiv\u2019s fragment penalties by the mutual information between fragment presence and the target score (penalizing only low-MI fragments) will preserve structural diversity (mean pairwise Tanimoto similarity \u22640.12 and unique fragment ratio \u226595% after 1000 steps) while achieving a final mean property score \u226595% of the Baseline (no-constraint) run, outperforming both fixed-threshold fragment-only and combined-constraint regimes."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If E2EFOLD is trained end-to-end to jointly predict protein structures and design sequences with structural loss terms, then the resulting designed sequences will exhibit higher sequence recovery and yield more self-consistent structures (as evidenced by higher TM-scores and lower RMSD to reference structures) compared with Boltz-2-based designs and ablated models that remove structural loss terms."
-}

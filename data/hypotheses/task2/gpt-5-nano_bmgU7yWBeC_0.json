@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating a differentiable curl-penalty into the training objective that explicitly minimizes the curl of the conservative force field (i.e., enforcing \u2207\u00d7Fc \u2248 0) will reduce the Force Delta and improve both out-of-distribution error and long-time molecular dynamics stability compared to standard training."
-}

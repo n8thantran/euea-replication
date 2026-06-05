@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Correcting chemical valency calculation errors and using Kekulized molecular representations will improve the geometric accuracy and chemical validity of 3D molecule generation models compared to benchmarks using aromatic bond representations."
-}

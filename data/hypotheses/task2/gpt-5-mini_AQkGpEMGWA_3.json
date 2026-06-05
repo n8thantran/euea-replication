@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Si\u2013M alloys containing 10\u201325 at% of a late transition metal M whose metallic radius is 1.10\u20131.25\u00d7 that of Si and whose electronegativity differs from Si by \u22640.3 form supporting sublattices that preserve Li+ migration channel radii within \u00b10.2 \u00c5 across full lithiation/delithiation and thereby limit volumetric expansion to <150% (versus ~300% in pure Si)."
-}

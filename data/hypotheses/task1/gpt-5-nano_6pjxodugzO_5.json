@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If SMILES-based foundation-model embeddings are used with neural networks to predict ten battery-material properties across molecular, formulation, surface, and device scales, then they will yield higher predictive accuracy and better out-of-distribution generalization than Morgan fingerprints."
-}

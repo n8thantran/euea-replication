@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If NEB calculations for LJ7 and LJ38 transitions are performed using NN-BAX with an iteratively fine-tuned EquiformerV2 surrogate, then the method will recover minimum-energy paths and barrier heights that meet classical NEB convergence thresholds while requiring significantly fewer ground-truth simulator evaluations because the surrogate rapidly learns accurate local energies and forces along the pathway."
-}

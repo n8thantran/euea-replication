@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit active-site motif labels and simple geometric descriptors (mean first-shell metal\u2013adsorbate distance and first-shell coordination number) as additional conditioning inputs to CompGen will increase the average cosine similarity of generated shell-2 compositions to DFT-relaxed ground-truth HEA compositions by at least 0.05 compared to the current CompGen conditioned only on adsorbate, adsorption energy, and element list."
-}

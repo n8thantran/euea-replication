@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "The alignment of different molecular representations in the unified latent space is mediated by task-specific semantic bottlenecks, such that representations converge more strongly for molecules with well-defined property targets (e.g., solubility, toxicity) than for molecules with ambiguous or multi-faceted functional roles."
-}

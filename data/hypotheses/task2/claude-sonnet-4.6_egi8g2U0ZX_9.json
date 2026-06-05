@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating material-specific structural constraints directly into the molecular string representation (e.g., by developing a CTF-aware SELFIES variant that encodes symmetry group membership and cyclization potential as first-class tokens) will enable generative models pre-trained on general chemical databases to achieve higher percentages of filter-passing candidates through fine-tuning alone\u2014without requiring reinforcement learning\u2014thereby matching or exceeding the performance of combined fine-tuning plus reinforcement learning strategies while substantially reducing computational cost and eliminating policy collapse risk."
-}

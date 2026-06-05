@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Steering large language models using concept-based activation vectors derived from a Concept Bottleneck Model enables more accurate conditional molecular generation across diverse property targets compared to baseline methods, because it provides interpretable, property-specific control over the model's latent representations without requiring full model retraining."
-}

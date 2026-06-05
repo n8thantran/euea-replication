@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If SSNEB calculations for CsPbI3 and TiO2 phase transformations are initialized from minimum-energy pathways predicted by pretrained equivariant ML surrogates (EquiformerV2 or eSEN), then subsequent DFT refinement will recover the same transition states and energy barriers as VASP-only runs while requiring significantly fewer iterations and compute time, because the ML surrogates provide sufficiently accurate energies, forces, and stresses to start near the true MEP."
-}

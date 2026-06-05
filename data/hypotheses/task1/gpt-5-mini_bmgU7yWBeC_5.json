@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "For direct-force pretrained NNIPs, the Force Delta (root-mean-square difference between conservative forces \u2212\u2207\u0124E and directly predicted non-conservative forces \u0124Fnc) provides a data-free uncertainty estimate that correlates strongly with true force error (\u03b5direct) on both equilibrium and adversarially perturbed out-of-distribution structures and identifies high-error configurations more effectively than per-family ensemble variance."
-}

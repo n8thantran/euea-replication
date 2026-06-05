@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Polymers with a moderate branching degree of 25\u201335% (i.e., 25\u201335% of monomers forming branch points) will exhibit at least 15% higher CO2 uptake (mmol g^-1) under DAC-relevant conditions (298 K, 0.4 mbar CO2, 50% RH) than both linear polymers and highly branched (>60%) analogues of equivalent overall amine density due to an optimal balance of accessible free volume and amine site availability."
-}

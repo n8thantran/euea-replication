@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating multi-modal loss functions that jointly weight XRD pattern similarity against local structural descriptors (such as coordination geometry or nearest-neighbor distances) will produce smoother and more convex optimization landscapes than XRD similarity alone, enabling gradient-based refinement to succeed without explicit symmetry constraints."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The integration of dynamic structural fluctuations captured through molecular dynamics simulations with the static XAS spectral data will enable prediction of iron-containing protein catalytic activity with higher accuracy than models trained on static crystal structures alone."
-}

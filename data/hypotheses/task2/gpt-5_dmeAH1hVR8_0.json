@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Continual pretraining of the same 2B Granite model using a domain-adaptive tokenizer explicitly trained to segment MOFid and SMILES tokens will yield lower QMOF band gap MAE than an identical setup with the general tokenizer, with the largest improvement under \u22643K SFT examples."
-}

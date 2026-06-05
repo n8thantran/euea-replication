@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "In a reactive carbon electrolyzer operated at the paper\u2019s champion conditions (1.5 M KHCO3/0.75 M K2CO3, 3 M K+, 54\u00b0C, 144 mL min\u22121 KHCO3 flow, 2.4 M KOH at 24 mL min\u22121), replacing constant current with a 1 Hz square-wave between 0 and 350 mA cm\u22122 at a 0.71 duty cycle (average 249 mA cm\u22122) will increase reactor yield by at least 20% relative to the best constant-current operation at the same average current density."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Pretraining REINVENT on a domain-adapted corpus in which at least 50% of molecules contain triazine or closely related nitrogen-rich heteroaromatic motifs will, under equal compute and identical fine-tuning settings, increase the percentage of generated lattice nodes passing the expert filters by at least 10 absolute percentage points relative to ChEMBL35 pretraining while maintaining uniqueness at or above 80%."
-}

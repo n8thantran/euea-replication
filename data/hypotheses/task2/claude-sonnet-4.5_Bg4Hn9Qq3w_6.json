@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Non-monotonic temperature trajectories during ALP reaction discovery will enable agents to identify metastable intermediate surface states that are inaccessible through traditional stepwise temperature sweeps, revealing hidden reaction pathways with lower activation barriers than those discovered under isothermal or monotonic heating conditions."
-}

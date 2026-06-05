@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Synthesis procedure graphs with higher structural complexity (measured by node count and branching factor) will exhibit stronger correlations with improved material properties when the complexity arises from controlled intermediate processing steps rather than from parallel precursor preparation pathways."
-}

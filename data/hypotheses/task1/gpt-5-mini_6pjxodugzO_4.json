@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Pretrained chemical foundation models producing SMILES-based molecular embeddings, when aggregated compositionally for formulations and combined with device variables, will enable significantly better predictive accuracy, out-of-distribution generalization, and recovery of moiety\u2013outcome interpretability across molecular, formulation, surface, and device-scale battery properties than traditional Morgan fingerprints using equivalent neural-network predictors."
-}

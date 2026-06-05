@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Adding explicit energy consumption and purification costs to the economic efficiency metric, together with a probabilistic uncertainty model for reaction outcomes, will re-rank Ca2SiO4 synthesis recipes toward those with lower thermal duty and simpler purification, and this re-ranking will be robust to simulated fluctuations in reactant prices."
-}

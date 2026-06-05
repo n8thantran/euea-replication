@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a Transformer with patch-based spectral embeddings is pretrained on large-scale simulated IR spectra and fine-tuned on experimental spectra while jointly optimizing a pure-component reconstruction loss, then it will accurately identify the constituent molecules (SMILES) from binary and ternary mixture IR spectra across concentration ratios because the alignment and multitask objectives disentangle overlapping spectral features and encode compositional structure."
-}

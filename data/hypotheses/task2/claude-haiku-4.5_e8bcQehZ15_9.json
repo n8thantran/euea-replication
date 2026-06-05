@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "The orthogonality constraint imposed on concept embedding vectors during CAST training will degrade performance when extended to molecular properties with inherent physical correlations, such that removing the orthogonality loss for correlated property pairs will improve joint property control accuracy compared to the current formulation."
-}

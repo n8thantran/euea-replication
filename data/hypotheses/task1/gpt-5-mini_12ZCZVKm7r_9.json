@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Embeddings produced by diverse scientific foundation models (across modalities, architectures, and domains) converge onto a shared low-dimensional representation of matter\u2014yielding high pairwise CKNNA and IDCor alignment for in-distribution molecular/materials/protein datasets and markedly lower alignment for out-of-distribution data."
-}

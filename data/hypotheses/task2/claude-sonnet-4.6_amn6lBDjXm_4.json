@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Systematic differences in generative model performance between the Materials Project and OQMD datasets are driven primarily by the greater chemical compositional diversity in OQMD rather than dataset size, such that training diffusion models on compositionally stratified subsets of OQMD matched in size to MP will yield SUN scores statistically equivalent to full OQMD training, while models trained on size-matched but randomly sampled OQMD subsets will revert to MP-level performance."
-}

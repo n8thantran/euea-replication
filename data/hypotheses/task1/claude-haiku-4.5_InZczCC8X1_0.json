@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Machine learning-driven closed-loop optimization of reactor operating parameters can identify experimental conditions that significantly increase product yield in reactive carbon electrolyzers beyond what random sampling or researcher intuition would achieve."
-}

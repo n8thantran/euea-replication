@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "End-to-end joint training of protein structure prediction and sequence design in a single discrete stochastic autoencoder will produce sequences with higher recovery rates and better structural self-consistency than training these tasks separately or sequentially."
-}

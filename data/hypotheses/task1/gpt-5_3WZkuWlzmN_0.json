@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If crystal materials are encoded jointly through graph, RoboCrystallographer text, and simulated XRD modalities and trained with cross-modal prediction plus VIC and contrastive alignment, then their property prediction MAE on Matbench (band gap, shear modulus, bulk modulus, dielectric constant, perovskite formation energy) and AFLOW band gap will be lower than CGCNN, CoGN, and ALIGNN baselines because a shared cross-modal latent space captures complementary structural and physical information and regularizes the predictors."
-}

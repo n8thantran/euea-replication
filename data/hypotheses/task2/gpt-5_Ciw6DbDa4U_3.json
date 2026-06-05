@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Under an initially biased training set, an active-learning strategy that selects new lattice-structure evaluations by maximizing the predictive variance from an ensemble tensor-completion surrogate will reach R^2 \u2265 0.90 on Young\u2019s modulus with at least 25% fewer labeled samples than a Gaussian Process surrogate using UCB acquisition under the same candidate pool and budget."
-}

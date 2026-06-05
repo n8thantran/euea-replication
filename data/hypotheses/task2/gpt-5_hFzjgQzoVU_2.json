@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Including second-shell atoms (all atoms within 5 \u00c5 of the Fe center) in the structural graph input will reduce EXAFS spectrum prediction MAE by at least 15% while altering XANES prediction MAE by no more than 5% compared with models trained on first-shell-only graphs."
-}

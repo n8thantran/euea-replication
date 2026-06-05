@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating explicit electronic state descriptors (e.g., partial charges, spin states, or frontier orbital energies) as auxiliary input features to MLIP models will enable accurate prediction of reaction barriers and transition state geometries in organic chemistry, overcoming the current limitation that MLIPs trained solely on ground-state equilibrium structures cannot reliably model chemical reactivity."
-}

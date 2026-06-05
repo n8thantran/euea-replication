@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "An XRD-conditioned diffusion model that explicitly enforces space-group symmetry as a symmetry-inductive prior during generation will yield candidate crystal structures whose XRD patterns remain robust to both lattice and coordinate noise and whose subsequent energy-relaxation refinements converge to the ground-truth structure with higher accuracy than both unconstrained generation and projection-based symmetry GD."
-}

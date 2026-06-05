@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Pretraining the multimodal contrastive model with SMILES that explicitly encode stereochemistry (chiral centers and cis/trans descriptors) will yield 3D embeddings that remain invariant to SO(3) rotations while substantially improving separation of enantiomeric pairs\u2014measured as a >90% pairwise enantiomer discrimination rate versus the canonical-SMILES-trained model's <50%\u2014thereby preventing mirror-image conflation without degrading rotation-robust retrieval."
-}

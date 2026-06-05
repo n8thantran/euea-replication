@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating SEM images from intermediate cycle counts (e.g., 25, 50, and 75 cycles) as an auxiliary pretraining domain between the additive-free source domain and the additive-containing target domain will create a progressive transfer learning curriculum that reduces the feature distribution gap more gradually, thereby enabling the model to achieve higher classification accuracy on additive-containing aged cathode classes (formation and 100-cycle states) with fewer than 50 labeled target-domain samples compared to the two-stage framework presented in this paper."
-}

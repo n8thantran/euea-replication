@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a specialized object-detection model to localize molecular depictions in scientific-article layouts and integrating its bounding-box outputs with DECIMER inside the single-agent preprocessing pipeline will increase SMILES extraction recall from molecular images on the ChemX small-molecule datasets by at least 50 percentage points compared to the current single-agent pipeline without the detection module."
-}

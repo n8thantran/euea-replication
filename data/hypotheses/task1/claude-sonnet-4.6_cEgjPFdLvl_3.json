@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a diffusion model framework combining an equivariant graph neural network backbone with energy-based scoring and Hamiltonian Monte Carlo refinement is applied to amorphous material generation, then it will produce structurally valid amorphous configurations with radial distribution functions, bond angle distributions, and structure factors that closely match those of reference molecular dynamics simulations, because the energy-guided denoising process enforces physically meaningful interatomic interactions that crystalline-focused generative models fail to capture in disordered systems."
-}

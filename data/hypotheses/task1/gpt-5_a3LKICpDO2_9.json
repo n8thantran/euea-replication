@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If GFN1-xTB band gaps for MOFs are used as a physically informed baseline and an XGBoost \u0394-learning model trained on ST-135, RAC, and APRDF descriptors is fit to predict the xTB-to-DFT correction, then cross-validated predictions of PBE and HSE06 band gaps will have lower error than both direct descriptor-based models and fine-tuned MOFTransformer/CGCNN baselines because \u0394-learning captures and corrects systematic biases in the semi-empirical method using chemically informative features."
-}

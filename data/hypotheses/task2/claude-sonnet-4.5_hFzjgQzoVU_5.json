@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Hypothesis: The incorporation of protein backbone dynamics information, derived from molecular dynamics simulations, will improve XAS spectrum prediction accuracy beyond static structural features alone, particularly for EXAFS regions where thermal motion and conformational flexibility significantly modulate oscillatory fine structure."
-}

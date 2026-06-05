@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a model is trained with cross-modal predictive objectives to align latent representations from graph-based crystal structures, RoboCrystallographer text descriptions encoded with MatSciBERT, and simulated XRD spectra, then it will predict crystal material properties (band gap, shear modulus, bulk modulus, dielectric constant, and perovskite formation energy) with lower mean absolute error and better generalization to external datasets (e.g., AFLOW) than graph-only baselines, because the aligned multimodal latent space captures complementary structural and experimental information."
-}

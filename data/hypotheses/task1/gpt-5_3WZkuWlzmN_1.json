@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If crystal structures are modeled with a cross-modal architecture that aligns graph, text, and simulated XRD embeddings via cross-modal prediction and contrastive regularization, then their property prediction MAE on Matbench (and AFLOW band gap) will be lower than CGCNN/CoGN/ALIGNN baselines because complementary information across modalities yields a more informative shared latent representation."
-}

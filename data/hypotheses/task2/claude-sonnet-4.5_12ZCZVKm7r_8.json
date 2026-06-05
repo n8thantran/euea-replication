@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nInducing equivariance through regularization (e.g., equigrad) during training will produce representations that align more strongly with architecturally equivariant models than with non-equivariant models trained on the same dataset, even when all models achieve similar energy prediction performance, suggesting that learned geometric symmetries create a distinct representational subspace independent of training data distribution."
-}

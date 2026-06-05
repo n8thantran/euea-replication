@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "At 300 GPa, P63/mmc-Ac4H52 is a multigap superconductor with two zero-temperature gaps differing by at least 30%, originating from distinct electron\u2013phonon coupling on the H24 clusters versus the 2D hydrogen sheet."
-}

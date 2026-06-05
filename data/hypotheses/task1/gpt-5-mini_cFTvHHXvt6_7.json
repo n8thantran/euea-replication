@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If CHROMA's encoder size and decoder depth are increased, then the system will generate multilayer thin-film designs whose simulated colors have significantly lower CIE76 \u0394E to target colors (on both paraphrase and novel-target validation splits and across viewing angles), because larger encoder and decoder capacities improve the model's ability to map natural-language prompts to accurate material-thickness sequences under optical constraints."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Augmenting LoQI's training with explicit protein-ligand binding data will enable the model to directly generate bioactive conformations that deviate from implicit-solvent energy minima, thereby reducing the median RMSD to crystal-bound structures below 0.35 \u00c5 without requiring ensemble generation."
-}

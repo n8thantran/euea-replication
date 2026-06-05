@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating real-time thermodynamic constraint verification as a differentiable penalty term in the LLM's reward function during reinforcement learning fine-tuning will enable the model to generate synthesis pathways that simultaneously satisfy phase equilibrium requirements and kinetic accessibility constraints more reliably than prompt-tuning alone, particularly for multi-phase target compositions."
-}

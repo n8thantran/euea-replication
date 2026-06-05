@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If a diffusion model trained solely on metastable-state data, guided by SBI-interpolated conditional scores and refined by Score-Aligned Ascent to maximize energy along the approximate reaction coordinate, can generate transition-state configurations and samples of transition pathways that closely match the true transition-state ensembles across 2D potentials, alanine dipeptide, chignolin folding, and a chemical reaction, and outperform linear and geodesic interpolation baselines, then the ASTRA approach effectively enables a priori transition-state sampling without direct transition-state data."
-}

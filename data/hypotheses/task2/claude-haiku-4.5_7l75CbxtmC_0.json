@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating real-time kinetic barriers and activation energy distributions from machine learning models into the cellular automata framework will identify synthesis recipes that are thermodynamically and economically optimal but kinetically inaccessible at industrial timescales, thereby revealing a class of currently overlooked recipes that become viable only when coupled with catalytic additives or alternative heating mechanisms."
-}

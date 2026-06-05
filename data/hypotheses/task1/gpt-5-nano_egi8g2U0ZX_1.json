@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If pre-training three generative models on large chemical databases (ChEMBL versions 25/29/35 and ZINC-15) and fine-tuning them on a curated Covalent Triazine Framework dataset with reinforcement learning guided by expert-defined criteria (flatness, symmetry, conjugation, steric hindrance, and SMARTS-based pattern matching) leads to generated CTF structures with higher validity, uniqueness, internal diversity, novelty, and proportion passing expert filters (and lower Fr\u00e9chet ChemNet Distance) than configurations without such transfer learning, then knowledge transfer combined with expert-guided RL is an effective strategy for de novo CTF discovery for supercapacitors because it imparts broad chemical knowledge and steers generation toward the desired structural properties."
-}

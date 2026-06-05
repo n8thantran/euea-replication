@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Chemical information extraction performance will improve substantially when agent systems incorporate domain-specific error correction modules that leverage failed extraction attempts to iteratively refine extraction schemas, rather than relying solely on single-pass extraction with fixed prompts."
-}

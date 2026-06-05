@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit solvent molecule interactions through a hybrid implicit/explicit solvation representation during LoQI training\u2014by augmenting ChEMBL3D conformers with a small number of strategically placed water molecules at hydrogen-bond donor/acceptor sites identified via short molecular dynamics simulations\u2014will yield generated conformers whose solution-phase geometries more accurately predict protein-bound bioactive conformations (as measured by RMSD on the Platinum Diverse dataset) than models trained on implicit-solvent-only geometries, because the explicit solvent shell will encode directional hydrogen-bonding preferences that partially mimic the polar interactions present in protein binding pockets."
-}

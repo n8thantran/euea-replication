@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Steering large language models using concept-based activation vectors derived from interpretable property embeddings will enable more precise control over molecular property generation compared to baseline methods while maintaining molecular validity and diversity."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a classifier-free-guided score-based diffusion model trained only on metastable-state dynamics is used with score-based interpolation during reverse SDE and refined by Score-Aligned Ascent using r_SAA = s^B - s^A, then ASTRA will generate candidate transition-state structures with committors near 0.5 and a higher transition-state discovery rate than linear/geodesic interpolation baselines and ablated variants across the tested systems."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If specialized LLM agents with shared memory and tool access coordinate to extract force-field parameters from literature and set up RASPA adsorption simulations, then they will reproducibly generate executable inputs that match source parameters across increasing task complexity, because modular decomposition and tool-augmented verification reduce setup and extraction errors."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Deploying multiple LLM agents with deliberately varied model temperatures in parallel to explore the same unknown system, then having a meta-agent synthesize their divergent experimental trajectories, will yield more complete coverage of the input-output space than any single agent or homogeneous ensemble, and this coverage advantage will scale super-linearly with the variance in model temperature up to a saturation point beyond which stochastic exploration becomes too incoherent to produce interpretable rules."
-}

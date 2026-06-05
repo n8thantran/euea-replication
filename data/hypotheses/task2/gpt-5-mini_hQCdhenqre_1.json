@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Jointly training MLIP models to predict per-atom partial charges under a total-charge constraint will decrease force MAE by at least 10% and halve the incidence of unphysical bond-breaking events during 10 ns solvated MD of charged molecules relative to identical architectures trained only on energies and forces."
-}

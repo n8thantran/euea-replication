@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Systematic differences in GFN2-xTB relaxation energy between flow-matching and diffusion-based generative models arise specifically from the models' handling of torsion angle distributions rather than bond lengths or angles, such that architectures explicitly parameterizing torsional degrees of freedom during generation will close the performance gap between flow-matching and diffusion-based approaches observed in Table 2 without requiring increased model capacity or inference steps."
-}

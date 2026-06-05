@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Training an ensemble of neural networks with an unlabeled-data consistency loss that enforces each member to match the detached ensemble mean improves predictive accuracy and calibration compared to supervised training and prior SSL baselines across molecular graph and image benchmarks, with performance gains increasing with ensemble size and robust to coupling weight and scheduling choices."
-}

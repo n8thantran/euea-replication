@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If noisy crystal structures are optimized via gradient descent on differentiable XRD similarity losses (cosine, MSE, or entropy), then the recovery match rate will be low and significantly worse than CHGNet energy relaxation\u2014even with symmetry constraints\u2014because the XRD loss landscape is extremely rough with many local minima that trap optimization."
-}

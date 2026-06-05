@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating a diversity-promoting regularization term during the discrete sampling step of E2EFOLD's quantizer will increase the structural diversity of designed sequences while maintaining self-consistency, enabling the generation of multiple functionally distinct sequences for a single backbone that fold to similar structures but with different local conformational dynamics."
-}

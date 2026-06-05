@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Applying class-balancing strategies during training\u2014specifically oversampling rare reaction templates to achieve a more uniform template frequency distribution\u2014will disproportionately improve top-k accuracy for low-frequency templates in template-free models (MEGAN and RootAligned) compared to template-based models (LocalRetro), because template-free architectures implicitly learn reaction patterns from data distribution rather than from an explicit template library, making their internal representations more directly malleable by rebalancing the underlying training distribution without the structural constraint of a predefined template classification objective."
-}

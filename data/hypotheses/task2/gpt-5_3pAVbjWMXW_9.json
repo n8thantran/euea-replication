@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating chemically informed, concentration-dependent peak-shift (\u00b110\u201330 cm\u22121) and bandwidth-broadening augmentations for hydrogen-bond donor\u2013acceptor pairs into synthetic mixture generation will increase the model\u2019s Top\u201310 accuracy from ~52% to \u226565% on a held-out set of ATR-IR binary mixtures containing alcohol\u2013carboxylic acid and amine\u2013carbonyl systems, relative to training on linear combinations alone."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Synthesis procedures extracted from papers using LLM-based graph representations will enable more accurate prediction of material properties than linear sequence representations because the graph structure's explicit capture of branching and convergence points allows downstream models to learn conditional dependencies between synthesis conditions and material outcomes that are obscured in sequential formulations."
-}

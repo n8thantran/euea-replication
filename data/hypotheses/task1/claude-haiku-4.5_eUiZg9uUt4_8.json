@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Models trained on datasets with greater template diversity exhibit improved generalization to reactions with unseen templates, whereas models trained on datasets with skewed template distributions show degraded performance on out-of-distribution test cases."
-}

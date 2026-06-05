@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If pre-training a language model on MOF-related literature and chemical structures followed by fine-tuning on MOFid-to-property tasks with MOFid text inputs yields lower MAE on MOF property test sets than baseline models, including when fine-tuning data is scarce, because domain-specific pre-training improves the quality of MOF identifier to property mappings."
-}

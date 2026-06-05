@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If Li\u2013Si\u2013X compounds with predicted capacities >1500 mAh/g and large, stable Li-channel radii are identified, then these materials will retain a nearly constant Li-channel radius on lithiation/delithiation and exhibit low energy variation (<4%) upon CHGNet relaxation, proving the AI-guided workflow can yield high-capacity, structurally robust silicon-based anode materials."
-}

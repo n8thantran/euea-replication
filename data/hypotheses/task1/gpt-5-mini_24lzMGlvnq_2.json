@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If supervised fine-tuned language models are further trained with Direct Preference Optimization using thermodynamics-based hierarchical reward feedback from Thermo-Calc, then the resulting DPO models will generate BCC/B2 alloy compositions with higher thermodynamic reward scores, greater compositional validity, coverage, novelty, and unique-pair generation rates than the original SFT models and baseline methods, because preference learning aligns model outputs with physics-based synthesis objectives."
-}

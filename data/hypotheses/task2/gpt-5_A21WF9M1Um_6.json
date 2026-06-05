@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Annealing the XRD objective from a heavily broadened, coarsely binned pattern to the true instrumental resolution during gradient descent (i.e., a multi-scale convolutional continuation) will reduce spurious local minima arising from peak birth/death and yield higher ground-truth match rates than any fixed-resolution similarity metric for recovering structures under lattice distortions up to \u03c3l\u22480.1 and coordinate noise up to \u03c3c\u22480.05."
-}

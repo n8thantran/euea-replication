@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Integrating an explicit physics-informed motion prior derived from LEONARDO trajectory distributions as an auxiliary conditioning input during SAM-EM fine-tuning will reduce identity-switching events during severe multi-particle overlaps by at least 50% compared to the current SAM-EM when evaluated on holdout simulated LPTEM videos with high particle density and 150 nm liquid thickness."
-}

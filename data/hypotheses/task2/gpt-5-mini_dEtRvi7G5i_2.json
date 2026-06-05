@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Superhydrides of s\u2013d border metals with non-integer hydrogen-to-metal ratios that produce coexisting hydrogen motifs (polyhedral cages plus two-dimensional hydrogen sheets), exemplified by M4H52, will exhibit electron\u2013phonon coupling constants \u03bb at least 20% larger and superconducting transition temperatures Tc at least 20 K higher than the most stable integer-stoichiometry clathrate phases (e.g., MH10 or MH9) of the same metal at comparable pressures."
-}

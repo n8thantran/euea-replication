@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Branched and cross-linked polyamine polymer networks, evaluated under humid direct air capture conditions with co-adsorbed water included in the GCMC/MD simulations, will exhibit higher CO2 uptake and higher CO2/H2O selectivity than linear polyamines, and employing graph-based polymer representations within a multi-fidelity Bayesian optimization framework will accelerate the identification of these branched sorbents relative to linear-polymer representations."
-}

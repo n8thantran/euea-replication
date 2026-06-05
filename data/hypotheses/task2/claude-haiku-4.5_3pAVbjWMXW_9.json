@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "The spectral reconstruction alignment mechanism will exhibit diminished effectiveness for mixture components whose individual pure spectra contain spectral features that are non-linearly absorbed or shifted in frequency when the compounds interact through hydrogen bonding or other intermolecular forces in the mixture."
-}

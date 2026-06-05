@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "A hybrid adaptive batching algorithm that dynamically switches between static-64 and dynamic batching strategies based on a real-time estimate of the current graph-size variance within the training epoch will achieve greater training speedups than either algorithm alone, because high-variance phases (where dynamic batching's tighter memory utilization reduces gradient-update time) and low-variance phases (where static-64's lower bookkeeping overhead dominates) can be exploited selectively, and this switching threshold can be learned or tuned as a hyperparameter that is predictable from the kurtosis of the dataset's node/edge distribution measured prior to training."
-}

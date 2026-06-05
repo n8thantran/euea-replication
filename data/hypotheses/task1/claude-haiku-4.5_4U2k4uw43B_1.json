@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Machine learning-accelerated nudged elastic band calculations using pre-trained equivariant neural networks can identify metastable states and transition pathways with significantly reduced computational cost compared to pure density functional theory while maintaining chemical accuracy."
-}

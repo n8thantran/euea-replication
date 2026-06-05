@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Introducing explicit uncertainty quantification for thermodynamic and kinetic parameters in the physics-based synthesis simulator and propagating those uncertainties through the LLM planning loop will yield more robust, generalizable synthesis routes (including multi-component Nb\u2013O\u2013M oxide systems) and reduce plan failure rates compared to fixed-parameter simulations."
-}

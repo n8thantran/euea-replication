@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating dynamic, timestep-dependent constraint weighting schedules (where \u03b11 and \u03b12 vary as functions of diffusion timestep t) will enable PCDiff to achieve superior exploration of low-density regions in the compositional design space compared to static regularization, thereby increasing the discovery rate of novel composite formulations with extreme property combinations (e.g., simultaneously maximized yield strength and thermal conductivity) that lie near the boundaries of physical feasibility."
-}

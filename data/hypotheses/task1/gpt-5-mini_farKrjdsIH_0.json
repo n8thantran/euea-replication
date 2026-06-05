@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Fine-tuning SAM2 on synthetic LPTEM videos with box-prompt conditioning produces significantly higher segmentation accuracy (Jaccard index, F1, composite J&F) and centroid agreement than a U\u2011Net baseline across varying SNRs, resolutions, and particle interactions, enabling accurate real-time particle tracking and motion analysis on both synthetic and real LPTEM data."
-}

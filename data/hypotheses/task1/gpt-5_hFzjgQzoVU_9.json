@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If Fe K-edge XAS spectra and local iron coordination environments from iron-containing proteins are curated via the proposed semi-automated digitization and annotation pipeline, then the resulting dataset will yield quantitatively faithful and reproducible spectra (low MSE to synthetic ground-truth and high inter-expert ICC) and enable machine-learning models to predict spectra from structure and coordination properties from spectra with nontrivial accuracy, because the pipeline preserves the deterministic mapping between local structure and XAS features."
-}

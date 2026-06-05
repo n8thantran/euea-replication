@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Generative models trained to jointly predict continuous interatomic bond orders (e.g., GFN2-xTB\u2013derived Wiberg indices) alongside 3D coordinates will generate molecules whose mean GFN2-xTB relaxation energy (\u2206Erelax) is significantly lower than models trained with only discrete bond types, with the largest improvements occurring for polycyclic aromatic and heterocyclic systems."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "In NN-BAX for NEB, replacing random path-point acquisition with an uncertainty-driven policy that at each iteration selects the image along the surrogate-predicted path with maximal deep-ensemble force variance will reduce the number of expensive simulator evaluations required to reach MAEi<0.1 and fmax convergence by at least 40% relative to random sampling"
-}

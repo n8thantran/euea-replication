@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a single classifier-free guided score-based diffusion model is trained only on metastable-state molecular dynamics data and used with score-based interpolation (Isodensity or averaging) followed by score-aligned ascent refinement, then the ASTRA workflow will generate transition-state configurations with committors near 0.5 and produce valid transition pathways across tested systems (2D potentials, alanine dipeptide, chignolin, and a chemical reaction) more accurately than linear/geodesic interpolation baselines or ablated variants lacking SBI or SAA."
-}

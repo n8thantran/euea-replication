@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Universal machine-learning interatomic potentials trained on diverse datasets can reproduce DFT-calculated geometries, molecular-dynamics stability (volume behavior), bulk moduli from equation-of-state fits, and 300 K heat capacities of MOFs and related nanoporous materials to within DFT-level accuracy."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "An online Bayesian-optimization-based tuner that adapts NaviDiv's combined diversity constraint thresholds during reinforcement learning will, in the singlet-fission REINVENT4 setup used in the paper, achieve final average property scores within 5% of the unconstrained baseline while maintaining combined diversity metrics (Morgan-fingerprint mean pairwise similarity, fraction of unique fragments, and 10-gram SMILES uniqueness) at least 90% as high as fixed combined constraints and reducing the optimization slowdown (measured as iterations to reach 90% of the baseline final score) by at least 50% compared to fixed combined constraints."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating stereochemical diversity metrics into NaviDiv's constraint framework will reveal that reinforcement learning optimization for chiral molecular targets exhibits asymmetric collapse\u2014preferentially converging on a single enantiomeric series while maintaining apparent structural diversity in achiral fingerprint-based metrics\u2014such that adding stereoaware penalties will recover enantiodiverse candidate libraries without significantly reducing property optimization rates compared to combined achiral constraints alone."
-}

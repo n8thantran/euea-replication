@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Augmenting the Thermo-Calc-based reward with calibrated uncertainty estimates (e.g., ensemble CALPHAD predictions) to create a risk-sensitive Direct Preference Optimization objective will reduce domain-critical token drift and out-of-distribution tendency in low-capacity LMs (such as OLMo) while preserving or improving validity, coverage, novelty, and mean reward across LLaMA-3.1, Gemma-2, and OLMo-2-7B."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "In MADE configured with both MLIP and DFT oracles, a multi-fidelity Bayesian optimization agent that fits a calibrated surrogate to both fidelities and selects DFT queries by maximizing the expected number of new DFT-level convex-hull vertices will discover \u226550% more novel DFT-stable compounds than a MatterGen+diversity baseline under a fixed DFT budget of 50 evaluations on held-out ternary systems."
-}

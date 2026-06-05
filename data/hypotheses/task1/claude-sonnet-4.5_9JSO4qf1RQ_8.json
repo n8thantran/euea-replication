@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Large language models equipped with external tools (memory, periodic table, knowledge base) and iterative feedback from property prediction models can generate novel inorganic materials with target formation energies more successfully than tool-free language models or pure generative models because the integration enables compositionally-informed reasoning and learning from evaluation outcomes."
-}

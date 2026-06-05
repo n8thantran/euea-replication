@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "A lightweight calibration model that maps Force Delta U\u0394 to the actual force error \u03b5direct, trained on a small, diverse set of equilibrium and adversarially perturbed structures, will convert U\u0394 from a monotonic risk indicator into a calibrated, quantitative predictor of \u03b5direct that generalizes across model families and material systems."
-}

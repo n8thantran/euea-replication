@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "If the CNN-GRU-Attention model trained on coarse-grained binary bead sequences is extended to encode polymer sequences as continuous physicochemical property vectors (e.g., hydrophobicity, charge, hydrogen-bonding capacity) rather than binary strong/weak labels, then the model will capture non-monotonic, chemistry-specific binding free energy landscapes that cannot be predicted by linear interpolation between the binary extremes, enabling accurate inverse design of multi-component heteropolymers with targeted adhesion selectivity across chemically distinct surface functionalities."
-}

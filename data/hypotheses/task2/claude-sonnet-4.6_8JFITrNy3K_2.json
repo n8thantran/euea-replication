@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Fine-tuning a domain-specific language model on MatPROV's PROV-DM graph structures will yield higher structural-level F1 scores than the best-performing prompted general-purpose model (o4-mini with one-shot prompting, F1 = 0.835) when evaluated on synthesis procedures from material classes underrepresented in the training corpus (e.g., polymers or ceramics), because explicit supervision on the graph-theoretic relationships between entities, activities, and parameters will generalize more robustly across material domains than in-context example selection alone."
-}

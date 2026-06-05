@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Silicon\u2013copper clathrate-like crystalline alloys containing at least 10 atomic percent Cu will exhibit Li+ migration channel radius variation \u22640.45 \u00c5 per 100% state-of-charge and <50% volumetric expansion on full lithiation, yielding at least 2\u00d7 capacity retention after 200 cycles compared with pure crystalline Si under identical electrode testing conditions."
-}

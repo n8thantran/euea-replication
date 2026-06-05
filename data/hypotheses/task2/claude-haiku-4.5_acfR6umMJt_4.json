@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "The NN-BAX method's efficiency gains will degrade substantially when applied to chemical systems with significantly different potential energy landscape topologies (e.g., systems with funnel-shaped versus multi-basin landscapes) compared to the Lennard-Jones clusters studied, due to the foundation model's learned inductive biases being misaligned with the new landscape geometry."
-}

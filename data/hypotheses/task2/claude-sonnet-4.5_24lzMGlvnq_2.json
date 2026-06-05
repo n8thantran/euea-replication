@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating a dynamic \u03b2 schedule in Direct Preference Optimization that adaptively decreases for domain-critical tokens (element symbols and stoichiometric coefficients) while maintaining higher values for stylistic tokens will prevent the distributional collapse observed in smaller models like OLMo-2-7B, enabling successful multi-objective preference tuning across all model architectures without sacrificing coverage of the alloy design space."
-}

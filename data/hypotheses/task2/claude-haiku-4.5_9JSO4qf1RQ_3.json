@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "The accuracy of LLM-driven composition proposals will decrease systematically as target formation energies approach the extreme tail of the training distribution, and this degradation can be partially mitigated by dynamically adjusting the knowledge base retrieval strategy to prioritize compositional analogues from progressively more distant regions of the materials space rather than relying on fixed similarity metrics."
-}

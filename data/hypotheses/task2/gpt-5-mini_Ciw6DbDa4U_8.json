@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "An active-learning pipeline that uses uncertainty estimates from an ensemble of tensor-completion models to select subsequent experiments will identify lattice structures in the top 1% of Young's modulus with significantly fewer biased experimental samples than a Gaussian process\u2013based Bayesian optimization baseline."
-}

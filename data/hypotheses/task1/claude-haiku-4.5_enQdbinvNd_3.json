@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Multi-agent LLM systems with specialized roles, tool access, and coordinated memory can automate molecular simulation setup and force field extraction with reproducible accuracy comparable to manual expert execution."
-}

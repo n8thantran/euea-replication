@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "The orthogonality constraint imposed on concept embedding vectors during CAST training will generalize poorly to molecular properties with inherent statistical correlations in real drug discovery datasets, such that relaxing orthogonality for correlated property pairs will improve out-of-distribution generation fidelity compared to the current uniform orthogonality penalty."
-}

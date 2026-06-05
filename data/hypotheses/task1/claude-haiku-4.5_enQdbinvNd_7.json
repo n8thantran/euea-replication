@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Multi-agent LLM systems with access to specialized tools and shared memory can automatically configure molecular simulations and extract force field parameters from scientific literature with sufficient accuracy and reproducibility to reduce manual intervention in computational chemistry workflows."
-}

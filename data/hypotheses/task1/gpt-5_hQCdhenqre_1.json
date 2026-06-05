@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If MACE, NequIP, and ViSNet are implemented in a unified JAX-based library and coupled to JAX-MD, then protein-scale molecular dynamics on H100 GPUs will run faster than equivalent Torch+ASE implementations without degrading energy/force accuracy, because XLA compilation and a gated, species-aware MACE architecture reduce inference overhead while preserving model expressivity."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "An online active-learning loop that retrains the ML surrogate on-the-fly using energies, forces, and stresses during SSNEB will enable ML-SSNEB to predict metastable pathways in highly anisotropic and defect-rich solid-state systems with DFT-level accuracy (barrier errors <0.05 eV) while achieving at least a 2\u00d7 reduction in total SSNEB iterations across CsPbI3, TiO2, and additional polymorphs."
-}

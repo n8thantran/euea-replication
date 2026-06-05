@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "If CHROMA adopts a differentiable, continuous thickness parameterization and trains with a physics-informed loss that explicitly models manufacturing variability (e.g., surface roughness and thickness tolerances) and angle-dependent transfer-matrix responses, then inverse-design performance on held-out multilayer stacks will achieve sub-JND \u2206E and exhibit a reduced generalization gap compared to the current discrete-vocabulary approach."
-}

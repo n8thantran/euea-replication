@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating explicit solvent-mediated long-range electrostatic interactions through a learned attention mechanism in MACE's symmetric contraction layer will enable accurate prediction of solvated protein conformational dynamics beyond the 5 \u00c5 cutoff radius, eliminating the need for post-hoc correction terms while maintaining sub-10 ms/step inference speed for systems up to 5000 atoms."
-}

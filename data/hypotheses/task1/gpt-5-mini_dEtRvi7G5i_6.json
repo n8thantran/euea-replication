@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If a metal lattice exhibits strong interstitial electron localization (quasi-atoms), three-dimensional electronic connectivity, high hydrogen content, and a large hydrogen-derived density of states at the Fermi level, then it will form a thermodynamically stable superhydride with strong electron-phonon coupling and a high superconducting transition temperature, and such candidates can be reliably identified by the chemical-template-informed machine learning workflow."
-}

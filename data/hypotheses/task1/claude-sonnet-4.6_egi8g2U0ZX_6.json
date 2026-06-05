@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If combining pre-training on large chemical databases with domain-specific fine-tuning and reinforcement learning guided by expert-defined physicochemical reward functions is applied to generative models, then the resulting configurations will produce novel, valid, and diverse CTF structures satisfying expert-defined material criteria at higher rates than any single knowledge transfer strategy alone, because the sequential application of broad chemical knowledge, domain adaptation, and task-specific optimization provides complementary inductive biases that progressively constrain the chemical space toward viable porous carbon materials for supercapacitors."
-}

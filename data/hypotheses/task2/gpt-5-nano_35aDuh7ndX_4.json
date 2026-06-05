@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating receptor conformational ensembles into the pharmacophore-guided reinforcement learning reward\u2014by deriving ensemble-averaged pharmacophore fingerprints from MD-generated receptor snapshots and rewarding agreement across conformations\u2014will yield de novo molecules with consistently high multi-conformation pharmacophore similarity and improved prospective docking enrichment for flexible targets, compared with generation guided by a single static pharmacophore reference."
-}

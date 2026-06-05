@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating a multi-scale symmetry-aware diffusion model that progressively refines crystal structures from coarse crystal family classification to fine-grained Wyckoff position optimization will achieve higher XRD-to-structure reconstruction accuracy than single-stage generative models, particularly for structures with coordinate noise exceeding 5%, by explicitly navigating the non-convex XRD loss landscape through hierarchical symmetry constraints."
-}

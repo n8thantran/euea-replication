@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating explicit solvent effects through coarse-grained water models in the training dataset will reveal that polymer-surface binding free energies exhibit nonlinear sensitivity to local hydration shell structure, leading to systematic prediction errors in the current vacuum-trained CNN-GRU model for surfaces with mixed hydrophilic/hydrophobic domains where water-mediated bridging interactions dominate adhesion thermodynamics."
-}

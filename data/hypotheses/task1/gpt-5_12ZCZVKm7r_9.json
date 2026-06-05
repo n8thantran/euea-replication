@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If last-layer embeddings from diverse scientific foundation models (across molecules, materials, and proteins) are computed on shared atomistic datasets, then their representations will show significant alignment (high CKNNA and IDCor with near-symmetric information imbalance), including on out-of-distribution data, because these models converge to a shared low-intrinsic-dimensional manifold imposed by universal atomic physics."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "The ensemble consensus semi-supervised learning effect will diminish or reverse when ensemble members are trained on disjoint subsets of the labeled data rather than identical mini-batches, because reduced supervised signal agreement will cause the consensus target to become unreliable for guiding individual model learning on unlabeled data."
-}

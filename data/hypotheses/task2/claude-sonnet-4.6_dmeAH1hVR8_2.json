@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating reaction pathway and synthesis condition data from chemical literature (e.g., precursor combinations, solvent systems, temperature profiles) into the continual pre-training corpus will enable LLMs to predict not only MOF physicochemical properties but also synthesizability scores, such that models pre-trained on synthesis-augmented corpora will outperform property-only pre-trained models on held-out experimental MOF datasets where computational hypothetical structures are systematically absent."
-}

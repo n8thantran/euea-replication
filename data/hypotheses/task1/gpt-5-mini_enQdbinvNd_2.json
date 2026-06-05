@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "A multi-agent LLM-based system with specialized agents and access to force-field libraries and literature search tools can autonomously create reproducible, RASPA-executable molecular simulation setups for complex adsorption tasks and accurately extract complete force field parameters from publications."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If semantic alignment between task goals and available tools is increased (e.g., via more comprehensive tool descriptions or a hypothesis generator), then scientific LLM agents will yield larger improvements in pass@k/success rates than those achieved by switching agent scaffolds (ReAct vs tool-calling) or LLM backbones (Claude-3.5 Sonnet vs GPT-4o) because better alignment reduces tool selection and planning errors."
-}

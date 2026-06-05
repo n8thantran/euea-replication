@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "When extended to jointly target low formation energy per atom and large band gap, MatAgent using non-dominated sorting\u2013based (Pareto) feedback will achieve a statistically significant (p<0.05) increase in Pareto hypervolume after 15 iterations compared to an otherwise identical MatAgent using weighted-sum scalarization."
-}

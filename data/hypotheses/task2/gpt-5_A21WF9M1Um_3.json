@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Jointly optimizing candidate crystal structures to match powder XRD patterns measured at Cu K\u03b1 (1.5406 \u00c5) and Mo K\u03b1 (0.7093 \u00c5) wavelengths reduces spurious local minima in the loss landscape and yields higher ground-truth match rates than single-wavelength optimization across both lattice and coordinate noise, even without explicit symmetry constraints."
-}

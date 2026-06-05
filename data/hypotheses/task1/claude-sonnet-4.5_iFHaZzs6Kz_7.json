@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Contrastive multimodal learning between 2D SMILES strings and 3D electron density grids induces rotation-invariant molecular representations without explicit equivariance constraints because the alignment objective forces the 3D encoder to extract features invariant to the arbitrary rotational augmentations present across conformers of the same molecule."
-}

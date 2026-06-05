@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If NN-BAX uses an iteratively trained EquiformerV2 surrogate to replace explicit energy/force evaluations in NEB, then the resulting minimum-energy paths for LJ7 and LJ38 will agree with ground-truth NEB results (as measured by MAEi and fmax) with reduced computational cost, because the neural model accurately predicts path energies and forces and is improved through acquisition of informative points."
-}

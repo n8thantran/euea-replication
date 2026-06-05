@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Replacing the static empirical valency lookup table with a dynamic, graph neural network-based valency predictor trained on the corrected GEOM-Drugs dataset\u2014one that conditions valid valency ranges on the full local chemical environment of each atom rather than only on element type, formal charge, and aromatic bond count\u2014will yield a molecular stability metric that better discriminates between chemically plausible and implausible generated structures, resulting in a stronger correlation with GFN2-xTB relaxation energies than the best lookup-table-based metric proposed in this paper."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Pharmacophore-guided generative models that incorporate dynamic protein flexibility through ensemble docking will generate molecules with improved experimental binding affinities compared to those designed using single rigid protein structures."
-}

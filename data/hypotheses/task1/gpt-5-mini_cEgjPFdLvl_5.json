@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If an AMDEN diffusion model with an EGNN backbone (optionally using energy-based noise prediction and HMC refinement) is trained on MD-generated amorphous materials, then it will generate amorphous structures whose radial distribution functions, bond angle distributions, structure factors, and potential energy distributions closely match those of the MD references across different thermal histories and multi-element compositions, and conditioning the model on Young's modulus will steer the generated structures' mechanical properties."
-}

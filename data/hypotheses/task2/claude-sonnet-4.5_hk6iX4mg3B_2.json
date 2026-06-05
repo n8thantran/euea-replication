@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nEnsemble consensus-based semi-supervised learning will exhibit greater performance gains when the unlabeled molecular data is drawn from a chemically distinct but structurally related distribution (e.g., different functional groups on the same scaffold) compared to unlabeled data from the identical distribution, due to enhanced diversity in the ensemble's learned representations without violating the label smoothness assumption."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If a spectral alignment reconstruction loss is included during training (\u03bb > 0) alongside the sequence-to-sequence loss and multitask learning across concentration ratios, then the model will identify the correct molecular components in mixture IR spectra with higher Top-1 accuracy and produce pure-component spectra more similar to ground truth than a model trained without the reconstruction loss."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Gradient descent optimization of crystal structures from powder XRD data will fail to recover ground-truth structures due to a rough loss landscape with multiple local minima that trap optimization, even when symmetry constraints are applied."
-}

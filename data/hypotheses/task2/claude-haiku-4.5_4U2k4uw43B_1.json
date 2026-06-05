@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "ML models fine-tuned on material-specific transition pathways through active learning will exhibit non-monotonic improvements in SSNEB convergence efficiency as a function of fine-tuning dataset size, with an optimal threshold beyond which stress prediction errors accumulate faster than force prediction errors, causing pathway divergence from DFT ground truth."
-}

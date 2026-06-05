@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "An adaptive fidelity-aware discovery policy in MADE that routes oracle queries to MLIP, DFT, or experimental evaluation based on estimated epistemic uncertainty and incremental hull improvement will discover more novel thermodynamically stable materials within a fixed budget and with greater structural diversity than a fixed-fidelity policy."
-}

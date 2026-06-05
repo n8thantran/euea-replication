@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Fine-tuning SAM-EM on multi-lab experimental LPTEM data with varying microscope conditions and sample geometries will reveal that domain-specific features related to electron beam aberrations and liquid cell geometry are more predictive of segmentation robustness than liquid thickness alone, enabling transfer learning to new microscopy platforms without retraining."
-}

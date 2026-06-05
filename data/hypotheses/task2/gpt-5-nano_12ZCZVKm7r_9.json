@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "A cross-domain universal model trained with a shared latent projection and a joint objective combining cross-modal energy-geometry consistency and cross-modal contrastive alignment across molecules, materials, and proteins will produce a universal representation of matter whose intrinsic dimensionality and manifold topology are dataset-invariant, and whose embeddings demonstrate higher cross-domain alignment (as measured by CKNNA and IDCor) and lower information imbalance on both in-distribution and out-of-distribution data than models trained with modality-specific objectives."
-}

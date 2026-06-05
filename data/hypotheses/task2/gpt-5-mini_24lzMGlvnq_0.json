@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Applying a DPO variant that enforces an explicit tokenwise KL constraint anchoring element symbols and multi-digit numeral tokens to the SFT policy during preference tuning will prevent out-of-distribution drift in smaller models (e.g., OLMo) and produce a statistically significant increase in satisfaction rates across the four synthesis objectives compared to standard DPO."
-}

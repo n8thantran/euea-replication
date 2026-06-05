@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Applying NaviDiv's adaptive combined similarity-, fragment-, and scaffold-based constraints to graph-based generative models with an online Bayesian optimizer that tunes constraint thresholds will preserve fragment and scaffold diversity at \u226595% of their initial values while retaining property-optimization speed within 10% of an unconstrained baseline across at least two distinct molecular design tasks."
-}

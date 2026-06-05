@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Adaptive diversity constraints applied during reinforcement learning-based molecular generation will increase diversity across generated compounds (as assessed by representation distance, fragment, scaffold, and n-gram diversity metrics) without decreasing the proportion of molecules meeting the singlet fission energy criterion \u0394E_SF = E(S1) \u2212 2\u00b7E(T1) within the target range, compared to baseline unconstrained generation."
-}

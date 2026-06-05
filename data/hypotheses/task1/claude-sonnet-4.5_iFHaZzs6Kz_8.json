@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Contrastive learning between SMILES strings and 3D electron density grids induces pose-invariant molecular representations without explicit equivariance constraints, enabling accurate retrieval and property prediction across arbitrary molecular rotations."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a GraphSAGE-based two-node graph using frozen single-gas features from O2 and Ar augmented with the corresponding Ar fraction as node attributes is trained to predict the ten radial etching rates for Ar/O2 mixtures, then it will achieve higher predictive accuracy than a baseline feedforward network and other GNN architectures across varying coil power and pressure because leveraging transferable single-gas representations and inter-gas relationships improves generalization to mixtures."
-}

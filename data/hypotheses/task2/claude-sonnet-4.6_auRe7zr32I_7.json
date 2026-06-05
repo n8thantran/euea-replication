@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating stereochemical diversity metrics\u2014specifically tracking chiral center distributions and enantiomeric ratios across generated molecules\u2014into NaviDiv's constraint framework will reveal that current reinforcement learning optimization disproportionately collapses stereochemical space before structural fingerprint-based metrics detect diversity loss, and that adding stereochemistry-aware penalties will recover a measurable fraction of property-optimized candidates that are otherwise discarded due to premature convergence on a dominant stereoisomeric form."
-}

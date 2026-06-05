@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating DFT-derived band gap values as the distributional property in an EMD-based metric will produce rankings of generative models that correlate more strongly with SUN stability scores than EMD metrics computed over ML-predicted formation energies or density, because band gap distributions are sensitive to both compositional validity and local structural order, making them a more physically discriminative proxy for thermodynamic feasibility without requiring full DFT relaxation."
-}

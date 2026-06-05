@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Extending AMDEN to perform diffusion over the cell matrix C simultaneously with atomic positions X and element embeddings E (i.e., learning a joint diffusion process on (C, X, E) with appropriate equivariance and a density-regularization constraint) will enable generation of low-energy, density-targeted amorphous structures directly during inference, reducing or replacing the need for Hamiltonian Monte Carlo refinement while improving alignment with the energy distributions of annealed/quench datasets."
-}

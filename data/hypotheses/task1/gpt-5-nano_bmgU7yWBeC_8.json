@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Force Delta (U\u2206) predicted by a single NNIP is positively correlated with the RMS error between predicted non-conservative forces and ground-truth DFT forces (\u03b5direct) for both equilibrium and adversarially perturbed OOD structures, validating U\u2206 as a reliable, data-free uncertainty estimator for NNIPs."
-}

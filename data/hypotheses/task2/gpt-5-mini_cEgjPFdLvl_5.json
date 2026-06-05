@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating short MD relaxation trajectories as auxiliary supervision during AMDEN training will allow the model, using only the standard denoising procedure (no HMC), to generate amorphous structures whose post-geometry-optimization potential energy distribution is indistinguishable from the annealed training set by a two-sample Kolmogorov\u2013Smirnov test at the 5% significance level."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "The optimal bicarbonate-to-carbonate ratio for reactor yield will shift systematically with applied current density, such that higher current densities require proportionally higher bicarbonate concentrations to maintain the same maximum reactor yield value."
-}

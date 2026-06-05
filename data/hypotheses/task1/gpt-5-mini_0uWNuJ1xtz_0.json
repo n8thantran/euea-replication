@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Pretraining a hybrid encoder-decoder (STR-Bamba426M) on multiple molecular representations with a shared BPE tokenizer produces unified, chemically informative latent embeddings that cluster by chemical similarity, improve downstream property-prediction performance across small molecules, polymers, and electrolytes, and enable accurate translation between molecular representations."
-}

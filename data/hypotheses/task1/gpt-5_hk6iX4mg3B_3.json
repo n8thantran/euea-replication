@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If, under scarce labels (e.g., 10% labeled and 90% unlabeled), each model in an M-member ensemble is trained to match the gradient-detached ensemble mean on unlabeled data alongside the supervised loss, then molecular property prediction (and image classification) will achieve lower error and better calibration than supervised, Mean-Teacher, and PSEUDO\u03c3 baselines, with performance improving as M increases, because ensemble consensus supplies reliable soft targets that stabilize semi-supervised learning."
-}

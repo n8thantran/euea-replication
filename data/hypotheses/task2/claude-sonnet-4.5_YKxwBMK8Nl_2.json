@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Hypothesis\n\nIncorporating domain-specific pre-training on chemical literature with explicit instruction tuning for multi-entity relational reasoning will significantly improve agentic extraction of hierarchical nanomaterial properties (composition \u2192 morphology \u2192 catalytic activity) compared to general-purpose LLMs, achieving F1 scores >0.75 on high-complexity ChemX datasets without requiring specialized multi-agent orchestration."
-}

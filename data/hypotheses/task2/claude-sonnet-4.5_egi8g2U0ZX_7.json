@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating multi-scale structural descriptors that simultaneously capture both local chemical patterns and global topological features of porous frameworks into the reward function will enable reinforcement learning agents to generate CTF substrates with superior electrochemical performance (>20% improvement in specific capacitance) compared to substrates optimized using only the current expert-defined criteria."
-}

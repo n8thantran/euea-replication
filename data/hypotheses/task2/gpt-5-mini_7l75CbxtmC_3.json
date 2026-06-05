@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Including estimated heating energy (from heat capacities and reaction enthalpies) and purification-cost models in the economic-efficiency metric will alter the identified optimal synthesis route for at least 40% of inorganic target compounds in a diverse test set relative to rankings produced using only thermodynamic yield and reactant market prices."
-}

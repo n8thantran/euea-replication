@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Augmenting STR-Bamba pretraining by jointly encoding, as additional aligned modalities, enumerated tautomeric and protonation states for each molecule will reduce RMSE on the FreeSolv hydration free energy benchmark compared to the current multimodal training without microstate augmentation."
-}

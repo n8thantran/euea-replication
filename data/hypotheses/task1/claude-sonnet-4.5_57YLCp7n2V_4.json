@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If valency calculation is corrected to account for aromatic bonds as 1.5 instead of 1, then 3D molecule generation models will produce more chemically accurate structures with lower geometric deviations and relaxation energies when evaluated using quantum mechanical methods."
-}

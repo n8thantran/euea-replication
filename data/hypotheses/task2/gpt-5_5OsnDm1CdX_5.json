@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "A GraphSAGE mixture model trained only on Ar/O2 binary-mixture data and equipped with pre-trained single-gas predictors for Ar, O2, and CF4 will, without any retraining, predict PMMA radial etch-rate profiles for Ar/O2/CF4 ternary plasmas across 10\u201370 mTorr and 50\u20132000 W with R2 \u2265 0.85 when node features are taken from each single-gas network\u2019s penultimate hidden layer."
-}

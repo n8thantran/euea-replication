@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If E2EFOLD is trained end-to-end with a composite loss that jointly optimizes structure prediction and structure-based sequence design (including FAPE, C\u03b1-FAPE, torsion, distogram, and sequence recovery losses), then the designed sequences will have higher sequence recovery and the corresponding structures will exhibit higher TM-scores and lower RMSDs compared with Boltz-2 designs and non-end-to-end baselines on benchmarks such as CATH 4.2 and E2EData, because the loss terms directly align sequence fidelity with accurate all-atom structure reconstruction."
-}

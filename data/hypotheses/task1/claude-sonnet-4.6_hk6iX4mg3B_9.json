@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If molecular graph neural networks are trained using an ensemble consensus objective that enforces prediction consistency among ensemble members on unlabeled data, then semi-supervised learning performance will improve over supervised baselines across diverse molecular property prediction tasks, because the mutual regularization between ensemble members generates reliable soft pseudo-labels that effectively exploit unlabeled molecular data without requiring external teacher models or iterative retraining episodes."
-}

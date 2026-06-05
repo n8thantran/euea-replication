@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If MACE is modified with gating mechanisms and species-dependent edge features, then it will produce faster inference times during MD simulations on H100 GPUs while maintaining comparable energy and force prediction accuracy to the original MACE, NequIP, and ViSNet models on the SPICE2 benchmark because the modifications reduce per-inference computational cost without significantly reducing representational capacity."
-}

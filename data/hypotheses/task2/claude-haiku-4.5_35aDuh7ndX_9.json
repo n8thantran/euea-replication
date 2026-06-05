@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Pharmacophore-guided generative models trained with multi-target reference sets (e.g., compounds active against both estrogen receptor and progesterone receptor) will generate molecules with improved selectivity profiles compared to single-target models, despite maintaining equivalent pharmacophoric similarity and structural novelty metrics."
-}

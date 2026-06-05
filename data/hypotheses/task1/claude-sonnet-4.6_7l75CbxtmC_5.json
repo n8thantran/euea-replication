@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a computational workflow integrating thermodynamic databases, cellular automata simulation, machine learning descriptors, and commercial pricing databases is applied to inorganic material synthesis planning, then it will identify cost-effective and thermodynamically favorable synthesis recipes for target materials such as Ca2SiO4 more efficiently than conventional trial-and-error experimental approaches, because combining thermodynamic feasibility screening with real-world economic constraints and predictive property models reduces the experimental search space to only commercially viable, high-probability synthesis pathways."
-}

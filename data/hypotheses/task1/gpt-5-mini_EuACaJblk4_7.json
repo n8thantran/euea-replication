@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a discrete stochastic autoencoder is trained end-to-end to map backbone coordinates to discrete sequences and back to all-atom structures (E2EFOLD), then it will produce designed sequences whose predicted folded structures closely match the input backbones (higher TM-score and lower RMSD) and achieve superior sequence recovery and self-consistency compared to decoupled pipelines or models ablated of structural loss terms, because joint end-to-end optimization enforces tighter sequence\u2013structure compatibility."
-}

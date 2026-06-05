@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating physics-informed constraints derived from lattice symmetry groups into tensor completion factor matrices will improve prediction accuracy for out-of-distribution lattice geometries by 15-25% compared to unconstrained tensor methods, particularly when training data exhibits extreme bias toward specific unit cell types."
-}

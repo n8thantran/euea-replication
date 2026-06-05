@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "If X-MoPA is pretrained with stochastic modality dropout that masks one randomly selected modality with 30% probability per sample, then on Matbench band gap and bulk modulus tasks the downstream predictors will exhibit no more than a 10% increase in MAE when evaluated using only a single modality at inference compared to using all three modalities."
-}

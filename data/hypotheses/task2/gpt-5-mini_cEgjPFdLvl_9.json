@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Training AMDEN on datasets augmented with full annealing trajectories (i.e., time-ordered snapshots across melting and slow cooling) will enable the standard denoising procedure (without HMC) to generate amorphous structures whose geometry-optimized potential energy distribution is statistically indistinguishable from the slow-quenched (anneal) reference dataset by a two-sample Kolmogorov\u2013Smirnov test (p > 0.05)."
-}

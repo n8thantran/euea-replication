@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating calibrated predictive uncertainty into the physics-based reward for Direct Preference Optimization\u2014via an ensemble or Bayesian CALPHAD/Thermo-Calc surrogate that yields a reward distribution rather than a single scalar and training the LM with a risk-sensitive objective\u2014will improve robustness and generalization of LM-driven BCC/B2 alloy design, increasing synthesis-viability (meeting all four synthesis criteria) and design-space exploration in unseen multi-element compositions while reducing drift on domain-critical tokens across LM architectures compared to deterministic Thermo-Calc rewards."
-}

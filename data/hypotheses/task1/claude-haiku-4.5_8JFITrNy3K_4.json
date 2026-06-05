@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Large language models can accurately extract material synthesis procedures from scientific literature into structured provenance graphs that preserve both procedural relationships and experimental parameters at levels comparable to expert manual annotation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "For MOFs containing 3d transition metals (Cr, Mn, Fe, Co, Ni), augmenting the \u2206-learning XGBoost model with per-metal electronic descriptors\u2014formal oxidation state, coordination number, average metal\u2013ligand bond length, and metal partial charge/spin density computed from a single-point GFN1-xTB calculation\u2014will reduce the HSE06 band gap prediction MAE for this subset by at least 30% compared to the original \u2206-learning model without these descriptors."
-}

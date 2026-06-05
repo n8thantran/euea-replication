@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating molecular charge as a model input\u2014identified in the roadmap as a planned feature\u2014will yield disproportionately larger improvements in MD simulation stability and force prediction accuracy for systems containing alkali metal ions (K, Li, Na) compared to neutral organic molecules, because the electrostatic environment around these ions is dominated by long-range charge-transfer interactions that are systematically misrepresented when total charge information is absent, and this effect can be quantified by comparing per-element force MAEs before and after charge-conditioned training on a balanced dataset that includes charged species of these elements."
-}

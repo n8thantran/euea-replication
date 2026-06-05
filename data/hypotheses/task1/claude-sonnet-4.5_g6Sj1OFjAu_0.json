@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Incorporating chemical domain knowledge through periodic table representation pretraining and element-aware constraints into a conditional latent diffusion model will generate more chemically valid and property-targeted catalytic surface compositions than chemically-agnostic generative approaches."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIntegrating uncertainty-aware multi-fidelity active learning with structural motif memory will enable agents to discover stable materials up to 3\u00d7 faster than single-fidelity Bayesian optimization by dynamically routing high-uncertainty candidates to cheaper MLIP oracles while exploiting learned structural patterns to bias generation toward chemically plausible local minima in unexplored composition regions."
-}

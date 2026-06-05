@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Active learning with iterative DFT-eSEN fine-tuning on transition-state geometries will reduce the computational cost of ML-SSNEB refinement below 0.5\u00d7 relative to pure DFT calculations while maintaining sub-0.02 eV accuracy in energy barriers across chemically diverse material families."
-}

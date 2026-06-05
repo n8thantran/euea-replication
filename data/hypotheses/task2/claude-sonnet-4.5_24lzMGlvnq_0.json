@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating temperature-dependent lattice mismatch gradients as an additional term in the reward function will enable DPO-tuned language models to generate BCC/B2 superalloy candidates that maintain phase stability across broader operational temperature ranges (>1500K) compared to candidates optimized solely for minimum lattice mismatch at discrete temperatures."
-}

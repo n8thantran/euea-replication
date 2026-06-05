@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "4U2k4uw43B",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Machine learning models fine-tuned on transition-state geometries and force distributions from active learning will achieve superior SSNEB convergence and accuracy compared to untuned pre-trained models, particularly for materials with complex stress tensors and non-linear phase transition pathways that deviate significantly from the training distribution."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating explicit electronic structure descriptors\u2014such as d-band center position or local density of states features\u2014into CompGen's conditioning framework will enable more accurate prediction of reaction-specific catalytic activity beyond adsorption energy alone, thereby bridging the gap between composition generation and site-specific selectivity for multi-step reaction pathways."
-}

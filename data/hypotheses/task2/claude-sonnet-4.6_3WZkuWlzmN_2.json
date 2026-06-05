@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "When one modality is systematically absent or corrupted during inference (e.g., XRD patterns unavailable for amorphous or nanostructured materials), X-MoPA's cross-modal predictive framework can reconstruct a surrogate latent representation for the missing modality from the remaining two with lower prediction error than a bimodal baseline trained without that modality, because the cross-modal prediction loss explicitly trains the model to encode each modality's information redundantly across the other two, such that property prediction accuracy on band gap and formation energy degrades by less than 10% relative to the full three-modality model even when one modality is entirely withheld at test time."
-}

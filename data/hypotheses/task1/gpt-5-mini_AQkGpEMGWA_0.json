@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "A conditional variational autoencoder trained on Li\u2013Si\u2013X crystal graphs can generate novel silicon-based anode compounds that achieve >1500 mAh/g theoretical capacity while maintaining large continuous Li+ migration channels that remain nearly unchanged upon delithiation and exhibit structural stability under CHGNet relaxation."
-}

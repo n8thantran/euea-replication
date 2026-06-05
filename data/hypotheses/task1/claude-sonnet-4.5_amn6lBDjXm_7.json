@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Generative models that produce crystal structures closer to their ground-state energy configurations after DFT relaxation will demonstrate higher chemical validity and stability as measured by smaller RMSD values and lower energy above the convex hull."
-}

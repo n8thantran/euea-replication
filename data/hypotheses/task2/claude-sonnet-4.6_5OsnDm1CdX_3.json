@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "When predicting etching rates for mixtures containing three or more gas components, GraphSAGE architectures that incorporate edge features encoding pairwise chemical interaction energies or reaction rate constants between gas species will outperform topologically equivalent GraphSAGE models using only node features, because the additional relational information will enable the GNN to distinguish synergistic from antagonistic inter-species interactions that become increasingly non-additive as mixture complexity grows beyond two components."
-}

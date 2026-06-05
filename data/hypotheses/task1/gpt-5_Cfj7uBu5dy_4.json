@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If an autonomous materials discovery agent combines a pretrained structure generator (MatterGen) with a diversity-based acquisition function, then within a 20-query budget it will discover more novel stable compounds than agents using random generation and/or random acquisition because the generative prior and diversity criterion focus proposals on promising, nonredundant regions of composition\u2013structure space."
-}

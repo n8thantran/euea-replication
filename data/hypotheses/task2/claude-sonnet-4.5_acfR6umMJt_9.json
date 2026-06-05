@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Given that NN-BAX achieves 1-2 orders of magnitude speedup on Lennard-Jones systems by actively fine-tuning EquiformerV2 during NEB calculations, but relies on random sampling from converged paths for acquisition:\n\n**Hypothesis**: Replacing random path sampling with uncertainty-weighted acquisition that prioritizes high-curvature regions near transition states will reduce the number of BAX iterations required for convergence by at least 30% compared to uniform random sampling, particularly for systems with multiple intermediate minima where transition state localization is computationally expensive."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating a conformer-consistency contrastive objective that explicitly aligns SMILES-anchored embeddings with electron-density grids across multiple low-energy conformers of the same molecule will extend pose-invariance to conformational and stereochemical variations, producing rotation- and conformation-invariant representations that improve cross-conformer retrieval and structure\u2013property clustering under conformational perturbations."
-}

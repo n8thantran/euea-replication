@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Increasing model capacity by using a larger frozen Llama encoder (1B/3B/8B) and a deeper trainable Transformer decoder (2/4/8 layers) will reduce the CIE76 color difference between target colors and colors produced by the simulated multilayer designs for both training-paraphrase and validation prompts, demonstrating improved linguistic generalization and design fidelity."
-}

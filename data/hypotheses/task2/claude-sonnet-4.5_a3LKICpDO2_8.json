@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit treatment of d-orbital occupancy and spin state descriptors into the \u0394-learning framework will enable accurate band gap prediction for transition metal-containing MOFs, overcoming the systematic underestimation observed when GFN1-xTB fails to capture strong electron correlation effects."
-}

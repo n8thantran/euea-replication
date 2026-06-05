@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If task-tool alignment is improved through better tool descriptions or task decomposition, then scientific LLM agent performance will increase more substantially than performance gains from changing the underlying agent framework or model selection."
-}

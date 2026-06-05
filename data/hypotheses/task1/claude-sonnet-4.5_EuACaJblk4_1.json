@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "End-to-end training of a joint protein structure prediction and sequence design model with bidirectional gradient flow between encoder and decoder will improve both sequence recovery and structural self-consistency compared to models trained separately for each task."
-}

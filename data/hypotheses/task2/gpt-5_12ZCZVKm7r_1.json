@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "A single model trained with a molecules\u2013materials curriculum and symmetry-enforcing (energy-conservative, rotation-equivariant) regularization will exhibit converged intrinsic dimensionalities that differ by no more than one across QM9, OMol25, sAlex, and O"
-}

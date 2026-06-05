@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Dynamic batching algorithms reduce GPU training time for graph neural networks compared to static batching algorithms by minimizing padding overhead while maintaining computational efficiency across variable-sized molecular and materials graphs."
-}

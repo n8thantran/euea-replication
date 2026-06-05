@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If fragment-based generation of linear polyamines, DFT-refined force fields, and Bayesian optimization with polymer-aware representations are used to guide a two-stage MD-GCMC workflow, then the framework will identify linear polyamines with adsorption capacities near the maximum at low CO2 partial pressure more efficiently than unguided search, because the models accurately predict adsorption and Thompson-sampling directs exploration toward high-potential candidates."
-}

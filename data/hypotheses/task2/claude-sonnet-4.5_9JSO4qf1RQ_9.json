@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Integrating real-time synthesizability scoring through retrieval of reaction pathway precedents from scientific literature will enable MatAgent to autonomously prioritize compositions with experimentally validated synthetic routes, thereby reducing the formation energy prediction-to-synthesis success gap by at least 40% compared to property-only guided generation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Integrating SAM-EM into a real-time closed-loop control that reduces electron beam dose whenever the model detects a sustained (>3 frames) drop in particle mean-squared displacement exceeding 2 standard deviations from baseline will decrease the incidence of beam-induced irreversible nanoparticle aggregation by at least 50% relative to fixed-dose acquisitions under otherwise identical experimental conditions."
-}

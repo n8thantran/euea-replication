@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Integrating a layout-aware chemical-structure detector and DECIMER-based OCSR with SMILES validation into the single-agent pipeline will increase SMILES extraction on ChemX small-molecule datasets to \u22650.60 recall and \u22650.85 precision, while changing the mean F1 of all non-SMILES fields by <5% relative to the current single-agent baseline."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If modern universal machine-learning interatomic potentials (including equivariant GNNs, graph transformers, and graph network simulators) with appropriate dispersion corrections are applied to metal\u2013organic frameworks, then they will reproduce DFT reference results for optimized geometries (converging to DFT-optimized structures and volumes), molecular-dynamics stability at 300 K/1 bar, bulk modulus from equation-of-state fits, and heat capacities at 300 K within chemically accurate error tolerances, because their architectures and training on large, diverse datasets capture the essential interatomic interactions in MOFs."
-}

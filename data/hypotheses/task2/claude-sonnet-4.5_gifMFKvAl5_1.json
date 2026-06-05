@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nMulti-scale physics-constrained diffusion models that simultaneously enforce compositional constraints at the component level and emergent microstructural constraints (such as fiber orientation distributions and phase interface geometries) will generate composite materials with superior mechanical anisotropy and interfacial bonding strength compared to composition-only constrained models, as validated by finite element analysis of stress concentration factors at fiber-matrix interfaces."
-}

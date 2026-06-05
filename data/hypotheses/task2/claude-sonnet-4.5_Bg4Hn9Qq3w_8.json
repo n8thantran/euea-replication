@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Self-limiting surface reactions in multi-precursor ALP systems exhibit emergent synergistic effects that can only be discovered when LLM agents are explicitly constrained to explore non-equilibrium transient states (e.g., partial surface coverage, intermediate temperature ramps during pulse sequences) rather than steady-state saturation conditions, leading to identification of kinetically-accessible reaction pathways that would be missed by both traditional optimization-focused experimentation and agents allowed to prematurely converge on familiar cyclic processes."
-}

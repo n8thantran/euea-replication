@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Large language models can accurately extract material synthesis procedures from scientific literature into PROV-DM-compliant provenance graphs with sufficient precision and recall to create a scalable dataset of synthesis knowledge."
-}

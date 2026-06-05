@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a Transformer encoder\u2013decoder is pretrained on simulated spectra and fine-tuned with patch-based spectrum embeddings, multitask concentration training, and a jointly trained spectral reconstruction alignment network (with an appropriate reconstruction loss), then it will accurately identify molecular components from IR mixture spectra\u2014including balanced, imbalanced, ternary, and experimental ATR-IR mixtures\u2014achieving high Top-k accuracy and Tanimoto similarity, because the reconstruction loss enforces encoder representations to align with pure-component spectra and thus disentangles overlapping spectral signals."
-}

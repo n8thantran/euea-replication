@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a curated, standardized dataset of Fe K-edge X-ray absorption spectra paired with local atomic structural representations of iron-containing proteins (XDIP) is constructed using a validated semi-automated extraction pipeline, then machine learning models trained on this dataset will be able to learn meaningful bidirectional mappings between iron local coordination structures and XAS spectral features, because the geometric and electronic environment of iron is directly encoded in the spectral fingerprint of the Fe K-edge."
-}

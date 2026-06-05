@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "Enforcing prediction consensus among an ensemble of neural networks through an auxiliary consistency loss on unlabeled data improves semi-supervised learning performance on molecular property prediction tasks compared to supervised learning and existing semi-supervised methods."
-}

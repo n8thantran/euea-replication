@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating a chemistry-grounded valency-aromaticity consistency loss, derived from refined narom/vother aromatic-bond accounting and Kekulization-aware valency tables, into the objective of diffusion-based 3D molecular generators will reduce valency violations by at least 30% and improve GFN2-xTB\u2013based geometry metrics (bond-length/angle deviations and \u2206Erelax) by at least 15% on GEOM-Drugs and diverse held-out chemistries, compared to models trained without this loss."
-}

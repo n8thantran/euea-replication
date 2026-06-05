@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit topological descriptors of the potential energy landscape into the noise energy prediction function will enable diffusion models to generate amorphous structures with target energy levels that fall outside the training distribution without requiring computationally expensive Hamiltonian Monte Carlo refinement."
-}

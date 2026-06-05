@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If a conditional latent diffusion model operates within a chemically informed autoencoder latent space that encodes periodic table structure and is conditioned on adsorbate identity, target adsorption energy, and elemental constraints, then it will generate catalytic surface compositions that more accurately satisfy chemical constraints and better reproduce the target adsorption energy distribution compared to a chemically-agnostic baseline, because encoding domain-specific chemical knowledge into the latent representation enables the generative model to learn physically meaningful composition-property relationships for inverse catalyst design."
-}

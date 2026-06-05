@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Replacing the Granite model\u2019s general-purpose tokenizer with a chemistry-aware subword vocabulary trained on MOFid and SMILES, while keeping architecture, pre-training corpora (PMC + 500k PubChem), and SFT protocols fixed, will reduce QMOF band-gap MAE by at least 10% under 1K and 3K SFT settings relative to the original-tokenizer baseline."
-}

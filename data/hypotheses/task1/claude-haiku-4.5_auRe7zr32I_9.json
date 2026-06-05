@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Implementing adaptive diversity constraints based on multiple complementary metrics (representation, string, fragment, and scaffold-based) during generative molecular design will maintain or improve the discovery of valid singlet fission materials while preventing the accumulation of structurally redundant molecules compared to unconstrained generation."
-}

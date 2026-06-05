@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If DFT-optimized Lennard-Jones parameters and polymer-specific pretrained molecular representations are combined with Bayesian optimization (GP/DKL/BNN surrogates and Thompson sampling), then the framework will discover polyamine structures with higher CO2 adsorption capacity using significantly fewer GCMC simulations than approaches using geometric-mean mixing rules and general molecular representations because the refined force field parameters and tailored representations produce more accurate adsorption predictions and more efficient surrogate modeling."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If property-specific concept embeddings learned by a Concept Bottleneck Model are combined into steering vectors and added to the hidden activations of a frozen LLM, then the LLM will generate molecules whose target properties (e.g., QED, LogP) more closely match specified values (lower MAE/Best100MAE) while preserving validity, novelty, uniqueness, and synthetic accessibility, outperforming activation-addition and parameter-efficient or full fine-tuning baselines, including in out-of-distribution scenarios."
-}

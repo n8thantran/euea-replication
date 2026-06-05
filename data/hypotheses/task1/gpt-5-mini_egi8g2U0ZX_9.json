@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If generative models are pre-trained on large molecular databases (ChEMBL or ZINC), fine-tuned on a curated Covalent Triazine Framework (CTF) dataset, and further optimized with reinforcement learning using expert-defined structural reward functions, then they will generate a higher proportion of valid, novel, internally diverse CTF-like molecules that pass expert structural filters (flatness, symmetry, conjugation, steric criteria) and show improved Fr\u00e9chet ChemNet Distance and uniqueness metrics compared to models lacking these transfer learning and reward-guidance steps because pre-training, fine-tuning, and targeted rewards steer the models toward the desired CTF chemical space."
-}

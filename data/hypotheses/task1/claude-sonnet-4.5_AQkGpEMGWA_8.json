@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Machine learning-guided screening and generative design conditioned on high capacity and stable Li-ion migration channels will identify silicon-based anode materials with superior electrochemical performance compared to conventional database mining alone."
-}

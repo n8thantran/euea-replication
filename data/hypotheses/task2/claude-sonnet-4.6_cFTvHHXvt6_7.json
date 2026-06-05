@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Replacing the token-level cross-entropy training objective with a hybrid loss that combines cross-entropy with a differentiable, spectrum-level CIE76 \u0394E penalty computed via the transfer-matrix method will significantly close the generalization gap between training-paraphrase and held-out validation performance, reducing mean validation \u0394E below 10 for the best model configuration without increasing the number of trainable parameters."
-}

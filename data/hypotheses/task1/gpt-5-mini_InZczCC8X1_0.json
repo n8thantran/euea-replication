@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If a closed-loop Bayesian machine-learning optimizer adjusts bicarbonate temperature, bicarbonate concentration, bicarbonate flow rate, KOH concentration, KOH flow rate, and applied current density, then it will rapidly identify operating conditions that maximize reactor yield in reactive carbon electrolyzers and those optimized conditions will remain effective under realistic mixed bicarbonate\u2013carbonate capture electrolyte compositions."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Direct preference optimization with a CALPHAD-derived reward that explicitly upweights B2 stability near 373 K will increase the proportion of generated alloys satisfying the b2_room_temp criterion without a statistically significant decrease in the satisfaction rates of bcc_b2_exist and bcc_forms_first relative to the unweighted DPO baseline."
-}

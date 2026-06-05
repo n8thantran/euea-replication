@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Introducing a dynamic flow rate modulation strategy that couples real-time mass spectrometry feedback with adaptive bicarbonate concentration adjustment will enable a 20% improvement in reactor yield over the static optimum by maintaining optimal i-CO\u2082 availability while compensating for temporal variations in membrane transport resistance and catalyst surface saturation during extended electrolysis periods."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Integrating a persistent, structured semantic-and-episodic memory into the multi-agent framework will increase the Research Team\u2019s parameter-extraction Intersection over Union on force-field papers with unconventional table layouts (e.g., EPM2) from ~0.67 to \u22650.90 across five independent runs per paper and eliminate spurious interaction terms, relative to the current memory-less baseline."
-}

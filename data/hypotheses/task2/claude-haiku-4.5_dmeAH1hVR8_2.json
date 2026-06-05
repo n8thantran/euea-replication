@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "LLMs pre-trained on domain-specific chemical corpora will demonstrate superior transfer learning performance on out-of-distribution MOF property prediction tasks (e.g., predicting properties for MOF compositions not represented in the pre-training data) compared to models pre-trained on general chemical corpora, due to learned representations of MOF-specific structural patterns and chemical reasoning."
-}

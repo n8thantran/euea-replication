@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Augmenting CAST's concept bottleneck with binary substructure concepts (e.g., Murcko scaffold or functional-group presence) and training with a joint NMSE-plus-BCE loss will enable the steered LLM to retain a specified scaffold in at least 90% of generated valid molecules while achieving QED and LogP MAEs within 20% of CAST's baseline MAEs on the same out-of-distribution property targets."
-}

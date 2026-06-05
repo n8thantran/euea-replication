@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "A21WF9M1Um",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Under realistic lattice and fractional-coordinate distortions, gradient-descent optimization of crystal structures from simulated XRD patterns will fail to reliably recover the ground-truth structure, demonstrating that the XRD-based loss landscape is too rugged for gradient-based methods."
-}

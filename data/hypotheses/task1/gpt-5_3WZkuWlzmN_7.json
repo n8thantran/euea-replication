@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a cross-modal model aligns graph, text, and XRD latent representations by training two modalities to predict the third with VIC-regularized contrastive losses, then it will achieve lower MAE on Matbench crystal property tasks and AFLOW band gap prediction than single-modality baselines (CGCNN/CoGN/ALIGNN), because integrating complementary modalities produces richer, more generalizable material representations even with minimal finetuning."
-}

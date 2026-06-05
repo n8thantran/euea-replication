@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Large language models equipped with iterative tool access and structured reasoning can generate novel inorganic material compositions with targeted formation energies more effectively than tool-free language models or diffusion models alone because the integration enables context-aware search guided by domain knowledge and property feedback."
-}

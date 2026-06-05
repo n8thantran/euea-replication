@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Introducing a variance-preserving embedding regularizer that constrains the per-batch covariance spectrum during pretraining of materials MLIPs will reverse the observed OOD>ID alignment (i.e., produce lower CKNNA/IDCor on OMol25 than on OMat24 for the same k) and concurrently reduce OMol25 energy MAE relative to an otherwise identical baseline."
-}

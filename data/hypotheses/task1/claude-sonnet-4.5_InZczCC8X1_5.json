@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Machine learning-driven Bayesian optimization can autonomously identify optimal operating conditions for reactive carbon electrolyzers that maximize reactor yield more efficiently than traditional experimental approaches."
-}

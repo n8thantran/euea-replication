@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating multi-modal electron beam dose rate as a dynamic input channel during SAM-EM inference\u2014rather than treating it as a fixed experimental parameter\u2014will enable the model to adaptively recalibrate its segmentation confidence thresholds in real time, such that particles undergoing beam-induced motion artifacts are distinguished from those exhibiting intrinsic stochastic diffusion, thereby reducing false identity-switching events by a measurable and statistically significant margin compared to the current dose-agnostic fine-tuned model."
-}

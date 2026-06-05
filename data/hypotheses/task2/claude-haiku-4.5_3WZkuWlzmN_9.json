@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "When modalities are missing or corrupted during downstream property prediction, X-MoPA's cross-modal predictive pretraining will exhibit differential robustness across modalities, with graph-based predictions being more resilient to XRD corruption than text-based predictions due to the structural redundancy between atomic graphs and diffraction patterns."
-}

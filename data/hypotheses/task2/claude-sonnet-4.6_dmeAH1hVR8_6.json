@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating reaction pathway and synthesis condition data from chemical literature into the pre-training corpus\u2014alongside MOF structural descriptions and PubChem compound data\u2014will enable LLMs to predict not only intrinsic MOF properties but also synthesizability scores, such that models pre-trained on synthesis-enriched corpora will achieve lower mean absolute error on property prediction tasks with fewer than 5,000 supervised fine-tuning examples compared to models pre-trained solely on structural and abstract-level chemical data, because exposure to mechanistic synthesis language provides implicit constraints on physically realizable MOF configurations that reduce the hypothesis space during fine-tuning."
-}

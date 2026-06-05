@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "In MatAgent, conditioning the crystal-structure diffusion model on the LLM\u2019s natural-language rationale about expected oxidation states, coordination environments, and bonding motifs, in addition to composition, will increase success rate and V.U.N. score relative to composition-only conditioning under identical iteration and sampling budgets."
-}

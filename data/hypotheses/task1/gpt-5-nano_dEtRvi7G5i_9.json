@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If metal lattice configurations with strong interstitial electron localization are predicted as thermodynamically stable by ML-driven screening and validated by high-throughput DFT, then the discovered metal superhydrides will exhibit superconductivity with a nonzero Tc at high pressures due to enhanced electron-phonon coupling and hydrogen contributions to the electronic density of states at the Fermi level."
-}

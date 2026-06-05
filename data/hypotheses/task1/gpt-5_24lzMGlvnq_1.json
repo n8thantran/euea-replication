@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If open-weight language models SFTed on BCC/B2 compositions are further tuned with Direct Preference Optimization using Thermo-Calc\u2013derived hierarchical preferences, then they will generate more valid, novel, and thermodynamically favorable BCC/B2 composition pairs that meet the four synthesis objectives at higher rates (with lower lattice mismatch) than SFT-only and prompting/agentic/crystal-generation baselines because physics-based feedback aligns the models\u2019 token distributions toward desired phase behavior while limiting distribution shift (\u03b2=0.5)."
-}

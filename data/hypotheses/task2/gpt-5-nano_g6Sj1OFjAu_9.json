@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Introducing explicit 3D adsorption-site geometry descriptors (adsorbate orientation, central-atom-to-first-shell distances, and facet/motif labels) as additional conditioning signals in CompGen will improve the fidelity and transferability of inverse shell-design, evidenced by lower leakage and higher cosine similarity of generated shell compositions on OC20 and HEA datasets."
-}

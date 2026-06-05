@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "9JSO4qf1RQ",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Augmenting MatAgent with a synthesizability evaluator trained on experimental synthesis records and incorporating synthesizability as an explicit feedback objective will produce, within 15 iterations, a set of proposed compositions whose proportion matching experimentally realized compounds in the ICSD or exceeding a validated synthesizability-score threshold increases by at least 25% while maintaining at least 80% of the original formation-energy target success rate (\u00b10.25 eV/atom), compared to the original MatAgent without synthesizability feedback."
-}

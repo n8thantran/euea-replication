@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If tensor completion methods are used as surrogate models for predicting mechanical properties of lattice structures under biased and limited sampling conditions, then they will outperform conventional machine learning baselines (Gaussian Process, XGBoost, MLP) in predictive accuracy because tensor completion exploits the inherent multi-dimensional structure and low-rank properties of the design parameter space to generalize effectively even when training data is sparse or non-uniformly distributed."
-}

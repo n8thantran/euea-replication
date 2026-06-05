@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If a diversity-based acquisition function is used within the MADE dynamic benchmark, then more novel stable compounds and more unique structures will be discovered within a fixed query budget than with random acquisition, for the binary Na-O and ternary Co-Nb-Sn systems, because diversity-based selection more effectively explores composition and structure space and reduces redundant evaluations."
-}

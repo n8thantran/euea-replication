@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Incorporating non-negativity and sum-to-one regularizations into the diffusion-based material generator (PCDiff) will produce generated component proportions that satisfy physical feasibility constraints (Validityreg) and lie within fabrication limits (Validityfab) more frequently than CVAE and TabDDPM."
-}

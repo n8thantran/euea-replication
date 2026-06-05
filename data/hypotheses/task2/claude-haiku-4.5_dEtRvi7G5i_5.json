@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Metal superhydrides with non-integer stoichiometries and hydrogen clathrate structures will exhibit pressure-dependent superconducting transition temperatures that correlate more strongly with the degree of hydrogen cage distortion than with hydrogen content alone, such that moderately distorted H24 and H32 cage geometries optimize electron-phonon coupling relative to perfectly symmetric or highly irregular cage configurations."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "iFHaZzs6Kz",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If 3D electron-density grids are contrastively aligned with rotation-invariant SMILES embeddings during training, then the learned 3D representations will become pose-invariant and outperform unimodal and SE(3)-equivariant baselines on unseen-rotation retrieval and downstream property tasks because the contrastive objective forces different poses of the same molecule to map to the same SMILES anchor."
-}

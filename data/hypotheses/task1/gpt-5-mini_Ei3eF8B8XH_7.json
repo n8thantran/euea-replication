@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If trained on the AIMNet2-optimized ChEMBL3D dataset and equipped with stereochemistry-aware diffusion graph augmentations, then the LoQI model will generate conformers for diverse drug-like molecules\u2014including high-rotatable and macrocyclic compounds\u2014that reproduce DFT-level relative energies and stereochemistry while achieving lower RMSD, lower relaxation energy, and better topology preservation than existing conformer generators."
-}

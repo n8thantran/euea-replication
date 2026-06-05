@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating an adaptive force field refinement loop, in which agents iteratively compare simulation predictions to experimental adsorption data and autonomously adjust Lennard-Jones or electrostatic parameters using Bayesian optimization, will reduce systematic prediction errors in multi-component gas adsorption by at least 30% compared to static literature-extracted force fields."
-}

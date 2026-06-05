@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "A heterogeneous swarm of eight LLM agents initialized with varying sampling temperatures and minimally diverse prompts, coordinated by a supervising aggregator that synthesizes their findings, will achieve at least 30% greater coverage of expert-labeled experimental states and at least 40% higher correct-rule identification rate in ALP configuration III within the same total allocated reactor time than a single LLM agent using the same total time."
-}

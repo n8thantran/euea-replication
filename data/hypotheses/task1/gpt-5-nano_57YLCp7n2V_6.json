@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Retraining generative models on chemically accurate Kekulized valency data yields generated molecules with geometry and energy metrics (\u0394r, \u0394\u03b8, \u0394\u03c6, \u0394E_relax) that more closely match GFN2-xTB-optimized references than models trained on original data, and GFN2-xTB-based metrics provide a more faithful assessment of geometric realism than MMFF-based metrics."
-}

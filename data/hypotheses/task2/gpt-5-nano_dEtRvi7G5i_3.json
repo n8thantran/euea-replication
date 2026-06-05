@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Introducing a topology-aware hydrogen-network descriptor into the ML-guided structure discovery workflow will enable reliable prediction of stable non-integer MHx superhydrides with 3D clathrate hydrogen networks at lower pressures than integer-stoichiometry counterparts, and these predictions will be validated by high-pressure DFT calculations demonstrating dynamical stability and Tc > 100 K for at least one predicted phase."
-}

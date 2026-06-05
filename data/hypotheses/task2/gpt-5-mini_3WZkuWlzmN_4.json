@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Pretraining X-MoPA using experimentally measured (noisy) XRD patterns and natural-language descriptions extracted from materials-science publications, instead of simulated XRD and template-generated text, will reduce MAE on AFLOW band-gap prediction by at least 15% on a held-out experimental-DFT matched test set compared to the original X-MoPA."
-}

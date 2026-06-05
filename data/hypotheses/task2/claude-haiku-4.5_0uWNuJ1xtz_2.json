@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0uWNuJ1xtz",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Cross-representation molecular embeddings will exhibit task-specific clustering patterns where certain molecular representations converge in the latent space preferentially for particular property prediction tasks, enabling a representation-selection mechanism that outperforms fixed multi-representation combinations by dynamically routing inputs through representation-specific decoder pathways based on downstream task characteristics."
-}

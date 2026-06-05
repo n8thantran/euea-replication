@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Metal superhydrides with non-integer stoichiometries and larger primitive cells (>50 atoms) will exhibit lower superconducting transition temperatures than their integer-stoichiometry counterparts due to increased structural disorder reducing the coherence length of electron-phonon coupling in hydrogen vibrational modes."
-}

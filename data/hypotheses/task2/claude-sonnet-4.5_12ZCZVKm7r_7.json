@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "## Hypothesis\n\nIncorporating physics-based symmetry constraints (e.g., equivariance, conservatism) during pretraining on diverse multi-domain datasets will reduce the gap between in-distribution and out-of-distribution representational alignment, such that models trained with explicit symmetry regularization will exhibit higher CKNNA scores on OOD data (e.g., OMol25) relative to ID data (e.g., OMat24) compared to models without such constraints."
-}

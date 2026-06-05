@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Adversarial domain-adaptive transfer learning that aligns the latent representations of general chemical pre-training spaces (ZINC/ChEMBL) with the CTF-specific substrate and lattice-node material spaces will increase the rate of passing-material filters and overall desirability of generated candidates, while reducing the required fine-tuning or reinforcement learning training time for REINVENT and Mol-AIR."
-}

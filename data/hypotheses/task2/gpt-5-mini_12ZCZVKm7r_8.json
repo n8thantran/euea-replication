@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Augmenting SMILES/SELFIES chemical language models with an equivariance-inducing gradient regularizer (equigrad) during pretraining will increase their CKNNA alignment with 3D atomistic MLIPs on QM9 by at least 0.1 absolute and reduce their zero-shot or fine-tuned QM9 energy-prediction MAE by at least 10% relative to identical language models trained without equigrad."
-}

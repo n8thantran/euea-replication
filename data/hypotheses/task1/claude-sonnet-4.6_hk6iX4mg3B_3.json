@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If molecular graph neural networks are trained using an ensemble consensus objective that regularizes each model toward the mean prediction of the ensemble on unlabeled data, then predictive accuracy and calibration will improve over supervised baselines and other semi-supervised approaches because the ensemble mean provides a more stable and less noisy pseudo-label signal that reduces overfitting to the labeled data while leveraging the structural information in unlabeled molecular graphs."
-}

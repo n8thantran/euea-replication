@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Replacing the template-based natural language generation pipeline with adversarial prompt augmentation\u2014where a separate language model is trained to generate maximally diverse and semantically ambiguous prompts for the same physical structure\u2014will disproportionately reduce the generalization gap between training-paraphrase and held-out validation performance (currently \u0394E \u22481 vs. \u224834) compared to further scaling decoder depth, because the dominant source of validation error is linguistic distributional shift rather than insufficient model capacity for sequence generation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "For SchNet trained on QM9 with batch size 64, modifying dynamic batching to accumulate successive micro-batches until exactly 64 real graphs are included per optimizer step will eliminate the previously observed significant differences in test RMSE relative to static batching (pairwise p>0.10) without increasing mean combined time per training step compared to standard"
-}

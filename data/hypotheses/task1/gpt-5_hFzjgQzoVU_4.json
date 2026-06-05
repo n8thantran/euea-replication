@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hFzjgQzoVU",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If local iron coordination environments in proteins are encoded as graphs and paired with accurately digitized, standardized Fe K-edge XAS spectra, then machine-learning models will both predict 100-point XANES/EXAFS spectra from structure with low error and recover coordination number and mean nearest-neighbor distance from spectra above baseline, because Fe K-edge spectral features are determined by the local atomic geometry and are preserved by the curation pipeline."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "The ensemble consensus effect on individual model performance will diminish or reverse when ensemble members are trained on substantially different labeled data distributions, suggesting that the knowledge distillation-like benefit depends critically on consensus targets being derived from models that have learned compatible decision boundaries."
-}

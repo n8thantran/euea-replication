@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If molecular graph neural networks are trained using an ensemble consistency loss that encourages agreement among ensemble members on unlabeled data, then semi-supervised learning performance on molecular property prediction tasks will improve over supervised baselines because the ensemble consensus provides more stable and accurate pseudo-targets than single-model approaches, leading to better utilization of unlabeled molecular data."
-}

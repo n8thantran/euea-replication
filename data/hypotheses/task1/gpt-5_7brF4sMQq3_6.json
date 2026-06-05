@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If a classifier-free guided score-based diffusion model is trained only on metastable-state data and its reverse SDE is guided by interpolated conditional scores and then refined with score-aligned ascent using r_SAA = s^B \u2212 s^A, then it will generate transition-state configurations with near-0.5 committor and outperform linear/geodesic interpolation baselines across diverse systems because the interpolated score field concentrates probability on the reactive bottleneck and the score difference approximates the reaction coordinate for barrier ascent."
-}

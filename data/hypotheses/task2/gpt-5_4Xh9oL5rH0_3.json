@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Augmenting a conservative uMLIP trained on OMat24 with a delta-learning correction to r2SCAN-D4 using energies, forces, stresses, and phonons for 150 chemically diverse MOFs will reduce bulk modulus MAE by at least 25% and 300 K heat-capacity MAE by at least 20% on held-out MOFs relative to the PBE-D3(BJ)-referenced model, without decreasing the fraction of stable 50 ps NpT MD runs (|\u0394V| \u2264 10%) below 90%."
-}

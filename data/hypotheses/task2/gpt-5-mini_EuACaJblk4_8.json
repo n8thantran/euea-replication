@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Training E2EFOLD with an auxiliary multi-sample structure-consistency loss that minimizes the average backbone RMSD between the native backbone and the decoder-predicted backbones for k=3 distinct discrete sequences sampled from the encoder per input will increase designed-sequence self-consistency (mean TM-score) by at least 0.05 on RFData and simultaneously increase per-position sequence entropy relative to the original training without this loss."
-}

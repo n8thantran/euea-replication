@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "3WZkuWlzmN",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating multi-scale latent prediction targets that explicitly include long-range structural descriptors (e.g., pair distribution functions and space-group-invariant descriptors) into X-MoPA pretraining will produce representations that reduce downstream MAE for bulk modulus prediction by at least 15% compared to X-MoPA trained without these long-range targets."
-}

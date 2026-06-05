@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating a dynamic attention-weighted reconstruction loss\u2014where \u03bb varies as a learned function of the predicted target compound's concentration and spectral overlap with co-eluting components\u2014will enable the model to autonomously prioritize disentanglement of low-concentration analytes in highly imbalanced mixtures, thereby improving Top-1 accuracy for minority components (\u226410% concentration) by at least 15 percentage points compared to the fixed \u03bb = 50 alignment strategy."
-}

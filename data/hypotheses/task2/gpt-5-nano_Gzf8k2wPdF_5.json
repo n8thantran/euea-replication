@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "Gzf8k2wPdF",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "An online adaptive batching strategy that toggles between dynamic batching and static-64 during training in response to real-time observations of batch-size variance and recompilation frequency will yield lower mean per-step training time while maintaining equivalent or improved final test RMSE relative to any fixed batching algorithm across QM9 and AFLOW with the three models."
-}

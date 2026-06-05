@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Applying adaptive diversity constraints with dynamically optimized thresholds informed by real-time monitoring of diversity metric divergence will achieve superior property-diversity trade-offs compared to fixed-threshold constraints across diverse molecular design tasks and generative architectures."
-}

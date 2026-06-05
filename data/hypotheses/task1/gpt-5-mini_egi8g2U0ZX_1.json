@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "Fine-tuning generative models pre-trained on general molecular databases (ChEMBL/ZINC) with a small curated CTF dataset and applying reinforcement learning guided by expert-defined flatness, symmetry, conjugation, steric, and pattern rewards will yield more valid, novel, diverse, and functionally relevant covalent triazine framework candidates (as measured by higher validity, uniqueness, internal diversity, novelty, percentage passing expert filters, and lower Fr\u00e9chet ChemNet Distance) than models using only general pre-training without domain-specific fine-tuning and expert reward shaping."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "If adaptive diversity constraint algorithms are applied during RL-driven singlet fission material discovery, then the generated molecules will exhibit higher diversity metrics (lower mean pairwise similarity, more clusters, higher unique fragment percentages) without a loss in the fraction that satisfy the \u0394E_SF criterion, compared to baseline unconstrained RL."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "auRe7zr32I",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "In REINVENT4 singlet fission optimization, replacing fixed NaviDiv thresholds with a closed-loop controller that adaptively tunes per-step penalty weights to maintain the mean pairwise Morgan-fingerprint Tanimoto similarity at 0.12\u00b10.01 will preserve scaffold count and fragment uniqueness at levels not significantly lower than those under the Combined-constraints regime while achieving a final average property score not significantly lower than the Baseline (two-sided t-test, p>0.05 across five random seeds)."
-}

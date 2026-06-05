@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Removing per-structure composition (element counts) and size (atom count) information from embeddings via orthogonal projection will invert the observed OOD > ID trend, such that for the same model pairs the OMol25 alignment (CKNNA and IDCor) becomes significantly lower than the OMat24/sAlex alignment."
-}

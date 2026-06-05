@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating uncertainty quantification into the encoder's sequence distribution predictions will improve design robustness by enabling selective sampling of high-confidence sequences that maintain structural integrity across a broader range of backbone variations beyond the training distribution."
-}

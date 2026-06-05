@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If universal machine-learning interatomic potentials trained on diverse datasets are applied to metal\u2013organic frameworks and related nanoporous materials, then they will reproduce PBE+D3(BJ) DFT reference results for structural optimizations, NpT molecular dynamics stability (volume changes), bulk modulus from Birch\u2013Murnaghan fits, and 300 K heat capacities across the benchmarked structures."
-}

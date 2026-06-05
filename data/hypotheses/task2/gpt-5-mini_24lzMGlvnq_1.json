@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Incorporating a high-temperature constraint into the DPO reward\u2014specifically requiring Thermo\u2011Calc predicted B2 stability at \u22651273 K\u2014and retraining will increase the fraction of generated BCC/B2 candidates satisfying this high\u2011temperature B2\u2011formation criterion by at least 30% relative to the original DPO models while reducing coverage\u2011recall by no more than 10%."
-}

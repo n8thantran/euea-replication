@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Foundation models trained on different scientific domains (molecules, materials, proteins) converge to similar latent representations of matter despite differences in architecture, training data, and input modalities."
-}

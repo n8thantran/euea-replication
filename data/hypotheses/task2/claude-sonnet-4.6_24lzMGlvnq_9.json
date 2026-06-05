@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating an uncertainty-aware confidence estimate from Thermo-Calc into the DPO reward signal\u2014specifically by down-weighting preference pairs derived from alloy compositions that fall in sparse regions of the TCHEA7 thermodynamic database\u2014will reduce reward hacking and improve preference tuning stability across all three model architectures, including OLMo, by preventing the model from exploiting unreliable high-reward predictions in poorly characterized compositional regions."
-}

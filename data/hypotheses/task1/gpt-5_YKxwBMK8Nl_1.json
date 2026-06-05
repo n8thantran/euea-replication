@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If chemical articles are converted to structure-preserving markdown with GPT-4o-generated image captions and then parsed by a single-agent LLM with standardized schema prompts, then end-to-end information extraction on ChemX nanozyme and chelate-complex datasets will achieve higher F1 and better output-format compliance than domain-specific multi-agent systems and general-purpose baselines because preserving document structure and avoiding inter-agent coordination reduces extraction and formatting errors."
-}

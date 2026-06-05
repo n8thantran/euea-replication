@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nTensor completion methods will exhibit superior performance over Gaussian Process regression when predicting mechanical properties of lattice structures that lie in extrapolative regions of the design space (beyond the convex hull of training data), particularly when training data exhibits spatial clustering rather than uniform or exponentially-biased sampling patterns."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Introducing a non-linear mixture generation protocol that simulates interaction-induced spectral changes (peak shifts, intensity changes, and cross-band coupling) into the training data will enable the architecture to disentangle and identify components in real-world mixtures with strong intermolecular interactions more accurately, yielding at least a 5 percentage-point improvement in Top-10 accuracy on ATR-IR mixture spectra relative to training solely on linearly combined spectra."
-}

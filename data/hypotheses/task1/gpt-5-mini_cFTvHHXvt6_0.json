@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If CHROMA's encoder and decoder capacities are increased (from 1B\u21923B\u21928B encoders and 2\u21924\u21928 decoder layers), then the generated multilayer thin-film designs will produce lower CIE76 \u0394E to target colors for both paraphrased prompts and novel optical targets, because larger language encoders and deeper decoders better capture the semantic-to-physical mapping required for accurate structural-color inverse design."
-}

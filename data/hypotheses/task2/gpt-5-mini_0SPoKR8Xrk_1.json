@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "The adhesive binding free energy between a coarse-grained polymer and a chemically heterogeneous surface is maximized when the surface's characteristic strong-site domain size closely matches the polymer's average strong-monomer block length, whereas systematic deviations between these lengthscales produce reproducibly weaker (less negative) \u2206F."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "Materials discovery agents combining generative structure models (MatterGen) with diversity-based acquisition functions will discover more novel stable compounds than random baselines because they efficiently explore chemical composition space while generating physically plausible structures."
-}

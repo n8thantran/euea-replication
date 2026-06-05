@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "Ei3eF8B8XH",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Conditioning LoQI on protein-pocket context (e.g., local electrostatic potential and pocket-lining atom positions) during generation will increase the fraction of generated ligand conformers within 1.0 \u00c5 RMSD of experimentally observed bound poses in the Platinum Diverse dataset by at least 25% relative to unconditioned LoQI."
-}

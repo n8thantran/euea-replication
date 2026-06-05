@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating multi-scale physics constraints that capture both component-level interactions (e.g., percolation thresholds for CNT networks) and manufacturing-process dependencies (e.g., temperature-dependent viscosity limits during layup) into a hierarchical diffusion framework will enable the generation of composite designs that are not only compositionally valid but also directly manufacturable, thereby reducing the gap between computationally optimized designs and experimentally realizable materials by at least 40% compared to PCDiff."
-}

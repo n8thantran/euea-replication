@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "a3LKICpDO2",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "A physics-informed \u0394-learning model that augments the GFN1-xTB\u2013DFT correction with transition-metal\u2013specific descriptors (e.g., d-electron count, oxidation state, and a Hubbard U proxy) will yield lower prediction error for HSE06 band gaps in MOFs containing 3d transition metals (Cr, Mn, Fe, Co, Ni) than \u0394-learning using only structural descriptors, as demonstrated by a statistically significant reduction in MAE on a hold-out set enriched with such metals."
-}

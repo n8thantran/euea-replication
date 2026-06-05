@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating uncertainty-aware concentration estimation as an auxiliary output head\u2014trained to predict a probability distribution over possible mixture ratios rather than accepting a fixed scalar concentration as input\u2014will enable the transformer model to compensate for the imprecise LC-MS concentration measurements that currently degrade performance at low target-compound fractions, thereby improving Top-10 accuracy for minority components (\u226420% concentration) by at least 10 percentage points compared to the fixed-concentration conditioning approach demonstrated in this paper."
-}

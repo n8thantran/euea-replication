@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If language models for materials design are fine-tuned using Direct Preference Optimization guided by physics-based thermodynamic simulation rewards, then they will generate BCC/B2 superalloy compositions with higher thermodynamic validity and reward scores compared to supervised fine-tuning alone or prompt-based approaches, because preference learning directly optimizes the model's generation distribution toward compositions satisfying multi-criteria phase stability objectives without requiring explicit rule encoding."
-}

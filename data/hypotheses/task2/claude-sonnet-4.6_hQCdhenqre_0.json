@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating total charge as a model input\u2014identified in the roadmap as a planned future feature\u2014will disproportionately improve MD simulation stability and force prediction accuracy for systems containing alkali metal ions (K, Li, Na) compared to neutral organic molecules, such that a charge-aware MACE model trained on the full SPICE2 dataset including non-neutral structures will reduce force MAE by more than 30% on solvated amino acid subsets containing these elements relative to the charge-naive baseline presented here."
-}

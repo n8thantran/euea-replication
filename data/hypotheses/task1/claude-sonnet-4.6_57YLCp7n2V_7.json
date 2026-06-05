@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "57YLCp7n2V",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Current 3D molecule generation benchmarks based on GEOM-Drugs contain systematic errors in valency calculation and geometry evaluation protocols that cause published models to appear less chemically accurate than they are, and correcting these errors\u2014by fixing aromatic bond valency handling and replacing MMFF94 with GFN2-xTB for geometry evaluation\u2014will substantially alter the relative performance rankings and absolute validity metrics of state-of-the-art generative models."
-}

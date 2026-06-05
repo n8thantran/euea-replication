@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating active site motif geometry (atop, bridge, hollow) as an explicit conditioning signal in the CompGen diffusion model\u2014rather than treating it as an implicit feature absorbed into shell compositions\u2014will yield statistically distinguishable latent submanifolds per motif type and reduce compositional leakage by at least 30% compared to the motif-agnostic baseline, because the discrete coordination number constraint imposed by each motif directly determines the feasible multinomial count vectors for shell 1 and thus provides a hard prior that prevents the model from generating element proportions incompatible with the local bonding geometry."
-}

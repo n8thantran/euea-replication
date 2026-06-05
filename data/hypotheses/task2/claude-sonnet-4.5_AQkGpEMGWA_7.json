@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Doping silicon-based alloy anodes with trace amounts of lithium-philic interstitial elements (e.g., nitrogen or boron) will create localized structural defects that act as preferential Li-ion trapping sites, thereby reducing the effective slope of channel radius variation during delithiation to below 0.30 \u00c5/100% while maintaining gravimetric capacity above 2000 mAh/g."
-}

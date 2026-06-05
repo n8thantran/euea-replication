@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating protein conformational ensemble-derived pharmacophore consensus models\u2014rather than a single static pharmacophore derived from known ligands\u2014as the reference set within the CATS-guided reward function will yield generated molecules with significantly improved binding affinity and reduced off-target activity compared to single-conformation pharmacophore guidance, because ensemble-based pharmacophores capture the dynamic flexibility of the alpha estrogen receptor binding site and thereby encode a richer set of interaction constraints that better discriminate true binders from decoys during reinforcement learning optimization."
-}

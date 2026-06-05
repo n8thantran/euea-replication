@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating molecular charge as an input feature to MLIP models trained on neutral-only datasets via a lightweight charge-conditioning module\u2014which modulates atomic embeddings through a learned charge-dependent scaling\u2014will recover near-DFT accuracy for charged organic species without requiring full retraining on charged datasets, because the neutral-system representations already encode the necessary local chemical environment information that charge perturbations modify in a low-dimensional and learnable way."
-}

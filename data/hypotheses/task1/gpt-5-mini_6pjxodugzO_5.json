@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If molecular embeddings derived from pre-trained SMILES-based foundation models are used to represent molecules and aggregated for formulations, then neural-network predictors will outperform models using Morgan fingerprints on molecular-to-device battery property prediction tasks, exhibit improved out-of-distribution robustness, and better recover known moiety\u2013outcome correlations."
-}

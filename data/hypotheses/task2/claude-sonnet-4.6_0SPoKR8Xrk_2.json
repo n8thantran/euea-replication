@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating chain length as a variable in the CNN-GRU-Attention framework will reveal a non-monotonic relationship between polymer length and binding free energy on spatially patterned surfaces, wherein an optimal chain length exists that maximizes complementary matching between polymer sequence motifs and surface heterogeneity patterns, with this optimal length scaling predictably with the characteristic correlation length of the surface pattern as quantified by the Ising model parameters used during surface generation."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating an epistemic-uncertainty penalty derived from Thermo-Calc database coverage (e.g., lower weight for candidates with sparse CALPHAD support or high variance across databases) into the DPO reward will reduce token-level KL divergence between SFT and DPO on element and numeric tokens and produce consistent increases in mean reward and objective-satisfaction rates across different LM architectures, including OLMo."
-}

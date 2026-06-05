@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Polymer-specific pre-trained embeddings will show sustained performance advantages over general chemical space embeddings in multi-fidelity Bayesian optimization that integrates fast GCMC predictions with high-confidence long-timescale MD simulations, particularly when the fidelity gap between simulation methods correlates with structural features captured by polymer language models."
-}

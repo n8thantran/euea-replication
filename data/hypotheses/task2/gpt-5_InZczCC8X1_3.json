@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "In the mixed 1.5 M KHCO3/0.75 M K2CO3 electrolyte (total [K+] = 3 M), operating the reactive carbon electrolyzer with a 5 ms on/15 ms off pulsed-current waveform at an average current density of 249 mA cm\u22122 will produce a reactor yield higher than that obtained under steady galvanostatic operation at the same average current density."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Integrating a layout-aware molecular-diagram detector fine-tuned on ChemX PDFs with DECIMER-based optical chemical structure recognition and caption\u2013callout linking into the single-agent pipeline will achieve at least 0.60 precision and 0.50 recall for the SMILES field on the ChemX benzimidazoles, oxazolidinones, and complexes datasets without reducing the average F1 of non-SMILES fields by more than 0.05 relative to the current single-agent baseline."
-}

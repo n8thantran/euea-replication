@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Integrating a robust vision\u2013language localization module that reliably detects and segments molecular structures in complex chemistry figures and routes these segments to a dedicated SMILES reconstruction system will significantly improve SMILES extraction accuracy for small-molecule data in ChemX, thereby narrowing the cross-domain performance gap between nanomaterial and small-molecule extraction tasks."
-}

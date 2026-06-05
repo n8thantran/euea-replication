@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Equipping the autonomous multi-agent system with a persistent semantic-episodic memory of topology\u2013adsorbate\u2013force-field interactions will enable zero-shot generalization to unseen porous-material structures, leading to adsorption isotherm predictions with at least a 25% reduction in MAE and autonomous setup success rates for unseen materials increased by at least 15 percentage points compared to a memoryless baseline."
-}

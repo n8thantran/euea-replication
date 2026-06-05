@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "5OsnDm1CdX",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If frozen pre-trained single-gas neural networks are used to produce features that, together with gas fractions, are processed by a GraphSAGE two-node graph model, then this architecture will more accurately predict 10-point radial etching rates for Ar/O2 mixtures and generalize better under Testgrid and Testthresh conditions than baseline feedforward, GCN, and GAT models because the frozen networks embed single-gas physics that improve mixture representation."
-}

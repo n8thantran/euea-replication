@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating real-time supply chain disruption data and geopolitical risk indices into the workflow's economic efficiency calculations will identify synthesis recipes that maintain profitability stability across temporal price volatility windows better than static market-price-based optimization alone."
-}

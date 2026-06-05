@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "j3aOU8Ahue",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Transfer learning from a large source dataset of additive-free lithium-ion battery cathode SEM images enables accurate classification of smaller target datasets containing additive-induced samples across multiple compositions and aging states, with weighted cross-entropy loss outperforming oversampling-based approaches for handling class imbalance."
-}

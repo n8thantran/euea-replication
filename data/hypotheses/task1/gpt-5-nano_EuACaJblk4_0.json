@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If E2EFOLD is trained end-to-end with the full composite loss including FAPE, torsion, distogram, and sequence recovery terms, then the designed sequences will achieve higher sequence recovery and the self-consistent structure predictions will have higher TM-scores and lower RMSD compared with models trained without these structural loss terms."
-}

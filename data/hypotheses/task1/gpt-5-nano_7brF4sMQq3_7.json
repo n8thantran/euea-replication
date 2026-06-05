@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If a diffusion model trained only on metastable-state data is guided by SBI-interpolated conditional scores during reverse diffusion and refined by SAA along the score-difference as an approximate reaction coordinate, then it will accurately sample transition states and transition pathways for 2D potentials, alanine dipeptide, chignolin, and a chemical reaction, yielding committor and energy-profile agreement with reference benchmarks and outperforming linear/geodesic interpolation baselines."
-}

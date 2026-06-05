@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Integrating a persistent, graph-structured memory that encodes a force-field ontology, standard cutoff/charge heuristics, and episodic traces of prior runs into the multi-agent framework will increase the median IoU of literature-extracted parameters on papers with unconventional table layouts to \u22650.98 and raise the correct-setup rate for three-adsorbate, multi-structure isotherm and HOA benchmarks to \u226595% relative to an otherwise identical stateless baseline."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Bg4Hn9Qq3w",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Deploying a swarm of LLM agents with systematically varied model temperatures to explore the same atomic layer processing reactor simulation in parallel, with a meta-agent that dynamically weights and integrates their divergent experimental trajectories, will achieve more complete coverage of the full reaction space than any single agent or homogeneous swarm, with coverage completeness being a non-monotonic function of temperature variance such that an intermediate variance maximizes discovery of rare effects like passivation while minimizing redundant exploration of well-trodden reaction pathways."
-}

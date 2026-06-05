@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Ensemble consensus regularization, which couples model predictions toward the ensemble mean during semi-supervised learning, improves generalization performance on molecular graphs and other domains by leveraging unlabeled data more effectively than supervised baselines and existing semi-supervised methods."
-}

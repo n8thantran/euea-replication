@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If CompGen uses a chemically-informed autoencoder pretrained on Materials Project together with a conditional latent diffusion model conditioned on adsorbate identity, adsorption energy, and allowed elements, then it will generate shell-wise catalytic surface compositions that, compared to chemically-agnostic baselines, exhibit lower Fr\u00e9chet Distance to target distributions, lower Leakage (better constraint compliance), and higher Cosine Similarity (better point-wise quality), with pretraining and LoRA fine-tuning improving overall performance and data efficiency on HEA datasets."
-}

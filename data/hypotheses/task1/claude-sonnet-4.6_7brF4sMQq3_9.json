@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "If a diffusion model trained exclusively on metastable state data is guided during inference using interpolated conditional scores (Score-Based Interpolation) and refined via energy-maximizing force projection along the score-difference reaction coordinate (Score-Aligned Ascent), then it will generate transition state structures with committor values near 0.5 without requiring any transition state training data, because the interpolated score fields implicitly encode the reaction pathway between metastable states and the ascent procedure drives configurations toward the saddle point geometry."
-}

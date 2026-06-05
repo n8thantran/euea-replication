@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "The Force Delta uncertainty metric will exhibit systematically degraded correlation with true error in regions of configuration space where the model's non-conservative force predictions are inherently multi-modal due to competing local minima in the energy landscape, because internal disagreement between conservative and non-conservative forces may reflect structural ambiguity rather than genuine model failure."
-}

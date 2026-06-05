@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "farKrjdsIH",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "A real-time closed-loop LPTEM workflow that uses SAM-EM segmentation and trajectory statistics to adjust experimental knobs (dose rate, ionic strength, and flow) during acquisition will bias nanoparticle self-assembly toward a predefined ordered superlattice (e.g., FCC) and yield a higher bond-orientational order parameter with more coherent trajectories than comparable open-loop experiments."
-}

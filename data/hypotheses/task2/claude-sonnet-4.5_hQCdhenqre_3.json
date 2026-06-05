@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Hypothesis: Incorporating explicit representations of hydrogen bonding geometries as additional edge features in the MACE architecture will improve molecular dynamics stability and force prediction accuracy for solvated biomolecular systems by 15-25% compared to the current distance-only approach, without requiring an increase in correlation order beyond \u03bd=2."
-}

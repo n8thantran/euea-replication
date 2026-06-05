@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "12ZCZVKm7r",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "When computed on unlabeled out-of-distribution molecules/materials, a model\u2019s representational alignment (e.g., CKNNA or IDCor) to a strong reference will predict its zero- and few-shot energy/force prediction accuracy on that dataset better (higher Spearman correlation) than its in-distribution validation MAE, enabling alignment-based model selection without labels."
-}

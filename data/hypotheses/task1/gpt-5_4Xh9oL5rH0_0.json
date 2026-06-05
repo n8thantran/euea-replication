@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 0,
-  "task": "task1",
-  "hypothesis": "If universal machine-learning interatomic potentials trained on broad materials datasets are applied to MOFs with appropriate dispersion corrections, then they will reproduce DFT-level optimized structures, NpT MD stability at 300 K/1 bar, bulk moduli from \u00b14% equation-of-state fits, and 300 K heat capacities without MOF-specific retraining because their learned representations generalize across inorganic\u2013organic bonding environments."
-}

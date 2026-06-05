@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If protein sequence design and structure prediction are learned jointly in a single end-to-end discrete stochastic autoencoder with a quantized sequence bottleneck and composite structural losses, then the model will generate sequences that fold back to target backbones with higher self-consistency (higher TM-scores/lower RMSDs) and better sequence recovery than decoupled baselines because joint training aligns sequence representations with 3D structural constraints."
-}

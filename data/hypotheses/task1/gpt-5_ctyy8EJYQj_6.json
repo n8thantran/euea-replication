@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "If a ReAct-based GPT-4o agent is coupled to CALPHAD/JMA simulators and few-shot tuned, then on Nb\u2013O synthesis planning tasks it will, on average, achieve equal or higher success rates while visiting fewer states than an A* search with Euclidean heuristics because simulator-guided language reasoning prunes the search space more effectively."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Incorporating an online DPO variant where the preference dataset is iteratively refreshed with compositions sampled from the current policy model and re-evaluated by Thermo-Calc will produce greater reward improvement and reduced reward hacking compared to the offline DPO approach used in this paper, because dynamically updating the preference pairs prevents the model from exploiting stale distributional gaps between chosen and rejected samples that no longer reflect the evolving policy's output space."
-}

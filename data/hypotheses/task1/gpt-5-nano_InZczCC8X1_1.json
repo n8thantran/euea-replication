@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "InZczCC8X1",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If the AdaCarbon closed-loop Bayesian optimization platform optimizes bicarbonate temperature, bicarbonate concentration, two flow rates, KOH concentration, and total applied current density in a reactive carbon electrolyzer with silver nanoparticle catalysts, then the optimized conditions will yield higher reactor yield than random experimentation, because the Gaussian process model learns the parameter\u2013yield surface and SHAP analysis identifies the most influential parameters."
-}

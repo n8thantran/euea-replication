@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Augmenting CAST with discrete substructure concept embeddings derived from SMARTS-based functional-group and scaffold detectors and training the CBM to jointly predict continuous properties and substructure presence (with orthogonality regularization between continuous and discrete concept vectors) will enable simultaneous satisfaction of multiple continuous property targets and scaffold-retention constraints such that, on held-out out-of-distribution datasets, scaffold-retention increases by at least 20% relative to scalar-only CAST while property MAE degrades by no more than 10%."
-}

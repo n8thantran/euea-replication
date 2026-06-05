@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If supervised fine-tuned language models are further optimized with Direct Preference Optimization using Thermo-Calc\u2013derived hierarchical physics-based rewards, then they will generate BCC/B2 superalloy compositions with higher mean synthesis-objective scores (greater BCC/B2 coexistence, BCC forming first, B2 stability at room temperature, and <10% non-BCC/B2 phases), improved compositional validity, novelty, coverage, and unique-pair generation rates than SFT-only models and baseline methods, because DPO aligns model outputs to simulation-based material preferences."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Including explicit heating energy costs computed from Cp(T) and reaction enthalpies in the workflow will render the Ca3SiO5+SiO2 route more cost-effective than CaO+SiO2 for Ca2SiO4 synthesis at 1300\u00b0C when electricity prices are \u22650.22 \u20ac/kWh and furnace thermal efficiency is \u226465%."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Integrating diffusion-limited kinetics into the workflow will reverse the economic ranking for Ca2SiO4 such that Ca3SiO5+SiO2 becomes more cost-effective than CaO+SiO2 when mean reactant particle sizes are \u226510 \u03bcm and furnace dwell times are \u22644 hours under the same reactant price data used in this study."
-}

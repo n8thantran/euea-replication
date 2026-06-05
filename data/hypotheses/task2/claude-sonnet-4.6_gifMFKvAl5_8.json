@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Incorporating a Dirichlet-process-based noise schedule into the forward diffusion process\u2014replacing the standard Gaussian noise with noise sampled from a Dirichlet distribution parameterized to respect the simplex geometry of composite compositions\u2014will eliminate the need for post-hoc regularization penalties and produce strictly valid compositional samples at every denoising timestep, resulting in higher validity scores and improved coverage of the feasible design space compared to PCDiff's penalty-based enforcement of non-negativity and sum-to-one constraints."
-}

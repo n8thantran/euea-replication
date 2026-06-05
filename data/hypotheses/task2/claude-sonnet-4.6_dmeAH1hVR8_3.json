@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating synthesis route descriptions and reaction condition data from chemical literature into the continual pre-training corpus\u2014alongside MOF-related articles and PubChem structural data\u2014will enable LLMs to predict not only MOF physicochemical properties but also synthesizability scores, such that models pre-trained on synthesis-augmented corpora will achieve lower mean absolute error on property prediction tasks with fewer than 5,000 supervised fine-tuning examples compared to models pre-trained without synthesis information, because exposure to reaction mechanisms provides implicit constraints on chemically feasible metal-node and organic-linker combinations that reduce the hypothesis space the model must explore during fine-tuning."
-}

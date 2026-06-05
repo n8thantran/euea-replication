@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "ctyy8EJYQj",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If a ReAct-based LLM agent is coupled to a CALPHAD/JMA physics simulator and prompt-tuned, then it will achieve higher success rates while visiting fewer states than a discretized A* search on Nb\u2013O synthesis planning tasks because it can combine semantic priors with physics feedback to guide exploration."
-}

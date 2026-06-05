@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "If Direct Preference Optimization (DPO) is applied to the SFT-tuned language models with a hierarchical reward capturing BCC/B2 phase coexistence, phase ordering (BCC forms first, B2 exists at room temperature), and low non-BCC/B2 content with low lattice mismatch, then the generated BCC/B2 alloy designs will exhibit a higher mean reward score than generation from the SFT model alone or baselines, because DPO biases the model toward compositions that maximize those synthesis objectives."
-}

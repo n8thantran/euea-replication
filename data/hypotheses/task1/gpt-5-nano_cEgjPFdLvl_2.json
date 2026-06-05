@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "cEgjPFdLvl",
-  "sample_idx": 2,
-  "task": "task1",
-  "hypothesis": "If AMDEN using diffusion-based denoising with an EGNN backbone can generate amorphous silicon and multi-element glass structures whose RDFs, bond-angle distributions, structure factors, and energy distributions closely match reference MD samples across different thermal histories, and if the MEG model is conditioned on Young's modulus via classifier-free guidance, then the generated MEG structures will meet specified modulus targets while preserving realistic atomic configurations."
-}

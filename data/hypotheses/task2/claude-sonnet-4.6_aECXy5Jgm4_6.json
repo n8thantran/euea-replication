@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Multi-fidelity Bayesian optimization that uses fast MD/GCMC simulations as low-fidelity evaluations and long-timescale MD simulations as high-fidelity evaluations will exhibit surrogate model representation sensitivity that is inversely correlated with fidelity level\u2014specifically, polymer-specific pretrained embeddings (PolyNC, polyBERT) will provide a statistically significant advantage over general chemical space embeddings in the low-fidelity surrogate but will show diminishing differential advantage in the high-fidelity surrogate, because the additional structural information encoded in polymer-specific representations primarily compensates for the conformational sampling limitations inherent to fast simulations rather than capturing intrinsic chemical affinity differences that are fully resolved by long-timescale dynamics."
-}

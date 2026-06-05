@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Ensemble consensus-based semi-supervised learning, which encourages individual models to predict consistently with the ensemble mean, improves generalization performance on molecular and graph prediction tasks compared to supervised baselines and existing semi-supervised methods by leveraging unlabeled data through enforced prediction agreement."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "The Force Delta uncertainty metric will exhibit systematically weaker predictive power for out-of-distribution structures that violate physical constraints orthogonal to energy conservation (such as those violating bond-length constraints or symmetry operations), compared to structures that primarily violate energy conservation, revealing fundamental limitations in using internal force disagreement as a universal uncertainty proxy."
-}

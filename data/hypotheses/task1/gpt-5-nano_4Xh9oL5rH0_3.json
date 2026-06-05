@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If universal machine learning interatomic potentials trained on MOF data generalize to the 100+ curated MOFs, then they will match DFT-level accuracy in structural optimization (convergence and final volumes), maintain MD stability with minimal volume drift in NpT at 300 K and 1 bar, predict bulk moduli consistent with Birch\u2013Murnaghan EOS fits, and reproduce 300 K heat capacities within close agreement to Phonopy-based benchmarks, because the study benchmarks 20 MLIPs against DFT references across these four tasks."
-}

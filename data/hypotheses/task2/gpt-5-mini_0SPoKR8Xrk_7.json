@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "When the characteristic lateral patch size of a chemically heterogeneous surface exceeds the polymer's radius of gyration, polymer sequence variation will contribute less than 20% of the observed variance in binding free energy (\u2206F), whereas when the patch size is smaller than the polymer's radius of gyration sequence variation will contribute more than 50% of the \u2206F variance."
-}

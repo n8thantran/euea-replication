@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "Ciw6DbDa4U",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Tensor completion methods will achieve higher predictive accuracy (R\u00b2 scores) than traditional machine learning methods for predicting mechanical properties of lattice structures, particularly under biased sampling conditions, because they exploit the inherent multi-dimensional structure of the design parameter space."
-}

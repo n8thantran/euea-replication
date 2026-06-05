@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If Force Delta (U\u2206) is a valid data-free uncertainty metric for neural network interatomic potentials, then larger U\u2206 values will correspond to larger true direct-force errors \u03b5direct on both equilibrium and adversarially perturbed (OOD) structures, because U\u2206 directly measures the mismatch between conservative forces (\u2212\u2207E) and non-conservative force predictions and should outperform ad-hoc ensemble variance as an uncertainty indicator."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating domain-specific chemical ontology constraints and iterative refinement cycles into agentic extraction pipelines will significantly improve extraction performance on high-complexity chemical datasets compared to unconstrained single-pass extraction approaches."
-}

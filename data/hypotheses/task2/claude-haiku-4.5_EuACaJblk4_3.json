@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "EuACaJblk4",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Incorporating explicit multi-state conformational information into the encoder's sequence distribution prediction will improve self-consistency of designed sequences by enabling the model to learn sequence-structure relationships that account for protein conformational dynamics rather than static backbone geometries alone."
-}

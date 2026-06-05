@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "dmeAH1hVR8",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Continual pre-training of the Granite LLM using a SMILES- and MOFid-aware tokenizer combined with a contrastive alignment loss between SMILES embeddings from PubChem and MOFid text embeddings will allow scaling PubChem to 2M compounds without degrading performance and produce at least a 10% reduction in QMOF test-set MAE compared to the PMC+PubChem(500K)-pretrained model."
-}

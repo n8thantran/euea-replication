@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 8,
-  "task": "task1",
-  "hypothesis": "Incorporating physics-based regularization constraints (non-negativity and sum-to-one) into a diffusion model will generate composite material designs with higher validity and fabrication feasibility compared to unconstrained generative models."
-}

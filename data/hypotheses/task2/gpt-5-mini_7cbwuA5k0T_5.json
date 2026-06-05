@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Automatically synthesizing concise, task-aligned \"micro-tools\" by training a lightweight model to compose existing tool APIs from task and tool embeddings will increase GPT-4o's pass@5 in the Spectra environment by at least 30 percentage points compared to the original toolset."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Training CHROMA with a mixed objective that combines token-level cross-entropy (weight 0.5) and a differentiable TMM-based CIE76 \u2206E sequence loss optimized via a straight-through Gumbel-Softmax relaxation over the discrete material\u2013thickness tokens will reduce the mean held-out validation error from ~34 to \u226420 \u2206E without increasing TP error above 2 \u2206E for the N=8 decoder under the same dataset and constraints."
-}

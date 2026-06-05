@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If the root-mean-square difference between gradient-derived conservative forces and directly-predicted non-conservative forces (U\u2206) is used as a data-free uncertainty metric for direct-force pre-trained NNIPs, then U\u2206 will strongly correlate with true force error (\u03b5direct) across diverse solids, surfaces, and molecules and will more effectively detect out-of-distribution/adversarial structures than within-family ensemble variance because disagreement between conservative and non-conservative force predictions signals model unreliability."
-}

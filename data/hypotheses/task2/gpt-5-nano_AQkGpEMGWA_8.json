@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "AQkGpEMGWA",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Introducing a stabilizing secondary element into AI-identified high-capacity Si\u2013X alloys will reduce the variation of Li+ migration channel radius across lithiation and delithiation to \u22640.25 \u00c5, leading to substantially improved cycle life and coulombic efficiency in practical lithium-ion cells relative to the corresponding binary Si\u2013X alloys."
-}

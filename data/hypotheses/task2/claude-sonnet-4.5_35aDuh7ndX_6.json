@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "35aDuh7ndX",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "Incorporating protein conformational flexibility into pharmacophore-guided generative models will yield molecules with improved experimental binding affinities compared to those designed using rigid receptor pharmacophores alone."
-}

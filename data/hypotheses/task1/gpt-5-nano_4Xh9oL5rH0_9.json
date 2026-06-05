@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 9,
-  "task": "task1",
-  "hypothesis": "Universal machine-learning interatomic potentials can reproduce DFT-level structural, dynamical, mechanical, and thermodynamic properties of MOFs\u2014specifically optimized structures, MD stability, bulk moduli under strain, and 300 K heat capacities\u2014across a diverse set of MOFs with accuracy comparable to DFT references."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "If retrosynthesis models are evaluated on test sets that share reaction templates and structural motifs with the training data (in-distribution), then their performance will be significantly overestimated compared to evaluation on truly out-of-distribution test sets with unseen templates and novel molecular structures, because standard random dataset splitting strategies introduce systematic bias by allowing template and structural overlap between training and test partitions."
-}

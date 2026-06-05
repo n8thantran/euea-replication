@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Fine-tuning LLM agents on domain-specific reasoning trajectories generated from high task-tool alignment environments will yield greater performance improvements in low-alignment environments than adding semantically aligned tools, because the bottleneck in low-alignment settings is the model's inability to decompose and map abstract scientific tasks to available tool sequences rather than the absence of appropriate tools per se."
-}

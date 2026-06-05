@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "7brF4sMQq3",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "The interpolation weight \u03ba in Score-Based Interpolation implicitly encodes a one-dimensional projection of the reaction coordinate's progress, and therefore systematically varying \u03ba across the range [0,1] during inference\u2014rather than fixing it at the equal-density isosurface\u2014will generate a sequence of structurally distinct intermediate configurations that collectively approximate the minimum energy path between metastable states, enabling ASTRA to reconstruct full reaction pathways with committor values monotonically spanning [0,1] without requiring any additional path-finding optimization or transition path sampling."
-}

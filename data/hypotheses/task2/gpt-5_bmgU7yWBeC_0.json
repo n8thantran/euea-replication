@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "bmgU7yWBeC",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Incorporating an explicit Force Delta consistency penalty (||Fnc + \u2207E||^2) into the loss when fine-tuning pre-trained direct-force NNIPs will reduce out-of-distribution DFT force RMSE relative to identical fine-tuning without the penalty while maintaining in-distribution accuracy and will increase the Spearman correlation between Force Delta and true force error on adversarially generated structures."
-}

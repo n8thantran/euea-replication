@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "7cbwuA5k0T",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If task-tool semantic alignment (measured by higher embedding cosine similarity or via augmentation with a hypothesis-generator tool) is increased, then scientific LLM agents will achieve larger improvements in success rate and pass@k metrics across environments than they do from switching agent scaffolds (ReAct vs tool-calling) or LLM backends (Claude-3.5 Sonnet vs GPT-4o), because aligned tools better enable correct task decomposition and effective tool invocation."
-}

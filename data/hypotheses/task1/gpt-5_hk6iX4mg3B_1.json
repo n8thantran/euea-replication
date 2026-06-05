@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 1,
-  "task": "task1",
-  "hypothesis": "If multiple graph neural networks are trained jointly with a detached-mean consensus loss on unlabeled data (weighted by \u03b3) in addition to supervised loss, then under limited labeled data they will achieve lower error and better calibration than supervised learning, mean-teacher, and PSEUDO\u03c3 across molecular graph benchmarks, with performance improving as ensemble size increases."
-}

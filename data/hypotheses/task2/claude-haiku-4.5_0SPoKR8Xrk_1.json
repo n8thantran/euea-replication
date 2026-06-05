@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "0SPoKR8Xrk",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Polymers with spatially clustered strong-interaction beads will exhibit non-monotonic binding free energy landscapes as a function of cluster size due to competing effects between local adsorption strength and global conformational entropy loss, enabling prediction of an optimal cluster size that maximizes adhesion independent of overall polymer composition."
-}

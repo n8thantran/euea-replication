@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "hk6iX4mg3B",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "If a semi-supervised training objective combines supervised loss with an ensemble-consistency loss (each model minimizing distance to the detached ensemble mean with coupling weight \u03b3>0), then it will yield significantly lower test error and improved calibration than supervised-only baselines and alternative SSL methods on QM9 and GNN+ molecular benchmarks under 10% label regimes, with performance gains that are robust across GCN/GIN/GatedGCN architectures and that increase with ensemble size up to M=32."
-}

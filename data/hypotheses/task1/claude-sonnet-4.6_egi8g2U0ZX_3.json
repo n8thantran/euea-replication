@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If combining pre-training on large chemical databases with domain-specific fine-tuning and expert-criteria-guided reinforcement learning produces higher-quality candidate CTF structures than any single knowledge transfer strategy alone, then configurations integrating all three stages will yield superior performance across validity, novelty, internal diversity, and expert filter passage rate metrics, because the sequential transfer of general chemical knowledge followed by domain adaptation and task-specific optimization enables generative models to efficiently navigate the constrained chemical space of porous carbon materials for supercapacitor applications."
-}

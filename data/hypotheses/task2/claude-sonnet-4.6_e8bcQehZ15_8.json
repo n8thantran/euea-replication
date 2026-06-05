@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 8,
-  "task": "task2",
-  "hypothesis": "Extending CAST to discrete or graph-structured molecular attributes requires architectural adaptation, but the concept bottleneck's learned directional embeddings implicitly encode geometric relationships in the LLM's activation space; therefore, if the orthogonality constraint between concept embeddings is replaced with a structured similarity constraint that mirrors known physicochemical correlations among properties (e.g., the empirical covariance between QED, LogP, and HOMO-LUMO gap in a reference dataset), the resulting steering vectors will produce molecules that more accurately satisfy joint multi-property targets\u2014particularly for correlated properties in out-of-distribution regimes\u2014compared to the disentangled orthogonal embedding scheme used in CAST."
-}

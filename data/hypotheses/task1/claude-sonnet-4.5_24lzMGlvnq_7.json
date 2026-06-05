@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "24lzMGlvnq",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Direct preference optimization using physics-based thermodynamic feedback will improve language models' ability to generate novel BCC/B2 superalloy compositions that satisfy synthesis constraints compared to supervised fine-tuning alone."
-}

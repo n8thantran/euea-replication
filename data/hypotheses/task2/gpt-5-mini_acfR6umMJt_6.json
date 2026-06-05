@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "acfR6umMJt",
-  "sample_idx": 6,
-  "task": "task2",
-  "hypothesis": "A EquiformerV2 model fine-tuned via NN-BAX on a single NEB transition of a given atomic system will, when applied zero-shot to predict NEB paths between other nearby local minima of the same system, yield energy barrier errors below 5% and maximum perpendicular forces within 2\u00d7 the classical NEB convergence threshold, reducing the number of required simulator evaluations for those new transitions by at least 50% compared to starting from the pre-trained base model."
-}

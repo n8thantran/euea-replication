@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "cFTvHHXvt6",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Integrating a differentiable, spectrum-level loss (e.g., combining spectral MSE with CIE76 \u2206E computed via the TMM verifier) into CHROMA's training objective will reduce mean CIE76 \u2206E on the held-out validation set by at least 30% relative to the baseline trained solely with token-level cross-entropy."
-}

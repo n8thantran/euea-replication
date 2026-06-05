@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "enQdbinvNd",
-  "sample_idx": 4,
-  "task": "task1",
-  "hypothesis": "Multi-agent LLM systems with specialized roles and access to computational tools can automatically perform complete molecular simulation workflows including force field extraction from literature and simulation setup with accuracy comparable to manual execution."
-}

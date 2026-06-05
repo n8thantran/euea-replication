@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "YKxwBMK8Nl",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Augmenting the ChemX single-agent pipeline with a layout-aware molecular-figure detector fine-tuned on OCSR corpora and DECIMER-based structure recognition, plus caption/proximity linking to text mentions, will increase SMILES extraction F1 to \u22650.40 (precision \u22650.50, recall \u22650.60) and raise overall small-molecule dataset F1 by \u22650.10 versus the current single-agent baseline, without increasing non-SMILES false positives by >2 percentage points."
-}

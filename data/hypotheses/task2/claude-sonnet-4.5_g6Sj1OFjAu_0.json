@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "g6Sj1OFjAu",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "## Novel Hypothesis\n\nIncorporating dynamic shell-radius adaptation during the diffusion sampling process, where the cutoff distances for shell 1 and shell 2 are treated as learnable conditional parameters rather than fixed values, will enable CompGen to generate compositionally distinct active site environments that exhibit superior catalytic selectivity for multi-step reaction pathways compared to fixed-radius designs."
-}

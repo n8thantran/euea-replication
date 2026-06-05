@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "Cfj7uBu5dy",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "When agents operating within the MADE framework encounter regions of chemical space where their structure generator (e.g., MatterGen) has high training data density, uncertainty-based acquisition functions will systematically underperform diversity-based acquisition functions because the surrogate uncertainty estimates will be artificially low near known Materials Project compositions, causing the agent to exploit familiar chemical neighborhoods rather than explore genuinely novel regions; consequently, acquisition functions that explicitly penalize proximity to the training distribution of the generative model\u2014rather than proximity to previously queried structures\u2014will discover a greater number of thermodynamically stable compounds absent from Materials Project within equivalent oracle budgets."
-}

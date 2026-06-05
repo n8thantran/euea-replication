@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "8JFITrNy3K",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Synthesis procedures extracted from papers with higher LLM extraction accuracy (F1-score > 0.80) will show stronger quantitative correlations between extracted synthesis parameters and reported material properties compared to procedures with lower extraction accuracy, suggesting that extraction fidelity is a critical determinant of downstream predictive power in property-synthesis relationships."
-}

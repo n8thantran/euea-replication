@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If open-source molecular generative models are pre-trained on large chemical datasets, fine-tuned on a curated CTF dataset, and optimized with reinforcement learning using expert-crafted rewards (flatness, symmetry, conjugation, steric hindrance, SMARTS patterns), then they will generate a higher fraction of valid, unique, novel, and expert-filter-passing CTF candidates with improved FCD and diversity than the same models without one or more of these knowledge-transfer steps because hierarchical transfer and reward shaping embed task-relevant structural priors that guide generation toward desired porous carbon motifs."
-}

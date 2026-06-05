@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Transfer learning with multi-stage pre-training on diverse chemical databases followed by fine-tuning and reinforcement learning on expert-designed reward functions will generate porous carbon materials with higher validity, diversity, and expert-filter compliance compared to single-stage training approaches."
-}

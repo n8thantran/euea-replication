@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "e8bcQehZ15",
-  "sample_idx": 7,
-  "task": "task2",
-  "hypothesis": "Incorporating binary substructure-concept predictors (for a designated scaffold and key functional groups) into CAST\u2019s concept bottleneck and learning corresponding orthogonal steering embeddings will enable the steered LLM to retain the specified scaffold in \u226590% of generated molecules while matching target QED and LogP with MAEs within 0.05, outperforming standard CAST (without substructure concepts) which will retain the scaffold in <50% of cases and exhibit larger MAE deviations."
-}

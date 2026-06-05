@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "egi8g2U0ZX",
-  "sample_idx": 0,
-  "task": "task2",
-  "hypothesis": "Combining the paper's finding that material-specific filter metrics are poorly correlated with standard generative metrics, and that reinforcement learning with fine-tuning achieves the highest pass rates but at the cost of reduced diversity, a hierarchical curriculum reinforcement learning strategy\u2014where the reward function progressively introduces individual CTF-specific constraints (first conjugation, then flatness, then symmetry, then steric hindrance and patterns) rather than averaging all criteria simultaneously from the start\u2014will mitigate policy collapse while achieving both higher filter pass rates and greater chemical diversity than the current simultaneous multi-criteria reward formulation, as measured by a statistically significant improvement in the joint metric of passing-filters percentage multiplied by internal diversity score across at least two generative architectures."
-}

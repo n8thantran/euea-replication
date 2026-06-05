@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Integrating a differentiable percolation-threshold regularizer for CNT/graphene networks into PCDiff will increase Coverage by at least 7 percentage points for composites targeting thermal conductivity \u2265 1.0 W/mK while maintaining Validityfab \u2265 95% relative to the original PCDiff trained on the same dataset."
-}

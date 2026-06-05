@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "aECXy5Jgm4",
-  "sample_idx": 7,
-  "task": "task1",
-  "hypothesis": "Bayesian optimization using pre-trained molecular representations and Gaussian process surrogate models can accelerate the discovery of high-performance polyamines for CO2 capture by requiring fewer computational simulations to identify top-performing candidates compared to random sampling."
-}

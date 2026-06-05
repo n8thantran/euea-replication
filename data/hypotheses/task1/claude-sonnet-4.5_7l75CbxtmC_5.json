@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.5",
-  "paper_id": "7l75CbxtmC",
-  "sample_idx": 5,
-  "task": "task1",
-  "hypothesis": "Integrating thermodynamic calculations, cellular automata simulations, machine learning predictions, and commercial pricing databases can identify synthesis routes for inorganic materials that are both thermodynamically favorable and economically efficient compared to traditional experimental trial-and-error approaches."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "hQCdhenqre",
-  "sample_idx": 9,
-  "task": "task2",
-  "hypothesis": "Incorporating molecular charge as a latent conditioning variable into the equivariant message-passing layers of E(3)-equivariant MLIP architectures such as MACE\u2014rather than treating it solely as an input feature at the readout stage\u2014will yield systematically improved energy and force prediction accuracy for charged organic species and enable stable MD simulations of protonation-state-dependent biological processes, compared to models that either exclude charged systems entirely or incorporate charge only at the output layer."
-}

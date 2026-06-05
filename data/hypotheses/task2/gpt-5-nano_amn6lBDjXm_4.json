@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "amn6lBDjXm",
-  "sample_idx": 4,
-  "task": "task2",
-  "hypothesis": "Incorporating a calibrated uncertainty-aware surrogate for DFT-based stability into the training loop of diffusion-based crystal generators will yield generated structures that are more often thermodynamically stable under true DFT relaxation (higher SUN-stability rate) and exhibit stronger correspondence between surrogate stability estimates and final DFT SUN metrics than generators trained without such a surrogate."
-}

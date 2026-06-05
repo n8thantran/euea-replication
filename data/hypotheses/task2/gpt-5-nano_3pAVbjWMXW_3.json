@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-nano",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 3,
-  "task": "task2",
-  "hypothesis": "Augmenting synthetic mixture spectra with a physics-informed non-linear mixing model that includes concentration-dependent band shifts and cross-component interference terms will improve the model's ability to correctly identify minority components and achieve higher Top-1/Top-5/Top-10 accuracies on real ATR-IR mixtures compared to using only linearly blended spectra for training."
-}

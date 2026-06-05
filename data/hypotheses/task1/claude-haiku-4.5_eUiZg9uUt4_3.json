@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "eUiZg9uUt4",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "Models trained on datasets with greater template diversity will demonstrate improved generalization to out-of-distribution reactions with unseen templates, whereas models trained on datasets with limited template diversity will show performance degradation when encountering novel disconnection patterns not present in their training data."
-}

@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-sonnet-4.6",
-  "paper_id": "3pAVbjWMXW",
-  "sample_idx": 3,
-  "task": "task1",
-  "hypothesis": "If a Transformer-based encoder-decoder language model is trained on IR spectra with a spectral alignment reconstruction auxiliary loss that enforces learning of pure component spectral representations, then it will accurately predict the molecular structures of individual components from IR spectra of multi-component mixtures, because the reconstruction constraint forces the encoder to disentangle overlapping spectral contributions into chemically meaningful latent representations corresponding to constituent molecules."
-}

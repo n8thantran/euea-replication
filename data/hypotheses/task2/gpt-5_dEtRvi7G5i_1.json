@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5",
-  "paper_id": "dEtRvi7G5i",
-  "sample_idx": 1,
-  "task": "task2",
-  "hypothesis": "Introducing 10\u201320 at% Zr into the La sublattice of LaH10-derived clathrates will stabilize non-integer La1\u2212yZryHx phases with x = 12\u201314 at pressures at least 50 GPa lower than the corresponding binary LaHx while retaining superconducting transition temperatures \u2265120 K, as verified by convex-hull stability and electron\u2013phonon coupling calculations."
-}

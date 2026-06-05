@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "6pjxodugzO",
-  "sample_idx": 6,
-  "task": "task1",
-  "hypothesis": "Chemical foundation models pre-trained on large SMILES datasets will predict battery material properties across molecular, formulation, and device scales more accurately than traditional molecular fingerprints, with performance improving as a function of pre-training data scale and diversity."
-}

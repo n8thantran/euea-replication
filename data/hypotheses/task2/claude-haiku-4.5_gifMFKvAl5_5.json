@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-haiku-4.5",
-  "paper_id": "gifMFKvAl5",
-  "sample_idx": 5,
-  "task": "task2",
-  "hypothesis": "Incorporating time-dependent regularization weights that adaptively decrease the strength of physics constraints during early diffusion timesteps and increase them during later timesteps will improve the diversity-validity trade-off by allowing greater exploration of the composition space before enforcing physical feasibility."
-}

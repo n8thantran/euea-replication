@@ -1,7 +1,0 @@
-{
-  "model": "openai/gpt-5-mini",
-  "paper_id": "4Xh9oL5rH0",
-  "sample_idx": 2,
-  "task": "task2",
-  "hypothesis": "Universal MLIPs augmented with an explicit, differentiable long-range electrostatic term implemented via learned charge equilibration and jointly trained with the short-range potential will reduce the rate of structural-optimization and MD instability failures and decrease mean absolute error in bulk modulus and 300 K heat capacity on MOFSimBench by at least 20% relative to the same uMLIP architecture trained without explicit electrostatics."
-}
