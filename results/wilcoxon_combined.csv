@@ -1,0 +1,61 @@
+Algorithm,Method,Reduction,Synth p-value,Real p-value,Synth sig,Real sig
+k-means,PCA,k-1,0.4531,0.2607,,
+k-means,PCA,25%,0.0069,0.9587,*,
+k-means,PCA,50%,0.3555,1.0,,
+k-means,Kernel PCA,k-1,0.0903,0.1396,,
+k-means,Kernel PCA,25%,0.9234,0.9058,,
+k-means,Kernel PCA,50%,0.0627,0.7959,,
+k-means,VAE,k-1,0.0103,0.0151,*,*
+k-means,VAE,25%,0.0002,0.0024,*,*
+k-means,VAE,50%,0.0001,0.0021,*,*
+k-means,Isomap,k-1,0.0168,0.306,*,
+k-means,Isomap,25%,0.6485,0.6358,,
+k-means,Isomap,50%,0.1426,0.4968,,
+k-means,MDS,k-1,0.0102,0.9092,*,
+k-means,MDS,25%,0.0031,0.306,*,
+k-means,MDS,50%,0.0322,1.0,*,
+AHC,PCA,k-1,0.0304,0.4699,*,
+AHC,PCA,25%,0.0012,0.1236,*,
+AHC,PCA,50%,0.0077,0.9634,*,
+AHC,Kernel PCA,k-1,0.0074,1.0,*,
+AHC,Kernel PCA,25%,0.002,0.2762,*,
+AHC,Kernel PCA,50%,0.2893,0.7437,,
+AHC,VAE,k-1,0.0,0.0013,*,*
+AHC,VAE,25%,0.0,0.0018,*,*
+AHC,VAE,50%,0.0,0.0023,*,*
+AHC,Isomap,k-1,0.4657,0.32,,
+AHC,Isomap,25%,0.184,0.1168,,
+AHC,Isomap,50%,0.016,0.2273,*,
+AHC,MDS,k-1,0.019,0.0097,*,*
+AHC,MDS,25%,0.0005,0.0083,*,*
+AHC,MDS,50%,0.0103,0.0493,*,*
+GMM,PCA,k-1,0.0096,0.1458,*,
+GMM,PCA,25%,0.4619,0.2867,,
+GMM,PCA,50%,0.7407,0.6493,,
+GMM,Kernel PCA,k-1,0.9899,0.3065,,
+GMM,Kernel PCA,25%,0.2535,0.2975,,
+GMM,Kernel PCA,50%,0.5925,0.7945,,
+GMM,VAE,k-1,0.0044,0.0115,*,*
+GMM,VAE,25%,0.0001,0.0016,*,*
+GMM,VAE,50%,0.0004,0.0033,*,*
+GMM,Isomap,k-1,0.0048,0.2012,*,
+GMM,Isomap,25%,0.7955,0.1632,,
+GMM,Isomap,50%,0.9517,0.2144,,
+GMM,MDS,k-1,0.953,0.0979,,
+GMM,MDS,25%,0.4969,0.0881,,
+GMM,MDS,50%,0.678,0.5342,,
+OPTICS,PCA,k-1,0.0187,0.4697,*,
+OPTICS,PCA,25%,0.0926,0.9697,,
+OPTICS,PCA,50%,0.0251,0.6426,*,
+OPTICS,Kernel PCA,k-1,0.0239,0.0769,*,
+OPTICS,Kernel PCA,25%,0.6301,0.0394,,*
+OPTICS,Kernel PCA,50%,0.3915,0.3965,,
+OPTICS,VAE,k-1,0.0008,0.3008,*,
+OPTICS,VAE,25%,0.0256,0.0433,*,*
+OPTICS,VAE,50%,0.2047,0.1165,,
+OPTICS,Isomap,k-1,0.007,0.2327,*,
+OPTICS,Isomap,25%,0.4919,0.2065,,
+OPTICS,Isomap,50%,0.164,0.6092,,
+OPTICS,MDS,k-1,0.0474,0.8145,*,
+OPTICS,MDS,25%,0.0986,0.8,,
+OPTICS,MDS,50%,0.0371,0.6978,*,
