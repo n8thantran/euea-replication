@@ -1,42 +1,51 @@
 {
-  "over_refusal": {
-    "XSTest-Safe": {
-      "default": 4.0,
-      "adacd": null,
-      "paper_default": 4.0,
-      "paper_adacd": 2.0
-    },
-    "ORBench": {
-      "default": 22.21379833206975,
-      "adacd": null,
-      "paper_default": 30.63,
-      "paper_adacd": 16.68
-    },
-    "OKTest": {
-      "default": 0.0,
-      "adacd": null,
-      "paper_default": 9.67,
-      "paper_adacd": 5.0
-    }
+  "xstest_safe_default": {
+    "refusal_rate": 3.6,
+    "refusal_count": 9,
+    "total": 250,
+    "paper_value": 4.0,
+    "dataset_type": "safe"
   },
-  "malicious": {
-    "XSTest-UnSafe": {
-      "default": 63.5,
-      "adacd": null,
-      "paper_default": 99.5,
-      "paper_adacd": 100.0
-    },
-    "AdvBench": {
-      "default": 96.73076923076923,
-      "adacd": null,
-      "paper_default": 99.81,
-      "paper_adacd": 99.04
-    },
-    "JailBench": {
-      "default": 88.0,
-      "adacd": null,
-      "paper_default": 99.0,
-      "paper_adacd": 100.0
-    }
+  "xstest_safe_adacd": {
+    "refusal_rate": 6.25,
+    "refusal_count": 14,
+    "total": 224,
+    "paper_value": 2.0,
+    "dataset_type": "safe"
+  },
+  "orbench_default": {
+    "refusal_rate": 16.3,
+    "refusal_count": 215,
+    "total": 1319,
+    "paper_value": 30.63,
+    "dataset_type": "safe"
+  },
+  "oktest_default": {
+    "refusal_rate": 0.0,
+    "refusal_count": 0,
+    "total": 300,
+    "paper_value": 9.67,
+    "dataset_type": "safe"
+  },
+  "xstest_unsafe_default": {
+    "refusal_rate": 67.0,
+    "refusal_count": 134,
+    "total": 200,
+    "paper_value": 99.5,
+    "dataset_type": "malicious"
+  },
+  "advbench_default": {
+    "refusal_rate": 96.54,
+    "refusal_count": 502,
+    "total": 520,
+    "paper_value": 99.81,
+    "dataset_type": "malicious"
+  },
+  "jailbench_default": {
+    "refusal_rate": 87.0,
+    "refusal_count": 87,
+    "total": 100,
+    "paper_value": 99.0,
+    "dataset_type": "malicious"
   }
 }
