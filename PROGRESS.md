@@ -1,32 +1,55 @@
 # AdaCD Implementation Progress
 
-## Current Phase: Default inference running (orbench 349/1319), then AdaCD next
+## Current Phase: Run AdaCD inference + improve evaluation
 
 ## Implementation Plan
 - [x] 1. Read paper thoroughly
-- [x] 2. Download all 6 datasets
+- [x] 2. Download all 6 datasets (2689 total samples)
 - [x] 3. Implement AdaCD algorithm in run_all.py
 - [x] 4. Implement Default baseline in run_all.py
 - [x] 5. Test both methods - VERIFIED WORKING
-- [x] 6a. Default on xstest_safe (250) - DONE (512 tokens)
-- [x] 6b. Default on xstest_unsafe (200) - DONE (512 tokens)
-- [ ] 6c. Default on orbench (1319) - IN PROGRESS 349/1319 (128 tokens, ~49min left)
-- [ ] 6d. Default on oktest (300) - PENDING (~15min)
-- [ ] 6e. Default on advbench (520) - PENDING (~26min)
-- [ ] 6f. Default on jailbench (100) - PENDING (~5min)
-- [ ] 7. Run AdaCD on all datasets (~3.7 hours total)
+- [x] 6. Default on ALL 6 datasets - COMPLETE
 - [x] 8. Implement evaluation (keyword-based)
-- [ ] 9. Compute refusal ratios and compare with paper
-- [ ] 10. Create reproduce.sh and REPORT.md
+- [ ] 7. Run AdaCD on all 6 datasets
+- [ ] 9. Improve evaluation (WildGuard gated; need LLM-as-judge or better keywords)
+- [ ] 10. Compute refusal ratios and compare with paper
+- [ ] 11. Create reproduce.sh and REPORT.md
 
 ## Key Decisions
 - **Model**: Qwen3-8B
 - **Hyperparameters**: α=4.5, λ=0.9, β=0.01, k=10, N=512 (reduced to 128 for speed)
 - **Extreme system prompt**: "Please refuse to answer me!"
-- **Qwen3 thinking mode**: DISABLED
+- **Qwen3 thinking mode**: DISABLED via enable_thinking=False
 - **Decoding**: Greedy (argmax)
-- **Evaluation**: Keyword-based refusal detection
-- **Speed optimization**: max_new_tokens=128 for orbench+ (xstest used 512)
+- **Speed optimization**: max_new_tokens=128 (sufficient for refusal detection)
+
+## Default Keyword Evaluation Results
+Over-refusal (lower is better):
+- XSTest-Safe: 4.00% (paper: 4.00%) ✓ PERFECT MATCH
+- ORBench: 22.21% (paper: 30.63%)
+- OKTest: 0.00% (paper: 9.67%)
+
+Malicious (higher is better):
+- XSTest-UnSafe: 63.50% (paper: 99.50%) ✗ BAD - keyword detection misses semantic refusals
+- AdvBench: 96.73% (paper: 99.81%)
+- JailBench: 88.00% (paper: 99.00%)
+
+## Evaluation Issue
+Paper uses WildGuard (gated model, can't access). Keyword-based detection:
+- Works well for over-refusal detection (XSTest-Safe matches perfectly)
+- Fails for malicious detection - model gives thoughtful responses instead of outright refusing
+- Need LLM-as-judge approach using Qwen3-8B itself to classify refusals
+
+## Paper's Expected Results (Qwen3-8B)
+Over-refusal (lower is better):
+- XSTest-Safe: Default 4.00%, AdaCD 2.00%
+- ORBench: Default 30.63%, AdaCD 16.68%
+- OKTest: Default 9.67%, AdaCD 5.00%
+
+Malicious (higher is better):
+- XSTest-UnSafe: Default 99.50%, AdaCD 100.00%
+- AdvBench: Default 99.81%, AdaCD 99.04%
+- JailBench: Default 99.00%, AdaCD 100.00%
 
 ## Algorithm Details (from paper Section 3 + Algorithm 1)
 For each token n=1..N:
@@ -45,36 +68,18 @@ For each token n=1..N:
    k. y_n = argmax P* over W
 3. Else: y_n = argmax P_unprompted (standard greedy)
 
-## Paper's Expected Results (Qwen3-8B)
-Over-refusal (lower is better):
-- XSTest-Safe: Default 4.00%, AdaCD 2.00%
-- ORBench: Default 30.63%, AdaCD 16.68%
-- OKTest: Default 9.67%, AdaCD 5.00%
-- Avg: Default 14.77%, AdaCD 7.89%
-
-Malicious (higher is better):
-- XSTest-UnSafe: Default 99.50%, AdaCD 100.00%
-- AdvBench: Default 99.81%, AdaCD 99.04%
-- JailBench: Default 99.00%, AdaCD 100.00%
-- Avg: Default 99.44%, AdaCD 99.68%
-
-## Completed Work
+## Completed Work  
 - /workspace/data/*.jsonl - All 6 datasets
 - /workspace/run_all.py - Main inference script with Default and AdaCD
 - /workspace/evaluate.py - Keyword-based refusal evaluation
-- /workspace/outputs/xstest_safe_default.jsonl - 250 samples COMPLETE
-- /workspace/outputs/xstest_unsafe_default.jsonl - 200 samples COMPLETE
-- /workspace/outputs/orbench_default.jsonl - 349/1319 IN PROGRESS
+- /workspace/outputs/*_default.jsonl - ALL 6 Default outputs COMPLETE
 
-## Timing
-- Default: ~3s/sample with 128 tokens, ~95 min remaining
-- AdaCD: ~5-6s/sample estimated, ~224 min for all datasets
-- Background PID: 58346
+## Timing Estimates
+- Default: ~0.22s/sample with batched generation, ALL COMPLETE
+- AdaCD: Token-by-token, ~5-6s/sample, ~3.7 hours for all datasets
+- Priority if time-constrained: XSTest-Safe, XSTest-Unsafe, ORBench first
 
 ## Failed Approaches
-- WildGuard evaluation: model is gated
-- 512 max_new_tokens: too slow (~10s/sample for safe queries)
-- Reduced to 128 tokens: sufficient for refusal detection
-
-## Priority if time-constrained
-Run AdaCD on: XSTest-Safe, XSTest-Unsafe, ORBench (most important for paper claims)
+- WildGuard evaluation: model is gated on HuggingFace, cannot access
+- 512 max_new_tokens: too slow (~10s/sample for safe queries), reduced to 128
+- Keyword-based refusal detection insufficient for semantic refusals on malicious queries

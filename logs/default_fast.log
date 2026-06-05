@@ -1,0 +1,21 @@
+/usr/local/lib/python3.14/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Loading model: Qwen/Qwen3-8B
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   1%|          | 2/399 [00:00<00:32, 12.05it/s]Loading weights:   7%|▋         | 27/399 [00:00<00:03, 113.77it/s]Loading weights:  13%|█▎        | 50/399 [00:00<00:02, 155.32it/s]Loading weights:  18%|█▊        | 72/399 [00:00<00:01, 172.88it/s]Loading weights:  24%|██▎       | 94/399 [00:00<00:01, 185.17it/s]Loading weights:  29%|██▉       | 116/399 [00:00<00:01, 193.89it/s]Loading weights:  35%|███▍      | 138/399 [00:00<00:01, 199.65it/s]Loading weights:  40%|████      | 160/399 [00:00<00:01, 203.70it/s]Loading weights:  46%|████▌     | 182/399 [00:01<00:01, 206.07it/s]Loading weights:  51%|█████     | 204/399 [00:01<00:00, 207.42it/s]Loading weights:  56%|█████▋    | 225/399 [00:01<00:00, 205.15it/s]Loading weights:  62%|██████▏   | 248/399 [00:01<00:00, 210.41it/s]Loading weights:  68%|██████▊   | 270/399 [00:01<00:00, 210.77it/s]Loading weights:  73%|███████▎  | 292/399 [00:01<00:00, 210.44it/s]Loading weights:  79%|███████▊  | 314/399 [00:01<00:00, 210.80it/s]Loading weights:  84%|████████▍ | 336/399 [00:01<00:00, 211.44it/s]Loading weights:  90%|████████▉ | 358/399 [00:01<00:00, 211.23it/s]Loading weights:  95%|█████████▌| 380/399 [00:01<00:00, 211.74it/s]Loading weights: 100%|██████████| 399/399 [00:02<00:00, 198.08it/s]
+Model loaded on cuda:0
+
+============================================================
+Method: default
+============================================================
+  Processing orbench Default (1319 remaining, batch_size=8)
+  Done: orbench_default in 290.2s (0.22s/sample)
+  Processing oktest Default (300 remaining, batch_size=8)
+  Done: oktest_default in 63.4s (0.21s/sample)
+  Processing advbench Default (520 remaining, batch_size=8)
+  Done: advbench_default in 112.1s (0.22s/sample)
+  Processing jailbench Default (100 remaining, batch_size=8)
+  Done: jailbench_default in 24.2s (0.24s/sample)
+
+All done!

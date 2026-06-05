@@ -1,0 +1,42 @@
+{
+  "over_refusal": {
+    "XSTest-Safe": {
+      "default": 4.0,
+      "adacd": null,
+      "paper_default": 4.0,
+      "paper_adacd": 2.0
+    },
+    "ORBench": {
+      "default": 22.21379833206975,
+      "adacd": null,
+      "paper_default": 30.63,
+      "paper_adacd": 16.68
+    },
+    "OKTest": {
+      "default": 0.0,
+      "adacd": null,
+      "paper_default": 9.67,
+      "paper_adacd": 5.0
+    }
+  },
+  "malicious": {
+    "XSTest-UnSafe": {
+      "default": 63.5,
+      "adacd": null,
+      "paper_default": 99.5,
+      "paper_adacd": 100.0
+    },
+    "AdvBench": {
+      "default": 96.73076923076923,
+      "adacd": null,
+      "paper_default": 99.81,
+      "paper_adacd": 99.04
+    },
+    "JailBench": {
+      "default": 88.0,
+      "adacd": null,
+      "paper_default": 99.0,
+      "paper_adacd": 100.0
+    }
+  }
+}
