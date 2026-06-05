@@ -1,0 +1,85 @@
+/usr/local/lib/python3.14/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+============================================================
+LOADING UCI DATASETS
+============================================================
+  Breast tissue: 106 objects, 9 features, 6 clusters
+  Breast Wisconsin: 569 objects, 30 features, 2 clusters
+  Ecoli: 336 objects, 7 features, 8 clusters
+  Glass: 214 objects, 9 features, 7 clusters
+  Haberman: 306 objects, 3 features, 2 clusters
+  Ionosphere: 351 objects, 34 features, 2 clusters
+  Iris: 150 objects, 4 features, 3 clusters
+  Movement libras: 360 objects, 90 features, 15 clusters
+  Musk: 476 objects, 166 features, 2 clusters
+  Parkinsons: 195 objects, 22 features, 2 clusters
+  Segmentation: 2310 objects, 19 features, 7 clusters
+  Sonar all: 208 objects, 60 features, 2 clusters
+  Spectf: 267 objects, 44 features, 2 clusters
+  Transfusion: 748 objects, 4 features, 2 clusters
+  Vehicle: 846 objects, 18 features, 4 clusters
+  Vertebral column: 310 objects, 6 features, 3 clusters
+  Vowel context: 990 objects, 10 features, 11 clusters
+  Wine: 178 objects, 13 features, 3 clusters
+  Wine quality red: 1599 objects, 11 features, 6 clusters
+  Yeast: 1484 objects, 8 features, 10 clusters
+Loaded 20 datasets
+
+============================================================
+PRECOMPUTING DIMENSIONALITY REDUCTIONS
+============================================================
+  [1/20] Breast Wisconsin (shape=(569, 30), k=2)
+    VAE_k-1 (2d) [6.9s]
+  [2/20] Breast tissue (shape=(106, 9), k=6)
+  [3/20] Ecoli (shape=(336, 7), k=8)
+  [4/20] Glass (shape=(214, 9), k=7)
+  [5/20] Haberman (shape=(306, 3), k=2)
+  [6/20] Ionosphere (shape=(351, 34), k=2)
+  [7/20] Iris (shape=(150, 4), k=3)
+  [8/20] Movement libras (shape=(360, 90), k=15)
+  [9/20] Musk (shape=(476, 166), k=2)
+    VAE_25% (42d) [6.4s]
+    VAE_50% (83d) [5.1s]
+  [10/20] Parkinsons (shape=(195, 22), k=2)
+  [11/20] Segmentation (shape=(2310, 19), k=7)
+    VAE_k-1 (6d) [18.8s]
+    VAE_25% (5d) [14.8s]
+    VAE_50% (10d) [17.6s]
+    MDS_k-1 (6d) [32.8s]
+    MDS_25% (5d) [32.9s]
+    MDS_50% (10d) [32.5s]
+  [12/20] Sonar all (shape=(208, 60), k=2)
+  [13/20] Spectf (shape=(267, 44), k=2)
+  [14/20] Transfusion (shape=(748, 4), k=2)
+  [15/20] Vehicle (shape=(846, 18), k=4)
+    VAE_k-1 (3d) [5.9s]
+    VAE_25% (4d) [5.8s]
+    VAE_50% (9d) [5.6s]
+  [16/20] Vertebral column (shape=(310, 6), k=3)
+  [17/20] Vowel context (shape=(990, 10), k=11)
+    VAE_25% (2d) [5.8s]
+    VAE_50% (5d) [6.0s]
+  [18/20] Wine (shape=(178, 13), k=3)
+  [19/20] Wine quality red (shape=(1599, 11), k=6)
+    VAE_k-1 (5d) [9.6s]
+    VAE_25% (3d) [9.7s]
+    VAE_50% (6d) [9.8s]
+    MDS_k-1 (5d) [14.8s]
+    MDS_25% (3d) [13.0s]
+    MDS_50% (6d) [15.6s]
+  [20/20] Yeast (shape=(1484, 8), k=10)
+    VAE_25% (2d) [9.8s]
+    VAE_50% (4d) [9.4s]
+    MDS_25% (2d) [10.2s]
+    MDS_50% (4d) [10.7s]
+DR precomputation took 482.7s
+
+============================================================
+K-MEANS EXPERIMENTS
+============================================================
+k-means took 17.7s
+
+============================================================
+AHC EXPERIMENTS (with hyperparameter search)
+============================================================
+  AHC hyperparam search...

@@ -9,6 +9,13 @@ import os
 import sys
 import json
 import time
+import signal
+
+class TimeoutError(Exception):
+    pass
+
+def timeout_handler(signum, frame):
+    raise TimeoutError("DR operation timed out")
 import warnings
 import numpy as np
 import pandas as pd
@@ -131,11 +138,11 @@ def apply_dr(X, method, n_components, random_state=42):
         n_neighbors = min(5, X.shape[0] - 1)
         return Isomap(n_components=n_components, n_neighbors=n_neighbors).fit_transform(X)
     elif method == 'MDS':
-        # Paper: random_state=10, n_init=50. Reduce n_init for large datasets for speed.
+        # Paper: random_state=10, n_init=50. Reduced for computational feasibility.
         n = X.shape[0]
-        n_init = 2 if n > 500 else 4
+        n_init = 1 if n > 300 else 2
         return MDS(n_components=n_components, random_state=10, n_init=n_init,
-                   max_iter=200, normalized_stress='auto').fit_transform(X)
+                   max_iter=150, normalized_stress='auto').fit_transform(X)
     else:
         raise ValueError(f"Unknown DR method: {method}")
 
@@ -174,13 +181,22 @@ def precompute_all_dr(datasets):
                 n_comp = dims[level]
                 try:
                     t0 = time.time()
+                    # Timeout: 60s per DR operation
+                    signal.signal(signal.SIGALRM, timeout_handler)
+                    signal.alarm(60)
                     X_red = apply_dr(X, method, n_comp)
+                    signal.alarm(0)  # Cancel alarm
                     X_red = np.nan_to_num(X_red, nan=0.0, posinf=0.0, neginf=0.0)
                     ds_cache[key] = X_red
                     dt = time.time() - t0
                     if dt > 5:
                         print(f"    {key} ({n_comp}d) [{dt:.1f}s]")
+                except TimeoutError:
+                    signal.alarm(0)
+                    print(f"    TIMEOUT {key} (>60s, skipping)")
+                    ds_cache[key] = None
                 except Exception as e:
+                    signal.alarm(0)
                     print(f"    ERROR {key}: {e}")
                     ds_cache[key] = None
 
