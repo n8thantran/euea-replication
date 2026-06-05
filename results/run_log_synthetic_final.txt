@@ -8,11 +8,71 @@ SYNTHETIC EXPERIMENTS
   Repliclust: 18 datasets
 
 --- Circles (18 datasets) ---
-  DR Circles [1/18] Circles_k2_d10_t0 shape=(2000, 10)
-  DR Circles [2/18] Circles_k2_d10_t1 shape=(2000, 10)
-  DR Circles [3/18] Circles_k2_d10_t2 shape=(2000, 10)
-  DR Circles [4/18] Circles_k2_d200_t0 shape=(2000, 200)
-  DR Circles [5/18] Circles_k2_d200_t1 shape=(2000, 200)
-  DR Circles [6/18] Circles_k2_d200_t2 shape=(2000, 200)
-  DR Circles [7/18] Circles_k2_d50_t0 shape=(2000, 50)
-  DR Circles [8/18] Circles_k2_d50_t1 shape=(2000, 50)
+  DR Circles [1/18] Circles_k2_d10_t0 shape=(500, 10)
+  DR Circles [2/18] Circles_k2_d10_t1 shape=(500, 10)
+  DR Circles [3/18] Circles_k2_d10_t2 shape=(500, 10)
+  DR Circles [4/18] Circles_k2_d200_t0 shape=(500, 200)
+  DR Circles [5/18] Circles_k2_d200_t1 shape=(500, 200)
+  DR Circles [6/18] Circles_k2_d200_t2 shape=(500, 200)
+  DR Circles [7/18] Circles_k2_d50_t0 shape=(500, 50)
+  DR Circles [8/18] Circles_k2_d50_t1 shape=(500, 50)
+  DR Circles [9/18] Circles_k2_d50_t2 shape=(500, 50)
+  DR Circles [10/18] Circles_k5_d10_t0 shape=(500, 10)
+  DR Circles [11/18] Circles_k5_d10_t1 shape=(500, 10)
+  DR Circles [12/18] Circles_k5_d10_t2 shape=(500, 10)
+  DR Circles [13/18] Circles_k5_d200_t0 shape=(500, 200)
+  DR Circles [14/18] Circles_k5_d200_t1 shape=(500, 200)
+  DR Circles [15/18] Circles_k5_d200_t2 shape=(500, 200)
+  DR Circles [16/18] Circles_k5_d50_t0 shape=(500, 50)
+  DR Circles [17/18] Circles_k5_d50_t1 shape=(500, 50)
+  DR Circles [18/18] Circles_k5_d50_t2 shape=(500, 50)
+  DR took 75.5s
+  Running k-means...
+  k-means: 4.6s
+  Searching AHC params...
+    Best AHC: ('euclidean', 'ward'), avg_ari=0.1294
+  AHC: 2.6s
+  Searching GMM params...
+    Best GMM: spherical, avg_ari=0.1478
+  GMM: 12.9s
+  Searching OPTICS params...
+    Best OPTICS: ms=5, mcs=0.05, avg_ari=0.0016
+  OPTICS: 123.4s
+
+--- Moons (18 datasets) ---
+  DR Moons [1/18] Moons_k2_d10_t0 shape=(500, 10)
+  DR Moons [2/18] Moons_k2_d10_t1 shape=(500, 10)
+  DR Moons [3/18] Moons_k2_d10_t2 shape=(500, 10)
+  DR Moons [4/18] Moons_k2_d200_t0 shape=(500, 200)
+  DR Moons [5/18] Moons_k2_d200_t1 shape=(500, 200)
+  DR Moons [6/18] Moons_k2_d200_t2 shape=(500, 200)
+  DR Moons [7/18] Moons_k2_d50_t0 shape=(500, 50)
+  DR Moons [8/18] Moons_k2_d50_t1 shape=(500, 50)
+  DR Moons [9/18] Moons_k2_d50_t2 shape=(500, 50)
+  DR Moons [10/18] Moons_k5_d10_t0 shape=(500, 10)
+  DR Moons [11/18] Moons_k5_d10_t1 shape=(500, 10)
+  DR Moons [12/18] Moons_k5_d10_t2 shape=(500, 10)
+  DR Moons [13/18] Moons_k5_d200_t0 shape=(500, 200)
+  DR Moons [14/18] Moons_k5_d200_t1 shape=(500, 200)
+  DR Moons [15/18] Moons_k5_d200_t2 shape=(500, 200)
+  DR Moons [16/18] Moons_k5_d50_t0 shape=(500, 50)
+  DR Moons [17/18] Moons_k5_d50_t1 shape=(500, 50)
+  DR Moons [18/18] Moons_k5_d50_t2 shape=(500, 50)
+  DR took 78.6s
+  Running k-means...
+  k-means: 4.2s
+  Searching AHC params...
+    Best AHC: ('manhattan', 'average'), avg_ari=0.4317
+  AHC: 2.6s
+  Searching GMM params...
+    Best GMM: tied, avg_ari=0.4669
+  GMM: 29.2s
+  Searching OPTICS params...
+    Best OPTICS: ms=10, mcs=0.05, avg_ari=0.0011
+  OPTICS: 125.7s
+
+--- RSG (36 datasets) ---
+  DR RSG [3/36] RSG_k10_d10_Nc100_t2 shape=(1000, 10)
+  DR RSG [6/36] RSG_k10_d10_Nc50_t2 shape=(500, 10)
+  DR RSG [9/36] RSG_k10_d200_Nc100_t2 shape=(1000, 200)
+  DR RSG [12/36] RSG_k10_d200_Nc50_t2 shape=(500, 200)
