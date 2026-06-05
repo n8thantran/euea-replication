@@ -1,0 +1,26 @@
+{
+  "model_path": "/workspace/pruned_models/Llama-2-7b-hf_ratio0.5",
+  "task_results": {
+    "arc_easy": {
+      "acc": 0.44023569023569026,
+      "acc_norm": 0.41708754208754206
+    },
+    "arc_challenge": {
+      "acc": 0.23122866894197952,
+      "acc_norm": 0.2525597269624573
+    },
+    "hellaswag": {
+      "acc": 0.34913363871738695,
+      "acc_norm": 0.4204341764588727
+    },
+    "piqa": {
+      "acc": 0.6099020674646355,
+      "acc_norm": 0.6180631120783461
+    },
+    "winogrande": {
+      "acc": 0.5493291239147593,
+      "acc_norm": null
+    }
+  },
+  "avg_acc": 0.454492157007283
+}
