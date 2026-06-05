@@ -223,7 +223,7 @@ def cluster_ahc(X, k, metric='euclidean', linkage='ward'):
 def cluster_gmm(X, k, covariance_type='full', random_state=42):
     """GMM with specific covariance type."""
     return GaussianMixture(
-        n_components=k, covariance_type=covariance_type, n_init=10, random_state=random_state
+        n_components=k, covariance_type=covariance_type, n_init=1, random_state=random_state
     ).fit_predict(X)
 
 
