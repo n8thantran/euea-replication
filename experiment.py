@@ -10,7 +10,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.decomposition import PCA, KernelPCA
 from sklearn.manifold import Isomap, MDS
-from sklearn.cluster import KMeans, AgglomerativeClustering, OPTICS
+from sklearn.cluster import KMeans, AgglomerativeClustering, OPTICS, cluster_optics_xi
 from sklearn.mixture import GaussianMixture
 from sklearn.metrics import adjusted_rand_score
 from scipy.stats import wilcoxon
@@ -282,27 +282,38 @@ def apply_gmm_best(X, y_true, k, random_state=42):
 
 def apply_optics_best(X, y_true):
     """OPTICS with hyperparameter search.
-    Paper: xi method, min_samples=[5,6,7,8,9,10], min_cluster_size=[0.0,0.05,...,1.0].
+    Paper: xi method, min_samples=[5,6,7,8,9,10], min_cluster_size=[0.05,0.10,...,1.0].
+    Optimized: fit OPTICS once per min_samples, then extract clusters with different min_cluster_size.
     """
     best_ari = -2
-    best_labels = -np.ones(len(X))
+    best_labels = -np.ones(len(X), dtype=int)
     
     for min_samples in [5, 6, 7, 8, 9, 10]:
         if min_samples >= X.shape[0]:
             continue
-        for xi in np.arange(0.0, 1.01, 0.05):
-            xi = round(xi, 2)
-            if xi >= 1.0:
-                xi = 0.99  # xi must be < 1
-            try:
-                model = OPTICS(min_samples=min_samples, xi=xi, cluster_method='xi')
-                labels = model.fit_predict(X)
-                ari = adjusted_rand_score(y_true, labels)
-                if ari > best_ari:
-                    best_ari = ari
-                    best_labels = labels.copy()
-            except Exception:
-                continue
+        try:
+            model = OPTICS(min_samples=min_samples, cluster_method='xi', xi=0.05)
+            model.fit(X)
+            
+            for mcs in np.arange(0.05, 1.01, 0.05):
+                mcs = round(mcs, 2)
+                try:
+                    labels, _ = cluster_optics_xi(
+                        reachability=model.reachability_,
+                        predecessor=model.predecessor_,
+                        ordering=model.ordering_,
+                        min_samples=min_samples,
+                        xi=0.05,
+                        min_cluster_size=mcs
+                    )
+                    ari = adjusted_rand_score(y_true, labels)
+                    if ari > best_ari:
+                        best_ari = ari
+                        best_labels = labels.copy()
+                except Exception:
+                    continue
+        except Exception:
+            continue
     
     return best_labels
 
@@ -555,7 +566,7 @@ def generate_synthetic_datasets(random_state=42):
             X = add_noise_dims(X, n_dims, rng)
             synthetic[f'Moons_k2_d{n_dims}_t{trial}'] = (X, y, 2)
     
-    # RSG (Rodriguez Structured Gaussian)
+    # RSG (Random Structured Gaussian) - using make_blobs
     for k in [3, 5, 7]:
         for n_dims in [10, 50, 200]:
             for trial in range(5):
