@@ -295,10 +295,9 @@ def generate_all_synthetic(n_reps=10):
 def load_all_real_world():
     """Load all 20 UCI datasets. Returns list of (X, y, name, k)."""
     from load_uci import load_all_uci
-    uci_datasets = load_all_uci()
+    uci_datasets = load_all_uci()  # returns list of (name, X, y, k)
     result = []
-    for name, (X, y) in uci_datasets.items():
-        k = len(np.unique(y))
+    for name, X, y, k in uci_datasets:
         result.append((X, y, name, k))
     return result
 
