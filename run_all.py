@@ -22,8 +22,17 @@ from experiment import (
     compute_aggregate_stats, compute_wilcoxon_tests, generate_boxplots,
     format_results_table, format_aggregate_table, format_wilcoxon_table
 )
-from load_uci import load_all_uci_datasets
+from load_uci import load_all_uci
 from generate_data import generate_all_synthetic_datasets
+
+
+def load_all_uci_datasets():
+    """Load all UCI datasets and return as dict {name: (X, y, k)}."""
+    datasets_list = load_all_uci()
+    datasets = {}
+    for name, X, y, k in datasets_list:
+        datasets[name] = (X, y, k)
+    return datasets
 
 
 def run_real_world_experiments():
@@ -90,7 +99,7 @@ def run_real_world_experiments():
     hyperparams = {
         'AHC': {'metric': ahc_metric, 'linkage': ahc_linkage},
         'GMM': {'covariance_type': gmm_cov},
-        'OPTICS': {'min_samples': optics_ms, 'min_cluster_size': optics_mcs},
+        'OPTICS': {'min_samples': int(optics_ms), 'min_cluster_size': float(optics_mcs)},
     }
     with open('./results/hyperparams_real.json', 'w') as f:
         json.dump(hyperparams, f, indent=2)
@@ -104,8 +113,8 @@ def run_synthetic_experiments():
     print("SYNTHETIC EXPERIMENTS")
     print("=" * 70)
     
-    # Paper uses 50 datasets per type, we use fewer for speed
-    n_datasets = 10  # Reduced from 50 for computational feasibility
+    # Paper uses many datasets per config; use 10 per config for feasibility
+    n_datasets = 10
     
     synthetic_types = ['Circles', 'Moons', 'RSG', 'Repliclust']
     all_type_results = {}
@@ -115,7 +124,7 @@ def run_synthetic_experiments():
         print(f"Synthetic type: {dtype}")
         print(f"{'='*50}")
         
-        print(f"\n  Generating {n_datasets} {dtype} datasets...")
+        print(f"\n  Generating {n_datasets} {dtype} datasets per config...")
         datasets = generate_all_synthetic_datasets(dtype, n_datasets=n_datasets)
         print(f"  Generated {len(datasets)} datasets")
         
@@ -143,25 +152,35 @@ def run_synthetic_experiments():
         type_results = {}
         
         print(f"\n  Running k-means...")
+        t0 = time.time()
         type_results['k-means'] = run_kmeans_experiments(datasets, dr_cache)
+        print(f"  k-means done in {time.time()-t0:.1f}s")
         
         print(f"\n  Running AHC...")
+        t0 = time.time()
         ahc_metric, ahc_linkage = find_best_ahc_params(datasets, dr_cache)
         type_results['AHC'] = run_ahc_experiments(datasets, dr_cache, ahc_metric, ahc_linkage)
+        print(f"  AHC done in {time.time()-t0:.1f}s")
         
         print(f"\n  Running GMM...")
+        t0 = time.time()
         gmm_cov = find_best_gmm_params(datasets, dr_cache)
         type_results['GMM'] = run_gmm_experiments(datasets, dr_cache, gmm_cov)
+        print(f"  GMM done in {time.time()-t0:.1f}s")
         
         print(f"\n  Running OPTICS...")
+        t0 = time.time()
         optics_ms, optics_mcs = find_best_optics_params(datasets, dr_cache)
         type_results['OPTICS'] = run_optics_experiments(datasets, dr_cache, optics_ms, optics_mcs)
+        print(f"  OPTICS done in {time.time()-t0:.1f}s")
         
         all_type_results[dtype] = type_results
         
         # Save per-type results
         with open(f'./results/synthetic_{dtype}_results.json', 'w') as f:
             json.dump(type_results, f, indent=2)
+        
+        print(f"\n  {dtype} complete!")
     
     return all_type_results
 
@@ -261,7 +280,7 @@ def generate_all_outputs(real_results, synthetic_results):
         print(f"  Saved {fname}")
     
     # ============================================================
-    # WILCOXON TESTS (Real-world only)
+    # WILCOXON TESTS (Real-world only, paper Table 5)
     # ============================================================
     print("\n--- Wilcoxon signed-rank tests ---")
     wilcoxon_all = {}
@@ -294,7 +313,8 @@ def generate_all_outputs(real_results, synthetic_results):
     print("\n--- Boxplots ---")
     
     # Real-world boxplots
-    generate_boxplots(real_results, 'RealWorld', './results')
+    if real_results:
+        generate_boxplots(real_results, 'RealWorld', './results')
     
     # Synthetic boxplots (combine all types)
     synth_boxplot_data = {}
