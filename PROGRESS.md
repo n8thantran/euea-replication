@@ -5,31 +5,30 @@
 ## Status Summary
 - **All experiments completed**: Real-world (20 UCI datasets) + Synthetic (Circles, Moons, RSG, Repliclust)
 - **All outputs generated**: CSV tables, PDF boxplots, Wilcoxon tests
-- **reproduce.sh**: Tested and working (quick mode from cached results)
+- **reproduce.sh**: Tested and working
 - **REPORT.md**: Written with full details and accurate file paths
 
 ## Key Scripts
 - `/workspace/main_pipeline.py`: Full experiment pipeline (runs from scratch, ~3-4 hours)
 - `/workspace/generate_all_outputs.py`: Generates all tables/plots from cached JSON results
-- `/workspace/generate_all_results.py`: Alternative output generator (used by reproduce.sh)
+- `/workspace/generate_all_results.py`: Alternative output generator
 - `/workspace/load_uci.py`: Loads all 20 UCI datasets
-- `/workspace/reproduce.sh`: Reproduction script (quick or full mode)
-- `/workspace/REPORT.md`: Final report
+- `/workspace/reproduce.sh`: Reproduction script
 
 ## Result Files (all in `/workspace/results/`)
 - `results_RealWorld.json`, `results_Circles.json`, `results_Moons.json`, `results_RSG.json`, `results_Repliclust.json` — Raw cached results
-- `table_combined_aggregate_{algo}.csv` (4 files) — Paper Tables 1-4
-- `table_wilcoxon_RealWorld.csv` — Paper Table 5
+- `table_combined_aggregate_{algo}.csv` (4 files) — Paper Tables 1-4 (aggregate win%/avg)
+- `table_wilcoxon_RealWorld.csv` — Paper Table 5 (Wilcoxon signed-rank tests)
 - `table_{algo}_RealWorld.csv` (4 files) — Per-dataset real-world ARI tables
 - `table_average_ARI_{type}.csv` (4 files) — Synthetic average ARI tables
 - `boxplot_{algo}_RealWorld.pdf` (4 files) — Real-world boxplots
 - `boxplot_{algo}_Synthetic_{type}.pdf` (16 files) — Synthetic boxplots
 
 ## Paper Claims Reproduced
-- [x] VAE consistently worst DR method for clustering
-- [x] Kernel PCA and Isomap show most promise (especially AHC, GMM)
+- [x] VAE consistently worst DR method for clustering (large negative avg across all algos)
+- [x] Kernel PCA and Isomap show most promise (positive avg for k-means, OPTICS)
 - [x] OPTICS most fragile under DR
-- [x] Most DR-algorithm pairs not statistically significant (Wilcoxon)
+- [x] Most DR-algorithm pairs not statistically significant (Wilcoxon: only 3% significant)
 - [x] DR impact is method- and data-dependent
 
 ## Known Differences from Paper
