@@ -1,0 +1,55 @@
+/usr/local/lib/python3.14/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+============================================================
+LOADING UCI DATASETS
+============================================================
+  Breast tissue: 106 objects, 9 features, 6 clusters
+  Breast Wisconsin: 569 objects, 30 features, 2 clusters
+  Ecoli: 336 objects, 7 features, 8 clusters
+  Glass: 214 objects, 9 features, 7 clusters
+  Haberman: 306 objects, 3 features, 2 clusters
+  Ionosphere: 351 objects, 34 features, 2 clusters
+  Iris: 150 objects, 4 features, 3 clusters
+  Movement libras: 360 objects, 90 features, 15 clusters
+  Musk: 476 objects, 166 features, 2 clusters
+  Parkinsons: 195 objects, 22 features, 2 clusters
+  Segmentation: 2310 objects, 19 features, 7 clusters
+  Sonar all: 208 objects, 60 features, 2 clusters
+  Spectf: 267 objects, 44 features, 2 clusters
+  Transfusion: 748 objects, 4 features, 2 clusters
+  Vehicle: 846 objects, 18 features, 4 clusters
+  Vertebral column: 310 objects, 6 features, 3 clusters
+  Vowel context: 990 objects, 10 features, 11 clusters
+  Wine: 178 objects, 13 features, 3 clusters
+  Wine quality red: 1599 objects, 11 features, 6 clusters
+  Yeast: 1484 objects, 8 features, 10 clusters
+Loaded 20 datasets
+
+============================================================
+PRECOMPUTING DIMENSIONALITY REDUCTIONS
+============================================================
+  [1/20] Breast Wisconsin (shape=(569, 30), k=2)
+    VAE_k-1 (2d) [6.5s]
+    MDS_k-1 (2d) [11.5s]
+    MDS_25% (8d) [34.2s]
+    MDS_50% (15d) [38.1s]
+  [2/20] Breast tissue (shape=(106, 9), k=6)
+  [3/20] Ecoli (shape=(336, 7), k=8)
+    MDS_25% (2d) [20.9s]
+    MDS_50% (4d) [21.4s]
+  [4/20] Glass (shape=(214, 9), k=7)
+    MDS_k-1 (6d) [24.2s]
+    MDS_25% (2d) [22.7s]
+    MDS_50% (4d) [19.4s]
+  [5/20] Haberman (shape=(306, 3), k=2)
+    MDS_k-1 (2d) [36.2s]
+    MDS_25% (2d) [28.1s]
+    MDS_50% (2d) [33.4s]
+  [6/20] Ionosphere (shape=(351, 34), k=2)
+    MDS_k-1 (2d) [23.7s]
+    MDS_25% (8d) [26.8s]
+    MDS_50% (17d) [66.1s]
+  [7/20] Iris (shape=(150, 4), k=3)
+  [8/20] Movement libras (shape=(360, 90), k=15)
+    MDS_k-1 (14d) [46.6s]
+    MDS_25% (22d) [46.6s]

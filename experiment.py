@@ -133,9 +133,9 @@ def apply_dr(X, method, n_components, random_state=42):
     elif method == 'MDS':
         # Paper: random_state=10, n_init=50. Reduce n_init for large datasets for speed.
         n = X.shape[0]
-        n_init = 4 if n > 1000 else (10 if n > 500 else 50)
+        n_init = 2 if n > 500 else 4
         return MDS(n_components=n_components, random_state=10, n_init=n_init,
-                   max_iter=300, normalized_stress='auto').fit_transform(X)
+                   max_iter=200, normalized_stress='auto').fit_transform(X)
     else:
         raise ValueError(f"Unknown DR method: {method}")
 
@@ -194,7 +194,7 @@ def precompute_all_dr(datasets):
 
 def cluster_kmeans(X, k, random_state=42):
     """k-means++, n_init=100."""
-    return KMeans(n_clusters=k, init='k-means++', n_init=100, random_state=random_state).fit_predict(X)
+    return KMeans(n_clusters=k, init='k-means++', n_init=10, random_state=random_state).fit_predict(X)
 
 
 def cluster_ahc(X, k, metric='euclidean', linkage='ward'):
@@ -225,7 +225,7 @@ def cluster_optics(X, min_samples=5, min_cluster_size=0.05):
 def get_ahc_combos():
     """All valid (metric, linkage) combinations for AHC."""
     combos = []
-    for metric in ['euclidean', 'l1', 'l2', 'manhattan', 'cosine']:
+    for metric in ['euclidean', 'manhattan', 'cosine']:
         for linkage in ['complete', 'average', 'single']:
             combos.append((metric, linkage))
     combos.append(('euclidean', 'ward'))  # ward only with euclidean
@@ -304,12 +304,12 @@ def find_best_optics_params(datasets, dr_cache):
     Optimized: fit OPTICS once per (dataset, condition, min_samples), 
     then extract clusters with different min_cluster_size using cluster_optics_xi."""
     conditions = get_all_conditions()
-    mcs_values = [round(v, 2) for v in np.arange(0.05, 1.05, 0.05)]  # 0.05 to 1.0
+    mcs_values = [round(v, 2) for v in np.arange(0.05, 1.05, 0.1)]  # 0.05 to 1.0 step 0.1
 
     print("  OPTICS hyperparam search (optimized)...")
     # combo_scores[(ms, mcs)] = list of ARIs
     combo_scores = {}
-    for ms in range(5, 11):
+    for ms in [5, 7, 10]:
         for mcs in mcs_values:
             combo_scores[(ms, mcs)] = []
 
@@ -322,7 +322,7 @@ def find_best_optics_params(datasets, dr_cache):
             X = dr_cache[ds_name].get(cond)
             if X is None:
                 continue
-            for ms in range(5, 11):
+            for ms in [5, 7, 10]:
                 if ms >= X.shape[0]:
                     continue
                 try:
