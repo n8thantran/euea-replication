@@ -1,0 +1,28 @@
+{
+  "ratio": 0.8,
+  "tasks": {
+    "boolq": {"acc": 0.6046},
+    "piqa": {"acc": 0.7176, "acc_norm": 0.7231},
+    "arc_easy": {"acc": 0.6620, "acc_norm": 0.6115},
+    "hellaswag": {"acc": 0.4929, "acc_norm": 0.6682},
+    "winogrande": {"acc": 0.6338},
+    "arc_challenge": {"acc": 0.3481, "acc_norm": 0.3720},
+    "openbookqa": {"acc": 0.2940, "acc_norm": 0.3740}
+  },
+  "paper_5task_avg": {
+    "arc_c": 0.3848,
+    "arc_e": 0.6351,
+    "hellaswag": 0.6748,
+    "piqa": 0.7405,
+    "winogrande": 0.6346,
+    "avg": 0.6139
+  },
+  "our_5task_avg": {
+    "arc_c": 0.3720,
+    "arc_e": 0.6620,
+    "hellaswag": 0.6682,
+    "piqa": 0.7176,
+    "winogrande": 0.6338,
+    "avg": 0.6107
+  }
+}
