@@ -1,95 +1,62 @@
 #!/bin/bash
-# reproduce.sh - Reproduce key results from the paper
-# "When Does Dimensionality Reduction Help Clustering?"
+# reproduce.sh - Reproduce all results for the paper replication
 #
-# This script has two modes:
-#   ./reproduce.sh          - Regenerate all tables and figures from pre-computed results (fast, ~1 min)
-#   ./reproduce.sh full     - Run ALL experiments from scratch (slow, ~4-8 hours)
-#
-# Pre-computed results are in results/*.json from experiments that already ran.
+# Usage:
+#   ./reproduce.sh          # Quick mode: generate tables/plots from cached results (~10 sec)
+#   ./reproduce.sh full     # Full mode: re-run all experiments from scratch (~3-4 hours)
 
 set -e
 
-MODE=${1:-tables}
-
-echo "============================================================"
-echo "Reproducing: Dimensionality Reduction for Clustering"
-echo "Mode: $MODE"
-echo "============================================================"
+echo "============================================"
+echo "Paper Replication: Dimensionality Reduction"
+echo "  for Clustering Performance Assessment"
+echo "============================================"
 
 # Install dependencies
-echo "Installing dependencies..."
-pip install -q numpy scipy scikit-learn matplotlib torch ucimlrepo repliclust 2>/dev/null || true
+pip install -q numpy pandas scipy scikit-learn matplotlib torch ucimlrepo repliclust 2>/dev/null
 
-# Make results directory
-mkdir -p /workspace/results
+MODE=${1:-quick}
 
 if [ "$MODE" = "full" ]; then
     echo ""
-    echo "============================================================"
-    echo "FULL EXPERIMENT MODE"
-    echo "Running all experiments from scratch..."
-    echo "This will take several hours."
-    echo "============================================================"
+    echo "=== FULL MODE: Running all experiments from scratch ==="
+    echo "WARNING: This will take 3-4 hours!"
     echo ""
-    
-    cd /workspace
-    python pipeline.py all 2 50
-    
-elif [ "$MODE" = "real" ]; then
-    echo ""
-    echo "============================================================"
-    echo "REAL-WORLD EXPERIMENT MODE"
-    echo "Running real-world experiments only (~30-60 min)..."
-    echo "============================================================"
-    echo ""
-    
-    cd /workspace
-    python pipeline.py real
-
+    python main_pipeline.py
 else
     echo ""
-    echo "============================================================"
-    echo "TABLE/FIGURE GENERATION MODE (from pre-computed results)"
-    echo "============================================================"
+    echo "=== QUICK MODE: Generating outputs from cached results ==="
     echo ""
+    
+    # Check that cached results exist
+    if [ ! -f results/results_RealWorld.json ]; then
+        echo "ERROR: No cached results found in results/"
+        echo "Run './reproduce.sh full' to generate from scratch."
+        exit 1
+    fi
+    
+    python generate_all_outputs.py
 fi
 
-# Always regenerate tables and figures from whatever results exist
-echo "Generating all tables and figures..."
-cd /workspace
-python generate_all_results.py
-
 echo ""
-echo "============================================================"
-echo "DONE! All results saved to /workspace/results/"
-echo "============================================================"
+echo "============================================"
+echo "All results saved to results/"
 echo ""
 echo "Key output files:"
-echo "  Tables A.5-A.8 (Real-world per-dataset ARI):"
-echo "    results/table_k-means_real.csv"
-echo "    results/table_AHC_real.csv"
-echo "    results/table_GMM_real.csv"
-echo "    results/table_OPTICS_real.csv"
-echo ""
-echo "  Tables A.1-A.4 (Synthetic average ARI):"
-echo "    results/table_synthetic_*_avg.csv"
-echo ""
-echo "  Tables 1-4 (Aggregate win/loss statistics):"
+echo "  Aggregate tables (Tables 1-4):"
 echo "    results/table_aggregate_k-means.csv"
 echo "    results/table_aggregate_AHC.csv"
 echo "    results/table_aggregate_GMM.csv"
 echo "    results/table_aggregate_OPTICS.csv"
 echo ""
-echo "  Table 5 (Wilcoxon signed-rank tests):"
-echo "    results/table_wilcoxon_combined.csv"
+echo "  Per-dataset ARI tables (Tables A.1-A.8):"
+echo "    results/table_{algo}_RealWorld.csv"
+echo "    results/table_{algo}_{synth_type}.csv"
 echo ""
-echo "  Figures 1-8 (Boxplots):"
-echo "    results/boxplot_*.pdf (20 total: 4 algos × 5 data types)"
+echo "  Wilcoxon test (Table 5):"
+echo "    results/table_wilcoxon.csv"
 echo ""
-echo "  Raw JSON results:"
-echo "    results/results_RealWorld.json"
-echo "    results/results_Circles.json"
-echo "    results/results_Moons.json"
-echo "    results/results_RSG.json"
-echo "    results/results_Repliclust.json"
+echo "  Boxplots (Figures 1-8):"
+echo "    results/boxplot_{algo}_RealWorld.pdf"
+echo "    results/boxplot_{algo}_Synthetic_{type}.pdf"
+echo "============================================"
