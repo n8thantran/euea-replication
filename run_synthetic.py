@@ -6,10 +6,10 @@ import os
 import sys
 import json
 import time
-import signal
 import warnings
 import numpy as np
 import pickle
+import pandas as pd
 
 warnings.filterwarnings('ignore')
 
@@ -30,13 +30,13 @@ def generate_synthetic_datasets_fast(random_state=42):
     """Generate synthetic datasets with reduced count for feasibility.
     Paper uses 50 per config; we use 5 per config."""
     from sklearn.datasets import make_circles, make_moons
-    import repliclust
     
     rng = np.random.RandomState(random_state)
     synthetic = {}
     
-    def add_noise_dims(X, target_dims, rng_local):
+    def add_noise_dims(X, target_dims, seed):
         """Add noisy dimensions per paper spec."""
+        rng_local = np.random.RandomState(seed)
         n_samples = X.shape[0]
         n_orig = X.shape[1]
         n_extra = target_dims - n_orig
@@ -45,7 +45,7 @@ def generate_synthetic_datasets_fast(random_state=42):
         n_per = n_extra // 4
         remainder = n_extra - 4 * n_per
         parts = []
-        for sigma, _ in zip([1.0, 0.5, 0.25, 0.0], [0]*4):
+        for sigma in [1.0, 0.5, 0.25, 0.0]:
             n_this = n_per + (1 if remainder > 0 else 0)
             remainder = max(0, remainder - 1)
             if sigma > 0:
@@ -68,7 +68,8 @@ def generate_synthetic_datasets_fast(random_state=42):
     
     # === CIRCLES ===
     print("Generating Circles datasets...")
-    for k_val, n_samples in [(2, 2000), (5, 2000)]:
+    for k_val in [2, 5]:
+        n_samples = 2000
         for d in dims:
             for i in range(n_per_config):
                 if k_val == 2:
@@ -87,12 +88,13 @@ def generate_synthetic_datasets_fast(random_state=42):
                     X = np.vstack(X_list)
                     y = np.concatenate(y_list)
                     X = embed_to_high_dim(X, d, random_state+i+3000)
-                X = add_noise_dims(X, d, np.random.RandomState(random_state+i+d))
+                X = add_noise_dims(X, d, random_state+i+d+500)
                 synthetic[f'Circles_k{k_val}_d{d}_t{i}'] = (X, y, k_val)
     
     # === MOONS ===
     print("Generating Moons datasets...")
-    for k_val, n_samples in [(2, 2000), (5, 2000)]:
+    for k_val in [2, 5]:
+        n_samples = 2000
         for d in dims:
             for i in range(n_per_config):
                 if k_val == 2:
@@ -119,7 +121,7 @@ def generate_synthetic_datasets_fast(random_state=42):
                     X = np.vstack(X_list)
                     y = np.concatenate(y_list)
                     X = embed_to_high_dim(X, d, random_state+i+7000)
-                X = add_noise_dims(X, d, np.random.RandomState(random_state+i+d+100))
+                X = add_noise_dims(X, d, random_state+i+d+600)
                 synthetic[f'Moons_k{k_val}_d{d}_t{i}'] = (X, y, k_val)
     
     # === RSG ===
@@ -145,40 +147,52 @@ def generate_synthetic_datasets_fast(random_state=42):
                         y_list.append(np.full(Nc, ci))
                     X = np.vstack(X_list)
                     y = np.concatenate(y_list)
-                    X = add_noise_dims(X, d, np.random.RandomState(random_state+k+d+Nc+i))
+                    # Don't add noise dims for RSG - they already have the right dimensionality
                     synthetic[f'RSG_k{k}_d{d}_Nc{Nc}_t{i}'] = (X, y, k)
     
     # === REPLICLUST ===
     print("Generating Repliclust datasets...")
-    for k in [2, 5]:
-        Nc = 1000 if k == 2 else 400
-        for d in dims:
-            for i in range(n_per_config):
-                try:
-                    archetype = repliclust.Archetype(
-                        n_clusters=k, dim=d, n_samples=k*Nc,
-                        aspect_ref=3.0, radius=5.0
-                    )
-                    X, y, _ = repliclust.DataGenerator(archetype).synthesize(random_state=random_state+i)
-                    X = add_noise_dims(X, d, np.random.RandomState(random_state+i+d+k))
-                    synthetic[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
-                except Exception as e:
-                    print(f"  Repliclust fallback for k={k}, d={d}, i={i}: {e}")
-                    r = np.random.RandomState(random_state + i + 9000 + k*100 + d)
-                    centers = r.randn(k, d) * np.sqrt(d)
-                    X_list, y_list = [], []
-                    for ci in range(k):
-                        A = r.randn(d, d) * 0.5
-                        cov = A @ A.T / d + np.eye(d) * 0.1
-                        samples = r.multivariate_normal(centers[ci], cov, size=Nc)
-                        X_list.append(samples)
-                        y_list.append(np.full(Nc, ci))
-                    X = np.vstack(X_list)
-                    y = np.concatenate(y_list)
-                    X = add_noise_dims(X, d, np.random.RandomState(random_state+i+d+k))
-                    synthetic[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
+    try:
+        import repliclust
+        for k in [2, 5]:
+            Nc = 1000 if k == 2 else 400
+            for d in dims:
+                for i in range(n_per_config):
+                    try:
+                        repliclust.set_seed(random_state + i + k*100 + d)
+                        archetype = repliclust.Archetype(
+                            n_clusters=k, dim=d, n_samples=k*Nc,
+                            aspect_ref=3.0, radius_maxmin=3
+                        )
+                        X, y, _ = repliclust.DataGenerator(archetype).synthesize()
+                        synthetic[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
+                    except Exception as e:
+                        print(f"  Repliclust fallback for k={k}, d={d}, i={i}: {e}")
+                        _make_gaussian_fallback(synthetic, k, d, Nc, i, random_state, add_noise_dims)
+    except ImportError:
+        print("Repliclust not available, using fallback Gaussian clusters")
+        for k in [2, 5]:
+            Nc = 1000 if k == 2 else 400
+            for d in dims:
+                for i in range(n_per_config):
+                    _make_gaussian_fallback(synthetic, k, d, Nc, i, random_state, add_noise_dims)
     
     return synthetic
+
+
+def _make_gaussian_fallback(synthetic, k, d, Nc, i, random_state, add_noise_dims):
+    r = np.random.RandomState(random_state + i + 9000 + k*100 + d)
+    centers = r.randn(k, d) * np.sqrt(d)
+    X_list, y_list = [], []
+    for ci in range(k):
+        A = r.randn(d, d) * 0.5
+        cov = A @ A.T / d + np.eye(d) * 0.1
+        samples = r.multivariate_normal(centers[ci], cov, size=Nc)
+        X_list.append(samples)
+        y_list.append(np.full(Nc, ci))
+    X = np.vstack(X_list)
+    y = np.concatenate(y_list)
+    synthetic[f'Repliclust_k{k}_d{d}_t{i}'] = (X, y, k)
 
 
 def run_synthetic_type(dtype, datasets, output_dir):
@@ -197,7 +211,6 @@ def run_synthetic_type(dtype, datasets, output_dir):
         missing = [k for k in datasets if k not in dr_cache]
         if missing:
             print(f"  {len(missing)} datasets missing from cache, recomputing those")
-            from experiment import precompute_all_dr
             missing_ds = {k: datasets[k] for k in missing}
             missing_cache = precompute_all_dr(missing_ds)
             dr_cache.update(missing_cache)
@@ -223,24 +236,28 @@ def run_synthetic_type(dtype, datasets, output_dir):
     t0 = time.time()
     ahc_m, ahc_l = find_best_ahc_params(datasets, dr_cache)
     type_results['AHC'] = run_ahc_experiments(datasets, dr_cache, ahc_m, ahc_l)
-    type_results['AHC_params'] = {'metric': ahc_m, 'linkage': ahc_l}
-    print(f"  AHC took {time.time()-t0:.1f}s")
+    print(f"  AHC (metric={ahc_m}, linkage={ahc_l}) took {time.time()-t0:.1f}s")
     
     # GMM
     print(f"\n  Running GMM on {dtype}...")
     t0 = time.time()
     gmm_cov = find_best_gmm_params(datasets, dr_cache)
     type_results['GMM'] = run_gmm_experiments(datasets, dr_cache, gmm_cov)
-    type_results['GMM_params'] = {'covariance_type': gmm_cov}
-    print(f"  GMM took {time.time()-t0:.1f}s")
+    print(f"  GMM (cov={gmm_cov}) took {time.time()-t0:.1f}s")
     
     # OPTICS
     print(f"\n  Running OPTICS on {dtype}...")
     t0 = time.time()
     opt_ms, opt_mcs = find_best_optics_params(datasets, dr_cache)
     type_results['OPTICS'] = run_optics_experiments(datasets, dr_cache, opt_ms, opt_mcs)
-    type_results['OPTICS_params'] = {'min_samples': int(opt_ms), 'min_cluster_size': float(opt_mcs)}
-    print(f"  OPTICS took {time.time()-t0:.1f}s")
+    print(f"  OPTICS (ms={opt_ms}, mcs={opt_mcs}) took {time.time()-t0:.1f}s")
+    
+    # Save hyperparams
+    type_results['_hyperparams'] = {
+        'AHC': {'metric': ahc_m, 'linkage': ahc_l},
+        'GMM': {'covariance_type': gmm_cov},
+        'OPTICS': {'min_samples': int(opt_ms), 'min_cluster_size': float(opt_mcs)},
+    }
     
     # Save
     with open(os.path.join(output_dir, f'synthetic_{dtype}_results.json'), 'w') as f:
@@ -255,9 +272,9 @@ def run_synthetic_type(dtype, datasets, output_dir):
             vals = [type_results[algo][ds].get(cond, 0.0) for ds in type_results[algo]]
             avg_row[cond] = round(np.mean(vals), 2) if vals else 0
         print(f"  {algo:8s}: No_Red={avg_row.get('No Reduction', 0):.2f}", end="")
-        for m in DR_METHODS[:3]:  # Just show first 3 for brevity
-            for l in REDUCTION_LEVELS[:1]:
-                print(f"  {m}_{l}={avg_row.get(f'{m}_{l}', 0):.2f}", end="")
+        for m in DR_METHODS:
+            best_val = max(avg_row.get(f'{m}_{l}', 0) for l in REDUCTION_LEVELS)
+            print(f"  {m}_best={best_val:.2f}", end="")
         print()
     
     return type_results
@@ -269,8 +286,9 @@ def main():
     print("=" * 60)
     
     # Generate all synthetic datasets
+    t0 = time.time()
     all_synthetic = generate_synthetic_datasets_fast()
-    print(f"\nGenerated {len(all_synthetic)} total synthetic datasets")
+    print(f"\nGenerated {len(all_synthetic)} total synthetic datasets in {time.time()-t0:.1f}s")
     
     # Group by type
     type_names = ['Circles', 'Moons', 'RSG', 'Repliclust']
@@ -305,18 +323,18 @@ def main():
             continue
         print(f"\n--- {dtype} ---")
         for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-            results = all_type_results[dtype][algo]
+            results = all_type_results[dtype].get(algo, {})
+            if not results:
+                continue
             avg_row = {}
             for cond in conditions:
                 vals = [results[ds].get(cond, 0.0) for ds in results]
                 avg_row[cond] = round(np.mean(vals), 2) if vals else 0
             
-            # Save as CSV
-            import pandas as pd
             df = pd.DataFrame([avg_row], index=[f'{dtype}_avg'], columns=conditions)
             csv_path = os.path.join(OUTPUT_DIR, f'table_{algo}_synthetic_{dtype}.csv')
             df.to_csv(csv_path)
-            print(f"  {algo}: saved to {csv_path}")
+            print(f"  {algo}: No_Red={avg_row.get('No Reduction',0):.2f} | saved to {csv_path}")
     
     # Generate boxplots
     print("\n" + "=" * 60)
@@ -324,7 +342,10 @@ def main():
     print("=" * 60)
     for dtype in type_names:
         if dtype in all_type_results:
-            generate_boxplots(all_type_results[dtype], f'Synthetic_{dtype}', OUTPUT_DIR)
+            # Filter out non-algorithm keys
+            plot_data = {k: v for k, v in all_type_results[dtype].items() 
+                        if k in ['k-means', 'AHC', 'GMM', 'OPTICS']}
+            generate_boxplots(plot_data, f'Synthetic_{dtype}', OUTPUT_DIR)
     
     # Aggregate stats
     print("\n" + "=" * 60)
@@ -337,7 +358,10 @@ def main():
         synth_agg[dtype] = {}
         print(f"\n--- {dtype} ---")
         for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-            stats = compute_aggregate_stats(all_type_results[dtype][algo])
+            results = all_type_results[dtype].get(algo, {})
+            if not results:
+                continue
+            stats = compute_aggregate_stats(results)
             synth_agg[dtype][algo] = stats
             print(f"  {algo}:")
             for method in DR_METHODS:
@@ -359,7 +383,10 @@ def main():
         synth_wilcoxon[dtype] = {}
         print(f"\n--- {dtype} ---")
         for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-            pvals = compute_wilcoxon_tests(all_type_results[dtype][algo])
+            results = all_type_results[dtype].get(algo, {})
+            if not results:
+                continue
+            pvals = compute_wilcoxon_tests(results)
             synth_wilcoxon[dtype][algo] = pvals
             print(f"  {algo}:")
             for method in DR_METHODS:
