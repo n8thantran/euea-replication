@@ -1,0 +1,82 @@
+/usr/local/lib/python3.14/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Loading UCI datasets...
+  Breast tissue: 106 objects, 9 features, 6 clusters
+  Breast Wisconsin: 569 objects, 30 features, 2 clusters
+  Ecoli: 336 objects, 7 features, 8 clusters
+  Glass: 214 objects, 9 features, 7 clusters
+  Haberman: 306 objects, 3 features, 2 clusters
+  Ionosphere: 351 objects, 34 features, 2 clusters
+  Iris: 150 objects, 4 features, 3 clusters
+  Movement libras: 360 objects, 90 features, 15 clusters
+  Musk: 476 objects, 166 features, 2 clusters
+  Parkinsons: 195 objects, 22 features, 2 clusters
+  Segmentation: 2310 objects, 19 features, 7 clusters
+  Sonar all: 208 objects, 60 features, 2 clusters
+  Spectf: 267 objects, 44 features, 2 clusters
+  Transfusion: 748 objects, 4 features, 2 clusters
+  Vehicle: 846 objects, 18 features, 4 clusters
+  Vertebral column: 310 objects, 6 features, 3 clusters
+  Vowel context: 990 objects, 10 features, 11 clusters
+  Wine: 178 objects, 13 features, 3 clusters
+  Wine quality red: 1599 objects, 11 features, 6 clusters
+  Yeast: 1484 objects, 8 features, 10 clusters
+Hyperparameter search...
+  AHC: ('cosine', 'average') (3s)
+  GMM: full (2s)
+  OPTICS: (5, 0.2) (31s)
+  [1/20] Breast tissue (44s) km=0.26 ahc=0.39 gmm=0.29 opt=0.21
+  [2/20] Breast Wisconsin (62s) km=0.67 ahc=0.78 gmm=0.77 opt=0.02
+  [3/20] Ecoli (70s) km=0.5 ahc=0.72 gmm=0.62 opt=0.04
+  [4/20] Glass (88s) km=0.18 ahc=0.2 gmm=0.25 opt=-0.02
+  [5/20] Haberman (95s) km=-0.0 ahc=-0.01 gmm=0.1 opt=0.13
+  [6/20] Ionosphere (108s) km=0.17 ahc=0.14 gmm=0.39 opt=0.68
+  [7/20] Iris (112s) km=0.62 ahc=0.61 gmm=0.52 opt=0.52
+  [8/20] Movement libras (131s) km=0.31 ahc=0.33 gmm=0.31 opt=0.0
+  [9/20] Musk (162s) km=0.0 ahc=0.01 gmm=0.0 opt=-0.0
+  [10/20] Parkinsons (177s) km=-0.1 ahc=0.16 gmm=-0.1 opt=-0.06
+  [11/20] Segmentation (316s) km=0.46 ahc=0.35 gmm=0.46 opt=0.15
+  [12/20] Sonar all (340s) km=-0.0 ahc=0.05 gmm=-0.0 opt=0.0
+  [13/20] Spectf (377s) km=-0.1 ahc=0.0 gmm=-0.1 opt=-0.07
+  [14/20] Transfusion (395s) km=0.05 ahc=0.03 gmm=-0.05 opt=-0.01
+  [15/20] Vehicle (424s) km=0.08 ahc=0.09 gmm=0.09 opt=0.0
+  [16/20] Vertebral column (431s) km=0.21 ahc=0.35 gmm=0.41 opt=0.0
+  [17/20] Vowel context (456s) km=0.16 ahc=0.13 gmm=0.16 opt=0.0
+  [18/20] Wine (468s) km=0.9 ahc=0.78 gmm=0.9 opt=0.37
+  [19/20] Wine quality red (533s) km=0.06 ahc=0.04 gmm=0.07 opt=0.0
+  [20/20] Yeast (573s) km=0.17 ahc=0.14 gmm=0.02 opt=0.01
+
+============================================================
+REAL-WORLD RESULTS SUMMARY
+============================================================
+Params: AHC=('cosine', 'average'), GMM=full, OPTICS=(5, 0.2)
+
+k-means - % wins / avg change:
+           PCA:  20.0%/ +0.3% |  20.0%/ +0.7% |  20.0%/ +0.4%
+     KernelPCA:  50.0%/ +2.6% |  40.0%/ +0.5% |  50.0%/ +1.4%
+           VAE:  25.0%/-10.9% |  20.0%/-10.9% |  20.0%/-12.9%
+        Isomap:  55.0%/ +1.2% |  45.0%/ +0.7% |  60.0%/ +1.4%
+           MDS:  30.0%/ -0.5% |  40.0%/ -0.4% |  25.0%/ +0.1%
+
+AHC - % wins / avg change:
+           PCA:  35.0%/ -2.4% |  30.0%/ -3.2% |  30.0%/ +0.0%
+     KernelPCA:  35.0%/ -0.1% |  30.0%/ -3.0% |  45.0%/ +0.2%
+           VAE:  10.0%/-17.1% |  15.0%/-17.9% |  10.0%/-19.2%
+        Isomap:  30.0%/ -3.1% |  40.0%/ -4.7% |  45.0%/ -4.3%
+           MDS:  20.0%/ -2.2% |  25.0%/ -5.1% |  20.0%/ -1.9%
+
+GMM - % wins / avg change:
+           PCA:  20.0%/ -2.6% |  30.0%/ -2.2% |  35.0%/ -2.1%
+     KernelPCA:  25.0%/ -1.4% |  30.0%/ -4.4% |  50.0%/ -1.4%
+           VAE:  20.0%/-13.3% |  20.0%/-14.9% |  20.0%/-15.4%
+        Isomap:  25.0%/ -2.1% |  45.0%/ -2.5% |  30.0%/ -3.0%
+           MDS:  20.0%/ -3.6% |  40.0%/ -4.5% |  35.0%/ -3.2%
+
+OPTICS - % wins / avg change:
+           PCA:  40.0%/ +1.2% |  25.0%/ -0.3% |  25.0%/ +2.2%
+     KernelPCA:  55.0%/ +6.0% |  55.0%/ +4.0% |  40.0%/ -1.1%
+           VAE:  35.0%/ -6.2% |  30.0%/ -5.1% |  40.0%/ -7.0%
+        Isomap:  55.0%/ +0.6% |  65.0%/ +0.5% |  25.0%/ -1.8%
+           MDS:  20.0%/ -1.9% |  30.0%/ -3.4% |  15.0%/ -1.8%
+
+Done in 574s

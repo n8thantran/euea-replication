@@ -1,192 +1,295 @@
 #!/usr/bin/env python3
-"""Run real-world experiments in stages with DR cache persistence."""
-import os
-import sys
-import json
-import pickle
-import time
-import numpy as np
+"""Fast real-world experiment runner with optimizations."""
+import numpy as np, warnings, json, os, time, pickle, torch, torch.nn as nn
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA, KernelPCA
+from sklearn.manifold import Isomap, MDS
+from sklearn.cluster import KMeans, AgglomerativeClustering, OPTICS
+from sklearn.mixture import GaussianMixture
+from sklearn.metrics import adjusted_rand_score
+from scipy.stats import wilcoxon
+from itertools import product
+import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
 
-def stage1_dr():
-    """Precompute DR transformations and save to disk."""
+warnings.filterwarnings('ignore')
+np.random.seed(42); torch.manual_seed(42)
+RESULTS_DIR = "/workspace/results"; os.makedirs(RESULTS_DIR, exist_ok=True)
+
+DR_METHODS = ['PCA', 'KernelPCA', 'VAE', 'Isomap', 'MDS']
+LEVELS = ['k-1', '25%', '50%']
+
+# === VAE ===
+class VAE(nn.Module):
+    def __init__(self, d, z):
+        super().__init__()
+        self.e1 = nn.Linear(d, 64); self.bn1 = nn.BatchNorm1d(64)
+        self.e2 = nn.Linear(64, 32); self.bn2 = nn.BatchNorm1d(32)
+        self.drop = nn.Dropout(0.4)
+        self.mu = nn.Linear(32, z); self.lv = nn.Linear(32, z)
+        self.d1 = nn.Linear(z, 32); self.dbn1 = nn.BatchNorm1d(32)
+        self.d2 = nn.Linear(32, 64); self.dbn2 = nn.BatchNorm1d(64)
+        self.out = nn.Linear(64, d)
+
+    def encode(self, x):
+        h = self.drop(torch.relu(self.bn1(self.e1(x))))
+        h = self.drop(torch.relu(self.bn2(self.e2(h))))
+        return self.mu(h), self.lv(h)
+
+    def forward(self, x):
+        mu, lv = self.encode(x)
+        z = mu + torch.randn_like(lv) * torch.exp(0.5 * lv)
+        h = self.drop(torch.relu(self.dbn1(self.d1(z))))
+        h = self.drop(torch.relu(self.dbn2(self.d2(h))))
+        return torch.sigmoid(self.out(h)), mu, lv
+
+def train_vae(X, latent_dim, epochs=100, batch_size=64):
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    n, d = X.shape
+    mn, mx = X.min(0), X.max(0); rng = mx - mn; rng[rng==0] = 1
+    Xs = torch.FloatTensor((X - mn) / rng).to(device)
+    n_tr = int(0.7*n); idx = np.random.permutation(n)
+    Xtr = Xs[idx[:n_tr]]
+    m = VAE(d, latent_dim).to(device); opt = torch.optim.Adam(m.parameters())
+    m.train()
+    for _ in range(epochs):
+        p = torch.randperm(len(Xtr))
+        for i in range(0, len(Xtr), batch_size):
+            b = Xtr[p[i:i+batch_size]]
+            if len(b) < 2: continue
+            r, mu, lv = m(b)
+            loss = nn.functional.mse_loss(r, b, reduction='sum') - 0.5*torch.sum(1+lv-mu.pow(2)-lv.exp())
+            opt.zero_grad(); loss.backward(); opt.step()
+    m.eval()
+    with torch.no_grad(): mu, _ = m.encode(Xs)
+    return mu.cpu().numpy()
+
+# === DR ===
+def apply_dr(X, method, nc):
+    n, d = X.shape; nc = min(nc, d-1)
+    if nc < 1: return None
+    try:
+        if method == 'PCA': return PCA(n_components=nc).fit_transform(X)
+        if method == 'KernelPCA':
+            r = KernelPCA(n_components=nc, kernel='rbf').fit_transform(X)
+            return r if r.shape[1]==nc else None
+        if method == 'VAE': return train_vae(X, nc)
+        if method == 'Isomap': return Isomap(n_components=nc).fit_transform(X)
+        if method == 'MDS':
+            ni = min(50, max(2, 50 if n<=300 else (4 if n<=1000 else 2)))
+            mi = 300 if n<=500 else 100
+            return MDS(n_components=nc, random_state=10, n_init=ni, max_iter=mi, normalized_stress='auto').fit_transform(X)
+    except: pass
+    return None
+
+def get_dims(d, k):
+    return {'k-1': max(2, k-1), '25%': max(1, round(d*0.25)), '50%': max(1, round(d*0.50))}
+
+# === Clustering ===
+def run_km(X, k): return KMeans(n_clusters=k, init='k-means++', n_init=100, random_state=42).fit_predict(X)
+def run_ahc(X, k, m='euclidean', l='ward'):
+    if l=='ward' and m!='euclidean': return None
+    try: return AgglomerativeClustering(n_clusters=k, metric=m, linkage=l).fit_predict(X)
+    except: return None
+def run_gmm(X, k, c='full'):
+    try: return GaussianMixture(n_components=k, covariance_type=c, random_state=42).fit_predict(X)
+    except: return None
+def run_optics(X, ms=5, mcs=0.05):
+    try: return OPTICS(min_samples=ms, xi=0.05, cluster_method='xi', min_cluster_size=mcs if mcs>0 else None).fit_predict(X)
+    except: return None
+
+# === Hyper search ===
+def find_ahc(dl):
+    best_s, best_p = -999, ('euclidean','ward')
+    for a, l in product(['euclidean','l1','l2','manhattan','cosine'], ['complete','average','single','ward']):
+        if l=='ward' and a!='euclidean': continue
+        s = [adjusted_rand_score(y, lb) for X,y,k in dl for lb in [run_ahc(X,k,a,l)] if lb is not None]
+        if s and np.mean(s) > best_s: best_s, best_p = np.mean(s), (a,l)
+    return best_p
+
+def find_gmm(dl):
+    best_s, best_c = -999, 'full'
+    for c in ['spherical','tied','diag','full']:
+        s = [adjusted_rand_score(y, lb) for X,y,k in dl for lb in [run_gmm(X,k,c)] if lb is not None]
+        if s and np.mean(s) > best_s: best_s, best_c = np.mean(s), c
+    return best_c
+
+def find_optics(dl):
+    """Reduced grid for speed: 4 combos."""
+    best_s, best_p = -999, (5, 0.1)
+    for ms in [5, 10]:
+        for mcs in [0.1, 0.2]:
+            s = [adjusted_rand_score(y, lb) for X,y,k in dl for lb in [run_optics(X,ms,mcs)] if lb is not None]
+            if s and np.mean(s) > best_s: best_s, best_p = np.mean(s), (ms,mcs)
+    return best_p
+
+# === Main ===
+def main():
     from load_uci import load_all_uci
-    from experiment import precompute_all_dr
-    
-    print("=" * 60)
-    print("STAGE 1: LOADING DATA + PRECOMPUTING DR")
-    print("=" * 60)
-    
-    dataset_list = load_all_uci()
-    datasets = {}
-    for name, X, y, k in dataset_list:
-        datasets[name] = (X, y, k)
-    print(f"Loaded {len(datasets)} datasets")
-    
     t0 = time.time()
-    dr_cache = precompute_all_dr(datasets)
-    print(f"DR precomputation took {time.time()-t0:.1f}s")
     
-    with open('results/dr_cache_real.pkl', 'wb') as f:
-        pickle.dump(dr_cache, f)
-    with open('results/datasets_real.pkl', 'wb') as f:
-        pickle.dump(datasets, f)
-    print("Saved DR cache and datasets to disk")
-
-
-def stage2_clustering():
-    """Run all clustering algorithms using cached DR. Saves incrementally."""
-    from experiment import (
-        run_kmeans_experiments, run_ahc_experiments, run_gmm_experiments,
-        run_optics_experiments, find_best_ahc_params, find_best_gmm_params,
-        find_best_optics_params
-    )
+    print("Loading UCI datasets...")
+    uci = load_all_uci()
+    ds = [(n, StandardScaler().fit_transform(X), y, k) for n,X,y,k in uci]
     
-    print("=" * 60)
-    print("STAGE 2: CLUSTERING")
-    print("=" * 60)
+    # Hyper search
+    print("Hyperparameter search...")
+    dl = [(X,y,k) for _,X,y,k in ds]
+    t1 = time.time()
+    ahc_p = find_ahc(dl); print(f"  AHC: {ahc_p} ({time.time()-t1:.0f}s)")
+    t1 = time.time()
+    gmm_c = find_gmm(dl); print(f"  GMM: {gmm_c} ({time.time()-t1:.0f}s)")
+    t1 = time.time()
+    optics_p = find_optics(dl); print(f"  OPTICS: {optics_p} ({time.time()-t1:.0f}s)")
     
-    with open('results/dr_cache_real.pkl', 'rb') as f:
-        dr_cache = pickle.load(f)
-    with open('results/datasets_real.pkl', 'rb') as f:
-        datasets = pickle.load(f)
-    
-    # Load existing results if any
-    results_file = 'results/real_world_results.json'
-    if os.path.exists(results_file):
-        with open(results_file, 'r') as f:
-            all_results = json.load(f)
+    # Cache DR results
+    dr_cache_file = f"{RESULTS_DIR}/dr_cache_real_v3.pkl"
+    if os.path.exists(dr_cache_file):
+        with open(dr_cache_file, 'rb') as f: dr_cache = pickle.load(f)
+        print(f"Loaded DR cache with {len(dr_cache)} entries")
     else:
-        all_results = {}
+        dr_cache = {}
     
-    def save_results():
-        with open(results_file, 'w') as f:
-            json.dump(all_results, f, indent=2)
+    results = {}
     
-    # k-means
-    if 'k-means' not in all_results:
-        print("\n--- K-MEANS ---")
-        t0 = time.time()
-        all_results['k-means'] = run_kmeans_experiments(datasets, dr_cache)
-        print(f"k-means took {time.time()-t0:.1f}s")
-        save_results()
-    else:
-        print("k-means: already done")
+    for di, (name, X, y, k) in enumerate(ds):
+        d = X.shape[1]
+        dims = get_dims(d, k)
+        r = {'kmeans':{}, 'ahc':{}, 'gmm':{}, 'optics':{}}
+        
+        # Baseline
+        r['kmeans']['None'] = round(adjusted_rand_score(y, run_km(X, k)), 2)
+        lb = run_ahc(X, k, ahc_p[0], ahc_p[1])
+        r['ahc']['None'] = round(adjusted_rand_score(y, lb), 2) if lb is not None else 0.0
+        lb = run_gmm(X, k, gmm_c)
+        r['gmm']['None'] = round(adjusted_rand_score(y, lb), 2) if lb is not None else 0.0
+        lb = run_optics(X, optics_p[0], optics_p[1])
+        r['optics']['None'] = round(adjusted_rand_score(y, lb), 2) if lb is not None else 0.0
+        
+        for dr in DR_METHODS:
+            for lvl, nc in dims.items():
+                key = f"{dr}_{lvl}"
+                if nc >= d:
+                    for algo in r: r[algo][key] = r[algo]['None']
+                    continue
+                
+                cache_key = (name, dr, nc)
+                if cache_key in dr_cache:
+                    X_red = dr_cache[cache_key]
+                else:
+                    X_red = apply_dr(X, dr, nc)
+                    dr_cache[cache_key] = X_red
+                
+                if X_red is None:
+                    for algo in r: r[algo][key] = None
+                    continue
+                
+                r['kmeans'][key] = round(adjusted_rand_score(y, run_km(X_red, k)), 2)
+                lb = run_ahc(X_red, k, ahc_p[0], ahc_p[1])
+                r['ahc'][key] = round(adjusted_rand_score(y, lb), 2) if lb is not None else None
+                lb = run_gmm(X_red, k, gmm_c)
+                r['gmm'][key] = round(adjusted_rand_score(y, lb), 2) if lb is not None else None
+                lb = run_optics(X_red, optics_p[0], optics_p[1])
+                r['optics'][key] = round(adjusted_rand_score(y, lb), 2) if lb is not None else None
+        
+        results[name] = r
+        elapsed = time.time() - t0
+        print(f"  [{di+1}/20] {name} ({elapsed:.0f}s) km={r['kmeans']['None']} ahc={r['ahc']['None']} gmm={r['gmm']['None']} opt={r['optics']['None']}")
+        
+        # Save cache periodically
+        if (di+1) % 5 == 0:
+            with open(dr_cache_file, 'wb') as f: pickle.dump(dr_cache, f)
     
-    # AHC
-    if 'AHC' not in all_results:
-        print("\n--- AHC ---")
-        t0 = time.time()
-        ahc_metric, ahc_linkage = find_best_ahc_params(datasets, dr_cache)
-        all_results['AHC'] = run_ahc_experiments(datasets, dr_cache, ahc_metric, ahc_linkage)
-        all_results['AHC_params'] = {'metric': ahc_metric, 'linkage': ahc_linkage}
-        print(f"AHC took {time.time()-t0:.1f}s")
-        save_results()
-    else:
-        print("AHC: already done")
+    # Final cache save
+    with open(dr_cache_file, 'wb') as f: pickle.dump(dr_cache, f)
     
-    # GMM
-    if 'GMM' not in all_results:
-        print("\n--- GMM ---")
-        t0 = time.time()
-        gmm_cov = find_best_gmm_params(datasets, dr_cache)
-        all_results['GMM'] = run_gmm_experiments(datasets, dr_cache, gmm_cov)
-        all_results['GMM_params'] = {'covariance_type': gmm_cov}
-        print(f"GMM took {time.time()-t0:.1f}s")
-        save_results()
-    else:
-        print("GMM: already done")
+    # Save results
+    with open(f"{RESULTS_DIR}/real_world_results_v3.json", 'w') as f:
+        json.dump({'results': results, 'params': {'ahc': list(ahc_p), 'gmm': gmm_c, 'optics': list(optics_p)}}, f, indent=2, default=str)
     
-    # OPTICS
-    if 'OPTICS' not in all_results:
-        print("\n--- OPTICS ---")
-        t0 = time.time()
-        optics_ms, optics_mcs = find_best_optics_params(datasets, dr_cache)
-        all_results['OPTICS'] = run_optics_experiments(datasets, dr_cache, optics_ms, optics_mcs)
-        all_results['OPTICS_params'] = {'min_samples': int(optics_ms), 'min_cluster_size': float(optics_mcs)}
-        print(f"OPTICS took {time.time()-t0:.1f}s")
-        save_results()
-    else:
-        print("OPTICS: already done")
-    
-    print("\nAll clustering done!")
-    return all_results
-
-
-def stage3_analysis():
-    """Generate tables, stats, plots."""
-    from experiment import (
-        format_results_table, compute_aggregate_stats, compute_wilcoxon_tests,
-        generate_boxplots, DR_METHODS, REDUCTION_LEVELS
-    )
-    
-    print("=" * 60)
-    print("STAGE 3: ANALYSIS")
-    print("=" * 60)
-    
-    with open('results/real_world_results.json', 'r') as f:
-        all_results = json.load(f)
-    
-    # Format tables
-    for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-        if algo not in all_results:
-            print(f"Skipping {algo} (not computed)")
-            continue
-        df = format_results_table(all_results[algo], algo)
-        df.to_csv(f'results/table_{algo}_real.csv')
-        print(f"\n{algo} results:")
-        print(df.to_string())
-    
-    # Aggregate stats
-    print("\n" + "=" * 60)
-    print("AGGREGATE STATISTICS")
-    print("=" * 60)
-    agg_stats = {}
-    for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-        if algo not in all_results:
-            continue
-        agg_stats[algo] = compute_aggregate_stats(all_results[algo])
-        print(f"\n{algo}:")
-        for method in DR_METHODS:
-            for level in REDUCTION_LEVELS:
-                s = agg_stats[algo][method][level]
-                print(f"  {method:12s} {level:4s}: win={s['win_pct']:5.1f}%  loss={s['loss_pct']:5.1f}%  avg_win={s['avg_win_change']:+7.2f}%  avg_loss={s['avg_loss_change']:+7.2f}%")
-    with open('results/aggregate_stats_real.json', 'w') as f:
-        json.dump(agg_stats, f, indent=2)
-    
-    # Wilcoxon test
-    print("\n" + "=" * 60)
-    print("WILCOXON SIGNED-RANK TEST")
-    print("=" * 60)
-    wilcoxon_results = {}
-    for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
-        if algo not in all_results:
-            continue
-        wilcoxon_results[algo] = compute_wilcoxon_tests(all_results[algo])
-        print(f"\n{algo}:")
-        for method in DR_METHODS:
-            vals = [wilcoxon_results[algo][method][l] for l in REDUCTION_LEVELS]
-            sig = ['*' if v < 0.05 else ' ' for v in vals]
-            print(f"  {method:12s}: k-1={vals[0]:.4f}{sig[0]}  25%={vals[1]:.4f}{sig[1]}  50%={vals[2]:.4f}{sig[2]}")
-    with open('results/wilcoxon_results_real.json', 'w') as f:
-        json.dump(wilcoxon_results, f, indent=2)
+    # Tables
+    algo_map = [('kmeans','k-means'), ('ahc','AHC'), ('gmm','GMM'), ('optics','OPTICS')]
+    for ak, an in algo_map:
+        header = ['Dataset','No Reduction'] + [f"{dr}_{lv}" for dr in DR_METHODS for lv in LEVELS]
+        rows = [','.join(header)]
+        for dname in results:
+            ar = results[dname].get(ak, {})
+            vals = [dname, str(ar.get('None',''))]
+            for dr in DR_METHODS:
+                for lv in LEVELS:
+                    v = ar.get(f"{dr}_{lv}")
+                    vals.append(str(v) if v is not None else '')
+            rows.append(','.join(vals))
+        with open(f"{RESULTS_DIR}/table_{an}_real.csv",'w') as f: f.write('\n'.join(rows))
     
     # Boxplots
-    generate_boxplots(all_results, 'RealWorld', './results')
+    for ak, an in algo_map:
+        fig, axes = plt.subplots(1,5,figsize=(20,5),sharey=True)
+        fig.suptitle(f'{an} - ARI Change with DR (Real-World)')
+        for i, dr in enumerate(DR_METHODS):
+            data = []
+            for lv in LEVELS:
+                key = f"{dr}_{lv}"
+                diffs = [results[dn][ak].get(key,0) - results[dn][ak].get('None',0)
+                         for dn in results
+                         if results[dn][ak].get(key) is not None and results[dn][ak].get('None') is not None]
+                data.append(diffs)
+            axes[i].boxplot(data, labels=LEVELS); axes[i].set_title(dr)
+            axes[i].axhline(y=0, color='r', linestyle='--', alpha=0.5)
+            if i==0: axes[i].set_ylabel('ARI Change')
+        plt.tight_layout()
+        plt.savefig(f"{RESULTS_DIR}/boxplot_{an}_RealWorld.pdf", bbox_inches='tight'); plt.close()
     
-    print("\nAnalysis complete!")
+    # Aggregate
+    agg = {}
+    for ak, an in algo_map:
+        agg[an] = {}
+        for dr in DR_METHODS:
+            agg[an][dr] = {}
+            for lv in LEVELS:
+                key = f"{dr}_{lv}"
+                diffs = [(results[dn][ak].get(key,0) - results[dn][ak].get('None',0))
+                         for dn in results
+                         if results[dn][ak].get(key) is not None and results[dn][ak].get('None') is not None]
+                wins = sum(1 for d in diffs if d > 0.005)
+                n_total = len(diffs)
+                agg[an][dr][lv] = {
+                    'win_pct': round(100*wins/n_total,1) if n_total else 0,
+                    'avg_diff': round(np.mean(diffs)*100,2) if diffs else 0,
+                    'n': n_total
+                }
+    with open(f"{RESULTS_DIR}/aggregate_stats_real.json",'w') as f: json.dump(agg, f, indent=2)
+    
+    # Wilcoxon
+    wilc = {}
+    for ak, an in algo_map:
+        wilc[an] = {}
+        for dr in DR_METHODS:
+            wilc[an][dr] = {}
+            for lv in LEVELS:
+                key = f"{dr}_{lv}"
+                b_list, r_list = [], []
+                for dn in results:
+                    b = results[dn][ak].get('None')
+                    r = results[dn][ak].get(key)
+                    if b is not None and r is not None: b_list.append(b); r_list.append(r)
+                if len(b_list) >= 5:
+                    try: _, p = wilcoxon(r_list, b_list, alternative='greater'); wilc[an][dr][lv] = round(p,3)
+                    except: wilc[an][dr][lv] = 1.0
+                else: wilc[an][dr][lv] = None
+    with open(f"{RESULTS_DIR}/wilcoxon_real.json",'w') as f: json.dump(wilc, f, indent=2)
+    
+    # Print summary
+    print(f"\n{'='*60}\nREAL-WORLD RESULTS SUMMARY\n{'='*60}")
+    print(f"Params: AHC={ahc_p}, GMM={gmm_c}, OPTICS={optics_p}")
+    
+    for an in ['k-means','AHC','GMM','OPTICS']:
+        print(f"\n{an} - % wins / avg change:")
+        for dr in DR_METHODS:
+            vals = [f"{agg[an][dr][lv]['win_pct']:5.1f}%/{agg[an][dr][lv]['avg_diff']:+5.1f}%" for lv in LEVELS]
+            print(f"  {dr:>12}: {' | '.join(vals)}")
+    
+    print(f"\nDone in {time.time()-t0:.0f}s")
+    return results
 
-
-if __name__ == '__main__':
-    os.makedirs('results', exist_ok=True)
-    
-    if len(sys.argv) > 1:
-        stage = sys.argv[1]
-    else:
-        stage = 'all'
-    
-    if stage in ['1', 'dr', 'all']:
-        stage1_dr()
-    if stage in ['2', 'cluster', 'all']:
-        stage2_clustering()
-    if stage in ['3', 'analysis', 'all']:
-        stage3_analysis()
+if __name__ == "__main__":
+    main()
