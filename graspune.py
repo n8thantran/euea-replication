@@ -35,11 +35,8 @@ def load_calibration_data(
 ):
     """Load calibration data: n_samples sequences of seq_len tokens from a dataset."""
     if dataset_name == "wikitext":
-        dataset = load_dataset(dataset_name, dataset_config, split=split, trust_remote_code=True)
+        dataset = load_dataset("Salesforce/wikitext", dataset_config, split=split, trust_remote_code=True)
         text_key = "text"
-    elif dataset_name == "ptb_text_only":
-        dataset = load_dataset(dataset_name, split=split, trust_remote_code=True)
-        text_key = "sentence"
     elif dataset_name == "c4":
         dataset = load_dataset("allenai/c4", "en", split="train", streaming=True, trust_remote_code=True)
         text_key = "text"
@@ -48,7 +45,6 @@ def load_calibration_data(
     
     # Concatenate all text
     if dataset_name == "c4":
-        # For streaming dataset, grab enough text
         texts = []
         for item in dataset:
             texts.append(item[text_key])
@@ -138,59 +134,6 @@ def build_prunable_units(config) -> Tuple[List[Dict], torch.Tensor]:
 # ============================================================
 # 3. Budget-Feasible Projection
 # ============================================================
-
-def project_to_budget(
-    probs: torch.Tensor,
-    costs: torch.Tensor,
-    budget: float,
-    units: List[Dict],
-    config,
-) -> torch.Tensor:
-    """Sort by p_i descending, greedily select until budget is exhausted.
-    
-    Also ensures no layer has all FFN channels or all KV heads pruned.
-    """
-    device = probs.device
-    num_layers = config.num_hidden_layers
-    num_kv_heads = getattr(config, "num_key_value_heads", config.num_attention_heads)
-    intermediate_size = config.intermediate_size
-    
-    # Sort by probability in descending order
-    sorted_indices = torch.argsort(probs, descending=True)
-    
-    mask = torch.zeros_like(probs)
-    current_cost = 0.0
-    
-    for idx in sorted_indices:
-        idx_item = idx.item()
-        c = costs[idx_item].item()
-        if current_cost + c <= budget:
-            mask[idx_item] = 1.0
-            current_cost += c
-    
-    # Degenerate layer protection: ensure at least one FFN channel and one KV head per layer
-    for layer_idx in range(num_layers):
-        # Check FFN channels
-        ffn_start = layer_idx * (intermediate_size + num_kv_heads)
-        ffn_end = ffn_start + intermediate_size
-        ffn_mask = mask[ffn_start:ffn_end]
-        if ffn_mask.sum() == 0:
-            # Find the FFN channel with highest prob in this layer
-            ffn_probs = probs[ffn_start:ffn_end]
-            best = ffn_probs.argmax()
-            mask[ffn_start + best] = 1.0
-        
-        # Check KV heads
-        kv_start = ffn_end
-        kv_end = kv_start + num_kv_heads
-        kv_mask = mask[kv_start:kv_end]
-        if kv_mask.sum() == 0:
-            kv_probs = probs[kv_start:kv_end]
-            best = kv_probs.argmax()
-            mask[kv_start + best] = 1.0
-    
-    return mask
-
 
 def project_to_budget_fast(
     probs: torch.Tensor,
@@ -302,8 +245,6 @@ class GRASPruneGates(nn.Module):
             self.num_layers, self.intermediate_size, self.num_kv_heads
         )
         # STE: forward uses mask, backward flows through probs
-        # z_tilde = m + (p - stopgrad(p)) = m in forward (since p - p = 0)
-        # gradient: d z_tilde / d p = 1 (since d(m)/dp = 0, d(p)/dp = 1, d(stopgrad(p))/dp = 0)
         z_tilde = mask.detach() + probs - probs.detach()
         return z_tilde
     
@@ -335,6 +276,9 @@ def apply_gates_to_model_forward(
     head_dim = config.hidden_size // num_heads
     G = num_heads // num_kv_heads  # number of query heads per kv head
     
+    # Determine model dtype for casting gates
+    model_dtype = next(model.parameters()).dtype
+    
     hooks = []
     
     for layer_idx in range(config.num_hidden_layers):
@@ -343,20 +287,18 @@ def apply_gates_to_model_forward(
         layer = model.model.layers[layer_idx]
         
         # Hook for FFN: gate the intermediate activations
-        # In LLaMA, FFN is: gate_proj -> act -> up_proj, then multiply, then down_proj
-        # We gate the intermediate dimension (output of gate_proj and up_proj)
-        def make_ffn_hook(gates, layer_module):
+        def make_ffn_hook(gates):
             def hook_fn(module, input, output):
                 # output shape: [batch, seq_len, intermediate_size]
-                return output * gates.unsqueeze(0).unsqueeze(0)
+                return output * gates.to(output.dtype).unsqueeze(0).unsqueeze(0)
             return hook_fn
         
         # Apply gate to gate_proj output
-        h1 = layer.mlp.gate_proj.register_forward_hook(make_ffn_hook(ffn_gates, layer))
+        h1 = layer.mlp.gate_proj.register_forward_hook(make_ffn_hook(ffn_gates))
         hooks.append(h1)
         
         # Apply gate to up_proj output
-        h2 = layer.mlp.up_proj.register_forward_hook(make_ffn_hook(ffn_gates, layer))
+        h2 = layer.mlp.up_proj.register_forward_hook(make_ffn_hook(ffn_gates))
         hooks.append(h2)
         
         # Hook for KV heads: gate the K and V projections per head group
@@ -365,7 +307,7 @@ def apply_gates_to_model_forward(
                 # output shape: [batch, seq_len, num_kv_heads * head_dim]
                 batch, seq_len, _ = output.shape
                 output = output.view(batch, seq_len, n_kv_heads, h_dim)
-                output = output * gates.unsqueeze(0).unsqueeze(0).unsqueeze(-1)
+                output = output * gates.to(output.dtype).unsqueeze(0).unsqueeze(0).unsqueeze(-1)
                 return output.view(batch, seq_len, n_kv_heads * h_dim)
             return hook_fn
         
@@ -377,50 +319,28 @@ def apply_gates_to_model_forward(
             make_kv_hook(kv_gates, num_kv_heads, head_dim))
         hooks.append(h4)
         
-        # Also gate the output projection for the query heads that correspond to pruned KV groups
-        # Under GQA, each KV head serves G query heads
-        # If a KV head is pruned, we need to zero out the corresponding G query heads
-        if G > 1:
-            def make_q_hook(gates, n_kv_heads, g, h_dim, n_heads):
-                def hook_fn(module, input, output):
-                    batch, seq_len, _ = output.shape
-                    output = output.view(batch, seq_len, n_heads, h_dim)
-                    # Expand KV gates to query heads
-                    q_gates = gates.repeat_interleave(g)  # [num_heads]
-                    output = output * q_gates.unsqueeze(0).unsqueeze(0).unsqueeze(-1)
-                    return output.view(batch, seq_len, n_heads * h_dim)
-                return hook_fn
-            
-            h5 = layer.self_attn.q_proj.register_forward_hook(
-                make_q_hook(kv_gates, num_kv_heads, G, head_dim, num_heads))
-            hooks.append(h5)
-        else:
-            # MHA: each query head has its own KV head, same gating
-            def make_q_hook_mha(gates, n_heads, h_dim):
-                def hook_fn(module, input, output):
-                    batch, seq_len, _ = output.shape
-                    output = output.view(batch, seq_len, n_heads, h_dim)
-                    output = output * gates.unsqueeze(0).unsqueeze(0).unsqueeze(-1)
-                    return output.view(batch, seq_len, n_heads * h_dim)
-                return hook_fn
-            
-            h5 = layer.self_attn.q_proj.register_forward_hook(
-                make_q_hook_mha(kv_gates, num_heads, head_dim))
-            hooks.append(h5)
+        # Gate query heads corresponding to pruned KV groups
+        def make_q_hook(gates, n_kv_heads, g, h_dim, n_heads):
+            def hook_fn(module, input, output):
+                batch, seq_len, _ = output.shape
+                output = output.view(batch, seq_len, n_heads, h_dim)
+                q_gates = gates.repeat_interleave(g) if g > 1 else gates
+                output = output * q_gates.to(output.dtype).unsqueeze(0).unsqueeze(0).unsqueeze(-1)
+                return output.view(batch, seq_len, n_heads * h_dim)
+            return hook_fn
         
-        # Gate the output projection too
-        # o_proj maps from [num_heads * head_dim] -> [hidden_size]
-        # We need to gate the input to o_proj by the kv_gates expanded to query heads
+        h5 = layer.self_attn.q_proj.register_forward_hook(
+            make_q_hook(kv_gates, num_kv_heads, G, head_dim, num_heads))
+        hooks.append(h5)
+        
+        # Gate the input to o_proj
         def make_o_input_hook(gates, n_kv_heads, g, h_dim, n_heads):
             def hook_fn(module, input):
                 inp = input[0]  # [batch, seq_len, num_heads * head_dim]
                 batch, seq_len, _ = inp.shape
                 inp = inp.view(batch, seq_len, n_heads, h_dim)
-                if g > 1:
-                    q_gates = gates.repeat_interleave(g)
-                else:
-                    q_gates = gates
-                inp = inp * q_gates.unsqueeze(0).unsqueeze(0).unsqueeze(-1)
+                q_gates = gates.repeat_interleave(g) if g > 1 else gates
+                inp = inp * q_gates.to(inp.dtype).unsqueeze(0).unsqueeze(0).unsqueeze(-1)
                 return (inp.view(batch, seq_len, n_heads * h_dim),)
             return hook_fn
         
@@ -470,6 +390,7 @@ def train_gates(
         # Shuffle
         perm = torch.randperm(n_samples)
         epoch_loss = 0.0
+        n_batches = 0
         
         for i in range(0, n_samples, batch_size):
             batch_indices = perm[i:i+batch_size]
@@ -488,20 +409,21 @@ def train_gates(
             
             epoch_loss += loss.item()
             n_steps += 1
+            n_batches += 1
             
-            if n_steps % 100 == 0:
+            if n_steps % 50 == 0:
                 # Get current mask stats
                 with torch.no_grad():
                     mask = gate_module.get_mask()
                     total_kept = mask.sum().item()
                     total_units = mask.numel()
-                    cost_kept = (mask * gate_module.costs).sum().item()
+                    cost_kept = (mask * gate_module.costs.to(device)).sum().item()
                     cost_total = gate_module.costs.sum().item()
                 print(f"  Step {n_steps}, Loss: {loss.item():.4f}, "
                       f"Units: {total_kept:.0f}/{total_units}, "
                       f"Cost ratio: {cost_kept/cost_total:.4f}")
         
-        avg_loss = epoch_loss / (n_samples // batch_size)
+        avg_loss = epoch_loss / max(n_batches, 1)
         print(f"Epoch {epoch+1}/{num_epochs}, Avg Loss: {avg_loss:.4f}")
     
     return gate_module
@@ -527,7 +449,6 @@ def train_scaling(
         mask = gate_module.get_mask().to(device)
     
     # Create scaling parameters for retained units
-    # We use a full-size vector but only train retained units
     scales = torch.ones(mask.shape[0], device=device, dtype=torch.float32)
     scales = nn.Parameter(scales)
     
@@ -538,6 +459,7 @@ def train_scaling(
     for epoch in range(num_epochs):
         perm = torch.randperm(n_samples)
         epoch_loss = 0.0
+        n_batches = 0
         
         for i in range(0, n_samples, batch_size):
             batch_indices = perm[i:i+batch_size]
@@ -558,8 +480,9 @@ def train_scaling(
             optimizer.step()
             
             epoch_loss += loss.item()
+            n_batches += 1
         
-        avg_loss = epoch_loss / (n_samples // batch_size)
+        avg_loss = epoch_loss / max(n_batches, 1)
         print(f"Scaling Epoch {epoch+1}/{num_epochs}, Avg Loss: {avg_loss:.4f}")
     
     # Return final scales (only for retained units)
@@ -582,120 +505,86 @@ def materialize_pruned_model(model, gate_module, scales, save_path):
     mask = gate_module.get_mask()
     
     # For each layer, determine which FFN channels and KV heads to keep
-    new_intermediate_sizes = []
-    new_num_kv_heads_list = []
-    new_num_heads_list = []
-    
     for layer_idx in range(config.num_hidden_layers):
         ffn_gates, kv_gates = gate_module.get_layer_gates(layer_idx, mask)
-        
-        ffn_keep = ffn_gates.bool()
-        kv_keep = kv_gates.bool()
-        
-        new_inter_size = ffn_keep.sum().item()
-        new_kv = kv_keep.sum().item()
-        new_heads = new_kv * G
-        
-        new_intermediate_sizes.append(new_inter_size)
-        new_num_kv_heads_list.append(new_kv)
-        new_num_heads_list.append(new_heads)
-    
-    # Get per-layer scaling factors
-    layer_ffn_scales = []
-    layer_kv_scales = []
-    for layer_idx in range(config.num_hidden_layers):
-        start = layer_idx * gate_module.units_per_layer
-        ffn_s = scales[start : start + intermediate_size]
-        kv_s = scales[start + intermediate_size : start + gate_module.units_per_layer]
-        
-        ffn_keep = mask[start : start + intermediate_size].bool()
-        kv_keep = mask[start + intermediate_size : start + gate_module.units_per_layer].bool()
-        
-        layer_ffn_scales.append(ffn_s[ffn_keep])
-        layer_kv_scales.append(kv_s[kv_keep])
-    
-    # Modify model weights in place
-    for layer_idx in range(config.num_hidden_layers):
-        layer = model.model.layers[layer_idx]
-        ffn_gates, kv_gates = gate_module.get_layer_gates(layer_idx, mask)
+        ffn_scales_layer, kv_scales_layer = gate_module.get_layer_gates(layer_idx, scales)
         
         ffn_keep = ffn_gates.bool().cpu()
         kv_keep = kv_gates.bool().cpu()
         
-        ffn_scale = layer_ffn_scales[layer_idx].cpu()
-        kv_scale = layer_kv_scales[layer_idx].cpu()
+        ffn_scale = ffn_scales_layer[ffn_keep].cpu().float()
+        kv_scale = kv_scales_layer[kv_keep].cpu().float()
+        
+        layer = model.model.layers[layer_idx]
         
         # --- FFN ---
         # gate_proj: [intermediate_size, hidden_size] -> select rows
-        gate_w = layer.mlp.gate_proj.weight.data.cpu()[ffn_keep]
-        gate_w = gate_w * ffn_scale.unsqueeze(1)  # fold scale into output
+        gate_w = layer.mlp.gate_proj.weight.data.cpu().float()[ffn_keep]
+        gate_w = gate_w * ffn_scale.unsqueeze(1)
         
         # up_proj: [intermediate_size, hidden_size] -> select rows
-        up_w = layer.mlp.up_proj.weight.data.cpu()[ffn_keep]
-        up_w = up_w * ffn_scale.unsqueeze(1)  # fold scale into output
+        up_w = layer.mlp.up_proj.weight.data.cpu().float()[ffn_keep]
+        up_w = up_w * ffn_scale.unsqueeze(1)
         
         # down_proj: [hidden_size, intermediate_size] -> select columns
-        down_w = layer.mlp.down_proj.weight.data.cpu()[:, ffn_keep]
+        down_w = layer.mlp.down_proj.weight.data.cpu().float()[:, ffn_keep]
         
         new_inter = ffn_keep.sum().item()
         layer.mlp.gate_proj = nn.Linear(config.hidden_size, new_inter, bias=False)
-        layer.mlp.gate_proj.weight = nn.Parameter(gate_w)
+        layer.mlp.gate_proj.weight = nn.Parameter(gate_w.to(torch.bfloat16))
         
         layer.mlp.up_proj = nn.Linear(config.hidden_size, new_inter, bias=False)
-        layer.mlp.up_proj.weight = nn.Parameter(up_w)
+        layer.mlp.up_proj.weight = nn.Parameter(up_w.to(torch.bfloat16))
         
         layer.mlp.down_proj = nn.Linear(new_inter, config.hidden_size, bias=False)
-        layer.mlp.down_proj.weight = nn.Parameter(down_w)
+        layer.mlp.down_proj.weight = nn.Parameter(down_w.to(torch.bfloat16))
         
         # --- Attention KV heads ---
-        # Expand kv_keep to query heads
         q_keep = kv_keep.repeat_interleave(G)  # [num_heads]
-        
-        # Expand kv_scale to query heads
         q_scale = kv_scale.repeat_interleave(G)  # [new_num_heads]
         
         new_kv = kv_keep.sum().item()
         new_heads = new_kv * G
         
         # q_proj: [num_heads * head_dim, hidden_size]
-        q_w = layer.self_attn.q_proj.weight.data.cpu()
+        q_w = layer.self_attn.q_proj.weight.data.cpu().float()
         q_w = q_w.view(num_heads, head_dim, config.hidden_size)
         q_w = q_w[q_keep]
-        q_w = q_w * q_scale.unsqueeze(1).unsqueeze(2)  # fold scale
+        q_w = q_w * q_scale.unsqueeze(1).unsqueeze(2)
         q_w = q_w.reshape(new_heads * head_dim, config.hidden_size)
         
         # k_proj: [num_kv_heads * head_dim, hidden_size]
-        k_w = layer.self_attn.k_proj.weight.data.cpu()
+        k_w = layer.self_attn.k_proj.weight.data.cpu().float()
         k_w = k_w.view(num_kv_heads, head_dim, config.hidden_size)
         k_w = k_w[kv_keep]
         k_w = k_w * kv_scale.unsqueeze(1).unsqueeze(2)
         k_w = k_w.reshape(new_kv * head_dim, config.hidden_size)
         
         # v_proj: [num_kv_heads * head_dim, hidden_size]
-        v_w = layer.self_attn.v_proj.weight.data.cpu()
+        v_w = layer.self_attn.v_proj.weight.data.cpu().float()
         v_w = v_w.view(num_kv_heads, head_dim, config.hidden_size)
         v_w = v_w[kv_keep]
         v_w = v_w * kv_scale.unsqueeze(1).unsqueeze(2)
         v_w = v_w.reshape(new_kv * head_dim, config.hidden_size)
         
         # o_proj: [hidden_size, num_heads * head_dim]
-        o_w = layer.self_attn.o_proj.weight.data.cpu()
+        o_w = layer.self_attn.o_proj.weight.data.cpu().float()
         o_w = o_w.view(config.hidden_size, num_heads, head_dim)
         o_w = o_w[:, q_keep]
         o_w = o_w.reshape(config.hidden_size, new_heads * head_dim)
         
         # Recreate linear layers
         layer.self_attn.q_proj = nn.Linear(config.hidden_size, new_heads * head_dim, bias=False)
-        layer.self_attn.q_proj.weight = nn.Parameter(q_w)
+        layer.self_attn.q_proj.weight = nn.Parameter(q_w.to(torch.bfloat16))
         
         layer.self_attn.k_proj = nn.Linear(config.hidden_size, new_kv * head_dim, bias=False)
-        layer.self_attn.k_proj.weight = nn.Parameter(k_w)
+        layer.self_attn.k_proj.weight = nn.Parameter(k_w.to(torch.bfloat16))
         
         layer.self_attn.v_proj = nn.Linear(config.hidden_size, new_kv * head_dim, bias=False)
-        layer.self_attn.v_proj.weight = nn.Parameter(v_w)
+        layer.self_attn.v_proj.weight = nn.Parameter(v_w.to(torch.bfloat16))
         
         layer.self_attn.o_proj = nn.Linear(new_heads * head_dim, config.hidden_size, bias=False)
-        layer.self_attn.o_proj.weight = nn.Parameter(o_w)
+        layer.self_attn.o_proj.weight = nn.Parameter(o_w.to(torch.bfloat16))
         
         # Update attention config for this layer
         layer.self_attn.num_heads = new_heads
@@ -722,11 +611,8 @@ def evaluate_perplexity(model, tokenizer, dataset_name="wikitext", dataset_confi
     model.eval()
     
     if dataset_name == "wikitext":
-        dataset = load_dataset(dataset_name, dataset_config, split=split, trust_remote_code=True)
+        dataset = load_dataset("Salesforce/wikitext", dataset_config, split=split, trust_remote_code=True)
         text = "\n\n".join(dataset["text"])
-    elif dataset_name == "ptb_text_only":
-        dataset = load_dataset(dataset_name, split=split, trust_remote_code=True)
-        text = "\n\n".join(dataset["sentence"])
     elif dataset_name == "c4":
         dataset = load_dataset("allenai/c4", "en", split="validation", streaming=True, trust_remote_code=True)
         texts = []
@@ -744,7 +630,7 @@ def evaluate_perplexity(model, tokenizer, dataset_name="wikitext", dataset_confi
     seq_len = input_ids.shape[0]
     
     nlls = []
-    prev_end = 0
+    n_tokens = 0
     
     for begin in range(0, seq_len, max_length):
         end = min(begin + max_length, seq_len)
@@ -752,13 +638,16 @@ def evaluate_perplexity(model, tokenizer, dataset_name="wikitext", dataset_confi
         target_chunk = input_chunk.clone()
         
         outputs = model(input_ids=input_chunk, labels=target_chunk)
-        neg_log_likelihood = outputs.loss * (end - begin)
+        # loss is averaged over tokens in the chunk
+        chunk_len = end - begin
+        neg_log_likelihood = outputs.loss * (chunk_len - 1)  # -1 because first token has no label
         nlls.append(neg_log_likelihood)
+        n_tokens += chunk_len - 1
         
         if end == seq_len:
             break
     
-    ppl = torch.exp(torch.stack(nlls).sum() / seq_len)
+    ppl = torch.exp(torch.stack(nlls).sum() / n_tokens)
     return ppl.item()
 
 
@@ -768,7 +657,7 @@ def evaluate_perplexity(model, tokenizer, dataset_name="wikitext", dataset_confi
 
 def main():
     parser = argparse.ArgumentParser(description="GRASPrune")
-    parser.add_argument("--model_name", type=str, default="meta-llama/Llama-2-7b-hf")
+    parser.add_argument("--model_name", type=str, default="NousResearch/Llama-2-7b-hf")
     parser.add_argument("--target_ratio", type=float, default=0.5, help="Parameter retention ratio")
     parser.add_argument("--n_samples", type=int, default=512)
     parser.add_argument("--seq_len", type=int, default=512)
@@ -786,6 +675,8 @@ def main():
     
     print(f"Loading model: {args.model_name}")
     tokenizer = AutoTokenizer.from_pretrained(args.model_name, trust_remote_code=True)
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
     
     if args.eval_only:
         model = AutoModelForCausalLM.from_pretrained(
@@ -801,11 +692,6 @@ def main():
         wiki_ppl = evaluate_perplexity(model, tokenizer, "wikitext", "wikitext-2-raw-v1", "test")
         results["wikitext2_ppl"] = wiki_ppl
         print(f"WikiText-2 PPL: {wiki_ppl:.4f}")
-        
-        print("Evaluating perplexity on PTB...")
-        ptb_ppl = evaluate_perplexity(model, tokenizer, "ptb_text_only", split="test")
-        results["ptb_ppl"] = ptb_ppl
-        print(f"PTB PPL: {ptb_ppl:.4f}")
         
         os.makedirs(args.output_dir, exist_ok=True)
         with open(os.path.join(args.output_dir, "eval_results.json"), "w") as f:
@@ -853,6 +739,7 @@ def main():
     # Get final mask stats
     with torch.no_grad():
         mask = gate_module.get_mask()
+        device = next(model.parameters()).device
         for layer_idx in range(config.num_hidden_layers):
             ffn_gates, kv_gates = gate_module.get_layer_gates(layer_idx, mask)
             ffn_kept = ffn_gates.sum().item()
@@ -873,7 +760,7 @@ def main():
         print(f"Scaling calibration time: {scale_time:.1f}s")
     else:
         print("Skipping scaling calibration")
-        scales = mask.clone()
+        scales = mask.clone().to(device)
     
     # Materialize pruned model
     save_path = args.save_path
@@ -899,6 +786,14 @@ def main():
     wiki_ppl = evaluate_perplexity(model, tokenizer, "wikitext", "wikitext-2-raw-v1", "test")
     results["wikitext2_ppl"] = wiki_ppl
     print(f"WikiText-2 PPL: {wiki_ppl:.4f}")
+    
+    try:
+        print("Evaluating perplexity on C4...")
+        c4_ppl = evaluate_perplexity(model, tokenizer, "c4", split="validation")
+        results["c4_ppl"] = c4_ppl
+        print(f"C4 PPL: {c4_ppl:.4f}")
+    except Exception as e:
+        print(f"C4 evaluation failed: {e}")
     
     # Save results
     os.makedirs(args.output_dir, exist_ok=True)
