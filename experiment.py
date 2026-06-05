@@ -68,7 +68,7 @@ class VAE(nn.Module):
         return self.decoder(z), mu, logvar
 
 
-def apply_vae(X, n_components, epochs=100, batch_size=64, random_state=42):
+def apply_vae(X, n_components, epochs=50, batch_size=64, random_state=42):
     """Train VAE, return z_mean as embedding for ALL samples."""
     torch.manual_seed(random_state)
     np.random.seed(random_state)
@@ -140,9 +140,9 @@ def apply_dr(X, method, n_components, random_state=42):
     elif method == 'MDS':
         # Paper: random_state=10, n_init=50. Reduced for computational feasibility.
         n = X.shape[0]
-        n_init = 1 if n > 300 else 2
+        n_init = 1
         return MDS(n_components=n_components, random_state=10, n_init=n_init,
-                   max_iter=150, normalized_stress='auto').fit_transform(X)
+                   max_iter=50, normalized_stress='auto').fit_transform(X)
     else:
         raise ValueError(f"Unknown DR method: {method}")
 
@@ -183,7 +183,7 @@ def precompute_all_dr(datasets):
                     t0 = time.time()
                     # Timeout: 60s per DR operation
                     signal.signal(signal.SIGALRM, timeout_handler)
-                    signal.alarm(60)
+                    signal.alarm(30)
                     X_red = apply_dr(X, method, n_comp)
                     signal.alarm(0)  # Cancel alarm
                     X_red = np.nan_to_num(X_red, nan=0.0, posinf=0.0, neginf=0.0)
@@ -193,7 +193,7 @@ def precompute_all_dr(datasets):
                         print(f"    {key} ({n_comp}d) [{dt:.1f}s]")
                 except TimeoutError:
                     signal.alarm(0)
-                    print(f"    TIMEOUT {key} (>60s, skipping)")
+                    print(f"    TIMEOUT {key} (>30s, skipping)")
                     ds_cache[key] = None
                 except Exception as e:
                     signal.alarm(0)
@@ -320,7 +320,7 @@ def find_best_optics_params(datasets, dr_cache):
     Optimized: fit OPTICS once per (dataset, condition, min_samples), 
     then extract clusters with different min_cluster_size using cluster_optics_xi."""
     conditions = get_all_conditions()
-    mcs_values = [round(v, 2) for v in np.arange(0.05, 1.05, 0.1)]  # 0.05 to 1.0 step 0.1
+    mcs_values = [round(v, 2) for v in np.arange(0.05, 1.05, 0.2)]  # 0.05 to 1.0 step 0.1
 
     print("  OPTICS hyperparam search (optimized)...")
     # combo_scores[(ms, mcs)] = list of ARIs
