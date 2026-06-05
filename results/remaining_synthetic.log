@@ -1,0 +1,103 @@
+
+============================================================
+RSG EXPERIMENTS
+============================================================
+Generated 20 datasets
+Computing DR transformations...
+  [1/20] RSG_3c_10d_0 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [2/20] RSG_3c_10d_1 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [3/20] RSG_3c_10d_2 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [4/20] RSG_3c_10d_3 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [5/20] RSG_3c_10d_4 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [6/20] RSG_3c_50d_0 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [7/20] RSG_3c_50d_1 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [8/20] RSG_3c_50d_2 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [9/20] RSG_3c_50d_3 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [10/20] RSG_3c_50d_4 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [11/20] RSG_5c_10d_0 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [12/20] RSG_5c_10d_1 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [13/20] RSG_5c_10d_2 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [14/20] RSG_5c_10d_3 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [15/20] RSG_5c_10d_4 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [16/20] RSG_5c_50d_0 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+  [17/20] RSG_5c_50d_1 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+  [18/20] RSG_5c_50d_2 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+  [19/20] RSG_5c_50d_3 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+  [20/20] RSG_5c_50d_4 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+
+[1/4] k-means...
+  Done in 38.7s
+
+[2/4] AHC...
+  AHC search (10 combos × 20 datasets)...
+    Best: ('euclidean', 'ward'), avg_ari=0.9375
+  Done in 7.5s
+
+[3/4] GMM...
+  GMM search (20 datasets)...
+    Best: full, avg_ari=0.9286
+  Done in 14.1s
+
+[4/4] OPTICS...
+  OPTICS fast search (2 ms × 3 mcs × 10 datasets)...
+    Best: ms=10, mcs=0.25, avg_ari=0.9817
+  Done in 114.3s
+
+=== Generating outputs for RSG ===
+  Saved table_k-means_RSG.csv
+  Saved table_AHC_RSG.csv
+  Saved table_GMM_RSG.csv
+  Saved table_OPTICS_RSG.csv
+  Saved table_aggregate_k-means_RSG.csv
+  Saved table_aggregate_AHC_RSG.csv
+  Saved table_aggregate_GMM_RSG.csv
+  Saved table_aggregate_OPTICS_RSG.csv
+  Saved table_wilcoxon_RSG.csv
+  Saved boxplot_k-means_RSG.pdf
+  Saved boxplot_AHC_RSG.pdf
+  Saved boxplot_GMM_RSG.pdf
+  Saved boxplot_OPTICS_RSG.pdf
+  Saved results_RSG.json
+
+============================================================
+Repliclust EXPERIMENTS
+============================================================
+Generated 20 datasets
+Computing DR transformations...
+  [1/20] Repliclust_3c_10d_0 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [2/20] Repliclust_3c_10d_1 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [3/20] Repliclust_3c_10d_2 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [4/20] Repliclust_3c_10d_3 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [5/20] Repliclust_3c_10d_4 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [6/20] Repliclust_3c_50d_0 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [7/20] Repliclust_3c_50d_1 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [8/20] Repliclust_3c_50d_2 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [9/20] Repliclust_3c_50d_3 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [10/20] Repliclust_3c_50d_4 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [11/20] Repliclust_5c_10d_0 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [12/20] Repliclust_5c_10d_1 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [13/20] Repliclust_5c_10d_2 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [14/20] Repliclust_5c_10d_3 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [15/20] Repliclust_5c_10d_4 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
+  [16/20] Repliclust_5c_50d_0 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+  [17/20] Repliclust_5c_50d_1 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+  [18/20] Repliclust_5c_50d_2 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+  [19/20] Repliclust_5c_50d_3 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+  [20/20] Repliclust_5c_50d_4 shape=(500, 50) k=5 dims={'k-1': 4, '25%': 12, '50%': 25}
+
+[1/4] k-means...
+  Done in 37.1s
+
+[2/4] AHC...
+  AHC search (10 combos × 20 datasets)...
+    Best: ('euclidean', 'ward'), avg_ari=0.9557
+  Done in 7.8s
+
+[3/4] GMM...
+  GMM search (20 datasets)...
+    Best: full, avg_ari=0.9588
+  Done in 12.2s
+
+[4/4] OPTICS...
+  OPTICS fast search (2 ms × 3 mcs × 10 datasets)...
+    Best: ms=10, mcs=0.25, avg_ari=0.9790

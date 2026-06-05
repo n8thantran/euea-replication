@@ -1,0 +1,16 @@
+Method,Reduction,Win %,Avg Win/Loss %
+PCA,k-1,5.0,5.9
+PCA,25%,5.0,5.1
+PCA,50%,0.0,-0.1
+Kernel PCA,k-1,5.0,5.9
+Kernel PCA,25%,5.0,5.8
+Kernel PCA,50%,5.0,5.9
+VAE,k-1,5.0,-15.0
+VAE,25%,5.0,-20.4
+VAE,50%,5.0,-8.5
+Isomap,k-1,5.0,5.9
+Isomap,25%,5.0,2.7
+Isomap,50%,5.0,5.9
+MDS,k-1,5.0,5.9
+MDS,25%,5.0,5.9
+MDS,50%,5.0,5.9

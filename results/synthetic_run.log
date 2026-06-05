@@ -1,0 +1,111 @@
+/usr/local/lib/python3.14/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+
+============================================================
+SYNTHETIC EXPERIMENTS
+============================================================
+Generating Circles datasets...
+Generating Moons datasets...
+Generating RSG datasets...
+Generating Repliclust datasets...
+  Circles: 10 datasets
+  Moons: 10 datasets
+  RSG: 20 datasets
+  Repliclust: 20 datasets
+
+--- Circles (10 datasets) ---
+Loading DR cache from ./results/dr_cache_Circles.pkl
+  [1/10] Circles_2c_10d_0 shape=(500, 10) k=2 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [2/10] Circles_2c_10d_1 shape=(500, 10) k=2 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [3/10] Circles_2c_10d_2 shape=(500, 10) k=2 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [4/10] Circles_2c_10d_3 shape=(500, 10) k=2 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [5/10] Circles_2c_10d_4 shape=(500, 10) k=2 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [6/10] Circles_2c_50d_0 shape=(500, 50) k=2 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [7/10] Circles_2c_50d_1 shape=(500, 50) k=2 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [8/10] Circles_2c_50d_2 shape=(500, 50) k=2 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [9/10] Circles_2c_50d_3 shape=(500, 50) k=2 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [10/10] Circles_2c_50d_4 shape=(500, 50) k=2 dims={'k-1': 2, '25%': 12, '50%': 25}
+
+[1/4] k-means...
+  Done in 22.4s
+
+[2/4] AHC...
+  AHC search (10 combos × 10 datasets)...
+    Best: ('manhattan', 'complete'), avg_ari=0.0039
+  Done in 4.8s
+
+[3/4] GMM...
+  GMM search (10 datasets)...
+    Best: spherical, avg_ari=0.0032
+  Done in 7.2s
+
+[4/4] OPTICS...
+  OPTICS search (3 ms × 7 mcs × 10 datasets)...
+    Best: ms=5, mcs=0.35, avg_ari=0.0011
+  Done in 179.0s
+
+=== Generating outputs for Circles ===
+  Saved table_k-means_Circles.csv
+  Saved table_AHC_Circles.csv
+  Saved table_GMM_Circles.csv
+  Saved table_OPTICS_Circles.csv
+  Saved table_aggregate_k-means_Circles.csv
+  Saved table_aggregate_AHC_Circles.csv
+  Saved table_aggregate_GMM_Circles.csv
+  Saved table_aggregate_OPTICS_Circles.csv
+  Saved table_wilcoxon_Circles.csv
+  Saved boxplot_k-means_Circles.pdf
+  Saved boxplot_AHC_Circles.pdf
+  Saved boxplot_GMM_Circles.pdf
+  Saved boxplot_OPTICS_Circles.pdf
+  Saved results_Circles.json
+
+--- Moons (10 datasets) ---
+Loading DR cache from ./results/dr_cache_Moons.pkl
+
+[1/4] k-means...
+  Done in 22.7s
+
+[2/4] AHC...
+  AHC search (10 combos × 10 datasets)...
+    Best: ('cosine', 'average'), avg_ari=0.1826
+  Done in 4.9s
+
+[3/4] GMM...
+  GMM search (10 datasets)...
+    Best: tied, avg_ari=0.2561
+  Done in 8.3s
+
+[4/4] OPTICS...
+  OPTICS search (3 ms × 7 mcs × 10 datasets)...
+    Best: ms=5, mcs=0.2, avg_ari=0.0178
+  Done in 184.7s
+
+=== Generating outputs for Moons ===
+  Saved table_k-means_Moons.csv
+  Saved table_AHC_Moons.csv
+  Saved table_GMM_Moons.csv
+  Saved table_OPTICS_Moons.csv
+  Saved table_aggregate_k-means_Moons.csv
+  Saved table_aggregate_AHC_Moons.csv
+  Saved table_aggregate_GMM_Moons.csv
+  Saved table_aggregate_OPTICS_Moons.csv
+  Saved table_wilcoxon_Moons.csv
+  Saved boxplot_k-means_Moons.pdf
+  Saved boxplot_AHC_Moons.pdf
+  Saved boxplot_GMM_Moons.pdf
+  Saved boxplot_OPTICS_Moons.pdf
+  Saved results_Moons.json
+
+--- RSG (20 datasets) ---
+  [1/20] RSG_3c_10d_0 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [2/20] RSG_3c_10d_1 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [3/20] RSG_3c_10d_2 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [4/20] RSG_3c_10d_3 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [5/20] RSG_3c_10d_4 shape=(300, 10) k=3 dims={'k-1': 2, '25%': 2, '50%': 5}
+  [6/20] RSG_3c_50d_0 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [7/20] RSG_3c_50d_1 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [8/20] RSG_3c_50d_2 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [9/20] RSG_3c_50d_3 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [10/20] RSG_3c_50d_4 shape=(300, 50) k=3 dims={'k-1': 2, '25%': 12, '50%': 25}
+  [11/20] RSG_5c_10d_0 shape=(500, 10) k=5 dims={'k-1': 4, '25%': 2, '50%': 5}
