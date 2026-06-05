@@ -252,18 +252,28 @@ def get_gmm_combos():
     return ['spherical', 'tied', 'diag', 'full']
 
 
+def _subsample_keys(datasets, max_n=20):
+    """Subsample dataset keys for faster hyperparameter search."""
+    keys = sorted(datasets.keys())
+    if len(keys) <= max_n:
+        return keys
+    rng = np.random.RandomState(42)
+    return list(rng.choice(keys, max_n, replace=False))
+
+
 def find_best_ahc_params(datasets, dr_cache):
     """Find (metric, linkage) with highest average ARI across all datasets × conditions."""
     combos = get_ahc_combos()
     conditions = get_all_conditions()
     best_score = -999
     best_combo = ('euclidean', 'ward')
+    search_keys = _subsample_keys(datasets, max_n=20)
 
-    print("  AHC hyperparam search...")
+    print(f"  AHC hyperparam search (using {len(search_keys)}/{len(datasets)} datasets)...")
     for metric, linkage in combos:
         total_ari = 0.0
         count = 0
-        for ds_name in sorted(datasets.keys()):
+        for ds_name in search_keys:
             _, y_true, k = datasets[ds_name]
             for cond in conditions:
                 X = dr_cache[ds_name].get(cond)
@@ -289,12 +299,13 @@ def find_best_gmm_params(datasets, dr_cache):
     conditions = get_all_conditions()
     best_score = -999
     best_cov = 'full'
+    search_keys = _subsample_keys(datasets, max_n=20)
 
-    print("  GMM hyperparam search...")
+    print(f"  GMM hyperparam search (using {len(search_keys)}/{len(datasets)} datasets)...")
     for cov_type in get_gmm_combos():
         total_ari = 0.0
         count = 0
-        for ds_name in sorted(datasets.keys()):
+        for ds_name in search_keys:
             _, y_true, k = datasets[ds_name]
             for cond in conditions:
                 X = dr_cache[ds_name].get(cond)
@@ -329,8 +340,9 @@ def find_best_optics_params(datasets, dr_cache):
         for mcs in mcs_values:
             combo_scores[(ms, mcs)] = []
 
-    n_ds = len(datasets)
-    for ds_idx, ds_name in enumerate(sorted(datasets.keys())):
+    search_keys = _subsample_keys(datasets, max_n=15)
+    n_ds = len(search_keys)
+    for ds_idx, ds_name in enumerate(search_keys):
         _, y_true, k = datasets[ds_name]
         if ds_idx % 5 == 0:
             print(f"    OPTICS search: dataset {ds_idx+1}/{n_ds}")

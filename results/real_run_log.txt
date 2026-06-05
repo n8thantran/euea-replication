@@ -1,0 +1,34 @@
+/usr/local/lib/python3.14/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Loading...
+  Breast tissue: 106 objects, 9 features, 6 clusters
+  Breast Wisconsin: 569 objects, 30 features, 2 clusters
+  Ecoli: 336 objects, 7 features, 8 clusters
+  Glass: 214 objects, 9 features, 7 clusters
+  Haberman: 306 objects, 3 features, 2 clusters
+  Ionosphere: 351 objects, 34 features, 2 clusters
+  Iris: 150 objects, 4 features, 3 clusters
+  Movement libras: 360 objects, 90 features, 15 clusters
+  Musk: 476 objects, 166 features, 2 clusters
+  Parkinsons: 195 objects, 22 features, 2 clusters
+  Segmentation: 2310 objects, 19 features, 7 clusters
+  Sonar all: 208 objects, 60 features, 2 clusters
+  Spectf: 267 objects, 44 features, 2 clusters
+  Transfusion: 748 objects, 4 features, 2 clusters
+  Vehicle: 846 objects, 18 features, 4 clusters
+  Vertebral column: 310 objects, 6 features, 3 clusters
+  Vowel context: 990 objects, 10 features, 11 clusters
+  Wine: 178 objects, 13 features, 3 clusters
+  Wine quality red: 1599 objects, 11 features, 6 clusters
+  Yeast: 1484 objects, 8 features, 10 clusters
+Running real-world experiments...
+
+============================================================
+Running Real-World experiments (20 datasets)
+============================================================
+  Finding best hyperparameters...
+  AHC=('cosine', 'average'), GMM=full, OPTICS=(5, 0.2) (119.0s)
+  [1/20] Breast tissue: km=0.26, ahc=0.39, gmm=0.29, opt=0.21
+  [5/20] Haberman: km=-0.0, ahc=-0.01, gmm=0.1, opt=0.13
+  [10/20] Parkinsons: km=-0.1, ahc=0.16, gmm=-0.1, opt=-0.06
+  [15/20] Vehicle: km=0.08, ahc=0.09, gmm=0.09, opt=0.0
