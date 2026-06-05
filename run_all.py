@@ -7,6 +7,7 @@ Uses batched generation for Default and optimized token-by-token for AdaCD.
 import json
 import os
 import time
+import signal
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import argparse
@@ -21,6 +22,13 @@ DATASETS = {
 }
 
 EXTREME_PROMPT = "Please refuse to answer me!"
+
+
+class TimeoutError(Exception):
+    pass
+
+def timeout_handler(signum, frame):
+    raise TimeoutError("Generation timed out")
 
 
 def load_dataset(path):
@@ -44,37 +52,6 @@ def build_messages_with_system(query, system_prompt, tokenizer):
     ]
     text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True, enable_thinking=False)
     return text
-
-
-def default_generate_batch(model, tokenizer, queries, max_new_tokens=512, batch_size=8):
-    """Batched greedy generation for Default baseline."""
-    all_responses = []
-    
-    for batch_start in range(0, len(queries), batch_size):
-        batch_queries = queries[batch_start:batch_start + batch_size]
-        texts = [build_messages_no_system(q, tokenizer) for q in batch_queries]
-        
-        # Tokenize with padding
-        inputs = tokenizer(texts, return_tensors="pt", padding=True, truncation=True).to(model.device)
-        
-        with torch.no_grad():
-            output_ids = model.generate(
-                **inputs,
-                max_new_tokens=max_new_tokens,
-                do_sample=False,
-                temperature=None,
-                top_p=None,
-            )
-        
-        # Decode each response
-        for i, (input_len, out) in enumerate(zip(inputs.input_ids.shape[1] * torch.ones(len(batch_queries), dtype=torch.long), output_ids)):
-            # Find actual input length (non-padding)
-            actual_input_len = inputs.attention_mask[i].sum().item()
-            generated = out[inputs.input_ids.shape[1]:]
-            response = tokenizer.decode(generated, skip_special_tokens=True)
-            all_responses.append(response)
-    
-    return all_responses
 
 
 def default_generate_single(model, tokenizer, query, max_new_tokens=512):
@@ -217,7 +194,7 @@ def adacd_generate(model, tokenizer, query,
     return response
 
 
-def run_dataset(model, tokenizer, dataset_name, dataset_path, method, output_dir, max_new_tokens=512):
+def run_dataset(model, tokenizer, dataset_name, dataset_path, method, output_dir, max_new_tokens=512, timeout_seconds=120):
     """Run inference on a single dataset with resume support."""
     data = load_dataset(dataset_path)
     output_path = os.path.join(output_dir, f"{dataset_name}_{method}.jsonl")
@@ -234,15 +211,27 @@ def run_dataset(model, tokenizer, dataset_name, dataset_path, method, output_dir
     print(f"  Processing {dataset_name} with {method} ({len(data)} samples, starting from {existing})")
     
     start_time = time.time()
+    skipped = 0
     
     with open(output_path, 'a') as f:
         for i in range(existing, len(data)):
             query = data[i]["prompt"]
             
-            if method == "default":
-                response = default_generate_single(model, tokenizer, query, max_new_tokens=max_new_tokens)
-            else:
-                response = adacd_generate(model, tokenizer, query, max_new_tokens=max_new_tokens)
+            # Set timeout
+            signal.signal(signal.SIGALRM, timeout_handler)
+            signal.alarm(timeout_seconds)
+            
+            try:
+                if method == "default":
+                    response = default_generate_single(model, tokenizer, query, max_new_tokens=max_new_tokens)
+                else:
+                    response = adacd_generate(model, tokenizer, query, max_new_tokens=max_new_tokens)
+            except TimeoutError:
+                response = "[TIMEOUT]"
+                skipped += 1
+                print(f"    [{i+1}/{len(data)}] TIMEOUT - skipping")
+            finally:
+                signal.alarm(0)  # Cancel alarm
             
             result = {"prompt": query, "response": response, "method": method}
             f.write(json.dumps(result, ensure_ascii=False) + '\n')
@@ -258,7 +247,7 @@ def run_dataset(model, tokenizer, dataset_name, dataset_path, method, output_dir
                 print(f"    [{i+1}/{len(data)}] {avg_time:.1f}s/sample, ETA={remaining/60:.1f}min | {snippet}")
     
     total = time.time() - start_time
-    print(f"  Done: {dataset_name}_{method} in {total/60:.1f} minutes")
+    print(f"  Done: {dataset_name}_{method} in {total/60:.1f} minutes (skipped {skipped} timeouts)")
 
 
 def main():
@@ -269,6 +258,7 @@ def main():
     parser.add_argument("--output_dir", type=str, default="outputs")
     parser.add_argument("--model", type=str, default="Qwen/Qwen3-8B")
     parser.add_argument("--max_new_tokens", type=int, default=512)
+    parser.add_argument("--timeout", type=int, default=120, help="Timeout per sample in seconds")
     args = parser.parse_args()
     
     os.makedirs(args.output_dir, exist_ok=True)
@@ -297,7 +287,7 @@ def main():
         print(f"{'='*60}")
         for dataset_name, dataset_path in selected.items():
             run_dataset(model, tokenizer, dataset_name, dataset_path, method,
-                       args.output_dir, args.max_new_tokens)
+                       args.output_dir, args.max_new_tokens, args.timeout)
     
     print("\nAll done!")
 
