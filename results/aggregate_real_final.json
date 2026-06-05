@@ -1,0 +1,410 @@
+{
+  "k-means": {
+    "PCA": {
+      "k-1": {
+        "win_pct": 40.0,
+        "loss_pct": 15.0,
+        "avg_win": 21.8,
+        "avg_loss": -14.1
+      },
+      "25%": {
+        "win_pct": 40.0,
+        "loss_pct": 25.0,
+        "avg_win": 24.5,
+        "avg_loss": -16.9
+      },
+      "50%": {
+        "win_pct": 30.0,
+        "loss_pct": 15.0,
+        "avg_win": 25.3,
+        "avg_loss": -18.4
+      }
+    },
+    "Kernel PCA": {
+      "k-1": {
+        "win_pct": 50.0,
+        "loss_pct": 25.0,
+        "avg_win": 59.7,
+        "avg_loss": -46.2
+      },
+      "25%": {
+        "win_pct": 45.0,
+        "loss_pct": 40.0,
+        "avg_win": 64.7,
+        "avg_loss": -41.6
+      },
+      "50%": {
+        "win_pct": 45.0,
+        "loss_pct": 35.0,
+        "avg_win": 61.1,
+        "avg_loss": -39.4
+      }
+    },
+    "VAE": {
+      "k-1": {
+        "win_pct": 15.0,
+        "loss_pct": 60.0,
+        "avg_win": 79.5,
+        "avg_loss": -69.4
+      },
+      "25%": {
+        "win_pct": 15.0,
+        "loss_pct": 70.0,
+        "avg_win": 47.3,
+        "avg_loss": -74.9
+      },
+      "50%": {
+        "win_pct": 15.0,
+        "loss_pct": 70.0,
+        "avg_win": 52.4,
+        "avg_loss": -75.5
+      }
+    },
+    "Isomap": {
+      "k-1": {
+        "win_pct": 55.0,
+        "loss_pct": 20.0,
+        "avg_win": 51.0,
+        "avg_loss": -18.5
+      },
+      "25%": {
+        "win_pct": 45.0,
+        "loss_pct": 40.0,
+        "avg_win": 63.8,
+        "avg_loss": -21.5
+      },
+      "50%": {
+        "win_pct": 40.0,
+        "loss_pct": 25.0,
+        "avg_win": 69.7,
+        "avg_loss": -17.4
+      }
+    },
+    "MDS": {
+      "k-1": {
+        "win_pct": 45.0,
+        "loss_pct": 30.0,
+        "avg_win": 21.4,
+        "avg_loss": -18.2
+      },
+      "25%": {
+        "win_pct": 30.0,
+        "loss_pct": 45.0,
+        "avg_win": 12.5,
+        "avg_loss": -24.3
+      },
+      "50%": {
+        "win_pct": 25.0,
+        "loss_pct": 25.0,
+        "avg_win": 12.9,
+        "avg_loss": -30.9
+      }
+    }
+  },
+  "AHC": {
+    "PCA": {
+      "k-1": {
+        "win_pct": 35.0,
+        "loss_pct": 35.0,
+        "avg_win": 89.0,
+        "avg_loss": -41.4
+      },
+      "25%": {
+        "win_pct": 30.0,
+        "loss_pct": 55.0,
+        "avg_win": 63.8,
+        "avg_loss": -99.3
+      },
+      "50%": {
+        "win_pct": 30.0,
+        "loss_pct": 35.0,
+        "avg_win": 66.3,
+        "avg_loss": -45.8
+      }
+    },
+    "Kernel PCA": {
+      "k-1": {
+        "win_pct": 35.0,
+        "loss_pct": 40.0,
+        "avg_win": 32.7,
+        "avg_loss": -71.4
+      },
+      "25%": {
+        "win_pct": 35.0,
+        "loss_pct": 55.0,
+        "avg_win": 26.8,
+        "avg_loss": -105.3
+      },
+      "50%": {
+        "win_pct": 45.0,
+        "loss_pct": 45.0,
+        "avg_win": 34.1,
+        "avg_loss": -116.8
+      }
+    },
+    "VAE": {
+      "k-1": {
+        "win_pct": 15.0,
+        "loss_pct": 70.0,
+        "avg_win": 544.4,
+        "avg_loss": -74.7
+      },
+      "25%": {
+        "win_pct": 20.0,
+        "loss_pct": 80.0,
+        "avg_win": 178.0,
+        "avg_loss": -81.3
+      },
+      "50%": {
+        "win_pct": 25.0,
+        "loss_pct": 75.0,
+        "avg_win": 226.8,
+        "avg_loss": -83.4
+      }
+    },
+    "Isomap": {
+      "k-1": {
+        "win_pct": 30.0,
+        "loss_pct": 45.0,
+        "avg_win": 171.8,
+        "avg_loss": -51.0
+      },
+      "25%": {
+        "win_pct": 40.0,
+        "loss_pct": 50.0,
+        "avg_win": 117.3,
+        "avg_loss": -115.2
+      },
+      "50%": {
+        "win_pct": 45.0,
+        "loss_pct": 50.0,
+        "avg_win": 101.2,
+        "avg_loss": -64.5
+      }
+    },
+    "MDS": {
+      "k-1": {
+        "win_pct": 20.0,
+        "loss_pct": 55.0,
+        "avg_win": 85.5,
+        "avg_loss": -84.9
+      },
+      "25%": {
+        "win_pct": 20.0,
+        "loss_pct": 60.0,
+        "avg_win": 128.0,
+        "avg_loss": -41.6
+      },
+      "50%": {
+        "win_pct": 15.0,
+        "loss_pct": 45.0,
+        "avg_win": 110.7,
+        "avg_loss": -116.8
+      }
+    }
+  },
+  "GMM": {
+    "PCA": {
+      "k-1": {
+        "win_pct": 20.0,
+        "loss_pct": 45.0,
+        "avg_win": 59.5,
+        "avg_loss": -21.8
+      },
+      "25%": {
+        "win_pct": 30.0,
+        "loss_pct": 55.0,
+        "avg_win": 120.1,
+        "avg_loss": -18.5
+      },
+      "50%": {
+        "win_pct": 35.0,
+        "loss_pct": 40.0,
+        "avg_win": 150.3,
+        "avg_loss": -23.8
+      }
+    },
+    "Kernel PCA": {
+      "k-1": {
+        "win_pct": 25.0,
+        "loss_pct": 50.0,
+        "avg_win": 84.2,
+        "avg_loss": -27.2
+      },
+      "25%": {
+        "win_pct": 35.0,
+        "loss_pct": 50.0,
+        "avg_win": 102.6,
+        "avg_loss": -40.4
+      },
+      "50%": {
+        "win_pct": 50.0,
+        "loss_pct": 35.0,
+        "avg_win": 119.3,
+        "avg_loss": -44.0
+      }
+    },
+    "VAE": {
+      "k-1": {
+        "win_pct": 20.0,
+        "loss_pct": 55.0,
+        "avg_win": 92.5,
+        "avg_loss": -62.3
+      },
+      "25%": {
+        "win_pct": 15.0,
+        "loss_pct": 70.0,
+        "avg_win": 66.7,
+        "avg_loss": -66.4
+      },
+      "50%": {
+        "win_pct": 20.0,
+        "loss_pct": 65.0,
+        "avg_win": 53.3,
+        "avg_loss": -77.3
+      }
+    },
+    "Isomap": {
+      "k-1": {
+        "win_pct": 25.0,
+        "loss_pct": 50.0,
+        "avg_win": 114.6,
+        "avg_loss": -33.9
+      },
+      "25%": {
+        "win_pct": 40.0,
+        "loss_pct": 50.0,
+        "avg_win": 113.0,
+        "avg_loss": -39.8
+      },
+      "50%": {
+        "win_pct": 30.0,
+        "loss_pct": 60.0,
+        "avg_win": 173.6,
+        "avg_loss": -29.4
+      }
+    },
+    "MDS": {
+      "k-1": {
+        "win_pct": 20.0,
+        "loss_pct": 45.0,
+        "avg_win": 53.4,
+        "avg_loss": -30.3
+      },
+      "25%": {
+        "win_pct": 25.0,
+        "loss_pct": 50.0,
+        "avg_win": 159.7,
+        "avg_loss": -44.6
+      },
+      "50%": {
+        "win_pct": 40.0,
+        "loss_pct": 40.0,
+        "avg_win": 117.4,
+        "avg_loss": -47.0
+      }
+    }
+  },
+  "OPTICS": {
+    "PCA": {
+      "k-1": {
+        "win_pct": 40.0,
+        "loss_pct": 20.0,
+        "avg_win": 717.3,
+        "avg_loss": -55.7
+      },
+      "25%": {
+        "win_pct": 25.0,
+        "loss_pct": 35.0,
+        "avg_win": 1120.5,
+        "avg_loss": -58.4
+      },
+      "50%": {
+        "win_pct": 25.0,
+        "loss_pct": 25.0,
+        "avg_win": 390.7,
+        "avg_loss": -47.4
+      }
+    },
+    "Kernel PCA": {
+      "k-1": {
+        "win_pct": 55.0,
+        "loss_pct": 10.0,
+        "avg_win": 673.0,
+        "avg_loss": -89.7
+      },
+      "25%": {
+        "win_pct": 65.0,
+        "loss_pct": 20.0,
+        "avg_win": 448.4,
+        "avg_loss": -83.8
+      },
+      "50%": {
+        "win_pct": 40.0,
+        "loss_pct": 30.0,
+        "avg_win": 429.5,
+        "avg_loss": -76.1
+      }
+    },
+    "VAE": {
+      "k-1": {
+        "win_pct": 25.0,
+        "loss_pct": 35.0,
+        "avg_win": 167.6,
+        "avg_loss": -85.7
+      },
+      "25%": {
+        "win_pct": 25.0,
+        "loss_pct": 50.0,
+        "avg_win": 210.0,
+        "avg_loss": -94.5
+      },
+      "50%": {
+        "win_pct": 25.0,
+        "loss_pct": 45.0,
+        "avg_win": 320.0,
+        "avg_loss": -87.0
+      }
+    },
+    "Isomap": {
+      "k-1": {
+        "win_pct": 55.0,
+        "loss_pct": 15.0,
+        "avg_win": 442.3,
+        "avg_loss": -80.1
+      },
+      "25%": {
+        "win_pct": 65.0,
+        "loss_pct": 25.0,
+        "avg_win": 410.7,
+        "avg_loss": -70.9
+      },
+      "50%": {
+        "win_pct": 25.0,
+        "loss_pct": 50.0,
+        "avg_win": 374.5,
+        "avg_loss": -89.2
+      }
+    },
+    "MDS": {
+      "k-1": {
+        "win_pct": 30.0,
+        "loss_pct": 25.0,
+        "avg_win": 127.3,
+        "avg_loss": -156.8
+      },
+      "25%": {
+        "win_pct": 30.0,
+        "loss_pct": 35.0,
+        "avg_win": 131.7,
+        "avg_loss": -142.1
+      },
+      "50%": {
+        "win_pct": 25.0,
+        "loss_pct": 40.0,
+        "avg_win": 268.1,
+        "avg_loss": -97.2
+      }
+    }
+  }
+}

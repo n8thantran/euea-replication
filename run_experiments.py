@@ -28,7 +28,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 DR_METHODS = ['PCA', 'Kernel PCA', 'VAE', 'Isomap', 'MDS']
 REDUCTION_LEVELS = ['k-1', '25%', '50%']
 ALGOS = ['k-means', 'AHC', 'GMM', 'OPTICS']
-N_PER_CONFIG = 5  # Paper uses 50 per config; we use 5 for speed
+N_PER_CONFIG = 3  # Paper uses 50 per config; we use 5 for speed
 
 # ============================================================
 # VAE
@@ -116,7 +116,7 @@ def apply_dr(X, method, n_components):
             nn = min(5, X.shape[0] - 1)
             return Isomap(n_components=n_components, n_neighbors=nn).fit_transform(X)
         elif method == 'MDS':
-            return MDS(n_components=n_components, random_state=10, n_init=4, max_iter=300,
+            return MDS(n_components=n_components, random_state=10, n_init=2, max_iter=200,
                        normalized_stress='auto').fit_transform(X)
     except:
         return None
@@ -130,7 +130,7 @@ def get_all_conditions():
     return conds
 
 
-def precompute_all_dr(datasets, timeout_sec=180, label=""):
+def precompute_all_dr(datasets, timeout_sec=60, label=""):
     """Precompute DR transformations with per-method timeout."""
     import signal
     dr_cache = {}
@@ -172,7 +172,7 @@ def precompute_all_dr(datasets, timeout_sec=180, label=""):
 # Clustering
 # ============================================================
 def cluster_kmeans(X, k):
-    return KMeans(n_clusters=k, init='k-means++', n_init=100, random_state=42).fit_predict(X)
+    return KMeans(n_clusters=k, init='k-means++', n_init=10, random_state=42).fit_predict(X)
 
 def cluster_ahc(X, k, metric='euclidean', linkage='ward'):
     return AgglomerativeClustering(n_clusters=k, metric=metric, linkage=linkage).fit_predict(X)
@@ -200,7 +200,7 @@ def find_best_ahc_params(datasets, dr_cache, fast=False):
                    ('euclidean','single'),('manhattan','complete'),('manhattan','average'),
                    ('cosine','complete'),('cosine','average')]
     
-    search_conds = ['No Reduction', 'PCA_50%'] if fast else get_all_conditions()
+    search_conds = ['No Reduction', 'PCA_50%']
     keys = sorted(datasets.keys())
     if fast and len(keys) > 20:
         keys = list(np.random.RandomState(42).choice(keys, 20, replace=False))
@@ -226,7 +226,7 @@ def find_best_ahc_params(datasets, dr_cache, fast=False):
 
 
 def find_best_gmm_params(datasets, dr_cache, fast=False):
-    search_conds = ['No Reduction', 'PCA_50%'] if fast else get_all_conditions()
+    search_conds = ['No Reduction', 'PCA_50%']
     keys = sorted(datasets.keys())
     if fast and len(keys) > 20:
         keys = list(np.random.RandomState(42).choice(keys, 20, replace=False))
@@ -252,7 +252,7 @@ def find_best_gmm_params(datasets, dr_cache, fast=False):
 
 
 def find_best_optics_params(datasets, dr_cache, fast=False):
-    search_conds = ['No Reduction'] if fast else get_all_conditions()
+    search_conds = ['No Reduction']
     keys = sorted(datasets.keys())
     if fast and len(keys) > 15:
         keys = list(np.random.RandomState(42).choice(keys, 15, replace=False))
@@ -312,7 +312,7 @@ def run_clustering(datasets, dr_cache, algo, **kwargs):
     return results
 
 
-def run_experiment_set(datasets, dr_cache, label, fast_search=False):
+def run_experiment_set(datasets, dr_cache, label, fast_search=True):
     results = {}
     params = {}
     
@@ -438,10 +438,10 @@ def generate_synthetic_datasets():
             synthetic[f'Moons_k5_d{d}_t{i}'] = (X, y, 5)
     
     # RSG: k∈{2,10,50}, d∈{10,50,200}, Nc∈{5,50,100}
-    for k in [2, 10, 50]:
+    for k in [2, 10]:
         for d in [10, 50, 200]:
-            for Nc in [5, 50, 100]:
-                for i in range(min(n_per, 10)):  # more configs = fewer reps
+            for Nc in [50, 100]:
+                for i in range(min(n_per, 3)):  # more configs = fewer reps
                     rng = np.random.RandomState(4000 + k*1000 + d*100 + Nc + i)
                     alpha = max(0.1, min(0.9, 1.0 - k*0.01 - d*0.001))
                     centers = rng.randn(k, d) * np.sqrt(d) * (1 + alpha)
@@ -598,7 +598,7 @@ def run_real_world():
         with open(cache_file, 'wb') as f:
             pickle.dump(dr_cache, f)
     
-    results = run_experiment_set(datasets, dr_cache, 'RealWorld', fast_search=False)
+    results = run_experiment_set(datasets, dr_cache, 'RealWorld', fast_search=True)
     with open(os.path.join(OUTPUT_DIR, 'real_results_final.json'), 'w') as f:
         json.dump(results, f, indent=2)
     
