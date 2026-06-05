@@ -551,7 +551,10 @@ def generate_boxplots(all_results, data_label, output_dir='./results'):
     algo_labels = {'k-means': 'K-Means', 'AHC': 'Agglomerative', 'GMM': 'Gaussian Mixture', 'OPTICS': 'OPTICS'}
     conditions = get_all_conditions()
 
-    for algo, results_dict in all_results.items():
+    for algo in ["k-means", "AHC", "GMM", "OPTICS"]:
+        results_dict = all_results.get(algo)
+        if results_dict is None:
+            continue
         if not results_dict:
             continue
         fig, ax = plt.subplots(figsize=(16, 6))

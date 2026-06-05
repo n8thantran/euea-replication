@@ -7,10 +7,6 @@ import pickle
 import time
 import numpy as np
 
-# Stage 1: Precompute DR and save cache
-# Stage 2: Run all clustering algorithms
-# Stage 3: Generate tables, stats, plots
-
 def stage1_dr():
     """Precompute DR transformations and save to disk."""
     from load_uci import load_all_uci
@@ -30,7 +26,6 @@ def stage1_dr():
     dr_cache = precompute_all_dr(datasets)
     print(f"DR precomputation took {time.time()-t0:.1f}s")
     
-    # Save
     with open('results/dr_cache_real.pkl', 'wb') as f:
         pickle.dump(dr_cache, f)
     with open('results/datasets_real.pkl', 'wb') as f:
@@ -39,7 +34,7 @@ def stage1_dr():
 
 
 def stage2_clustering():
-    """Run all clustering algorithms using cached DR."""
+    """Run all clustering algorithms using cached DR. Saves incrementally."""
     from experiment import (
         run_kmeans_experiments, run_ahc_experiments, run_gmm_experiments,
         run_optics_experiments, find_best_ahc_params, find_best_gmm_params,
@@ -55,46 +50,63 @@ def stage2_clustering():
     with open('results/datasets_real.pkl', 'rb') as f:
         datasets = pickle.load(f)
     
-    all_results = {}
+    # Load existing results if any
+    results_file = 'results/real_world_results.json'
+    if os.path.exists(results_file):
+        with open(results_file, 'r') as f:
+            all_results = json.load(f)
+    else:
+        all_results = {}
+    
+    def save_results():
+        with open(results_file, 'w') as f:
+            json.dump(all_results, f, indent=2)
     
     # k-means
-    print("\n--- K-MEANS ---")
-    t0 = time.time()
-    all_results['k-means'] = run_kmeans_experiments(datasets, dr_cache)
-    print(f"k-means took {time.time()-t0:.1f}s")
+    if 'k-means' not in all_results:
+        print("\n--- K-MEANS ---")
+        t0 = time.time()
+        all_results['k-means'] = run_kmeans_experiments(datasets, dr_cache)
+        print(f"k-means took {time.time()-t0:.1f}s")
+        save_results()
+    else:
+        print("k-means: already done")
     
     # AHC
-    print("\n--- AHC ---")
-    t0 = time.time()
-    ahc_metric, ahc_linkage = find_best_ahc_params(datasets, dr_cache)
-    all_results['AHC'] = run_ahc_experiments(datasets, dr_cache, ahc_metric, ahc_linkage)
-    print(f"AHC took {time.time()-t0:.1f}s")
+    if 'AHC' not in all_results:
+        print("\n--- AHC ---")
+        t0 = time.time()
+        ahc_metric, ahc_linkage = find_best_ahc_params(datasets, dr_cache)
+        all_results['AHC'] = run_ahc_experiments(datasets, dr_cache, ahc_metric, ahc_linkage)
+        all_results['AHC_params'] = {'metric': ahc_metric, 'linkage': ahc_linkage}
+        print(f"AHC took {time.time()-t0:.1f}s")
+        save_results()
+    else:
+        print("AHC: already done")
     
     # GMM
-    print("\n--- GMM ---")
-    t0 = time.time()
-    gmm_cov = find_best_gmm_params(datasets, dr_cache)
-    all_results['GMM'] = run_gmm_experiments(datasets, dr_cache, gmm_cov)
-    print(f"GMM took {time.time()-t0:.1f}s")
+    if 'GMM' not in all_results:
+        print("\n--- GMM ---")
+        t0 = time.time()
+        gmm_cov = find_best_gmm_params(datasets, dr_cache)
+        all_results['GMM'] = run_gmm_experiments(datasets, dr_cache, gmm_cov)
+        all_results['GMM_params'] = {'covariance_type': gmm_cov}
+        print(f"GMM took {time.time()-t0:.1f}s")
+        save_results()
+    else:
+        print("GMM: already done")
     
     # OPTICS
-    print("\n--- OPTICS ---")
-    t0 = time.time()
-    optics_ms, optics_mcs = find_best_optics_params(datasets, dr_cache)
-    all_results['OPTICS'] = run_optics_experiments(datasets, dr_cache, optics_ms, optics_mcs)
-    print(f"OPTICS took {time.time()-t0:.1f}s")
-    
-    # Save
-    with open('results/real_world_results.json', 'w') as f:
-        json.dump(all_results, f, indent=2)
-    
-    hyperparams = {
-        'AHC': {'metric': ahc_metric, 'linkage': ahc_linkage},
-        'GMM': {'covariance_type': gmm_cov},
-        'OPTICS': {'min_samples': int(optics_ms), 'min_cluster_size': float(optics_mcs)},
-    }
-    with open('results/chosen_hyperparams_real.json', 'w') as f:
-        json.dump(hyperparams, f, indent=2)
+    if 'OPTICS' not in all_results:
+        print("\n--- OPTICS ---")
+        t0 = time.time()
+        optics_ms, optics_mcs = find_best_optics_params(datasets, dr_cache)
+        all_results['OPTICS'] = run_optics_experiments(datasets, dr_cache, optics_ms, optics_mcs)
+        all_results['OPTICS_params'] = {'min_samples': int(optics_ms), 'min_cluster_size': float(optics_mcs)}
+        print(f"OPTICS took {time.time()-t0:.1f}s")
+        save_results()
+    else:
+        print("OPTICS: already done")
     
     print("\nAll clustering done!")
     return all_results
@@ -116,6 +128,9 @@ def stage3_analysis():
     
     # Format tables
     for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
+        if algo not in all_results:
+            print(f"Skipping {algo} (not computed)")
+            continue
         df = format_results_table(all_results[algo], algo)
         df.to_csv(f'results/table_{algo}_real.csv')
         print(f"\n{algo} results:")
@@ -127,6 +142,8 @@ def stage3_analysis():
     print("=" * 60)
     agg_stats = {}
     for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
+        if algo not in all_results:
+            continue
         agg_stats[algo] = compute_aggregate_stats(all_results[algo])
         print(f"\n{algo}:")
         for method in DR_METHODS:
@@ -142,6 +159,8 @@ def stage3_analysis():
     print("=" * 60)
     wilcoxon_results = {}
     for algo in ['k-means', 'AHC', 'GMM', 'OPTICS']:
+        if algo not in all_results:
+            continue
         wilcoxon_results[algo] = compute_wilcoxon_tests(all_results[algo])
         print(f"\n{algo}:")
         for method in DR_METHODS:
