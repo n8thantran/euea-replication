@@ -1,0 +1,65 @@
+============================================================
+REAL-WORLD EXPERIMENTS
+============================================================
+  Breast tissue: 106 objects, 9 features, 6 clusters
+  Breast Wisconsin: 569 objects, 30 features, 2 clusters
+  Ecoli: 336 objects, 7 features, 8 clusters
+  Glass: 214 objects, 9 features, 7 clusters
+  Haberman: 306 objects, 3 features, 2 clusters
+  Ionosphere: 351 objects, 34 features, 2 clusters
+  Iris: 150 objects, 4 features, 3 clusters
+  Movement libras: 360 objects, 90 features, 15 clusters
+  Musk: 476 objects, 166 features, 2 clusters
+  Parkinsons: 195 objects, 22 features, 2 clusters
+  Segmentation: 2310 objects, 19 features, 7 clusters
+  Sonar all: 208 objects, 60 features, 2 clusters
+  Spectf: 267 objects, 44 features, 2 clusters
+  Transfusion: 748 objects, 4 features, 2 clusters
+  Vehicle: 846 objects, 18 features, 4 clusters
+  Vertebral column: 310 objects, 6 features, 3 clusters
+  Vowel context: 990 objects, 10 features, 11 clusters
+  Wine: 178 objects, 13 features, 3 clusters
+  Wine quality red: 1599 objects, 11 features, 6 clusters
+  Yeast: 1484 objects, 8 features, 10 clusters
+  Breast Wisconsin: (569, 30), k=2
+  Breast tissue: (106, 9), k=6
+  Ecoli: (336, 7), k=8
+  Glass: (214, 9), k=7
+  Haberman: (306, 3), k=2
+  Ionosphere: (351, 34), k=2
+  Iris: (150, 4), k=3
+  Movement libras: (360, 90), k=15
+  Musk: (476, 166), k=2
+  Parkinsons: (195, 22), k=2
+  Segmentation: (2310, 19), k=7
+  Sonar all: (208, 60), k=2
+  Spectf: (267, 44), k=2
+  Transfusion: (748, 4), k=2
+  Vehicle: (846, 18), k=4
+  Vertebral column: (310, 6), k=3
+  Vowel context: (990, 10), k=11
+  Wine: (178, 13), k=3
+  Wine quality red: (1599, 11), k=6
+  Yeast: (1484, 8), k=10
+  DR real [1/20] Breast Wisconsin shape=(569, 30)
+  DR real [2/20] Breast tissue shape=(106, 9)
+  DR real [3/20] Ecoli shape=(336, 7)
+  DR real [4/20] Glass shape=(214, 9)
+  DR real [5/20] Haberman shape=(306, 3)
+  DR real [6/20] Ionosphere shape=(351, 34)
+  DR real [7/20] Iris shape=(150, 4)
+  DR real [8/20] Movement libras shape=(360, 90)
+  DR real [9/20] Musk shape=(476, 166)
+  DR real [10/20] Parkinsons shape=(195, 22)
+  DR real [11/20] Segmentation shape=(2310, 19)
+    DR failed: MDS n_comp=6: 
+    DR failed: MDS n_comp=5: 
+    DR failed: MDS n_comp=10: 
+  DR real [12/20] Sonar all shape=(208, 60)
+  DR real [13/20] Spectf shape=(267, 44)
+  DR real [14/20] Transfusion shape=(748, 4)
+  DR real [15/20] Vehicle shape=(846, 18)
+  DR real [16/20] Vertebral column shape=(310, 6)
+  DR real [17/20] Vowel context shape=(990, 10)
+  DR real [18/20] Wine shape=(178, 13)
+  DR real [19/20] Wine quality red shape=(1599, 11)
