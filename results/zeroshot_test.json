@@ -1,0 +1,10 @@
+{
+  "model_path": "/workspace/pruned_models/Llama-2-7b-hf_ratio0.8",
+  "task_results": {
+    "boolq": {
+      "acc": 0.6055045871559633,
+      "acc_norm": null
+    }
+  },
+  "avg_acc": 0.6055045871559633
+}
