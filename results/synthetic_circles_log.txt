@@ -1,0 +1,44 @@
+============================================================
+SYNTHETIC EXPERIMENTS: ['Circles']
+============================================================
+Generating Circles datasets...
+Generating Moons datasets...
+Generating RSG datasets...
+Generating Repliclust datasets...
+Failed to initialize OpenAI client. Either put OPENAI_API_KEY=<...> into the .env file or pass openai_api_key=<...> as an argument in a function call.
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 166506.71it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 153975.92it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 206040.81it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 192046.89it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 283335.10it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 259655.63it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 176206.58it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 166308.64it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 265294.37it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 243195.05it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 176181.91it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 165870.18it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 3529.69it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 3520.17it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 40603.14it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 40000.36it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 43203.13it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 42508.40it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 46281.12it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 45494.66it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 37845.62it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 37338.02it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 59052.52it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 57943.05it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 38154.32it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 37646.34it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 38732.15it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 38190.21it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 26834.39it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 26563.04it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 3073.40it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 3068.22it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers:   2%|▏         | 7/300 [00:00<00:04, 69.76it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 69.76it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 2884.48it/s, Status=SUCCESS]
+Optimizing Cluster Centers:   0%|          | 0/300 [00:00<?, ?it/s]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 3195.97it/s, Status=SUCCESS]Optimizing Cluster Centers: 100%|██████████| 300/300 [00:00<00:00, 3189.51it/s, Status=SUCCESS]
+
+Generated 135 datasets in 36.5s
+
+============================================================
+PROCESSING CIRCLES (18 datasets)
+============================================================
+Loading cached DR from ./results/dr_cache_Circles.pkl
+
+  Running k-means...
+  k-means took 10.0s
+
+  Running AHC...
+  AHC hyperparam search...
+    Best AHC: metric=euclidean, linkage=single, avg_ari=0.6331
+  AHC took 144.7s
+
+  Running GMM...
+  GMM hyperparam search...
