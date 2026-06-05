@@ -1,2 +1,5 @@
 data/cifar100_tensors.pt
 data/cifar-100-python*
+results/dr_cache_Circles.pkl
+results/dr_cache_*.pkl
+__pycache__/
