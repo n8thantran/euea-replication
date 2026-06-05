@@ -382,7 +382,7 @@ def generate_synthetic_datasets():
     for d in dims:
         for i in range(n_per):
             rng = np.random.RandomState(42 + i + d)
-            X, y = make_circles(n_samples=2000, factor=0.5, noise=0.05, random_state=42+i)
+            X, y = make_circles(n_samples=500, factor=0.5, noise=0.05, random_state=42+i)
             X = embed_high_dim(X, d, rng)
             X = inject_noise(X, rng)
             synthetic[f'Circles_k2_d{d}_t{i}'] = (X, y, 2)
@@ -393,10 +393,10 @@ def generate_synthetic_datasets():
             rng = np.random.RandomState(1000 + i + d)
             X_list, y_list = [], []
             for ci, factor in enumerate([1.0, 2.0, 3.5, 5.0, 7.0]):
-                theta = rng.uniform(0, 2*np.pi, 400)
-                rad = factor + rng.normal(0, 0.05, 400)
+                theta = rng.uniform(0, 2*np.pi, 100)
+                rad = factor + rng.normal(0, 0.05, 100)
                 X_list.append(np.column_stack([rad*np.cos(theta), rad*np.sin(theta)]))
-                y_list.append(np.full(400, ci))
+                y_list.append(np.full(100, ci))
             X = np.vstack(X_list); y = np.concatenate(y_list)
             X = embed_high_dim(X, d, rng)
             X = inject_noise(X, rng)
@@ -406,7 +406,7 @@ def generate_synthetic_datasets():
     for d in dims:
         for i in range(n_per):
             rng = np.random.RandomState(2000 + i + d)
-            X, y = make_moons(n_samples=2000, noise=0.1, random_state=2000+i)
+            X, y = make_moons(n_samples=500, noise=0.1, random_state=2000+i)
             stretch = 1.0 + 0.5 * (i % 2)
             angle = np.radians(10 * (i - n_per//2))
             R = np.array([[np.cos(angle), -np.sin(angle)], [np.sin(angle), np.cos(angle)]])
@@ -419,7 +419,7 @@ def generate_synthetic_datasets():
     for d in dims:
         for i in range(n_per):
             rng = np.random.RandomState(3000 + i + d)
-            n_pc = 400
+            n_pc = 100
             X_list, y_list = [], []
             angles_rot = [-160, -10, 0, 10, 180]
             x_shifts = [-4, -2, 0, 2, 4]

@@ -1,0 +1,18 @@
+
+============================================================
+SYNTHETIC EXPERIMENTS
+============================================================
+  Circles: 18 datasets
+  Moons: 18 datasets
+  RSG: 36 datasets
+  Repliclust: 18 datasets
+
+--- Circles (18 datasets) ---
+  DR Circles [1/18] Circles_k2_d10_t0 shape=(2000, 10)
+  DR Circles [2/18] Circles_k2_d10_t1 shape=(2000, 10)
+  DR Circles [3/18] Circles_k2_d10_t2 shape=(2000, 10)
+  DR Circles [4/18] Circles_k2_d200_t0 shape=(2000, 200)
+  DR Circles [5/18] Circles_k2_d200_t1 shape=(2000, 200)
+  DR Circles [6/18] Circles_k2_d200_t2 shape=(2000, 200)
+  DR Circles [7/18] Circles_k2_d50_t0 shape=(2000, 50)
+  DR Circles [8/18] Circles_k2_d50_t1 shape=(2000, 50)
